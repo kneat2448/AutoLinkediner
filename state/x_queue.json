@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "id": "2101311813908652069",
+    "url": "https://x.com/rohonchain/status/2101311813908652069",
+    "author": "rohonchain",
+    "raw_text": "Jev is the FASTEST AI model ever built for trading\n\nIt makes calibrated buy/sell decisions in under 100 ms\n\nThat is one real decision on every single block, 24/7\n\nIn this article I've shown EXACTLY how to build HFT trading system with Jev (from scratch) https://t.co/4hmZDzN00Z",
+    "added_at": "2026-10-05T11:05:40.288620+00:00"
+  },
+  {
+    "id": "2106521427461431486",
+    "url": "https://x.com/brandonluumd/status/2106521427461431486",
+    "author": "brandonluumd",
+    "raw_text": "Blocking out light at night with an eye mask improves memory and reaction time the next morning. pic.twitter.com/3SeCtPf2QI",
+    "added_at": "2026-10-05T11:05:41.143205+00:00"
+  },
+  {
+    "id": "2105735352497410522",
+    "url": "https://x.com/arxiv/status/2105735352497410522",
+    "author": "arxiv",
+    "raw_text": "arXiv has updated our policy on rate limiting for all submitters.\n\nThis update was made to fairly distribute moderator time & support the arXiv community of staff, volunteers, readers & authors.\n\nPlease read our announcement to learn more: https://t.co/lvzWuiv0hx pic.twitter.com/PfQLYzQePZ",
+    "added_at": "2026-10-05T11:05:42.320946+00:00",
+    "links": [
+      "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/"
+    ]
+  },
+  {
+    "id": "2106654992346304856",
+    "url": "https://x.com/amank1412/status/2106654992346304856",
+    "author": "amank1412",
+    "raw_text": "GERMANY JUST ENTERED THE FRONTIER LLM RACE.\n\nMeet Kolibri a new sovereign open source model.\n\n> Beats Qwen2 635B\n> Beats Nemotron 3 Super\n> Beats Mistral Small 4\n\nBuilt on a custom MoE Transformer architecture. pic.twitter.com/zIXdHpib8e",
+    "added_at": "2026-10-05T11:05:43.087540+00:00"
+  }
+]
