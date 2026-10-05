@@ -1,0 +1,77 @@
+name: Poll Telegram
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"   # every 30 minutes (off the top of the hour, when GitHub is busiest)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (send nothing, commit nothing)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: state
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+      LLM_MODEL: ${{ secrets.LLM_MODEL }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      AUTHOR_NAME: ${{ secrets.AUTHOR_NAME }}
+      POST_MODE: ${{ secrets.POST_MODE }}
+      LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+      LINKEDIN_TOKEN_ISSUED: ${{ secrets.LINKEDIN_TOKEN_ISSUED }}
+      LINKEDIN_VERSION: ${{ secrets.LINKEDIN_VERSION }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Cheap check first so most runs finish in seconds (keeps Actions minutes low).
+      - name: Check for new messages
+        id: peek
+        run: python -m src.main_poll --peek
+
+      - name: Cache Playwright browsers
+        if: steps.peek.outputs.needs_render == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Chromium (only when a reply needs a new image)
+        if: steps.peek.outputs.needs_render == 'true'
+        run: python -m playwright install --with-deps chromium
+
+      - name: Process messages
+        if: steps.peek.outputs.has_updates == 'true'
+        run: python -m src.main_poll ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit state
+        if: ${{ always() && !inputs.dry_run && steps.peek.outputs.has_updates == 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/
+          if git diff --cached --quiet; then echo "No state changes"; exit 0; fi
+          git commit -m "state: telegram poll $(date -u +%FT%H:%M)"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1

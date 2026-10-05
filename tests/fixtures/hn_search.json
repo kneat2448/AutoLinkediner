@@ -1,0 +1,8 @@
+{
+  "hits": [
+    {"objectID": "41000001", "title": "OpenAI releases a new open-weight model", "url": "https://www.example.com/openai-open-model?utm_source=hn", "points": 512, "num_comments": 230, "created_at_i": 1759600000, "story_text": null},
+    {"objectID": "41000002", "title": "Ask HN: Who is hiring?", "url": null, "points": 300, "num_comments": 900, "created_at_i": 1759600000, "story_text": "<p>Post jobs here</p>"},
+    {"objectID": "41000003", "title": "Show HN: I built a text editor in Rust", "url": "https://example.org/editor", "points": 150, "num_comments": 40, "created_at_i": 1759600000},
+    {"objectID": "41000004", "title": "Why LLMs struggle with arithmetic", "url": null, "points": 95, "num_comments": 12, "created_at_i": 1759610000, "story_text": "A long self post about LLMs."}
+  ]
+}

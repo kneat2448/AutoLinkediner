@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Fraunces"; src: url("{{FONT_FRAUNCES}}") format("truetype"); font-weight: 100 900; }
+  @font-face { font-family: "Inter"; src: url("{{FONT_INTER}}") format("truetype"); font-weight: 100 900; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; }
+  body {
+    background: #F3EBDD;
+    color: #2B211A;
+    font-family: "Fraunces", serif;
+    padding: 112px;
+    display: flex;
+    flex-direction: column;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #8A6A50;
+  }
+  .top .line { flex: 1; height: 1px; background: #C9B49B; }
+  .headline-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 0;
+  }
+  .headline {
+    font-size: 108px;
+    font-weight: 500;
+    font-variation-settings: "opsz" 144, "SOFT" 50;
+    line-height: 1.08;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+    overflow-wrap: break-word;
+  }
+  .author {
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #8A6A50;
+  }
+  .author::before { content: ""; display: block; width: 56px; height: 2px; background: #8A6A50; margin-bottom: 24px; }
+</style>
+</head>
+<body>
+  <div class="top"><span>{{SOURCE}}</span><span class="line"></span></div>
+  <div class="headline-box">
+    <div class="headline">{{HEADLINE}}</div>
+  </div>
+  <div class="author">{{AUTHOR}}</div>
+</body>
+</html>

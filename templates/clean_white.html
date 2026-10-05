@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Inter"; src: url("{{FONT_INTER}}") format("truetype"); font-weight: 100 900; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; }
+  body {
+    background: #FFFFFF;
+    color: #111111;
+    font-family: "Inter", sans-serif;
+    padding: 112px;
+    display: flex;
+    flex-direction: column;
+  }
+  .source {
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #6E6E73;
+  }
+  .headline-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 0;
+  }
+  .rule { width: 88px; height: 4px; background: #2F5BFF; margin-bottom: 52px; flex: none; }
+  .headline {
+    font-size: 104px;
+    font-weight: 800;
+    line-height: 1.06;
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+    overflow-wrap: break-word;
+  }
+  .author {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: #111111;
+  }
+</style>
+</head>
+<body>
+  <div class="source">{{SOURCE}}</div>
+  <div class="headline-box">
+    <div class="rule"></div>
+    <div class="headline">{{HEADLINE}}</div>
+  </div>
+  <div class="author">{{AUTHOR}}</div>
+</body>
+</html>

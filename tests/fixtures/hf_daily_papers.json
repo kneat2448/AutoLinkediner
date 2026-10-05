@@ -1,0 +1,10 @@
+[
+  {
+    "paper": {"id": "2610.01234", "title": "Small Models\n Reason Well", "summary": "We show that a 3B parameter model matches larger systems on reasoning benchmarks.", "upvotes": 42, "publishedAt": "2026-10-01T00:00:00.000Z", "submittedOnDailyAt": "2026-10-04T00:00:00.000Z"},
+    "publishedAt": "2026-10-04T10:00:00.000Z", "title": "Small Models Reason Well", "summary": "abstract", "numComments": 3
+  },
+  {
+    "paper": {"title": "Missing id paper", "upvotes": 1},
+    "title": "Missing id paper"
+  }
+]
