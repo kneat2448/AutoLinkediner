@@ -117,3 +117,23 @@ def token_age_days(today: date | None = None) -> int | None:
     except ValueError:
         return None
     return ((today or config.now().date()) - issued).days
+
+
+def main() -> None:
+    """``python -m src.linkedin --check``: verify the token works without posting anything."""
+    import argparse
+
+    parser = argparse.ArgumentParser(description="LinkedIn helpers")
+    parser.add_argument("--check", action="store_true", help="verify the access token (posts nothing)")
+    args = parser.parse_args()
+    config.setup_logging()
+    if not args.check:
+        parser.error("use --check")
+    urn = person_urn()
+    age = token_age_days()
+    log.info("linkedin: token OK for %s; token age: %s days; API version %s",
+             urn, "unknown" if age is None else age, config.LINKEDIN_VERSION)
+
+
+if __name__ == "__main__":
+    main()
