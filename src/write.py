@@ -37,7 +37,7 @@ _BOLD_UNICODE_RE = re.compile("[\U0001D400-\U0001D7FF]")
 _HASHTAG_RE = re.compile(r"(?<!\w)#\w+")
 _BULLET_RE = re.compile(r"^\s*([-*•▪●]|\d+[.)])\s+", re.MULTILINE)
 
-MIN_WORDS, MAX_WORDS = 100, 240     # spec says ~120–220; small tolerance avoids needless retries
+MIN_WORDS, MAX_WORDS = 180, 340     # prompt asks for ~200–320; small tolerance avoids needless retries
 HOOK_MAX_WORDS = 15
 HEADLINE_MIN_WORDS, HEADLINE_MAX_WORDS = 4, 9
 
@@ -73,12 +73,14 @@ def validate_post(body: str, hashtags: list[str] | None = None) -> list[str]:
         problems.append(f"uses banned phrases: {', '.join(banned)}")
     words = len(body.split())
     if not MIN_WORDS <= words <= MAX_WORDS:
-        problems.append(f"is {words} words; it must be about 120–220 words")
+        problems.append(f"is {words} words; it must be about 200–320 words")
     lines = [ln for ln in body.splitlines() if ln.strip()]
     if lines and len(lines[0].split()) >= HOOK_MAX_WORDS:
         problems.append(f"the hook (first line) must be under {HOOK_MAX_WORDS} words")
     if body.count("—") > 1:
         problems.append("uses more than one em dash")
+    if body.count("!") > 1:
+        problems.append("uses exclamation marks; get energy from specifics instead")
     if len(_EMOJI_RE.findall(body)) > 1:
         problems.append("uses more than one emoji")
     if _BOLD_UNICODE_RE.search(body):

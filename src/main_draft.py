@@ -11,7 +11,7 @@ import logging
 import sys
 
 from src import config, linkedin, main_poll, pipeline, state
-from src.pipeline import AWAITING, say
+from src.pipeline import APPROVED, AWAITING, say
 
 log = logging.getLogger(__name__)
 
@@ -42,7 +42,7 @@ def run(dry_run: bool, force: bool) -> int:
         token_reminder()
 
     pending = state.load(state.PENDING)
-    if not force and pending.get("date") == config.today_str() and pending.get("status") in (AWAITING, "posted", "skipped"):
+    if not force and pending.get("date") == config.today_str() and pending.get("status") in (AWAITING, APPROVED, "posted", "skipped"):
         log.info("draft: today's draft already exists (status=%s); use --force to redo", pending["status"])
         return 0
     pipeline.expire_stale_pending()

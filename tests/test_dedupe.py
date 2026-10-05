@@ -37,8 +37,9 @@ def test_titles_match_threshold():
 
 
 def test_shortlist_caps_per_source_and_boosts_x():
-    many = [cand(f"hf:{i}", f"Paper number {i}", f"https://hf.co/{i}", source="huggingface", score=i)
-            for i in range(10)]
+    topics = ["robots", "proteins", "weather", "music", "chess", "law", "vision", "speech", "maps", "code"]
+    many = [cand(f"hf:{i}", f"Study about {t}", f"https://hf.co/{i}", source="huggingface", score=i)
+            for i, t in enumerate(topics)]
     x_item = cand("x:1", "Owner forwarded this", "https://x.com/a/status/1", source="x", score=0)
     out = rank.shortlist(many + [x_item])
     assert out[0]["id"] == "x:1"

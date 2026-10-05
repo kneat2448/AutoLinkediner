@@ -20,7 +20,12 @@ log = logging.getLogger(__name__)
 
 RECENCY_HALF_LIFE_HOURS = 18.0
 MAX_PER_SOURCE = 4
-CONTEXT_LIMIT = 6000
+SOURCE_CAPS = {"news": 6, "x": 99}   # news covers many outlets; owner-forwarded tweets are never capped
+BUZZ_PER_OUTLET = 0.15               # boost per extra outlet covering the same development
+BUZZ_MAX = 0.45
+BUZZ_SIMILARITY = 0.35
+CONTEXT_LIMIT = 14000   # characters of source material given to the writer
+ARTICLE_LIMIT = 9000
 _TRACKING_PARAMS = re.compile(r"^(utm_|ref$|ref_src$|source$|s$|t$|fbclid$|gclid$)")
 
 
@@ -76,22 +81,67 @@ def dedupe(candidates: list[Candidate], posted: list[dict[str, Any]]) -> list[Ca
 
 # ---------- heuristic ranking ----------
 
+_STOPWORDS = set("""a an and are as at be by for from has have how in into is it its new of on or that the
+their this to was what when why will with you your ai says say after over about more than just now""".split())
+
+
+def _keywords(title: str) -> set[str]:
+    return {w for w in normalize_title(title).split() if len(w) > 2 and w not in _STOPWORDS}
+
+
+def _outlet(c: Candidate) -> str:
+    return c.get("extra", {}).get("outlet") or c["source"]
+
+
+def coverage(candidates: list[Candidate]) -> dict[str, int]:
+    """How many *other* outlets/sources carry a similar headline (a sign of a big development)."""
+    words = {c["id"]: _keywords(c["title"]) for c in candidates}
+    out: dict[str, int] = {}
+    for c in candidates:
+        others = set()
+        for o in candidates:
+            if o["id"] == c["id"] or _outlet(o) == _outlet(c):
+                continue
+            a, b = words[c["id"]], words[o["id"]]
+            if a and b and len(a & b) / len(a | b) >= BUZZ_SIMILARITY:
+                others.add(_outlet(o))
+        out[c["id"]] = len(others)
+    return out
+
+
+def _same_story_as_any(c: Candidate, others: list[Candidate]) -> bool:
+    a = _keywords(c["title"])
+    for o in others:
+        b = _keywords(o["title"])
+        if a and b and len(a & b) / len(a | b) >= BUZZ_SIMILARITY:
+            return True
+    return False
+
+
 def heuristic_scores(candidates: list[Candidate], now: datetime | None = None) -> dict[str, float]:
-    """Score = 0.7·engagement (log-normalized within its source) + 0.3·recency (+ X-queue boost)."""
+    """Score = 0.7·engagement + 0.3·recency, plus a buzz boost and the X-queue boost.
+
+    Engagement is log-normalized within each source; for RSS news it's the outlet weight.
+    """
     now = now or datetime.now(timezone.utc)
     max_by_source: dict[str, float] = defaultdict(float)
     for c in candidates:
         max_by_source[c["source"]] = max(max_by_source[c["source"]], c.get("score", 0.0))
+    buzz = coverage(candidates)
     scores: dict[str, float] = {}
     for c in candidates:
         top = max_by_source[c["source"]]
-        engagement = math.log1p(c.get("score", 0.0)) / math.log1p(top) if top > 0 else 0.0
+        if c["source"] == "news":
+            engagement = float(c.get("extra", {}).get("weight", 0.7))
+        else:
+            engagement = math.log1p(c.get("score", 0.0)) / math.log1p(top) if top > 0 else 0.0
         try:
             age_h = max(0.0, (now - parse_iso(c["created_at"])).total_seconds() / 3600)
             recency = 0.5 ** (age_h / RECENCY_HALF_LIFE_HOURS)
         except (KeyError, ValueError):
             recency = 0.0
-        score = 0.7 * engagement + 0.3 * recency
+        score = 0.7 * engagement + 0.3 * recency + min(BUZZ_MAX, BUZZ_PER_OUTLET * buzz[c["id"]])
+        c.setdefault("extra", {})["coverage"] = buzz[c["id"]]
         if c["source"] == "x":
             score += config.X_QUEUE_BOOST + 0.7  # owner's own taste: treat as top engagement + boost
         scores[c["id"]] = round(score, 4)
@@ -99,13 +149,15 @@ def heuristic_scores(candidates: list[Candidate], now: datetime | None = None) -
 
 
 def shortlist(candidates: list[Candidate], size: int = config.SHORTLIST_SIZE) -> list[Candidate]:
-    """Top candidates by heuristic score, at most MAX_PER_SOURCE per source (X queue uncapped)."""
+    """Top candidates by heuristic score, capped per source (SOURCE_CAPS, else MAX_PER_SOURCE)."""
     scores = heuristic_scores(candidates)
     ordered = sorted(candidates, key=lambda c: scores[c["id"]], reverse=True)
     per_source: dict[str, int] = defaultdict(int)
     out: list[Candidate] = []
     for c in ordered:
-        if c["source"] != "x" and per_source[c["source"]] >= MAX_PER_SOURCE:
+        if per_source[c["source"]] >= SOURCE_CAPS.get(c["source"], MAX_PER_SOURCE):
+            continue
+        if _same_story_as_any(c, out):  # keep only the best-scored version of a widely covered story
             continue
         per_source[c["source"]] += 1
         out.append(c)
@@ -121,7 +173,19 @@ SOURCE_LABELS = {
     "reddit": "Reddit",
     "huggingface": "Hugging Face paper",
     "x": "Forwarded by owner (X)",
+    "news": "News",
 }
+
+
+def _label(c: Candidate) -> str:
+    extra = c.get("extra", {})
+    if c["source"] == "news":
+        label = f"{extra.get('outlet', 'News')}, published {c.get('created_at', '')[:10]}"
+    else:
+        label = f"{SOURCE_LABELS.get(c['source'], c['source'])}, engagement {int(c.get('score', 0))}"
+    if extra.get("coverage"):
+        label += f", also covered by {extra['coverage']} other source(s)"
+    return label
 
 
 def pick(candidates: list[Candidate]) -> Candidate | None:
@@ -133,7 +197,7 @@ def pick(candidates: list[Candidate]) -> Candidate | None:
     lines = []
     for i, c in enumerate(candidates, 1):
         lines.append(
-            f"[{i}] ({SOURCE_LABELS.get(c['source'], c['source'])}, engagement {int(c.get('score', 0))})\n"
+            f"[{i}] ({_label(c)})\n"
             f"Title: {c['title']}\nSummary: {clip(c.get('summary', ''), 400) or '(none)'}"
         )
     prompt = (config.PROMPTS_DIR / "pick.md").read_text(encoding="utf-8").replace(
@@ -153,21 +217,24 @@ def pick(candidates: list[Candidate]) -> Candidate | None:
 
 # ---------- context ----------
 
-def fetch_article_text(url: str, limit: int = 4000) -> str:
-    """Best-effort readable text from a web page (paragraph text only)."""
+_CITATION_RE = re.compile(r"\(\s*[A-Z][^()]{0,200}?\bet al\.?[^()]*\)|\[\d+(?:[,–-]\s*\d+)*\]")
+
+
+def fetch_article_text(url: str, limit: int = ARTICLE_LIMIT) -> str:
+    """Best-effort readable text from a web page (paragraph text only, citations stripped)."""
     host = urlsplit(url).netloc.lower()
     if any(h in host for h in ("x.com", "twitter.com", "reddit.com", "youtube.com", "news.ycombinator.com")):
         return ""
     try:
-        resp = http.get(url, retries=2, timeout=15)
+        resp = http.get(url, retries=2, timeout=20)
         if "html" not in resp.headers.get("Content-Type", ""):
             return ""
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form"]):
+        soup = BeautifulSoup(resp.content, "html.parser")  # bytes: let bs4 detect the encoding
+        for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form", "figure", "table"]):
             tag.decompose()
         root = soup.find("article") or soup.find("main") or soup.body or soup
-        paragraphs = [p.get_text(" ", strip=True) for p in root.find_all("p")]
-        text = "\n".join(p for p in paragraphs if len(p.split()) >= 8)
+        paragraphs = [_CITATION_RE.sub("", p.get_text(" ", strip=True)) for p in root.find_all("p")]
+        text = "\n".join(" ".join(p.split()) for p in paragraphs if len(p.split()) >= 8)
         return text[:limit]
     except Exception:
         log.warning("context: could not fetch article from %s", host)
@@ -175,7 +242,11 @@ def fetch_article_text(url: str, limit: int = 4000) -> str:
 
 
 def gather_context(candidate: Candidate) -> str:
-    """Collect grounding material for the chosen story (article text, abstract, top HN comment)."""
+    """Collect grounding material for the chosen story.
+
+    Article text for links, the full paper (arXiv HTML) for Hugging Face papers,
+    and the top HN comment, so the post can go into real detail.
+    """
     parts = [f"Title: {candidate['title']}"]
     if candidate.get("raw_text"):
         label = {"huggingface": "Paper abstract", "x": "Tweet text", "reddit": "Post text"}.get(
@@ -184,9 +255,18 @@ def gather_context(candidate: Candidate) -> str:
         parts.append(f"{label}:\n{candidate['raw_text']}")
     elif candidate.get("summary"):
         parts.append(f"Summary:\n{candidate['summary']}")
-    article = fetch_article_text(candidate["url"])
-    if article:
-        parts.append(f"Article text (excerpt):\n{article}")
+    if candidate["source"] == "huggingface":
+        paper_id = candidate["id"].split(":", 1)[1]
+        paper = fetch_article_text(f"https://arxiv.org/html/{paper_id}")
+        # The HTML starts with the abstract we already have; keep only the new paragraphs.
+        abstract = candidate.get("raw_text", "")
+        paper = "\n".join(p for p in paper.split("\n") if p[:80] not in abstract)
+        if paper:
+            parts.append(f"Paper body (excerpt, introduction and method):\n{paper}")
+    else:
+        article = fetch_article_text(candidate["url"])
+        if article:
+            parts.append(f"Article text (excerpt):\n{article}")
     if candidate["source"] == "hackernews":
         comment = hackernews.top_comment(candidate)
         if comment:
@@ -199,6 +279,8 @@ def source_credit(candidate: Candidate) -> str:
     src = candidate["source"]
     if src == "huggingface":
         return "Hugging Face Daily Papers"
+    if src == "news":
+        return candidate.get("extra", {}).get("outlet") or "News"
     if src == "x":
         author = candidate.get("extra", {}).get("author")
         return f"@{author} on X" if author else "X"

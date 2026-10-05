@@ -25,7 +25,7 @@ HN_KEYWORDS = [
 ]
 REDDIT_SUBREDDITS = ["MachineLearning", "LocalLLaMA", "artificial", "singularity", "OpenAI"]
 REDDIT_MIN_SCORE = 100
-SHORTLIST_SIZE = 10
+SHORTLIST_SIZE = 12
 X_QUEUE_BOOST = 0.5          # added to the normalized score of owner-forwarded tweets
 X_QUEUE_MAX_AGE_DAYS = 7     # forwarded tweets older than this are dropped
 FUZZY_TITLE_THRESHOLD = 0.85
@@ -52,6 +52,8 @@ LINKEDIN_ACCESS_TOKEN = env("LINKEDIN_ACCESS_TOKEN")
 LINKEDIN_TOKEN_ISSUED = env("LINKEDIN_TOKEN_ISSUED")  # YYYY-MM-DD
 LINKEDIN_VERSION = env("LINKEDIN_VERSION", "202609")  # YYYYMM; bump if LinkedIn sunsets it
 LINKEDIN_TOKEN_REMIND_DAY = 50
+# IST hours at which to remind the owner while today's post isn't done (one reminder per hour listed).
+REMINDER_HOURS = sorted(int(h) for h in env("REMINDER_HOURS", "12,18").split(",") if h.strip().isdigit())
 
 
 def now() -> datetime:

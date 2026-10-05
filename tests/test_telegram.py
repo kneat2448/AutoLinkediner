@@ -9,7 +9,7 @@ def test_approve(text):
     assert parse_command(text).kind == "approve"
 
 
-@pytest.mark.parametrize("text,kind", [("redo", "redo"), ("Next", "next"), ("skip", "skip"), ("/skip", "skip")])
+@pytest.mark.parametrize("text,kind", [("redo", "redo"), ("Next", "next"), ("skip", "skip"), ("/skip", "skip"), ("done", "done"), ("Posted", "done")])
 def test_simple_commands(text, kind):
     assert parse_command(text).kind == kind
 

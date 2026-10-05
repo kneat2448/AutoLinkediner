@@ -2,18 +2,19 @@
 
     python -m src.main_poll            # process updates
     python -m src.main_poll --dry-run  # read updates, log what would happen, change nothing
-    python -m src.main_poll --peek     # report whether updates exist / need Chromium (for CI)
+    python -m src.main_poll --peek     # report whether there is work / it needs Chromium (for CI)
 """
 from __future__ import annotations
 
 import argparse
 import logging
 import os
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
 from src import config, linkedin, pipeline, rank, render, state, telegram, write
-from src.pipeline import AWAITING, say, show
+from src.pipeline import APPROVED, AWAITING, say, show
 from src.sources import x_queue
 
 log = logging.getLogger(__name__)
@@ -35,11 +36,23 @@ def handle_approve(pending: dict[str, Any]) -> None:
             _send_final_copy(pending)
             return
         say(f"Posted ✓\n{url}")
-    else:
-        _send_final_copy(pending)
+        pending["status"] = "posted"
+        state.save(state.PENDING, pending)
+        pipeline.record(candidate, "posted")
+        return
+    # Manual mode: the owner posts it, then replies "done". Reminders repeat until then.
+    _send_final_copy(pending)
+    pending["status"] = APPROVED
+    state.save(state.PENDING, pending)
+    pipeline.record(candidate, APPROVED)
+
+
+def handle_done(pending: dict[str, Any]) -> None:
+    """Owner confirms they posted the approved copy on LinkedIn."""
     pending["status"] = "posted"
     state.save(state.PENDING, pending)
-    pipeline.record(candidate, "posted")
+    pipeline.mark_history(pending["candidate"]["id"], "posted")
+    say("Marked as posted ✓ See you tomorrow.")
 
 
 def _send_final_copy(pending: dict[str, Any]) -> None:
@@ -47,6 +60,43 @@ def _send_final_copy(pending: dict[str, Any]) -> None:
     show(photo, "Final copy, ready to post on LinkedIn")
     say(pending["text"])
     say(f"First comment (source link):\n{pending['candidate']['url']}")
+    if config.POST_MODE != "auto":
+        say("Reply done once it's live on LinkedIn (I'll remind you until then).")
+
+
+# ---------- daily posting reminder ----------
+
+def reminder_due(pending: dict[str, Any], meta: dict[str, Any], now: datetime) -> str | None:
+    """Return the reminder slot key (e.g. '2026-10-05@12') if a reminder should go out now, else None.
+
+    Fires once per configured hour (REMINDER_HOURS, IST) while today's draft is still
+    awaiting approval, or approved but not yet confirmed as posted.
+    """
+    today = now.strftime("%Y-%m-%d")
+    if pending.get("date") != today or pending.get("status") not in (AWAITING, APPROVED):
+        return None
+    passed = [h for h in config.REMINDER_HOURS if now.hour >= h]
+    if not passed:
+        return None
+    slot = f"{today}@{max(passed)}"
+    return None if meta.get("last_post_reminder") == slot else slot
+
+
+def send_reminder_if_due() -> bool:
+    """Send the daily posting reminder when due. Returns True if one was sent."""
+    pending = state.load(state.PENDING)
+    meta = state.load(state.META)
+    slot = reminder_due(pending, meta, config.now())
+    if not slot:
+        return False
+    if pending["status"] == AWAITING:
+        say("⏰ Reminder: today's LinkedIn draft is still waiting for you.\n" + telegram.INSTRUCTIONS)
+    else:
+        say("⏰ Reminder: today's post isn't on LinkedIn yet. Here's the copy again.")
+        _send_final_copy(pending)
+    meta["last_post_reminder"] = slot
+    state.save(state.META, meta)
+    return True
 
 
 def _image_bytes(pending: dict[str, Any]) -> bytes | None:
@@ -141,6 +191,12 @@ def handle_message(message: dict[str, Any]) -> None:
         return
 
     pending = state.load(state.PENDING)
+    if cmd.kind == "done":
+        if pending.get("status") == APPROVED:
+            handle_done(pending)
+        else:
+            say("Nothing is waiting to be marked as posted.\n" + telegram.INSTRUCTIONS)
+        return
     awaiting = pending.get("status") == AWAITING
     if cmd.kind == "help" or not awaiting:
         status = f"Current draft: {pending.get('status', 'none')}" if pending else "No draft yet."
@@ -179,6 +235,7 @@ def process_updates() -> int:
             log.warning("ignoring message from a non-owner chat")
         state.save(state.TELEGRAM_OFFSET, {"offset": offset})
     log.info("poll: %d updates, %d handled", len(updates), handled)
+    send_reminder_if_due()
     return handled
 
 
@@ -193,7 +250,9 @@ def peek() -> None:
         cmd = telegram.parse_command(message.get("text") or "")
         if cmd.kind in ("redo", "next") or (cmd.kind == "edit" and cmd.headline):
             needs_render = True
-    lines = [f"has_updates={'true' if updates else 'false'}", f"needs_render={'true' if needs_render else 'false'}"]
+    reminder = reminder_due(state.load(state.PENDING), state.load(state.META), config.now())
+    has_work = bool(updates) or bool(reminder)
+    lines = [f"has_work={'true' if has_work else 'false'}", f"needs_render={'true' if needs_render else 'false'}"]
     log.info("peek: %s", ", ".join(lines))
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:

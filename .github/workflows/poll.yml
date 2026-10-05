@@ -32,6 +32,7 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       AUTHOR_NAME: ${{ vars.AUTHOR_NAME || secrets.AUTHOR_NAME }}
       POST_MODE: ${{ vars.POST_MODE || secrets.POST_MODE }}
+      REMINDER_HOURS: ${{ vars.REMINDER_HOURS }}
       LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
       LINKEDIN_TOKEN_ISSUED: ${{ vars.LINKEDIN_TOKEN_ISSUED || secrets.LINKEDIN_TOKEN_ISSUED }}
       LINKEDIN_VERSION: ${{ vars.LINKEDIN_VERSION || secrets.LINKEDIN_VERSION }}
@@ -63,11 +64,11 @@ jobs:
         run: python -m playwright install --with-deps chromium
 
       - name: Process messages
-        if: steps.peek.outputs.has_updates == 'true'
+        if: steps.peek.outputs.has_work == 'true'
         run: python -m src.main_poll ${{ inputs.dry_run && '--dry-run' || '' }}
 
       - name: Commit state
-        if: ${{ always() && !inputs.dry_run && steps.peek.outputs.has_updates == 'true' }}
+        if: ${{ always() && !inputs.dry_run && steps.peek.outputs.has_work == 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

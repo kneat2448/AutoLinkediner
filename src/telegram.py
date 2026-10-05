@@ -18,7 +18,7 @@ MAX_CAPTION = 1024
 EDIT_MIN_CHARS = 40
 
 APPROVE_WORDS = {"ok", "okay", "approve", "approved", "👍", "👍🏻", "👍🏼", "👍🏽", "👍🏾", "👍🏿"}
-SIMPLE_COMMANDS = {"redo": "redo", "next": "next", "skip": "skip"}
+SIMPLE_COMMANDS = {"redo": "redo", "next": "next", "skip": "skip", "done": "done", "posted": "done"}
 INSTRUCTIONS = "Reply: ok / redo / next / skip / or send edited text"
 
 
@@ -28,7 +28,7 @@ INSTRUCTIONS = "Reply: ok / redo / next / skip / or send edited text"
 class Command:
     """A parsed owner message."""
 
-    kind: str           # approve | redo | next | skip | edit | tweet | help
+    kind: str           # approve | redo | next | skip | done | edit | tweet | help
     text: str = ""      # full message text (for edit / tweet)
     headline: str = ""  # optional new headline supplied with an edit
 

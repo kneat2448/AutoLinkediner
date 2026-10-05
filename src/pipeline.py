@@ -6,12 +6,13 @@ from pathlib import Path
 from typing import Any
 
 from src import config, rank, render, state, telegram, write
-from src.sources import hackernews, huggingface, reddit, x_queue
+from src.sources import hackernews, huggingface, news, reddit, x_queue
 from src.sources.common import Candidate
 
 log = logging.getLogger(__name__)
 
 AWAITING = "awaiting_approval"
+APPROVED = "approved"  # manual mode: approved, waiting for the owner to post it and reply "done"
 
 
 # ---------- outbound messaging (no-ops in dry-run) ----------
@@ -37,7 +38,7 @@ def show(photo: Path | str, caption: str = "") -> str:
 def collect() -> list[Candidate]:
     """All candidates from every source, deduped against history. Each source fails gracefully."""
     candidates: list[Candidate] = []
-    for source in (x_queue, hackernews, reddit, huggingface):
+    for source in (x_queue, news, hackernews, reddit, huggingface):
         candidates.extend(source.fetch())
     return rank.dedupe(candidates, state.load(state.POSTED))
 
@@ -121,6 +122,16 @@ def record(candidate: Candidate, status: str) -> None:
     state.save(state.POSTED, posted)
     if candidate["source"] == "x":
         x_queue.remove({candidate["id"].split(":", 1)[1]})
+
+
+def mark_history(story_id: str, status: str) -> None:
+    """Update the status of the most recent history entry for a story."""
+    posted = state.load(state.POSTED)
+    for item in reversed(posted):
+        if item.get("id") == story_id:
+            item["status"] = status
+            break
+    state.save(state.POSTED, posted)
 
 
 def expire_stale_pending() -> None:

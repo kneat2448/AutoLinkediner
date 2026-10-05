@@ -2,7 +2,7 @@
 
 Drafts one calm, plain-language LinkedIn post a day about AI news. Each draft comes with a 1080×1350 image card and is sent to you on Telegram. **Nothing is posted until you approve it.**
 
-The pipeline collects stories from Hacker News, Reddit, Hugging Face daily papers, and tweets you forward. An LLM picks the best one, writes the post and a headline, and the card is rendered. Everything runs on free tiers (GitHub Actions, the Gemini free tier, and the Telegram Bot API).
+The pipeline collects stories from AI news feeds (OpenAI, Google DeepMind, Google, MIT Technology Review, The Verge, TechCrunch, Ars Technica, Wired, The Decoder, and more), Hacker News, Reddit, Hugging Face daily papers, and tweets you forward. Stories covered by several outlets at once get a boost, so big new developments come out on top. An LLM picks the best one, writes the post and a headline, and the card is rendered. Everything runs on free tiers (GitHub Actions, the Gemini free tier, and the Telegram Bot API).
 
 See [CLAUDE.md](CLAUDE.md) for the full spec.
 
@@ -57,7 +57,8 @@ Next, check **Settings → Actions → General → Workflow permissions**. It sh
 
 | You send | What happens |
 |---|---|
-| `ok` / `approve` / 👍 | Manual mode: you get the final copy (image + text + source link) to post. Auto mode: it's published to LinkedIn and you get the link. |
+| `ok` / `approve` / 👍 | You get the final copy (image + text + source link) to post on LinkedIn. (In Phase 3 auto mode it's published for you.) |
+| `done` / `posted` | Tells the bot you've posted today's copy, which stops the reminders. |
 | `redo` | The post and headline are rewritten for the same story. |
 | `next` | This story is dropped and the next-best one is drafted. |
 | `skip` | No post today. |
@@ -65,6 +66,8 @@ Next, check **Settings → Actions → General → Workflow permissions**. It sh
 | An x.com / twitter.com link | Queued for future drafts (with a priority boost). Add your own text in the same message to use it as the tweet text. If the text can't be fetched, the bot asks you to reply with it. |
 
 Replies are checked every 30 minutes, and GitHub's cron can run 5–20 minutes late.
+
+**Daily reminders:** if today's post isn't done yet, the bot reminds you at 12:00 and 18:00 IST. If you've already approved the draft, it resends the final copy. To change the times, add a `REMINDER_HOURS` repository variable, e.g. `11,17,21`.
 
 **Actions minutes:** most poll runs finish in under a minute, because Chromium is installed only when a reply needs a new image. Public repos get unlimited minutes. Private repos get 2,000 free minutes a month, and this setup uses roughly 1,500–1,700 of them.
 

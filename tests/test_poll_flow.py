@@ -32,14 +32,56 @@ def msg(text, mid=10):
     return {"message_id": mid, "chat": {"id": 1}, "text": text}
 
 
-def test_approve_manual_sends_final_copy_and_records(sent):
+def test_approve_manual_sends_final_copy_then_done(sent):
     _pending()
     main_poll.handle_message(msg("ok"))
-    assert state.load(state.PENDING)["status"] == "posted"
-    assert state.load(state.POSTED)[0]["id"] == "hn:1"
+    assert state.load(state.PENDING)["status"] == pipeline.APPROVED
+    history = state.load(state.POSTED)[0]
+    assert history["id"] == "hn:1" and history["status"] == "approved"
     texts = [t for kind, t in sent if kind == "msg"]
     assert "Post text?\n\nSource: example.com" in texts
     assert any("https://example.com/s" in t for t in texts)
+    assert any("Reply done" in t for t in texts)
+
+    main_poll.handle_message(msg("done"))
+    assert state.load(state.PENDING)["status"] == "posted"
+    assert state.load(state.POSTED)[0]["status"] == "posted"
+
+
+def test_done_without_approved_draft(sent):
+    _pending()
+    main_poll.handle_message(msg("done"))
+    assert state.load(state.PENDING)["status"] == pipeline.AWAITING
+    assert "Nothing is waiting" in sent[-1][1]
+
+
+def _at(hour):
+    from datetime import datetime
+    return datetime(2026, 10, 5, hour, 10, tzinfo=config.TZ)
+
+
+def test_reminder_due_slots(monkeypatch):
+    monkeypatch.setattr(config, "REMINDER_HOURS", [12, 18])
+    p = {"date": "2026-10-05", "status": pipeline.AWAITING}
+    assert main_poll.reminder_due(p, {}, _at(9)) is None
+    assert main_poll.reminder_due(p, {}, _at(12)) == "2026-10-05@12"
+    assert main_poll.reminder_due(p, {"last_post_reminder": "2026-10-05@12"}, _at(13)) is None
+    assert main_poll.reminder_due(p, {"last_post_reminder": "2026-10-05@12"}, _at(18)) == "2026-10-05@18"
+    assert main_poll.reminder_due({**p, "status": pipeline.APPROVED}, {}, _at(19)) == "2026-10-05@18"
+    assert main_poll.reminder_due({**p, "status": "posted"}, {}, _at(19)) is None
+    assert main_poll.reminder_due({**p, "date": "2026-10-04"}, {}, _at(19)) is None
+
+
+def test_send_reminder_resends_copy_once(sent, monkeypatch):
+    monkeypatch.setattr(config, "REMINDER_HOURS", [12])
+    monkeypatch.setattr(config, "now", lambda: _at(13))
+    p = _pending()
+    p.update(date="2026-10-05", status=pipeline.APPROVED)
+    state.save(state.PENDING, p)
+    assert main_poll.send_reminder_if_due() is True
+    assert any("isn't on LinkedIn yet" in t for k, t in sent if k == "msg")
+    assert any(k == "photo" for k, _ in sent)
+    assert main_poll.send_reminder_if_due() is False
 
 
 def test_skip(sent):

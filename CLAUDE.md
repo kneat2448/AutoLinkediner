@@ -3,12 +3,12 @@
 ## What this project is
 A free, mostly-automated pipeline that publishes **one LinkedIn post per day** about AI news and research for a **general (non-technical) audience**. It:
 
-1. Collects candidate stories from Hacker News, Reddit, Hugging Face daily papers, and a personal X/Twitter queue.
+1. Collects candidate stories from AI news feeds (AI-lab blogs and tech newsrooms), Hacker News, Reddit, Hugging Face daily papers, and a personal X/Twitter queue.
 2. Picks the single best story for a general audience.
-3. Writes a post in a **calm, insightful, thoughtful-analyst** voice.
+3. Writes a detailed, engaging post in a **sharp analyst** voice that leaves readers with something to talk about.
 4. Renders a minimal, aesthetic image card (rotating between 3 templates).
 5. Sends the draft and image to the owner on **Telegram for approval**.
-6. On approval, posts to LinkedIn (Phase 3). Before then, the owner posts manually.
+6. On approval, sends the final copy; the owner posts it manually and replies `done`. Telegram reminders repeat until then. (Phase 3 auto-posting exists but is optional.)
 
 **Golden rule:** nothing is ever posted to LinkedIn without explicit approval from the owner on Telegram.
 
@@ -41,10 +41,12 @@ A free, mostly-automated pipeline that publishes **one LinkedIn post per day** a
 ├── src/
 │   ├── main_draft.py          # entrypoint for draft.yml
 │   ├── main_poll.py           # entrypoint for poll.yml
+│   ├── pipeline.py            # shared draft/approve steps used by both entrypoints
 │   ├── sources/
 │   │   ├── hackernews.py
 │   │   ├── reddit.py
 │   │   ├── huggingface.py
+│   │   ├── news.py            # RSS: AI-lab blogs + tech newsrooms
 │   │   └── x_queue.py         # tweets the owner forwarded via Telegram
 │   ├── rank.py                # scoring + LLM final pick
 │   ├── write.py               # post + headline generation, banned-phrase check
@@ -66,7 +68,8 @@ A free, mostly-automated pipeline that publishes **one LinkedIn post per day** a
 │   ├── posted.json            # URLs/IDs already used (dedupe)
 │   ├── pending.json           # current draft awaiting approval
 │   ├── x_queue.json           # forwarded tweets waiting to be used
-│   └── telegram_offset.json   # last processed update_id
+│   ├── telegram_offset.json   # last processed update_id
+│   └── meta.json              # reminder bookkeeping
 └── tests/
 ```
 
@@ -79,8 +82,8 @@ A free, mostly-automated pipeline that publishes **one LinkedIn post per day** a
 2. **Collect** candidates from every source from the last ~36 hours. Each candidate is normalized to:
    `{id, source, title, url, summary, score, created_at, raw_text}`
 3. **Dedupe** against `state/posted.json`, matching on URL and on fuzzy title.
-4. **Rank.** Items in the X queue get a priority boost because they reflect the owner's own taste. Take the top ~10 by a heuristic score (engagement normalized per source, plus recency). The LLM then picks one using `prompts/pick.md`.
-5. **Fetch more context** for the chosen item where possible (article text, paper abstract, top HN comment) so the post is grounded.
+4. **Rank.** Items in the X queue get a priority boost because they reflect the owner's own taste. Take the top ~12 by a heuristic score (engagement normalized per source, or outlet weight for news; plus recency; plus a "buzz" boost when several outlets cover the same development, which is collapsed to one entry). The LLM then picks one using `prompts/pick.md`.
+5. **Fetch more context** for the chosen item where possible (article text, the full paper body from arXiv HTML for Hugging Face papers, top HN comment) so the post can go into real detail.
 6. **Write** the post (`prompts/write_post.md`) and a separate short headline for the image (`prompts/headline.md`). Validate the result (see Writing rules). If validation fails, regenerate, up to 3 tries.
 7. **Render** the image using the template for the day (day-of-year mod 3).
 8. **Send to Telegram:** the photo, the post text, the source link, and the instructions "Reply: ok / redo / skip / or send edited text".
@@ -89,11 +92,12 @@ A free, mostly-automated pipeline that publishes **one LinkedIn post per day** a
 ### `poll.yml` runs every 30 minutes
 Read new Telegram updates since the stored offset. Only accept messages from `TELEGRAM_CHAT_ID` and ignore everyone else. Handle each message as follows:
 - **`ok` / `approve` / 👍:**
-  - Phase 1–2: send back a "final copy" message (text and image) for manual posting, then mark the item as posted.
+  - Manual mode (default): send back a "final copy" message (text, image, link for the first comment) for manual posting and mark the item `approved`. The owner replies **`done` / `posted`** once it's live, which marks it `posted`.
   - Phase 3: post to LinkedIn, then reply with the post link.
 - **`redo`:** regenerate the post and headline for the same story, re-render, and send again.
 - **`next`:** skip this story, pick the next-best candidate, and send a new draft.
 - **`skip`:** no post today. Mark the item as skipped.
+- **Daily posting reminder:** at each hour in `REMINDER_HOURS` (IST, default `12,18`), if today's draft is still awaiting approval or approved-but-not-done, send one reminder (for approved drafts, resend the final copy).
 - **Any other text longer than 40 characters:** treat it as the owner's edited post. Re-render the image if the headline changed, then confirm with a preview and ask for `ok`.
 - **A message containing an x.com/twitter.com link:** add it to `state/x_queue.json` and reply "Queued ✓".
   - If the owner includes text with the link, use that text as `raw_text`.
@@ -113,7 +117,9 @@ Save the new offset and commit the state. Note that GitHub cron can be delayed b
 - Subreddits: `MachineLearning`, `LocalLLaMA`, `artificial`, `singularity`, `OpenAI`.
 - Take the top posts of the day with score above 100.
 
-**Hugging Face:** `https://huggingface.co/api/daily_papers` (free). Rank by upvotes. Paper abstracts provide the grounding context.
+**Hugging Face:** `https://huggingface.co/api/daily_papers` (free). Rank by upvotes. The abstract, plus the paper body from `https://arxiv.org/html/{id}` when available, provides the grounding context.
+
+**AI news (RSS, free, no keys):** `src/sources/news.py` lists the feeds with a weight each. Official lab blogs (OpenAI, Google DeepMind, Google AI) weigh most, then newsrooms (MIT Technology Review, The Verge, TechCrunch, Ars Technica, Wired, The Decoder), then smaller blogs (NVIDIA, Simon Willison). Anthropic has no RSS feed. Keep only items from the lookback window.
 
 **X/Twitter:** only via the owner forwarding tweets to the Telegram bot. Do **not** scrape X or use paid X API tiers.
 
@@ -123,26 +129,26 @@ Each source module must fail gracefully: log the error, return `[]`, and let the
 
 ## Writing rules (voice spec)
 
-**Audience:** smart professionals who don't follow AI closely. They should finish the post understanding what happened and why it matters to them.
+**Audience:** smart professionals who don't follow AI closely. They should finish the post understanding what specifically happened, how it works, and why it matters to them, and leave with something to bring up at work.
 
-**Voice:** a calm, insightful, thoughtful analyst.
-- Measured, never hype-driven.
-- Plain words, short sentences.
-- One clear idea per post.
-- Confident but honest about uncertainty.
-- Sounds like a person thinking out loud, not a press release.
+**Voice:** a sharp, engaging analyst with a point of view.
+- Confident, curious, energetic, but grounded. Energy comes from specifics and a clear angle, never hype or exclamation marks.
+- Plain words, short punchy sentences, varied rhythm.
+- One clear angle per post (e.g. "how X is actually used for Y", a surprising consequence, who wins/loses, a counterintuitive tension).
+- Takes a clear stance while staying honest about uncertainty.
+- Goes into the details: who, what exactly, how it works, the key numbers, what's new, specific limitations.
 
-**Structure (about 120–220 words):**
-1. **Hook (line 1, under 15 words):** a calm, surprising observation or tension. No clickbait.
-2. **What happened:** 2–3 short lines in plain language. Explain any jargon in passing.
-3. **Why it matters:** the real-world implication for work, everyday life, or society.
-4. **The take:** one thoughtful perspective, nuance, or caveat. This is the "analyst" part.
-5. **A closing question** that invites genuine replies (not "Thoughts?").
+**Structure (about 200–320 words):**
+1. **Hook (line 1, under 15 words):** punchy and specific, true to the source. No clickbait.
+2. **What happened and how it works:** 3–5 short paragraphs built around the angle. Explain jargon in passing.
+3. **Why it matters:** the concrete real-world implication for work, money, everyday life, or society.
+4. **The take:** a clear stance, one memorable/quotable line, and the specific caveats.
+5. **A closing question** that people will want to argue about: a concrete choice or dilemma (not "Thoughts?").
 6. **Credit:** a line such as `Source: {publication/author}`. The link itself goes in the first comment in Phase 3; in Phase 1–2, include it in the Telegram message only.
 
 **Formatting:**
-- Short paragraphs of 1–2 lines with blank lines between them.
-- At most 1 emoji, and usually none.
+- Short paragraphs of 1–3 lines with blank lines between them.
+- At most 1 emoji, and usually none. No exclamation marks.
 - 0–3 hashtags at the end.
 - No bold Unicode text and no bullet-point walls.
 
@@ -157,9 +163,9 @@ Avoid em-dash overuse: at most one per post.
 - Never claim the owner did, tested, or built something.
 - Paraphrase fully, and do not copy sentences from the source.
 
-**Headline for the image:** 4–9 words. It states the core idea, not the hook verbatim. No ending punctuation except "?".
+**Headline for the image:** 4–9 words, punchy and built on the angle (e.g. "How AI is quietly running high-frequency trading"). Not the hook verbatim. Fully supported by the post. No ending punctuation except "?".
 
-**Example of the target voice** (structure illustration only; never reuse its content):
+**Example of the target voice** (structure only; see `prompts/write_post.md` for the fuller, current example):
 > Small AI models are quietly catching up with the giants.
 >
 > A new open model released this week performs close to systems many times its size on common reasoning tests.

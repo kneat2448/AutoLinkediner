@@ -6,6 +6,8 @@ GOOD = """Small AI models are quietly catching up with the giants.
 
 A new open model released this week performs close to systems many times its size on common reasoning tests. It was trained with a cleaner, more carefully chosen set of examples rather than simply more data.
 
+The researchers say the gain came mostly from training on fewer but carefully checked examples, with each answer verified before it was used. They also report that the model learned to double-check its own work before giving a final answer, which helped most on math-style questions.
+
 That matters because smaller models are cheaper to run and can work on a laptop or phone, not just in a data center. For a small business or a school, that changes what is affordable and what can stay private.
 
 The caveat: benchmark scores and real-world usefulness aren't the same thing. Tests reward specific skills, and everyday work is messier than any test. The interesting signal will be what people actually build with it over the next few months, and whether it holds up outside the lab.
