@@ -24,19 +24,43 @@ def find_tweet_url(text: str) -> re.Match[str] | None:
     return TWEET_URL_RE.search(text or "")
 
 
-def fetch_tweet_text(url: str) -> str:
-    """Best-effort tweet text via the public oEmbed endpoint. Returns '' on any failure."""
+_URL_RE = re.compile(r"https?://[^\s<>\"')]+")
+
+
+def fetch_tweet(url: str) -> tuple[str, list[str]]:
+    """Best-effort (tweet text, links in the tweet) via the public oEmbed endpoint. ('', []) on failure."""
     try:
         data = http.get(OEMBED_URL, params={"url": url, "omit_script": "1"}, retries=2).json()
         match = re.search(r"<p[^>]*>(.*?)</p>", data.get("html", ""), re.DOTALL)
         if not match:
-            return ""
-        text = re.sub(r"<br\s*/?>", "\n", match.group(1))
+            return "", []
+        body = match.group(1)
+        links = [h for h, label in re.findall(r'<a href="([^"]+)"[^>]*>(.*?)</a>', body)
+                 if not label.startswith("pic.twitter.com") and not label.startswith("@") and not label.startswith("#")]
+        text = re.sub(r"<br\s*/?>", "\n", body)
         text = re.sub(r"<[^>]+>", "", text)
-        return html.unescape(text).strip()
+        return html.unescape(text).strip(), links
     except Exception:
-        log.warning("x_queue: tweet text fetch failed")
-        return ""
+        log.warning("x_queue: tweet fetch failed")
+        return "", []
+
+
+def fetch_tweet_text(url: str) -> str:
+    """Best-effort tweet text only."""
+    return fetch_tweet(url)[0]
+
+
+def expand_links(links: list[str]) -> list[str]:
+    """Resolve t.co and other short links to their final URLs (best-effort), dropping X/Twitter links."""
+    out = []
+    for link in links[:4]:
+        try:
+            final = http.request("HEAD", link, retries=1, timeout=10, allow_redirects=True).url
+        except Exception:
+            final = link
+        if not re.search(r"//(www\.)?(x|twitter|t)\.co(m)?/", final):
+            out.append(final)
+    return list(dict.fromkeys(out))
 
 
 def add(text: str) -> dict[str, Any] | None:
@@ -50,7 +74,10 @@ def add(text: str) -> dict[str, Any] | None:
     author, tweet_id = match.group(1), match.group(2)
     url = f"https://x.com/{author}/status/{tweet_id}"
     owner_text = (text[: match.start()] + text[match.end():]).strip()
-    raw_text = owner_text or fetch_tweet_text(url)
+    tweet_text, tweet_links = fetch_tweet(url)
+    owner_links = [u for u in _URL_RE.findall(owner_text) if not find_tweet_url(u)]
+    links = expand_links(owner_links + tweet_links)
+    raw_text = owner_text or tweet_text
     queue = state.load(state.X_QUEUE)
     item = next((q for q in queue if q["id"] == tweet_id), None)
     if item:
@@ -65,6 +92,10 @@ def add(text: str) -> dict[str, Any] | None:
             "added_at": datetime.now(timezone.utc).isoformat(),
         }
         queue.append(item)
+    if tweet_text and tweet_text != raw_text:
+        item["tweet_text"] = tweet_text
+    if links:
+        item["links"] = links
     state.save(state.X_QUEUE, queue)
     return item
 
@@ -103,7 +134,8 @@ def normalize(item: dict[str, Any]) -> Candidate | None:
         score=0.0,
         created_at=item.get("added_at", ""),
         raw_text=text,
-        extra={"author": item.get("author", "")},
+        extra={"author": item.get("author", ""), "tweet_text": item.get("tweet_text", ""),
+               "links": item.get("links", [])},
     )
 
 

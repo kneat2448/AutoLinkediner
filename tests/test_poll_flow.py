@@ -113,7 +113,7 @@ def test_command_without_pending_gets_help(sent):
 
 
 def test_tweet_then_reply_with_text(sent, monkeypatch):
-    monkeypatch.setattr(x_queue, "fetch_tweet_text", lambda url: "")
+    monkeypatch.setattr(x_queue, "fetch_tweet", lambda url: ("", []))
     main_poll.handle_message(msg("https://x.com/a/status/77", mid=5))
     item = state.load(state.X_QUEUE)[0]
     assert item["raw_text"] == "" and item["prompt_message_id"]

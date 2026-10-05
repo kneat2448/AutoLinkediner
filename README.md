@@ -63,7 +63,7 @@ Next, check **Settings → Actions → General → Workflow permissions**. It sh
 | `next` | This story is dropped and the next-best one is drafted. |
 | `skip` | No post today. |
 | Any text over 40 characters | Used as your edited post. Start it with `headline: Your new headline` on the first line to re-render the image. Reply `ok` afterwards. |
-| An x.com / twitter.com link | Queued for future drafts (with a priority boost). Add your own text in the same message to use it as the tweet text. If the text can't be fetched, the bot asks you to reply with it. |
+| An x.com / twitter.com link | Queued for future drafts (with a priority boost). When a tweet is picked, the bot researches it first: it reads the pages the tweet links to, related news coverage from several outlets, and background on unfamiliar terms. The draft then lists the links it used. Add your own text in the same message to use it as the tweet text. If the text can't be fetched, the bot asks you to reply with it. |
 
 Replies are checked every 30 minutes, and GitHub's cron can run 5–20 minutes late.
 

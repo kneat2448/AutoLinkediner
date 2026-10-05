@@ -26,6 +26,7 @@ BUZZ_MAX = 0.45
 BUZZ_SIMILARITY = 0.35
 CONTEXT_LIMIT = 14000   # characters of source material given to the writer
 ARTICLE_LIMIT = 9000
+RESEARCHED_CONTEXT_LIMIT = 24000   # context + research notes
 _TRACKING_PARAMS = re.compile(r"^(utm_|ref$|ref_src$|source$|s$|t$|fbclid$|gclid$)")
 
 
@@ -252,7 +253,11 @@ def gather_context(candidate: Candidate) -> str:
         label = {"huggingface": "Paper abstract", "x": "Tweet text", "reddit": "Post text"}.get(
             candidate["source"], "Text"
         )
+        if candidate["source"] == "x" and candidate.get("extra", {}).get("tweet_text"):
+            label = "Owner's note on this tweet"
         parts.append(f"{label}:\n{candidate['raw_text']}")
+        if candidate["source"] == "x" and candidate.get("extra", {}).get("tweet_text"):
+            parts.append(f"Tweet text:\n{candidate['extra']['tweet_text']}")
     elif candidate.get("summary"):
         parts.append(f"Summary:\n{candidate['summary']}")
     if candidate["source"] == "huggingface":

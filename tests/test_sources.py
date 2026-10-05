@@ -69,7 +69,7 @@ def test_reddit_fetch_without_credentials_returns_empty(monkeypatch):
 
 
 def test_x_queue_add_with_owner_text_and_normalize(tmp_state, monkeypatch):
-    monkeypatch.setattr(x_queue, "fetch_tweet_text", lambda url: "should not be called")
+    monkeypatch.setattr(x_queue, "fetch_tweet", lambda url: ("The tweet itself", []))
     item = x_queue.add("Big news on open models https://twitter.com/someone/status/12345?s=20")
     assert item["raw_text"] == "Big news on open models"
     assert item["url"] == "https://x.com/someone/status/12345"
@@ -79,7 +79,7 @@ def test_x_queue_add_with_owner_text_and_normalize(tmp_state, monkeypatch):
 
 
 def test_x_queue_without_text_is_not_a_candidate(tmp_state, monkeypatch):
-    monkeypatch.setattr(x_queue, "fetch_tweet_text", lambda url: "")
+    monkeypatch.setattr(x_queue, "fetch_tweet", lambda url: ("", []))
     item = x_queue.add("https://x.com/someone/status/999")
     assert item["raw_text"] == ""
     assert x_queue.fetch() == []

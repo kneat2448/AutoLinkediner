@@ -5,7 +5,7 @@ import logging
 from pathlib import Path
 from typing import Any
 
-from src import config, rank, render, state, telegram, write
+from src import config, rank, render, research, state, telegram, write
 from src.sources import hackernews, huggingface, news, reddit, x_queue
 from src.sources.common import Candidate
 
@@ -63,6 +63,14 @@ def compose(pending: dict[str, Any]) -> dict[str, Any]:
 
 def build_draft(candidate: Candidate, shortlist: list[Candidate], rejected_ids: list[str]) -> dict[str, Any]:
     """Fetch context for the chosen story and produce a complete pending draft."""
+    context = rank.gather_context(candidate)
+    credit = rank.source_credit(candidate)
+    found = research.Research()
+    if research.needs_research(candidate, context):
+        found = research.research(candidate, context)
+        if found.notes:
+            context = f"{context}\n\n{found.notes}"
+            credit = research.credit_with(credit, found.outlets)
     pending: dict[str, Any] = {
         "status": AWAITING,
         "date": config.today_str(),
@@ -70,8 +78,9 @@ def build_draft(candidate: Candidate, shortlist: list[Candidate], rejected_ids: 
         "candidate": candidate,
         "shortlist": shortlist,
         "rejected_ids": rejected_ids,
-        "context": rank.gather_context(candidate),
-        "source_credit": rank.source_credit(candidate),
+        "context": context[:rank.RESEARCHED_CONTEXT_LIMIT],
+        "research_links": found.links,
+        "source_credit": credit,
         "source_tag": rank.source_tag(candidate),
         "template": render.template_for(config.now().date()),
         "photo_file_id": "",
@@ -89,6 +98,8 @@ def send_draft(pending: dict[str, Any], intro: str = "Today's draft") -> dict[st
     discussion = candidate.get("extra", {}).get("discussion_url")
     if discussion and discussion != candidate["url"]:
         footer += f"\nDiscussion: {discussion}"
+    if pending.get("research_links"):
+        footer += "\nResearched from:\n" + "\n".join(f"• {u}" for u in pending["research_links"])
     if pending.get("problems"):
         footer += "\n\n⚠️ Validator notes: " + "; ".join(pending["problems"])
     say(f"{footer}\n\n{telegram.INSTRUCTIONS}")
