@@ -22,18 +22,19 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
-      LLM_MODEL: ${{ secrets.LLM_MODEL }}
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER || secrets.LLM_PROVIDER }}
+      LLM_MODEL: ${{ vars.LLM_MODEL || secrets.LLM_MODEL }}
+      LLM_FALLBACK_MODEL: ${{ vars.LLM_FALLBACK_MODEL || secrets.LLM_FALLBACK_MODEL }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      AUTHOR_NAME: ${{ secrets.AUTHOR_NAME }}
-      POST_MODE: ${{ secrets.POST_MODE }}
+      AUTHOR_NAME: ${{ vars.AUTHOR_NAME || secrets.AUTHOR_NAME }}
+      POST_MODE: ${{ vars.POST_MODE || secrets.POST_MODE }}
       LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
-      LINKEDIN_TOKEN_ISSUED: ${{ secrets.LINKEDIN_TOKEN_ISSUED }}
-      LINKEDIN_VERSION: ${{ secrets.LINKEDIN_VERSION }}
+      LINKEDIN_TOKEN_ISSUED: ${{ vars.LINKEDIN_TOKEN_ISSUED || secrets.LINKEDIN_TOKEN_ISSUED }}
+      LINKEDIN_VERSION: ${{ vars.LINKEDIN_VERSION || secrets.LINKEDIN_VERSION }}
     steps:
       - uses: actions/checkout@v4
 

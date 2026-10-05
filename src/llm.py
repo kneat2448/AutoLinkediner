@@ -9,6 +9,8 @@ import logging
 import re
 from typing import Any
 
+import requests
+
 from src import config, http
 
 log = logging.getLogger(__name__)
@@ -17,6 +19,9 @@ GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:ge
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
 LLM_TIMEOUT = 90
+# Free tiers often return 503 "model overloaded" for a minute or two; wait it out: 5s, 10s, 20s, 40s.
+LLM_RETRIES = 5
+LLM_BACKOFF = 5.0
 
 
 class LLMError(RuntimeError):
@@ -24,11 +29,30 @@ class LLMError(RuntimeError):
 
 
 def complete(prompt: str, *, system: str = "", temperature: float = 0.7, max_tokens: int = 4096) -> str:
-    """Send one prompt to the configured provider and return the text response."""
-    provider = config.LLM_PROVIDER
+    """Send one prompt to the configured provider and return the text response.
+
+    If the main model keeps failing (e.g. 503 "overloaded") and LLM_FALLBACK_MODEL is set,
+    the same prompt is retried once on the fallback model (same provider).
+    """
     model = config.LLM_MODEL
     if not model:
         raise LLMError("LLM_MODEL is not set")
+    try:
+        return _call(model, prompt, system, temperature, max_tokens)
+    except requests.HTTPError as exc:
+        fallback = config.LLM_FALLBACK_MODEL
+        if not fallback or fallback == model:
+            raise
+        log.warning("LLM: main model failed (%s); trying fallback model", _status(exc))
+        return _call(fallback, prompt, system, temperature, max_tokens)
+
+
+def _status(exc: requests.HTTPError) -> str:
+    return str(exc.response.status_code) if exc.response is not None else "error"
+
+
+def _call(model: str, prompt: str, system: str, temperature: float, max_tokens: int) -> str:
+    provider = config.LLM_PROVIDER
     log.info("LLM call: provider=%s model=%s", provider, model)
     if provider == "gemini":
         return _gemini(model, prompt, system, temperature, max_tokens)
@@ -80,6 +104,8 @@ def _gemini(model: str, prompt: str, system: str, temperature: float, max_tokens
         headers={"x-goog-api-key": _require("GEMINI_API_KEY")},
         json=body,
         timeout=LLM_TIMEOUT,
+        retries=LLM_RETRIES,
+        backoff=LLM_BACKOFF,
     )
     data = resp.json()
     try:
@@ -99,6 +125,8 @@ def _groq(model: str, prompt: str, system: str, temperature: float, max_tokens: 
         headers={"Authorization": f"Bearer {_require('GROQ_API_KEY')}"},
         json={"model": model, "messages": messages, "temperature": temperature, "max_tokens": max_tokens},
         timeout=LLM_TIMEOUT,
+        retries=LLM_RETRIES,
+        backoff=LLM_BACKOFF,
     )
     return _nonempty(resp.json()["choices"][0]["message"]["content"] or "")
 
@@ -117,6 +145,8 @@ def _anthropic(model: str, prompt: str, system: str, temperature: float, max_tok
         headers={"x-api-key": _require("ANTHROPIC_API_KEY"), "anthropic-version": "2023-06-01"},
         json=body,
         timeout=LLM_TIMEOUT,
+        retries=LLM_RETRIES,
+        backoff=LLM_BACKOFF,
     )
     blocks = resp.json().get("content", [])
     return _nonempty("".join(b.get("text", "") for b in blocks if b.get("type") == "text"))

@@ -43,6 +43,7 @@ def env(name: str, default: str = "") -> str:
 
 LLM_PROVIDER = env("LLM_PROVIDER", "gemini").lower()
 LLM_MODEL = env("LLM_MODEL")
+LLM_FALLBACK_MODEL = env("LLM_FALLBACK_MODEL")  # optional, same provider; used when LLM_MODEL keeps failing
 TELEGRAM_BOT_TOKEN = env("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = env("TELEGRAM_CHAT_ID")
 AUTHOR_NAME = env("AUTHOR_NAME", "Your Name")

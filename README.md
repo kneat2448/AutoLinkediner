@@ -42,6 +42,10 @@ In the repo, go to **Settings → Secrets and variables → Actions → New repo
 | `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USER_AGENT` | optional, e.g. `AutoLinkediner/1.0 by u/yourname` |
 | `LINKEDIN_ACCESS_TOKEN`, `LINKEDIN_TOKEN_ISSUED` | Phase 3 only |
 
+Optionally, add `LLM_FALLBACK_MODEL`: a second model from the same provider (e.g. a Flash-Lite model). It's tried when the main model keeps returning errors such as 503 "overloaded", which happens on free tiers at busy times.
+
+**Tip:** GitHub hides every secret value wherever it appears in the logs, so a secret like `LLM_PROVIDER=gemini` shows up as `***`. The non-sensitive settings (`LLM_PROVIDER`, `LLM_MODEL`, `LLM_FALLBACK_MODEL`, `AUTHOR_NAME`, `POST_MODE`, `LINKEDIN_TOKEN_ISSUED`, `LINKEDIN_VERSION`) can be created under the **Variables** tab instead. The workflows read variables first and fall back to secrets.
+
 Next, check **Settings → Actions → General → Workflow permissions**. It should be set to *Read and write* (the workflows also request `contents: write`).
 
 ### 5. Try it
