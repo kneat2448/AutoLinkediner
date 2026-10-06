@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 
 from src import config, linkedin, main_poll, pipeline, state
@@ -32,6 +33,22 @@ def token_reminder() -> None:
     state.save(state.META, meta)
 
 
+def drafted_today() -> bool:
+    """True if today's draft already exists (awaiting, approved, posted or skipped)."""
+    pending = state.load(state.PENDING)
+    return pending.get("date") == config.today_str() and pending.get("status") in (
+        AWAITING, APPROVED, "posted", "skipped")
+
+
+def check() -> None:
+    """For CI: report whether a draft is still needed today, so backup cron slots can exit early."""
+    needed = not drafted_today()
+    log.info("check: draft needed today: %s", needed)
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+            fh.write(f"needed={'true' if needed else 'false'}\n")
+
+
 def run(dry_run: bool, force: bool) -> int:
     # 1. Queue anything the owner forwarded overnight (and handle any pending replies).
     if not dry_run:
@@ -41,9 +58,8 @@ def run(dry_run: bool, force: bool) -> int:
             log.exception("draft: initial poll failed; continuing")
         token_reminder()
 
-    pending = state.load(state.PENDING)
-    if not force and pending.get("date") == config.today_str() and pending.get("status") in (AWAITING, APPROVED, "posted", "skipped"):
-        log.info("draft: today's draft already exists (status=%s); use --force to redo", pending["status"])
+    if not force and drafted_today():
+        log.info("draft: today's draft already exists; use --force to redo")
         return 0
     pipeline.expire_stale_pending()
 
@@ -70,11 +86,15 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Create today's LinkedIn draft")
     parser.add_argument("--dry-run", action="store_true", help="print the draft; send/post/save nothing")
     parser.add_argument("--force", action="store_true", help="draft even if one exists for today")
+    parser.add_argument("--check", action="store_true", help="only report whether a draft is needed today")
     args = parser.parse_args()
     config.setup_logging()
     if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
         sys.stdout.reconfigure(encoding="utf-8")
     state.DRY_RUN = args.dry_run
+    if args.check:
+        check()
+        return
     sys.exit(run(args.dry_run, args.force))
 
 

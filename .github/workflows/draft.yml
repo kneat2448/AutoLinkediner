@@ -2,7 +2,13 @@ name: Daily draft
 
 on:
   schedule:
+    # 08:00 IST, plus backup slots: GitHub often drops scheduled runs, and a run that finds
+    # today's draft already made exits in seconds (see the check step).
     - cron: "30 2 * * *"   # 08:00 IST
+    - cron: "5 3 * * *"    # 08:35 IST
+    - cron: "40 3 * * *"   # 09:10 IST
+    - cron: "20 4 * * *"   # 09:50 IST
+    - cron: "10 5 * * *"   # 10:40 IST
   workflow_dispatch:
     inputs:
       dry_run:
@@ -54,20 +60,28 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Check whether today's draft is still needed
+        id: check
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then python -m src.main_draft --check; else echo "needed=true" >> "$GITHUB_OUTPUT"; fi
+
       - name: Cache Playwright browsers
+        if: steps.check.outputs.needed == 'true'
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
 
       - name: Install Chromium
+        if: steps.check.outputs.needed == 'true'
         run: python -m playwright install --with-deps chromium
 
       - name: Draft
+        if: steps.check.outputs.needed == 'true'
         run: python -m src.main_draft ${{ inputs.dry_run && '--dry-run' || '' }} ${{ inputs.force && '--force' || '' }}
 
       - name: Commit state
-        if: ${{ always() && !inputs.dry_run }}
+        if: ${{ always() && !inputs.dry_run && steps.check.outputs.needed == 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
