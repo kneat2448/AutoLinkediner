@@ -1,23 +1,74 @@
 {
-  "status": "approved",
-  "date": "2026-10-05",
-  "created_at": "2026-10-05T16:37:08.722174+05:30",
+  "status": "awaiting_approval",
+  "date": "2026-10-06",
+  "created_at": "2026-10-06T09:55:59.186859+05:30",
   "candidate": {
-    "id": "news:3cbec84de8bf",
-    "source": "news",
-    "title": "Building advertising for the way people use AI",
-    "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-    "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-    "score": 100.0,
-    "created_at": "2026-10-05T10:00:00+00:00",
-    "raw_text": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+    "id": "x:2106654992346304856",
+    "source": "x",
+    "title": "GERMANY JUST ENTERED THE FRONTIER LLM RACE.",
+    "url": "https://x.com/amank1412/status/2106654992346304856",
+    "summary": "GERMANY JUST ENTERED THE FRONTIER LLM RACE. Meet Kolibri a new sovereign open source model. > Beats Qwen2 635B > Beats Nemotron 3 Super > Beats Mistral Small 4 Built on a custom MoE Transformer architecture. pic.twitter.com/zIXdHpib8e",
+    "score": 0.0,
+    "created_at": "2026-10-05T11:05:43.087540+00:00",
+    "raw_text": "GERMANY JUST ENTERED THE FRONTIER LLM RACE.\n\nMeet Kolibri a new sovereign open source model.\n\n> Beats Qwen2 635B\n> Beats Nemotron 3 Super\n> Beats Mistral Small 4\n\nBuilt on a custom MoE Transformer architecture. pic.twitter.com/zIXdHpib8e",
     "extra": {
-      "outlet": "OpenAI",
-      "weight": 1.0,
+      "author": "amank1412",
+      "tweet_text": "",
+      "links": [],
       "coverage": 0
     }
   },
   "shortlist": [
+    {
+      "id": "x:2107166825377362034",
+      "source": "x",
+      "title": "This new creatine study is insane.",
+      "url": "https://x.com/morellifit/status/2107166825377362034",
+      "summary": "This new creatine study is insane. People who never trained took 10g of creatine a day and gained more lean tissue (2.43 lbs) than people who were lifting 3x a week with no creatine (0.31 lbs). Here's the breakdown: (1/18) pic.twitter.com/SlyHDWZSTU",
+      "score": 0.0,
+      "created_at": "2026-10-06T04:25:37.948456+00:00",
+      "raw_text": "This new creatine study is insane.\n\nPeople who never trained took 10g of creatine a day and gained more lean tissue (2.43 lbs) than people who were lifting 3x a week with no creatine (0.31 lbs).\n\nHere's the breakdown: (1/18) pic.twitter.com/SlyHDWZSTU",
+      "extra": {
+        "author": "morellifit",
+        "tweet_text": "",
+        "links": [],
+        "coverage": 0
+      }
+    },
+    {
+      "id": "x:2107204457738256749",
+      "source": "x",
+      "title": "For decades, researchers have sought materials that sort electrons by spin while their magnetism cancels.",
+      "url": "https://x.com/valsai/status/2107204457738256749",
+      "summary": "For decades, researchers have sought materials that sort electrons by spin while their magnetism cancels. In 3 days, 90+ Opus 5.5 agents helped us uncover two room-temperature magnetic semiconductor candidates in simulations: YBaMnFeO₅ and KV[Cr(CN)₆]. KV[Cr(CN)₆] was… pic.twitter.com/lRf8itW2IZ",
+      "score": 0.0,
+      "created_at": "2026-10-06T04:25:38.745511+00:00",
+      "raw_text": "For decades, researchers have sought materials that sort electrons by spin while their magnetism cancels.\n\nIn 3 days, 90+ Opus 5.5 agents helped us uncover two room-temperature magnetic semiconductor candidates in simulations: YBaMnFeO₅ and KV[Cr(CN)₆].\n\nKV[Cr(CN)₆] was… pic.twitter.com/lRf8itW2IZ",
+      "extra": {
+        "author": "valsai",
+        "tweet_text": "",
+        "links": [],
+        "coverage": 0
+      }
+    },
+    {
+      "id": "x:2107146556176798081",
+      "source": "x",
+      "title": "Introducing Core, The Personal Al Computer",
+      "url": "https://x.com/zainmfj/status/2107146556176798081",
+      "summary": "Introducing Core, The Personal Al Computer The most powerful technology humanity has built should belong to you Order today: https://t.co/tlNxSu5B5C pic.twitter.com/C8Rqv4eHLl",
+      "score": 0.0,
+      "created_at": "2026-10-06T04:25:40.012324+00:00",
+      "raw_text": "Introducing Core, The Personal Al Computer\n\nThe most powerful technology humanity has built should belong to you\n\nOrder today: https://t.co/tlNxSu5B5C pic.twitter.com/C8Rqv4eHLl",
+      "extra": {
+        "author": "zainmfj",
+        "tweet_text": "",
+        "links": [
+          "https://ghost.ai/"
+        ],
+        "coverage": 0
+      }
+    },
     {
       "id": "x:2101311813908652069",
       "source": "x",
@@ -85,58 +136,29 @@
       }
     },
     {
-      "id": "news:3cbec84de8bf",
-      "source": "news",
-      "title": "Building advertising for the way people use AI",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "score": 100.0,
-      "created_at": "2026-10-05T10:00:00+00:00",
-      "raw_text": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "id": "hn:49969183",
+      "source": "hackernews",
+      "title": "Beam: Reflection's 501B open-weight model",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "summary": "",
+      "score": 369.0,
+      "created_at": "2026-10-05T19:16:35+00:00",
+      "raw_text": "",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
+        "discussion_url": "https://news.ycombinator.com/item?id=49969183",
+        "num_comments": 109,
+        "coverage": 1
       }
     },
     {
-      "id": "hf:2609.38078",
-      "source": "huggingface",
-      "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
-      "url": "https://huggingface.co/papers/2609.38078",
-      "summary": "Vision-language-action (VLA) models have advanced robotic manipulation, but their zero-shot generalization in new tasks and environments remains limited, and their reliance on specialized training keeps them from benefiting directly from rapidly advancing general-purpose vision-language models (VLMs). In parallel, recent agentic robotic systems leverage VLMs for high-level reasoning or coding agents for robot control, but often depend on extensive external models and tools, introducing addition…",
-      "score": 65.0,
-      "created_at": "2026-10-05T00:00:00.000Z",
-      "raw_text": "Vision-language-action (VLA) models have advanced robotic manipulation, but their zero-shot generalization in new tasks and environments remains limited, and their reliance on specialized training keeps them from benefiting directly from rapidly advancing general-purpose vision-language models (VLMs). In parallel, recent agentic robotic systems leverage VLMs for high-level reasoning or coding agents for robot control, but often depend on extensive external models and tools, introducing additional complexity and cost. This motivates us to ask: Can a general-purpose VLM itself operate a robot more like the human teleoperator by reasoning directly from observations, issuing actions, and continuously adapting to execution feedback, without relying on external models such as learned action experts, coding agents or grounding tools like SAM3? In this work, we introduce MotorMind, a robot manipulation harness that connects VLM-proposed mid-level actions to deterministic robot control and feedback, with asynchronous monitoring and background memory updates. Without task-specific policy training, coding agents, or additional grounding tools such as SAM3, MotorMind achieves 66.7% success on the base LIBERO-PRO suites and 53.8% under perturbations, compared with at most 13.3% and 19.2%, respectively, for the prior zero-shot methods we evaluate. The same interface reaches 95% average success on a real xArm6 robot across direct manipulation and human-perturbation settings. Replacing the backbone with a stronger VLM further improves performance, while the remaining failures - primarily due to visual grounding, embodied reasoning, and action knowledge - decrease as VLM capability improves. These results show that a general-purpose VLM, when equipped with an appropriate mid-level action representation and asynchronous execution harness, can perform effective zero-shot robotic manipulation.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2609.38078",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:7a474ffcdd2c",
+      "id": "news:549ccc4aeee7",
       "source": "news",
-      "title": "People really hate AI, so why can’t they get enough?",
-      "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
-      "summary": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI…",
-      "score": 85.0,
-      "created_at": "2026-10-05T08:00:00+00:00",
-      "raw_text": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI company. We don’t know if we really like what we’re doing.” “I guess that makes me a self-loathing AI journalist,” I replied. It was a joke! I love my job. But I do not love many of the things the technology I write about has become: warped by hype , steered by zealots , inescapable . The CEO of Springboards and I are far from alone. Around the world, a love/hate attitude toward AI is very much the vibe right now. On the one hand, public feelings are souring fast. According to the Pew Research Center, more adults in the US think AI will have a negative impact on them personally, and on society in general, than expect a positive one. The pessimism is strongest among the young. More than half of people worldwide say that AI products and services make them nervous, according to a report from Stanford University . In a Gallup poll in May, 71% of US adults said they would oppose construction of a new AI data center in their area, far more than the 53% who said they would oppose a new nuclear power plant. And in an NBC poll in March, AI was less popular than ICE. Yet the number of people using AI is still skyrocketing. ChatGPT hit a billion monthly users in May, according to the market analysis firm Sensor Tower. Google DeepMind’s Gemini is close behind, logging 950 million users in July. According to Pew, half of US adults now say they use a chatbot , more than twice the number who said they did in 2023. One in four people say they do so every day. And it’s a global habit: More than a third of adults across all 38 OECD countries (a group of the world’s wealthiest democracies) report having used generative AI tools in the last three months . All these surveys paint a picture of two contradictory truths: A lot of people really do not like AI and a lot of people cannot get enough of it. What’s going on? It’s possible that these are two distinct groups, but I doubt it. The numbers don’t add up unless the Venn diagram is on its way to being a circle. It’s also possible that the more people use AI, the more negative their opinions about it will be. There’s at least a correlation to back this up : The Global North, where adoption is highest, skews pessimistic. In the Global South, where adoption levels are lower, people are more optimistic. But here’s what I really think is going on: When people say they hate AI it’s not the technology they dislike but, rather, the relentless drive of the companies behind it to push the tech upon us in as many ways as possible . They’re telling us to brace for the biggest social and economic upheaval in generations. How do they expect people to feel? In many ways, we’ve been here before. We saw a similar dynamic play out with social m…",
-      "extra": {
-        "outlet": "MIT Technology Review",
-        "weight": 0.85,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:8aaa4b741173",
-      "source": "news",
-      "title": "Trump unveils his new Super Intelligence Force",
-      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
-      "summary": "This new task force is Trump's latest response to the debate over AI safety.",
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
       "score": 80.0,
-      "created_at": "2026-10-04T15:15:10+00:00",
-      "raw_text": "This new task force is Trump's latest response to the debate over AI safety.",
+      "created_at": "2026-10-05T20:36:48+00:00",
+      "raw_text": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -144,73 +166,67 @@
       }
     },
     {
-      "id": "hf:2609.38839",
-      "source": "huggingface",
-      "title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
-      "url": "https://huggingface.co/papers/2609.38839",
-      "summary": "Long-horizon video generation requires models to effectively leverage an increasingly long generation history. As the generated history grows, retaining all previous content becomes increasingly expensive and redundant, making effective historical selection essential. Existing approaches often determine historical relevance based on the current content. However, information relevant to the present is not necessarily useful for future generation, while seemingly less relevant history may become…",
-      "score": 48.0,
-      "created_at": "2026-10-05T00:00:00.000Z",
-      "raw_text": "Long-horizon video generation requires models to effectively leverage an increasingly long generation history. As the generated history grows, retaining all previous content becomes increasingly expensive and redundant, making effective historical selection essential. Existing approaches often determine historical relevance based on the current content. However, information relevant to the present is not necessarily useful for future generation, while seemingly less relevant history may become important later. Our key insight is that historical information should be selected according to its relevance to future information needs. Capturing these needs does not require generating the full future; instead, a compact representation of what becomes important next is sufficient to guide historical selection. Building on this insight, we propose FrameMorrow, a prospective frame selector that predicts a small set of prospective tokens representing future information needs and uses them to identify relevant information from history. FrameMorrow selects explicit historical frames rather than model-specific internal states, enabling plug-and-play integration across diverse generators, including closed-source models, with little additional inference cost. We evaluate FrameMorrow across five benchmarks and 11 generative models spanning long-video generation, interactive generation, and action-conditioned world models. Extensive experiments demonstrate consistent improvements in long-range consistency, visual quality, and action alignment across diverse generation settings.",
+      "id": "news:78ad53815846",
+      "source": "news",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "score": 100.0,
+      "created_at": "2026-10-05T15:00:00+00:00",
+      "raw_text": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2609.38839",
+        "outlet": "OpenAI",
+        "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "hn:49952111",
+      "id": "hn:49970667",
       "source": "hackernews",
-      "title": "Show HN: AI search for every photo and every frame of video on macOS",
-      "url": "https://github.com/allenv0/SCM",
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
       "summary": "",
-      "score": 153.0,
-      "created_at": "2026-10-04T09:24:52+00:00",
+      "score": 257.0,
+      "created_at": "2026-10-05T21:00:21+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49952111",
-        "num_comments": 69,
+        "discussion_url": "https://news.ycombinator.com/item?id=49970667",
+        "num_comments": 179,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2610.02826",
-      "source": "huggingface",
-      "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
-      "url": "https://huggingface.co/papers/2610.02826",
-      "summary": "Successful trajectories on difficult tasks provide valuable supervision for model improvement, but specialized harnesses introduce interventions that may be unavailable during deployment. We propose Recursive Self-Rewrite (RSR), a framework that uses one base model, Qwen-3.8-27B, to discover successful solutions under diverse harnesses and reconstruct them as training trajectories under a general harness. A planner extracts procedures into runbooks, a critic screens for verifier and solution le…",
-      "score": 37.0,
-      "created_at": "2026-10-05T00:00:00.000Z",
-      "raw_text": "Successful trajectories on difficult tasks provide valuable supervision for model improvement, but specialized harnesses introduce interventions that may be unavailable during deployment. We propose Recursive Self-Rewrite (RSR), a framework that uses one base model, Qwen-3.8-27B, to discover successful solutions under diverse harnesses and reconstruct them as training trajectories under a general harness. A planner extracts procedures into runbooks, a critic screens for verifier and solution leakage and guides recursive revision, and an executor follows qualified runbooks in fresh sandboxes. Across approximately 3K self-curated terminal tasks, three harnesses jointly solve 759 tasks, 34.3% more than the strongest individual harness in the recorded pool. RSR expands 2,001 successful source trajectories into 11,094 rewritten trajectories for supervised finetuning. Training on these trajectories outperforms both the base model and direct trajectory SFT. Compared with the base model, pass@3 increases from 57.0% to 74.2% on Terminal-Bench 2, from 1.5% to 9.1% on Terminal-Bench 4, from 39.0% to 63.0% on our self-curated Terminal-Bench Hard, and from 3.0% to 6.0% on our Software Terminal-Bench. Process reward on Long-Horizon Terminal-Bench rises from 0.21 to 0.29. These results show how diverse harness-assisted experiences can be reconstructed into reusable capabilities for a model operating under a general harness.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.02826",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:49950052",
+      "id": "hn:49961057",
       "source": "hackernews",
-      "title": "Religious scholars met with Anthropic",
-      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-      "summary": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;y8FW0\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;y8FW0</a>",
-      "score": 161.0,
-      "created_at": "2026-10-04T02:34:22+00:00",
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "summary": "",
+      "score": 612.0,
+      "created_at": "2026-10-05T05:37:40+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49950052",
-        "num_comments": 416,
+        "discussion_url": "https://news.ycombinator.com/item?id=49961057",
+        "num_comments": 497,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Building advertising for the way people use AI\n\nText:\nOpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.\n\nArticle text (excerpt):\nA new visual ad format helps people explore products and services, with expanded measurement to help businesses understand ad impact.\nWe’re introducing a new visual ad format in ChatGPT, expanding our measurement tools and partnerships, and developing new ways to understand brand suitability.\nChatGPT reaches 1.2 billion people each week, making it the world’s largest AI-native consumer platform. Advertising helps us bring the benefits of AI to more people. That broad access is central to our mission, and a strength of our business. It allows us to serve a much larger market than subscriptions alone, while giving businesses a new way to reach people as they explore ideas, make decisions and discover products and services relevant to what they’re trying to accomplish.\nOur new visual ad format helps people imagine how products and services could fit into their lives. Through images showing product inspiration, product usage, or the experiences they make possible, people can discover a new brand, understand what makes an offering distinctive, and decide what to buy. For advertisers, this creates new opportunities to tell their story through images.\nInitially, we’ll test this new ad format during image generation in ChatGPT. Ads will be clearly labeled, and remain separate from the image being created. As with our other ad formats, advertising does not influence the answers ChatGPT provides.\nTesting will begin later this month in the US with an initial group of advertisers.\nOur measurement philosophy for ChatGPT Ads is focused on supporting both in-house and partner-led measurement solutions. Today, w e’re expanding our measurement tools and partner ecosystem to help advertisers understand how ChatGPT Ads contribute to their business using the systems they already rely on.\nIntegrations with Hightouch , Tealium , and LiveRamp make it easier for advertisers to send conversion data from their existing systems to ChatGPT Ads.\nWe now support leading attribution partners across the web and app space, enabling Conversions API, reporting, and click attribution solutions with companies including AppsFlyer , Triple Whale , Adjust , DV Rockerbox , Northbeam , Branch , Singular , Kochava , Airbridge, and Tenjin. We also have partnerships with full-funnel and advanced measurement partners, including Fospha, Measured, and INCRMNTAL.\nIncrementality measurement plays an important role in building a fuller understanding of advertising’s business impact. While our work on incrementality is still in its early stages, we’re partnering with Haus, Measured, and WorkMagic to explore geo-based experiments to help advertisers understand the causal impact of ChatGPT Ads.\nEarly partner findings illustrate strong performance across different measurement approaches. According to DV Rockerbox, WeightWatchers’ attributed cost per acquisition on ChatGPT Ads was 15.3% lower than its blended paid-search benchmark. WorkMagic reported statistically significant lift for wellness brand Dose, with 67% of incremental purchases coming from net-new customers. And according to Triple Whale, 93% of Portland Leather’s visitors from ChatGPT Ads were new.\nRead more about these measurement tools and partnerships on our Ads Blog here ⁠ (opens in a new window) .\nConfidence in advertising also depends on understanding the environment where ads can appear. OpenAI’s advertising policies and guardrails are designed to protect users, preserve trust, and give brands confidence in their ads placement. Our placement guardrails assess whether a conversation is appropriate for advertising, helping keep ads out of emotionally vulnerable, sensitive, or otherwise unsuitable contexts.\nAutomated review, human oversight, and ongoing monitoring help us identify and address policy violations and improve our safeguards over time. For narrow placement requirements specific to a brand’s own policies, Negative Phrases are now available to qualifying advertisers.\nWe’re also developing brand suitability evaluation pilots with DoubleVerify (DV) and Integral Ad Science (IAS) to help advertisers build a better understanding of the ads environment. This approach allows independent partners to assess how our brand safety standards are applied in a controlled testing environment, without accessing private user conversations. Our goal is to give advertisers greater transparency into how those safeguards work while protecting conversation privacy.\nOur new visual ad format helps people discover products and services and imagine how they could fit into their lives, while giving advertisers new ways to tell their stories more visually. Across ChatGPT Ads, expanded measurement and brand suitability efforts help businesses understand campaign impact and build confidence in the contexts where their ads appear. These features are consistent with our ads principles: ChatGPT’s answers stay independent, conversations stay private, and users remain in control of their experience.\nToday’s updates are part of our broader ambition to help people discover products and services, evaluate options, and make decisions in ChatGPT. We will continue to evolve our ad platform with new formats and capabilities to help businesses reach customers in useful and relevant ways and provide opportunities for businesses of all sizes to grow and thrive.\nBusinesses can sign up today for ads at ads.openai.com ⁠ (opens in a new window) ⁠⁠.",
-  "research_links": [],
-  "source_credit": "OpenAI",
-  "source_tag": "via OpenAI",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAMRasOFGUkXAejifD04dOzU-TppbNgAAs0Saxv7HxlWWN92o5F7h84BAAMCAAN5AAM9BA",
-  "text": "ChatGPT is officially putting visual ads inside your image generation prompts.\n\nOpenAI announced a new visual ad format to help brands reach its 1.2 billion weekly users. Instead of just text, these ads will show product images to help people discover new businesses.\n\nThe US test begins later this month. These ads will appear specifically during image generation. OpenAI notes they will be clearly labeled and kept separate from the actual image being created.\n\nTo win over advertisers, OpenAI is launching integrations with measurement partners like LiveRamp and AppsFlyer. They are also building guardrails to keep ads out of sensitive or emotionally vulnerable conversations.\n\nThis matters because conversational AI has long felt like a clean, ad-free utility. This shift shows that subscriptions alone are not enough to support OpenAI's goal of broad access, turning ChatGPT into a traditional ad-supported media channel.\n\nMy read: the conversational interface is about to get a lot noisier. Even if OpenAI keeps ads separate from ChatGPT's actual answers, the direct, uninterrupted connection between user and machine is fading.\n\nThe caveat is that this is still a limited, early test. The brand safety tools are only in pilot phases, and we do not yet know how users will tolerate commercial interruptions in their private chats.\n\nWould you pay a higher subscription fee to keep your AI completely ad-free, or are you comfortable seeing ads in exchange for free access?\n\nSource: OpenAI\n\n#AI #OpenAI #Marketing",
-  "headline": "OpenAI is bringing visual ads to ChatGPT",
+  "context": "Title: GERMANY JUST ENTERED THE FRONTIER LLM RACE.\n\nTweet text:\nGERMANY JUST ENTERED THE FRONTIER LLM RACE.\n\nMeet Kolibri a new sovereign open source model.\n\n> Beats Qwen2 635B\n> Beats Nemotron 3 Super\n> Beats Mistral Small 4\n\nBuilt on a custom MoE Transformer architecture. pic.twitter.com/zIXdHpib8e\n\nResearch notes on: Germany enters the frontier AI race with the release of Kolibri, a sovereign open-source LLM.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from Cybernews: \"Germany’s sovereign AI model Kolibri challenges US and Chinese rivals\"\nKey Takeaways by nexos.ai , reviewed by Cybernews staff.\nThe new open-weight large language model (LLM), designed for public administration, is outperforming competitors from Alibaba and Nvidia.\nThe Heidelberg-based AI startup Aleph Alpha released Kolibri on October 3rd, 2026, which is German Unity Day.\nKolibri is an English-German Mixture-of-Experts Transformer, meaning it is divided into separate sub-networks called “experts.” The model uses 3.46 billion active parameters per token, out of 78.1B total.\nThe model was specifically built for “sovereign mission-critical work” in regulated areas, including public administration, industrials, and aerospace, taking into account their particular “domain-specific language, regulatory, and procedural realities.”\nThe company says Kolibri’s small, efficient size allows it to run on-premises without sending internal data to third-party inference services.\nKolibri complies with the EU AI Act, the General-Purpose AI Code of Practice, and the General Data Protection Regulation (GDPR), according to Aleph Alpha, with “copyright law being a focus of our work to trustworthy technology.”\nThe model was built in Germany and trained on infrastructure in Germany and Finland, under the law of these countries.\nIt was specifically trained to answer “I don’t know” when it cannot provide an answer, reducing the risk of hallucinations.\nKolibri was developed as a German and English bilingual model , including organic German data – 21.3% of the pre-training tokens are German.\n“We started the year with the conviction that Europe needs its own sovereign AI. Built in Germany from scratch and on infrastructure in Europe specifically for our customers,” Aleph Alpha’s X post reads.\nAleph Alpha compared Kolibri to 3 other open-weight models with up to 4 times its active parameter count: Alibaba’s Qwen 3.6-35B-A3B, Mistral Small 4 119B-A6B, and Nvidia’s Nemotron 3 Super 120B-A12B.\nKolibri outperformed all rivals across mathematical reasoning in both German and English (AIME 2025 and 2026 benchmark), deep reasoning (GPQA diamond), and code (LiveCodeBench v6).\nThe model also showed superiority across benchmarks assessing an AI agent’s ability to find and navigate through large amounts of information.\nKolibri, however, fell behind Qwen’s 3.6-35B-A3B across long-context comprehension and retrieval.\nThe model can be downloaded from Hugging Face and used under the Apache 2.0 license terms.\nIt requires the Aleph-Alpha-inference package, which provides\n\nCoverage from Fast Company: \"What’s the difference between proprietary, open weight, and open source AI?\"\nMost people know that when it comes to large language models (LLMs), not all are created equal. Some models are clearly more “intelligent,” while others offer benefits like being significantly cheaper ...\n\nCoverage from OfficeChai: \"German AI Startup Aleph Alpha Launches Kolibri, Billed As A Sovereign European Model\"\nEven as the frontiner of AI moves ever-forward, there’s also a growing number of “sovereign” AI models.\nGermany-based Aleph Alpha has released Kolibri, an English-German language model it is positioning as a sovereign alternative for governments and regulated industries. The company put the weights on Hugging Face on Saturday under the Apache 2.0 license, so organisations can download it and run it on their own hardware. In its announcement on X, Aleph Alpha described Kolibri as a small bird with fast wings, a nod to the model’s emphasis on efficiency.\nThe launch arrives at an unusual moment for the company, which is in the middle of being absorbed by Canada’s Cohere.\nKolibri is a mixture-of-experts transformer with 78.1 billion total parameters, of which only about 3.46 billion (roughly 4.4%) are active for any given token. Each of its 50 layers holds 384 routed experts, with six selected per token alongside one shared expert. Attention is a hybrid: four sliding-window layers for every full-attention layer, which keeps long contexts affordable.\nOn context, the model was trained natively up to 262,144 tokens, and Aleph Alpha says it has validated quality and serving efficiency up to 1,048,576 tokens. The company recommends staying at or below 262,144 tokens for latency-sensitive or complex work. Kolibri also has an explicit reasoning mode with four effort settings (none, low, medium and high) and supports tool calling.\nAleph Alpha says it trained the model from scratch on roughly 24 trillion tokens across pre-training, mid-training and long-context extension. German makes up more than 20% of the data mix, and the company added over 2 trillion German tokens that it either curated from the web or generated synthetically. Synthetic data is fast becoming standard practice in the industry; Cohere’s CEO Aidan Gomez has said that the overwhelming majority of the data Cohere generates for new models is synthetic . A custom tokenizer built around German word structure is meant to make German text cheaper to process without hurting English.\nPost-training combined supervised fine-tuning on curated German and English data with reinforcement learning across more than 1.2 million internally curated tasks covering reasoning, tool use, instruction following, code and retrieval. The company also trained the model to abstain when the supplied evidence doesn’t support an answer, using what it calls the Merlin-Arthur protocol, a technique aimed at reducing hallucinations in r\n\nBackground (Sovereign AI, Wikipedia):\nSovereign AI is a loosely defined term used in policy and industry debates for national or regional efforts to increase control over artificial intelligence (AI) capabilities and reduce critical dependence on foreign providers. Projects described with the term can involve computing infrastructure, cloud services, models and data, technical skills, public procurement and regulation. The term has no single agreed scope. Some initiatives rely on imported processors, foreign cloud technology or international partnerships while retaining local control over data, deployment or access.\n\nBackground (Mixture of experts, Wikipedia):\nMixture of experts (MoE) is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions. MoE represents a form of ensemble learning. They were also called committee machines.",
+  "research_links": [
+    "https://cybernews.com/ai-news/germany-kolibri-ai/",
+    "https://www.fastcompany.com/91594272/what-is-the-difference-between-proprietary-open-weight-open-source-ai-llm-openai-anthropic-llama-deepseek",
+    "https://officechai.com/ai/kolibri-aleph-alpha/"
+  ],
+  "source_credit": "@amank1412 on X, with reporting from Cybernews and Fast Company",
+  "source_tag": "via @amank1412 on X",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAMhasR436I3404oLy4OKDx-vmRKOlkAAikSaxufGClWjB7A1BR5HgABAQADAgADeQADPQQ",
+  "text": "3.46 billion parameters.\n\nA German model that size just beat Nvidia and Alibaba on deep reasoning.\n\nThe size is only half the story.\n\nHeidelberg-based AI startup Aleph Alpha just released Kolibri. It is an open-weight model designed specifically for regulated industries like public administration, industrials, and aerospace.\n\nIt is built as a Mixture-of-Experts transformer. While the model holds 78.1 billion parameters in total, it only uses 3.46 billion active parameters per token.\n\nThat efficiency means organizations can run it entirely on-premises.\n\nFor highly regulated sectors, this solves the data privacy bottleneck. No internal data ever leaves your own servers.\n\nThe model also targets a major corporate pain point: hallucinations. Aleph Alpha trained Kolibri to explicitly say \"I don't know\" when it cannot find the answer in its source data.\n\nIn benchmarks, it outperformed rivals from Nvidia, Alibaba, and Mistral on math, deep reasoning, and coding. It did this despite those competitors having up to four times its active parameter size.\n\nThere are clear limitations:\n• It fell behind Alibaba's Qwen on long-context retrieval\n• It requires staying below 262,144 tokens for complex work\n• Aleph Alpha is currently being absorbed by Cohere\n\nSovereignty still comes with engineering trade-offs.\n\nMy read: sovereign AI is no longer just a political buzzword. For industries that cannot legally send data to US cloud providers, highly optimized, local models are becoming the default choice.\n\nWould you trust a model that is trained to say \"I don't know\" over one that guesses?\n\nSource: @amank1412 on X, with reporting from Cybernews and Fast Company",
+  "alt_openings": "Shape: Corrective\nLine 1: High-performing AI models do not require American cloud infrastructure.\nLine 2: A new German model is beating Silicon Valley giants from local servers.\nWhen to prefer: Use this when writing for European executives or policy-focused audiences who care deeply about data independence.\n\nShape: Your X\nLine 1: Your next corporate AI assistant might run entirely on your own servers.\nLine 2: A new open-weight model just made on-premises reasoning competitive with the cloud.\nWhen to prefer: Use this for IT directors and CTOs who are struggling to clear cloud-based AI tools with their compliance teams.\n\nShape: Story in motion\nLine 1: Germany just launched an open-weight model to challenge US and Chinese AI rivals.\nLine 2: It is designed specifically to run inside highly regulated European industries.\nWhen to prefer: Use this for general tech professionals who follow the geopolitical and market race between global AI players.\n\nPick: The \"Bare number first\" opening (the original). It is the most arresting because 3.46 billion parameters is an incredibly small size for a model competing with frontier giants, creating an immediate technical paradox that forces the reader to click \"see more\" to find out how they pulled it off.",
+  "voice_score": 4,
+  "firewall_notes": [],
+  "headline": "How a tiny German AI beats Nvidia on reasoning",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-05.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-06.png"
 }
