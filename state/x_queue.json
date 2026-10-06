@@ -53,5 +53,26 @@
     "links": [
       "https://ghost.ai/"
     ]
+  },
+  {
+    "id": "2107164650249101695",
+    "url": "https://x.com/openai/status/2107164650249101695",
+    "author": "openai",
+    "raw_text": "We're expanding our approach to content provenance to include text in response to EU regulatory requirements, while recognizing the significant limitations of current text watermarking technology.\n\nOur tools already help verify whether an image or audio file was created with our…",
+    "added_at": "2026-10-06T07:30:23.961829+00:00"
+  },
+  {
+    "id": "2107138967644541129",
+    "url": "https://x.com/skull8888888888/status/2107138967644541129",
+    "author": "skull8888888888",
+    "raw_text": "Introducing flow-1, our new model trained with RL to find errors in agent traces.\n\nIt matches GPT-6-sol in trace intelligence while being 23x cheaper. It also costs 25% less to run than GPT-6-luna.\n\nflow-1 finally makes it possible to monitor and understand every agent run,… pic.twitter.com/awkaI7fmVP",
+    "added_at": "2026-10-06T07:30:24.845974+00:00"
+  },
+  {
+    "id": "2107186849370247235",
+    "url": "https://x.com/reflection_ai/status/2107186849370247235",
+    "author": "reflection_ai",
+    "raw_text": "Introducing Beam: a highly efficient agentic open model with 501B total parameters and 23B active.\n\n- Frontier reasoning efficiency\n- Advances the Western open frontier on coding & agentic tasks\n- Trained end-to-end from scratch\n\nFull weights release this month.\n\nLearn more about… pic.twitter.com/1rMABCywUG",
+    "added_at": "2026-10-06T07:30:25.697149+00:00"
   }
 ]
