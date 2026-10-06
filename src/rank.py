@@ -169,6 +169,20 @@ def shortlist(candidates: list[Candidate], size: int = config.SHORTLIST_SIZE) ->
 
 # ---------- LLM pick ----------
 
+_AI_TEXT_RE = re.compile(
+    r"\b(AI|A\.I\.|LLMs?|GPT[\w.-]*|ChatGPT|Claude|Gemini|Grok|Llama|Mistral|Qwen|DeepSeek|OpenAI|Anthropic|"
+    r"DeepMind|Nvidia|neural|machine learning|deep learning|models?|agents?|agentic|chatbots?|robot(s|ics)?|"
+    r"transformers?|MoE|inference|fine-?tun\w*|artificial intelligence)\b",
+    re.IGNORECASE,
+)
+
+
+def is_ai_related(candidate: Candidate) -> bool:
+    """Cheap check that a (forwarded) item is about AI at all."""
+    text = " ".join([candidate.get("title", ""), candidate.get("raw_text", ""),
+                     candidate.get("extra", {}).get("tweet_text", "")])
+    return bool(_AI_TEXT_RE.search(text))
+
 SOURCE_LABELS = {
     "hackernews": "Hacker News",
     "reddit": "Reddit",

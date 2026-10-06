@@ -54,6 +54,9 @@ def compose(pending: dict[str, Any]) -> dict[str, Any]:
     candidate = pending["candidate"]
     draft = write.write_post(candidate["title"], pending["context"], pending["source_credit"])
     pending["text"] = draft.text
+    pending["alt_openings"] = draft.alt_openings
+    pending["voice_score"] = draft.voice_score
+    pending["firewall_notes"] = draft.notes
     pending["headline"] = write.write_headline(draft.body)
     pending["problems"] = write.validate_post(draft.body, draft.hashtags)
     pending["image"] = str(render.render(pending["headline"], pending["source_tag"], image_path(),
@@ -100,9 +103,15 @@ def send_draft(pending: dict[str, Any], intro: str = "Today's draft") -> dict[st
         footer += f"\nDiscussion: {discussion}"
     if pending.get("research_links"):
         footer += "\nResearched from:\n" + "\n".join(f"• {u}" for u in pending["research_links"])
+    if pending.get("voice_score") is not None:
+        footer += f"\n\nVoice check: first draft scored {pending['voice_score']}/10"
+        if pending.get("firewall_notes"):
+            footer += f", {len(pending['firewall_notes'])} line(s) rewritten"
     if pending.get("problems"):
         footer += "\n\n⚠️ Validator notes: " + "; ".join(pending["problems"])
     say(f"{footer}\n\n{telegram.INSTRUCTIONS}")
+    if pending.get("alt_openings"):
+        say("Alternate openings (send an edit to swap one in):\n\n" + pending["alt_openings"])
     pending["status"] = AWAITING
     state.save(state.PENDING, pending)
     return pending
@@ -110,9 +119,14 @@ def send_draft(pending: dict[str, Any], intro: str = "Today's draft") -> dict[st
 
 def draft_from(candidates: list[Candidate], rejected_ids: list[str] | None = None,
                intro: str = "Today's draft") -> dict[str, Any] | None:
-    """Shortlist → LLM pick → build → send. Returns the pending draft, or None if nothing to pick."""
+    """Shortlist → LLM pick → build → send. Returns the pending draft, or None if nothing to pick.
+
+    The owner's forwarded AI tweets are the news they want covered, so when any are queued
+    the pick is made among those alone; the rest of the shortlist is kept for "next".
+    """
     shortlist = rank.shortlist(candidates)
-    chosen = rank.pick(shortlist)
+    owner_picks = [c for c in shortlist if c["source"] == "x" and rank.is_ai_related(c)]
+    chosen = rank.pick(owner_picks or shortlist)
     if not chosen:
         return None
     return send_draft(build_draft(chosen, shortlist, rejected_ids or []), intro)

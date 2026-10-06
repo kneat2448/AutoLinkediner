@@ -58,6 +58,8 @@ A free, mostly-automated pipeline that publishes **one LinkedIn post per day** a
 ├── prompts/
 │   ├── pick.md
 │   ├── write_post.md
+│   ├── voice_firewall.md
+│   ├── research.md
 │   └── headline.md
 ├── templates/
 │   ├── clean_white.html
@@ -130,54 +132,58 @@ Each source module must fail gracefully: log the error, return `[]`, and let the
 
 ## Writing rules (voice spec)
 
-**Audience:** smart professionals who don't follow AI closely. They should finish the post understanding what specifically happened, how it works, and why it matters to them, and leave with something to bring up at work.
+The craft follows the $100K Ghostwriter skills (post-writer, hook-writer, voice-firewall, post-brief) in `the-100k-ghostwriter/`, adapted for news posts: the owner never did the thing in the story, so first person is only for opinions.
 
-**Voice:** a sharp, engaging analyst with a point of view.
-- Confident, curious, energetic, but grounded. Energy comes from specifics and a clear angle, never hype or exclamation marks.
-- Plain words, short punchy sentences, varied rhythm.
-- One clear angle per post (e.g. "how X is actually used for Y", a surprising consequence, who wins/loses, a counterintuitive tension).
-- Takes a clear stance while staying honest about uncertainty.
-- Goes into the details: who, what exactly, how it works, the key numbers, what's new, specific limitations.
+**Audience and goal:** smart professionals who don't follow AI closely. Goal: gain relevant followers. Readers should finish knowing what specifically happened, how it works, and why it matters to their work, with a line worth repeating to a colleague.
 
-**Structure (about 200–320 words):**
-1. **Hook (line 1, under 15 words):** punchy and specific, true to the source. No clickbait.
-2. **What happened and how it works:** 3–5 short paragraphs built around the angle. Explain jargon in passing.
-3. **Why it matters:** the concrete real-world implication for work, money, everyday life, or society.
-4. **The take:** a clear stance, one memorable/quotable line, and the specific caveats.
-5. **A closing question** that people will want to argue about: a concrete choice or dilemma (not "Thoughts?").
-6. **Credit:** a line such as `Source: {publication/author}`. The link itself goes in the first comment in Phase 3; in Phase 1–2, include it in the Telegram message only.
+**Voice:** a sharp, plain-spoken analyst. Specific, rhythmic, confident, never hype. The energy comes from concrete facts and a clear angle.
+
+**The opening (must work before LinkedIn's "see more"):**
+1. **Line 1, under 15 words,** in one hook family: tool as subject, bare number first, corrective, "your X", or story in motion. It opens a question that stays unanswered before "see more".
+2. **Line 2 deepens line 1:** it raises the stakes, makes the cost concrete, reverses the expected explanation, or widens the scope. It never repeats or contradicts line 1.
+3. **Line 3 (first after "see more"), under 10 words,** re-promises the payoff.
+4. **Never open with** "Most people think", "Here's what", "I have a confession", "Let me tell you", "Unpopular opinion", "Imagine", or any line that could start anyone's post.
+
+**The body:**
+- One thought per line, with white space between thoughts.
+- Vary sentence length: a longer explaining sentence, then a short landing line.
+- Conclusion early, and the scene before the principle.
+- Concrete beats abstract. Real numbers from the source go on many lines, copied exactly, but don't force a number onto every line.
+- At most one short "•" list of 3–5 concrete items.
+- A clear, quotable take, and the specific caveats (e.g. self-reported claims).
+
+**Ending:** a dry landing line, or one direct question a reader can answer in a line. Never "Agree?", "Thoughts?", a motivational line, or a restatement of the opening.
+
+**Length:** about 150–280 words. Never pad.
+
+**Credit:** a line such as `Source: {publication/author}` (added in code). The link goes in the Telegram message, and in the first comment in Phase 3.
 
 **Formatting:**
-- Short paragraphs of 1–3 lines with blank lines between them.
-- At most 1 emoji, and usually none. No exclamation marks.
-- 0–3 hashtags at the end.
-- No bold Unicode text and no bullet-point walls.
+- No emoji, no exclamation marks, no bold.
+- Prefer periods and commas. At most one em dash.
+- Hashtags: usually none, at most 2–3 on the last line.
 
-**Banned phrases** (validated in code; regenerate if any appear):
-game-changer, revolutionary, groundbreaking, "excited to share", "let's dive in", "in today's fast-paced world", "the future is here", buckle up, "mind-blowing", unleash, delve, landscape, "it's not just X, it's Y", "here's the thing", "the best part?", "Thoughts?"
+**Banned phrases and machine tells** (validated in code in `src/write.py`; regenerate if any appear):
+- Words: game-changer, revolutionary, groundbreaking, unleash, delve, landscape, seamless, leverage, unlock, elevate, "powered by", insane, massive, mind-blowing.
+- Phrases: "excited to share", "let's dive in", "in today's fast-paced world", "the future is here", buckle up, "here's the thing", "at the end of the day", "more on that later", "the best part?", "Thoughts?", "Agree?".
+- Constructions: "it's not X, it's Y" (any form), "not just X, but Y", "Whether you're a…" frames, rhetorical-question transitions ("Why does this matter?", "The result?"), 3+ consecutive lines opening with the same word, and generic openers.
 
-Avoid em-dash overuse: at most one per post.
+**Voice-firewall pass:** after a draft passes validation, one more LLM call (`prompts/voice_firewall.md`) scores the draft, rewrites every machine-sounding line, and checks claims against the source. The rewrite is kept only if it validates at least as well as the original.
+
+**Alternate openings:** the writer also returns three alternate openings and a pick. They're sent to Telegram so the owner can swap one in with an edit.
+
+**Owner's tweets first:** when the X queue has AI-related tweets, the pick is made among those alone. They're the news the owner wants covered. Non-AI tweets are skipped.
 
 **Accuracy rules (critical):**
 - Use only facts present in the fetched source material. Never invent numbers, quotes, names, or dates.
+- Attribute self-reported claims (launch tweets, company benchmarks) to whoever made them.
 - If the source is thin, say less rather than embellish.
 - Never claim the owner did, tested, or built something.
-- Paraphrase fully, and do not copy sentences from the source.
+- Paraphrase fully, and don't copy sentences from the source.
 
 **Headline for the image:** 4–9 words, punchy and built on the angle (e.g. "How AI is quietly running high-frequency trading"). Not the hook verbatim. Fully supported by the post. No ending punctuation except "?".
 
-**Example of the target voice** (structure only; see `prompts/write_post.md` for the fuller, current example):
-> Small AI models are quietly catching up with the giants.
->
-> A new open model released this week performs close to systems many times its size on common reasoning tests.
->
-> That matters because smaller models are cheaper to run and can work on a laptop or phone, not just in a data center.
->
-> The caveat: benchmark scores and real-world usefulness aren't the same thing. The interesting test is what people build with it over the next few months.
->
-> If capable AI could run privately on your own device, what's the first thing you'd use it for?
->
-> Source: Hugging Face
+**Example of the target rhythm:** see the fictional example in `prompts/write_post.md`.
 
 ---
 
@@ -249,5 +255,5 @@ Never log or print secret values. Workflows need `permissions: contents: write` 
   - the banned-phrase validator
   - Telegram command parsing
   - template selection
-- Keep LLM calls to about 5 per day so they stay well within free-tier limits.
+- Keep LLM calls to about 5 per day so they stay well within free-tier limits (pick, research for tweets, write, voice firewall, headline; retries add more).
 - When unsure about a current API detail (LinkedIn, Telegram, LLM providers), check the official docs rather than guessing.

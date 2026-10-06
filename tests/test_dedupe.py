@@ -44,3 +44,9 @@ def test_shortlist_caps_per_source_and_boosts_x():
     out = rank.shortlist(many + [x_item])
     assert out[0]["id"] == "x:1"
     assert sum(1 for c in out if c["source"] == "huggingface") == rank.MAX_PER_SOURCE
+
+
+def test_is_ai_related():
+    assert rank.is_ai_related(cand("x:1", "Jev is the fastest AI model for trading", "u"))
+    assert rank.is_ai_related(cand("x:2", "Germany just entered the frontier LLM race", "u"))
+    assert not rank.is_ai_related(cand("x:3", "Eye masks improve memory and reaction time", "u"))

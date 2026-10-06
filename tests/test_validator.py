@@ -40,7 +40,8 @@ def test_post_problems():
     assert any("em dash" in p for p in write.validate_post(GOOD.replace("The caveat:", "The caveat — a — big one:")))
     assert any("hook" in p for p in write.validate_post(
         "This is a very long first line that goes on and on well past fifteen words for sure\n\n" + GOOD))
-    assert any("question" in p for p in write.validate_post(GOOD.rsplit("\n", 1)[0] + "\n\nThe end."))
+    # A dry landing line is a valid ending now (no question required)
+    assert write.validate_post(GOOD.rsplit("\n", 1)[0] + "\n\nThe queue got smarter. Nobody lost a job.") == []
     assert any("hashtags" in p for p in write.validate_post(GOOD, ["#a", "#b", "#c", "#d"]))
     assert any("emoji" in p for p in write.validate_post(GOOD.replace("giants.", "giants 🚀🔥.")))
     assert any("Unicode" in p for p in write.validate_post(GOOD.replace("Small", "𝗦𝗺𝗮𝗹𝗹")))
@@ -64,3 +65,59 @@ def test_headline_validation_and_cleaning():
     assert write.validate_headline("Too short") != []
     assert write.validate_headline("Small models are catching up fast.") != []
     assert write.clean_headline('Headline: "Small models are catching up fast."') == "Small models are catching up fast"
+
+
+@pytest.mark.parametrize("phrase", [
+    "It's not a chatbot. It's a trader.", "This isn't hype, it's math.", "It is not just a model, but a platform.",
+    "A seamless rollout.", "Firms can leverage it.", "This will unlock value.", "Powered by GPUs.",
+    "At the end of the day, speed wins.", "Whether you're a founder or an engineer, listen.",
+    "Why does this matter?", "So what does this mean?", "An insane result.", "A massive model.", "Agree?",
+])
+def test_firewall_tells_detected(phrase):
+    assert write.find_banned(phrase), phrase
+
+
+@pytest.mark.parametrize("opener", ["Most people think AI is slow.", "Here's what happened.", "Imagine a model that trades."])
+def test_generic_openers_rejected(opener):
+    assert any("generic" in p for p in write.validate_post(opener + "\n\n" + GOOD))
+
+
+def test_echo_lines_detected():
+    body = "More leads.\nMore calls.\nMore revenue.\n\n" + GOOD
+    assert write.echo_lines(body) == ["more"]
+    assert any("same word" in p for p in write.validate_post(body))
+
+
+def test_one_short_list_allowed():
+    listed = GOOD.replace("That matters because", "The results:\n• 3B parameters\n• 10 tests\n• one laptop\n\nThat matters because")
+    assert write.validate_post(listed) == []
+    many = "\n".join(f"• item {i}" for i in range(7))
+    assert any("bullet" in p for p in write.validate_post(GOOD + "\n\n" + many))
+
+
+def test_split_alternates():
+    raw = "Post body?\n\n#AI\n=== ALTERNATE OPENINGS ===\n1. Bare number: ...\nPick: 1"
+    body, tags = write.split_post(raw)
+    assert body == "Post body?" and tags == ["#AI"]
+    assert write.split_alternates(raw)[1].startswith("1. Bare number")
+
+
+def test_voice_firewall_applies_clean_draft(monkeypatch):
+    clean = GOOD.replace("quietly catching up with", "now matching")
+    monkeypatch.setattr(write.llm, "complete", lambda *a, **k: (
+        "SCORE: 6\n- \"x\" trips parallel repetition\n=== CLEAN DRAFT ===\n" + clean))
+    out = write.voice_firewall(write.Draft(GOOD, [], "Src"), "ctx")
+    assert out.body == clean and out.voice_score == 6 and len(out.notes) == 1
+
+
+def test_voice_firewall_keeps_original_when_rewrite_is_worse(monkeypatch):
+    monkeypatch.setattr(write.llm, "complete", lambda *a, **k: "SCORE: 5\n=== CLEAN DRAFT ===\nToo short. A game-changer.")
+    out = write.voice_firewall(write.Draft(GOOD, [], "Src"), "ctx")
+    assert out.body == GOOD and out.voice_score == 5
+
+
+def test_voice_firewall_survives_llm_failure(monkeypatch):
+    def boom(*a, **k):
+        raise RuntimeError("down")
+    monkeypatch.setattr(write.llm, "complete", boom)
+    assert write.voice_firewall(write.Draft(GOOD, [], "Src"), "ctx").body == GOOD

@@ -1,78 +1,107 @@
-Write one LinkedIn post about the AI story below.
+Write one LinkedIn post about the AI story below, then three alternate openings.
 
-## Audience
-Smart professionals who don't follow AI closely: managers, founders, engineers, designers, lawyers. When they finish reading, they should understand **what specifically happened, how it works, and why it matters to them**, and they should have **something to bring up at work**.
+You write like the best-performing LinkedIn ghostwriters: plain, specific, rhythmic, impossible to scroll past, and never machine-sounding. The craft rules below come from the posts that earn thousands of comments. Follow them exactly.
 
-## Voice
-A sharp, engaging analyst with a point of view. Confident, curious, and energetic, but grounded. The energy comes from interesting specifics and a clear angle, never from hype words, exclamation marks, or exaggeration. Plain words, short punchy sentences, varied rhythm. It should read like a smart friend who just dug into the story and can't wait to tell you the interesting part.
+## Audience and goal
+Smart professionals who don't follow AI closely: managers, founders, engineers, designers, lawyers, finance people.
+**Goal: gain relevant followers.** They should finish knowing exactly what happened, how it works, and why it matters to their work, and come away with a line or an idea they'll repeat to a colleague.
 
-## Step 1: find the angle
-Before writing, decide the single most interesting angle and build the whole post around it. Good angles:
-- **How it actually works or how it's actually used:** "How X is used for Y" (e.g. how trading firms use AI to make split-second decisions).
-- **The surprising consequence:** what this quietly changes for a job, an industry, or a habit.
-- **Who wins and who loses.**
-- **The counterintuitive tension:** it's better *and* worse, cheaper *but* riskier, etc.
-- **The hidden mechanism:** the clever trick behind the headline.
+## Step 1: find the post inside the story
+Before writing, decide:
+- **What happened**, in one sentence, with the most concrete detail available (the name, the number, the speed, the price).
+- **The angle**: the one interesting thing about it. Examples: how X is actually used for Y, a surprising consequence, who wins and who loses, a number with a twist, the hidden mechanism.
+- **What the reader should believe or do differently now.**
+One post, one idea. If the story holds two posts, write the stronger one.
 
-## Step 2: go into the details
-Use the source material to give the substance, not just the headline:
-- **Who** did it (the company, lab, or university, if named) and **what exactly** they built, found, or announced.
-- **How it works**, in plain language. One vivid, accurate analogy or concrete example is welcome.
-- **The key specifics:** the 1–3 most meaningful numbers, results, or design choices, each with a few words on what it means.
-- **What's new** compared with before.
-- **The specific limitations** (small test, early preprint, only one model, cost, unproven in the real world), not a generic "time will tell".
+## Step 2: the opening (it must work before LinkedIn's "see more")
+LinkedIn shows roughly the first 2–3 lines. The opening's only job is to open a question the reader has to keep reading to close.
 
-Skip details a non-expert wouldn't care about (dataset names, acronyms, model sizes) unless you explain why they matter.
+**Line 1 (under 15 words).** Pick the shape that fits the material best:
+- **Tool as subject:** the AI or product does the acting. "An AI model now makes a trading call in under 100 milliseconds."
+- **Bare number first:** one startling number with no setup. "212 scans. Doctors had missed 31 of them."
+- **Corrective:** a surprising truth that contradicts a common belief, stated directly (never "Most people think...").
+- **Your X:** speaks at something the reader owns. "Your next bank loan may be approved by a model nobody can explain."
+- **Story in motion:** opens inside the moment, ending withheld. "A German lab just put an open model on the leaderboard next to the giants."
 
-## Step 3: give them something to talk about
-- Include one **memorable, quotable line**: a crisp reframing, implication, or prediction the reader could repeat to a colleague. If it's your own view, make that clear ("My read:", "The way I see it:").
-- In the take, **commit to a clear stance**. Don't hedge everything. Be honest about uncertainty, but say what you think it means.
-- End with a **specific question people will want to argue about**. Offer a concrete choice or dilemma, e.g. "Would you let an AI negotiate your contract, or is that a line you'd keep for humans?". Not a generic "What do you think?".
+**Line 2 deepens line 1.** It adds new information by raising the stakes, making the cost concrete, reversing the expected explanation, or widening the scope. It stays on the same subject and never contradicts line 1. If deleting it changes nothing, rewrite it.
 
-## Structure (about 200–320 words total)
-1. **Hook:** the first line, under 15 words. Punchy and specific: a surprising fact from the source, a sharp "how" or "why" framing, or a bold claim the post backs up. It must be true to the source. No clickbait, no questions that the post doesn't answer.
-2. **What happened and how it works:** 3–5 short paragraphs built around your angle.
-3. **Why it matters:** the concrete, real-world implication for work, money, everyday life, or society.
-4. **The take:** your stance, the quotable line, and the specific caveats.
-5. **The closing question.** It must be the last line of the body and end with "?".
-6. Optionally, a final line with 0–3 relevant hashtags (e.g. #AI). Nothing else after that.
+**Hard rules:**
+- The question must NOT be answered before "see more". If a reader can guess the ending from lines 1–2, rewrite them.
+- Never open and close the loop in one breath.
+- Never open with "Most people think", "Here's what", "I have a confession", "Let me tell you", "Unpopular opinion", "Imagine", or any line that could start anyone's post.
 
-Do NOT write a "Source:" line. It is added automatically. Do NOT include links.
+**Line 3 (the first line after "see more"), under 10 words,** re-promises the payoff: "Here's how it actually works." / "The speed is the least interesting part." Never spend it on background.
 
-## Formatting
-- Short paragraphs of 1–3 lines, separated by blank lines. Mix one-line punches with slightly longer explanations.
-- At most one emoji, and usually none. No exclamation marks.
-- No bold text, no markdown, no bullet points, no headings.
-- At most one em dash (—) in the whole post.
+## Step 3: the body
+Write it in the rhythm of top LinkedIn posts:
+- **One thought per line.** Most lines are one sentence, and there's a blank line between thoughts. Paragraphs are at most 2 short sentences.
+- **Vary the length.** A longer explaining sentence, then a short landing line. ("Every scan gets a risk score before a doctor sees it. High scores jump the queue." → "Nobody lost a job.") Ten identical short lines read like a robot doing intensity.
+- **Conclusion early.** The strongest thought doesn't wait until the end.
+- **Scene before principle.** Show the concrete event, then give the rule.
+- **Concrete beats abstract.** Name the company, the product, the number, the job, the price. "Under 100 milliseconds" works harder than "very fast".
+- **Numbers carry the post.** Use the real numbers from the source on many lines, copied exactly. Don't force a digit onto every line, and never invent one.
+- **Explain how it works** in plain words. One vivid, accurate analogy is welcome.
+- **One short list is allowed** when there are 3–5 concrete items (results, features, numbers). Introduce it with a plain line ending in a colon, write each item as "• " plus a specific fact, and follow it with a short line that says what the list means. Never more than one list.
+- **Your take:** commit to a clear view of what this means ("My read:" is fine once). It should be quotable. Be honest about the specific limitations (early, unverified, one study, the company's own claims), but don't hedge everything.
 
-## Never use these words or phrases
-game-changer, revolutionary, groundbreaking, "excited to share", "let's dive in", "in today's fast-paced world", "the future is here", buckle up, mind-blowing, unleash, delve, landscape, "it's not just X, it's Y", "here's the thing", "the best part?", "Thoughts?"
+## Step 4: the ending
+End on one of these:
+- **A dry, specific landing line** that reframes the whole post in under 12 words. ("We kept the fee. He stopped paying for the leaks." is the kind of line.)
+- **One direct question** that a reader can answer in one line, about their own work or choices.
+Never end on a motivational line, a summary of the opening, "Agree?", or "Thoughts?".
 
-## Accuracy (critical)
-- Use ONLY facts present in the source material below. Never invent numbers, quotes, names, dates, or results.
-- Copy numbers exactly as the source gives them. Don't calculate new ones.
-- Punchy is not the same as exaggerated: never overstate what the source says. If results are early or modest, say so; that tension can *be* the angle.
-- If the source material is thin, say less rather than embellish.
-- Reader comments are opinions, not facts. Research results are the authors' claims, so attribute them ("the researchers report...").
-- Never claim the author tested, used, or built anything.
-- Paraphrase fully. Do not copy sentences from the source.
+## Length and format
+- About 150–280 words. Never pad: if the material supports 160 good words, write 160.
+- No emoji, no exclamation marks, no bold, no headings, no markdown.
+- Prefer periods and commas. At most one em dash (—) in the whole post.
+- Hashtags: usually none. At most 2, on the last line, only if they're genuinely useful.
+- Do NOT write a "Source:" line. It is added automatically. Do NOT include links.
 
-## Example of the target voice and depth (structure only, never reuse its content)
-A model small enough for your laptop just matched the giants on reasoning.
+## Machine tells to avoid (every one gets the post rejected)
+- "It's not X, it's Y", "This isn't X. It's Y.", "not just X, but Y", in any form.
+- Three or more lines in a row that start with the same word or share the same skeleton ("More leads. More calls. More revenue."). Escalate instead: each line adds something new.
+- A three-item list in every paragraph.
+- Rhetorical-question transitions: "So what does this mean?", "Why does this matter?", "Why should you care?", "The result?", "The twist?". Just say the thing.
+- Vendor words: seamless, leverage, unlock, elevate, powered by, game-changer, revolutionary, groundbreaking, delve, landscape, unleash.
+- Filler: "Let's dive in", "Here's the thing", "At the end of the day", "In today's fast-paced world", "the future is here", "buckle up", "excited to share", "the best part?".
+- Generic intensifiers: insane, massive, mind-blowing. The specific fact creates the stakes.
+- "Whether you're a founder or a freelancer..." frames that write for everyone.
+- Manufactured hedges on exact numbers ("roughly 100 ms" when the source says 100 ms).
+- An ending that restates the opening.
 
-Researchers at a university lab released an open model this week. On a set of common reasoning tests, they report it scores close to systems many times larger.
+## Accuracy (critical, non-negotiable)
+- Use ONLY facts present in the source material below. Never invent numbers, names, quotes, dates, results, or events.
+- Copy numbers exactly. Don't calculate new ones.
+- Punchy is not exaggerated: never overstate what the source says. If a claim is the company's or author's own (a launch tweet, a self-reported benchmark, a promo thread), attribute it ("the team claims", "according to its creator") and don't present it as independently verified. That gap can be your angle.
+- If the material is thin, say less. Don't fill gaps with plausible detail.
+- The author of this post never did, tested, used, or built anything in the story. Never write first-person experience ("I tried it", "a client asked me"). First person is only for opinions ("My read:", "I think").
+- If the owner added a note on a forwarded tweet, it's the owner's own view. Build the take around it.
+- Reader comments are opinions, not facts.
+- Paraphrase fully. Don't copy sentences from the source.
 
-The trick isn't more data. It's better data.
+## Example of the target rhythm (fictional, structure only, never reuse its content or numbers)
+An AI read 4,000 chest X-rays before any doctor did.
 
-Instead of feeding it huge piles of web text, they trained it on a smaller set of carefully checked, step-by-step solutions. Think of it as learning from a great textbook instead of the entire internet. They also taught it to double-check its own answers before committing, which they say drove most of the gains on math-style questions.
+It flagged 212 as urgent. Doctors had already cleared 31 of them as normal.
 
-Why should you care? Small models are cheap to run and can live on a company's own servers, or even a phone. That means sensitive data never has to leave the building.
+That second number is the story.
 
-My read: the race is quietly shifting from "who has the biggest model" to "who has the best teaching material". That's a game far more companies can play.
+The system doesn't diagnose anything. It sorts.
 
-The caveat is real, though. These are the authors' own results on standard tests, and benchmarks aren't the messy reality of daily work.
+Every scan gets a risk score the moment it's taken. High scores jump the queue to a radiologist. Low scores wait their normal turn.
 
-If a capable AI could run privately on your laptop, would you trust it with your company's data, or still keep it at arm's length?
+The hospital reports three changes:
+• 212 scans flagged as urgent
+• 31 of them caught after a first reader missed them
+• Average wait for urgent cases down from 9 hours to 2
+
+Nobody lost a job. The urgent cases just stopped waiting behind the routine ones.
+
+My read: the first real wins for AI at work won't look like robots replacing people. They'll look like boring triage that gives experts their hours back.
+
+The catch is real. One hospital, one study, the hospital's own numbers.
+
+Would you want software deciding which of your cases gets looked at first?
 
 ## The story
 Headline: {{TITLE}}
@@ -83,4 +112,7 @@ Source material:
 {{CONTEXT}}
 """
 
-Output only the post text, nothing before or after it.
+## Output format
+First the post text only. Then a line with exactly:
+=== ALTERNATE OPENINGS ===
+Then three alternate openings (lines 1–2 each), each in a different shape from the one you used. For each, name the shape and add one line on when to prefer it. End with one line, "Pick: ...", saying which opening you'd run and why.
