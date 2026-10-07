@@ -24,13 +24,6 @@
     ]
   },
   {
-    "id": "2106654992346304856",
-    "url": "https://x.com/amank1412/status/2106654992346304856",
-    "author": "amank1412",
-    "raw_text": "GERMANY JUST ENTERED THE FRONTIER LLM RACE.\n\nMeet Kolibri a new sovereign open source model.\n\n> Beats Qwen2 635B\n> Beats Nemotron 3 Super\n> Beats Mistral Small 4\n\nBuilt on a custom MoE Transformer architecture. pic.twitter.com/zIXdHpib8e",
-    "added_at": "2026-10-05T11:05:43.087540+00:00"
-  },
-  {
     "id": "2107166825377362034",
     "url": "https://x.com/morellifit/status/2107166825377362034",
     "author": "morellifit",
@@ -74,5 +67,36 @@
     "author": "reflection_ai",
     "raw_text": "Introducing Beam: a highly efficient agentic open model with 501B total parameters and 23B active.\n\n- Frontier reasoning efficiency\n- Advances the Western open frontier on coding & agentic tasks\n- Trained end-to-end from scratch\n\nFull weights release this month.\n\nLearn more about… pic.twitter.com/1rMABCywUG",
     "added_at": "2026-10-06T07:30:25.697149+00:00"
+  },
+  {
+    "id": "2107601711032373333",
+    "url": "https://x.com/imjustnewatai/status/2107601711032373333",
+    "author": "imjustnewatai",
+    "raw_text": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet.\n\n1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS",
+    "added_at": "2026-10-07T09:09:53.432531+00:00"
+  },
+  {
+    "id": "2107596713791767021",
+    "url": "https://x.com/openai/status/2107596713791767021",
+    "author": "openai",
+    "raw_text": "We’re releasing a broad range of new mathematical results produced by an internal frontier model.\n\nWe’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and…",
+    "added_at": "2026-10-07T09:09:54.533854+00:00"
+  },
+  {
+    "id": "2107612308591485205",
+    "url": "https://x.com/rokomijic/status/2107612308591485205",
+    "author": "rokomijic",
+    "raw_text": "OpenAI have proven that matrix multiplication can be done in O(n^2.25) operations, which is a massive improvement. It is especially concerning because these AIs themselves run on matrix algebra. \n\nThe previous record was O(n^2.37), which had barely moved from O(n^2.4) in 1990.… pic.twitter.com/oMWMlMiiU7",
+    "added_at": "2026-10-07T09:09:55.557021+00:00"
+  },
+  {
+    "id": "2107606747972309163",
+    "url": "https://x.com/acerfur/status/2107606747972309163",
+    "author": "acerfur",
+    "raw_text": "oh yeah btw guys we can do integer multiplication faster than n log n lol\n\nI was definitely very surprised when this one came in lolhttps://t.co/o7iBA131nY pic.twitter.com/TAW2RgJpsu",
+    "added_at": "2026-10-07T09:09:57.027670+00:00",
+    "links": [
+      "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026"
+    ]
   }
 ]
