@@ -1,24 +1,138 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-07",
-  "created_at": "2026-10-07T14:41:28.195805+05:30",
+  "date": "2026-10-08",
+  "created_at": "2026-10-08T14:54:20.504446+05:30",
   "candidate": {
-    "id": "x:2107204457738256749",
+    "id": "x:2107601711032373333",
     "source": "x",
-    "title": "For decades, researchers have sought materials that sort electrons by spin while their magnetism cancels.",
-    "url": "https://x.com/valsai/status/2107204457738256749",
-    "summary": "For decades, researchers have sought materials that sort electrons by spin while their magnetism cancels. In 3 days, 90+ Opus 5.5 agents helped us uncover two room-temperature magnetic semiconductor candidates in simulations: YBaMnFeO₅ and KV[Cr(CN)₆]. KV[Cr(CN)₆] was… pic.twitter.com/lRf8itW2IZ",
+    "title": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathem…",
+    "url": "https://x.com/imjustnewatai/status/2107601711032373333",
+    "summary": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet. 1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS",
     "score": 0.0,
-    "created_at": "2026-10-06T04:25:38.745511+00:00",
-    "raw_text": "For decades, researchers have sought materials that sort electrons by spin while their magnetism cancels.\n\nIn 3 days, 90+ Opus 5.5 agents helped us uncover two room-temperature magnetic semiconductor candidates in simulations: YBaMnFeO₅ and KV[Cr(CN)₆].\n\nKV[Cr(CN)₆] was… pic.twitter.com/lRf8itW2IZ",
+    "created_at": "2026-10-07T09:09:53.432531+00:00",
+    "raw_text": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet.\n\n1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS",
     "extra": {
-      "author": "valsai",
+      "author": "imjustnewatai",
       "tweet_text": "",
       "links": [],
       "coverage": 0
     }
   },
   "shortlist": [
+    {
+      "id": "x:2107601711032373333",
+      "source": "x",
+      "title": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathem…",
+      "url": "https://x.com/imjustnewatai/status/2107601711032373333",
+      "summary": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet. 1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS",
+      "score": 0.0,
+      "created_at": "2026-10-07T09:09:53.432531+00:00",
+      "raw_text": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet.\n\n1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS",
+      "extra": {
+        "author": "imjustnewatai",
+        "tweet_text": "",
+        "links": [],
+        "coverage": 0
+      }
+    },
+    {
+      "id": "x:2107596713791767021",
+      "source": "x",
+      "title": "We’re releasing a broad range of new mathematical results produced by an internal frontier model.",
+      "url": "https://x.com/openai/status/2107596713791767021",
+      "summary": "We’re releasing a broad range of new mathematical results produced by an internal frontier model. We’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and…",
+      "score": 0.0,
+      "created_at": "2026-10-07T09:09:54.533854+00:00",
+      "raw_text": "We’re releasing a broad range of new mathematical results produced by an internal frontier model.\n\nWe’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and…",
+      "extra": {
+        "author": "openai",
+        "tweet_text": "",
+        "links": [],
+        "coverage": 0
+      }
+    },
+    {
+      "id": "x:2107612308591485205",
+      "source": "x",
+      "title": "OpenAI have proven that matrix multiplication can be done in O(n^2.25) operations, which is a massive improvement. It is especially concern…",
+      "url": "https://x.com/rokomijic/status/2107612308591485205",
+      "summary": "OpenAI have proven that matrix multiplication can be done in O(n^2.25) operations, which is a massive improvement. It is especially concerning because these AIs themselves run on matrix algebra. The previous record was O(n^2.37), which had barely moved from O(n^2.4) in 1990.… pic.twitter.com/oMWMlMiiU7",
+      "score": 0.0,
+      "created_at": "2026-10-07T09:09:55.557021+00:00",
+      "raw_text": "OpenAI have proven that matrix multiplication can be done in O(n^2.25) operations, which is a massive improvement. It is especially concerning because these AIs themselves run on matrix algebra. \n\nThe previous record was O(n^2.37), which had barely moved from O(n^2.4) in 1990.… pic.twitter.com/oMWMlMiiU7",
+      "extra": {
+        "author": "rokomijic",
+        "tweet_text": "",
+        "links": [],
+        "coverage": 0
+      }
+    },
+    {
+      "id": "x:2107606747972309163",
+      "source": "x",
+      "title": "oh yeah btw guys we can do integer multiplication faster than n log n lol",
+      "url": "https://x.com/acerfur/status/2107606747972309163",
+      "summary": "oh yeah btw guys we can do integer multiplication faster than n log n lol I was definitely very surprised when this one came in lolhttps://t.co/o7iBA131nY pic.twitter.com/TAW2RgJpsu",
+      "score": 0.0,
+      "created_at": "2026-10-07T09:09:57.027670+00:00",
+      "raw_text": "oh yeah btw guys we can do integer multiplication faster than n log n lol\n\nI was definitely very surprised when this one came in lolhttps://t.co/o7iBA131nY pic.twitter.com/TAW2RgJpsu",
+      "extra": {
+        "author": "acerfur",
+        "tweet_text": "",
+        "links": [
+          "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026"
+        ],
+        "coverage": 0
+      }
+    },
+    {
+      "id": "x:2107164650249101695",
+      "source": "x",
+      "title": "We're expanding our approach to content provenance to include text in response to EU regulatory requirements, while recognizing the signifi…",
+      "url": "https://x.com/openai/status/2107164650249101695",
+      "summary": "We're expanding our approach to content provenance to include text in response to EU regulatory requirements, while recognizing the significant limitations of current text watermarking technology. Our tools already help verify whether an image or audio file was created with our…",
+      "score": 0.0,
+      "created_at": "2026-10-06T07:30:23.961829+00:00",
+      "raw_text": "We're expanding our approach to content provenance to include text in response to EU regulatory requirements, while recognizing the significant limitations of current text watermarking technology.\n\nOur tools already help verify whether an image or audio file was created with our…",
+      "extra": {
+        "author": "openai",
+        "tweet_text": "",
+        "links": [],
+        "coverage": 0
+      }
+    },
+    {
+      "id": "x:2107138967644541129",
+      "source": "x",
+      "title": "Introducing flow-1, our new model trained with RL to find errors in agent traces.",
+      "url": "https://x.com/skull8888888888/status/2107138967644541129",
+      "summary": "Introducing flow-1, our new model trained with RL to find errors in agent traces. It matches GPT-6-sol in trace intelligence while being 23x cheaper. It also costs 25% less to run than GPT-6-luna. flow-1 finally makes it possible to monitor and understand every agent run,… pic.twitter.com/awkaI7fmVP",
+      "score": 0.0,
+      "created_at": "2026-10-06T07:30:24.845974+00:00",
+      "raw_text": "Introducing flow-1, our new model trained with RL to find errors in agent traces.\n\nIt matches GPT-6-sol in trace intelligence while being 23x cheaper. It also costs 25% less to run than GPT-6-luna.\n\nflow-1 finally makes it possible to monitor and understand every agent run,… pic.twitter.com/awkaI7fmVP",
+      "extra": {
+        "author": "skull8888888888",
+        "tweet_text": "",
+        "links": [],
+        "coverage": 0
+      }
+    },
+    {
+      "id": "x:2107186849370247235",
+      "source": "x",
+      "title": "Introducing Beam: a highly efficient agentic open model with 501B total parameters and 23B active.",
+      "url": "https://x.com/reflection_ai/status/2107186849370247235",
+      "summary": "Introducing Beam: a highly efficient agentic open model with 501B total parameters and 23B active. - Frontier reasoning efficiency - Advances the Western open frontier on coding & agentic tasks - Trained end-to-end from scratch Full weights release this month. Learn more about… pic.twitter.com/1rMABCywUG",
+      "score": 0.0,
+      "created_at": "2026-10-06T07:30:25.697149+00:00",
+      "raw_text": "Introducing Beam: a highly efficient agentic open model with 501B total parameters and 23B active.\n\n- Frontier reasoning efficiency\n- Advances the Western open frontier on coding & agentic tasks\n- Trained end-to-end from scratch\n\nFull weights release this month.\n\nLearn more about… pic.twitter.com/1rMABCywUG",
+      "extra": {
+        "author": "reflection_ai",
+        "tweet_text": "",
+        "links": [],
+        "coverage": 0
+      }
+    },
     {
       "id": "x:2107166825377362034",
       "source": "x",
@@ -100,119 +214,24 @@
         "links": [],
         "coverage": 0
       }
-    },
-    {
-      "id": "x:2105735352497410522",
-      "source": "x",
-      "title": "arXiv has updated our policy on rate limiting for all submitters.",
-      "url": "https://x.com/arxiv/status/2105735352497410522",
-      "summary": "arXiv has updated our policy on rate limiting for all submitters. This update was made to fairly distribute moderator time & support the arXiv community of staff, volunteers, readers & authors. Please read our announcement to learn more: https://t.co/lvzWuiv0hx pic.twitter.com/PfQLYzQePZ",
-      "score": 0.0,
-      "created_at": "2026-10-05T11:05:42.320946+00:00",
-      "raw_text": "arXiv has updated our policy on rate limiting for all submitters.\n\nThis update was made to fairly distribute moderator time & support the arXiv community of staff, volunteers, readers & authors.\n\nPlease read our announcement to learn more: https://t.co/lvzWuiv0hx pic.twitter.com/PfQLYzQePZ",
-      "extra": {
-        "author": "arxiv",
-        "tweet_text": "",
-        "links": [
-          "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/"
-        ],
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:49969183",
-      "source": "hackernews",
-      "title": "Beam: Reflection's 501B open-weight model",
-      "url": "https://reflection.ai/blog/introducing-beam",
-      "summary": "",
-      "score": 369.0,
-      "created_at": "2026-10-05T19:16:35+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49969183",
-        "num_comments": 109,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:549ccc4aeee7",
-      "source": "news",
-      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
-      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-      "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
-      "score": 80.0,
-      "created_at": "2026-10-05T20:36:48+00:00",
-      "raw_text": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:78ad53815846",
-      "source": "news",
-      "title": "Our approach to EU text provenance rules",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "score": 100.0,
-      "created_at": "2026-10-05T15:00:00+00:00",
-      "raw_text": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:49970667",
-      "source": "hackernews",
-      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "summary": "",
-      "score": 257.0,
-      "created_at": "2026-10-05T21:00:21+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49970667",
-        "num_comments": 179,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:49961057",
-      "source": "hackernews",
-      "title": "Anthropic reported diary entry to police, woman faces felony charge",
-      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-      "summary": "",
-      "score": 612.0,
-      "created_at": "2026-10-05T05:37:40+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49961057",
-        "num_comments": 497,
-        "coverage": 0
-      }
     }
   ],
-  "rejected_ids": [
-    "x:2106654992346304856"
-  ],
-  "context": "Title: For decades, researchers have sought materials that sort electrons by spin while their magnetism cancels.\n\nTweet text:\nFor decades, researchers have sought materials that sort electrons by spin while their magnetism cancels.\n\nIn 3 days, 90+ Opus 5.5 agents helped us uncover two room-temperature magnetic semiconductor candidates in simulations: YBaMnFeO₅ and KV[Cr(CN)₆].\n\nKV[Cr(CN)₆] was… pic.twitter.com/lRf8itW2IZ\n\nResearch notes on: AI agents identify two promising room-temperature magnetic semiconductor materials for spintronics applications.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from The Economic Times on MSN: \"How 90 Claude Opus 5.5 agents found a 27-year-old compound in 3 days to solve computing's heat problem\"\nMore than 90 Claude Opus 5.5 agents spent three days searching for materials that could enable cooler spin-based computing. They identified two room-temperature magnetic semiconductor candidates; ...\n\nCoverage from ZDNet: \"Claude Opus 5.5 delivers Fable 5.1 performance – and costs 40% less\"\nLess than two months after the release of Claude Opus 5, Anthropic is back with Opus 5.5. The big pitch for Opus 5 was that it had “near Fable” performance at half the price. This time, the headline is that the workhorse AI Opus 5.5 delivers Fable 5.1 performance for most work and costs about 40% less to run.\n“Our customers use Box AI on enormous amounts of content, so speed and cost are a top priority,” Yashodha Bhavnani, VP of AI Products at Box, reports. “In our evaluations, Claude Opus 5.5 used a third of the tokens Opus 5 did, and its answers were 40% less verbose without losing accuracy. We expect that to matter a lot for teams running agents across their content in areas like financial services and the public sector.”\nAnthropic says that, “Over the coming weeks, we’ll also be launching Claude Sonnet 5.5 and Haiku 5.5.” Opus 5.5 is available today.\nI’ve been using the heck out of Claude Code with Opus 5, so I’m particularly hopeful that the company’s performance claims are accurate. The company says it “generates output more than 30% faster than Opus 5.”\nAlso: Anthropic merges Claude chat and Cowork into one\nToken prices and subscription plans are addressed in today’s announcement . Tokens are priced at 20% less than when used with Opus 5. Opus 5.5 also reportedly “needs fewer tokens for higher quality work.”\nFor subscription users like me, Anthropic is raising its five-hour usage limits by 20%. That’s basically a 20% bigger gas tank for how much AI chomping you can use during five hours. While my Max plan doesn’t get reset often, it does get reset. For those on $20/month plans, this could be a considerable win. On top of that, the company says that both 5-hour and weekly usage limits go further because Opus 5.5 costs less than Opus 5.\nThese seem to be additive. There’s a 20% larger bucket coupled with a 25% slower burn, meaning that effective usage seems to be about a 50% greater run capacity with Opus 5.5. That’s not an inconsiderable quality-of-life improvement.\nAnthropic also says that Opus 5.5 communicates more naturally than prior models. If it’s even just a little less obsequious, I’d be happy. Sometimes, Opus can be a total suck-up, particularly when it’s done something wrong.\nAlso: The AI models that cheat the most, according to new CAIS benchmark\n“Verbose, hard-to-follow output has been my biggest frustration with frontier models, and Claude Opus 5.5 fixes it,” says John Ruelas, staff software engineer at Ramp.\nOpus 5.5, he says, “writes li\n\nCoverage from VentureBeat: \"Anthropic releases Claude Opus 5.5, beating Fable 5.1 on key agentic benchmarks at 60% cheaper API price\"\nAlso today, OpenAI released GPT-6 Sol and GPT-6 Luna, two lower-cost members of its GPT-6 family. Sol costs $2 per million input tokens and $10 per million output tokens — exactly half Opus 5.5’s base ...\n\nBackground (Spintronics, Wikipedia):\nSpintronics, also known as spin electronics, is the study of the intrinsic spin of the electron and its associated magnetic moment, in addition to its fundamental electronic charge, in solid-state devices. The field of spintronics concerns spin-charge coupling in metallic systems. The analogous effects in insulators fall into the field of multiferroics.\n\nBackground (Magnetic semiconductor, Wikipedia):\nMagnetic semiconductors are semiconductor materials that exhibit both ferromagnetism and useful semiconductor properties. If implemented in devices, these materials could provide a new type of control of conduction. Whereas traditional electronics are based on control of charge carriers, practical magnetic semiconductors would also allow control of quantum spin state. This would theoretically provide near-total spin polarization, which is an important property for spintronics applications, e.g. spin transistors.\n\nRelated Hacker News thread: \"Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates\" (483 points)\nTop reader comment (opinion, not fact): Ugh. Unless this has been actually experimentally verified to be a room-temperature and room-pressure superconductor, it's about as ground breaking as \"Yet another promising nuclear fusion candidate theoretically described.\"",
+  "rejected_ids": [],
+  "context": "Title: OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathem…\n\nTweet text:\nOpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet.\n\n1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS\n\nResearch notes on: OpenAI releases 722 AI-generated mathematics papers proposing major mathematical breakthroughs\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from Decrypt: \"OpenAI Says a Secret AI Model Cracked Hundreds of Open Math Problems in One Prompt—Mathematicians Want Receipts\"\nOpenAI published 722 math manuscripts on GitHub on Tuesday, all produced by an internal model the company has not released. An OpenAI spokesperson said almost everything came from a single prompt handed to a single AI agent, though some may have taken multiple attempts.\nIt's a bold claim and a potentially significant breakthrough in the field of mathematics. But not everyone is a fan, or buying the hype.\n“Until and unless they release the model and people can replicate their results, I think you should treat any claims about one-shotting problems with a single agent as unverified,” Andrew Sutherland , a mathematician at MIT, told Scientific American . “We should ask for receipts,” he said.\nThe papers are grouped into 372 “families” of related results, and a family can bundle a main theorem with companion arguments, consequences or alternative proofs. That makes 722 a count of manuscripts, not of solved problems. OpenAI says it posed roughly 4,000 problems to the model and kept the outputs it judged significant enough to publish.\nThe average result used the equivalent of roughly three hours of ChatGPT Pro thinking compute, per OpenAI . The Navier-Stokes claim last month looked very different, with 10,000 coordinating agents working for 88 hours.\nOpenAI released abridged reasoning summaries for 10 of the results. That said, only 162 of the 722 papers come with a computer-checked main result, according to a formalization catalog in the repository. That is about 22% of the collection, translated into Lean, software that checks every logical step mechanically.\nOpenAI itself says not all manuscripts have Lean formalizations and that “some of the unformalized results could have issues.” In other words, a lot of what they published could be wrong.\nA passing Lean check confirms only that the proof follows from the statement as written in Lean. It does not show that the statement matches the original problem, or that the result is new or important, which is the part mathematicians now have to judge.\nAnd this is where researchers raise their eyebrows.\nI was trying to read the OpenAI proof that chromatic number of a plane is >= 6. But it is totally unbelievable alien math?\nSomehow the model found that any K-coloring <=> \"weakly measurable\" K-coloring, which seems out of nowhere\nThe openai/math repo has Issues turned off and has never accepted a pull request. That's disappointing. If you publish 722 manuscripts and ask for Lean formalisations, you need somewhere for pe\n\nCoverage from International Business Times AU: \"OpenAI Releases 722 AI-Written Math Papers Claiming Hundreds of Breakthroughs, but Experts Urge Caution\"\nSAN FRANCISCO — OpenAI has released 722 mathematical manuscripts produced by an unreleased artificial intelligence model, claiming solutions to hundreds of long-standing open problems in a move that has both impressed and unsettled the mathematics community.\nThe manuscripts, published Tuesday in a public GitHub repository, cover 372 \"result families\" that group related papers together, according to the company. The release is the largest public display yet of an AI system's ability to tackle research-level mathematics, but many of the results have not been independently verified.\nThe Advisory Group on Mathematics and Artificial Intelligence, an independent panel of mathematicians known as AGMAI that OpenAI consulted on the release, said the batch includes solutions to \"hundreds\" of open questions. The group has not endorsed the findings, according to reports.\nOpenAI said the unreleased frontier model was posed roughly 4,000 problems during an internal evaluation. The 722 manuscripts represent the results the company judged significant enough to publish.\nThe company said the \"average result\" used computing power equivalent to about three hours of ChatGPT Pro thinking time.\nAlongside the papers, OpenAI released summaries of some of the model's reasoning, estimates of the computing resources used and statistics on the number of problems attempted. According to Scientific American, the company did not publish the prompts used to generate the results. OpenAI has also not disclosed the name of the model.\n\"For this release, we're publishing the results in a GitHub repository, with protocols for paper revisions and citations,\" OpenAI said. The manuscripts were released under an open-source license.\nAccording to reports summarizing the release, the manuscripts include claimed results on several well-known problems, including a proof of the Unique Games Conjecture in theoretical computer science and a resolution of the free group factor problem, a question in operator algebras that has been open since the 1940s.\nThe collection also reportedly includes a claimed result showing that the Riemann zeta function has no zeros in a region where the real part exceeds 7/8, a weaker version of the famous Riemann Hypothesis that some have described as a \"quasi-Riemann hypothesis.\"\nThese claims have not been confirmed by the mathematical community. Major results in mathematics typically require months or even years of careful review by experts before they are accepted. OpenAI ha\n\nCoverage from The Next Web: \"OpenAI publishes 722 maths papers written by a model it has not released\"\nOpenAI has published 722 maths manuscripts from an internal model it has not released. The papers fall into 372 families of results. The company announced the release on Tuesday and put them all in a public GitHub repository .\nIt is the same model behind OpenAI’s Navier-Stokes proof last month. OpenAI gave it about 4,000 problems during the evaluation, the repository says. On average, each result used about three hours of ChatGPT Pro thinking compute.\nMany of the proofs come with formal versions in Lean, a programming language that lets a computer check a proof. Not all do. OpenAI says some of the results without a formal version could have issues, and it will fix them quickly. Every earlier version will stay public, and each paper has its own citation block.\nOpenAI also published ten summaries of the model’s reasoning. Two results did not follow the standard procedure. One is a zero-free region for the Riemann zeta function, whose write-up a human edited for readability. The other is a proof of the Hodge conjecture for CM abelian varieties.\nNearly every paper came from a single prompt to a single AI agent, OpenAI told Scientific American . The company will fund workshops, conferences and special programmes on results produced by AI. It says it is also working to release the model responsibly.\nOpenAI said it drew on advice from an independent panel of mathematicians . The Advisory Group on Mathematics and Artificial Intelligence (AGMAI) is hosted by the Institute for Advanced Study. In its 29 September guidelines , it asked AI labs to stop testing hard maths problems on private models. It also asked them to publish the prompts, time and compute cost behind each result.\n“The use of proprietary internal models by AI labs to do mathematical research risks creating a two-tier system where labs outrun the rest of the field,” the group wrote.\nOn Tuesday night, AGMAI said its advice was not an endorsement of the results, or of how OpenAI got them.\n“This release is the beginning, not the completion, of the process of human understanding,” the group wrote.\nDan Roberts, OpenAI’s research lead, told The New York Times that testing internal models helps build better tools. The proofs were a byproduct, he said.\nTristan Buckmaster, a New York University mathematician, was working on the Navier-Stokes problem before OpenAI solved it. He told the Times he doubted OpenAI had checked so many results released at once.\n“I don’t think they’ve done their sort of due diligence a\n\nBackground (Riemann hypothesis, Wikipedia):\nIn mathematics, the Riemann hypothesis is the conjecture that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part . Many consider it to be the most important unsolved problem in pure mathematics. It is of great interest in number theory because it implies results about the distribution of prime numbers. It was proposed by Bernhard Riemann, after whom it is named. There is overwhelming numerical evidence for the hypothesis, but no proof is known.\n\nBackground (Automated theorem proving, Wikipedia):\nAutomated theorem proving is a subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs. Automated reasoning over mathematical proof was a major motivating factor for the development of computer science.",
   "research_links": [
-    "https://www.msn.com/en-in/news/other/how-90-claude-opus-55-agents-found-a-27-year-old-compound-in-3-days-to-solve-computings-heat-problem/ar-AA2dGs6t",
-    "https://www.zdnet.com/innovation/anthropic-claude-opus-5-5-fable-5-1-performance-costs-less/",
-    "https://venturebeat.com/technology/anthropic-releases-claude-opus-5-5-beating-fable-5-1-on-key-agentic-benchmarks-at-60-cheaper-api-price"
+    "https://decrypt.co/380366/openai-secret-ai-model-cracked-hundreds-math-problems-one-prompt",
+    "https://www.ibtimes.com.au/openai-ai-mathematics-manuscripts-verification-1876387",
+    "https://thenextweb.com/news/openai-maths-722-papers-unreleased-model-github"
   ],
-  "source_credit": "@valsai on X, with reporting from The Economic Times on MSN and ZDNet",
-  "source_tag": "via @valsai on X",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAM2asYN_7ilpNzRF0VM-6osaFooFFMAAgoTaxvduTFWiDyuM_idIj4BAAMCAAN5AAM9BA",
-  "text": "Ninety AI agents spent three days sorting through decades of research.\n\nThey found two materials that solve a fundamental computing heat problem nobody else could crack.\n\nThat speed is the whole story.\n\nResearchers have long chased materials that sort electrons by spin while their magnetism cancels out.\n\nIt is the key requirement for spintronics, a field that could make microchips run without generating heat.\n\nThe team deployed more than 90 Claude Opus 5.5 agents to run simulations.\n\nIn three days, the software identified two room temperature magnetic semiconductor candidates: YBaMnFeO5 and KV[Cr(CN)6].\n\nThe search was not theoretical. It used real material chemistry to narrow down decades of dead ends.\n\nThe discovery highlights a quiet shift in how science gets done.\n• 90+ agents deployed in parallel\n• 3 days of simulation run time\n• 2 viable candidates uncovered\n\nMy read: the most valuable use of frontier AI will not be writing emails or generating images. It will be brute-forcing materials science problems that take human researchers a lifetime to test.\n\nThe catch is real. These are simulation candidates, not experimentally verified compounds sitting in a lab.\n\nWould you trust a material found by software to build the next generation of microchips?\n\nSource: @valsai on X, with reporting from The Economic Times on MSN and ZDNet",
-  "alt_openings": "1. Shape: Bare number first\nLine 1: 90 AI agents just did three years of materials research in 72 hours.\nLine 2: They found two physical compounds that could solve computing's heat problem.\nPrefer when: The scale of the agent swarm is the most startling fact in the material.\n\n2. Shape: Corrective\nLine 1: Finding new semiconductor materials does not require decades of lab work anymore.\nLine 2: A team let autonomous software loose on the problem and found two candidates in three days.\nPrefer when: You want to directly challenge the reader's assumption about how long R&D takes.\n\n3. Shape: Your X\nLine 1: Your next microchip may be built from a material discovered by software in a weekend.\nLine 2: Autonomous agents just simulated and found two room-temperature magnetic semiconductors in three days.\nPrefer when: You want to tie an abstract scientific breakthrough directly to the hardware the reader uses daily.\n\nPick: The opening with 90 AI agents because it immediately establishes the concrete scale and speed of the story without relying on jargon.",
+  "source_credit": "@imjustnewatai on X, with reporting from Decrypt and International Business Times AU",
+  "source_tag": "via @imjustnewatai on X",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAM8asdhbf6K4zVrkZ1FHs2JOEO252cAAsoTaxvduUFWsUkGtogd0HMBAAMCAAN5AAM9BA",
+  "text": "OpenAI just dumped 722 AI-generated math papers onto GitHub.\n\nThey claim to have solved hundreds of open problems, but mathematicians are calling foul.\n\nThe speed is the least interesting part.\n\nThe papers claim breakthroughs on some of the hardest questions in history, including a version of the Riemann hypothesis.\n\nAn unreleased frontier model did this with a single prompt per result.\n\nEach proof used about three hours of ChatGPT Pro thinking time to generate.\n\nBut there is a gap.\n\nOnly 162 of the 722 papers have been checked by Lean, the software that verifies logical steps.\n\nThat is just 22% of the collection.\n\nFor the other 560 papers, OpenAI admits the results could have issues.\n\nMathematicians are asking for the receipts.\n\nBecause the model remains private, outside researchers cannot replicate the findings.\n\nOpenAI even turned off GitHub issues, blocking anyone from submitting a correction.\n\nMy read: We are entering the era of synthetic science.\n\nAI can now flood the zone with highly plausible research. But without open-source models, it is just unverified homework.\n\nThey turned off the issues before anyone could find the errors.\n\nSource: @imjustnewatai on X, with reporting from Decrypt and International Business Times AU",
+  "alt_openings": "Line 1: 722 scientific papers.\nLine 2: Written by an unreleased AI model, claiming to solve hundreds of open math problems.\nShape: Bare number first.\nWhen to prefer: Use when the sheer volume of the output is the most shocking and concrete part of the story.\n\nLine 1: Your team might soon be peer-reviewing research written entirely by an unreleased AI.\nLine 2: OpenAI just published 722 math papers, but mathematicians are refusing to believe them.\nShape: Your X.\nWhen to prefer: Use when writing for an audience of researchers, academics, or developers whose daily work will be directly impacted by synthetic content.\n\nLine 1: AI cannot solve advanced mathematics without human intervention.\nLine 2: OpenAI just claimed to solve hundreds of open problems using a single prompt per paper.\nShape: Corrective.\nWhen to prefer: Use when the news directly challenges a widely held assumption about the technical limits of current AI models.\n\nPick: The \"Story in motion\" opening used in the main post. It immediately captures the drama of a sudden public data dump on GitHub, which perfectly sets up the tension between OpenAI's massive claims and the community's skepticism.",
   "voice_score": 4,
   "firewall_notes": [],
-  "headline": "How ninety AI agents found two microchip materials",
+  "headline": "OpenAI claims math breakthroughs but blocks corrections",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-07.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-08.png"
 }
