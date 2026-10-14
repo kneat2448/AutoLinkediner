@@ -1,7 +1,7 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-13",
-  "created_at": "2026-10-13T15:14:47.549039+05:30",
+  "date": "2026-10-14",
+  "created_at": "2026-10-14T13:31:16.707174+05:30",
   "candidate": {
     "id": "x:2107601711032373333",
     "source": "x",
@@ -86,92 +86,92 @@
       }
     },
     {
-      "id": "news:80d24e118917",
-      "source": "news",
-      "title": "Meta releases its first frontier model, Muse Wonder",
-      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-      "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
-      "score": 80.0,
-      "created_at": "2026-10-12T17:56:56+00:00",
-      "raw_text": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+      "id": "hn:50073879",
+      "source": "hackernews",
+      "title": "Gemini 4 Argon",
+      "url": "https://deepmind.google/models/gemini/",
+      "summary": "See also: <i>Gemini 4 Argon for Robotics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869</a>",
+      "score": 1240.0,
+      "created_at": "2026-10-13T16:03:16+00:00",
+      "raw_text": "",
       "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
+        "discussion_url": "https://news.ycombinator.com/item?id=50073879",
+        "num_comments": 865,
         "coverage": 2
       }
     },
     {
-      "id": "hn:50063427",
+      "id": "hn:50078141",
       "source": "hackernews",
-      "title": "AI is a tool and using it well takes skill",
-      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-      "summary": "",
-      "score": 412.0,
-      "created_at": "2026-10-12T21:40:18+00:00",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "summary": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;OpenAINewsroom&#x2F;status&#x2F;2110095403198849132\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;OpenAINewsroom&#x2F;status&#x2F;2110095403198849132</a>",
+      "score": 549.0,
+      "created_at": "2026-10-13T20:23:55+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50063427",
-        "num_comments": 330,
-        "coverage": 0
+        "discussion_url": "https://news.ycombinator.com/item?id=50078141",
+        "num_comments": 460,
+        "coverage": 1
       }
     },
     {
-      "id": "news:7c431d9eeb01",
+      "id": "news:58e4191fcfe4",
       "source": "news",
-      "title": "AI labs are buying data from dead startups to train their models",
-      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
-      "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around…",
-      "score": 85.0,
-      "created_at": "2026-10-13T09:00:00+00:00",
-      "raw_text": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around $15,000) for the workspace data in Google, Notion, Figma, and Slack. “At least all that stuff we were doing for two and a half years is worth something to someone somewhere,” he says. The sale was brokered by a company called SimpleClosure, part of a new growth sector in tech: businesses catering to dying startups. Estimates from Carta and AngelList show shutdowns rising between 26% and 56% annually in recent years, and an end-of-life ecosystem—including coaches, “death doulas,” and firms that help handle the legal, tax, and operational headaches of going ­belly-up—has emerged. Now tech undertakers are selling the data remains to AI labs. SimpleClosure added data sales to its services in April. Its Asset Hub platform helps founders sell their code and workspace data—emails, chats, documents. Buyers include foundation AI labs, vendors that construct simulated workspaces for AI training, and mature tech companies building their own models. Asset Hub has handled over 150 deals and expects to return over $10 million to startups by the end of 2026. CEO Dori Yona has seen these transactions, once rare and “somewhat taboo,” become increasingly routine, with 47% of SimpleClosure deals now including code or data sales. And it’s got company. Industry rival Sunset also has a rapidly growing data resale business. Founder and CEO Brendan Mahony says Sunset values a dying client’s assets by head count, years in operation, volume of data, and how the team used its tools. Particle board, he says, is a good analogy: “This operational exhaust data is like the wood shavings that everyone thought had no value, but it actually has a ton.” Demand for defunct companies’ data emerged suddenly last year, as AI training labs hit the limits of public and synthetic datasets. Surge AI, for example, buys data to build “reinforcement-learning gyms” where clients’ AI agents practice tasks—think debugging a complex IT architecture or drafting appellate briefs. Nick Heiner, who leads the company’s work on these environments, says he seeks data archives reflecting a range of situations, from disagreements to tricky judgment calls. Heiner explains that one company’s Slack history, if it captures conversations with variety and depth, can be worth more than another’s Slack, email, and calendars combined. Real archives avoid common errors in synthetic worlds, such as references to dates that don’t exist, but the extent of performance gains remains unclear. No company has yet released tests comparing results of real-world data training with the alternatives. Pricing reflects this uncertainty: Buyers quote wildly different numbers, Heiner says, because valuations are…",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "score": 100.0,
+      "created_at": "2026-10-14T02:00:14+00:00",
+      "raw_text": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
       "extra": {
-        "outlet": "MIT Technology Review",
-        "weight": 0.85,
+        "outlet": "Google DeepMind",
+        "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50065692",
-      "source": "hackernews",
-      "title": "AI models can provably hide arbitrary capabilities",
-      "url": "https://arxiv.org/abs/2610.13928",
+      "id": "news:f174716114a9",
+      "source": "news",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
       "summary": "",
-      "score": 208.0,
-      "created_at": "2026-10-13T02:07:08+00:00",
+      "score": 100.0,
+      "created_at": "2026-10-13T16:01:52+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50065692",
-        "num_comments": 105,
+        "outlet": "Google DeepMind",
+        "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50059523",
-      "source": "hackernews",
-      "title": "AI coding agents generate more code, but not more software",
-      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "summary": "",
-      "score": 335.0,
-      "created_at": "2026-10-12T17:14:01+00:00",
-      "raw_text": "",
+      "id": "news:54d9c64a7bcd",
+      "source": "news",
+      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "summary": "The startup will sell some of its assets to Disney for $20 million.",
+      "score": 80.0,
+      "created_at": "2026-10-13T12:23:42+00:00",
+      "raw_text": "The startup will sell some of its assets to Disney for $20 million.",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50059523",
-        "num_comments": 283,
-        "coverage": 0
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 1
       }
     },
     {
-      "id": "hn:50060269",
-      "source": "hackernews",
-      "title": "'AI' Is Not a Tool by Rich Hickey",
-      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
-      "summary": "<a href=\"https:&#x2F;&#x2F;gist.github.com&#x2F;svieira&#x2F;619d60dea942a8d4498cba3bb6b11c02\" rel=\"nofollow\">https:&#x2F;&#x2F;gist.github.com&#x2F;svieira&#x2F;619d60dea942a8d4498cba3bb6b1...</a>",
-      "score": 275.0,
-      "created_at": "2026-10-12T18:00:25+00:00",
-      "raw_text": "",
+      "id": "news:ffc748cb8d88",
+      "source": "news",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "score": 100.0,
+      "created_at": "2026-10-13T12:00:00+00:00",
+      "raw_text": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50060269",
-        "num_comments": 140,
+        "outlet": "OpenAI",
+        "weight": 1.0,
         "coverage": 0
       }
     },
@@ -181,7 +181,7 @@
       "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
       "url": "https://huggingface.co/papers/2609.39601",
       "summary": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) and world-action models (WAMs) take perception from general-purpose vision-language and video-generation backbones, which still fail in these settings. We introduce GroundingPI, a 4B grounding foundation model that generates points and boxes as quantized coordinates in a shared vo…",
-      "score": 108.0,
+      "score": 257.0,
       "created_at": "2026-10-13T00:00:00.000Z",
       "raw_text": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) and world-action models (WAMs) take perception from general-purpose vision-language and video-generation backbones, which still fail in these settings. We introduce GroundingPI, a 4B grounding foundation model that generates points and boxes as quantized coordinates in a shared vocabulary. Training combines multimodal and spatial pretraining, supervised fine-tuning, and reinforcement learning with GRPO, using supervision from public datasets and dedicated data engines. Against 44 baselines across 34 grounding benchmarks spanning 11 perceptual capabilities, GroundingPI establishes a new state of the art, averaging 73.68%, above the larger GPT-6 Astra (71.54%). As a downstream visual backbone, GroundingPI improves performance on robotic manipulation and autonomous driving. On RoboTwin 2.0, it outperforms every mainstream backbone we evaluate in all four out-of-distribution settings, by up to 24.8% relative to the strongest backbone. On RoboCasa-GR1, GroundingPI trained with 50% of the demonstrations outperforms those baselines trained with 75%. On nuScenes, used as the visual backbone, GroundingPI attains an average open-loop L2 error of 0.296 m. We systematically analyze GroundingPI's pretraining in scale and data composition. Downstream autonomous driving and robotic manipulation improve as the pretraining is scaled. Analyzing the data recipe across these 11 perceptual capabilities shows dense grounding's substantial benefits for both, and OCR's potential as a catalyst for perceptual learning. These results support grounding as a perceptual foundation, and dedicated perceptual pretraining as a promising direction for foundation models of physical intelligence.",
       "extra": {
@@ -190,36 +190,37 @@
       }
     },
     {
-      "id": "hf:2610.13527",
-      "source": "huggingface",
-      "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
-      "url": "https://huggingface.co/papers/2610.13527",
-      "summary": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood. We uncover S-Space, a linear representation subspace in which object-token representations encode continuous coordinates along horizontal, vertical, and distance axes. Although we identify these axes by differentiating spatial-answer scores with respect to object-token activations, S-Space is intrinsic rather than induced by specific data or…",
-      "score": 267.0,
-      "created_at": "2026-10-12T00:00:00.000Z",
-      "raw_text": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood. We uncover S-Space, a linear representation subspace in which object-token representations encode continuous coordinates along horizontal, vertical, and distance axes. Although we identify these axes by differentiating spatial-answer scores with respect to object-token activations, S-Space is intrinsic rather than induced by specific data or prompts, remaining readable under non-spatial questions. We show that S-Space functions as an internal spatial workspace of MLLMs. Perception encodes object locations into it, forming spatial representations that can be directly read out to support accurate spatial judgments. Internal reasoning transforms it for changing viewpoints. Verbal responses selectively access it, evidenced by causal interventions that alter spatial judgments while largely preserving non-spatial responses. Case studies further show that S-Space assigns locations to unseen entities and the observer, and connects physical directions with abstract linguistic meanings, suggesting both the capabilities and limitations of large-scale language training. Finally, we use S-Space as a diagnostic tool for spatial reasoning failures. Direction-word readouts reveal systematic coupling between cardinal and image-relative reference frames. More importantly, a perception-computation decomposition exposes a key bottleneck: MLLMs can form capable spatial representations, yet fall short in the spatial transformations required to reason reliably across viewpoint changes.",
+      "id": "news:bfa2207d1022",
+      "source": "news",
+      "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+      "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+      "summary": "Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
+      "score": 80.0,
+      "created_at": "2026-10-13T23:17:59+00:00",
+      "raw_text": "Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.13527",
+        "outlet": "Wired",
+        "weight": 0.8,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathem…\n\nTweet text:\nOpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet.\n\n1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS\n\nResearch notes on: OpenAI releases 722 AI-generated mathematics papers making major unverified claims including a quasi-Riemann hypothesis.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from International Business Times AU: \"OpenAI Releases 722 AI-Written Math Papers Claiming Hundreds of Breakthroughs, but Experts Urge Caution\"\nSAN FRANCISCO — OpenAI has released 722 mathematical manuscripts produced by an unreleased artificial intelligence model, claiming solutions to hundreds of long-standing open problems in a move that has both impressed and unsettled the mathematics community.\nThe manuscripts, published Tuesday in a public GitHub repository, cover 372 \"result families\" that group related papers together, according to the company. The release is the largest public display yet of an AI system's ability to tackle research-level mathematics, but many of the results have not been independently verified.\nThe Advisory Group on Mathematics and Artificial Intelligence, an independent panel of mathematicians known as AGMAI that OpenAI consulted on the release, said the batch includes solutions to \"hundreds\" of open questions. The group has not endorsed the findings, according to reports.\nOpenAI said the unreleased frontier model was posed roughly 4,000 problems during an internal evaluation. The 722 manuscripts represent the results the company judged significant enough to publish.\nThe company said the \"average result\" used computing power equivalent to about three hours of ChatGPT Pro thinking time.\nAlongside the papers, OpenAI released summaries of some of the model's reasoning, estimates of the computing resources used and statistics on the number of problems attempted. According to Scientific American, the company did not publish the prompts used to generate the results. OpenAI has also not disclosed the name of the model.\n\"For this release, we're publishing the results in a GitHub repository, with protocols for paper revisions and citations,\" OpenAI said. The manuscripts were released under an open-source license.\nAccording to reports summarizing the release, the manuscripts include claimed results on several well-known problems, including a proof of the Unique Games Conjecture in theoretical computer science and a resolution of the free group factor problem, a question in operator algebras that has been open since the 1940s.\nThe collection also reportedly includes a claimed result showing that the Riemann zeta function has no zeros in a region where the real part exceeds 7/8, a weaker version of the famous Riemann Hypothesis that some have described as a \"quasi-Riemann hypothesis.\"\nThese claims have not been confirmed by the mathematical community. Major results in mathematics typically require months or even years of careful review by experts before they are accepted. OpenAI ha\n\nCoverage from Chosunbiz: \"OpenAI floods math with 719 AI papers; Korea hails speed, flags clarity strain\"\nAs OpenAI released 722 math paper drafts written using artificial intelligence (AI), Korean mathematicians said AI excels at rapidly drawing on existing research and consolidating knowledge across different fields. But some noted that parts of the AI-written papers are difficult to follow in structure and notation, which could mean it takes considerable time for other mathematicians to understand the content and use it for follow-up work.\nOn the 6th (local time), OpenAI compiled results across various fields, including algebra, geometry, and probability theory, and posted them on GitHub. On the 7th, the day after the release, three drafts with errors in their proofs were withdrawn, leaving 719, and the mathematics community is reviewing them.\nKorean mathematicians who followed the release cited AI's ability to surpass the time limits of human researchers as a strength. Mathematics is highly specialized, making it hard for a single mathematician to broadly understand and use research from other areas. By contrast, AI can rapidly advance follow-up research by consolidating knowledge accumulated in different fields.\nSeo In-seok, a professor in the Department of Mathematical Sciences at Seoul National University, said, \"The limited time of human researchers has long been a practical bottleneck in mathematical research,\" adding, \"This result shows AI has significantly cut the time needed for the next research stage by leveraging the body of work human mathematicians have built over many years.\"\nHe went on, \"Just as it was hard for someone living in the Goryeo or Joseon eras to expect rapid national development within a lifetime, past mathematicians found it difficult to expect a quantum leap in their field within their own lives,\" adding, \"With the advent of AI, the contribution a single mathematician can make will grow dramatically.\"\nIn practice, OpenAI's AI attempted to solve the problem of the \"fluctuation theorem for the low-temperature Sherrington–Kirkpatrick model\" based on existing human research. The problem concerns a model that mathematically represents a situation in which countless micro-magnets interact randomly, and requires determining how much a physical quantity called \"free energy\" changes at low temperatures.\nAccording to Lee Ji-woon, a professor in the Department of Mathematical Sciences at KAIST who was studying the fluctuation theorem for the low-temperature Sherrington–Kirkpatrick model, the field long lacked even an approach to a solutio\n\nCoverage from Decrypt: \"OpenAI Says a Secret AI Model Cracked Hundreds of Open Math Problems in One Prompt—Mathematicians Want Receipts\"\nOpenAI published 722 math manuscripts on GitHub on Tuesday, all produced by an internal model the company has not released. An OpenAI spokesperson said almost everything came from a single prompt handed to a single AI agent, though some may have taken multiple attempts.\nIt's a bold claim and a potentially significant breakthrough in the field of mathematics. But not everyone is a fan, or buying the hype.\n“Until and unless they release the model and people can replicate their results, I think you should treat any claims about one-shotting problems with a single agent as unverified,” Andrew Sutherland , a mathematician at MIT, told Scientific American . “We should ask for receipts,” he said.\nThe papers are grouped into 372 “families” of related results, and a family can bundle a main theorem with companion arguments, consequences or alternative proofs. That makes 722 a count of manuscripts, not of solved problems. OpenAI says it posed roughly 4,000 problems to the model and kept the outputs it judged significant enough to publish.\nThe average result used the equivalent of roughly three hours of ChatGPT Pro thinking compute, per OpenAI . The Navier-Stokes claim last month looked very different, with 10,000 coordinating agents working for 88 hours.\nOpenAI released abridged reasoning summaries for 10 of the results. That said, only 162 of the 722 papers come with a computer-checked main result, according to a formalization catalog in the repository. That is about 22% of the collection, translated into Lean, software that checks every logical step mechanically.\nOpenAI itself says not all manuscripts have Lean formalizations and that “some of the unformalized results could have issues.” In other words, a lot of what they published could be wrong.\nA passing Lean check confirms only that the proof follows from the statement as written in Lean. It does not show that the statement matches the original problem, or that the result is new or important, which is the part mathematicians now have to judge.\nAnd this is where researchers raise their eyebrows.\nI was trying to read the OpenAI proof that chromatic number of a plane is >= 6. But it is totally unbelievable alien math?\nSomehow the model found that any K-coloring <=> \"weakly measurable\" K-coloring, which seems out of nowhere\nThe openai/math repo has Issues turned off and has never accepted a pull request. That's disappointing. If you publish 722 manuscripts and ask for Lean formalisations, you need somewhere for pe\n\nBackground (Riemann hypothesis, Wikipedia):\nIn mathematics, the Riemann hypothesis is the conjecture that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part . Many consider it to be the most important unsolved problem in pure mathematics. It is of great interest in number theory because it implies results about the distribution of prime numbers. It was proposed by Bernhard Riemann, after whom it is named. There is overwhelming numerical evidence for the hypothesis, but no proof is known.\n\nBackground (Proof assistant, Wikipedia):\nIn computer science and mathematical logic, a proof assistant or interactive theorem prover is a software tool to assist with the development of formal proofs by human–machine collaboration. This involves some sort of interactive proof editor, or other interface, with which a human can guide the search for proofs, the details of which are stored in, and some steps provided by, a computer.",
+  "context": "Title: OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathem…\n\nTweet text:\nOpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet.\n\n1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS\n\nResearch notes on: OpenAI releases 722 AI-written math papers making claims about the Riemann hypothesis\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from International Business Times AU: \"OpenAI Releases 722 AI-Written Math Papers Claiming Hundreds of Breakthroughs, but Experts Urge Caution\"\nSAN FRANCISCO — OpenAI has released 722 mathematical manuscripts produced by an unreleased artificial intelligence model, claiming solutions to hundreds of long-standing open problems in a move that has both impressed and unsettled the mathematics community.\nThe manuscripts, published Tuesday in a public GitHub repository, cover 372 \"result families\" that group related papers together, according to the company. The release is the largest public display yet of an AI system's ability to tackle research-level mathematics, but many of the results have not been independently verified.\nThe Advisory Group on Mathematics and Artificial Intelligence, an independent panel of mathematicians known as AGMAI that OpenAI consulted on the release, said the batch includes solutions to \"hundreds\" of open questions. The group has not endorsed the findings, according to reports.\nOpenAI said the unreleased frontier model was posed roughly 4,000 problems during an internal evaluation. The 722 manuscripts represent the results the company judged significant enough to publish.\nThe company said the \"average result\" used computing power equivalent to about three hours of ChatGPT Pro thinking time.\nAlongside the papers, OpenAI released summaries of some of the model's reasoning, estimates of the computing resources used and statistics on the number of problems attempted. According to Scientific American, the company did not publish the prompts used to generate the results. OpenAI has also not disclosed the name of the model.\n\"For this release, we're publishing the results in a GitHub repository, with protocols for paper revisions and citations,\" OpenAI said. The manuscripts were released under an open-source license.\nAccording to reports summarizing the release, the manuscripts include claimed results on several well-known problems, including a proof of the Unique Games Conjecture in theoretical computer science and a resolution of the free group factor problem, a question in operator algebras that has been open since the 1940s.\nThe collection also reportedly includes a claimed result showing that the Riemann zeta function has no zeros in a region where the real part exceeds 7/8, a weaker version of the famous Riemann Hypothesis that some have described as a \"quasi-Riemann hypothesis.\"\nThese claims have not been confirmed by the mathematical community. Major results in mathematics typically require months or even years of careful review by experts before they are accepted. OpenAI ha\n\nCoverage from Decrypt: \"OpenAI Says a Secret AI Model Cracked Hundreds of Open Math Problems in One Prompt—Mathematicians Want Receipts\"\nOpenAI published 722 math manuscripts on GitHub on Tuesday, all produced by an internal model the company has not released. An OpenAI spokesperson said almost everything came from a single prompt handed to a single AI agent, though some may have taken multiple attempts.\nIt's a bold claim and a potentially significant breakthrough in the field of mathematics. But not everyone is a fan, or buying the hype.\n“Until and unless they release the model and people can replicate their results, I think you should treat any claims about one-shotting problems with a single agent as unverified,” Andrew Sutherland , a mathematician at MIT, told Scientific American . “We should ask for receipts,” he said.\nThe papers are grouped into 372 “families” of related results, and a family can bundle a main theorem with companion arguments, consequences or alternative proofs. That makes 722 a count of manuscripts, not of solved problems. OpenAI says it posed roughly 4,000 problems to the model and kept the outputs it judged significant enough to publish.\nThe average result used the equivalent of roughly three hours of ChatGPT Pro thinking compute, per OpenAI . The Navier-Stokes claim last month looked very different, with 10,000 coordinating agents working for 88 hours.\nOpenAI released abridged reasoning summaries for 10 of the results. That said, only 162 of the 722 papers come with a computer-checked main result, according to a formalization catalog in the repository. That is about 22% of the collection, translated into Lean, software that checks every logical step mechanically.\nOpenAI itself says not all manuscripts have Lean formalizations and that “some of the unformalized results could have issues.” In other words, a lot of what they published could be wrong.\nA passing Lean check confirms only that the proof follows from the statement as written in Lean. It does not show that the statement matches the original problem, or that the result is new or important, which is the part mathematicians now have to judge.\nAnd this is where researchers raise their eyebrows.\nI was trying to read the OpenAI proof that chromatic number of a plane is >= 6. But it is totally unbelievable alien math?\nSomehow the model found that any K-coloring <=> \"weakly measurable\" K-coloring, which seems out of nowhere\nThe openai/math repo has Issues turned off and has never accepted a pull request. That's disappointing. If you publish 722 manuscripts and ask for Lean formalisations, you need somewhere for pe\n\nCoverage from note: \"OpenAI's 722 Math Papers Are Not a Story of 'Leaving Humans Behind'—An Introductory Guide to 8 Key Topics, from the Riemann Hypothesis to Erdős's Prize Money｜ぶちょう\"\nOn the morning of October 7, 2026, headlines appeared stating, \"OpenAI claims internal AI has proven difficult problems related to the Riemann Hypothesis.\" The 722 manuscripts posted on GitHub featured names seen only in textbooks, such as the Riemann Hypothesis, the Hodge Conjecture, and the BSD Conjecture.\nHas mathematics already slipped out of human hands? It is no wonder one might feel that way just by following the headlines.\nHowever, opening the contents of the 722 papers changes the perspective. The human most frequently cited by the AI's manuscripts was the mathematician Erdős, who traveled the world with a single suitcase, handing out homework with prize money attached. Another manuscript tackles a conjecture left behind in a letter by Grothendieck 43 years ago, placing at its core tools that researchers in Kyoto spent 30 years refining.\nTo dismiss this as \"AI leaving humans behind\" makes this story a bit too interesting.\nEarly in the morning on October 7, Japan Standard Time, OpenAI released a repository called \"openai/math\" on GitHub. The contents are 722 mathematical manuscripts that it claims were generated by an unreleased internal model. The related manuscripts are bundled into 372 \"result families,\" and the author field for all of them is \"OpenAI.\"\nAccording to the README, about 4,000 problems were posed to the model during the evaluation period, and the majority of the results were obtained using the same procedure. The calculation per item is, on average, about 3 hours of ChatGPT Pro's thinking time. However, the work on the quasi-Riemann Hypothesis and the Hodge Conjecture (CM) are considered \"exceptions\" to this fixed procedure.\nThe numbers are counting different things: approximately 4,000 is the number of problems posed, 372 is the number of bundles, and 722 is the number of manuscripts.\nCalculating a \"correct answer rate\" by dividing 722 by 4,000 does not hold up.\nAll 722 manuscripts are papers that OpenAI claims to have \"proven.\" There are at least three stages before they are accepted as mathematical knowledge.\nClaim : The stage where a paper is written and published. All 722 are currently here.\nMachine verification : The stage where the proof is rewritten in a language called Lean, and a computer is made to verify the logic line by line.\nHuman confirmation : The stage where experts read the paper and publicly acknowledge it as correct.\nLean is a powerful inspector. Omissions like \"it is obvious here\" or reliance on prestigious aca\n\nBackground (Riemann hypothesis, Wikipedia):\nIn mathematics, the Riemann hypothesis is the conjecture that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part . Many consider it to be the most important unsolved problem in pure mathematics. It is of great interest in number theory because it implies results about the distribution of prime numbers. It was proposed by Bernhard Riemann, after whom it is named. There is overwhelming numerical evidence for the hypothesis, but no proof is known.\n\nBackground (Riemann zeta function, Wikipedia):\nIn mathematics, the Riemann zeta function, or Euler–Riemann zeta function, denoted by the lowercase Greek letter ⁠⁠ (zeta), is a function of a complex variable defined as for , and its analytic continuation elsewhere.",
   "research_links": [
     "https://www.ibtimes.com.au/openai-ai-mathematics-manuscripts-verification-1876387",
-    "https://biz.chosun.com/en/en-science/2026/10/12/ZF43Y2FTRZH4BIKNWISTHSGJMU/",
-    "https://decrypt.co/380366/openai-secret-ai-model-cracked-hundreds-math-problems-one-prompt"
+    "https://decrypt.co/380366/openai-secret-ai-model-cracked-hundreds-math-problems-one-prompt",
+    "https://note.com/rivas_bucho/n/n66b30b192bcd?hl=en"
   ],
-  "source_credit": "@imjustnewatai on X, with reporting from International Business Times AU and Chosunbiz",
+  "source_credit": "@imjustnewatai on X, with reporting from International Business Times AU and Decrypt",
   "source_tag": "via @imjustnewatai on X",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAANWas3-4tPdHE8QU1lZM2SBOQ-oNe4AAnMUaxvfwHBWwk8teW_uhT4BAAMCAAN5AAM9BA",
-  "text": "An unreleased OpenAI model just dropped 722 math papers onto GitHub.\n\nThey claim solutions to hundreds of open problems, including a quasi-Riemann hypothesis.\n\nThe mathematics community wants receipts.\n\nAn internal evaluation posed roughly 4,000 problems to the model.\n\nOpenAI selected 722 manuscripts grouped into 372 result families, publishing them under an open-source license.\n\nThe average result used computing power equivalent to about three hours of ChatGPT Pro thinking time.\n\nOnly 162 of the papers come with a computer-checked main result verified by Lean, software that checks every logical step mechanically.\n\nThree drafts were withdrawn on the second day after errors appeared in their proofs, leaving 719 for experts to review.\n\nKorean mathematicians noted that AI excels at rapidly consolidating knowledge across different fields, but warned that structure and notation can be difficult to follow.\n\nMIT mathematician Andrew Sutherland told Scientific American that any claims about one-shotting problems with a single agent should be treated as unverified until replicated.\n\nMajor results in mathematics typically require months or years of careful review by human experts.\n\nMy read: AI can now generate thousands of pages of complex math at high speed, but speed does not equal proof.\n\nThe repository currently has GitHub issues turned off.\n\nHow long before automated proof checkers become the only way humans can audit research they no longer have time to read?\n\nSource: @imjustnewatai on X, with reporting from International Business Times AU and Chosunbiz",
-  "alt_openings": "1. Tool as subject\nOpenAI's unreleased AI model just generated 722 math papers in a single prompt.\nExperts are treating every single claim with extreme caution until independent mathematicians can verify them.\nShape: Tool as subject\nPrefer when: The product or system did something unprecedented that demands immediate attention.\n\n2. Corrective\nBreakthrough math proofs usually take human experts years of careful peer review to confirm.\nOpenAI just published 722 of them on GitHub overnight without outside verification.\nShape: Corrective\nPrefer when: A common assumption about how long or hard something is gets upended by a new event.\n\n3. Bare number first\n722 AI-written math papers.\nZero outside mathematicians have confirmed the findings yet.\nShape: Bare number first\nPrefer when: A single striking statistic or count tells the entire story before any context is added.\n\nPick: The corrective opening. It establishes the contrast between normal human research timelines and OpenAI's sudden dump of unverified papers immediately.",
-  "voice_score": 6,
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAANcas84LOfQeYu3oCQ-HXGH26MGXxkAAj0RaxvfwHhWuGr8s5DLHgABAQADAgADeQADPQQ",
+  "text": "OpenAI just dropped 722 math papers written by an unreleased model.\n\nResearchers are told to check the math themselves, but the repository has issues turned off.\n\nThe speed is the least interesting part.\n\nAn internal AI system solved hundreds of open problems after being fed roughly 4,000 prompts.\n\nThe company published the results on GitHub in a public repository grouped into 372 result families.\n\nOnly 162 of the 722 manuscripts come with a computer-checked main result translated into Lean software.\n\nThat is about 22 percent of the collection.\n\nOpenAI stated that unformalized results could contain errors, and major math proofs typically demand years of expert review.\n\nMIT mathematician Andrew Sutherland told Scientific American that we should ask for receipts until people outside the company can replicate the outputs.\n\nOther researchers described the proofs as alien math that arrived without warning.\n\nMy read: publishing unverified AI papers on GitHub shifts the burden of proof onto an unpaid global faculty.\n\nThe code repository has comments turned off.\n\nWould you spend your weekends checking proofs generated by a machine you cannot see?\n\nSource: @imjustnewatai on X, with reporting from International Business Times AU and Decrypt",
+  "alt_openings": "1. **Bare number first:**\n722 math papers written entirely by an AI model.\nResearchers are urged to verify the proofs, but the repository has comments turned off.\n*Prefer this when:* The raw scale of an output is the most startling detail and needs no setup to pull readers in.\n\n2. **Corrective:**\nAI math proofs do not become true just because they are published on GitHub.\nExternal experts say the unreleased model's claims need months of manual review before anyone should celebrate.\n*Prefer this when:* You want to cut through hype immediately by contrasting a common assumption with a sharper reality.\n\n3. **Story in motion:**\nAn unreleased AI model just solved hundreds of open mathematics problems in a single prompt.\nMathematicians are rushing to read the outputs, only to find alien logic and disabled comments.\n*Prefer this when:* You want to open right inside an unfolding event where the consequences are still playing out.\n\nPick: The opening I ran. It starts with the concrete fact and immediately exposes the friction point between the company's release and the academic reality.",
+  "voice_score": 5,
   "firewall_notes": [],
-  "headline": "How AI is rewriting advanced mathematics research",
+  "headline": "How OpenAI is outsourcing math proof reviews to GitHub",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-13.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-14.png"
 }
