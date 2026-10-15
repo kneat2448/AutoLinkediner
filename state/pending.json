@@ -1,118 +1,154 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-14",
-  "created_at": "2026-10-14T13:31:16.707174+05:30",
+  "date": "2026-10-15",
+  "created_at": "2026-10-15T13:12:30.572675+05:30",
   "candidate": {
-    "id": "x:2107601711032373333",
-    "source": "x",
-    "title": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathem…",
-    "url": "https://x.com/imjustnewatai/status/2107601711032373333",
-    "summary": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet. 1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS",
-    "score": 0.0,
-    "created_at": "2026-10-07T09:09:53.432531+00:00",
-    "raw_text": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet.\n\n1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS",
+    "id": "news:134069d44702",
+    "source": "news",
+    "title": "Figma announces new features to define how agents work on its platform",
+    "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+    "summary": "Figma is also releasing its code layers feature in open beta.",
+    "score": 80.0,
+    "created_at": "2026-10-15T04:30:00+00:00",
+    "raw_text": "Figma is also releasing its code layers feature in open beta.",
     "extra": {
-      "author": "imjustnewatai",
-      "tweet_text": "",
-      "links": [],
+      "outlet": "TechCrunch",
+      "weight": 0.8,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "x:2107601711032373333",
-      "source": "x",
-      "title": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathem…",
-      "url": "https://x.com/imjustnewatai/status/2107601711032373333",
-      "summary": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet. 1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS",
-      "score": 0.0,
-      "created_at": "2026-10-07T09:09:53.432531+00:00",
-      "raw_text": "OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet.\n\n1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS",
-      "extra": {
-        "author": "imjustnewatai",
-        "tweet_text": "",
-        "links": [],
-        "coverage": 0
-      }
-    },
-    {
-      "id": "x:2107596713791767021",
-      "source": "x",
-      "title": "We’re releasing a broad range of new mathematical results produced by an internal frontier model.",
-      "url": "https://x.com/openai/status/2107596713791767021",
-      "summary": "We’re releasing a broad range of new mathematical results produced by an internal frontier model. We’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and…",
-      "score": 0.0,
-      "created_at": "2026-10-07T09:09:54.533854+00:00",
-      "raw_text": "We’re releasing a broad range of new mathematical results produced by an internal frontier model.\n\nWe’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and…",
-      "extra": {
-        "author": "openai",
-        "tweet_text": "",
-        "links": [],
-        "coverage": 0
-      }
-    },
-    {
-      "id": "x:2107612308591485205",
-      "source": "x",
-      "title": "OpenAI have proven that matrix multiplication can be done in O(n^2.25) operations, which is a massive improvement. It is especially concern…",
-      "url": "https://x.com/rokomijic/status/2107612308591485205",
-      "summary": "OpenAI have proven that matrix multiplication can be done in O(n^2.25) operations, which is a massive improvement. It is especially concerning because these AIs themselves run on matrix algebra. The previous record was O(n^2.37), which had barely moved from O(n^2.4) in 1990.… pic.twitter.com/oMWMlMiiU7",
-      "score": 0.0,
-      "created_at": "2026-10-07T09:09:55.557021+00:00",
-      "raw_text": "OpenAI have proven that matrix multiplication can be done in O(n^2.25) operations, which is a massive improvement. It is especially concerning because these AIs themselves run on matrix algebra. \n\nThe previous record was O(n^2.37), which had barely moved from O(n^2.4) in 1990.… pic.twitter.com/oMWMlMiiU7",
-      "extra": {
-        "author": "rokomijic",
-        "tweet_text": "",
-        "links": [],
-        "coverage": 0
-      }
-    },
-    {
-      "id": "x:2107606747972309163",
-      "source": "x",
-      "title": "oh yeah btw guys we can do integer multiplication faster than n log n lol",
-      "url": "https://x.com/acerfur/status/2107606747972309163",
-      "summary": "oh yeah btw guys we can do integer multiplication faster than n log n lol I was definitely very surprised when this one came in lolhttps://t.co/o7iBA131nY pic.twitter.com/TAW2RgJpsu",
-      "score": 0.0,
-      "created_at": "2026-10-07T09:09:57.027670+00:00",
-      "raw_text": "oh yeah btw guys we can do integer multiplication faster than n log n lol\n\nI was definitely very surprised when this one came in lolhttps://t.co/o7iBA131nY pic.twitter.com/TAW2RgJpsu",
-      "extra": {
-        "author": "acerfur",
-        "tweet_text": "",
-        "links": [
-          "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026"
-        ],
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50073879",
+      "id": "hn:50091788",
       "source": "hackernews",
-      "title": "Gemini 4 Argon",
-      "url": "https://deepmind.google/models/gemini/",
-      "summary": "See also: <i>Gemini 4 Argon for Robotics</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50074869</a>",
-      "score": 1240.0,
-      "created_at": "2026-10-13T16:03:16+00:00",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "summary": "",
+      "score": 883.0,
+      "created_at": "2026-10-14T17:45:23+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50073879",
-        "num_comments": 865,
-        "coverage": 2
+        "discussion_url": "https://news.ycombinator.com/item?id=50091788",
+        "num_comments": 516,
+        "coverage": 0
       }
     },
     {
-      "id": "hn:50078141",
+      "id": "hf:2610.20571",
+      "source": "huggingface",
+      "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+      "url": "https://huggingface.co/papers/2610.20571",
+      "summary": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit location, camera, and event-time references. Before generation, it retrieves releva…",
+      "score": 157.0,
+      "created_at": "2026-10-15T00:00:00.000Z",
+      "raw_text": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit location, camera, and event-time references. Before generation, it retrieves relevant evidence from a scene memory of registered static geometry and an event memory of dynamic observations indexed by scene, event, and time. After generation, ATAS reconstructs and registers the clip. It updates memory only when review and state checks accept the observation, while film delivery remains independent of memory admission. Across four video generators, ATAS improves all reported cross-shot consistency measures and achieves the highest aggregate benchmark score for each backbone. It also outperforms the compared agents and 3D-guided methods on target-image spatial revisit, leads three event-recapture criteria, and receives the highest human ratings on all six criteria. The video results and code are available on our project page: https://lhmd.top/atas/.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.20571",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:a0e0fec2c2b5",
+      "source": "news",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "score": 100.0,
+      "created_at": "2026-10-14T12:00:00+00:00",
+      "raw_text": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:24cc989c02db",
+      "source": "news",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "score": 100.0,
+      "created_at": "2026-10-14T12:00:00+00:00",
+      "raw_text": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:134069d44702",
+      "source": "news",
+      "title": "Figma announces new features to define how agents work on its platform",
+      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "summary": "Figma is also releasing its code layers feature in open beta.",
+      "score": 80.0,
+      "created_at": "2026-10-15T04:30:00+00:00",
+      "raw_text": "Figma is also releasing its code layers feature in open beta.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.20584",
+      "source": "huggingface",
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "url": "https://huggingface.co/papers/2610.20584",
+      "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Pl…",
+      "score": 116.0,
+      "created_at": "2026-10-15T00:00:00.000Z",
+      "raw_text": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Player-1, a post-training framework for learning game control beyond demonstrations through synthetic experience. We extend the computer-use action space with relative pointer motion, sustained inputs, and composite actions. For supervised initialization, we fine-tune computer-use models on 6,044 curated gameplay trajectories that pair recorded actions with task instructions and visual reasoning. We construct Player-1-Gym, sixteen synthetic 2D and 3D environments designed around control demands shared across games. Programmatically verifiable rewards and randomized observations and control dynamics support multi-environment reinforcement learning with PPO. The resulting Player-1-9B and Player-1-35B-A3B improve MineDojo-300 success over their SFT policies by 27.8 and 17.7 percentage points, respectively. Player-1-9B reaches 38.33% success compared with 12.63% for the strongest evaluated baseline, with further gains over SFT on ViZDoom-10 and GameWorld. Further analyses show that broader synthetic environment coverage improves transfer, while the use of composite actions that combine multiple keyboard and mouse inputs increases during RL. We demonstrate that learning from synthetic experience substantially improves game control beyond supervised initialization, with gains that generalize beyond the RL training suite.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.20584",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:e181547094b0",
+      "source": "news",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "score": 100.0,
+      "created_at": "2026-10-14T07:00:00+00:00",
+      "raw_text": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:7d10f0ddfecf",
+      "source": "news",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "score": 100.0,
+      "created_at": "2026-10-14T07:00:00+00:00",
+      "raw_text": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50094694",
       "source": "hackernews",
-      "title": "OpenAI engineer arrested in bugging of executive conference room",
-      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-      "summary": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;OpenAINewsroom&#x2F;status&#x2F;2110095403198849132\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;OpenAINewsroom&#x2F;status&#x2F;2110095403198849132</a>",
-      "score": 549.0,
-      "created_at": "2026-10-13T20:23:55+00:00",
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "summary": "",
+      "score": 359.0,
+      "created_at": "2026-10-14T20:30:54+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50078141",
-        "num_comments": 460,
-        "coverage": 1
+        "discussion_url": "https://news.ycombinator.com/item?id=50094694",
+        "num_comments": 132,
+        "coverage": 0
       }
     },
     {
@@ -131,96 +167,52 @@
       }
     },
     {
-      "id": "news:f174716114a9",
-      "source": "news",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "id": "hf:2610.18773",
+      "source": "huggingface",
+      "title": "Jeva: System One Models from First Principles",
+      "url": "https://huggingface.co/papers/2610.18773",
+      "summary": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering alternatives should not change the decision; (iii) option-scalable: Growing candidate sets…",
+      "score": 271.0,
+      "created_at": "2026-10-14T00:00:00.000Z",
+      "raw_text": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering alternatives should not change the decision; (iii) option-scalable: Growing candidate sets should not require redefining the output space; (iv) cacheable: Request-independent computation over recurring alternatives should be reusable across requests. We introduce Jeva, a decision-native architecture that addresses these requirements jointly. A shared encoder independently represents the request and each option, while a compact decision stack refines only the request state against immutable option memory. Symmetric aggregation yields permutation-equivariant probabilities; shared scoring accommodates variable-size candidate sets. A separate coverage estimate distinguishes answer absence from candidate competition, enabling explicit null outcomes. Request-independent option representations and layer projections support reuse across newly assembled sets. These mechanisms unify Choice, Noul, and Score outputs. Across evaluations, Jeva combines strong typed-decision performance with near-perfect null detection and no decision flips under any tested permutations. It scales to thousands of candidates and substantially reduces latency through cross-request reuse without changing decisions.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.18773",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50092664",
+      "source": "hackernews",
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
       "summary": "",
-      "score": 100.0,
-      "created_at": "2026-10-13T16:01:52+00:00",
+      "score": 360.0,
+      "created_at": "2026-10-14T18:32:52+00:00",
       "raw_text": "",
       "extra": {
-        "outlet": "Google DeepMind",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:54d9c64a7bcd",
-      "source": "news",
-      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
-      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-      "summary": "The startup will sell some of its assets to Disney for $20 million.",
-      "score": 80.0,
-      "created_at": "2026-10-13T12:23:42+00:00",
-      "raw_text": "The startup will sell some of its assets to Disney for $20 million.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:ffc748cb8d88",
-      "source": "news",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "score": 100.0,
-      "created_at": "2026-10-13T12:00:00+00:00",
-      "raw_text": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2609.39601",
-      "source": "huggingface",
-      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
-      "url": "https://huggingface.co/papers/2609.39601",
-      "summary": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) and world-action models (WAMs) take perception from general-purpose vision-language and video-generation backbones, which still fail in these settings. We introduce GroundingPI, a 4B grounding foundation model that generates points and boxes as quantized coordinates in a shared vo…",
-      "score": 257.0,
-      "created_at": "2026-10-13T00:00:00.000Z",
-      "raw_text": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) and world-action models (WAMs) take perception from general-purpose vision-language and video-generation backbones, which still fail in these settings. We introduce GroundingPI, a 4B grounding foundation model that generates points and boxes as quantized coordinates in a shared vocabulary. Training combines multimodal and spatial pretraining, supervised fine-tuning, and reinforcement learning with GRPO, using supervision from public datasets and dedicated data engines. Against 44 baselines across 34 grounding benchmarks spanning 11 perceptual capabilities, GroundingPI establishes a new state of the art, averaging 73.68%, above the larger GPT-6 Astra (71.54%). As a downstream visual backbone, GroundingPI improves performance on robotic manipulation and autonomous driving. On RoboTwin 2.0, it outperforms every mainstream backbone we evaluate in all four out-of-distribution settings, by up to 24.8% relative to the strongest backbone. On RoboCasa-GR1, GroundingPI trained with 50% of the demonstrations outperforms those baselines trained with 75%. On nuScenes, used as the visual backbone, GroundingPI attains an average open-loop L2 error of 0.296 m. We systematically analyze GroundingPI's pretraining in scale and data composition. Downstream autonomous driving and robotic manipulation improve as the pretraining is scaled. Analyzing the data recipe across these 11 perceptual capabilities shows dense grounding's substantial benefits for both, and OCR's potential as a catalyst for perceptual learning. These results support grounding as a perceptual foundation, and dedicated perceptual pretraining as a promising direction for foundation models of physical intelligence.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2609.39601",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:bfa2207d1022",
-      "source": "news",
-      "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
-      "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-      "summary": "Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
-      "score": 80.0,
-      "created_at": "2026-10-13T23:17:59+00:00",
-      "raw_text": "Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
-      "extra": {
-        "outlet": "Wired",
-        "weight": 0.8,
+        "discussion_url": "https://news.ycombinator.com/item?id=50092664",
+        "num_comments": 252,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: OpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathem…\n\nTweet text:\nOpenAI just released 722 AI-written math papers. Here are the 4 biggest claims in plain English. None have been confirmed by outside mathematicians yet.\n\n1/ Quasi-Riemann hypothesis. Zeta has no zeros with real part above 7/8. It's not the Riemann hypothesis (that needs 1/2), but… https://t.co/sbLE8Hg3cS\n\nResearch notes on: OpenAI releases 722 AI-written math papers making claims about the Riemann hypothesis\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from International Business Times AU: \"OpenAI Releases 722 AI-Written Math Papers Claiming Hundreds of Breakthroughs, but Experts Urge Caution\"\nSAN FRANCISCO — OpenAI has released 722 mathematical manuscripts produced by an unreleased artificial intelligence model, claiming solutions to hundreds of long-standing open problems in a move that has both impressed and unsettled the mathematics community.\nThe manuscripts, published Tuesday in a public GitHub repository, cover 372 \"result families\" that group related papers together, according to the company. The release is the largest public display yet of an AI system's ability to tackle research-level mathematics, but many of the results have not been independently verified.\nThe Advisory Group on Mathematics and Artificial Intelligence, an independent panel of mathematicians known as AGMAI that OpenAI consulted on the release, said the batch includes solutions to \"hundreds\" of open questions. The group has not endorsed the findings, according to reports.\nOpenAI said the unreleased frontier model was posed roughly 4,000 problems during an internal evaluation. The 722 manuscripts represent the results the company judged significant enough to publish.\nThe company said the \"average result\" used computing power equivalent to about three hours of ChatGPT Pro thinking time.\nAlongside the papers, OpenAI released summaries of some of the model's reasoning, estimates of the computing resources used and statistics on the number of problems attempted. According to Scientific American, the company did not publish the prompts used to generate the results. OpenAI has also not disclosed the name of the model.\n\"For this release, we're publishing the results in a GitHub repository, with protocols for paper revisions and citations,\" OpenAI said. The manuscripts were released under an open-source license.\nAccording to reports summarizing the release, the manuscripts include claimed results on several well-known problems, including a proof of the Unique Games Conjecture in theoretical computer science and a resolution of the free group factor problem, a question in operator algebras that has been open since the 1940s.\nThe collection also reportedly includes a claimed result showing that the Riemann zeta function has no zeros in a region where the real part exceeds 7/8, a weaker version of the famous Riemann Hypothesis that some have described as a \"quasi-Riemann hypothesis.\"\nThese claims have not been confirmed by the mathematical community. Major results in mathematics typically require months or even years of careful review by experts before they are accepted. OpenAI ha\n\nCoverage from Decrypt: \"OpenAI Says a Secret AI Model Cracked Hundreds of Open Math Problems in One Prompt—Mathematicians Want Receipts\"\nOpenAI published 722 math manuscripts on GitHub on Tuesday, all produced by an internal model the company has not released. An OpenAI spokesperson said almost everything came from a single prompt handed to a single AI agent, though some may have taken multiple attempts.\nIt's a bold claim and a potentially significant breakthrough in the field of mathematics. But not everyone is a fan, or buying the hype.\n“Until and unless they release the model and people can replicate their results, I think you should treat any claims about one-shotting problems with a single agent as unverified,” Andrew Sutherland , a mathematician at MIT, told Scientific American . “We should ask for receipts,” he said.\nThe papers are grouped into 372 “families” of related results, and a family can bundle a main theorem with companion arguments, consequences or alternative proofs. That makes 722 a count of manuscripts, not of solved problems. OpenAI says it posed roughly 4,000 problems to the model and kept the outputs it judged significant enough to publish.\nThe average result used the equivalent of roughly three hours of ChatGPT Pro thinking compute, per OpenAI . The Navier-Stokes claim last month looked very different, with 10,000 coordinating agents working for 88 hours.\nOpenAI released abridged reasoning summaries for 10 of the results. That said, only 162 of the 722 papers come with a computer-checked main result, according to a formalization catalog in the repository. That is about 22% of the collection, translated into Lean, software that checks every logical step mechanically.\nOpenAI itself says not all manuscripts have Lean formalizations and that “some of the unformalized results could have issues.” In other words, a lot of what they published could be wrong.\nA passing Lean check confirms only that the proof follows from the statement as written in Lean. It does not show that the statement matches the original problem, or that the result is new or important, which is the part mathematicians now have to judge.\nAnd this is where researchers raise their eyebrows.\nI was trying to read the OpenAI proof that chromatic number of a plane is >= 6. But it is totally unbelievable alien math?\nSomehow the model found that any K-coloring <=> \"weakly measurable\" K-coloring, which seems out of nowhere\nThe openai/math repo has Issues turned off and has never accepted a pull request. That's disappointing. If you publish 722 manuscripts and ask for Lean formalisations, you need somewhere for pe\n\nCoverage from note: \"OpenAI's 722 Math Papers Are Not a Story of 'Leaving Humans Behind'—An Introductory Guide to 8 Key Topics, from the Riemann Hypothesis to Erdős's Prize Money｜ぶちょう\"\nOn the morning of October 7, 2026, headlines appeared stating, \"OpenAI claims internal AI has proven difficult problems related to the Riemann Hypothesis.\" The 722 manuscripts posted on GitHub featured names seen only in textbooks, such as the Riemann Hypothesis, the Hodge Conjecture, and the BSD Conjecture.\nHas mathematics already slipped out of human hands? It is no wonder one might feel that way just by following the headlines.\nHowever, opening the contents of the 722 papers changes the perspective. The human most frequently cited by the AI's manuscripts was the mathematician Erdős, who traveled the world with a single suitcase, handing out homework with prize money attached. Another manuscript tackles a conjecture left behind in a letter by Grothendieck 43 years ago, placing at its core tools that researchers in Kyoto spent 30 years refining.\nTo dismiss this as \"AI leaving humans behind\" makes this story a bit too interesting.\nEarly in the morning on October 7, Japan Standard Time, OpenAI released a repository called \"openai/math\" on GitHub. The contents are 722 mathematical manuscripts that it claims were generated by an unreleased internal model. The related manuscripts are bundled into 372 \"result families,\" and the author field for all of them is \"OpenAI.\"\nAccording to the README, about 4,000 problems were posed to the model during the evaluation period, and the majority of the results were obtained using the same procedure. The calculation per item is, on average, about 3 hours of ChatGPT Pro's thinking time. However, the work on the quasi-Riemann Hypothesis and the Hodge Conjecture (CM) are considered \"exceptions\" to this fixed procedure.\nThe numbers are counting different things: approximately 4,000 is the number of problems posed, 372 is the number of bundles, and 722 is the number of manuscripts.\nCalculating a \"correct answer rate\" by dividing 722 by 4,000 does not hold up.\nAll 722 manuscripts are papers that OpenAI claims to have \"proven.\" There are at least three stages before they are accepted as mathematical knowledge.\nClaim : The stage where a paper is written and published. All 722 are currently here.\nMachine verification : The stage where the proof is rewritten in a language called Lean, and a computer is made to verify the logic line by line.\nHuman confirmation : The stage where experts read the paper and publicly acknowledge it as correct.\nLean is a powerful inspector. Omissions like \"it is obvious here\" or reliance on prestigious aca\n\nBackground (Riemann hypothesis, Wikipedia):\nIn mathematics, the Riemann hypothesis is the conjecture that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part . Many consider it to be the most important unsolved problem in pure mathematics. It is of great interest in number theory because it implies results about the distribution of prime numbers. It was proposed by Bernhard Riemann, after whom it is named. There is overwhelming numerical evidence for the hypothesis, but no proof is known.\n\nBackground (Riemann zeta function, Wikipedia):\nIn mathematics, the Riemann zeta function, or Euler–Riemann zeta function, denoted by the lowercase Greek letter ⁠⁠ (zeta), is a function of a complex variable defined as for , and its analytic continuation elsewhere.",
-  "research_links": [
-    "https://www.ibtimes.com.au/openai-ai-mathematics-manuscripts-verification-1876387",
-    "https://decrypt.co/380366/openai-secret-ai-model-cracked-hundreds-math-problems-one-prompt",
-    "https://note.com/rivas_bucho/n/n66b30b192bcd?hl=en"
-  ],
-  "source_credit": "@imjustnewatai on X, with reporting from International Business Times AU and Decrypt",
-  "source_tag": "via @imjustnewatai on X",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAANcas84LOfQeYu3oCQ-HXGH26MGXxkAAj0RaxvfwHhWuGr8s5DLHgABAQADAgADeQADPQQ",
-  "text": "OpenAI just dropped 722 math papers written by an unreleased model.\n\nResearchers are told to check the math themselves, but the repository has issues turned off.\n\nThe speed is the least interesting part.\n\nAn internal AI system solved hundreds of open problems after being fed roughly 4,000 prompts.\n\nThe company published the results on GitHub in a public repository grouped into 372 result families.\n\nOnly 162 of the 722 manuscripts come with a computer-checked main result translated into Lean software.\n\nThat is about 22 percent of the collection.\n\nOpenAI stated that unformalized results could contain errors, and major math proofs typically demand years of expert review.\n\nMIT mathematician Andrew Sutherland told Scientific American that we should ask for receipts until people outside the company can replicate the outputs.\n\nOther researchers described the proofs as alien math that arrived without warning.\n\nMy read: publishing unverified AI papers on GitHub shifts the burden of proof onto an unpaid global faculty.\n\nThe code repository has comments turned off.\n\nWould you spend your weekends checking proofs generated by a machine you cannot see?\n\nSource: @imjustnewatai on X, with reporting from International Business Times AU and Decrypt",
-  "alt_openings": "1. **Bare number first:**\n722 math papers written entirely by an AI model.\nResearchers are urged to verify the proofs, but the repository has comments turned off.\n*Prefer this when:* The raw scale of an output is the most startling detail and needs no setup to pull readers in.\n\n2. **Corrective:**\nAI math proofs do not become true just because they are published on GitHub.\nExternal experts say the unreleased model's claims need months of manual review before anyone should celebrate.\n*Prefer this when:* You want to cut through hype immediately by contrasting a common assumption with a sharper reality.\n\n3. **Story in motion:**\nAn unreleased AI model just solved hundreds of open mathematics problems in a single prompt.\nMathematicians are rushing to read the outputs, only to find alien logic and disabled comments.\n*Prefer this when:* You want to open right inside an unfolding event where the consequences are still playing out.\n\nPick: The opening I ran. It starts with the concrete fact and immediately exposes the friction point between the company's release and the academic reality.",
+  "context": "Title: Figma announces new features to define how agents work on its platform\n\nText:\nFigma is also releasing its code layers feature in open beta.\n\nArticle text (excerpt):\nDesign platform Figma announced a new Markdown-based editor to help define a company’s design, bring in design and code libraries, and integrate with the Payload headless content management system during the company’s first Config event in India. Through some of these features, the company aims to provide a definition for its own and third-party agents to adhere to a brand’s design rules better while creating with AI.\nThe company debuted a new feature called Figma Specs, which is a markdown editor that lets users define their design language in a simple way. The document can serve as a reference for teams and agents while designing in Figma. Specs can exist as a standalone file in Figma or can co-exist within the canvas. Apart from acting as a text editor, users can reference other Figma elements, such as elements on the canvas and embed FigJam diagrams, code layers, and designs.\nWhat’s more, teams can bring in more context about design, including design libraries, code libraries, and guidelines to manage context for the design system. Agents can also refer to this centralized system to adhere to rules.\nIn the past week, the company made its agent on canvas available to a wider user base. However, given the non-deterministic nature of AI, the company is providing tools to steer it towards more predictable outcomes.\nFigma also made its code layers feature, which adds coding to designs on canvas for more interactive prototypes. The company announced this feature in private beta back in June. At its India event this week, the company is making the function available in public beta to let more users test it out. Users can also ask the agent to turn a design into code or change a part of the code to iterate on a prototype.\n“We see Figma as the place where software teams come to decide what they build and ship. And so for that, I think one of the key things to keep in mind about what AI has changed and what it made available is the ability to build,” Figma’s chief design officer Loredana Crisan told TechCrunch. “There are 17-times more lines of code being produced today than in the past. But when you’re looking at releases, only 1.3-times more releases. A lot of that code actually is not necessarily built to ship, but really built to discover what the product is. It’s built to design.”\nThe company said it is also supporting over 20 new tools with its MCP, including Open Code, Dia, Grok Bot, and Indian AI startup Sarvam.\nLast year, Figma acquired open-source headless CMS Payload . Now, the company is integrating it with its Figma Make product for generating dynamic websites and directly managing content. The company said that Payload’s downloads have increased sixfold in the last 12 months.\nThe company opened its first office in India late last year with sales , partnership, go-to-market, and product support functions. Figma said that the country is its biggest market in terms of users outside the United States. The company noted that the platform works with 40% of India’s top 100 companies listed on the Bombay Stock Exchange.\nWhen you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.\nGet 50% off a second pass The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.\nBumble agrees to a $1.3B acquisition deal as online dating faces a reset\nMeta releases its first frontier model, Muse Wonder\nThis AI startup says it can generate permit-ready blueprints in minutes\nElon Musk intensifies attack on Ambani over Starlink India launch delay\nAnthropic can’t reliably control its AI agents — it’s cutting off its internal evals from the live internet instead\nBatteries are now cheaper than natural gas turbines used at many data centers\nRemember Orkut? Its founder wants to bring it back",
+  "research_links": [],
+  "source_credit": "TechCrunch",
+  "source_tag": "via TechCrunch",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAANhatCEHM2X0l1UmmHIoLBjwyjVI5QAAlUTaxsAAS2BVq-k1PrEdv3SAQADAgADeQADPQQ",
+  "text": "Engineers are writing 17 times more lines of code today than in the past. \n\nProduct releases are up only 1.3 times.\n\nFigma Chief Design Officer Loredana Crisan shared those numbers at the company's Config India event, pointing to a shift in how software gets built. Most of that extra code is never meant for production. It is being written to explore what the product should be.\n\nAI agents generate layout and code fast, but their non-deterministic output routinely strays from brand rules. Figma is trying to anchor them with a Markdown text editor called Specs.\n\nThe document sits on or alongside canvas files, giving human teams and AI agents a single reference point for design rules, canvas elements, and code libraries.\n\nAt the event, Figma introduced several additions:\n• Specs in plain text to define design systems\n• Code layers in public beta for interactive prototypes\n• Integration with Payload CMS to handle dynamic web content\n• Support for over 20 tools via MCP, including Grok Bot and Open Code\n\nIndia is now Figma's largest user market outside the US, with 40% of the top 100 companies listed on the Bombay Stock Exchange on the platform.\n\nCode is turning into a disposable design material. Teams are using it to figure out what to build long before anything reaches production.\n\nSource: TechCrunch\n\n#AI #SoftwareEngineering",
+  "alt_openings": "**Opening 1 (Tool as subject)**\nLine 1: Figma launched a Markdown editor to stop AI agents from breaking brand rules.\nLine 2: Its new Specs feature forces models to read design guidelines before touching the canvas.\n*When to prefer:* Use when writing for product managers and design leads who care specifically about AI workflow control and brand governance.\n\n**Opening 2 (Your X)**\nLine 1: Your engineering team is likely writing code that will never reach production.\nLine 2: Developers generate 17 times more lines of code today, but product releases are up just 1.3 times.\n*When to prefer:* Use when targeting founders, VPs of Engineering, or CFOs who track developer productivity and software ROI.\n\n**Opening 3 (Corrective)**\nLine 1: AI did not speed up software releases nearly as much as it accelerated prototyping.\nLine 2: While generated code expanded 17-fold, actual product launches grew by only 1.3 times.\n*When to prefer:* Use when writing for a general tech audience to challenge the widespread belief that AI coding assistants are primarily built to ship code faster.\n\nPick: Opening 2. The baseline metric directly addresses a operational reality every tech manager is currently navigating, forcing them to click \"see more\" to discover why all that extra code isn't converting into shipped products.",
   "voice_score": 5,
-  "firewall_notes": [],
-  "headline": "How OpenAI is outsourcing math proof reviews to GitHub",
+  "firewall_notes": [
+    "\"It is being written to design.\" — Passive, choppy line that kills the momentum created by the opening numbers.",
+    "\"The update includes a set of tools to steer agent output:\" — Generic vendor announcement framing.",
+    "\"My read: AI is not cutting software delivery times in half. It is turning code into a disposable design tool used long before anything hits production.\" — Violates Check 1 (\"Not X, it's Y\") and Check 15 (introduces an unsupported claim about cutting delivery times in half).",
+    "\"Are your teams using AI to ship faster, or just to build higher-fidelity drafts?\" — Violates Check 13 (ending on a generic engagement question)."
+  ],
+  "headline": "Why engineers write 17x more code that never ships",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-14.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-15.png"
 }
