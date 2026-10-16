@@ -1,61 +1,46 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-15",
-  "created_at": "2026-10-15T13:12:30.572675+05:30",
+  "date": "2026-10-16",
+  "created_at": "2026-10-16T12:59:38.206654+05:30",
   "candidate": {
-    "id": "news:134069d44702",
+    "id": "news:924ca13842a3",
     "source": "news",
-    "title": "Figma announces new features to define how agents work on its platform",
-    "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-    "summary": "Figma is also releasing its code layers feature in open beta.",
+    "title": "ChatGPT can peek at your Chrome tabs now",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+    "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video […]",
     "score": 80.0,
-    "created_at": "2026-10-15T04:30:00+00:00",
-    "raw_text": "Figma is also releasing its code layers feature in open beta.",
+    "created_at": "2026-10-15T22:43:23+00:00",
+    "raw_text": "OpenAI's ChatGPT Atlas browser is gone , but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video showing someone asking ChatGPT to compare the three tabs they have open with sofas they're considering. A few big upgrades for Chrome users today! We're bringing the power of computer use to anyone who uses Chrome. First up: ChatGPT can now use your tabs in Chrome to make answers more useful and get things done for you. If … Read the full story at The Verge.",
     "extra": {
-      "outlet": "TechCrunch",
+      "outlet": "The Verge",
       "weight": 0.8,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "hn:50091788",
-      "source": "hackernews",
-      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
-      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "summary": "",
-      "score": 883.0,
-      "created_at": "2026-10-14T17:45:23+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50091788",
-        "num_comments": 516,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.20571",
+      "id": "hf:2610.18829",
       "source": "huggingface",
-      "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
-      "url": "https://huggingface.co/papers/2610.20571",
-      "summary": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit location, camera, and event-time references. Before generation, it retrieves releva…",
-      "score": 157.0,
-      "created_at": "2026-10-15T00:00:00.000Z",
-      "raw_text": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit location, camera, and event-time references. Before generation, it retrieves relevant evidence from a scene memory of registered static geometry and an event memory of dynamic observations indexed by scene, event, and time. After generation, ATAS reconstructs and registers the clip. It updates memory only when review and state checks accept the observation, while film delivery remains independent of memory admission. Across four video generators, ATAS improves all reported cross-shot consistency measures and achieves the highest aggregate benchmark score for each backbone. It also outperforms the compared agents and 3D-guided methods on target-image spatial revisit, leads three event-recapture criteria, and receives the highest human ratings on all six criteria. The video results and code are available on our project page: https://lhmd.top/atas/.",
+      "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+      "url": "https://huggingface.co/papers/2610.18829",
+      "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understanding. OmniCompass defines two evaluation tracks: OmniCompass-VL assesses vision-language models on t…",
+      "score": 207.0,
+      "created_at": "2026-10-16T00:00:00.000Z",
+      "raw_text": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understanding. OmniCompass defines two evaluation tracks: OmniCompass-VL assesses vision-language models on tasks requiring visual evidence, while OmniCompass-AV assesses omni-modal models on tasks requiring joint audio-visual evidence. Each track includes three complementary tasks: temporal grounding (TG), spatial grounding (SG), and question answering (QA), assessing when a referenced target appears, where it is, and what happens. QA covers five perception and three reasoning categories in OmniCompass-VL, and three perception and two reasoning categories in OmniCompass-AV. OmniCompass-VL contains 820 videos and 2,460 instances across domains and three duration types: short, medium, and long. A narrative- and audio-rich subset forms OmniCompass-AV with 240 videos and 720 instances. Each instance is evaluated under two paired settings: text-only and text+image, specifying the same target through text and visual-language guidance. All instances are manually annotated with multi-round quality verification. Evaluations of 50 MLLMs show that open-source models still lag behind proprietary counterparts, particularly in audio-visual understanding. Precise temporal and spatial grounding remains challenging even for leading models, and their predictions still exhibit inconsistencies across the paired target specifications.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.20571",
+        "arxiv_url": "https://arxiv.org/abs/2610.18829",
         "coverage": 0
       }
     },
     {
-      "id": "news:a0e0fec2c2b5",
+      "id": "news:a72d1e4da6b0",
       "source": "news",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "score": 100.0,
-      "created_at": "2026-10-14T12:00:00+00:00",
-      "raw_text": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "created_at": "2026-10-15T19:00:00+00:00",
+      "raw_text": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -63,103 +48,14 @@
       }
     },
     {
-      "id": "news:24cc989c02db",
+      "id": "news:996b33c09ad5",
       "source": "news",
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "url": "https://openai.com/index/sentinelone",
-      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
       "score": 100.0,
-      "created_at": "2026-10-14T12:00:00+00:00",
-      "raw_text": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:134069d44702",
-      "source": "news",
-      "title": "Figma announces new features to define how agents work on its platform",
-      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-      "summary": "Figma is also releasing its code layers feature in open beta.",
-      "score": 80.0,
-      "created_at": "2026-10-15T04:30:00+00:00",
-      "raw_text": "Figma is also releasing its code layers feature in open beta.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.20584",
-      "source": "huggingface",
-      "title": "Player-1: Learning to Play from Synthetic Experience",
-      "url": "https://huggingface.co/papers/2610.20584",
-      "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Pl…",
-      "score": 116.0,
-      "created_at": "2026-10-15T00:00:00.000Z",
-      "raw_text": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Player-1, a post-training framework for learning game control beyond demonstrations through synthetic experience. We extend the computer-use action space with relative pointer motion, sustained inputs, and composite actions. For supervised initialization, we fine-tune computer-use models on 6,044 curated gameplay trajectories that pair recorded actions with task instructions and visual reasoning. We construct Player-1-Gym, sixteen synthetic 2D and 3D environments designed around control demands shared across games. Programmatically verifiable rewards and randomized observations and control dynamics support multi-environment reinforcement learning with PPO. The resulting Player-1-9B and Player-1-35B-A3B improve MineDojo-300 success over their SFT policies by 27.8 and 17.7 percentage points, respectively. Player-1-9B reaches 38.33% success compared with 12.63% for the strongest evaluated baseline, with further gains over SFT on ViZDoom-10 and GameWorld. Further analyses show that broader synthetic environment coverage improves transfer, while the use of composite actions that combine multiple keyboard and mouse inputs increases during RL. We demonstrate that learning from synthetic experience substantially improves game control beyond supervised initialization, with gains that generalize beyond the RL training suite.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.20584",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:e181547094b0",
-      "source": "news",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "url": "https://openai.com/index/third-moment-research",
-      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "score": 100.0,
-      "created_at": "2026-10-14T07:00:00+00:00",
-      "raw_text": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:7d10f0ddfecf",
-      "source": "news",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "url": "https://openai.com/index/block-ai-powered-security",
-      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "score": 100.0,
-      "created_at": "2026-10-14T07:00:00+00:00",
-      "raw_text": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50094694",
-      "source": "hackernews",
-      "title": "Anthropic's Scion is heavily inspired by Mononoke",
-      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
-      "summary": "",
-      "score": 359.0,
-      "created_at": "2026-10-14T20:30:54+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50094694",
-        "num_comments": 132,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:58e4191fcfe4",
-      "source": "news",
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "score": 100.0,
-      "created_at": "2026-10-14T02:00:14+00:00",
-      "raw_text": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "created_at": "2026-10-15T16:08:03+00:00",
+      "raw_text": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
       "extra": {
         "outlet": "Google DeepMind",
         "weight": 1.0,
@@ -167,52 +63,155 @@
       }
     },
     {
-      "id": "hf:2610.18773",
-      "source": "huggingface",
-      "title": "Jeva: System One Models from First Principles",
-      "url": "https://huggingface.co/papers/2610.18773",
-      "summary": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering alternatives should not change the decision; (iii) option-scalable: Growing candidate sets…",
-      "score": 271.0,
-      "created_at": "2026-10-14T00:00:00.000Z",
-      "raw_text": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering alternatives should not change the decision; (iii) option-scalable: Growing candidate sets should not require redefining the output space; (iv) cacheable: Request-independent computation over recurring alternatives should be reusable across requests. We introduce Jeva, a decision-native architecture that addresses these requirements jointly. A shared encoder independently represents the request and each option, while a compact decision stack refines only the request state against immutable option memory. Symmetric aggregation yields permutation-equivariant probabilities; shared scoring accommodates variable-size candidate sets. A separate coverage estimate distinguishes answer absence from candidate competition, enabling explicit null outcomes. Request-independent option representations and layer projections support reuse across newly assembled sets. These mechanisms unify Choice, Noul, and Score outputs. Across evaluations, Jeva combines strong typed-decision performance with near-perfect null detection and no decision flips under any tested permutations. It scales to thousands of candidates and substantially reduces latency through cross-request reuse without changing decisions.",
+      "id": "hn:50105647",
+      "source": "hackernews",
+      "title": "Neural networks are clean",
+      "url": "https://already-clean.goodfire.com/",
+      "summary": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
+      "score": 638.0,
+      "created_at": "2026-10-15T16:04:01+00:00",
+      "raw_text": "",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.18773",
+        "discussion_url": "https://news.ycombinator.com/item?id=50105647",
+        "num_comments": 236,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50092664",
+      "id": "hf:2610.21601",
+      "source": "huggingface",
+      "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.21601",
+      "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other. We investigate whether agreement between early and late teacher policy shifts ca…",
+      "score": 125.0,
+      "created_at": "2026-10-16T00:00:00.000Z",
+      "raw_text": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other. We investigate whether agreement between early and late teacher policy shifts can guide selective transfer. We introduce Waypoint-guided On-Policy Distillation (Waypoint-OPD), which uses an intermediate teacher checkpoint from the same RL run to compare early and late shifts in relative action preferences at student-visited prefixes. We gate the endpoint shift according to the directional agreement between the early and late shifts, suppressing it when they point in opposing directions. Compared with endpoint-only transfer, our method requires only one additional frozen-teacher scoring pass. Using RL-trained Qwen3-4B teachers, we evaluate our method with Qwen3-8B, Qwen3-14B, and Qwen3-30B-A3B as student models in mathematical and code reasoning. In all six domain--student settings, Waypoint-OPD achieves the highest domain-average score among the compared distillation methods. Ablations with the Qwen3-8B student show that removing or shuffling gates reduces mathematical reasoning performance. These results support the use of directional agreement between early and late teacher policy shifts to weight the endpoint shift during student training.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.21601",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:fa14b8f7db46",
+      "source": "news",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "score": 100.0,
+      "created_at": "2026-10-15T13:00:00+00:00",
+      "raw_text": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:dd00c04c9b95",
+      "source": "news",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "score": 100.0,
+      "created_at": "2026-10-15T00:00:00+00:00",
+      "raw_text": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.18813",
+      "source": "huggingface",
+      "title": "Self-Evolving Agent Harness",
+      "url": "https://huggingface.co/papers/2610.18813",
+      "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code, repository-level control logic, and plugin composition. We characterize search through e…",
+      "score": 72.0,
+      "created_at": "2026-10-16T00:00:00.000Z",
+      "raw_text": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code, repository-level control logic, and plugin composition. We characterize search through evolutionary optimization and examine its reliability through continual PAC-learning. Under explicit assumptions, the analysis yields an expected generalization bound, a retention bound conditional on historical regression budgets, and a high-probability admission rule using fresh, independent validation data. We examine how persistent harness revisions affect knowledge sharing and organizational workflows, with implications for scientific reliability, physical safety, and institutional accountability. Cases from prior work illustrate model--harness co-design, distributed execution, and plugin reuse. Reliable deployment requires continual validation as task distributions and evaluators change, with independent safeguards for learning, runtime privileges, and consequential actions. We provide a comprehensive 66-page discussion of related work, theory, algorithms, evaluation, applications, and the broader impact of Harness RSI, together with continuously updated code and supplementary materials, at https://github.com/zgcagi/Harness-RSI.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.18813",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:c9c43f1e32a5",
+      "source": "news",
+      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+      "score": 80.0,
+      "created_at": "2026-10-15T23:44:56+00:00",
+      "raw_text": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50105648",
       "source": "hackernews",
-      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
-      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "title": "Krea 3 – An image model built for editing at scale",
+      "url": "https://www.krea.ai/krea-3",
       "summary": "",
-      "score": 360.0,
-      "created_at": "2026-10-14T18:32:52+00:00",
+      "score": 292.0,
+      "created_at": "2026-10-15T16:04:05+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50092664",
-        "num_comments": 252,
+        "discussion_url": "https://news.ycombinator.com/item?id=50105648",
+        "num_comments": 95,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50108131",
+      "source": "hackernews",
+      "title": "Why We're Banning AI",
+      "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
+      "summary": "",
+      "score": 235.0,
+      "created_at": "2026-10-15T18:32:29+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50108131",
+        "num_comments": 183,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:924ca13842a3",
+      "source": "news",
+      "title": "ChatGPT can peek at your Chrome tabs now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video […]",
+      "score": 80.0,
+      "created_at": "2026-10-15T22:43:23+00:00",
+      "raw_text": "OpenAI's ChatGPT Atlas browser is gone , but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video showing someone asking ChatGPT to compare the three tabs they have open with sofas they're considering. A few big upgrades for Chrome users today! We're bringing the power of computer use to anyone who uses Chrome. First up: ChatGPT can now use your tabs in Chrome to make answers more useful and get things done for you. If … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Figma announces new features to define how agents work on its platform\n\nText:\nFigma is also releasing its code layers feature in open beta.\n\nArticle text (excerpt):\nDesign platform Figma announced a new Markdown-based editor to help define a company’s design, bring in design and code libraries, and integrate with the Payload headless content management system during the company’s first Config event in India. Through some of these features, the company aims to provide a definition for its own and third-party agents to adhere to a brand’s design rules better while creating with AI.\nThe company debuted a new feature called Figma Specs, which is a markdown editor that lets users define their design language in a simple way. The document can serve as a reference for teams and agents while designing in Figma. Specs can exist as a standalone file in Figma or can co-exist within the canvas. Apart from acting as a text editor, users can reference other Figma elements, such as elements on the canvas and embed FigJam diagrams, code layers, and designs.\nWhat’s more, teams can bring in more context about design, including design libraries, code libraries, and guidelines to manage context for the design system. Agents can also refer to this centralized system to adhere to rules.\nIn the past week, the company made its agent on canvas available to a wider user base. However, given the non-deterministic nature of AI, the company is providing tools to steer it towards more predictable outcomes.\nFigma also made its code layers feature, which adds coding to designs on canvas for more interactive prototypes. The company announced this feature in private beta back in June. At its India event this week, the company is making the function available in public beta to let more users test it out. Users can also ask the agent to turn a design into code or change a part of the code to iterate on a prototype.\n“We see Figma as the place where software teams come to decide what they build and ship. And so for that, I think one of the key things to keep in mind about what AI has changed and what it made available is the ability to build,” Figma’s chief design officer Loredana Crisan told TechCrunch. “There are 17-times more lines of code being produced today than in the past. But when you’re looking at releases, only 1.3-times more releases. A lot of that code actually is not necessarily built to ship, but really built to discover what the product is. It’s built to design.”\nThe company said it is also supporting over 20 new tools with its MCP, including Open Code, Dia, Grok Bot, and Indian AI startup Sarvam.\nLast year, Figma acquired open-source headless CMS Payload . Now, the company is integrating it with its Figma Make product for generating dynamic websites and directly managing content. The company said that Payload’s downloads have increased sixfold in the last 12 months.\nThe company opened its first office in India late last year with sales , partnership, go-to-market, and product support functions. Figma said that the country is its biggest market in terms of users outside the United States. The company noted that the platform works with 40% of India’s top 100 companies listed on the Bombay Stock Exchange.\nWhen you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.\nIvan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web.\nYou can contact or verify outreach from Ivan by emailing [email protected] or via encrypted message at ivan.42 on Signal.\nGet 50% off a second pass The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.\nBumble agrees to a $1.3B acquisition deal as online dating faces a reset\nMeta releases its first frontier model, Muse Wonder\nThis AI startup says it can generate permit-ready blueprints in minutes\nElon Musk intensifies attack on Ambani over Starlink India launch delay\nAnthropic can’t reliably control its AI agents — it’s cutting off its internal evals from the live internet instead\nBatteries are now cheaper than natural gas turbines used at many data centers\nRemember Orkut? Its founder wants to bring it back",
-  "research_links": [],
-  "source_credit": "TechCrunch",
-  "source_tag": "via TechCrunch",
-  "template": "clean_white",
-  "photo_file_id": "AgACAgUAAxkDAANhatCEHM2X0l1UmmHIoLBjwyjVI5QAAlUTaxsAAS2BVq-k1PrEdv3SAQADAgADeQADPQQ",
-  "text": "Engineers are writing 17 times more lines of code today than in the past. \n\nProduct releases are up only 1.3 times.\n\nFigma Chief Design Officer Loredana Crisan shared those numbers at the company's Config India event, pointing to a shift in how software gets built. Most of that extra code is never meant for production. It is being written to explore what the product should be.\n\nAI agents generate layout and code fast, but their non-deterministic output routinely strays from brand rules. Figma is trying to anchor them with a Markdown text editor called Specs.\n\nThe document sits on or alongside canvas files, giving human teams and AI agents a single reference point for design rules, canvas elements, and code libraries.\n\nAt the event, Figma introduced several additions:\n• Specs in plain text to define design systems\n• Code layers in public beta for interactive prototypes\n• Integration with Payload CMS to handle dynamic web content\n• Support for over 20 tools via MCP, including Grok Bot and Open Code\n\nIndia is now Figma's largest user market outside the US, with 40% of the top 100 companies listed on the Bombay Stock Exchange on the platform.\n\nCode is turning into a disposable design material. Teams are using it to figure out what to build long before anything reaches production.\n\nSource: TechCrunch\n\n#AI #SoftwareEngineering",
-  "alt_openings": "**Opening 1 (Tool as subject)**\nLine 1: Figma launched a Markdown editor to stop AI agents from breaking brand rules.\nLine 2: Its new Specs feature forces models to read design guidelines before touching the canvas.\n*When to prefer:* Use when writing for product managers and design leads who care specifically about AI workflow control and brand governance.\n\n**Opening 2 (Your X)**\nLine 1: Your engineering team is likely writing code that will never reach production.\nLine 2: Developers generate 17 times more lines of code today, but product releases are up just 1.3 times.\n*When to prefer:* Use when targeting founders, VPs of Engineering, or CFOs who track developer productivity and software ROI.\n\n**Opening 3 (Corrective)**\nLine 1: AI did not speed up software releases nearly as much as it accelerated prototyping.\nLine 2: While generated code expanded 17-fold, actual product launches grew by only 1.3 times.\n*When to prefer:* Use when writing for a general tech audience to challenge the widespread belief that AI coding assistants are primarily built to ship code faster.\n\nPick: Opening 2. The baseline metric directly addresses a operational reality every tech manager is currently navigating, forcing them to click \"see more\" to discover why all that extra code isn't converting into shipped products.",
-  "voice_score": 5,
-  "firewall_notes": [
-    "\"It is being written to design.\" — Passive, choppy line that kills the momentum created by the opening numbers.",
-    "\"The update includes a set of tools to steer agent output:\" — Generic vendor announcement framing.",
-    "\"My read: AI is not cutting software delivery times in half. It is turning code into a disposable design tool used long before anything hits production.\" — Violates Check 1 (\"Not X, it's Y\") and Check 15 (introduces an unsupported claim about cutting delivery times in half).",
-    "\"Are your teams using AI to ship faster, or just to build higher-fidelity drafts?\" — Violates Check 13 (ending on a generic engagement question)."
+  "context": "Title: ChatGPT can peek at your Chrome tabs now\n\nText:\nOpenAI's ChatGPT Atlas browser is gone , but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video showing someone asking ChatGPT to compare the three tabs they have open with sofas they're considering. A few big upgrades for Chrome users today! We're bringing the power of computer use to anyone who uses Chrome. First up: ChatGPT can now use your tabs in Chrome to make answers more useful and get things done for you. If … Read the full story at The Verge.\n\nArticle text (excerpt):\nWith the ChatGPT extension installed, it can pull information from your open tabs or bring the AI bot into the sidebar.﻿\nWith the ChatGPT extension installed, it can pull information from your open tabs or bring the AI bot into the sidebar.﻿\nOpenAI’s ChatGPT Atlas browser is gone , but now ChatGPT’s Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT’s web or desktop app, posting a demo video showing someone asking ChatGPT to compare the three tabs they have open with sofas they’re considering.\nHere are some of the sample queries OpenAI listed for using the upgraded add-on:\nIt’s also updated ChatGPT in the sidebar , with “the full power of ChatGPT” and your entire conversation history in Chat or Work to use without leaving the page you’re viewing. It also enables ChatGPT Work to “control” your Chrome tabs for tasks like “sending messages, filling out forms, or downloading files,” similar to Google’s Gemini-powered “auto browse” feature , as well as organize or group open tabs.\nThis is the title for the native ad\n\nResearch notes on: OpenAI updated its ChatGPT Google Chrome extension to allow the AI to view, analyze, and control open browser tabs.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from NewsBytes: \"ChatGPT can now work across your open Chrome tabs\"\nOpenAI's ChatGPT extension for Google Chrome now allows the AI to access and utilize information from your open browser tabs, enhancing its functionality and user experience.\n\nCoverage from Windows Report on MSN: \"ChatGPT can now access Chrome tabs and automate browser tasks\"\nOpenAI upgrades its ChatGPT Chrome extension with tab access, browser automation, and ChatGPT Work integration.\n\nCoverage from UA.NEWS: \"OpenAI updates ChatGPT extension for Chrome with access to open tabs — The Verge\"\nOpenAI has updated the ChatGPT extension for Google Chrome: it can use information from open browser tabs and also work in the sidebar. This was reported by The Verge .\nAccording to OpenAI, after installing the extension, a user can select Chrome in the web version or desktop app of ChatGPT so that the chatbot can view open tabs. In a demonstration, a user asks the AI to compare three pages featuring sofas they are considering buying.\nThe company also provided examples of prompts for the updated extension. In particular, ChatGPT can use information from an event description to fill out a registration form and stop before submitting it. Another example involves comparing contractors' services in open tabs and drafting an email to the company that best meets home renovation needs.\nMore current news is available on the UA.News Telegram channel Telegram .\nThe proposed scenarios also include filling out a form before a dentist visit while simultaneously adding the appointment to work and personal calendars.\nOpenAI has also updated ChatGPT in Chrome's sidebar. It offers a full history of conversations with the chatbot and Chat and Work interfaces that can be used without leaving the open page.\nIn ChatGPT Work, the tool can manage Chrome tabs for tasks such as sending messages, filling out forms, or uploading files. In addition, it can organize and group open tabs. The Verge compares these capabilities to the auto browse feature in Google's Gemini-powered browser.\n\nBackground (Browser extension, Wikipedia):\nA browser extension is a software module for customizing a web browser. Browsers typically allow users to install a variety of extensions, including user interface modifications, cookie management, ad blocking, and custom scripting and styling of web pages.\n\nBackground (Headless browser, Wikipedia):\nA headless browser is a web browser without a graphical user interface.",
+  "research_links": [
+    "https://www.newsbytesapp.com/news/science/openai-lets-chatgpt-work-across-your-open-chrome-tabs/story",
+    "https://www.msn.com/en-xl/news/other/chatgpt-can-now-access-chrome-tabs-and-automate-browser-tasks/ar-AA2elUty",
+    "https://ua.news/en/technologies/openai-onovila-rozshirennia-chatgpt-dlia-chrome-z-dostupom-do-vidkritikh-vkladok-the-verge"
   ],
-  "headline": "Why engineers write 17x more code that never ships",
+  "source_credit": "The Verge, with reporting from NewsBytes and Windows Report on MSN",
+  "source_tag": "via The Verge",
+  "template": "dark_accent",
+  "photo_file_id": "AgACAgUAAxkDAANnatHTM8j-t3mCY-F6oFMptw3J5O0AAswUaxsAAS2RVqEEnW5aruTeAQADAgADeQADPQQ",
+  "text": "ChatGPT can now read every tab you have open in Chrome.\n\nYou just tag Chrome in the app, and the model pulls the data straight from your browser.\n\nHere is what the update actually changes.\n\nOpenAI just rolled out a new Chrome extension.\n\nIt gives the chatbot direct access to your open browser tabs.\n\nIn their demo, a user asks the AI to compare three separate tabs of sofas they are considering.\n\nThe features go past simple reading.\n• Pulling info from an event description to fill out a registration form\n• Comparing contractor services in open tabs to draft an email\n• Managing tabs by grouping and organizing them directly\n• Controlling browser actions like sending messages or uploading files\n\nGoogle already has a similar auto browse feature in Gemini.\n\nMy read: browser extensions are becoming the real operating system.\n\nThe catch is obvious. The feature relies entirely on OpenAI's own claims and demo videos.\n\nHow many open tabs are you willing to hand over to a chatbot?\n\nSource: The Verge, with reporting from NewsBytes and Windows Report on MSN",
+  "alt_openings": "Bare number first:\n3 tabs. One prompt. The AI compares them all without you copying a single link.\nPrefer this when you want to lead with a concrete example of scale or action.\n\nCorrective:\nGiving an AI your browser history is less risky than letting it control your tabs.\nPrefer this when you want to challenge a common assumption about privacy or browser automation.\n\nYour X:\nYour browser tabs are about to be read by OpenAI.\nPrefer this when you want to make the personal stakes immediate to the reader.\n\nPick: The bare number opening, because it grounds an abstract software update in a specific, relatable scene.",
+  "voice_score": 3,
+  "firewall_notes": [],
+  "headline": "How ChatGPT's Chrome extension controls your open tabs",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-15.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-16.png"
 }
