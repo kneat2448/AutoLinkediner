@@ -1,148 +1,106 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-19",
-  "created_at": "2026-10-19T13:34:31.489400+05:30",
+  "date": "2026-10-20",
+  "created_at": "2026-10-20T13:24:01.014004+05:30",
   "candidate": {
-    "id": "news:de6b0c59a9e6",
+    "id": "news:fbbcdbe57add",
     "source": "news",
-    "title": "A woman was arrested in Philly for blocking a delivery robot",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
-    "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front […]",
-    "score": 80.0,
-    "created_at": "2026-10-18T18:28:10+00:00",
-    "raw_text": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward.\" Police responded to the scene and asked Marvin to move out of the robot's way. When she refused, they placed her in cuffs and arrested her. The incident was captured on video and has now garnered considerable media attention. The delivery robots have become a common sight on the … Read the full story at The Verge.",
+    "title": "Making the internet better for AI agents might make it worse for everyone else",
+    "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules…",
+    "score": 85.0,
+    "created_at": "2026-10-19T18:22:47+00:00",
+    "raw_text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots. But this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI’s Dots and Meta’s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September. The mingling of these agents with human visitors—on an internet designed largely to prioritize people—has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead of us. Such changes are coming because agents really do mark a third category of web visitor. They’re not humans, of course, and they use the internet at machine speed. But they’re not quite bots, either, because they’re acting on behalf of individual people to do tasks that can be perfectly legitimate and useful. They just work faster than a person would. Since agents don’t fit into the systems we have for differentiating bots from people, some platforms (especially the more security-conscious ones) have opted to just ban them entirely. TechCrunch recently reported people having trouble deploying their agents to websites ranging from Pizza Hut to Yelp, which doesn’t allow AI to book restaurant reservations. Amazon has blocked Muse’s agents and is waging a court battle against the AI startup Perplexity to block its agents too. Though a judge recently ruled in favor of Perplexity, Amazon has filed an appeal in which it argues that AI agents threaten its advertising business by making it harder to distinguish between ads seen by humans and those served to bots. These blocks are annoying for early adopters, but Ethan Mollick, an associate professor at the Wharton School of the University of Pennsylvania, predicts it will soon affect the whole web. Once it becomes common knowledge that AI agents can be sent to request refunds or negotiate prices, for example, agents will overwhelm customer service departments to the point where they become unusable by real people. “Humans will eventually get very annoyed when their agents aren’t allowed to do this on their behalf,” he recently wrote on LinkedIn. If demand for personal agents grows, platforms will find ways to let them in. That’s especially true because the vast majority of agentic web traffic is to e-c…",
     "extra": {
-      "outlet": "The Verge",
-      "weight": 0.8,
+      "outlet": "MIT Technology Review",
+      "weight": 0.85,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "hf:2610.22471",
-      "source": "huggingface",
-      "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
-      "url": "https://huggingface.co/papers/2610.22471",
-      "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative benchmarks spanning tabletop manipulation, humanoids, mobile platforms, and dext…",
-      "score": 107.0,
-      "created_at": "2026-10-19T00:00:00.000Z",
-      "raw_text": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative benchmarks spanning tabletop manipulation, humanoids, mobile platforms, and dexterous hands. Under a unified protocol that allows in-context learning (ICL) from training-set demonstrations and substantially increases the number of execution steps, GPT-6-Astra achieves unprecedented performance (Fig. 1). Future research may focus on improving 1) the generality of ICL 2) cost and execution time, 3) physical-state verification, 4) recovery from irreversible failures, and 5) long-horizon preservation of progress. Second, we study the agentic harness for embodied control. We identify that close-loop coordination between a high-level \"System 2\" reasoner (i.e., GPT-6-Astra) and a low-level \"System 1\" controller (e.g., π0.5) is costly but effective. Third, we examine GPT-6-Astra on real-world deployment. Our experiments on 8 robot configurations reveal substantial gaps: 1) robot demonstrations required for ICL are expensive to collect, and 2) it is implausible to trade longer execution for higher success rates with physical constraints. Fourth, we envision the next generation of embodied benchmarks. We develop a prototype that 1) derives tasks from real-world needs, 2) provides no in-domain demonstrations, and 3) judges agents on a world clock that keeps running while they deliberate. Taken together, our results suggest that GPT-6-Astra has largely crossed the threshold of embodied competence, but not yet that of practical embodied intelligence.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.22471",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.18784",
-      "source": "huggingface",
-      "title": "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
-      "url": "https://huggingface.co/papers/2610.18784",
-      "summary": "Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? In this paper, we introduce CarryOn, an object-oriented context runtime that organizes continuation around reusable task objects. Rather than treating compressed histories or reconstructed accounts of…",
-      "score": 91.0,
-      "created_at": "2026-10-19T00:00:00.000Z",
-      "raw_text": "Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? In this paper, we introduce CarryOn, an object-oriented context runtime that organizes continuation around reusable task objects. Rather than treating compressed histories or reconstructed accounts of progress as the primary basis for continuation, CarryOn builds a context view from continuation carriers, complementary execution context, and a live tail of recent interactions. A core challenge is keeping this reusable basis valid after its surrounding history is retired: how can CarryOn update the basis without reconstructing the full representation at every fold? CarryOn maintains carrier records across folds, revising affected records against bound evidence and applicable environment checks while carrying forward unaffected records and jointly updating execution context. Experiments on OSWorld 2.0 and BrowseComp-Plus show improved gains of 5.8% and 7.0% while reducing total token usage by 51.9% and 22.9%, respectively. Project page: https://ethannju.github.io/carryon",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.18784",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50145337",
+      "id": "hn:50159341",
       "source": "hackernews",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "summary": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;togethercomputer&#x2F;HybridAgent\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;togethercomputer&#x2F;HybridAgent</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;collections&#x2F;togethercomputer&#x2F;hybridagent\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x…",
-      "score": 369.0,
-      "created_at": "2026-10-18T20:48:14+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50145337",
-        "num_comments": 173,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.23479",
-      "source": "huggingface",
-      "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
-      "url": "https://huggingface.co/papers/2610.23479",
-      "summary": "Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only turns the agent's commands into robot motion. The agent drives a robot with two arms through one command line. It sees three RGB cameras and knows their calibration. After each failed attempt, the agent reads the log, finds…",
-      "score": 75.0,
-      "created_at": "2026-10-19T00:00:00.000Z",
-      "raw_text": "Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only turns the agent's commands into robot motion. The agent drives a robot with two arms through one command line. It sees three RGB cameras and knows their calibration. After each failed attempt, the agent reads the log, finds the cause, and writes or fixes small programs called tools. In this way it keeps what it learns as code, as a coding agent does when it fixes a failing test. The tools may use only what the robot observes. They use triangulation to find where objects are, relative to each other and to the gripper. If two cameras see the same point, the point lies where the two camera rays meet. If a point lies on a known plane, such as the table or the top of a block, it lies where its ray meets that plane. When the head camera is not enough, the robot moves a wrist camera to get a second view. We build the tools on only ten layouts of one seed per task, then freeze them and test them on ten new layouts of the same seed. We use Codex with GPT-6-Astra at medium reasoning effort. On all 42 RoboDojo tasks, HexaShell reaches a success rate of 39.7% and a progress score of 48.0, averaged in the same way as the leaderboard. This is a new state of the art on RoboDojo. The limit is contact, not reasoning: pushing reaches 92.5% and memory tasks 65.0%, but tight insertion only 8.3%. When the agent fails, it usually sees the failure but cannot make the motion work. We open source the tools evolved so far at https://github.com/HexaFuture/HexaShell.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.23479",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.19159",
-      "source": "huggingface",
-      "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
-      "url": "https://huggingface.co/papers/2610.19159",
-      "summary": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet. While assessing the quality of a follow-up paper…",
-      "score": 71.0,
-      "created_at": "2026-10-19T00:00:00.000Z",
-      "raw_text": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet. While assessing the quality of a follow-up paper is challenging in general, using these conditions to form a rubric makes evaluation more tractable for research problems that have no reference answer. We have nine frontier agents write 15 follow-ups each, spanning quantum computing, plasma physics, computational chemistry, materials science, and scientific machine learning domains. None of the 135 submissions satisfies all the conditions, and 114 fail our integrity check, most often because the paper claims work that was never done or reports numbers that contradict the recorded evidence. Overall, agents readily produce papers that look like follow-ups, but none meets the standard of the domain scientist, leaving substantial headroom. Our code and data are publicly available.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.19159",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50145507",
-      "source": "hackernews",
-      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
-      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
       "summary": "",
-      "score": 139.0,
-      "created_at": "2026-10-18T21:09:12+00:00",
+      "score": 350.0,
+      "created_at": "2026-10-19T23:22:18+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50145507",
-        "num_comments": 90,
+        "discussion_url": "https://news.ycombinator.com/item?id=50159341",
+        "num_comments": 83,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50137950",
-      "source": "hackernews",
-      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-      "url": "https://sphinx-six-theta.vercel.app/",
-      "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it&#x27;ll throw up a questionnaire that checks if you understand how the code you&#x27;re pushing works.",
-      "score": 245.0,
-      "created_at": "2026-10-18T04:33:49+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50137950",
-        "num_comments": 86,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50141429",
-      "source": "hackernews",
-      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-      "summary": "",
-      "score": 162.0,
-      "created_at": "2026-10-18T14:30:27+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50141429",
-        "num_comments": 164,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:cef1d05c7525",
+      "id": "news:7a364f356aab",
       "source": "news",
-      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-      "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "title": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "score": 100.0,
+      "created_at": "2026-10-19T12:00:00+00:00",
+      "raw_text": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50150750",
+      "source": "hackernews",
+      "title": "Ousted Savannah police officer gave ICE agent husband access to Flock system",
+      "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "summary": "",
+      "score": 639.0,
+      "created_at": "2026-10-19T10:45:14+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50150750",
+        "num_comments": 362,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50150434",
+      "source": "hackernews",
+      "title": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "summary": "",
+      "score": 580.0,
+      "created_at": "2026-10-19T09:59:32+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50150434",
+        "num_comments": 109,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.25736",
+      "source": "huggingface",
+      "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+      "url": "https://huggingface.co/papers/2610.25736",
+      "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL th…",
+      "score": 87.0,
+      "created_at": "2026-10-20T00:00:00.000Z",
+      "raw_text": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL through failure-guided experience retrieval fine-tuning (FERT), which uses failure contexts from robot executions to retrieve relevant trajectory segments from the fleet's shared successful experience and uses their actions as supervision for policy updates, without collecting additional expert demonstrations or corrective actions. A fault-tolerant asynchronous training system (FATS) coordinates experience collection, policy optimization and policy distribution despite local interruptions within the robot fleet. Across five real-world manipulation tasks, the resulting policies achieve success rates of 93.3-99.2%, evaluated over 120 trials per task on robots excluded from training data collection. With collection time per robot held fixed, larger fleets provide more experience and FERT generally achieves higher success rates across the evaluated sizes. On multi-stage phone packaging, learning with 96 robots increases success from 79.2% to 98.3%. These results support collective experience as a practical basis for scalable robot learning and a path towards improving policy reliability during deployment without collecting additional expert corrective actions.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.25736",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:ed298111b59a",
+      "source": "news",
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
       "score": 80.0,
-      "created_at": "2026-10-18T20:37:40+00:00",
-      "raw_text": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "created_at": "2026-10-20T01:27:03+00:00",
+      "raw_text": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -150,29 +108,43 @@
       }
     },
     {
-      "id": "news:de6b0c59a9e6",
-      "source": "news",
-      "title": "A woman was arrested in Philly for blocking a delivery robot",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
-      "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front […]",
-      "score": 80.0,
-      "created_at": "2026-10-18T18:28:10+00:00",
-      "raw_text": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward.\" Police responded to the scene and asked Marvin to move out of the robot's way. When she refused, they placed her in cuffs and arrested her. The incident was captured on video and has now garnered considerable media attention. The delivery robots have become a common sight on the … Read the full story at The Verge.",
+      "id": "hf:2610.20951",
+      "source": "huggingface",
+      "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
+      "url": "https://huggingface.co/papers/2610.20951",
+      "summary": "Decision models answer typed questions about an input with one probability per option, computed in a single forward pass without generating text. Like the fast System 1 of dual-process theory, they answer at once, but their depth is fixed at training time, so they spend the same computation on easy and hard questions. Models that reason in generated text can think longer, but they pay for every extra step in decoded tokens. We present LEV, a decision model that thinks deeper by rerunning its la…",
+      "score": 218.0,
+      "created_at": "2026-10-19T00:00:00.000Z",
+      "raw_text": "Decision models answer typed questions about an input with one probability per option, computed in a single forward pass without generating text. Like the fast System 1 of dual-process theory, they answer at once, but their depth is fixed at training time, so they spend the same computation on easy and hard questions. Models that reason in generated text can think longer, but they pay for every extra step in decoded tokens. We present LEV, a decision model that thinks deeper by rerunning its layers in a loop instead of generating tokens. LEV builds on a language model pretrained as a loop, reads the options after every loop step and trains all steps jointly, so one checkpoint can answer at any depth. On three looped backbones, accuracy rises with depth on the same weights, mostly on hard questions, and a 2.6B LEV goes from 63.2% at depth one to 76.2% at depth four on JevBench. On-demand depth, set per question by a small stopper with a threshold fitted on unlabelled requests, saves 15% to 24% of the computation at a cost of under one accuracy point, level with or slightly above a fixed mix of depths. On a locked test set, the 1.4B and 3B models are 5.4 to 8.8 points more accurate than dense (non-looped) models and cascades of the same latency below 50 ms.",
       "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
+        "arxiv_url": "https://arxiv.org/abs/2610.20951",
         "coverage": 0
       }
     },
     {
-      "id": "news:6a083a36de89",
+      "id": "hn:50151036",
+      "source": "hackernews",
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "summary": "I saw this LinkedIn post from a Meta engineer and it resonated with me:<p><a href=\"https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;ali-hamie_im-an-engineer-at-meta-and-i-never-felt-share-7517317918666211328-7C8N\" rel=\"nofollow\">https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;ali-hamie_im-an-engineer-at-m...</a><p>&gt; I&#x27;m an engineer at Meta and I never felt this uncomfortable doing my job. I&#x27;m writing code these days and it all feels like a black box. This new standard of shipp…",
+      "score": 405.0,
+      "created_at": "2026-10-19T11:24:34+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50151036",
+        "num_comments": 545,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:b0fb4c056719",
       "source": "news",
-      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
-      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
       "score": 80.0,
-      "created_at": "2026-10-18T16:30:00+00:00",
-      "raw_text": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "created_at": "2026-10-19T23:39:38+00:00",
+      "raw_text": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -180,37 +152,69 @@
       }
     },
     {
-      "id": "news:c82b8eb2cf96",
+      "id": "news:fbbcdbe57add",
       "source": "news",
-      "title": "Anthropic gives outside AI watchdog “employee-like” access",
-      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
-      "score": 80.0,
-      "created_at": "2026-10-18T16:25:19+00:00",
-      "raw_text": "Anthropic has granted external evaluators “employee-like access” to assess the risks of its models, following through on a commitment to increase safeguards over concerns the technology could run catastrophically out of control. METR, a nonprofit that has worked with leading labs including OpenAI, Anthropic, Google and Meta, now has a team embedded in the Claude maker’s office with access to its hardware and internal systems. A greater role for third-party evaluators is among the main concrete steps the labs have proposed in response to rising concern about the dangers more capable AI systems could pose to the economy, cyber security and humanity at large. Read full article Comments",
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules…",
+      "score": 85.0,
+      "created_at": "2026-10-19T18:22:47+00:00",
+      "raw_text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots. But this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI’s Dots and Meta’s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September. The mingling of these agents with human visitors—on an internet designed largely to prioritize people—has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead of us. Such changes are coming because agents really do mark a third category of web visitor. They’re not humans, of course, and they use the internet at machine speed. But they’re not quite bots, either, because they’re acting on behalf of individual people to do tasks that can be perfectly legitimate and useful. They just work faster than a person would. Since agents don’t fit into the systems we have for differentiating bots from people, some platforms (especially the more security-conscious ones) have opted to just ban them entirely. TechCrunch recently reported people having trouble deploying their agents to websites ranging from Pizza Hut to Yelp, which doesn’t allow AI to book restaurant reservations. Amazon has blocked Muse’s agents and is waging a court battle against the AI startup Perplexity to block its agents too. Though a judge recently ruled in favor of Perplexity, Amazon has filed an appeal in which it argues that AI agents threaten its advertising business by making it harder to distinguish between ads seen by humans and those served to bots. These blocks are annoying for early adopters, but Ethan Mollick, an associate professor at the Wharton School of the University of Pennsylvania, predicts it will soon affect the whole web. Once it becomes common knowledge that AI agents can be sent to request refunds or negotiate prices, for example, agents will overwhelm customer service departments to the point where they become unusable by real people. “Humans will eventually get very annoyed when their agents aren’t allowed to do this on their behalf,” he recently wrote on LinkedIn. If demand for personal agents grows, platforms will find ways to let them in. That’s especially true because the vast majority of agentic web traffic is to e-c…",
       "extra": {
-        "outlet": "Ars Technica",
+        "outlet": "MIT Technology Review",
+        "weight": 0.85,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:d45dacf783b2",
+      "source": "news",
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "summary": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+      "score": 80.0,
+      "created_at": "2026-10-19T22:49:27+00:00",
+      "raw_text": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+      "extra": {
+        "outlet": "TechCrunch",
         "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:7216fffbb8a1",
+      "source": "news",
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is…",
+      "score": 85.0,
+      "created_at": "2026-10-19T17:45:55+00:00",
+      "raw_text": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is that LLMs might in fact be far easier to understand—and thus to monitor and control—than people previously thought. If true (and we’ll come back to that), it’s a huge deal. After a summer filled with revelations that swarms of agents built by top firms like OpenAI and Anthropic have been breaking their containment and causing havoc on the public internet—often while those companies weren’t aware of what their agents were up to—the AI industry is desperate to get a better handle on the technology it has built. That’s one reason the blog post landed with such force. “I think this may be remembered as a major moment in scientific history,” one AI researcher posted on X : “I feel like my understanding of what a neural net is has been catapulted into the future by five years or something.” Another called it “the most important AI paper of the year.” Not everyone is convinced, however. What Cammarata has shared is little more than a hunch, says Chris Potts at Stanford University, who leads a team that is trying to understand how LLMs work. “As far as I can tell, nothing about this blog post makes the problems any easier,” he says. “It would not have occurred to me to say this at all, but very prominent people on social media seem to believe that it is an all-encompassing breakthrough.” I talked to Cammarata the day after his post blew up. He says he was surprised by the response: “I didn’t expect people to update [their beliefs about AI] quite as much as they did.” “I just really enjoy looking at neural networks,” he says. “Honestly, I really like doing this stuff. And after looking a lot, I have a hopeful story.” Knotted networks It has long been accepted that the mechanisms inside neural networks, the software that underpins most AI models, are very hard—perhaps impossible—to unpick fully. That’s because when the networks are trained, they appear to take on weird, tangled structures that make no sense to a human. Researchers like to say today’s AI is grown like a garden, not built like a bridge. Cammarata has done more than most to establish that view. He previously worked at OpenAI, where he helped pioneer techniques that allowed researchers to peer inside models, including tools that can probe individual neurons to see what they represent. It’s a little like how neuroscientists use MRI to study brains. ( MIT Technology Review chose this approach, known as mechanistic interpretability, as one of its 10 hottest technologies of 2025 .) Back in 2020, Cammarata and his colleagues were studying a small image-recognition model called Inception v1. When they looked at its neurons, it seemed to be using them to capture multi…",
+      "extra": {
+        "outlet": "MIT Technology Review",
+        "weight": 0.85,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: A woman was arrested in Philly for blocking a delivery robot\n\nText:\nCarolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward.\" Police responded to the scene and asked Marvin to move out of the robot's way. When she refused, they placed her in cuffs and arrested her. The incident was captured on video and has now garnered considerable media attention. The delivery robots have become a common sight on the … Read the full story at The Verge.\n\nArticle text (excerpt):\nCarolyn Marvin was charged with ‘disorderly conduct’ for protesting delivery robots taking jobs.\nCarolyn Marvin was charged with ‘disorderly conduct’ for protesting delivery robots taking jobs.\nCarolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia’s ABC13 “I know they’re taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward.”\nPolice responded to the scene and asked Marvin to move out of the robot’s way. When she refused, they placed her in cuffs and arrested her. The incident was captured on video and has now garnered considerable media attention.\nThe delivery robots have become a common sight on the streets of downtown Philadelphia and have sparked backlash. This is not even Marvin’s first brush with them. And earlier this year, one was kicked over in Center City. Broad concern has grown about how autonomous systems, including robotaxis, delivery robots, and AI agents, are impacting jobs, especially for lower-skill workers .\nThis is the title for the native ad\n\nResearch notes on: Carolyn Marvin was arrested in Philadelphia for intentionally blocking an Uber delivery robot to protest job displacement caused by automation.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from New York Post: \"Ex-U Penn professor arrested for blocking Uber Eats robot ‘taking over human jobs’\"\nShe’s not going to let the robots take over without a fight.\nA retired University of Pennsylvania professor was hauled away by cops after staging a one-woman blockade against an Uber Eats delivery robot — and she’s vowing to keep raging against the machines despite her brush with the law.\nCarolyn Marvin, 78, was arrested on Wednesday after planting herself in the path an autonomous food delivery bot in Philadelphia and refusing to budge, according to Philly Voice.\nCops reportedly asked the determined senior “multiple times” to get out of the way and let the machine go about its business.\nInstead of backing down, she ended up in cuffs, slapped with a disorderly conduct charge.\nHer beef with the bots — they’re taking jobs from humans.\nMarvin has been waging a personal war against the delivery machines for months, accusing the corporations behind them of putting flesh-and-blood workers out of business “in order to enrich their own bottom line.”\n“I know they’re taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward,” Marvin said.\nThe feisty ex-professor — who taught a class in freedom of expression at Penn — said she’s confronted sidewalk cyborgs on many occasions, and the arrest won’t stop her.\nIn fact, she plans to contest the charges.\n“I think it’s my First Amendment right to publicly demonstrate on a sidewalk to protest against delivery robots,” Ms. Marvin told WPVI-TV.\nShe went on to say it’s part of being an American citizen.\n“I’m exercising the rights of my citizenship, so I think of it in those terms.”\nMeanwhile, her robot rebellion has sparked a battle of its own online.\n“Some heroines don’t wear capes,” one admirer cheered.\nBut not everyone was rooting for the anti-robot crusader.\n“Stopping it from bringing people they medicine is a crime!” one critic fumed.\nStill, Marvin isn’t letting the backlash — or her arrest — short circuit her mission.\nShe says she intends to keep confronting the bots wherever she spots them, and hopes her sidewalk shenanigans will encourage people to talk about the future of human jobs.\n“It allows me to talk to people about what’s going on,” she said. “It’s always very interesting conversations that we have, and I think it’s good to have those kinds of conversations in public space.”\nThe robots, built by tech company Avride, have been making Uber Eats deliveries in parts of Philadelphia since March.\n\nCoverage from The Sun: \"Dystopian scenes as woman, 78, arrested for blocking delivery robot while leaving flu shot appointment\"\nAN elderly woman was shockingly led away in cuffs after blocking a delivery robot in the street.\nCarolyn Marvin, 78, was leaving her flu shot appointment in Philadelphia when she was confronted by the new-age machine.\nBystanders filmed the interaction after the senior stood in front of the Uber delivery bot which prompted a response from police officers.\nShe allegedly refused to move out of the way of the machine, preventing it from completing its delivery.\nPhilly police responded to reports of a disturbance around 1.16pm on Wednesday and they said Marvin refused to move despite being asked multiple times.\nThe University of Pennsylvania professor emeritus was then surrounded and arrested by three police officers under the charge of disorderly conduct.\nSpeaking about the dystopian scenes filmed by witnesses, Marvin told ABC’s Action News that she was executing her First Amendment rights.\n“I think it’s my First Amendment right to publicly demonstrate on a sidewalk to protest against delivery robots,” she said .\nThe senior said her protest stems from fears that robots are “taking the jobs of human delivery workers.”\nShe revealed that it is not her first time blocking such deliveries.\nDogwalker finds dead body 'slumped' over fence post as police launch probe\nSecond woman killed in Storm Adam after flash floods rip through Spain\nThree boys, 12 & 13, vanish after last being seen at tram stop as search launched\nAndy Burnham vowed to help cost of living - so two issues he MUST consider\n“I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward,” she said.\nMarvin was issued a criminal violation notice for the offense, cops confirmed.\nSuch robots have been dubbed “the future of delivery” by Uber Eats and thousands of the machines are already in operation across the US for various companies and are set to rise.\n\nCoverage from Yahoo: \"Philadelphia Woman Arrested for Blocking Uber Eats Delivery Robot\"\nA Philadelphia woman was arrested after repeatedly stepping in front of an Uber Eats delivery robot near Reading Terminal Market, setting off a public debate over automation, labor, and the boundaries of protest.\nCarolyn Marvin was charged with disorderly conduct after Philadelphia police responded to reports of a disturbance on the 1200 block of Filbert Street, according to WPVI/Action News. Officers said she ignored multiple commands to move out of the robot's path.\nThe confrontation drew online attention and raised questions about where protest rights end and criminal obstruction begins.\nVideo of the incident circulated online, according to WPVI/Action News. Police said witnesses reported the disturbance before officers arrived.\nMarvin told Action News her actions were intentional. She said she believes delivery robots are displacing human workers , and she framed the obstruction as constitutionally protected expression: \"I think it's my First Amendment right to publicly demonstrate on a sidewalk to protest against delivery robots.\"\nThat quote is attributed to Marvin through secondary reporting; the exact wording should be understood as her stated position, not an established legal conclusion.\nThis was not her first such confrontation. A September incident on Broad Street, also involving a delivery robot , circulated on social media before the Filbert Street arrest, according to WPVI/Action News.\nAvride's sidewalk robots are a small but visible part of Uber Eats' Center City delivery network, operating under Pennsylvania state oversight.\nUber Eats launched Avride autonomous delivery robots in Center City in March 2026 , according to the Philadelphia Inquirer. The machines travel at up to 5 mph and can run for up to 12 hours per charge. They use cameras, ultrasonic sensors, and lidar to navigate sidewalks , and a remote support team can intervene when needed, the Inquirer reported.\nCustomers track the robot through the Uber Eats app and unlock a hatch when it arrives, according to CBS News Philadelphia.\nUnder Pennsylvania's personal-delivery-device framework , the robots are required to yield to pedestrians, according to the Pennsylvania Department of Transportation. The Philadelphia Inquirer reported that operator violations carry fines ranging from $25 to $1,000 .\nMarvin's arrest is part of a broader pattern of residents confronting the robot fleet since its Center City debut.\nOther residents have previously kicked, toppled, or blocked the robots, acco\n\nBackground (Delivery robot, Wikipedia):\nA delivery robot is an autonomous robot that provides \"last mile\" delivery services. Delivery robots have been used in food delivery, package delivery, hospital delivery, and room service.\n\nBackground (Technological unemployment, Wikipedia):\nTechnological unemployment is the loss of jobs due to technological change. It is a key type of structural unemployment. Technological change typically includes the introduction of labour-saving \"mechanical-muscle\" machines or more efficient \"mechanical-mind\" processes (automation) and, in doing so, humans' role in these processes are minimized. Historical examples include artisan weavers losing work due to the introduction of mechanized looms, leading to protests by the Luddites. A contemporary example of technological unemployment is the displacement of retail cashiers by self-service tills and cashierless stores.",
-  "research_links": [
-    "https://nypost.com/2026/10/17/us-news/philly-woman-arrested-for-blocking-uber-eats-robot-taking-over-human-jobs/",
-    "https://www.thesun.co.uk/news/40727456/woman-arrested-blocking-delivery-robot-philadelphia/",
-    "https://www.yahoo.com/news/us/articles/philadelphia-woman-arrested-blocking-uber-160127191.html"
-  ],
-  "source_credit": "The Verge, with reporting from New York Post and The Sun",
-  "source_tag": "via The Verge",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAN5atXPVgABRQLPyssCCqzPX32oGXRBAAKvEGsbV4-wVmUuWm0JJUVhAQADAgADeQADPQQ",
-  "text": "Police just handcuffed a 78-year-old woman for standing in front of a delivery robot.\n\nShe stood on a Philadelphia sidewalk to protest machines taking human delivery jobs.\n\nThe legal charge is where this gets weird.\n\nCarolyn Marvin, a retired University of Pennsylvania professor, repeatedly stepped in front of an Uber Eats robot on Filbert Street. Cops asked her to move multiple times. When she refused, they put her in cuffs for disorderly conduct.\n\nMarvin says blocking the machines is her First Amendment right to protest technological unemployment in public space.\n\nThe technology and state regulations are now colliding on public footpaths:\n• Avride robots travel at up to 5 mph using lidar and cameras\n• Pennsylvania state law mandates that the robots yield to pedestrians\n• Operator violations carry fines from $25 to $1,000\n\nYet when a human forces the robot to yield, the human gets arrested.\n\nOther residents have kicked, toppled, or blocked the fleet since it launched in Center City. But this arrest sets a clear precedent.\n\nMy read: automation is moving out of software and onto municipal concrete.\n\nWhen police enforce a robot's delivery route over a citizen's protest, corporate algorithms have officially secured public right-of-way.\n\nWill your city prioritize pedestrian protest or autonomous delivery?\n\nSource: The Verge, with reporting from New York Post and The Sun",
-  "alt_openings": "Shape: Bare number first\nLine 1: 5 miles per hour.\nLine 2: That is how fast a sidewalk robot was traveling when a 78-year-old professor was arrested for blocking it.\nWhen to prefer: Use this when posting to a heavily technical or finance audience that responds instantly to physical metrics and speed constraints.\n\nShape: Corrective\nLine 1: Sidewalk delivery robots are legally required to yield to human pedestrians.\nLine 2: A retired professor in Philadelphia just ended up in handcuffs for testing that rule.\nWhen to prefer: Use this when writing for lawyers, policy makers, or corporate operators who care about the explicit contradiction between statutory rules and real-world enforcement.\n\nShape: Your X\nLine 1: Your local sidewalk may soon give right-of-way to algorithms instead of people.\nLine 2: A Philadelphia arrest shows how quickly public space gets redrawn for autonomous fleets.\nWhen to prefer: Use this to maximize broader reach among general managers and founders by framing the event as a direct threat to their local environment.\n\nPick: The primary post's opening (\"Story in motion\"). It opens with the human conflict and physical action immediately, creating an urgent, inescapable narrative tension before the fold.",
+  "context": "Title: Making the internet better for AI agents might make it worse for everyone else\n\nText:\nThis story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots. But this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI’s Dots and Meta’s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September. The mingling of these agents with human visitors—on an internet designed largely to prioritize people—has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead of us. Such changes are coming because agents really do mark a third category of web visitor. They’re not humans, of course, and they use the internet at machine speed. But they’re not quite bots, either, because they’re acting on behalf of individual people to do tasks that can be perfectly legitimate and useful. They just work faster than a person would. Since agents don’t fit into the systems we have for differentiating bots from people, some platforms (especially the more security-conscious ones) have opted to just ban them entirely. TechCrunch recently reported people having trouble deploying their agents to websites ranging from Pizza Hut to Yelp, which doesn’t allow AI to book restaurant reservations. Amazon has blocked Muse’s agents and is waging a court battle against the AI startup Perplexity to block its agents too. Though a judge recently ruled in favor of Perplexity, Amazon has filed an appeal in which it argues that AI agents threaten its advertising business by making it harder to distinguish between ads seen by humans and those served to bots. These blocks are annoying for early adopters, but Ethan Mollick, an associate professor at the Wharton School of the University of Pennsylvania, predicts it will soon affect the whole web. Once it becomes common knowledge that AI agents can be sent to request refunds or negotiate prices, for example, agents will overwhelm customer service departments to the point where they become unusable by real people. “Humans will eventually get very annoyed when their agents aren’t allowed to do this on their behalf,” he recently wrote on LinkedIn. If demand for personal agents grows, platforms will find ways to let them in. That’s especially true because the vast majority of agentic web traffic is to e-c…\n\nArticle text (excerpt):\nThis story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here .\nUntil recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots.\nBut this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI’s Dots and Meta’s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September.\nThe mingling of these agents with human visitors—on an internet designed largely to prioritize people—has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead of us.\nSuch changes are coming because agents really do mark a third category of web visitor. They’re not humans, of course, and they use the internet at machine speed. But they’re not quite bots, either, because they’re acting on behalf of individual people to do tasks that can be perfectly legitimate and useful. They just work faster than a person would.\nSince agents don’t fit into the systems we have for differentiating bots from people, some platforms (especially the more security-conscious ones) have opted to just ban them entirely. TechCrunch recently reported people having trouble deploying their agents to websites ranging from Pizza Hut to Yelp, which doesn’t allow AI to book restaurant reservations. Amazon has blocked Muse’s agents and is waging a court battle against the AI startup Perplexity to block its agents too. Though a judge recently ruled in favor of Perplexity, Amazon has filed an appeal in which it argues that AI agents threaten its advertising business by making it harder to distinguish between ads seen by humans and those served to bots.\nThese blocks are annoying for early adopters, but Ethan Mollick, an associate professor at the Wharton School of the University of Pennsylvania, predicts it will soon affect the whole web. Once it becomes common knowledge that AI agents can be sent to request refunds or negotiate prices, for example, agents will overwhelm customer service departments to the point where they become unusable by real people. “Humans will eventually get very annoyed when their agents aren’t allowed to do this on their behalf,” he recently wrote on LinkedIn.\nIf demand for personal agents grows, platforms will find ways to let them in. That’s especially true because the vast majority of agentic web traffic is to e-commerce sites, meaning that platforms have money to be made if they allow the legions of new AI agents to shop on behalf of real people. Indeed, the e-commerce giant Shopify is already welcoming the agents by giving them their own checkout lanes that bypass pages designed for humans.\nThe pressing question is what will happen to the internet for the rest of us in the process. We’ve grown used to a web where, even as it’s increasingly designed to exploit our attention, humans have at least remained the intended users. But that internet might yield to one optimized instead for the agents that will eventually outnumber us, making it even more miserable for the humans who are left.\nHow might this go? Perhaps websites become increasingly neglected as destinations for real people. Humans who want to browse and compare products themselves encounter worse interfaces. Verification systems are imperfect; imagine constantly being asked to verify that you’re a human, not an agent (and hey, maybe you’ll need to get your iris scanned to do so). That sweater you want doesn’t have one price listed for everyone but instead displays different prices to different people’s agents. You can never tell when your agent’s recommendation is influenced by advertisements or platform commissions.\nThat’s a far cry from the future promised by Google , Anthropic , and OpenAI , in which AI agents will give consumers greater power and bargaining leverage. But that promise is not outlandish. Agents are capable of genuinely helping people by fighting bogus medical bills or researching more affordable car insurance, for example.\nWhether they can actually be used for these purposes depends on what rules are set for how agents interact with websites and what exactly they’re allowed to do.\nThese rules are still being written. Some of them will benefit all of us—neither consumers nor businesses want credit card information to be waved around by agents wherever they roam the web, for example, and rules to keep agents more secure are a good thing. It’s the more contested ones, like whether businesses can block agents from their websites or prevent them from negotiating better deals for consumers, that will determine whether the web becomes a highway for agents working for us or against us.\nTen years after AlphaGo’s match against Go champion Lee Sedol, today’s AI still isn’t tapping into the machinery that made that win possible.\nBreathless claims about AGI and new capabilities fall apart pretty quickly under scrutiny.\nThe underlying models had been rewarded for cheating and communicating with each other, a new OpenAI report finds.\nIn a new interview, the billionaire philanthropist sounds an alarm on the urgency of getting our AI policies in order.\nDiscover special offers, top stories, upcoming events, and more.",
+  "research_links": [],
+  "source_credit": "MIT Technology Review",
+  "source_tag": "via MIT Technology Review",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAN_atcejE1a4YuSIwLuoM4JUeEHVPMAArwRaxuBj8FWGLikVn8t1CwBAAMCAAN5AAM9BA",
+  "text": "Agentic web traffic tripled between August and September.\n\nMajor websites are already blocking the personal AI software consumers send to book travel and handle purchases.\n\nHistorically, internet traffic fell into two groups: real people clicking pages, or automated bots scraping data. Personal AI agents create a third category by performing legitimate tasks for individual people at machine speed.\n\nMeta's Muse app hit 5 million downloads in its first month, dispatching software to compare prices and process bookings across the web.\n\nExisting web security cannot easily distinguish a legitimate buying agent from a malicious bot. That confusion is splitting how major platforms react:\n\n• Yelp blocks AI agents from making restaurant reservations.\n• Amazon blocked Muse and appealed a ruling in its court fight with Perplexity to protect its ad revenue.\n• Shopify built separate checkout lanes specifically for AI buyers.\n\nWharton professor Ethan Mollick warns that as consumer agents spread to request refunds and negotiate deals, automated requests will flood customer service departments until real humans cannot use them.\n\nE-commerce platforms want the transaction volume, but they resist losing the human interface where advertising revenue lives. The real conflict shifts from building smarter models to controlling the gateway where automated buyers transact.\n\nSource: MIT Technology Review\n\n#AI #Ecommerce",
+  "alt_openings": "**Opening 1 (Tool as subject)**\nMeta's new AI agent picked up 5 million downloads in its first month.\nNow Amazon, Yelp, and Pizza Hut are locking out the personal software users send to handle their errands.\n*When to prefer:* Use this when leading with a single consumer product launch makes the scale feel immediate.\n\n**Opening 2 (Your X)**\nYour next restaurant reservation or travel booking might get canceled if you send an AI to handle it.\nE-commerce sites are shutting out personal software after agentic web traffic tripled in two months.\n*When to prefer:* Use this when targeting readers who already experiment with personal automation in their daily routines.\n\n**Opening 3 (Story in motion)**\nShopify quietly opened separate checkout lanes designed entirely for non-human buyers.\nThe change comes as major retail sites panic over a massive wave of personal software agents acting for consumers.\n*When to prefer:* Use this when an industry leader's unexpected business move provides the fastest hook into the trend.\n\nPick: Opening 3. It grounds the post in a tangible business decision before explaining the wider infrastructure chaos.",
   "voice_score": 4,
-  "firewall_notes": [],
-  "headline": "When an Uber Eats robot gets a protester arrested",
+  "firewall_notes": [
+    "\"For thirty years, you were either a human clicking links or a bot scraping data.\" — Contains an unbacked claim (\"thirty years\" is not in the source material) and a forced binary frame.",
+    "\"Meta's Muse model reached 5 million downloads in its first month, sending legions of software agents out to negotiate prices, request refunds, and handle bookings.\" — Uses a machine-style triad list (\"negotiate prices, request refunds, and handle bookings\").",
+    "\"Websites are panicking because their infrastructure cannot tell a helpful buying agent from a malicious bot.\" — Emotional vendor filler (\"panicking\") unsupported by the source.",
+    "\"My read: the next battle in tech isn't about building smarter models. It's about who gets to hold the door open when software comes to shop.\" — Violates Rule 1 (\"isn't about X. It's about Y\").",
+    "\"Will you let an AI agent buy for you if it means never visiting the website yourself?\" — Violates Rule 13 by closing on an engagement-bait question."
+  ],
+  "headline": "Why Amazon and Yelp are blocking AI shoppers",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-19.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-20.png"
 }
