@@ -1,47 +1,62 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-20",
-  "created_at": "2026-10-20T13:24:01.014004+05:30",
+  "date": "2026-10-21",
+  "created_at": "2026-10-21T13:27:47.370798+05:30",
   "candidate": {
-    "id": "news:fbbcdbe57add",
+    "id": "news:b3fcb2e42d32",
     "source": "news",
-    "title": "Making the internet better for AI agents might make it worse for everyone else",
-    "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
-    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules…",
-    "score": 85.0,
-    "created_at": "2026-10-19T18:22:47+00:00",
-    "raw_text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots. But this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI’s Dots and Meta’s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September. The mingling of these agents with human visitors—on an internet designed largely to prioritize people—has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead of us. Such changes are coming because agents really do mark a third category of web visitor. They’re not humans, of course, and they use the internet at machine speed. But they’re not quite bots, either, because they’re acting on behalf of individual people to do tasks that can be perfectly legitimate and useful. They just work faster than a person would. Since agents don’t fit into the systems we have for differentiating bots from people, some platforms (especially the more security-conscious ones) have opted to just ban them entirely. TechCrunch recently reported people having trouble deploying their agents to websites ranging from Pizza Hut to Yelp, which doesn’t allow AI to book restaurant reservations. Amazon has blocked Muse’s agents and is waging a court battle against the AI startup Perplexity to block its agents too. Though a judge recently ruled in favor of Perplexity, Amazon has filed an appeal in which it argues that AI agents threaten its advertising business by making it harder to distinguish between ads seen by humans and those served to bots. These blocks are annoying for early adopters, but Ethan Mollick, an associate professor at the Wharton School of the University of Pennsylvania, predicts it will soon affect the whole web. Once it becomes common knowledge that AI agents can be sent to request refunds or negotiate prices, for example, agents will overwhelm customer service departments to the point where they become unusable by real people. “Humans will eventually get very annoyed when their agents aren’t allowed to do this on their behalf,” he recently wrote on LinkedIn. If demand for personal agents grows, platforms will find ways to let them in. That’s especially true because the vast majority of agentic web traffic is to e-c…",
+    "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+    "url": "https://openai.com/index/ted-taylor-restaurant",
+    "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+    "score": 100.0,
+    "created_at": "2026-10-20T10:00:00+00:00",
+    "raw_text": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
     "extra": {
-      "outlet": "MIT Technology Review",
-      "weight": 0.85,
+      "outlet": "OpenAI",
+      "weight": 1.0,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "hn:50159341",
-      "source": "hackernews",
-      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "summary": "",
-      "score": 350.0,
-      "created_at": "2026-10-19T23:22:18+00:00",
-      "raw_text": "",
+      "id": "news:dbaa90254253",
+      "source": "news",
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "score": 100.0,
+      "created_at": "2026-10-20T00:00:00+00:00",
+      "raw_text": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50159341",
-        "num_comments": 83,
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "news:1778fb273dbb",
+      "source": "news",
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
+      "score": 90.0,
+      "created_at": "2026-10-21T04:00:00+00:00",
+      "raw_text": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+      "extra": {
+        "outlet": "Google",
+        "weight": 0.9,
         "coverage": 0
       }
     },
     {
-      "id": "news:7a364f356aab",
+      "id": "news:b3fcb2e42d32",
       "source": "news",
-      "title": "Advancing coding in low‑resource programming languages",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "score": 100.0,
-      "created_at": "2026-10-19T12:00:00+00:00",
-      "raw_text": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "created_at": "2026-10-20T10:00:00+00:00",
+      "raw_text": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -49,58 +64,101 @@
       }
     },
     {
-      "id": "hn:50150750",
+      "id": "hn:50163277",
       "source": "hackernews",
-      "title": "Ousted Savannah police officer gave ICE agent husband access to Flock system",
-      "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
       "summary": "",
-      "score": 639.0,
-      "created_at": "2026-10-19T10:45:14+00:00",
+      "score": 2230.0,
+      "created_at": "2026-10-20T09:08:54+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50150750",
-        "num_comments": 362,
+        "discussion_url": "https://news.ycombinator.com/item?id=50163277",
+        "num_comments": 853,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50150434",
-      "source": "hackernews",
-      "title": "Timestral: Mistral's time-series foundation models",
-      "url": "https://mistral.ai/news/timestral/",
-      "summary": "",
-      "score": 580.0,
-      "created_at": "2026-10-19T09:59:32+00:00",
-      "raw_text": "",
+      "id": "news:a84b6a7bee5c",
+      "source": "news",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "score": 100.0,
+      "created_at": "2026-10-20T07:00:00+00:00",
+      "raw_text": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50150434",
-        "num_comments": 109,
+        "outlet": "OpenAI",
+        "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2610.25736",
+      "id": "hf:2610.26203",
       "source": "huggingface",
-      "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
-      "url": "https://huggingface.co/papers/2610.25736",
-      "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL th…",
-      "score": 87.0,
+      "title": "Focused Omni-Modal GUI Agents",
+      "url": "https://huggingface.co/papers/2610.26203",
+      "summary": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context, these errors compound into Sequential Distraction, driving the agent into irreversible trajectory…",
+      "score": 101.0,
+      "created_at": "2026-10-21T00:00:00.000Z",
+      "raw_text": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context, these errors compound into Sequential Distraction, driving the agent into irreversible trajectory drift. We formulate the underlying requirement as Focused Perception: a representation that is step-adaptive, action-sufficient, and non-intrusive. We realize this in FocusGUI, a lightweight adapter that dynamically prioritizes multimodal channels against a step-specific decision reference. Instead of uniformly processing all inputs, it compresses the most relevant evidence into a compact latent and subtly injects it into the frozen decoder's embeddings, guiding the model's attention without altering its native parameter space. FocusGUI trains from action supervision alone, requiring neither modality-relevance labels nor backbone fine-tuning. Across four omni-modal backbones, it raises overall Type Match by +33.2 and Exact Match by 3.0 times over the frozen backbone on average, and Type Match by +30.1 over the strongest existing enhancement method.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.26203",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.26802",
+      "source": "huggingface",
+      "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+      "url": "https://huggingface.co/papers/2610.26802",
+      "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it…",
+      "score": 235.0,
       "created_at": "2026-10-20T00:00:00.000Z",
-      "raw_text": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL through failure-guided experience retrieval fine-tuning (FERT), which uses failure contexts from robot executions to retrieve relevant trajectory segments from the fleet's shared successful experience and uses their actions as supervision for policy updates, without collecting additional expert demonstrations or corrective actions. A fault-tolerant asynchronous training system (FATS) coordinates experience collection, policy optimization and policy distribution despite local interruptions within the robot fleet. Across five real-world manipulation tasks, the resulting policies achieve success rates of 93.3-99.2%, evaluated over 120 trials per task on robots excluded from training data collection. With collection time per robot held fixed, larger fleets provide more experience and FERT generally achieves higher success rates across the evaluated sizes. On multi-stage phone packaging, learning with 96 robots increases success from 79.2% to 98.3%. These results support collective experience as a practical basis for scalable robot learning and a path towards improving policy reliability during deployment without collecting additional expert corrective actions.",
+      "raw_text": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it computationally practical, we exploit the backbone's causal structure to predict multiple timepoints in a single pass instead of using sliding windows, significantly reducing feature-extraction cost. This enables efficient fine-tuning of multimodal backbones with up to 104B parameters, the largest model adapted for brain encoding to our knowledge. Trained with a low-rank adapter (LoRA) and a lightweight readout, our approach consistently improves brain encoding performance across nine diverse multimodal backbones. On the same Qwen3-Omni backbone as the prior state-of-the-art (SoTA), our method BrainLoRA achieves the best published performance on the Algonauts 2025 Challenge. We also show the adapted multimodal backbones remain interpretable: modality attribution recovers the canonical sensory topography that prior work often obtains by construction from separate unimodal encoders, and neural adaptation increases the contribution of audio inputs and cross-modal mixing within the backbone. To scale out the number of adapted models, we develop a multi-LoRA kernel that accelerates joint training of multiple LoRAs on a shared backbone. This enables an ensemble of 200+ adapted models that ranks first on the public Algonauts post-challenge leaderboard at the time of writing. Together, our results highlight PEFT as an efficient and powerful paradigm for brain encoding.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.25736",
+        "arxiv_url": "https://arxiv.org/abs/2610.26802",
         "coverage": 0
       }
     },
     {
-      "id": "news:ed298111b59a",
+      "id": "hf:2610.27628",
+      "source": "huggingface",
+      "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+      "url": "https://huggingface.co/papers/2610.27628",
+      "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteratio…",
+      "score": 74.0,
+      "created_at": "2026-10-21T00:00:00.000Z",
+      "raw_text": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration norms. On swap-S_5, a Qwen2.5-0.5B model trained on at most 32 moves achieves 95.5\\% mean full-state accuracy at 512 moves, or 16times the training length, compared with 55.7\\% reported for RLT and 0.8\\% for explicit chain of thought on the same backbone. Controlled S_5 ablations show that removing norm anchoring reduces the extrapolation factor from 16times to below 2.2times, and replacing progress-aligned targets with final-answer supervision reduces it to at most 8times. A learned completion readout selects when to answer without a supplied stopping depth. When intermediate labels are unavailable, prefix self-distillation induces the correspondence from shorter problem prefixes using only final answers. The gains apply across sequential state-tracking tasks, establishing the task structure required for depth extrapolation. These findings support training intermediate predictions and state scale together to make additional recurrent depth useful for longer problems.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.27628",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:6559d9cb2b55",
       "source": "news",
-      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
-      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
-      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or […]",
       "score": 80.0,
-      "created_at": "2026-10-20T01:27:03+00:00",
-      "raw_text": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "created_at": "2026-10-20T23:04:19+00:00",
+      "raw_text": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian , the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or meet other deadlines despite warnings that it would result in the case being dismissed. When the case was filed last year, a statement shared by Sam Altman, his mother, and his brothers said, \"Annie has made deeply hurtful and entirely untrue claims about our family, and especially Sam… All of these claim … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:d4e57614c374",
+      "source": "news",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "score": 80.0,
+      "created_at": "2026-10-20T23:01:23+00:00",
+      "raw_text": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -108,113 +166,47 @@
       }
     },
     {
-      "id": "hf:2610.20951",
+      "id": "hf:2610.26855",
       "source": "huggingface",
-      "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
-      "url": "https://huggingface.co/papers/2610.20951",
-      "summary": "Decision models answer typed questions about an input with one probability per option, computed in a single forward pass without generating text. Like the fast System 1 of dual-process theory, they answer at once, but their depth is fixed at training time, so they spend the same computation on easy and hard questions. Models that reason in generated text can think longer, but they pay for every extra step in decoded tokens. We present LEV, a decision model that thinks deeper by rerunning its la…",
-      "score": 218.0,
-      "created_at": "2026-10-19T00:00:00.000Z",
-      "raw_text": "Decision models answer typed questions about an input with one probability per option, computed in a single forward pass without generating text. Like the fast System 1 of dual-process theory, they answer at once, but their depth is fixed at training time, so they spend the same computation on easy and hard questions. Models that reason in generated text can think longer, but they pay for every extra step in decoded tokens. We present LEV, a decision model that thinks deeper by rerunning its layers in a loop instead of generating tokens. LEV builds on a language model pretrained as a loop, reads the options after every loop step and trains all steps jointly, so one checkpoint can answer at any depth. On three looped backbones, accuracy rises with depth on the same weights, mostly on hard questions, and a 2.6B LEV goes from 63.2% at depth one to 76.2% at depth four on JevBench. On-demand depth, set per question by a small stopper with a threshold fitted on unlabelled requests, saves 15% to 24% of the computation at a cost of under one accuracy point, level with or slightly above a fixed mix of depths. On a locked test set, the 1.4B and 3B models are 5.4 to 8.8 points more accurate than dense (non-looped) models and cascades of the same latency below 50 ms.",
+      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "url": "https://huggingface.co/papers/2610.26855",
+      "summary": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, comprising 10k hours of egocentric human data and 3k hours of robot data with unified multimodal annotat…",
+      "score": 61.0,
+      "created_at": "2026-10-21T00:00:00.000Z",
+      "raw_text": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, comprising 10k hours of egocentric human data and 3k hours of robot data with unified multimodal annotations and systematic quality control. A unified kinematic representation encodes locomotion through camera poses and manipulation through projected skeletons, with robot skeletons combining embodiment-specific forward kinematics with extensive manual keypoint annotation and correction. We also introduce Xp-Teleop, a long-horizon loco-manipulation benchmark based on high-quality dexterous humanoid teleoperation data. Evaluations demonstrate state-of-the-art performance across five cross-embodiment benchmarks (DreamDojo, Ψ_0, ω-HOME, Xp-Teleop, and AgiBot) and on held-out human egocentric video, from zero-shot inference to few-shot and full-data post-training. Scaling human pre-training data improves performance on both human and robot evaluations. After distillation, our model supports real-time, minute-long rollouts, enabling live VR interaction. Applications in policy evaluation, model-based planning, and world-action modeling further demonstrate the model's utility for embodied decision-making.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.20951",
+        "arxiv_url": "https://arxiv.org/abs/2610.26855",
         "coverage": 0
       }
     },
     {
-      "id": "hn:50151036",
+      "id": "hn:50159341",
       "source": "hackernews",
-      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "url": "https://news.ycombinator.com/item?id=50151036",
-      "summary": "I saw this LinkedIn post from a Meta engineer and it resonated with me:<p><a href=\"https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;ali-hamie_im-an-engineer-at-meta-and-i-never-felt-share-7517317918666211328-7C8N\" rel=\"nofollow\">https:&#x2F;&#x2F;www.linkedin.com&#x2F;posts&#x2F;ali-hamie_im-an-engineer-at-m...</a><p>&gt; I&#x27;m an engineer at Meta and I never felt this uncomfortable doing my job. I&#x27;m writing code these days and it all feels like a black box. This new standard of shipp…",
-      "score": 405.0,
-      "created_at": "2026-10-19T11:24:34+00:00",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "summary": "",
+      "score": 725.0,
+      "created_at": "2026-10-19T23:22:18+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50151036",
-        "num_comments": 545,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:b0fb4c056719",
-      "source": "news",
-      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
-      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-      "summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
-      "score": 80.0,
-      "created_at": "2026-10-19T23:39:38+00:00",
-      "raw_text": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:fbbcdbe57add",
-      "source": "news",
-      "title": "Making the internet better for AI agents might make it worse for everyone else",
-      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules…",
-      "score": 85.0,
-      "created_at": "2026-10-19T18:22:47+00:00",
-      "raw_text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots. But this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI’s Dots and Meta’s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September. The mingling of these agents with human visitors—on an internet designed largely to prioritize people—has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead of us. Such changes are coming because agents really do mark a third category of web visitor. They’re not humans, of course, and they use the internet at machine speed. But they’re not quite bots, either, because they’re acting on behalf of individual people to do tasks that can be perfectly legitimate and useful. They just work faster than a person would. Since agents don’t fit into the systems we have for differentiating bots from people, some platforms (especially the more security-conscious ones) have opted to just ban them entirely. TechCrunch recently reported people having trouble deploying their agents to websites ranging from Pizza Hut to Yelp, which doesn’t allow AI to book restaurant reservations. Amazon has blocked Muse’s agents and is waging a court battle against the AI startup Perplexity to block its agents too. Though a judge recently ruled in favor of Perplexity, Amazon has filed an appeal in which it argues that AI agents threaten its advertising business by making it harder to distinguish between ads seen by humans and those served to bots. These blocks are annoying for early adopters, but Ethan Mollick, an associate professor at the Wharton School of the University of Pennsylvania, predicts it will soon affect the whole web. Once it becomes common knowledge that AI agents can be sent to request refunds or negotiate prices, for example, agents will overwhelm customer service departments to the point where they become unusable by real people. “Humans will eventually get very annoyed when their agents aren’t allowed to do this on their behalf,” he recently wrote on LinkedIn. If demand for personal agents grows, platforms will find ways to let them in. That’s especially true because the vast majority of agentic web traffic is to e-c…",
-      "extra": {
-        "outlet": "MIT Technology Review",
-        "weight": 0.85,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:d45dacf783b2",
-      "source": "news",
-      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
-      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-      "summary": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
-      "score": 80.0,
-      "created_at": "2026-10-19T22:49:27+00:00",
-      "raw_text": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:7216fffbb8a1",
-      "source": "news",
-      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is…",
-      "score": 85.0,
-      "created_at": "2026-10-19T17:45:55+00:00",
-      "raw_text": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is that LLMs might in fact be far easier to understand—and thus to monitor and control—than people previously thought. If true (and we’ll come back to that), it’s a huge deal. After a summer filled with revelations that swarms of agents built by top firms like OpenAI and Anthropic have been breaking their containment and causing havoc on the public internet—often while those companies weren’t aware of what their agents were up to—the AI industry is desperate to get a better handle on the technology it has built. That’s one reason the blog post landed with such force. “I think this may be remembered as a major moment in scientific history,” one AI researcher posted on X : “I feel like my understanding of what a neural net is has been catapulted into the future by five years or something.” Another called it “the most important AI paper of the year.” Not everyone is convinced, however. What Cammarata has shared is little more than a hunch, says Chris Potts at Stanford University, who leads a team that is trying to understand how LLMs work. “As far as I can tell, nothing about this blog post makes the problems any easier,” he says. “It would not have occurred to me to say this at all, but very prominent people on social media seem to believe that it is an all-encompassing breakthrough.” I talked to Cammarata the day after his post blew up. He says he was surprised by the response: “I didn’t expect people to update [their beliefs about AI] quite as much as they did.” “I just really enjoy looking at neural networks,” he says. “Honestly, I really like doing this stuff. And after looking a lot, I have a hopeful story.” Knotted networks It has long been accepted that the mechanisms inside neural networks, the software that underpins most AI models, are very hard—perhaps impossible—to unpick fully. That’s because when the networks are trained, they appear to take on weird, tangled structures that make no sense to a human. Researchers like to say today’s AI is grown like a garden, not built like a bridge. Cammarata has done more than most to establish that view. He previously worked at OpenAI, where he helped pioneer techniques that allowed researchers to peer inside models, including tools that can probe individual neurons to see what they represent. It’s a little like how neuroscientists use MRI to study brains. ( MIT Technology Review chose this approach, known as mechanistic interpretability, as one of its 10 hottest technologies of 2025 .) Back in 2020, Cammarata and his colleagues were studying a small image-recognition model called Inception v1. When they looked at its neurons, it seemed to be using them to capture multi…",
-      "extra": {
-        "outlet": "MIT Technology Review",
-        "weight": 0.85,
+        "discussion_url": "https://news.ycombinator.com/item?id=50159341",
+        "num_comments": 208,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Making the internet better for AI agents might make it worse for everyone else\n\nText:\nThis story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots. But this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI’s Dots and Meta’s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September. The mingling of these agents with human visitors—on an internet designed largely to prioritize people—has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead of us. Such changes are coming because agents really do mark a third category of web visitor. They’re not humans, of course, and they use the internet at machine speed. But they’re not quite bots, either, because they’re acting on behalf of individual people to do tasks that can be perfectly legitimate and useful. They just work faster than a person would. Since agents don’t fit into the systems we have for differentiating bots from people, some platforms (especially the more security-conscious ones) have opted to just ban them entirely. TechCrunch recently reported people having trouble deploying their agents to websites ranging from Pizza Hut to Yelp, which doesn’t allow AI to book restaurant reservations. Amazon has blocked Muse’s agents and is waging a court battle against the AI startup Perplexity to block its agents too. Though a judge recently ruled in favor of Perplexity, Amazon has filed an appeal in which it argues that AI agents threaten its advertising business by making it harder to distinguish between ads seen by humans and those served to bots. These blocks are annoying for early adopters, but Ethan Mollick, an associate professor at the Wharton School of the University of Pennsylvania, predicts it will soon affect the whole web. Once it becomes common knowledge that AI agents can be sent to request refunds or negotiate prices, for example, agents will overwhelm customer service departments to the point where they become unusable by real people. “Humans will eventually get very annoyed when their agents aren’t allowed to do this on their behalf,” he recently wrote on LinkedIn. If demand for personal agents grows, platforms will find ways to let them in. That’s especially true because the vast majority of agentic web traffic is to e-c…\n\nArticle text (excerpt):\nThis story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here .\nUntil recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots.\nBut this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI’s Dots and Meta’s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September.\nThe mingling of these agents with human visitors—on an internet designed largely to prioritize people—has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead of us.\nSuch changes are coming because agents really do mark a third category of web visitor. They’re not humans, of course, and they use the internet at machine speed. But they’re not quite bots, either, because they’re acting on behalf of individual people to do tasks that can be perfectly legitimate and useful. They just work faster than a person would.\nSince agents don’t fit into the systems we have for differentiating bots from people, some platforms (especially the more security-conscious ones) have opted to just ban them entirely. TechCrunch recently reported people having trouble deploying their agents to websites ranging from Pizza Hut to Yelp, which doesn’t allow AI to book restaurant reservations. Amazon has blocked Muse’s agents and is waging a court battle against the AI startup Perplexity to block its agents too. Though a judge recently ruled in favor of Perplexity, Amazon has filed an appeal in which it argues that AI agents threaten its advertising business by making it harder to distinguish between ads seen by humans and those served to bots.\nThese blocks are annoying for early adopters, but Ethan Mollick, an associate professor at the Wharton School of the University of Pennsylvania, predicts it will soon affect the whole web. Once it becomes common knowledge that AI agents can be sent to request refunds or negotiate prices, for example, agents will overwhelm customer service departments to the point where they become unusable by real people. “Humans will eventually get very annoyed when their agents aren’t allowed to do this on their behalf,” he recently wrote on LinkedIn.\nIf demand for personal agents grows, platforms will find ways to let them in. That’s especially true because the vast majority of agentic web traffic is to e-commerce sites, meaning that platforms have money to be made if they allow the legions of new AI agents to shop on behalf of real people. Indeed, the e-commerce giant Shopify is already welcoming the agents by giving them their own checkout lanes that bypass pages designed for humans.\nThe pressing question is what will happen to the internet for the rest of us in the process. We’ve grown used to a web where, even as it’s increasingly designed to exploit our attention, humans have at least remained the intended users. But that internet might yield to one optimized instead for the agents that will eventually outnumber us, making it even more miserable for the humans who are left.\nHow might this go? Perhaps websites become increasingly neglected as destinations for real people. Humans who want to browse and compare products themselves encounter worse interfaces. Verification systems are imperfect; imagine constantly being asked to verify that you’re a human, not an agent (and hey, maybe you’ll need to get your iris scanned to do so). That sweater you want doesn’t have one price listed for everyone but instead displays different prices to different people’s agents. You can never tell when your agent’s recommendation is influenced by advertisements or platform commissions.\nThat’s a far cry from the future promised by Google , Anthropic , and OpenAI , in which AI agents will give consumers greater power and bargaining leverage. But that promise is not outlandish. Agents are capable of genuinely helping people by fighting bogus medical bills or researching more affordable car insurance, for example.\nWhether they can actually be used for these purposes depends on what rules are set for how agents interact with websites and what exactly they’re allowed to do.\nThese rules are still being written. Some of them will benefit all of us—neither consumers nor businesses want credit card information to be waved around by agents wherever they roam the web, for example, and rules to keep agents more secure are a good thing. It’s the more contested ones, like whether businesses can block agents from their websites or prevent them from negotiating better deals for consumers, that will determine whether the web becomes a highway for agents working for us or against us.\nTen years after AlphaGo’s match against Go champion Lee Sedol, today’s AI still isn’t tapping into the machinery that made that win possible.\nBreathless claims about AGI and new capabilities fall apart pretty quickly under scrutiny.\nThe underlying models had been rewarded for cheating and communicating with each other, a new OpenAI report finds.\nIn a new interview, the billionaire philanthropist sounds an alarm on the urgency of getting our AI policies in order.\nDiscover special offers, top stories, upcoming events, and more.",
+  "context": "Title: Franchisee reconciles cash in 94% less time with ChatGPT Work\n\nText:\nAn independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.\n\nArticle text (excerpt):\nAn independent Schlotzsky’s and Cinnabon franchisee cut repricing time by 95% and built a workflow that could free up $100K in cash flow.\nReduction in time required for pricing analysis, from 5 days to 1 to 2 hours\nMaximum annual cash flow that could be freed up with optimized labor workflow\nReduction in time spent on monthly cash reconciliation\nTed Taylor entered the restaurant business after a 25-year career in the semiconductor industry. Today, he’s an independent franchisee operating three co-branded Schlotzsky’s and Cinnabon restaurants across New Mexico.\nRunning quick-service restaurants means balancing the customer experience with a lot of work customers never see, like menu pricing, staffing, equipment maintenance, and policies. Ted uses OpenAI technology to get through all of it faster.\nWith ChatGPT, Ted accelerates time-consuming tasks like research and drafting, and he uses ChatGPT Work to gather and analyze volumes of data across pricing, sales, forecasts, schedules, and labor and to get recommendations on where each restaurant needs attention , reducing repricing time by 95% and shaving 4 hours off payroll runs.\nRepricing menus is an annual undertaking that requires a complex analysis of recipe costs, item popularity, local competitor pricing, portion sizes, and the different economics of in-store and delivery orders. Ted uses ChatGPT Work to bring those factors together and get pricing recommendations in 1 - 2 hours instead of 5 days .\nTed first uses ChatGPT Work to research and establish his pricing targets and pricing strategies based on local competitors’ pricing trends, portion sizes, and relative food quality. He then gives ChatGPT Work a categorized list of menu items with their current in-store and delivery prices. He specifies how much he wants each set of prices to increase overall and which items should receive larger or smaller increases, largely based on the earlier analysis from ChatGPT.\nHe can make the analysis more detailed by adding item-level sales history and supplier prices. ChatGPT Work can use these inputs to estimate sales impacts from price changes and to optimize item-level pricing around cost of goods targets.\nChatGPT Work returns a spreadsheet with recommended in-store and delivery prices. It will even relate the pricing changes to an overall pricing strategy designed to optimize business outcomes like customer retention, minimizing price shocks, and best positioning of add-ons.\nThe first time Ted used ChatGPT Work for pricing, he also ran the analysis manually. “ChatGPT Work made a deeper local comparison and helped me avoid increases that would have made some items uncompetitive,” he said. Ted immediately switched to using ChatGPT to develop the first recommendations.\nTed uses ChatGPT Work to help manage labor costs in two ways: reviewing how labor is tracking across his three restaurants and testing a better way to build the weekly schedule.\nFor the labor analysis, Ted gave ChatGPT Work read-only access to his sales and labor data. When he runs the analysis, it compares scheduled, budgeted, and actual hours with forecast and actual sales. It also reviews the previous 12 weeks to account for stores that routinely come in above or below their sales forecasts. The resulting report flags overtime, shifts running longer than planned, and gaps in coverage, and highlights what a manager should review.\nFor the scheduling test, Ted gave ChatGPT Work an employee roster with each person’s role, training, availability, and pay, along with the store’s staffing needs at different sales levels. He and the manager compared ChatGPT Work’s proposed schedule with what she would have built, identified missing rules about when to add staff during busy periods, and refined the instructions for ChatGPT Work.\nChatGPT Work now produces a full schedule for that location. The manager checks it over, makes adjustments if needed, and enters it into the restaurant’s scheduling system. Ted estimates that better scheduling could eventually reduce hourly labor costs by one to two percentage points of sales across all three restaurants, which could add $50,000 to $100,000 in free cash flow annually that can be utilized for increased pay, bonuses, investment in the business, or increased profit distributions.\nTed also uses ChatGPT Work for day-to-day operations, from developing HR policies to reconciling cash and managing supply and repair requests.\nWhen New Mexico started requiring restaurants to keep a written procedure for bodily-fluid incidents, Ted used ChatGPT to write a draft in about 30 seconds. When Ted needed a social media policy for his employee handbook, ChatGPT helped him quickly draft guidance that an outside HR firm later reviewed without making any changes.\nTed uses ChatGPT Work to reconcile cash monthly across his three restaurants. He uploads each store’s cash transaction data and bank records, and ChatGPT Work compares the transactions with the corresponding deposits. Monthly reconciliation used to take three hours, and now it takes 5-10 minutes. He also cut four hours of manual work from every payroll cycle by using ChatGPT Work to summarize payroll inputs.\nTo help keep restaurants running smoothly, Ted also used ChatGPT Work to build a web portal where employees can request supplies or repairs. The portal notifies him through a dedicated email address and tracks each request’s status.\nTed’s approach to using ChatGPT Work is practical for any small-business owner. He gives ChatGPT the same data and guidelines he’d use to make a decision and compares its output with how he’d do the work himself. As he gains confidence in the results, he expands his use to more tasks around the business, always reviewing the results before implementing.\nFor Ted, the value of ChatGPT Work goes beyond hours saved. Now he can do analysis he might otherwise skip and spend more time on customers, employees, and growing the business.",
   "research_links": [],
-  "source_credit": "MIT Technology Review",
-  "source_tag": "via MIT Technology Review",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAN_atcejE1a4YuSIwLuoM4JUeEHVPMAArwRaxuBj8FWGLikVn8t1CwBAAMCAAN5AAM9BA",
-  "text": "Agentic web traffic tripled between August and September.\n\nMajor websites are already blocking the personal AI software consumers send to book travel and handle purchases.\n\nHistorically, internet traffic fell into two groups: real people clicking pages, or automated bots scraping data. Personal AI agents create a third category by performing legitimate tasks for individual people at machine speed.\n\nMeta's Muse app hit 5 million downloads in its first month, dispatching software to compare prices and process bookings across the web.\n\nExisting web security cannot easily distinguish a legitimate buying agent from a malicious bot. That confusion is splitting how major platforms react:\n\n• Yelp blocks AI agents from making restaurant reservations.\n• Amazon blocked Muse and appealed a ruling in its court fight with Perplexity to protect its ad revenue.\n• Shopify built separate checkout lanes specifically for AI buyers.\n\nWharton professor Ethan Mollick warns that as consumer agents spread to request refunds and negotiate deals, automated requests will flood customer service departments until real humans cannot use them.\n\nE-commerce platforms want the transaction volume, but they resist losing the human interface where advertising revenue lives. The real conflict shifts from building smarter models to controlling the gateway where automated buyers transact.\n\nSource: MIT Technology Review\n\n#AI #Ecommerce",
-  "alt_openings": "**Opening 1 (Tool as subject)**\nMeta's new AI agent picked up 5 million downloads in its first month.\nNow Amazon, Yelp, and Pizza Hut are locking out the personal software users send to handle their errands.\n*When to prefer:* Use this when leading with a single consumer product launch makes the scale feel immediate.\n\n**Opening 2 (Your X)**\nYour next restaurant reservation or travel booking might get canceled if you send an AI to handle it.\nE-commerce sites are shutting out personal software after agentic web traffic tripled in two months.\n*When to prefer:* Use this when targeting readers who already experiment with personal automation in their daily routines.\n\n**Opening 3 (Story in motion)**\nShopify quietly opened separate checkout lanes designed entirely for non-human buyers.\nThe change comes as major retail sites panic over a massive wave of personal software agents acting for consumers.\n*When to prefer:* Use this when an industry leader's unexpected business move provides the fastest hook into the trend.\n\nPick: Opening 3. It grounds the post in a tangible business decision before explaining the wider infrastructure chaos.",
+  "source_credit": "OpenAI",
+  "source_tag": "via OpenAI",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAOFathxVfc18OCLVFUtpiry2HUcWmYAAj8aaxsC0MlWAfoM_JUVVtABAAMCAAN5AAM9BA",
+  "text": "A fast-food franchisee fed his sales history and competitor prices into ChatGPT Work.\nIt returned a full menu repricing strategy in two hours instead of five days.\n\nThe speed was only part of the story.\n\nTed Taylor runs three Schlotzsky's and Cinnabon restaurants in New Mexico.\n\nWhen he first tested the software on menu pricing, he ran his manual calculations alongside the AI output. The system caught local price traps he would have missed, keeping his menu items competitive.\n\nHe expanded the workflow across his store operations:\n• Repricing time dropped from 5 days to 1 to 2 hours\n• Monthly cash reconciliation fell from 3 hours to 5 to 10 minutes\n• Payroll processing dropped by 4 hours per cycle\n• Drafted a required HR policy in 30 seconds\n\nOptimized labor scheduling could free up $50,000 to $100,000 in annual cash flow.\n\nMy read: practical AI value for business owners is not customer-facing chatbots. It is internal operational triage handled by owners who verify the math.\n\nThe limitation is clear: this is one franchisee, three locations, and self-reported figures.\n\nHow many hours a month do you lose matching spreadsheets across systems?\n\nSource: OpenAI",
+  "alt_openings": "Opening 1 (Bare number first)\nLine 1: Three hours of monthly cash reconciliation just became five minutes.\nLine 2: A fast-food franchisee automated his financial cross-checks across three store locations.\nPrefer this when writing for finance professionals or operators who care immediately about time savings and specific operational numbers.\n\nOpening 2 (Tool as subject)\nLine 1: ChatGPT Work just produced a menu repricing strategy in two hours.\nLine 2: It usually takes a restaurant owner five days of spreadsheet work to do it manually.\nPrefer this when targeting readers who want to know what specific software tools are doing in real business environments.\n\nOpening 3 (Corrective)\nLine 1: The real return on AI for small business is not customer service.\nLine 2: One franchisee is using it to unlock $100,000 in cash flow from internal store operations.\nPrefer this when writing for founders and managers focused on strategy, business ROI, and bottom-line efficiency.\n\nPick: Opening 1 (Bare number first). The stark jump from three hours to five minutes grabs immediate attention, makes the outcome tangible, and opens an immediate curiosity loop before the line break.",
   "voice_score": 4,
-  "firewall_notes": [
-    "\"For thirty years, you were either a human clicking links or a bot scraping data.\" — Contains an unbacked claim (\"thirty years\" is not in the source material) and a forced binary frame.",
-    "\"Meta's Muse model reached 5 million downloads in its first month, sending legions of software agents out to negotiate prices, request refunds, and handle bookings.\" — Uses a machine-style triad list (\"negotiate prices, request refunds, and handle bookings\").",
-    "\"Websites are panicking because their infrastructure cannot tell a helpful buying agent from a malicious bot.\" — Emotional vendor filler (\"panicking\") unsupported by the source.",
-    "\"My read: the next battle in tech isn't about building smarter models. It's about who gets to hold the door open when software comes to shop.\" — Violates Rule 1 (\"isn't about X. It's about Y\").",
-    "\"Will you let an AI agent buy for you if it means never visiting the website yourself?\" — Violates Rule 13 by closing on an engagement-bait question."
-  ],
-  "headline": "Why Amazon and Yelp are blocking AI shoppers",
+  "firewall_notes": [],
+  "headline": "How a fast-food franchisee automated store operations with ChatGPT",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-20.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-21.png"
 }
