@@ -1,32 +1,32 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-21",
-  "created_at": "2026-10-21T13:27:47.370798+05:30",
+  "date": "2026-10-22",
+  "created_at": "2026-10-22T13:25:47.670751+05:30",
   "candidate": {
-    "id": "news:b3fcb2e42d32",
+    "id": "news:61f4d0141ff3",
     "source": "news",
-    "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-    "url": "https://openai.com/index/ted-taylor-restaurant",
-    "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+    "title": "OpenAI models are coming to Google Cloud",
+    "url": "https://openai.com/index/openai-models-google-cloud",
+    "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
     "score": 100.0,
-    "created_at": "2026-10-20T10:00:00+00:00",
-    "raw_text": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+    "created_at": "2026-10-21T12:00:00+00:00",
+    "raw_text": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
     "extra": {
       "outlet": "OpenAI",
       "weight": 1.0,
-      "coverage": 0
+      "coverage": 1
     }
   },
   "shortlist": [
     {
-      "id": "news:dbaa90254253",
+      "id": "news:61f4d0141ff3",
       "source": "news",
-      "title": "OpenAI acquires Orchestra Bio",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "score": 100.0,
-      "created_at": "2026-10-20T00:00:00+00:00",
-      "raw_text": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "created_at": "2026-10-21T12:00:00+00:00",
+      "raw_text": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -34,29 +34,14 @@
       }
     },
     {
-      "id": "news:1778fb273dbb",
+      "id": "news:2ed22a61b2f1",
       "source": "news",
-      "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-      "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
-      "score": 90.0,
-      "created_at": "2026-10-21T04:00:00+00:00",
-      "raw_text": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
-      "extra": {
-        "outlet": "Google",
-        "weight": 0.9,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:b3fcb2e42d32",
-      "source": "news",
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "score": 100.0,
-      "created_at": "2026-10-20T10:00:00+00:00",
-      "raw_text": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "created_at": "2026-10-21T21:00:00+00:00",
+      "raw_text": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -64,29 +49,89 @@
       }
     },
     {
-      "id": "hn:50163277",
-      "source": "hackernews",
-      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "summary": "",
-      "score": 2230.0,
-      "created_at": "2026-10-20T09:08:54+00:00",
-      "raw_text": "",
+      "id": "news:4ab93569e260",
+      "source": "news",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "score": 100.0,
+      "created_at": "2026-10-21T17:00:00+00:00",
+      "raw_text": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50163277",
-        "num_comments": 853,
+        "outlet": "OpenAI",
+        "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "news:a84b6a7bee5c",
+      "id": "hn:50186037",
+      "source": "hackernews",
+      "title": "Claude Duet",
+      "url": "https://claude.com/product/claude-duet",
+      "summary": "",
+      "score": 350.0,
+      "created_at": "2026-10-21T19:14:01+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50186037",
+        "num_comments": 319,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50180836",
+      "source": "hackernews",
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "summary": "<a href=\"https:&#x2F;&#x2F;www.php2shell.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.php2shell.com&#x2F;</a>",
+      "score": 441.0,
+      "created_at": "2026-10-21T13:43:19+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50180836",
+        "num_comments": 174,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:74fcf21eca7a",
       "source": "news",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "url": "https://openai.com/index/terminal-x",
-      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
       "score": 100.0,
-      "created_at": "2026-10-20T07:00:00+00:00",
-      "raw_text": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "created_at": "2026-10-21T13:00:00+00:00",
+      "raw_text": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:d3f519557f32",
+      "source": "news",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "score": 100.0,
+      "created_at": "2026-10-21T07:00:00+00:00",
+      "raw_text": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:edef63b51aed",
+      "source": "news",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "score": 100.0,
+      "created_at": "2026-10-21T07:00:00+00:00",
+      "raw_text": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -99,7 +144,7 @@
       "title": "Focused Omni-Modal GUI Agents",
       "url": "https://huggingface.co/papers/2610.26203",
       "summary": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context, these errors compound into Sequential Distraction, driving the agent into irreversible trajectory…",
-      "score": 101.0,
+      "score": 227.0,
       "created_at": "2026-10-21T00:00:00.000Z",
       "raw_text": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context, these errors compound into Sequential Distraction, driving the agent into irreversible trajectory drift. We formulate the underlying requirement as Focused Perception: a representation that is step-adaptive, action-sufficient, and non-intrusive. We realize this in FocusGUI, a lightweight adapter that dynamically prioritizes multimodal channels against a step-specific decision reference. Instead of uniformly processing all inputs, it compresses the most relevant evidence into a compact latent and subtly injects it into the frozen decoder's embeddings, guiding the model's attention without altering its native parameter space. FocusGUI trains from action supervision alone, requiring neither modality-relevance labels nor backbone fine-tuning. Across four omni-modal backbones, it raises overall Type Match by +33.2 and Exact Match by 3.0 times over the frozen backbone on average, and Type Match by +30.1 over the strongest existing enhancement method.",
       "extra": {
@@ -108,60 +153,17 @@
       }
     },
     {
-      "id": "hf:2610.26802",
-      "source": "huggingface",
-      "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
-      "url": "https://huggingface.co/papers/2610.26802",
-      "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it…",
-      "score": 235.0,
-      "created_at": "2026-10-20T00:00:00.000Z",
-      "raw_text": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it computationally practical, we exploit the backbone's causal structure to predict multiple timepoints in a single pass instead of using sliding windows, significantly reducing feature-extraction cost. This enables efficient fine-tuning of multimodal backbones with up to 104B parameters, the largest model adapted for brain encoding to our knowledge. Trained with a low-rank adapter (LoRA) and a lightweight readout, our approach consistently improves brain encoding performance across nine diverse multimodal backbones. On the same Qwen3-Omni backbone as the prior state-of-the-art (SoTA), our method BrainLoRA achieves the best published performance on the Algonauts 2025 Challenge. We also show the adapted multimodal backbones remain interpretable: modality attribution recovers the canonical sensory topography that prior work often obtains by construction from separate unimodal encoders, and neural adaptation increases the contribution of audio inputs and cross-modal mixing within the backbone. To scale out the number of adapted models, we develop a multi-LoRA kernel that accelerates joint training of multiple LoRAs on a shared backbone. This enables an ensemble of 200+ adapted models that ranks first on the public Algonauts post-challenge leaderboard at the time of writing. Together, our results highlight PEFT as an efficient and powerful paradigm for brain encoding.",
+      "id": "hn:50190363",
+      "source": "hackernews",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "summary": "",
+      "score": 109.0,
+      "created_at": "2026-10-22T02:18:41+00:00",
+      "raw_text": "",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.26802",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.27628",
-      "source": "huggingface",
-      "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
-      "url": "https://huggingface.co/papers/2610.27628",
-      "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteratio…",
-      "score": 74.0,
-      "created_at": "2026-10-21T00:00:00.000Z",
-      "raw_text": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration norms. On swap-S_5, a Qwen2.5-0.5B model trained on at most 32 moves achieves 95.5\\% mean full-state accuracy at 512 moves, or 16times the training length, compared with 55.7\\% reported for RLT and 0.8\\% for explicit chain of thought on the same backbone. Controlled S_5 ablations show that removing norm anchoring reduces the extrapolation factor from 16times to below 2.2times, and replacing progress-aligned targets with final-answer supervision reduces it to at most 8times. A learned completion readout selects when to answer without a supplied stopping depth. When intermediate labels are unavailable, prefix self-distillation induces the correspondence from shorter problem prefixes using only final answers. The gains apply across sequential state-tracking tasks, establishing the task structure required for depth extrapolation. These findings support training intermediate predictions and state scale together to make additional recurrent depth useful for longer problems.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.27628",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:6559d9cb2b55",
-      "source": "news",
-      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
-      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or […]",
-      "score": 80.0,
-      "created_at": "2026-10-20T23:04:19+00:00",
-      "raw_text": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian , the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or meet other deadlines despite warnings that it would result in the case being dismissed. When the case was filed last year, a statement shared by Sam Altman, his mother, and his brothers said, \"Annie has made deeply hurtful and entirely untrue claims about our family, and especially Sam… All of these claim … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:d4e57614c374",
-      "source": "news",
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-      "score": 80.0,
-      "created_at": "2026-10-20T23:01:23+00:00",
-      "raw_text": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
+        "discussion_url": "https://news.ycombinator.com/item?id=50190363",
+        "num_comments": 44,
         "coverage": 0
       }
     },
@@ -171,7 +173,7 @@
       "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
       "url": "https://huggingface.co/papers/2610.26855",
       "summary": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, comprising 10k hours of egocentric human data and 3k hours of robot data with unified multimodal annotat…",
-      "score": 61.0,
+      "score": 184.0,
       "created_at": "2026-10-21T00:00:00.000Z",
       "raw_text": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, comprising 10k hours of egocentric human data and 3k hours of robot data with unified multimodal annotations and systematic quality control. A unified kinematic representation encodes locomotion through camera poses and manipulation through projected skeletons, with robot skeletons combining embodiment-specific forward kinematics with extensive manual keypoint annotation and correction. We also introduce Xp-Teleop, a long-horizon loco-manipulation benchmark based on high-quality dexterous humanoid teleoperation data. Evaluations demonstrate state-of-the-art performance across five cross-embodiment benchmarks (DreamDojo, Ψ_0, ω-HOME, Xp-Teleop, and AgiBot) and on held-out human egocentric video, from zero-shot inference to few-shot and full-data post-training. Scaling human pre-training data improves performance on both human and robot evaluations. After distillation, our model supports real-time, minute-long rollouts, enabling live VR interaction. Applications in policy evaluation, model-based planning, and world-action modeling further demonstrate the model's utility for embodied decision-making.",
       "extra": {
@@ -180,33 +182,42 @@
       }
     },
     {
-      "id": "hn:50159341",
-      "source": "hackernews",
-      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "summary": "",
-      "score": 725.0,
-      "created_at": "2026-10-19T23:22:18+00:00",
-      "raw_text": "",
+      "id": "hf:2610.27999",
+      "source": "huggingface",
+      "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+      "url": "https://huggingface.co/papers/2610.27999",
+      "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintains world state and executes interaction rules, a multimodal coding agent translates player ideas in…",
+      "score": 183.0,
+      "created_at": "2026-10-21T00:00:00.000Z",
+      "raw_text": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintains world state and executes interaction rules, a multimodal coding agent translates player ideas into game code and dynamic scene captions, and a renderer based on autoregressive video model transforms engine-rendered low-poly proxies into detailed visuals, conditioned on dynamic captions and memory references. This framework provides continuous guidance for visual generation and enables natural-language creation and modification of scenes and gameplay. Our renderer is trained on aligned low-poly and high-fidelity video pairs and distilled into a causal generator that generates in four-frame chunks with one or two denoising steps. Together with targeted inference optimizations, Matrix-Game 4.0 enables 480p, 60 FPS gameplay on a single NVIDIA RTX5090 with a key-press-to-display latency of 112ms. Single-step generation achieves 83FPS steady-state throughput with 18.2GiB of peak GPU memory usage. With fixed prompts, steady-state throughput also reaches 67FPS on an RTX5080 and 58FPS on an RTX5070Ti. We demonstrate customizable shooter and driving games with engine-enforced mechanics, and release code, model weights, and low-poly game assets to support research and creation of playable game worlds.",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50159341",
-        "num_comments": 208,
+        "arxiv_url": "https://arxiv.org/abs/2610.27999",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Franchisee reconciles cash in 94% less time with ChatGPT Work\n\nText:\nAn independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.\n\nArticle text (excerpt):\nAn independent Schlotzsky’s and Cinnabon franchisee cut repricing time by 95% and built a workflow that could free up $100K in cash flow.\nReduction in time required for pricing analysis, from 5 days to 1 to 2 hours\nMaximum annual cash flow that could be freed up with optimized labor workflow\nReduction in time spent on monthly cash reconciliation\nTed Taylor entered the restaurant business after a 25-year career in the semiconductor industry. Today, he’s an independent franchisee operating three co-branded Schlotzsky’s and Cinnabon restaurants across New Mexico.\nRunning quick-service restaurants means balancing the customer experience with a lot of work customers never see, like menu pricing, staffing, equipment maintenance, and policies. Ted uses OpenAI technology to get through all of it faster.\nWith ChatGPT, Ted accelerates time-consuming tasks like research and drafting, and he uses ChatGPT Work to gather and analyze volumes of data across pricing, sales, forecasts, schedules, and labor and to get recommendations on where each restaurant needs attention , reducing repricing time by 95% and shaving 4 hours off payroll runs.\nRepricing menus is an annual undertaking that requires a complex analysis of recipe costs, item popularity, local competitor pricing, portion sizes, and the different economics of in-store and delivery orders. Ted uses ChatGPT Work to bring those factors together and get pricing recommendations in 1 - 2 hours instead of 5 days .\nTed first uses ChatGPT Work to research and establish his pricing targets and pricing strategies based on local competitors’ pricing trends, portion sizes, and relative food quality. He then gives ChatGPT Work a categorized list of menu items with their current in-store and delivery prices. He specifies how much he wants each set of prices to increase overall and which items should receive larger or smaller increases, largely based on the earlier analysis from ChatGPT.\nHe can make the analysis more detailed by adding item-level sales history and supplier prices. ChatGPT Work can use these inputs to estimate sales impacts from price changes and to optimize item-level pricing around cost of goods targets.\nChatGPT Work returns a spreadsheet with recommended in-store and delivery prices. It will even relate the pricing changes to an overall pricing strategy designed to optimize business outcomes like customer retention, minimizing price shocks, and best positioning of add-ons.\nThe first time Ted used ChatGPT Work for pricing, he also ran the analysis manually. “ChatGPT Work made a deeper local comparison and helped me avoid increases that would have made some items uncompetitive,” he said. Ted immediately switched to using ChatGPT to develop the first recommendations.\nTed uses ChatGPT Work to help manage labor costs in two ways: reviewing how labor is tracking across his three restaurants and testing a better way to build the weekly schedule.\nFor the labor analysis, Ted gave ChatGPT Work read-only access to his sales and labor data. When he runs the analysis, it compares scheduled, budgeted, and actual hours with forecast and actual sales. It also reviews the previous 12 weeks to account for stores that routinely come in above or below their sales forecasts. The resulting report flags overtime, shifts running longer than planned, and gaps in coverage, and highlights what a manager should review.\nFor the scheduling test, Ted gave ChatGPT Work an employee roster with each person’s role, training, availability, and pay, along with the store’s staffing needs at different sales levels. He and the manager compared ChatGPT Work’s proposed schedule with what she would have built, identified missing rules about when to add staff during busy periods, and refined the instructions for ChatGPT Work.\nChatGPT Work now produces a full schedule for that location. The manager checks it over, makes adjustments if needed, and enters it into the restaurant’s scheduling system. Ted estimates that better scheduling could eventually reduce hourly labor costs by one to two percentage points of sales across all three restaurants, which could add $50,000 to $100,000 in free cash flow annually that can be utilized for increased pay, bonuses, investment in the business, or increased profit distributions.\nTed also uses ChatGPT Work for day-to-day operations, from developing HR policies to reconciling cash and managing supply and repair requests.\nWhen New Mexico started requiring restaurants to keep a written procedure for bodily-fluid incidents, Ted used ChatGPT to write a draft in about 30 seconds. When Ted needed a social media policy for his employee handbook, ChatGPT helped him quickly draft guidance that an outside HR firm later reviewed without making any changes.\nTed uses ChatGPT Work to reconcile cash monthly across his three restaurants. He uploads each store’s cash transaction data and bank records, and ChatGPT Work compares the transactions with the corresponding deposits. Monthly reconciliation used to take three hours, and now it takes 5-10 minutes. He also cut four hours of manual work from every payroll cycle by using ChatGPT Work to summarize payroll inputs.\nTo help keep restaurants running smoothly, Ted also used ChatGPT Work to build a web portal where employees can request supplies or repairs. The portal notifies him through a dedicated email address and tracks each request’s status.\nTed’s approach to using ChatGPT Work is practical for any small-business owner. He gives ChatGPT the same data and guidelines he’d use to make a decision and compares its output with how he’d do the work himself. As he gains confidence in the results, he expands his use to more tasks around the business, always reviewing the results before implementing.\nFor Ted, the value of ChatGPT Work goes beyond hours saved. Now he can do analysis he might otherwise skip and spend more time on customers, employees, and growing the business.",
-  "research_links": [],
-  "source_credit": "OpenAI",
+  "context": "Title: OpenAI models are coming to Google Cloud\n\nText:\nOpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.\n\nArticle text (excerpt):\nOpenAI and Google Cloud ⁠ (opens in a new window) are partnering to bring OpenAI’s frontier models and Codex ⁠ (opens in a new window) agentic workflows into Google Cloud’s Model Garden. The integration will give customers native access to these models to power complex agentic workflows at scale, backed by Google Cloud’s data governance and high-performance infrastructure.\nGoogle Cloud’s longstanding investment in machine learning and AI has made it a destination for AI workloads and the developers and data scientists building them. Bringing OpenAI models to its model garden gives these teams access to OpenAI’s frontier models within the environment where they already work, enabling enterprises to modernize their software development lifecycle, build agentic workflows, and change how people work.\nFor organizations in regulated industries, deploying AI requires control over who can access sensitive data and how it is used. The integration will pair OpenAI’s frontier models with Google Cloud’s built-in access controls, centralized data governance, and high-performance infrastructure to support demanding enterprise workloads.\nGoogle Cloud customers will be able to purchase OpenAI frontier models via model garden, transacted through the Google Cloud Marketplace. Enterprises with Google Cloud spend commitments will be able to draw down their GCP commitments for these purchases.\nAdditionally, OpenAI models will soon be available in Google Antigravity and the Gemini Agent, providing enterprise customers with model choice flexibility and the best model for each task. By expanding access through Google Cloud, we are giving enterprises greater choice in how they discover and use frontier models, with a path from evaluation to broader adoption.\nGeneral availability is planned in the coming weeks. Request access to OpenAI on Google Cloud here .\n\nResearch notes on: OpenAI and Google Cloud partner to bring OpenAI frontier models and Codex workflows to Google Cloud's Model Garden.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from CNBC: \"OpenAI to bring AI models to Google's cloud, in further expansion beyond Microsoft\"\nOpenAI will make its artificial intelligence models available for developers through Google's cloud, following years of competition between the two companies.\nFor OpenAI, the effort reflects a growing push to expand distribution of its technology to enterprise developers. That's critical as the ChatGPT creator looks to build its business beyond its consumer roots, and the move puts OpenAI's models on all three of the top cloud infrastructure providers.\nLess than six months ago, OpenAI said Microsoft would no longer have the exclusive license on its intellectual property. The day after that ended, cloud leader Amazon unveiled plans to host OpenAI models .\nNow Google is getting its shot, bringing OpenAI's GPT products to its cloud's model garden and Antigravity coding tool in the coming weeks.\n\"Google Cloud's longstanding investment in machine learning and AI has made it a destination for AI workloads and the developers and data scientists building them,\" OpenAI said in a blog post.\nGoogle has been on a run in cloud computing this year. Annualized revenue growth in the segment accelerated to about 82% in the second quarter from 63% in the first quarter, thanks partly to strong demand for AI models and custom chips. Amazon and Microsoft posted second-quarter cloud growth of 37% and 42% , respectively. All three report quarterly results next week.\nMost business spending on AI is on OpenAI and Anthropic, according to data from corporate card issuer Ramp, though some corporate IT departments have integrated Google's Gemini models into their systems. In September, Google announced its next-generation Gemini 4 Argon model.\nOpenAI was founded in 2015 partly as a counterweight to the concentration of AI research at companies like Google. Two years later, Google employees submitted the influential Transformer academic paper that propelled AI, but it was OpenAI that helped bring the technology forward with ChatGPT. Now OpenAI is courting investors at a $1.4 trillion valuation and targeting an initial public offering.\nGoogle and OpenAI previously partnered last year, when the AI lab said it was using Google's cloud to run ChatGPT and its application programming interface.\nWATCH: Google broadens access to Gemini 4 Argon in bid to regain AI momentum\n\nCoverage from The Hindu BusinessLine: \"OpenAI partners with Google Cloud to offer AI models, codex workflows\"\nSam Altman-led OpenAI has partnered with Google Cloud to make its advanced AI models and Codex agentic workflows available through Google Cloud's Model Garden, according to a statement by the ChatGPT maker.\nThe partnership will allow enterprises to develop and deploy AI-powered workflows using Google Cloud's infrastructure and data governance capabilities.\n“OpenAI models are coming to Google Cloud. We're bringing our frontier models and Codex agentic workflows to Google Cloud's Model Garden, so enterprises can use our technology where they already build,” the AI giant said in an X post.\nGoogle Cloud customers will be able to purchase OpenAI's AI models through Model Garden via the Google Cloud Marketplace. Customers with existing Google Cloud Platform (GCP) spending commitments will also be able to use those commitments for these purchases.OpenAI models will also soon be available on Google Antigravity and the Gemini Agent, giving enterprise customers more options to select models based on their specific tasks and requirements.\nThe partnership aims to expand access to OpenAI's models and help businesses integrate them into their existing workflows, the company said. “By expanding access through Google Cloud, we are giving enterprises greater choice in how they discover and use frontier models, with a path from evaluation to broader adoption,” the company said.\nCommenting on the development, Greg Brockman, President and co-founder, OpenAI, said, “Google Cloud is a leading platform for developers and businesses building AI agents, writing software, and putting AI to work. This partnership is an important step in making our most capable models and Codex available where customers are already building, giving them even more choice in how they use frontier AI as we grow the agentic ecosystem together.”\nThomas Kurian, Chief Executive Officer, Google Cloud, added, “We are focused on giving customers a broad selection of models, including those from OpenAI, so they can choose the right model for any given job, helping to deliver optimal quality and lower costs.”\nComments have to be in English, and in full sentences. They cannot be abusive or personal. Please abide by our community guidelines for posting your comments.\nWe have migrated to a new commenting platform. If you are already a registered user of TheHindu Businessline and logged in, you may continue to engage with our articles. If you do not have an account please register and login to post comments. Users c\n\nCoverage from CoinCentral: \"OpenAI Models Coming to Google Cloud After Microsoft Exclusivity Ends\"\nOpenAI will make its artificial intelligence models available to developers through Google’s cloud. The move comes after years of competition between the two companies.\nWe're bringing our frontier models and Codex agentic workflows to Google Cloud's Model Garden, so enterprises can use our technology where they already build. https://t.co/gjuLVALjDm\nThe models will arrive in Google Cloud’s Model Garden and in the Antigravity coding tool in the coming weeks. OpenAI’s Codex agentic workflows will also be part of the integration.\nWith this deal, OpenAI’s models will be on all three of the top cloud infrastructure providers. The company is working to grow its business beyond its consumer roots and reach more enterprise developers.\nLess than six months ago, OpenAI said Microsoft would no longer hold the exclusive license on its intellectual property. The day after that ended, Amazon announced plans to host OpenAI models.\nGoogle and OpenAI have worked together before. Last year, OpenAI said it was using Google’s cloud to run ChatGPT and its application programming interface.\nOpenAI said Google Cloud has long invested in machine learning and AI. The company called it a destination for AI workloads and the developers building them.\nGoogle Cloud customers will be able to buy OpenAI models through the Model Garden. Purchases will go through the Google Cloud Marketplace.\nCompanies with Google Cloud spend commitments can use those commitments to pay for the models. OpenAI models will also soon be available in Google Antigravity and the Gemini Agent.\nOpenAI said the integration will pair its models with Google Cloud’s access controls and data governance. These features are meant to help organizations in regulated industries control who can reach sensitive data.\nGoogle has had a strong year in cloud computing. Annualized revenue growth in the segment rose to about 82% in the second quarter, from 63% in the first quarter. Demand for AI models and custom chips helped drive the increase.\nAmazon and Microsoft reported second-quarter cloud growth of 37% and 42%, respectively. All three companies report quarterly results next week.\nData from corporate card issuer Ramp shows most business spending on AI goes to OpenAI and Anthropic. Some corporate IT departments have also added Google’s Gemini models to their systems.\nIn September, Google announced its next-generation Gemini 4 Argon model. OpenAI was founded in 2015 partly as a counterweight to the concentration of AI research\n\nBackground (Garden city movement, Wikipedia):\nThe garden city movement is a 20th-century urban planning movement that promoted satellite communities surrounding a central city, separated by green belts. These garden cities would contain proportionate areas of residences, industry, and agriculture. Ebenezer Howard first posited the idea in 1898 as a way to capture the primary benefits of the countryside and the city while avoiding the disadvantages presented by both. In the early 20th century, Letchworth and Welwyn Garden City were built near London according to Howard's concept, and many other garden cities inspired by his model have since been built all over the world.\n\nBackground (AI agent, Wikipedia):\nAn AI agent is an artificial intelligence program that can make decisions, pursue goals, and take actions independently of human programmers. Agentic AI contrasts with tool-like AI use for narrow, specific tasks such as answering questions - as with chatbots in the non-agentic forms that were common in 2023, or with traditional machine learning algorithms.",
+  "research_links": [
+    "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html",
+    "https://www.thehindubusinessline.com/news/openai-partners-with-google-cloud-to-offer-ai-models-codex-workflows/article71610243.ece",
+    "https://coincentral.com/openai-models-coming-to-google-cloud-after-microsoft-exclusivity-ends/"
+  ],
+  "source_credit": "OpenAI, with reporting from CNBC and The Hindu BusinessLine",
   "source_tag": "via OpenAI",
-  "template": "clean_white",
-  "photo_file_id": "AgACAgUAAxkDAAOFathxVfc18OCLVFUtpiry2HUcWmYAAj8aaxsC0MlWAfoM_JUVVtABAAMCAAN5AAM9BA",
-  "text": "A fast-food franchisee fed his sales history and competitor prices into ChatGPT Work.\nIt returned a full menu repricing strategy in two hours instead of five days.\n\nThe speed was only part of the story.\n\nTed Taylor runs three Schlotzsky's and Cinnabon restaurants in New Mexico.\n\nWhen he first tested the software on menu pricing, he ran his manual calculations alongside the AI output. The system caught local price traps he would have missed, keeping his menu items competitive.\n\nHe expanded the workflow across his store operations:\n• Repricing time dropped from 5 days to 1 to 2 hours\n• Monthly cash reconciliation fell from 3 hours to 5 to 10 minutes\n• Payroll processing dropped by 4 hours per cycle\n• Drafted a required HR policy in 30 seconds\n\nOptimized labor scheduling could free up $50,000 to $100,000 in annual cash flow.\n\nMy read: practical AI value for business owners is not customer-facing chatbots. It is internal operational triage handled by owners who verify the math.\n\nThe limitation is clear: this is one franchisee, three locations, and self-reported figures.\n\nHow many hours a month do you lose matching spreadsheets across systems?\n\nSource: OpenAI",
-  "alt_openings": "Opening 1 (Bare number first)\nLine 1: Three hours of monthly cash reconciliation just became five minutes.\nLine 2: A fast-food franchisee automated his financial cross-checks across three store locations.\nPrefer this when writing for finance professionals or operators who care immediately about time savings and specific operational numbers.\n\nOpening 2 (Tool as subject)\nLine 1: ChatGPT Work just produced a menu repricing strategy in two hours.\nLine 2: It usually takes a restaurant owner five days of spreadsheet work to do it manually.\nPrefer this when targeting readers who want to know what specific software tools are doing in real business environments.\n\nOpening 3 (Corrective)\nLine 1: The real return on AI for small business is not customer service.\nLine 2: One franchisee is using it to unlock $100,000 in cash flow from internal store operations.\nPrefer this when writing for founders and managers focused on strategy, business ROI, and bottom-line efficiency.\n\nPick: Opening 1 (Bare number first). The stark jump from three hours to five minutes grabs immediate attention, makes the outcome tangible, and opens an immediate curiosity loop before the line break.",
-  "voice_score": 4,
-  "firewall_notes": [],
-  "headline": "How a fast-food franchisee automated store operations with ChatGPT",
+  "template": "dark_accent",
+  "photo_file_id": "AgACAgUAAxkDAAOLatnB2wTUpjqTH-6-om1bnvtNrbEAAjUSaxsC0NFWUqQC5Y-813YBAAMCAAN5AAM9BA",
+  "text": "Enterprise buyers are fundamentally changing how they procure AI infrastructure.\n\nLess than six months after ending its exclusive deal with Microsoft, OpenAI is bringing its frontier models and Codex workflows to Google Cloud.\n\nThe tools will launch in Google Cloud's Model Garden, Google Cloud Marketplace, the Antigravity coding tool, and the Gemini Agent.\n\nThe procurement mechanics are what matter most here. Enterprise customers will not need new vendor contracts or separate billing setups. Instead, they can draw down existing Google Cloud spend commitments to pay for OpenAI access.\n\nThis move puts OpenAI across all three major cloud providers. Corporate card data from Ramp shows OpenAI and Anthropic currently capture most business AI spending. At the same time, Google Cloud annualized revenue growth accelerated to about 82% in the second quarter, up from 63% in the first quarter.\n\nBy hosting rival models on its own rails, Google captures platform spend without forcing enterprise customers to use Gemini for every task.\n\nCloud exclusivity is dead. Infrastructure providers now have to host their direct competitors just to keep existing corporate budgets from walking out the door.\n\nSource: OpenAI, with reporting from CNBC and The Hindu BusinessLine\n\n#CloudComputing #AI",
+  "alt_openings": "1. Bare number first\nLine 1: An 82% cloud growth rate wasn't enough to keep Google from hosting OpenAI.\nLine 2: OpenAI models are coming to Google Cloud, allowing enterprise buyers to pay for GPT access using existing Google spending commitments.\nPrefer this when writing for finance, sales, or strategy executives who judge platform shifts by financial performance.\n\n2. Tool as subject\nLine 1: OpenAI just put its frontier models onto all three major cloud providers.\nLine 2: A new integration brings OpenAI models and Codex tools directly into Google Cloud's Model Garden and Marketplace.\nPrefer this when targeting general engineers and product managers who care primarily about model distribution and availability.\n\n3. Your X\nLine 1: Your enterprise Google Cloud budget can now pay for OpenAI models.\nLine 2: OpenAI is bringing its models and Codex workflows directly into Google Cloud Marketplace, drawing down existing commitment spend.\nPrefer this when targeting IT decision-makers, CTOs, and procurement leaders who manage cloud commit budgets directly.\n\nPick: The \"Your X\" opening. It speaks directly to enterprise leaders who hold GCP spend commitments, instantly showing them a practical financial shortcut before they even tap \"see more.\"",
+  "voice_score": 3,
+  "firewall_notes": [
+    "\"Six months after dropping Microsoft exclusivity, OpenAI just landed on Google Cloud.\" — Gives away the entire news payoff in the first line before the reader hits the fold.",
+    "\"That puts its models on all three major cloud platforms—and lets enterprises buy them...\" — Uses an unnecessary em dash to fuse two separate analytical points.",
+    "\"• Model Garden and Google Cloud Marketplace / • The Antigravity coding tool / • The Gemini Agent\" — Relies on a mechanical bulleted triad that disrupts prose flow.",
+    "\"My read: cloud exclusivity is officially dead.\" — Uses lazy, self-referential conversational filler (\"My read\").",
+    "\"Which cloud platform is your team using for AI workloads today?\" — Ends on a generic engagement-bait question instead of a firm analytical landing."
+  ],
+  "headline": "Why Google Cloud is now hosting OpenAI",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-21.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-22.png"
 }
