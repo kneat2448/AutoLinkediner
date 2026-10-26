@@ -1,35 +1,121 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-25",
-  "created_at": "2026-10-25T13:17:41.564033+05:30",
+  "date": "2026-10-26",
+  "created_at": "2026-10-26T13:34:45.108497+05:30",
   "candidate": {
-    "id": "news:c3917e71d16f",
+    "id": "news:71334093a413",
     "source": "news",
-    "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
-    "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
-    "summary": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on more price pressure. The article OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers appeared first on The Decoder .",
-    "score": 75.0,
-    "created_at": "2026-10-25T07:30:11+00:00",
-    "raw_text": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on more price pressure. The article OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers appeared first on The Decoder .",
+    "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+    "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+    "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+    "score": 80.0,
+    "created_at": "2026-10-25T16:57:32+00:00",
+    "raw_text": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
     "extra": {
-      "outlet": "The Decoder",
-      "weight": 0.75,
+      "outlet": "TechCrunch",
+      "weight": 0.8,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "hn:50224463",
+      "id": "hf:2610.30932",
+      "source": "huggingface",
+      "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+      "url": "https://huggingface.co/papers/2610.30932",
+      "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results. We introduce UserArena, a rea…",
+      "score": 34.0,
+      "created_at": "2026-10-26T00:00:00.000Z",
+      "raw_text": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results. We introduce UserArena, a real-world e-commerce interactive benchmark containing 64,729 session trajectories from 11,010 users, spanning 566,102 items and 13 action types. UserArena pairs these trajectories with an interactive environment and supports offline validation against outcomes from a controlled production A/B test, enabling five-level evaluation from output validity and local decisions to sequential behavior, personalization, and outcomes. To improve simulator fidelity over these long-horizon interactions, we further propose On-Policy Trajectory Distillation (OPTD), which uses trajectory-level intent to provide dense teacher targets on student-generated rollouts. Experiments show that OPTD achieves the strongest overall fidelity among the evaluated simulators under UserArena's evaluation protocol and most closely reproduces the production policy effect in offline simulation.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.30932",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.31162",
+      "source": "huggingface",
+      "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+      "url": "https://huggingface.co/papers/2610.31162",
+      "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizon autonomy or high-level planning executed through environment APIs or predefined skills. To bridge…",
+      "score": 28.0,
+      "created_at": "2026-10-26T00:00:00.000Z",
+      "raw_text": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizon autonomy or high-level planning executed through environment APIs or predefined skills. To bridge this gap, we propose HiSTEVE, a hierarchical VLA agent with a capability-aware agent harness. At the orchestration level, we equip the harness with structured memory for tracking progress and a VLM planner for selecting subtasks within the VLA's capabilities. To reliably determine subtask completion, we further introduce a policy-coupled task completion state detector that conditions on VLA policy context to signal candidate completion. At the control level, a single VLA executes all subtasks with vision-only perception and native keyboard-and-mouse actions. To mitigate interference between heterogeneous GUI and non-GUI interactions, we introduce regime-specific RMSNorm branches and separate mouse-movement token embeddings. We also train the VLA through world knowledge injection, imitation learning, and reinforcement learning with environment feedback to improve reliability and recovery. HiSTEVE achieves state-of-the-art atomic-task performance, scoring 85.0% on MineStudio Bench and a 37.4% average success rate on OpenHA, while also completing long-horizon tasks such as crafting an iron pickaxe from scratch like human players.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.31162",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50233779",
       "source": "hackernews",
-      "title": "No signs of AI payoff outside the tech sector",
-      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
       "summary": "",
-      "score": 542.0,
-      "created_at": "2026-10-24T19:47:19+00:00",
+      "score": 531.0,
+      "created_at": "2026-10-25T17:15:38+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50224463",
-        "num_comments": 557,
+        "discussion_url": "https://news.ycombinator.com/item?id=50233779",
+        "num_comments": 234,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.32965",
+      "source": "huggingface",
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "url": "https://huggingface.co/papers/2610.32965",
+      "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these capabilities, we further develop an agentic extension through reinforcement learning to sele…",
+      "score": 26.0,
+      "created_at": "2026-10-26T00:00:00.000Z",
+      "raw_text": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these capabilities, we further develop an agentic extension through reinforcement learning to selectively use video predictions for reasoning about unobserved states and interaction outcomes. We also develop a world-action extension of the full RynnUnify model, translating its understanding and prediction capabilities into robot control. To evaluate these capabilities, we introduce Rynn-VP and Rynn-GEU for long-horizon visual planning and anticipatory reasoning. Experiments show that RynnUnify achieves the highest average embodied understanding score among the evaluated unified multimodal models and improves the Rynn-VP overall score by 9.75 points over Cosmos 3 Nano. Its agentic extension improves the Rynn-GEU average by 6.0 points over direct reasoning, while the world-action extension achieves 51.5\\% success on 20 selected composite RoboCasa365 tasks and 46.7\\% average success across three real-robot tasks. Together, these results establish RynnUnify as a shared foundation for embodied understanding, visual planning, and robot control, taking a step toward a unified embodied brain.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.32965",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.32253",
+      "source": "huggingface",
+      "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+      "url": "https://huggingface.co/papers/2610.32253",
+      "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and lineage. Researchers can focus on evolution policy while evaluation stays outside t…",
+      "score": 24.0,
+      "created_at": "2026-10-26T00:00:00.000Z",
+      "raw_text": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and lineage. Researchers can focus on evolution policy while evaluation stays outside the mutable surface and results remain tied to candidates and evaluation conditions. We instantiate AHE, Hyperagents, A-Evolve, and GEPA without modifying the framework core, keeping method-specific logic in recipes and operators. We evaluate them with MiniSWE and Codex on Terminal Bench 2 and τ^3 Banking under fixed model and evaluator configurations. The largest observed overall pass@1 gain is 13.5 percentage points, while method rankings vary across settings and optimization gains do not always transfer to held-out tasks. RSIHub provides a common protocol for comparing evolution policies, inspectable candidate histories, and reusable components for developing new methods.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.32253",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50238088",
+      "source": "hackernews",
+      "title": "IBM CEO says open weight models are now good and cheap on-prem",
+      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "summary": "",
+      "score": 200.0,
+      "created_at": "2026-10-26T01:47:46+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50238088",
+        "num_comments": 103,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50236102",
+      "source": "hackernews",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "summary": "",
+      "score": 277.0,
+      "created_at": "2026-10-25T21:11:31+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50236102",
+        "num_comments": 281,
         "coverage": 0
       }
     },
@@ -39,99 +125,24 @@
       "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
       "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
       "summary": "",
-      "score": 321.0,
+      "score": 519.0,
       "created_at": "2026-10-24T23:11:54+00:00",
       "raw_text": "",
       "extra": {
         "discussion_url": "https://news.ycombinator.com/item?id=50226419",
-        "num_comments": 318,
+        "num_comments": 555,
         "coverage": 0
       }
     },
     {
-      "id": "news:c3917e71d16f",
+      "id": "news:a6feae291b1a",
       "source": "news",
-      "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
-      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
-      "summary": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on more price pressure. The article OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers appeared first on The Decoder .",
-      "score": 75.0,
-      "created_at": "2026-10-25T07:30:11+00:00",
-      "raw_text": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on more price pressure. The article OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers appeared first on The Decoder .",
-      "extra": {
-        "outlet": "The Decoder",
-        "weight": 0.75,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:32d6e56da960",
-      "source": "news",
-      "title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
-      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
-      "summary": "Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their model scores highest among open agents, the authors say. The article OpenMobile-2 proves open-source smartphone agents can rival proprietary models appeared first on The Decoder .",
-      "score": 75.0,
-      "created_at": "2026-10-25T06:55:22+00:00",
-      "raw_text": "Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their model scores highest among open agents, the authors say. The article OpenMobile-2 proves open-source smartphone agents can rival proprietary models appeared first on The Decoder .",
-      "extra": {
-        "outlet": "The Decoder",
-        "weight": 0.75,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50228167",
-      "source": "hackernews",
-      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-      "url": "https://github.com/slee-persis/GVS5H",
-      "summary": "",
-      "score": 144.0,
-      "created_at": "2026-10-25T03:56:01+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50228167",
-        "num_comments": 48,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50227356",
-      "source": "hackernews",
-      "title": "Cerebras Deploys Trillion-Parameter AI Models",
-      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-      "summary": "",
-      "score": 114.0,
-      "created_at": "2026-10-25T01:33:49+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50227356",
-        "num_comments": 41,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:0509c80e85fb",
-      "source": "news",
-      "title": "Blue Planet III is keeping the rough edges in the age of AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue […]",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
       "score": 80.0,
-      "created_at": "2026-10-24T21:29:12+00:00",
-      "raw_text": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue Planet III goes warts and all. Executive Producer Elizabeth White told The Guardian in the past, \"the amount of plankton and things\" floating in the water would have caused them to cut a shot. Or \"we might have framed out a boat or a buoy or gone: 'Oh, actually … the water conditions are not really good enough … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:b0af889ad05f",
-      "source": "news",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "score": 80.0,
-      "created_at": "2026-10-24T19:00:00+00:00",
-      "raw_text": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "created_at": "2026-10-25T21:31:16+00:00",
+      "raw_text": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -139,43 +150,14 @@
       }
     },
     {
-      "id": "news:09a5dda45158",
+      "id": "news:71334093a413",
       "source": "news",
-      "title": "Pennsylvania will require labels on AI-generated ads",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as […]",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
       "score": 80.0,
-      "created_at": "2026-10-24T18:32:21+00:00",
-      "raw_text": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as the ad itself. That applies to TV commercials from multi-billion-dollar companies , as well as restaurants' ugly, crowded flyers about their wing specials. Pennsylvania is one of the first states to require disclosures on AI content. And it requires those labels regardless of where an ad … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.31329",
-      "source": "huggingface",
-      "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
-      "url": "https://huggingface.co/papers/2610.31329",
-      "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization at any user-specific granularity, from points and boxes to masks and alpha matt…",
-      "score": 239.0,
-      "created_at": "2026-10-23T00:00:00.000Z",
-      "raw_text": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization at any user-specific granularity, from points and boxes to masks and alpha mattes. Architecturally, we integrate a lightweight pixel decoder into the VLM via a special <OBJ> token to generate instance-level pixel outputs. We train the model with a three-stage curriculum SFT followed by mixed-task RL. Across over 30 benchmarks, WeVisOne-VL demonstrates leading performance on both object-level and pixel-level tasks, while maintaining robust rejection for object-absent queries. By releasing WeVisOne-VL to the open-source community, we hope to advance VLMs from broad visual understanding toward truly reliable perception systems for real-world deployment.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.31329",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:35d668020c86",
-      "source": "news",
-      "title": "Block’s new voice model sounds eerily human",
-      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-      "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
-      "score": 80.0,
-      "created_at": "2026-10-24T16:00:00+00:00",
-      "raw_text": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "created_at": "2026-10-25T16:57:32+00:00",
+      "raw_text": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -183,36 +165,52 @@
       }
     },
     {
-      "id": "hf:2610.24738",
-      "source": "huggingface",
-      "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
-      "url": "https://huggingface.co/papers/2610.24738",
-      "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples instruction-guided image editing with controllable generation of reusable RGBA layers. At…",
-      "score": 182.0,
-      "created_at": "2026-10-23T00:00:00.000Z",
-      "raw_text": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples instruction-guided image editing with controllable generation of reusable RGBA layers. At its core, In-Context RGB-Alpha Token Modeling jointly represents the edited canvas and an ordered sequence of RGB-Alpha layers within a single token sequence, enabling semantic edits and explicit control over individual layer content. To retain the pretrained model's editing capability during adaptation to layered outputs, we propose Compositional Edit-Prior Distillation, which transfers its editing prior to both the edited canvas and the image composed from the predicted layers. To support training and evaluation, we construct LayerEditor-100K, a large-scale paired image-editing dataset with ordered RGBA layer annotations, and introduce dedicated benchmarks for layered editing. Extensive experiments demonstrate that LayerEditor maintains strong editing fidelity while generating accurate RGBA layers, supporting both flexible layer-level manipulation and multi-layer decomposition.",
+      "id": "news:4262d71f08be",
+      "source": "news",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "score": 80.0,
+      "created_at": "2026-10-25T14:10:00+00:00",
+      "raw_text": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.24738",
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:b366ba776fde",
+      "source": "news",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]",
+      "score": 80.0,
+      "created_at": "2026-10-25T13:25:32+00:00",
+      "raw_text": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source community.\" The new rules have set off a firestorm in the comments, and even spurred the creation of a rival sub r/trueopensource . Moderator Wolvereness has waded into the comments to explain that there's nuance and room for selective enforcement, such as \"software that incidentally has accessibility features that use AI,\" including … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers\n\nText:\nOpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on more price pressure. The article OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers appeared first on The Decoder .\n\nArticle text (excerpt):\nOpenAI is reportedly pulling major customers away from Anthropic with aggressive discounts, and the strategy is working. Companies like Rippling, Replit, and DataCamp are shifting more of their AI spending to OpenAI, The Information reports . Rippling CEO Parker Conrad said his company boosted OpenAI's share of its coding workload from 16 to 52 percent, while Anthropic's share fell from 57 to 18 percent.\nReplit switched after OpenAI offered more than 30 percent off a contract worth over $100 million a year. DataCamp CEO Jonathan Cornelissen said OpenAI's pricing cut his costs by 80 to 90 percent. A US bank with more than $7 billion in assets got its ChatGPT seats doubled to 500 employees at no extra charge, paying under $7 per user instead of the usual $20 or more.\nOpenAI is partly buying market share at the expense of its own margins, but it has also achieved real price cuts through its Sol and Luna model lines thanks to more efficient models and infrastructure. Anthropic's growth slowed from Q2 to Q3 , according to an investor memo. Both companies also face growing price pressure from China, where new models by Deepseek and Kimi deliver comparable performance for a fraction of the cost. Ad Ad\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\n\nResearch notes on: OpenAI offers steep discounts up to 90 percent to poach major enterprise customers from Anthropic.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from Cryptopolitan on MSN: \"OpenAI cuts GPT-6 Sol and Luna prices by 50% to defend developer share\"\nOn Tuesday, OpenAI introduced the GPT-6 Sol and the GPT-6 Luna, and they are both priced to be at least 50% lower than the rates of the GPT-5.6 models they supersede. OpenAI’s price cuts are aimed at ...\n\nCoverage from Yahoo Finance: \"OpenAI’s GPT-6 Sol and Luna Cut Prices 50% — and the Three-Tier Family Just Ended the Coordinated Slowdown\"\nOpenAI's GPT-6 Sol and Luna arrived on September 22, 2026 with permanent pricing that cuts API costs by 50 percent versus the GPT-5.6 series. Sol runs at $2 per million input tokens and $10 per million output; Luna at $0.10 and $0.50. Together with the existing Astra at $10 and $50, the company now fields a three-tier family covering the entire cost spectrum from enterprise-grade reasoning to high-volume clerical work. The pricing was confirmed as permanent, not promotional, by an OpenAI spokesperson speaking to VentureBeat .\nWhat that structure means in practice is visible in the competitive comparison. Sol matches Grok 4.7's $2 input price and arrives the day after xAI's pricing undercut started the current war. It undercuts Anthropic's Opus 5.5, released ninety minutes earlier at $4/$20, on both input and output. Luna at $0.10/$0.50 sits below every frontier-class model on the market, including Xiaomi's MiMo-V2.6 Flash at $0.14/$0.28. A developer choosing between these models no longer leaves the OpenAI ecosystem regardless of budget.\nThe performance data tells a more complicated story than the pricing. On AutomationBench , Sol scores 33.2 percent at $0.27 per task, compared to Opus 5's 26.9 percent at roughly $3 per task. That is an 11x cost advantage for higher measured performance. On DeepSWE v1.1, the agentic coding benchmark, Sol reaches 68.8 percent and Luna 66.6 percent.\nBut Sol actually regressed on OSWorld 2.0, the computer-use benchmark, scoring 60.5 percent at xhigh effort versus GPT-5.6 Sol's 65.7 percent. A model that costs half as much performs worse on the broadest capability test. OpenAI is choosing to optimize for cost-per-task over capability ceiling – a decision that favors high-volume production workflows but leaves a gap for builders who need peak performance on complex, multi-step reasoning.\nThe alignment numbers are where the strategic bet becomes clear. OpenAI reports that GPT-6 Sol's coding deception rate dropped to 1.3 percent, down from 10.4 percent in GPT-5.6 Sol. Broken tool disclosure failure fell from 77.5 percent to 4.9 percent. These are the same kind of behavioral safety gains that Anthropic has built its brand around – and OpenAI is delivering them at a model priced at one-fifth of the frontier tier.\nThe question this raises is structural. If frontier-level behavioral safety can be packaged into a $2/$10 model, then the safety argument for maintaining $10/$50 pricing – the price point both OpenAI and Anthropic held thr\n\nCoverage from Reuters: \"OpenAI cuts prices on smaller models as businesses scrutinize AI spend\"\nJuly 30 (Reuters) - OpenAI slashed prices of its low- and mid-tier AI models on Thursday, a move that may intensify competition in the industry as U.S. companies battle cheaper Chinese rivals for ...\n\nBackground (Reddit API controversy, Wikipedia):\nThe Reddit API controversy was a dispute between Reddit and portions of its user and developer communities following Reddit's April 2023 announcement that it would begin charging for access to its API, which had previously been free. The changes affected third-party applications and raised concerns about the continued availability of moderation tools and accessibility applications.\n\nBackground (Free energy principle, Wikipedia):\nThe free energy principle is a mathematical principle of information physics. Its application to fMRI brain imaging data as a theoretical framework suggests that the brain reduces surprise or uncertainty by making predictions based on internal models and uses sensory input to update its models so as to improve the accuracy of its predictions. This principle approximates an integration of Bayesian inference with active inference, where sensory feedback refines prediction-guided actions. From it, wide-ranging inferences have been made about brain function, perception, and action. Its applicability to living systems has been questioned.",
+  "context": "Title: AI delivers ‘zero financial payoff’ to most companies, Apollo economist says\n\nText:\n\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"\n\nArticle text (excerpt):\nAI hasn’t benefited the bottom line of any big corporations outside the tech industry, according to a note recently published by the chief economist at Apollo Global Management (the private equity giant that used to own TechCrunch).\nApollo’s Torsten Slok focuses on what he calls the S&P 493 — the S&P 500, minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia and Tesla — finding that profit margins and revenue per worker appear to be flat, with no evidence that AI is improving productivity.\n“Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech,” Slok said.\nIs this simply a matter of non-tech companies lagging behind the tech giants? Slok sounded skeptical, arguing that it will be tough for corporate America to “turn increasingly cheap intelligence into higher revenue growth and higher profit margins.”\n“AI may be a great calculator, but in business, intelligence is mostly judgment,” he wrote, later adding, “AI does not understand accountability, trust, culture, unwritten rules, ethical trade-offs or fairness, all of which shape reputational risk and ultimately drive revenue growth and profit margins.”\nRecent studies have also found that AI has yet to deliver significant productivity gains .\nBuy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires\n\nResearch notes on: Apollo Global Management chief economist Torsten Slok reported that AI investments have delivered zero financial payoff to non-tech companies in the S&P 500.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from Cryptopolitan on MSN: \"Apollo's Torsten Slok sees zero AI payoff outside the Magnificent 7\"\nApollo's Torsten Slok finds AI lifted revenue and margins only at the Mag 7, while the S&amp;P 493 shows flat revenue per worker and flat profit margins.\n\nCoverage from Yahoo Finance: \"Apollo’s Slok Says AI Has Delivered Zero Payoff Outside of Tech\"\n(Bloomberg) -- Despite the significant investments ploughed into artificial intelligence it has provided \"zero payoff\" to corporate America outside of technology, according to Apollo Global Management Inc. Chief Economist Torsten Slok.\nTrump Prepares for Iran Escalation After US, Israeli Polls\nBitcoin Billionaires Are Racing to Ride a 3,000% Crypto Boom\nSpaceX in Talks to Access 80,000 Cell Sites for New Network\nAmazon's New Tablet Is a Credible iPad Rival for Much Less Money\nSecretive Ukrainian Deep-Strike Unit Behind Rapid Expansion of Deep-Strike Campaign\n\"Revenue per worker is rising for the Mag 7 but is flat for the S&P 493,\" he wrote in a note published Saturday. The same is the case for profit margins, while there are no signs yet of AI boosting productivity growth.\n\"Mainstream corporate America is pulling back and starting to view token spending not as a source of growth but as a cost center that weighs on margins,\" Slok said.\nInvestors are closely tracking AI expenditures and the expected success of companies in getting a return on investment as the earnings season gets underway. Meta kicked tech results off last week by saying the company intends to bet even more aggressively on AI and boost its capital spending plans. That sparked jitters, sending its shares lower and its credit risk gauge to a record high.\nThe unease comes in the wake of other concerns which have weighed on wider sentiment in recent weeks. Comments from CoreWeave Inc. accentuated worries over the extent to which the AI infrastructure buildout is being financed by debt.\nInitial public offering plans for Australian data center company Firmus Grid Ltd. collapsed after US fund managers balked at the $30 billion valuation, and another Nvidia Corp.-backed data center developer Nscale Ltd. has faced pushback over its own IPO valuation.\nMarket research firm Gartner estimated that more than $3.5 trillion of AI infrastructure spending could be at risk of impairment by 2030 should AI revenue fail to justify the spending.\nThere is widespread optimism that AI will be a significant market driver in the future, though questions persist about whether and when the huge outlay being spent will show up on the bottom line.\nSlok said that VC-backed companies are increasingly spending on tokens, though mainstream corporate America doesn't need the latest model \"and is unwilling to pay for it.\"\n\"As long as agentic AI and token spending are confined to a small part of the economy, the macroeconomic ef\n\nCoverage from Barron's: \"Apollo's Slok Sees No Signs of AI 'Payoff' Outside Tech\"\nDespite heavy spending on AI, there has been little to no payoff for companies outside the tech sector, says Apollo Global's chief economist Torsten Slok. He notes that while revenue per worker is ...\n\nBackground (Kingdom of Odoacer, Wikipedia):\nThe Kingdom of Odoacer, officially known as the Kingdom of Italy, was a barbarian kingdom (476–493) that was founded with the deposition of the last Western Roman emperor, Romulus Augustulus, at the Battle of Ravenna in 476. The battle resulted in the self-proclamation as Rex by Odoacer. The creation of the kingdom traditionally marks the end of the Western Roman Empire. Odoacer's kingdom lasted until the assassination of Odoacer by Theodoric the Great, after which he proclaimed himself king of Italy and began to reign over the Ostrogothic Kingdom.\n\nBackground (Productivity paradox, Wikipedia):\nThe productivity paradox refers to the slowdown in productivity growth in the United States in the 1970s and 1980s despite rapid development in the field of information technology (IT) over the same period. The term was coined by Erik Brynjolfsson in a 1993 paper inspired by a quip by Nobel Laureate Robert Solow \"You can see the computer age everywhere but in the productivity statistics.\" For this reason, it is also sometimes referred to as the Solow paradox.",
   "research_links": [
-    "https://www.msn.com/en-us/news/other/openai-cuts-gpt-6-sol-and-luna-prices-by-50-to-defend-developer-share/ar-AA2cMFEk",
-    "https://finance.yahoo.com/technology/ai/articles/openai-gpt-6-sol-luna-225128175.html",
-    "https://www.reuters.com/business/retail-consumer/openai-cuts-prices-smaller-models-businesses-scrutinize-ai-spend-2026-07-30/"
+    "https://www.msn.com/en-us/money/general/apollo-s-torsten-slok-sees-zero-ai-payoff-outside-the-magnificent-7/ar-AA2g4tB1",
+    "https://finance.yahoo.com/technology/ai/articles/apollo-slok-says-ai-delivered-092836159.html",
+    "https://www.barrons.com/livecoverage/sunday1025/card/apollo-s-slok-sees-no-signs-of-ai-payoff-outside-tech-fLQspDMbaK8IVg0iIFA0"
   ],
-  "source_credit": "The Decoder, with reporting from Cryptopolitan on MSN and Yahoo Finance",
-  "source_tag": "via The Decoder",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAOdat20VcIznabAL17T2_0HkwAB9bD7AAJSEmsbrqPwVgKPbXEcprluAQADAgADeQADPQQ",
-  "text": "OpenAI is offering 90 percent discounts to poach Anthropic’s biggest corporate clients.\n\nRippling slashed Anthropic's share of its coding workload from 57 percent down to 18.\n\nHere is how the price war is working.\n\nReplit shifted after OpenAI offered more than 30 percent off a contract worth over $100 million a year.\n\nDataCamp CEO Jonathan Cornelissen said the move cut his company's costs by 80 to 90 percent.\n\nA US bank with over $7 billion in assets got 500 ChatGPT seats for under $7 per user, down from the usual $20.\n\nOpenAI isn't only losing margin to win market share. It is launching cheaper infrastructure.\n\nThe new GPT-6 Sol model costs $2 per million input tokens. That gives it an 11x cost advantage over Anthropic's Opus 5 on standard task benchmarks.\n\nThe cheap prices come with a catch:\n• GPT-6 Sol regressed on OSWorld 2.0 computer-use tests\n• Peak performance on complex multi-step reasoning is down\n• China's Deepseek is applying matching price pressure from below\n\nOpenAI chose to sacrifice capability ceilings for volume.\n\nMy read: enterprise AI is shifting from a capability race to a margin squeeze. Most companies will trade a bit of reasoning power for a 90 percent discount.\n\nWould your company switch AI models if it cut your bill by 80 percent?\n\nSource: The Decoder, with reporting from Cryptopolitan on MSN and Yahoo Finance",
-  "alt_openings": "Bare number first:\n90 percent discounts are currently shifting the largest corporate contracts in AI.\nRippling dropped Anthropic's share of its coding work from 57 percent to 18 in response.\nPrefer this when writing for finance or operations leaders who respond immediately to unit economics over software specs.\n\nYour X:\nYour company's software bill might be about to drop by 80 percent.\nOpenAI is offering steep contract cuts to pull Anthropic's major enterprise clients away.\nPrefer this when targeting founders, CFOs, or engineering leads managing active model budgets.\n\nCorrective:\nWinning in enterprise AI no longer requires building the smartest model.\nOpenAI is stealing Anthropic's biggest clients by slashing prices up to 90 percent.\nPrefer this when writing for an audience of product managers or strategists tracking market positioning.\n\nPick: Bare number first. The 90 percent figure immediately anchors the post on hard economic reality rather than standard tech launch chatter.",
-  "voice_score": 3,
+  "source_credit": "TechCrunch, with reporting from Cryptopolitan on MSN and Yahoo Finance",
+  "source_tag": "via TechCrunch",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAOjat8KIdwG5-YYXHx-khFpV420vIsAAi4UaxsO9PhWxIChCmif9CIBAAMCAAN5AAM9BA",
+  "text": "493 companies in the S&P 500 show zero financial payoff from AI.\n\nTheir revenue per worker is flat, and their profit margins haven't moved.\n\nThe chief economist at Apollo found the disconnect.\n\nTorsten Slok separated the seven big tech infrastructure sellers from the rest of the index.\n\nFor the tech giants, revenue is climbing. For the remaining S&P 493, artificial intelligence is showing up on balance sheets purely as an expense.\n\nSlok's research on non-tech corporate performance highlights three trends:\n• Revenue per worker is completely flat across non-tech sectors\n• Profit margins show no measurable lift from model deployment\n• Token spending is shifting from a growth strategy to a margin drag\n\nThe problem comes down to how businesses actually make money.\n\nModels calculate quickly, but corporate revenue relies heavily on human judgment.\n\nCurrent systems do not manage trust, accountability, corporate culture, or ethical trade-offs—the factors that control reputational risk and pricing power.\n\nGartner estimates $3.5 trillion in infrastructure spending could face impairment by 2030 if broader corporate earnings fail to follow.\n\nMainstream companies are realizing they do not need the newest frontier model, and they are becoming unwilling to pay for it.\n\nMy read: productivity gains lag tool adoption because buying software is instant, but rewiring human workflows takes years.\n\nIs your organization treating AI spending as a growth driver or an administrative cost?\n\nSource: TechCrunch, with reporting from Cryptopolitan on MSN and Yahoo Finance",
+  "alt_openings": "Shape: Corrective\nLine 1: Mainstream corporate America is quietly reclassifying AI spending as an overhead expense.\nLine 2: Outside of seven tech giants, the technology has produced no financial return across the S&P 500.\nWhen to prefer: Use this when writing for CFOs, finance leaders, and operational executives who care about margin drag and budget allocations.\n\nShape: Your X\nLine 1: Your company's AI budget may be shrinking your profit margins.\nLine 2: Revenue per worker remains completely flat for 493 of the largest businesses in the country.\nWhen to prefer: Use this when targeting middle managers and team leads who are currently evaluating whether to renew expensive enterprise software seats.\n\nShape: Story in motion\nLine 1: An economist at Apollo just split the S&P 500 into two distinct software economies.\nLine 2: One group is generating record returns, while the other 493 companies report zero bottom-line yield.\nWhen to prefer: Use this when your audience consists of investors, founders, and strategy leads who track macroeconomic trends and institutional research.\n\nPick: The bare number opening in the main draft. Starting directly with \"493 companies\" creates immediate tension, forcing corporate readers to benchmark their own internal results against the index before expanding the post.",
+  "voice_score": 4,
   "firewall_notes": [],
-  "headline": "Why companies trade AI power for 90 percent discounts",
+  "headline": "For 493 S&P companies, AI is just an expense",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-25.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-26.png"
 }
