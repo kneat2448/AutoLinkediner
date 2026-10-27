@@ -1,216 +1,212 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-26",
-  "created_at": "2026-10-26T13:34:45.108497+05:30",
+  "date": "2026-10-27",
+  "created_at": "2026-10-27T13:49:06.098852+05:30",
   "candidate": {
-    "id": "news:71334093a413",
+    "id": "news:1758535ac6be",
     "source": "news",
-    "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-    "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-    "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-    "score": 80.0,
-    "created_at": "2026-10-25T16:57:32+00:00",
-    "raw_text": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+    "title": "Introducing GPT-6.1 Terra",
+    "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+    "summary": "Bringing fast and capable computer use to everyone",
+    "score": 100.0,
+    "created_at": "2026-10-26T00:00:00+00:00",
+    "raw_text": "Bringing fast and capable computer use to everyone",
     "extra": {
-      "outlet": "TechCrunch",
-      "weight": 0.8,
-      "coverage": 0
+      "outlet": "OpenAI",
+      "weight": 1.0,
+      "coverage": 1
     }
   },
   "shortlist": [
     {
-      "id": "hf:2610.30932",
-      "source": "huggingface",
-      "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
-      "url": "https://huggingface.co/papers/2610.30932",
-      "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results. We introduce UserArena, a rea…",
-      "score": 34.0,
-      "created_at": "2026-10-26T00:00:00.000Z",
-      "raw_text": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results. We introduce UserArena, a real-world e-commerce interactive benchmark containing 64,729 session trajectories from 11,010 users, spanning 566,102 items and 13 action types. UserArena pairs these trajectories with an interactive environment and supports offline validation against outcomes from a controlled production A/B test, enabling five-level evaluation from output validity and local decisions to sequential behavior, personalization, and outcomes. To improve simulator fidelity over these long-horizon interactions, we further propose On-Policy Trajectory Distillation (OPTD), which uses trajectory-level intent to provide dense teacher targets on student-generated rollouts. Experiments show that OPTD achieves the strongest overall fidelity among the evaluated simulators under UserArena's evaluation protocol and most closely reproduces the production policy effect in offline simulation.",
+      "id": "news:1758535ac6be",
+      "source": "news",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "summary": "Bringing fast and capable computer use to everyone",
+      "score": 100.0,
+      "created_at": "2026-10-26T00:00:00+00:00",
+      "raw_text": "Bringing fast and capable computer use to everyone",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.30932",
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "news:250e5d8f3024",
+      "source": "news",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "score": 100.0,
+      "created_at": "2026-10-26T22:00:00+00:00",
+      "raw_text": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2610.31162",
-      "source": "huggingface",
-      "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
-      "url": "https://huggingface.co/papers/2610.31162",
-      "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizon autonomy or high-level planning executed through environment APIs or predefined skills. To bridge…",
-      "score": 28.0,
-      "created_at": "2026-10-26T00:00:00.000Z",
-      "raw_text": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizon autonomy or high-level planning executed through environment APIs or predefined skills. To bridge this gap, we propose HiSTEVE, a hierarchical VLA agent with a capability-aware agent harness. At the orchestration level, we equip the harness with structured memory for tracking progress and a VLM planner for selecting subtasks within the VLA's capabilities. To reliably determine subtask completion, we further introduce a policy-coupled task completion state detector that conditions on VLA policy context to signal candidate completion. At the control level, a single VLA executes all subtasks with vision-only perception and native keyboard-and-mouse actions. To mitigate interference between heterogeneous GUI and non-GUI interactions, we introduce regime-specific RMSNorm branches and separate mouse-movement token embeddings. We also train the VLA through world knowledge injection, imitation learning, and reinforcement learning with environment feedback to improve reliability and recovery. HiSTEVE achieves state-of-the-art atomic-task performance, scoring 85.0% on MineStudio Bench and a 37.4% average success rate on OpenHA, while also completing long-horizon tasks such as crafting an iron pickaxe from scratch like human players.",
+      "id": "news:f16aefe89a6e",
+      "source": "news",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "score": 100.0,
+      "created_at": "2026-10-26T14:30:00+00:00",
+      "raw_text": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.31162",
+        "outlet": "OpenAI",
+        "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50233779",
+      "id": "news:1a1d4bf2fc11",
+      "source": "news",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "score": 100.0,
+      "created_at": "2026-10-26T13:45:00+00:00",
+      "raw_text": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50242939",
       "source": "hackernews",
-      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-      "url": "https://lynchlab.net/llm-skin-cancer",
+      "title": "Anthropic S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
       "summary": "",
-      "score": 531.0,
-      "created_at": "2026-10-25T17:15:38+00:00",
+      "score": 1593.0,
+      "created_at": "2026-10-26T13:04:50+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50233779",
-        "num_comments": 234,
+        "discussion_url": "https://news.ycombinator.com/item?id=50242939",
+        "num_comments": 1528,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2610.32965",
+      "id": "hf:2610.33568",
       "source": "huggingface",
-      "title": "RynnUnify: Towards Unified Embodied Brain",
-      "url": "https://huggingface.co/papers/2610.32965",
-      "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these capabilities, we further develop an agentic extension through reinforcement learning to sele…",
-      "score": 26.0,
-      "created_at": "2026-10-26T00:00:00.000Z",
-      "raw_text": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these capabilities, we further develop an agentic extension through reinforcement learning to selectively use video predictions for reasoning about unobserved states and interaction outcomes. We also develop a world-action extension of the full RynnUnify model, translating its understanding and prediction capabilities into robot control. To evaluate these capabilities, we introduce Rynn-VP and Rynn-GEU for long-horizon visual planning and anticipatory reasoning. Experiments show that RynnUnify achieves the highest average embodied understanding score among the evaluated unified multimodal models and improves the Rynn-VP overall score by 9.75 points over Cosmos 3 Nano. Its agentic extension improves the Rynn-GEU average by 6.0 points over direct reasoning, while the world-action extension achieves 51.5\\% success on 20 selected composite RoboCasa365 tasks and 46.7\\% average success across three real-robot tasks. Together, these results establish RynnUnify as a shared foundation for embodied understanding, visual planning, and robot control, taking a step toward a unified embodied brain.",
+      "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+      "url": "https://huggingface.co/papers/2610.33568",
+      "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are represented, and decision grounding, so that each supervised action is supported by the learner-visible…",
+      "score": 146.0,
+      "created_at": "2026-10-27T00:00:00.000Z",
+      "raw_text": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are represented, and decision grounding, so that each supervised action is supported by the learner-visible interaction history. We introduce Trajectory2Gym, which constructs executable interactions around under-supported compositional structures and derives supervision only from grounded decisions in their realized executions. Structural-support selection allocates the resulting experience, while parent-normalized supervised fine-tuning preserves the semantic interaction as the unit of training weight. This reframes trajectory generation as the deliberate construction of learnable interaction experience, rather than the collection of successful trajectories. Across five Qwen3 scales, Trajectory2Gym improves Tau1, Tau2, and BFCL at every tested scale, increasing the equal-weight three-benchmark mean by 16.9-29.8 percentage points. The gains are strongest in stateful and multi-turn interaction, where later decisions depend on earlier observations and feedback. Our results suggest that scaling tool-use agents depends not only on collecting more successful trajectories, but on constructing interactions whose dependencies are represented and whose decisions are learnable from the agent's visible history.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.32965",
+        "arxiv_url": "https://arxiv.org/abs/2610.33568",
         "coverage": 0
       }
     },
     {
-      "id": "hf:2610.32253",
+      "id": "hf:2610.34662",
       "source": "huggingface",
-      "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
-      "url": "https://huggingface.co/papers/2610.32253",
-      "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and lineage. Researchers can focus on evolution policy while evaluation stays outside t…",
-      "score": 24.0,
+      "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+      "url": "https://huggingface.co/papers/2610.34662",
+      "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them less suited to intent-aware interaction in practical. To address these challenges, we introduce Strea…",
+      "score": 136.0,
+      "created_at": "2026-10-27T00:00:00.000Z",
+      "raw_text": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them less suited to intent-aware interaction in practical. To address these challenges, we introduce StreamVibe-Bench, a new benchmark serving as testbed for user intent interaction, with 4.1K evaluation samples and 85K training samples spanning explicit, implicit, and dynamic intents. Building on this benchmark, we develop StreamVibe-VL, a streaming proactive model that infers implicit user intents from continuous observations and dynamically tailors its interactions as these intents evolve. We further introduce StreamVibe-Harness, which maintains user intents as persistent states with a fleixble lifecycles via a hierarchical memory to track the latest user intent and environmental state. Our experiments reveal three key findings: (i) StreamVibe-VL preserves strong general video understanding while improving response timing and answer quality by 10.7% over other baselines; (ii) existing proactive models remain limited in understanding user intent and deciding when to respond, especially under implicit and dynamic intents; and (iii) StreamVibe-Harness further improves response consistency and adaptation over sustained interaction, resulting in a 12.3% gain in proactive interaction.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.34662",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:64d59b55a8fb",
+      "source": "news",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "score": 100.0,
+      "created_at": "2026-10-26T10:00:00+00:00",
+      "raw_text": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:eb7708c5f537",
+      "source": "news",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "score": 100.0,
+      "created_at": "2026-10-26T07:00:00+00:00",
+      "raw_text": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.32285",
+      "source": "huggingface",
+      "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+      "url": "https://huggingface.co/papers/2610.32285",
+      "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harness reliability into seven components covering context, execution, governance, lifecycle, observabil…",
+      "score": 115.0,
+      "created_at": "2026-10-27T00:00:00.000Z",
+      "raw_text": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harness reliability into seven components covering context, execution, governance, lifecycle, observability, tools, and verification. We construct 95 expert-level, mechanism-oriented tasks with executable or state-based ground truth to support semantically equivalent comparisons while preserving the native behavior of each harness. We design a Trajectory Tracing (TT) module to capture agent execution traces and introduce a two-layer evaluation framework that separately assesses agent performance and harness reliability. In addition, we design a Multi-source Evidence Acquisition (MEA) module to provide evidence from the agent context, harness, and execution environment for LLM-based evaluation, and develop a Failure Attribution (FA) module that uses explicit mechanism chains to support attribution at the run level. Across 4 harnesses, 9 models, and 95 tasks, our evaluation of 3,420 runs yields macro-averaged harness scores ranging from 59.8% to 72.0%, while 31.1% of runs achieve task success despite failing at least one harness criterion. TraceTrial-Bench provides an auditable and reproducible foundation for comparing agent harnesses, diagnosing their failures, and studying how harness design interacts with model behavior.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.32285",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.31668",
+      "source": "huggingface",
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "url": "https://huggingface.co/papers/2610.31668",
+      "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world,…",
+      "score": 275.0,
       "created_at": "2026-10-26T00:00:00.000Z",
-      "raw_text": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and lineage. Researchers can focus on evolution policy while evaluation stays outside the mutable surface and results remain tied to candidates and evaluation conditions. We instantiate AHE, Hyperagents, A-Evolve, and GEPA without modifying the framework core, keeping method-specific logic in recipes and operators. We evaluate them with MiniSWE and Codex on Terminal Bench 2 and τ^3 Banking under fixed model and evaluator configurations. The largest observed overall pass@1 gain is 13.5 percentage points, while method rankings vary across settings and optimization gains do not always transfer to held-out tasks. RSIHub provides a common protocol for comparing evolution policies, inspectable candidate histories, and reusable components for developing new methods.",
+      "raw_text": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, we organize the literature around four complementary operations: reading infers world properties from observed video; writing synthesizes video from specified or learned world conditions; sharing integrates understanding and generation through common modeling mechanisms; and interacting predicts and updates world states under actions and evolving observations. This perspective distinguishes temporal coherence in observed or generated sequences from consistency in the underlying world state. Across tasks, representations, models, datasets, and benchmarks, we trace a shift in emphasis from clip-level recognition and perceptual fidelity toward persistent state, controllable evolution, physical and causal validity, and evaluation grounded in interaction and downstream decisions, and we distill the open challenges that follow.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.32253",
+        "arxiv_url": "https://arxiv.org/abs/2610.31668",
         "coverage": 0
       }
     },
     {
-      "id": "hn:50238088",
+      "id": "hn:50245138",
       "source": "hackernews",
-      "title": "IBM CEO says open weight models are now good and cheap on-prem",
-      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
       "summary": "",
-      "score": 200.0,
-      "created_at": "2026-10-26T01:47:46+00:00",
+      "score": 683.0,
+      "created_at": "2026-10-26T15:11:59+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50238088",
-        "num_comments": 103,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50236102",
-      "source": "hackernews",
-      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "url": "https://minimaxir.com/2026/10/cheap-llms/",
-      "summary": "",
-      "score": 277.0,
-      "created_at": "2026-10-25T21:11:31+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50236102",
-        "num_comments": 281,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50226419",
-      "source": "hackernews",
-      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-      "summary": "",
-      "score": 519.0,
-      "created_at": "2026-10-24T23:11:54+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50226419",
-        "num_comments": 555,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:a6feae291b1a",
-      "source": "news",
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
-      "score": 80.0,
-      "created_at": "2026-10-25T21:31:16+00:00",
-      "raw_text": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:71334093a413",
-      "source": "news",
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-      "score": 80.0,
-      "created_at": "2026-10-25T16:57:32+00:00",
-      "raw_text": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:4262d71f08be",
-      "source": "news",
-      "title": "The hottest AI wearables and gadgets you should know about",
-      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-      "score": 80.0,
-      "created_at": "2026-10-25T14:10:00+00:00",
-      "raw_text": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:b366ba776fde",
-      "source": "news",
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]",
-      "score": 80.0,
-      "created_at": "2026-10-25T13:25:32+00:00",
-      "raw_text": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source community.\" The new rules have set off a firestorm in the comments, and even spurred the creation of a rival sub r/trueopensource . Moderator Wolvereness has waded into the comments to explain that there's nuance and room for selective enforcement, such as \"software that incidentally has accessibility features that use AI,\" including … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
+        "discussion_url": "https://news.ycombinator.com/item?id=50245138",
+        "num_comments": 94,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: AI delivers ‘zero financial payoff’ to most companies, Apollo economist says\n\nText:\n\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"\n\nArticle text (excerpt):\nAI hasn’t benefited the bottom line of any big corporations outside the tech industry, according to a note recently published by the chief economist at Apollo Global Management (the private equity giant that used to own TechCrunch).\nApollo’s Torsten Slok focuses on what he calls the S&P 493 — the S&P 500, minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia and Tesla — finding that profit margins and revenue per worker appear to be flat, with no evidence that AI is improving productivity.\n“Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech,” Slok said.\nIs this simply a matter of non-tech companies lagging behind the tech giants? Slok sounded skeptical, arguing that it will be tough for corporate America to “turn increasingly cheap intelligence into higher revenue growth and higher profit margins.”\n“AI may be a great calculator, but in business, intelligence is mostly judgment,” he wrote, later adding, “AI does not understand accountability, trust, culture, unwritten rules, ethical trade-offs or fairness, all of which shape reputational risk and ultimately drive revenue growth and profit margins.”\nRecent studies have also found that AI has yet to deliver significant productivity gains .\nBuy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires\n\nResearch notes on: Apollo Global Management chief economist Torsten Slok reported that AI investments have delivered zero financial payoff to non-tech companies in the S&P 500.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from Cryptopolitan on MSN: \"Apollo's Torsten Slok sees zero AI payoff outside the Magnificent 7\"\nApollo's Torsten Slok finds AI lifted revenue and margins only at the Mag 7, while the S&amp;P 493 shows flat revenue per worker and flat profit margins.\n\nCoverage from Yahoo Finance: \"Apollo’s Slok Says AI Has Delivered Zero Payoff Outside of Tech\"\n(Bloomberg) -- Despite the significant investments ploughed into artificial intelligence it has provided \"zero payoff\" to corporate America outside of technology, according to Apollo Global Management Inc. Chief Economist Torsten Slok.\nTrump Prepares for Iran Escalation After US, Israeli Polls\nBitcoin Billionaires Are Racing to Ride a 3,000% Crypto Boom\nSpaceX in Talks to Access 80,000 Cell Sites for New Network\nAmazon's New Tablet Is a Credible iPad Rival for Much Less Money\nSecretive Ukrainian Deep-Strike Unit Behind Rapid Expansion of Deep-Strike Campaign\n\"Revenue per worker is rising for the Mag 7 but is flat for the S&P 493,\" he wrote in a note published Saturday. The same is the case for profit margins, while there are no signs yet of AI boosting productivity growth.\n\"Mainstream corporate America is pulling back and starting to view token spending not as a source of growth but as a cost center that weighs on margins,\" Slok said.\nInvestors are closely tracking AI expenditures and the expected success of companies in getting a return on investment as the earnings season gets underway. Meta kicked tech results off last week by saying the company intends to bet even more aggressively on AI and boost its capital spending plans. That sparked jitters, sending its shares lower and its credit risk gauge to a record high.\nThe unease comes in the wake of other concerns which have weighed on wider sentiment in recent weeks. Comments from CoreWeave Inc. accentuated worries over the extent to which the AI infrastructure buildout is being financed by debt.\nInitial public offering plans for Australian data center company Firmus Grid Ltd. collapsed after US fund managers balked at the $30 billion valuation, and another Nvidia Corp.-backed data center developer Nscale Ltd. has faced pushback over its own IPO valuation.\nMarket research firm Gartner estimated that more than $3.5 trillion of AI infrastructure spending could be at risk of impairment by 2030 should AI revenue fail to justify the spending.\nThere is widespread optimism that AI will be a significant market driver in the future, though questions persist about whether and when the huge outlay being spent will show up on the bottom line.\nSlok said that VC-backed companies are increasingly spending on tokens, though mainstream corporate America doesn't need the latest model \"and is unwilling to pay for it.\"\n\"As long as agentic AI and token spending are confined to a small part of the economy, the macroeconomic ef\n\nCoverage from Barron's: \"Apollo's Slok Sees No Signs of AI 'Payoff' Outside Tech\"\nDespite heavy spending on AI, there has been little to no payoff for companies outside the tech sector, says Apollo Global's chief economist Torsten Slok. He notes that while revenue per worker is ...\n\nBackground (Kingdom of Odoacer, Wikipedia):\nThe Kingdom of Odoacer, officially known as the Kingdom of Italy, was a barbarian kingdom (476–493) that was founded with the deposition of the last Western Roman emperor, Romulus Augustulus, at the Battle of Ravenna in 476. The battle resulted in the self-proclamation as Rex by Odoacer. The creation of the kingdom traditionally marks the end of the Western Roman Empire. Odoacer's kingdom lasted until the assassination of Odoacer by Theodoric the Great, after which he proclaimed himself king of Italy and began to reign over the Ostrogothic Kingdom.\n\nBackground (Productivity paradox, Wikipedia):\nThe productivity paradox refers to the slowdown in productivity growth in the United States in the 1970s and 1980s despite rapid development in the field of information technology (IT) over the same period. The term was coined by Erik Brynjolfsson in a 1993 paper inspired by a quip by Nobel Laureate Robert Solow \"You can see the computer age everywhere but in the productivity statistics.\" For this reason, it is also sometimes referred to as the Solow paradox.",
-  "research_links": [
-    "https://www.msn.com/en-us/money/general/apollo-s-torsten-slok-sees-zero-ai-payoff-outside-the-magnificent-7/ar-AA2g4tB1",
-    "https://finance.yahoo.com/technology/ai/articles/apollo-slok-says-ai-delivered-092836159.html",
-    "https://www.barrons.com/livecoverage/sunday1025/card/apollo-s-slok-sees-no-signs-of-ai-payoff-outside-tech-fLQspDMbaK8IVg0iIFA0"
-  ],
-  "source_credit": "TechCrunch, with reporting from Cryptopolitan on MSN and Yahoo Finance",
-  "source_tag": "via TechCrunch",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAOjat8KIdwG5-YYXHx-khFpV420vIsAAi4UaxsO9PhWxIChCmif9CIBAAMCAAN5AAM9BA",
-  "text": "493 companies in the S&P 500 show zero financial payoff from AI.\n\nTheir revenue per worker is flat, and their profit margins haven't moved.\n\nThe chief economist at Apollo found the disconnect.\n\nTorsten Slok separated the seven big tech infrastructure sellers from the rest of the index.\n\nFor the tech giants, revenue is climbing. For the remaining S&P 493, artificial intelligence is showing up on balance sheets purely as an expense.\n\nSlok's research on non-tech corporate performance highlights three trends:\n• Revenue per worker is completely flat across non-tech sectors\n• Profit margins show no measurable lift from model deployment\n• Token spending is shifting from a growth strategy to a margin drag\n\nThe problem comes down to how businesses actually make money.\n\nModels calculate quickly, but corporate revenue relies heavily on human judgment.\n\nCurrent systems do not manage trust, accountability, corporate culture, or ethical trade-offs—the factors that control reputational risk and pricing power.\n\nGartner estimates $3.5 trillion in infrastructure spending could face impairment by 2030 if broader corporate earnings fail to follow.\n\nMainstream companies are realizing they do not need the newest frontier model, and they are becoming unwilling to pay for it.\n\nMy read: productivity gains lag tool adoption because buying software is instant, but rewiring human workflows takes years.\n\nIs your organization treating AI spending as a growth driver or an administrative cost?\n\nSource: TechCrunch, with reporting from Cryptopolitan on MSN and Yahoo Finance",
-  "alt_openings": "Shape: Corrective\nLine 1: Mainstream corporate America is quietly reclassifying AI spending as an overhead expense.\nLine 2: Outside of seven tech giants, the technology has produced no financial return across the S&P 500.\nWhen to prefer: Use this when writing for CFOs, finance leaders, and operational executives who care about margin drag and budget allocations.\n\nShape: Your X\nLine 1: Your company's AI budget may be shrinking your profit margins.\nLine 2: Revenue per worker remains completely flat for 493 of the largest businesses in the country.\nWhen to prefer: Use this when targeting middle managers and team leads who are currently evaluating whether to renew expensive enterprise software seats.\n\nShape: Story in motion\nLine 1: An economist at Apollo just split the S&P 500 into two distinct software economies.\nLine 2: One group is generating record returns, while the other 493 companies report zero bottom-line yield.\nWhen to prefer: Use this when your audience consists of investors, founders, and strategy leads who track macroeconomic trends and institutional research.\n\nPick: The bare number opening in the main draft. Starting directly with \"493 companies\" creates immediate tension, forcing corporate readers to benchmark their own internal results against the index before expanding the post.",
+  "context": "Title: Introducing GPT-6.1 Terra\n\nText:\nBringing fast and capable computer use to everyone\n\nArticle text (excerpt):\nWe’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos.\nTerra continues to advance the cost-intelligence frontier across our model families, providing a new balance of speed, capability, and cost. Its standard API prices are 50% lower than those of GPT-5.6 Terra and GPT-6.1 Sol, making it practical for developers to automate high-volume work, like reading incoming invoices and entering their details into accounting software. In ChatGPT Work and Codex, your plan goes further with GPT-6.1 Terra—the same usage allowance covers more tasks than with GPT‑5.6 Terra and substantially more than with GPT‑6.1 Sol or GPT‑6 Astra.\nWe measured GPT-6.1 Terra’s computer-use capabilities on Agents’ Last Exam, a benchmark of professional tasks that includes turning architectural drawings into a 3D model and reviewing an animated film shot by shot to create a time-coded log for a restoration team. At medium reasoning effort, GPT-6.1 Terra scores 15 percentage points higher than GPT-5.6 Terra at about one-third the cost. It even performs on par with GPT-6 Astra at only one-tenth its price per token. At max effort, Terra is over three times as token efficient as Claude Opus 5.5, and one-fourth its price per token, resulting in a ~9x lower cost per task. Terra is also much quicker, completing tasks over three times faster than both GPT-6 Astra and GPT-6.1 Sol.\nOn MMMU-Pro , a benchmark of visual reasoning, GPT-6.1 Terra outperforms GPT-5.6 Terra at every reasoning setting. It even nearly matches the scores of our most capable frontier model, GPT-6 Astra, and GPT-6.1 Sol at much lower cost.\nOSWorld 2.1 tests how well AI agents use desktop apps to complete multistep tasks, such as building a 3D model from a technical drawing. At medium reasoning effort, GPT-6.1 Terra surpasses GPT-5.6 Terra’s best score at a fraction of the cost per task.\nThis year, we’ve invested heavily in reducing hallucinations and factual errors produced by our models. On our internal benchmark of error-inducing prompts, the error rate at low reasoning effort fell from 53.6% with GPT-5.6 Terra to 16.7% with GPT-6.1 Terra, a drop of nearly 37 percentage points. At maximum effort, the error rate fell by 18 percentage points to 4.3%, nearly matching the rates for GPT-6 Astra and GPT-6.1 Sol.\nGPT-6.1 Terra marks a substantial improvement over GPT-5.6 Terra for software engineering. Terminal-Bench 4.0 tests how well coding agents solve problems from the command line, such as fixing a webpage whose layout shifts as it loads. At maximum reasoning effort, GPT‑6.1 Terra solves 50.3% of tasks, more than double GPT‑5.6 Terra’s published score of 21.5%. For the most complex coding tasks, GPT-6.1 Sol and GPT-6 Astra remain the better choice.\nTerminal-Bench-Science 0.1 tests how well agents use code to carry out scientific research tasks, such as tracking cell divisions in a time-lapse video. At max reasoning, GPT-6.1 Terra surpasses GPT-6.1 Sol at lower cost, coming within five points of Opus 5.5 at less than one-fifth the estimated cost.\nAs we make powerful AI more efficient and accessible, we continue training, testing, and refining our safeguards. GPT‑6.1 Terra meets the Critical threshold in cybersecurity under our Preparedness Framework, and maintains the protections developed for GPT‑6 Astra.\nGPT-6.1 Terra brings with it the alignment improvements of the GPT-6 series. According to our evaluations, GPT-6.1 Terra is more likely to stay within scope and honestly disclose limitations and potential blockers to the user compared to GPT-5.6 Terra. In our prompt-injection tests, GPT-6.1 Terra also showed strong resistance to malicious instructions designed to divert it from the user’s task. More detail is available in the system card ⁠ (opens in a new window) .\nStarting today, GPT-6.1 Terra is available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex. Developers can also access it through the OpenAI API as gpt-6.1-terra .\nStandard API pricing is $1 per million input tokens, $0.05 per million cached input tokens, and $5 per million output tokens.",
+  "research_links": [],
+  "source_credit": "OpenAI",
+  "source_tag": "via OpenAI",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAOoauBerzUghpkjYPOst92MVGuDBLoAAuASaxtRfwABV-IAASJxKf11ggEAAwIAA3kAAz0E",
+  "text": "53.6% down to 16.7%.\n\nThat is the drop in hallucination errors OpenAI recorded on its newest model.\n\nThe price drop is even bigger.\n\nOpenAI just released GPT-6.1 Terra, a model built specifically to handle high-volume workday tasks at scale.\n\nIt drafts proposals, converts architectural drawings into 3D models, and logs video frames. But the primary shift is economics.\n\nStandard API prices are 50% lower than previous versions, sitting at $1 per million input tokens.\n\nOn professional task benchmarks, OpenAI claims it performs on par with its top-tier Astra model at one-tenth the token cost. Against Claude Opus 5.5, it completes complex agent tasks at roughly a 9x lower cost per task while running over three times faster.\n\nThe performance jumps show up across heavy technical tasks:\n• Hallucination error rates fell from 53.6% to 16.7%\n• Command-line coding success rose from 21.5% to 50.3%\n• Output speed reached over three times faster than GPT-6 Astra\n\nThe model is live in ChatGPT Work, Codex, and the API.\n\nMy read: high-volume automation was previously held back by two factors—hallucinations and token bills. Cutting both at the same time changes which workflows make financial sense to automate.\n\nThese are OpenAI's self-reported benchmarks, so independent testing will be necessary to verify the exact margins.\n\nWhich high-volume task in your group is currently too expensive to automate?\n\nSource: OpenAI",
+  "alt_openings": "Shape: Tool as subject\nOpenAI's newest AI model cuts the cost of running complex office tasks by roughly 90%.\nIt also dropped its hallucination rate by 37 percentage points on low-effort prompts.\nWhen to prefer: Best when writing for managers and executives who care immediately about software budgets and bottom-line deployment costs.\n\nShape: Corrective\nMaking AI models smarter is no longer the primary bottleneck for workplace software.\nOpenAI built its latest launch around two entirely different metrics: speed and token price.\nWhen to prefer: Best when your feed is saturated with hype about raw AI intelligence and readers need a practical operational perspective.\n\nShape: Story in motion\nOpenAI just released a model built to take over high-volume invoice entry and video logging.\nThe system runs three times faster than its flagship sibling at one-tenth the token price.\nWhen to prefer: Best when targeting operations leads, engineers, and product builders actively seeking practical automation tools today.\n\nPick: I would run the original bare-number opening (\"53.6% down to 16.7%.\"). A dramatic numerical drop stops scrolling faster than product announcements, especially on LinkedIn where specific performance metrics immediately signal concrete substance over marketing claims.",
   "voice_score": 4,
   "firewall_notes": [],
-  "headline": "For 493 S&P companies, AI is just an expense",
+  "headline": "How OpenAI cut hallucination errors and token bills",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-26.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-27.png"
 }
