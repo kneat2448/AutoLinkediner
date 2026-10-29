@@ -1,62 +1,77 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-28",
-  "created_at": "2026-10-28T14:26:06.023590+05:30",
+  "date": "2026-10-29",
+  "created_at": "2026-10-29T14:20:42.068911+05:30",
   "candidate": {
-    "id": "news:b3d9e88f2ebe",
+    "id": "news:0dc3cf0b7c98",
     "source": "news",
-    "title": "Should AI Decide Your Court Case? This Judge Says Yes",
-    "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-    "summary": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
-    "score": 80.0,
-    "created_at": "2026-10-28T06:00:00+00:00",
-    "raw_text": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
+    "title": "The future of the firm",
+    "url": "https://openai.com/index/the-future-of-the-firm",
+    "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+    "score": 100.0,
+    "created_at": "2026-10-28T10:00:00+00:00",
+    "raw_text": "How AI might enter the org chart—beneath, beside, and between us.",
     "extra": {
-      "outlet": "Wired",
-      "weight": 0.8,
+      "outlet": "OpenAI",
+      "weight": 1.0,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "news:d17d13a0006a",
+      "id": "news:b0da25ea6c1a",
       "source": "news",
-      "title": "Genie 4: A new generation of world simulation",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "summary": "",
       "score": 100.0,
-      "created_at": "2026-10-27T16:01:38+00:00",
-      "raw_text": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "created_at": "2026-10-28T17:00:58+00:00",
+      "raw_text": "",
       "extra": {
         "outlet": "Google DeepMind",
         "weight": 1.0,
-        "coverage": 0
+        "coverage": 1
       }
     },
     {
-      "id": "news:f53a8961cc11",
+      "id": "news:c802108aab79",
       "source": "news",
-      "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
-      "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
-      "summary": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
+      "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+      "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+      "summary": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced autofill will use Gemini with Personal Intelligence to suggest information sourced from your Gmail, potentially saving […]",
       "score": 80.0,
-      "created_at": "2026-10-28T08:30:00+00:00",
-      "raw_text": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
+      "created_at": "2026-10-28T17:00:00+00:00",
+      "raw_text": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number , email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced autofill will use Gemini with Personal Intelligence to suggest information sourced from your Gmail, potentially saving you from having to search for confirmation emails, receipts, or shipping updates yourself. The expanded autofill capabilities can retrieve details such as a shipment's tracking number, travel details like a flight booking number or hotel reservation, … Read the full story at The Verge.",
       "extra": {
-        "outlet": "Wired",
+        "outlet": "The Verge",
         "weight": 0.8,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "hn:50276792",
+      "source": "hackernews",
+      "title": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "summary": "",
+      "score": 917.0,
+      "created_at": "2026-10-28T17:01:23+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50276792",
+        "num_comments": 739,
         "coverage": 0
       }
     },
     {
-      "id": "news:d42fb1eb3362",
+      "id": "news:75e2017ed4c5",
       "source": "news",
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "url": "https://openai.com/index/retell-ai",
-      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
       "score": 100.0,
-      "created_at": "2026-10-27T15:00:00+00:00",
-      "raw_text": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "created_at": "2026-10-28T13:15:00+00:00",
+      "raw_text": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -64,156 +79,136 @@
       }
     },
     {
-      "id": "hn:50260814",
+      "id": "hn:50284255",
       "source": "hackernews",
-      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
       "summary": "",
-      "score": 520.0,
-      "created_at": "2026-10-27T15:28:26+00:00",
+      "score": 333.0,
+      "created_at": "2026-10-29T03:33:42+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50260814",
-        "num_comments": 274,
+        "discussion_url": "https://news.ycombinator.com/item?id=50284255",
+        "num_comments": 102,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50257325",
-      "source": "hackernews",
-      "title": "AI promised less work. I've never worked more",
-      "url": "https://oioannou.com/blog/ai-promised-less-work/",
-      "summary": "",
-      "score": 637.0,
-      "created_at": "2026-10-27T11:08:14+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50257325",
-        "num_comments": 629,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:b3d9e88f2ebe",
-      "source": "news",
-      "title": "Should AI Decide Your Court Case? This Judge Says Yes",
-      "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-      "summary": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
-      "score": 80.0,
-      "created_at": "2026-10-28T06:00:00+00:00",
-      "raw_text": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
-      "extra": {
-        "outlet": "Wired",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:a3a879144b29",
-      "source": "news",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "score": 100.0,
-      "created_at": "2026-10-27T07:00:00+00:00",
-      "raw_text": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50264853",
-      "source": "hackernews",
-      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "url": "https://www.brangus.io/survival-llm",
-      "summary": "",
-      "score": 329.0,
-      "created_at": "2026-10-27T19:55:06+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50264853",
-        "num_comments": 138,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50261819",
-      "source": "hackernews",
-      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
-      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-      "summary": "",
-      "score": 370.0,
-      "created_at": "2026-10-27T16:40:15+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50261819",
-        "num_comments": 287,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.34283",
+      "id": "hf:2610.35201",
       "source": "huggingface",
-      "title": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
-      "url": "https://huggingface.co/papers/2610.34283",
-      "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; we call this observed specialization interface lock-in. ChronoReplay addresses it by replaying hete…",
-      "score": 131.0,
+      "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.35201",
+      "summary": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output. In this paper, we propose Denoising Token Credit As…",
+      "score": 256.0,
+      "created_at": "2026-10-29T00:00:00.000Z",
+      "raw_text": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output. In this paper, we propose Denoising Token Credit Assignment (DTCA), a framework for token-level credit assignment in reinforcement learning for diffusion language models. DTCA estimates token contributions by measuring the improvement in prediction confidence of remaining masked positions after token commitment and groups these signals according to part-of-speech (POS) categories. These contribution weights are used to select informative denoising timesteps and assign token-level learning signals during RL training. DTCA further calibrates these learning signals according to token-level entropy changes induced by policy updates. Experiments on LLaDA-8B-Instruct show that DTCA consistently improves mathematical reasoning performance across different generation budgets, with gains of up to 9.0 points on MATH500 and 5.3 points on GSM8K over the base model.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.35201",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:0dc3cf0b7c98",
+      "source": "news",
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+      "score": 100.0,
+      "created_at": "2026-10-28T10:00:00+00:00",
+      "raw_text": "How AI might enter the org chart—beneath, beside, and between us.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:41c97fe8dc29",
+      "source": "news",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "score": 100.0,
+      "created_at": "2026-10-28T09:30:00+00:00",
+      "raw_text": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.36077",
+      "source": "huggingface",
+      "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+      "url": "https://huggingface.co/papers/2610.36077",
+      "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We therefore introduce The Trinity, a recursive self…",
+      "score": 540.0,
       "created_at": "2026-10-28T00:00:00.000Z",
-      "raw_text": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; we call this observed specialization interface lock-in. ChronoReplay addresses it by replaying heterogeneous spatial supervision as chronologically ordered episodes, retaining source-native targets, and balancing supervision across families. Under the same observation access, a single ChronoReplay checkpoint improves OVO-S-Bench, OST-Bench, and UCS-Bench together, including a 13.41-point gain on OST-Bench, and achieves the highest three-benchmark mean among the supervision settings compared here. Same-data controls further separate the ingredients of this transfer: answer serialization redistributes gains across OST and UCS, family-balanced learning improves over ordinary joint SFT and natural turn weighting, and chronological replay exceeds a shifted-order control by about 2.41 OST points across two paired seeds. Adaptive frame selection then changes evidence access while keeping the trained model fixed, providing an additional inference-time gain at lower visual cost. Streaming spatial performance depends on what distinctions supervision preserves, how heterogeneous histories are organized during learning, and what causal evidence inference makes available at test time.",
+      "raw_text": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We therefore introduce The Trinity, a recursive self-improvement framework coupling world generation with Harness evolution through three roles: Creator, Explorer, and Evolver. Drawing on verified execution trajectories, Evolver shifts the basis of task organization from surface categories to shared requirements, reorganizing the original task tree into a hierarchical capability tree. We introduce Capability-Driven Real2Sim2Real: for heterogeneous tasks at the same node, Creator abstracts their common requirements into simplified, verifiable simulated worlds for capability learning, while evaluation on original tasks measures transfer. Along this capability tree, Explorer progressively evolves reusable capability modules through selective inheritance, forming a Harness tree whose validated updates accumulate across iterations within a fixed topology. The resulting Harnesses specialize in different capabilities, motivating a Capability-Aware Harness Router that uses public task information to select compatible module configurations from the tree. Our evolved Harnesses improve mean performance by 34 points across 28 training benchmarks and 26 points across 18 unseen benchmarks, including two real-world embodied tasks.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.34283",
+        "arxiv_url": "https://arxiv.org/abs/2610.36077",
         "coverage": 0
       }
     },
     {
-      "id": "news:8cb333260a17",
+      "id": "news:5d25973f5352",
       "source": "news",
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "score": 100.0,
-      "created_at": "2026-10-27T00:00:00+00:00",
-      "raw_text": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "title": "Creating AI value with enterprise context",
+      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…",
+      "score": 85.0,
+      "created_at": "2026-10-28T20:32:02+00:00",
+      "raw_text": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a proper understanding of the business. Many organizations find themselves in this situation—and it could be one of key reasons they struggle to extract returns on their AI investments. DOWNLOAD THE REPORT An MIT Technology Review Insights poll finds that while every organization surveyed is using AI today to some degree, fewer than one in five (16%) are extracting transformative value from their deployments. The largest percentage of respondents (40%) say they are seeing moderate gains in specific tasks or teams, while 21% report meaningful gains, leaving 23% that are seeing minimal returns or none at all. Companies are mostly still piloting AI use cases (according to 38% of respondents) or using it to assist employees’ work with tools like co-pilots or chat assistants (35%). Just 12% of enterprises have AI agents in production and 3% say they are using AI to do most of the work in key processes. “There’s a big gap between what the models are capable of and how the models are actually being useful inside organizations,” says Prukalpa Sankar, co-founder of Atlan. “For every real-life intent and purpose, artificial general intelligence is already here. It’s just not really useful in most companies today.” The missing layer, Sankar says, is context, or how well AI understands a business. A context layer is the architectural infrastructure that sits between an organization’s business systems (for example, systems of record and data, and its AI platforms). It translates enterprise intelligence into governed, machine-usable context for AI agents or models and helps knowledge compound. “Without a context layer for AI, it’s almost like you’re hiring the smartest intern in the world, blindfolding them, and throwing them into your organization,” Sankar says. Download the report This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "outlet": "MIT Technology Review",
+        "weight": 0.85,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2610.33568",
-      "source": "huggingface",
-      "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
-      "url": "https://huggingface.co/papers/2610.33568",
-      "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are represented, and decision grounding, so that each supervised action is supported by the learner-visible…",
-      "score": 349.0,
-      "created_at": "2026-10-27T00:00:00.000Z",
-      "raw_text": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are represented, and decision grounding, so that each supervised action is supported by the learner-visible interaction history. We introduce Trajectory2Gym, which constructs executable interactions around under-supported compositional structures and derives supervision only from grounded decisions in their realized executions. Structural-support selection allocates the resulting experience, while parent-normalized supervised fine-tuning preserves the semantic interaction as the unit of training weight. This reframes trajectory generation as the deliberate construction of learnable interaction experience, rather than the collection of successful trajectories. Across five Qwen3 scales, Trajectory2Gym improves Tau1, Tau2, and BFCL at every tested scale, increasing the equal-weight three-benchmark mean by 16.9-29.8 percentage points. The gains are strongest in stateful and multi-turn interaction, where later decisions depend on earlier observations and feedback. Our results suggest that scaling tool-use agents depends not only on collecting more successful trajectories, but on constructing interactions whose dependencies are represented and whose decisions are learnable from the agent's visible history.",
+      "id": "hn:50280864",
+      "source": "hackernews",
+      "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
+      "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+      "summary": "",
+      "score": 317.0,
+      "created_at": "2026-10-28T21:03:24+00:00",
+      "raw_text": "",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.33568",
+        "discussion_url": "https://news.ycombinator.com/item?id=50280864",
+        "num_comments": 175,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50273396",
+      "source": "hackernews",
+      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+      "summary": "",
+      "score": 458.0,
+      "created_at": "2026-10-28T13:41:30+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50273396",
+        "num_comments": 503,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Should AI Decide Your Court Case? This Judge Says Yes\n\nText:\nOne of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.\n\nArticle text (excerpt):\nIn a few days, judge Geoffrey Vos will retire as Master of the Rolls, the most senior position in England’s civil justice system. As one of his final acts, he’s trying to stoke a debate about whether—and how—judges should be using artificial intelligence .\nUnder the latest guidance , judges in England are advised to confine their use of AI to administrative tasks, and Vos tells WIRED he uses Microsoft Copilot all the time to locate far-flung documents and summarize large bodies of text. But recently, he visited a court in Shenzhen, China, where civil disputes are already being decided by judges with heavy assistance from AI . Impressed by what he saw, Vos believes that courts across the globe should consider following.\nThat road is littered with pitfalls. Multiple lawyers have been caught citing case law hallucinated by AI, and in a first for the UK, somebody recently lost their license to practice in part because they misused the technology. Meanwhile, with chatbots as their legal counsel, litigants are flooding the courts with an unprecedented number of claims, some of them bogus.\nYet Vos remains convinced that AI will someday help resolve civil disputes more rapidly and in ways that cost far less. While complicated commercial disputes and sensitive family cases might require a human judge, he believes that personal injury claims, low-value professional negligence cases, and the like could easily be adjudicated by AI.\n“What most people desperately want in civil disputes is resolution,” Vos tells WIRED. “The question is, where is the line to be drawn?”\nGiven his impending retirement, the debate for Vos is largely a philosophical one. But for everyone else in the profession—and for coders , cybersecurity experts , math professors , and a whole host of others—the rules are changing fast.\nIn October, WIRED met with Vos at his office at the Royal Courts of Justice, London. We discussed the ways that AI is spilling into the courts, the practical and ethical issues it raises, and how the justice system might adapt to serve a new generation raised alongside the technology.\nThis conversation has been edited for length and clarity.\nWIRED: You’re just a few days away from retirement. How do you feel about leaving the post at this particular juncture, as AI begins to reshape how law is practiced and justice administered?\nGEOFFREY VOS: When I started as a lawyer, we had foolscap paper, typists, and Tipp-Ex. We moved rapidly into word processors, faxes, and eventually computers.\nLawyers are conservative with a lowercase c . But that doesn’t mean that they should be backward-looking or retrogressive. It means they should be adopting change cautiously, with their eyes open.\nThe legal system is for the people of this country. You can’t be effective in providing access to justice if you’re not on the same technological wavelength. But it’s time to leave it to a new generation of leadership judges.\nHow have you built AI into your practice to date?\nI don’t use it for writing judgments, but I use it for finding things out, navigating large quantities of material, and checking things. It saves me time. I have 11 meetings a day. I know there’s a document created years ago that’s relevant to my meeting—and Copilot finds it in seconds. I do that every day.\nIn law, isn’t the devil always in the details? Doesn’t confidence in the legal system depend on the understanding that a judge will review and consider every inch of every court submission?\nI’m a little more cautious about using it to read papers for my cases, but that’s because I do the most important cases in the system.\nPeople have confidence in our justice system because they believe that our judges have absolute integrity. In order not to lose that integrity, you have to explain how you’re adopting technology and achieve a broad consensus that it is appropriate.\nHow is AI spilling into the courts right now? Is it changing how litigants and legal professionals behave? What issues is it throwing up?\nIt’s changing everything remarkably quickly. We see a 10 percent rise in the number of county court cases started every year—and it looks as if this may increase. That’s because everybody who has a legal problem now puts it into Gemini, ChatGPT, or Claude. Ask it to create a particulars of claim, a case, a claim form—it can.\nWhat proportion of these claims are based on sound legal principles, though? How often are people led by a chatbot to mistakenly believe they have a claim?\nWe don’t have the data. But I think it’s a mistake to assume that just because a claim is created by AI, it’s totally frivolous.\nIn a way it’s a good problem, because it shows there’s greater access to justice because of technology. One of the problems with justice in the past is that it’s only been available to rich people.\nIf people have a problem sufficient to bother ChatGPT, they probably genuinely think they have a claim. When you explore their problem in detail, you might find it is actually a bit different, but it may still be a legal problem and may still be reasonable for them to have wanted to bring it to attention.\nPeople are not generally time wasters. They’re not generally trying to make trouble.\nWhat about the opportunity for AI to fabricate evidence on which judges have previously been able to rely—images, video, voice recordings? Where does that leave the courts?\nOften, judges have to decide whether a person is telling the truth. That is the most difficult thing to do, because humans are not bad at lying. But judges make these decisions every day. There’s absolutely no difference—in scale or qualitatively—in somebody producing a false image created by AI.\nThe only reason we’re all getting so excited about deepfakes is because they are so new. But actually, that is the stuff of judging.\nBut we’re talking about a whole category of evidence that’s now somewhat compromised. Doesn’t that affect a judge’s ability to decide whether somebody is lying?\nIt was always thus. We always had to decide whether wills were forged, because people used to do that. It’s exactly the same with voice recordings, and video. It’s just an extension of the type of false information that is produced to the court.\nPeople will find out when they produce fake images to the court that they are committing perjury and they will go to prison, just as if they’d forged a will.\nI think we need to be cautious about predicting disaster. I’m very optimistic.\nYou’ve previously described an “ inevitable ” future where simpler civil cases are adjudicated entirely by AI. Why are you confident that’s where we’re headed?\nYou need to find a way to deliver justice that is within the cultural grain. That doesn’t mean you just conduct all your cases on TikTok. But if you don’t understand that people are asking LLMs for the answer to almost every question under the sun, including legal questions, you’re likely to get it wrong when you try to devise a process fit for the 21st century.\nIt’s all about consensus. It will only be possible to ask people to accept algorithmic decision-making if they consent to the process in a particular case, or if society decides through legislation.\nWhen people go to court and get an adverse outcome, even if they regard the outcome as idiosyncratic or even wrong, when it’s delivered in a human way, it can be accepted over time. With AI, we have to be careful; it may be less easy for people to accept an adverse machine-driven decision.\nI very much want to see a very open, international discussion about how we should resolve disputes.\nI suspect part of the reason people object to trial by AI is because we can’t know precisely how a model has arrived at a decision. What’s to be done about this problem of explainability?\nI don’t think it’s about reasoning; it’s about outcomes. The AI can produce very plausible reasoning. You can’t see how it produced that reasoning, but you can see the reasoning it produced, and you can judge the plausibility.\nI don’t think you’ll ever do away with human judges. There’s something almost biblical about the human judge; it’s in the human psyche to want to be judged by their fellow man. But that does not mean that in some situations people wouldn’t rather have a quick outcome—even if it’s not a human outcome.\nI don’t think judges are yet in the position to say. It’s a question for society, politicians, and legislation to resolve. That debate is really important.\nI think that custody and family cases are one of the areas where essentially human judgment is expected, even by the younger generation. In complex commercial cases, I think that’s also the case. But I think we will whittle away at how commercial cases are decided by using AI to collate information to make the decision-making process better and easier.\nWe will allow more people access to justice more cheaply and more quickly using technology. That will be an overall good for the economy and for the people we serve.",
+  "context": "Title: The future of the firm\n\nText:\nHow AI might enter the org chart—beneath, beside, and between us.\n\nArticle text (excerpt):\nHow AI might enter the org chart—beneath, beside, and between us.\nAuthors’ note: This is the second essay in our series on the next economy, part of a new platform to host independent voices exploring an AGI future. It reflects our views, not those of OpenAI or our colleagues.\nThe two of us were twenty-four when we started managing our own teams here at OpenAI. That is less impressive once you meet our teams.\nWe’re supposed to be grunts. At twenty-four, you’re at the bottom of the corporate ladder. You take the meeting notes and write a few memos. After years of drudgerous work, you are (hopefully) granted a broader remit.\nOur path—and the path of many young people today—is looking different. We enter the workforce already with “employees” at our behest. These deputies work day and night, weekends and holidays. They are great at the grunt work. We even have math olympiad gold medalists on staff to advise us. Our new reports still make their share of mistakes. But they are getting better, learning our needs, and we are learning how to manage them.\nNeither of us climbed the corporate ladder. Management has instead come down to our rung. This essay is about our promotion, and the other ways firms might reorganize as we enter the intelligence age.\nWhen AI enters the firm, where does it go? We present three illustrative scenarios:\nBeneath us. Everyone keeps their seat, and a new basement of AI labor grows underneath. We all become managers. First we get assistants, then chiefs of staff, and eventually entire miniature firms reporting up to each of us. Every person gets a promotion.\nBeside us. AI joins the org chart alongside people as a colleague of sorts, working directly for existing human managers and executives. It starts out by taking up this task and that role. In time, it performs broader functions, reporting higher up the flagpole.\nBetween us. The most unintuitive case: humans above and humans below, with AI in between. It coordinates and monitors work, enforcing an executive’s vision while recognizing unique contributions from enterprising workers.\nNone of these scenarios will play out exactly as we describe, but we think aspects of all three will come true. All three are already happening in subtle ways.\nOur focus here isn’t total automation but a transitioning economy. We are interested in what chimeric firms will look like as AI improves and laces itself into existing organizations.\nWe believe the hybrid firm is conceptually important because productive adoption of AI isn’t instantaneous. When the models only do a subset of tasks, adoption may be easiest by ground-level employees familiar with the work. Once the models perform broad functions end-to-end, higher-ups can use them directly. In our view, more capable AI is more adoptable: firms must learn technologies, but labor learns the firm and can onboard itself.\nWe’ll dissect the three new classes of org chart, then examine what they mean for the future of red tape, worker agency, firm size, and pay disparity.\nOur first scenario seems least disruptive. Here, people stay in the same seats with the same reporting lines, ostensibly doing the same jobs as before. The human org chart looks unchanged between today and this future.\nThe difference is below us. Beneath each individual contributor, a new AI labor force reports up to each of us. Our org chart gets a basement, and we all become managers.\nAt first, this basement is unfinished. We start with one or two agents apiece, less as seasoned employees, more as eager interns we must supervise and readily forgive. Our expectations are low: send an email here, draft a memo there, reply to Slack messages everywhere. Like junior human employees, they begin with little autonomy and trust.\nBut as models improve, our agents take on more tasks with less supervision. They coordinate with each other. There might be manager AIs and grunt AIs, accountants and lawyers, all working together at your behest. Far from handholding an intern, your operation eventually looks like a small firm in its own right, with its own org chart and you as its board of directors.\nJace still does the accounting at his firm, but he’s no longer clicking around the spreadsheets. His agent underlings do that. Jace’s job is more like his manager’s from a few years ago. His manager, in turn, now has an even bigger remit.\nJace’s day-to-day has completely changed, now focused on communication, coordination, and creativity. He works less and feels more challenged. His work life has more variance, and he distinguishes himself with leadership skills and a vision he couldn’t showcase before.\nThe accounting team hasn’t shrunk because the rest of the company has grown more productive too and demands more accounting than ever before. The agents can’t yet do everything his team does. The execs wouldn’t know the first thing about assembling financial data and need his domain expertise to use the agents effectively.\nNotice how this scenario doesn’t imply layoffs. Here we adopt AI without automating ourselves. We instead automate our past selves , and we move up in the hierarchy. AI takes on more and more of what we used to do. Our jobs remain because there is more to manage, and we gain responsibility for a greater sum of output.\nJobs aren’t static ⁠ (opens in a new window) . Suppose that AI can do ninety percent of what you did before. You might conclude you’re left with only ten percent of the work. The other possibility is that you’re still doing a full job, just a different one—now focused on an objective ten times larger. That is the classic gift of technology: productivity rises, ambition rises to meet it, and wages can rise ⁠ (opens in a new window) with the ambition.\nThis all depends on whether we still add value ⁠ (opens in a new window) to production. This essay focuses on the coming years where automation isn’t universally capable or adopted. Even if AI could do it all, we might still value something more because a person made it, or insist that a person have the final say.\nIt also depends on our appetite. If, as consumers, we don’t care for ten times more output, the equilibrium will shift toward fewer workers or fewer hours worked. Historically, increases in output have not satiated us. We have a lot more ⁠ (opens in a new window) but work only a little less ⁠ (opens in a new window) . Should our appetite continue to grow as output multiplies—and we remain additive to production—we will choose to keep trading our labor for more consumption. If instead production becomes so abundant that we are satiated, we might volunteer a smaller labor force.\nThere are more objections we discuss later (e.g. whether we’ll have a larger number of smaller firms). We still think this scenario is important because adoption has to start somewhere. Firms need a way to stably evolve from their current org structures. Bolstering the work of existing employees may be an easier first step than wholesale restructuring. We see this in action today: one worker after another delegating to AI, without an organizational revolution so far.\nThis scenario relies on the front line hiring first. Ground-level workers—not managers and executives—lead on AI adoption. That appears likely, so long as the person who best gets AI to do the work is the person who used to do it themselves.\nModels can already automate many data science tasks, but a department head unfamiliar with the methods and minutiae will struggle to leverage the tools. Until AI becomes proactive enough to tell you what you don’t know (see our next scenario), it will probably work best for those already familiar with how the work is done.\nThe biggest change in this scenario is for entry-level workers. There would no longer be a lowest rung, at least not for humans. When we hire young people, it won’t be to place them at the drudgerous bottom of the firm. Those positions will be filled by something that doesn’t mind.\nWith that, we lose some traditional routes to educate young workers: the apprenticeship ⁠ (opens in a new window) , the learning-by-grunt-work, the earning of stripes. These are genuine costs, but we mostly see this as a privilege. The greenest hire with a good idea has resources to experiment. The oldest excuse in the building, we just don’t have the manpower , is dying. A junior employee with a great video game in her head and no path to the headcount can now simply build it.\nIn our view, this “promoting” scenario still has much for junior workers to learn—judgment, taste, the muscles of management and creative vision. We will be incentivized to cultivate these skills because they show up in our work product. We will still learn by doing ⁠ (opens in a new window) , but at a higher level of scope. Firm elders remain incentivized to help us as responsible stewards (with equity stakes in our success). The opportunity here is a more stimulating role for everyone at every rung. Any worker can showcase their talents with a bigger r",
   "research_links": [],
-  "source_credit": "Wired",
-  "source_tag": "via Wired",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAOuauG49DsaYsSsgSJ935LPb7VP-uwAAqoTaxtRfwhXJlYwRjqhimQBAAMCAAN5AAM9BA",
-  "text": "County court filings in England are rising 10 percent every year. \n\nChatbots like ChatGPT, Gemini, and Claude make it effortless for anyone to generate official legal claim forms.\n\nThe head of England's civil justice system, Master of the Rolls Geoffrey Vos, believes software should eventually handle simpler disputes directly.\n\nHe already uses Microsoft Copilot across 11 daily meetings to retrieve buried documents in seconds. But after seeing courts in Shenzhen, China, where judges rely heavily on AI assistance, Vos wants Western courts to take a larger leap.\n\nHis proposed division of labor is straightforward. Algorithmic decision-making would cover personal injury claims and low-value professional negligence. Complex commercial litigation and sensitive family cases would stay with human judges.\n\nThe transition is already messy. A UK practitioner recently lost their license partly for misusing AI, and courts are receiving an unprecedented volume of automated claims. Nobody has hard data yet on how many of these AI-drafted filings are legally sound.\n\nHistorically, the high cost of hiring a lawyer kept people from pursuing claims. When drafting a case costs nothing, the bottleneck moves from the client's pocket to the judge's bench.\n\nSource: Wired",
-  "alt_openings": "Option 1: Tool as subject\nLine 1: An AI chatbot can now draft an official court claim in seconds.\nLine 2: People are using that speed to flood English courts with 10 percent more lawsuits every year.\nWhen to prefer: Use this when writing for product manager or engineering audiences who care primarily about how soft software capabilities directly alter user behavior.\n\nOption 2: Story in motion\nLine 1: England's senior civil judge just stepped out of an AI-assisted court in Shenzhen.\nLine 2: He came back convinced that algorithms should start deciding personal injury claims at home.\nWhen to prefer: Use this when writing for leadership or legal audiences who react strongly to international precedent and executive actions.\n\nOption 3: Your X\nLine 1: Your next minor legal dispute might be decided by software instead of a judge.\nLine 2: England's top civil official is pushing to automate low-value claims as court dockets surge.\nWhen to prefer: Use this when targeting general professionals or consumers who instantly engage when an abstract systemic shift is framed around their personal rights.\n\nPick: Option 2. The scene in Shenzhen gives the post an immediate, concrete narrative anchor that makes the top judge's sudden policy stance feel grounded in reality rather than futuristic speculation.",
-  "voice_score": 5,
-  "firewall_notes": [
-    "\"10 percent more court claims are being filed in England every single year.\" — Imprecise terminology; the source specifies county court cases, not general court claims.",
-    "\"The country's top civil judge thinks AI is the only way out.\" — Unsupported claim; the source shows the judge advocates exploring AI adjudication, but never calls it \"the only way out.\"",
-    "\"The split he proposes is simple: • Personal injury claims handled by AI...\" — Parallel repetition with bullet points sharing the same line skeleton, while adding unverified details (\"custody\" is not in the source material).",
-    "\"Would you accept an algorithmic ruling on a personal claim if it meant getting a decision in days instead of years?\" — Ending on a engagement-bait question while introducing unsupported details (\"days instead of years\")."
-  ],
-  "headline": "How AI chatbots are flooding English courts with claims",
+  "source_credit": "OpenAI",
+  "source_tag": "via OpenAI",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAOzauMJHwk6zeHrG5LyfmkAAUutV5irAAJGE2sbks0YV4LWoEJimHU1AQADAgADeQADPQQ",
+  "text": "Two 24-year-old OpenAI managers just proposed a new corporate org chart.\n\nInstead of cutting jobs from above, AI enters at the very bottom beneath everyday workers.\n\nHere is what that changes for your team.\n\nThe authors call it the basement scenario.\n\nYour current reporting lines stay the same, but a layer of AI labor grows under every employee.\n\nFront-line workers lead the adoption because they already know how the work gets done.\n\nAt first, the basement starts small:\n• One or two agents draft emails and reply to Slack messages\n• Advanced models coordinate with each other to handle complex tasks\n• Human workers shift entirely to coordination and strategy\n\nThat turns individual contributors into personal boards of directors.\n\nTake an accountant named Jace in the essay.\n\nHe stops clicking spreadsheets while his agent underlings process the data, letting his firm handle far more output.\n\nThat reveals the core idea: if AI automates 90 percent of your old tasks, you do not work 10 percent of a job.\n\nYou run a role with an objective 10 times larger.\n\nThe biggest casualty is the traditional entry-level position.\n\nThe lowest rung of corporate drudgery disappears, along with classic grunt-work apprenticeships.\n\nMy read: the early AI transition will not look like executive-led layoffs.\n\nIt will look like entry-level hires managing software teams on day one.\n\nThe limit is real: this essay reflects the opinions of two internal managers, not a verified industry study.\n\nAre you ready to manage a team on your first day at work?\n\nSource: OpenAI",
+  "alt_openings": "1. Bare number first\nLine 1: 90 percent of your daily tasks could soon belong to software interns.\nLine 2: That will not leave you with 10 percent of a job.\nWhen to prefer it: Use this when posting to a heavily technical or analytical audience that responds to math-driven premises.\n\n2. Your X\nLine 1: Your newest entry-level hire may start work with an entire team reporting to them.\nLine 2: The bottom rung of the corporate ladder is being handed off to AI agents.\nWhen to prefer it:",
+  "voice_score": 4,
+  "firewall_notes": [],
+  "headline": "OpenAI managers put AI beneath everyday workers",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-28.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-29.png"
 }
