@@ -1,77 +1,106 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-29",
-  "created_at": "2026-10-29T14:20:42.068911+05:30",
+  "date": "2026-10-30",
+  "created_at": "2026-10-30T14:24:27.012243+05:30",
   "candidate": {
-    "id": "news:0dc3cf0b7c98",
+    "id": "news:3e1cebb1f9f3",
     "source": "news",
-    "title": "The future of the firm",
-    "url": "https://openai.com/index/the-future-of-the-firm",
-    "summary": "How AI might enter the org chart—beneath, beside, and between us.",
-    "score": 100.0,
-    "created_at": "2026-10-28T10:00:00+00:00",
-    "raw_text": "How AI might enter the org chart—beneath, beside, and between us.",
+    "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+    "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+    "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+    "score": 80.0,
+    "created_at": "2026-10-30T01:20:48+00:00",
+    "raw_text": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
     "extra": {
-      "outlet": "OpenAI",
-      "weight": 1.0,
+      "outlet": "TechCrunch",
+      "weight": 0.8,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "news:b0da25ea6c1a",
+      "id": "news:7bf0065ceb16",
       "source": "news",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "summary": "",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "score": 100.0,
-      "created_at": "2026-10-28T17:00:58+00:00",
-      "raw_text": "",
+      "created_at": "2026-10-29T17:00:00+00:00",
+      "raw_text": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "extra": {
-        "outlet": "Google DeepMind",
+        "outlet": "OpenAI",
         "weight": 1.0,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:c802108aab79",
-      "source": "news",
-      "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
-      "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
-      "summary": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced autofill will use Gemini with Personal Intelligence to suggest information sourced from your Gmail, potentially saving […]",
-      "score": 80.0,
-      "created_at": "2026-10-28T17:00:00+00:00",
-      "raw_text": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number , email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced autofill will use Gemini with Personal Intelligence to suggest information sourced from your Gmail, potentially saving you from having to search for confirmation emails, receipts, or shipping updates yourself. The expanded autofill capabilities can retrieve details such as a shipment's tracking number, travel details like a flight booking number or hotel reservation, … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "hn:50276792",
-      "source": "hackernews",
-      "title": "Gemini 4 Carbon",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "summary": "",
-      "score": 917.0,
-      "created_at": "2026-10-28T17:01:23+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50276792",
-        "num_comments": 739,
         "coverage": 0
       }
     },
     {
-      "id": "news:75e2017ed4c5",
+      "id": "hn:50290177",
+      "source": "hackernews",
+      "title": "LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "summary": "",
+      "score": 463.0,
+      "created_at": "2026-10-29T14:57:55+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50290177",
+        "num_comments": 246,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.39633",
+      "source": "huggingface",
+      "title": "Intrinsic Distribution Matching",
+      "url": "https://huggingface.co/papers/2610.39633",
+      "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A…",
+      "score": 195.0,
+      "created_at": "2026-10-30T00:00:00.000Z",
+      "raw_text": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A decomposition of the reverse-KL field into a Gaussian moment component and a non-Gaussian residual identifies statistics that can be constrained explicitly. We introduce Intrinsic Distribution Matching (IDM), which retains the full DMD correction and matches feature means and per-coordinate standard deviations using the generator's exponential-moving-average (EMA) copy, requiring no external feature encoder. Experiments use full-parameter and low-rank adaptation (LoRA) tuning on Z-Image-Turbo 6B and Qwen-Image 20B. At two network evaluations, IDM reaches 94.25% and 90.20% on Chinese and English LongText-Bench, the highest scores among the compared methods at this budget. Controlled ablations show gains from the added moment loss, while generator EMA features perform competitively with an external DINOv2 encoder across the five reported metrics. Code is available at https://github.com/inclusionAI/IDM.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.39633",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:d28967fce9c6",
       "source": "news",
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "score": 100.0,
-      "created_at": "2026-10-28T13:15:00+00:00",
-      "raw_text": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "created_at": "2026-10-29T09:00:00+00:00",
+      "raw_text": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50296486",
+      "source": "hackernews",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "summary": "",
+      "score": 272.0,
+      "created_at": "2026-10-29T21:40:28+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50296486",
+        "num_comments": 92,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:2d9928289658",
+      "source": "news",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "score": 100.0,
+      "created_at": "2026-10-29T07:00:00+00:00",
+      "raw_text": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -84,131 +113,102 @@
       "title": "Claude Code regularly sends each background agent’s transcript to its model",
       "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
       "summary": "",
-      "score": 333.0,
+      "score": 567.0,
       "created_at": "2026-10-29T03:33:42+00:00",
       "raw_text": "",
       "extra": {
         "discussion_url": "https://news.ycombinator.com/item?id=50284255",
-        "num_comments": 102,
+        "num_comments": 230,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2610.35201",
+      "id": "hf:2610.29927",
       "source": "huggingface",
-      "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.35201",
-      "summary": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output. In this paper, we propose Denoising Token Credit As…",
-      "score": 256.0,
-      "created_at": "2026-10-29T00:00:00.000Z",
-      "raw_text": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output. In this paper, we propose Denoising Token Credit Assignment (DTCA), a framework for token-level credit assignment in reinforcement learning for diffusion language models. DTCA estimates token contributions by measuring the improvement in prediction confidence of remaining masked positions after token commitment and groups these signals according to part-of-speech (POS) categories. These contribution weights are used to select informative denoising timesteps and assign token-level learning signals during RL training. DTCA further calibrates these learning signals according to token-level entropy changes induced by policy updates. Experiments on LLaDA-8B-Instruct show that DTCA consistently improves mathematical reasoning performance across different generation budgets, with gains of up to 9.0 points on MATH500 and 5.3 points on GSM8K over the base model.",
+      "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
+      "url": "https://huggingface.co/papers/2610.29927",
+      "summary": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered regions along the difficulty axis prevent benchmarks from detecting meaningful l…",
+      "score": 138.0,
+      "created_at": "2026-10-30T00:00:00.000Z",
+      "raw_text": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered regions along the difficulty axis prevent benchmarks from detecting meaningful localized training progress. We propose two diagnostic metrics that capture these two failure modes and provide rigorous theoretical guarantees. Empirically, we analyze 25 popular benchmarks spanning 7 domains using carefully estimated item difficulties. Our results show that many benchmarks implicitly overweight certain difficulty regions, so their leaderboard conclusions should be interpreted with caution; others leave substantial portions of the difficulty axis uncovered, limiting their ability to monitor the model improvement process. Finally, we turn diagnosis into action by introducing BenchFill, a simple difficulty-targeted item rewriting algorithm that effectively reduces local coverage gaps.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.35201",
+        "arxiv_url": "https://arxiv.org/abs/2610.29927",
         "coverage": 0
       }
     },
     {
-      "id": "news:0dc3cf0b7c98",
+      "id": "news:3e1cebb1f9f3",
       "source": "news",
-      "title": "The future of the firm",
-      "url": "https://openai.com/index/the-future-of-the-firm",
-      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
-      "score": 100.0,
-      "created_at": "2026-10-28T10:00:00+00:00",
-      "raw_text": "How AI might enter the org chart—beneath, beside, and between us.",
+      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "score": 80.0,
+      "created_at": "2026-10-30T01:20:48+00:00",
+      "raw_text": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "outlet": "TechCrunch",
+        "weight": 0.8,
         "coverage": 0
       }
     },
     {
-      "id": "news:41c97fe8dc29",
-      "source": "news",
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "score": 100.0,
-      "created_at": "2026-10-28T09:30:00+00:00",
-      "raw_text": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.36077",
-      "source": "huggingface",
-      "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-      "url": "https://huggingface.co/papers/2610.36077",
-      "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We therefore introduce The Trinity, a recursive self…",
-      "score": 540.0,
-      "created_at": "2026-10-28T00:00:00.000Z",
-      "raw_text": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We therefore introduce The Trinity, a recursive self-improvement framework coupling world generation with Harness evolution through three roles: Creator, Explorer, and Evolver. Drawing on verified execution trajectories, Evolver shifts the basis of task organization from surface categories to shared requirements, reorganizing the original task tree into a hierarchical capability tree. We introduce Capability-Driven Real2Sim2Real: for heterogeneous tasks at the same node, Creator abstracts their common requirements into simplified, verifiable simulated worlds for capability learning, while evaluation on original tasks measures transfer. Along this capability tree, Explorer progressively evolves reusable capability modules through selective inheritance, forming a Harness tree whose validated updates accumulate across iterations within a fixed topology. The resulting Harnesses specialize in different capabilities, motivating a Capability-Aware Harness Router that uses public task information to select compatible module configurations from the tree. Our evolved Harnesses improve mean performance by 34 points across 28 training benchmarks and 26 points across 18 unseen benchmarks, including two real-world embodied tasks.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.36077",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:5d25973f5352",
-      "source": "news",
-      "title": "Creating AI value with enterprise context",
-      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
-      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…",
-      "score": 85.0,
-      "created_at": "2026-10-28T20:32:02+00:00",
-      "raw_text": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a proper understanding of the business. Many organizations find themselves in this situation—and it could be one of key reasons they struggle to extract returns on their AI investments. DOWNLOAD THE REPORT An MIT Technology Review Insights poll finds that while every organization surveyed is using AI today to some degree, fewer than one in five (16%) are extracting transformative value from their deployments. The largest percentage of respondents (40%) say they are seeing moderate gains in specific tasks or teams, while 21% report meaningful gains, leaving 23% that are seeing minimal returns or none at all. Companies are mostly still piloting AI use cases (according to 38% of respondents) or using it to assist employees’ work with tools like co-pilots or chat assistants (35%). Just 12% of enterprises have AI agents in production and 3% say they are using AI to do most of the work in key processes. “There’s a big gap between what the models are capable of and how the models are actually being useful inside organizations,” says Prukalpa Sankar, co-founder of Atlan. “For every real-life intent and purpose, artificial general intelligence is already here. It’s just not really useful in most companies today.” The missing layer, Sankar says, is context, or how well AI understands a business. A context layer is the architectural infrastructure that sits between an organization’s business systems (for example, systems of record and data, and its AI platforms). It translates enterprise intelligence into governed, machine-usable context for AI agents or models and helps knowledge compound. “Without a context layer for AI, it’s almost like you’re hiring the smartest intern in the world, blindfolding them, and throwing them into your organization,” Sankar says. Download the report This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
-      "extra": {
-        "outlet": "MIT Technology Review",
-        "weight": 0.85,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50280864",
+      "id": "hn:50288019",
       "source": "hackernews",
-      "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
-      "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+      "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
       "summary": "",
-      "score": 317.0,
-      "created_at": "2026-10-28T21:03:24+00:00",
+      "score": 334.0,
+      "created_at": "2026-10-29T12:41:56+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50280864",
-        "num_comments": 175,
+        "discussion_url": "https://news.ycombinator.com/item?id=50288019",
+        "num_comments": 242,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50273396",
-      "source": "hackernews",
-      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
-      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-      "summary": "",
-      "score": 458.0,
-      "created_at": "2026-10-28T13:41:30+00:00",
-      "raw_text": "",
+      "id": "news:05367ef1f34c",
+      "source": "news",
+      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "score": 80.0,
+      "created_at": "2026-10-29T23:42:22+00:00",
+      "raw_text": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50273396",
-        "num_comments": 503,
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:6224c596d37f",
+      "source": "news",
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "score": 80.0,
+      "created_at": "2026-10-29T20:08:31+00:00",
+      "raw_text": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: The future of the firm\n\nText:\nHow AI might enter the org chart—beneath, beside, and between us.\n\nArticle text (excerpt):\nHow AI might enter the org chart—beneath, beside, and between us.\nAuthors’ note: This is the second essay in our series on the next economy, part of a new platform to host independent voices exploring an AGI future. It reflects our views, not those of OpenAI or our colleagues.\nThe two of us were twenty-four when we started managing our own teams here at OpenAI. That is less impressive once you meet our teams.\nWe’re supposed to be grunts. At twenty-four, you’re at the bottom of the corporate ladder. You take the meeting notes and write a few memos. After years of drudgerous work, you are (hopefully) granted a broader remit.\nOur path—and the path of many young people today—is looking different. We enter the workforce already with “employees” at our behest. These deputies work day and night, weekends and holidays. They are great at the grunt work. We even have math olympiad gold medalists on staff to advise us. Our new reports still make their share of mistakes. But they are getting better, learning our needs, and we are learning how to manage them.\nNeither of us climbed the corporate ladder. Management has instead come down to our rung. This essay is about our promotion, and the other ways firms might reorganize as we enter the intelligence age.\nWhen AI enters the firm, where does it go? We present three illustrative scenarios:\nBeneath us. Everyone keeps their seat, and a new basement of AI labor grows underneath. We all become managers. First we get assistants, then chiefs of staff, and eventually entire miniature firms reporting up to each of us. Every person gets a promotion.\nBeside us. AI joins the org chart alongside people as a colleague of sorts, working directly for existing human managers and executives. It starts out by taking up this task and that role. In time, it performs broader functions, reporting higher up the flagpole.\nBetween us. The most unintuitive case: humans above and humans below, with AI in between. It coordinates and monitors work, enforcing an executive’s vision while recognizing unique contributions from enterprising workers.\nNone of these scenarios will play out exactly as we describe, but we think aspects of all three will come true. All three are already happening in subtle ways.\nOur focus here isn’t total automation but a transitioning economy. We are interested in what chimeric firms will look like as AI improves and laces itself into existing organizations.\nWe believe the hybrid firm is conceptually important because productive adoption of AI isn’t instantaneous. When the models only do a subset of tasks, adoption may be easiest by ground-level employees familiar with the work. Once the models perform broad functions end-to-end, higher-ups can use them directly. In our view, more capable AI is more adoptable: firms must learn technologies, but labor learns the firm and can onboard itself.\nWe’ll dissect the three new classes of org chart, then examine what they mean for the future of red tape, worker agency, firm size, and pay disparity.\nOur first scenario seems least disruptive. Here, people stay in the same seats with the same reporting lines, ostensibly doing the same jobs as before. The human org chart looks unchanged between today and this future.\nThe difference is below us. Beneath each individual contributor, a new AI labor force reports up to each of us. Our org chart gets a basement, and we all become managers.\nAt first, this basement is unfinished. We start with one or two agents apiece, less as seasoned employees, more as eager interns we must supervise and readily forgive. Our expectations are low: send an email here, draft a memo there, reply to Slack messages everywhere. Like junior human employees, they begin with little autonomy and trust.\nBut as models improve, our agents take on more tasks with less supervision. They coordinate with each other. There might be manager AIs and grunt AIs, accountants and lawyers, all working together at your behest. Far from handholding an intern, your operation eventually looks like a small firm in its own right, with its own org chart and you as its board of directors.\nJace still does the accounting at his firm, but he’s no longer clicking around the spreadsheets. His agent underlings do that. Jace’s job is more like his manager’s from a few years ago. His manager, in turn, now has an even bigger remit.\nJace’s day-to-day has completely changed, now focused on communication, coordination, and creativity. He works less and feels more challenged. His work life has more variance, and he distinguishes himself with leadership skills and a vision he couldn’t showcase before.\nThe accounting team hasn’t shrunk because the rest of the company has grown more productive too and demands more accounting than ever before. The agents can’t yet do everything his team does. The execs wouldn’t know the first thing about assembling financial data and need his domain expertise to use the agents effectively.\nNotice how this scenario doesn’t imply layoffs. Here we adopt AI without automating ourselves. We instead automate our past selves , and we move up in the hierarchy. AI takes on more and more of what we used to do. Our jobs remain because there is more to manage, and we gain responsibility for a greater sum of output.\nJobs aren’t static ⁠ (opens in a new window) . Suppose that AI can do ninety percent of what you did before. You might conclude you’re left with only ten percent of the work. The other possibility is that you’re still doing a full job, just a different one—now focused on an objective ten times larger. That is the classic gift of technology: productivity rises, ambition rises to meet it, and wages can rise ⁠ (opens in a new window) with the ambition.\nThis all depends on whether we still add value ⁠ (opens in a new window) to production. This essay focuses on the coming years where automation isn’t universally capable or adopted. Even if AI could do it all, we might still value something more because a person made it, or insist that a person have the final say.\nIt also depends on our appetite. If, as consumers, we don’t care for ten times more output, the equilibrium will shift toward fewer workers or fewer hours worked. Historically, increases in output have not satiated us. We have a lot more ⁠ (opens in a new window) but work only a little less ⁠ (opens in a new window) . Should our appetite continue to grow as output multiplies—and we remain additive to production—we will choose to keep trading our labor for more consumption. If instead production becomes so abundant that we are satiated, we might volunteer a smaller labor force.\nThere are more objections we discuss later (e.g. whether we’ll have a larger number of smaller firms). We still think this scenario is important because adoption has to start somewhere. Firms need a way to stably evolve from their current org structures. Bolstering the work of existing employees may be an easier first step than wholesale restructuring. We see this in action today: one worker after another delegating to AI, without an organizational revolution so far.\nThis scenario relies on the front line hiring first. Ground-level workers—not managers and executives—lead on AI adoption. That appears likely, so long as the person who best gets AI to do the work is the person who used to do it themselves.\nModels can already automate many data science tasks, but a department head unfamiliar with the methods and minutiae will struggle to leverage the tools. Until AI becomes proactive enough to tell you what you don’t know (see our next scenario), it will probably work best for those already familiar with how the work is done.\nThe biggest change in this scenario is for entry-level workers. There would no longer be a lowest rung, at least not for humans. When we hire young people, it won’t be to place them at the drudgerous bottom of the firm. Those positions will be filled by something that doesn’t mind.\nWith that, we lose some traditional routes to educate young workers: the apprenticeship ⁠ (opens in a new window) , the learning-by-grunt-work, the earning of stripes. These are genuine costs, but we mostly see this as a privilege. The greenest hire with a good idea has resources to experiment. The oldest excuse in the building, we just don’t have the manpower , is dying. A junior employee with a great video game in her head and no path to the headcount can now simply build it.\nIn our view, this “promoting” scenario still has much for junior workers to learn—judgment, taste, the muscles of management and creative vision. We will be incentivized to cultivate these skills because they show up in our work product. We will still learn by doing ⁠ (opens in a new window) , but at a higher level of scope. Firm elders remain incentivized to help us as responsible stewards (with equity stakes in our success). The opportunity here is a more stimulating role for everyone at every rung. Any worker can showcase their talents with a bigger r",
+  "context": "Title: You don’t need to believe in a god to get a religious exemption from using AI at work\n\nText:\nDavid Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.\n\nArticle text (excerpt):\nPope Leo XIV has decried AI as a threat to human dignity , but it’s not just the devoutly faithful who might worry about how AI squares with their beliefs. David Durman, a nontheistic humanist, recently secured a religious exemption from using AI in the workplace.\n“Humanism is a collection of beliefs about the human experience and how humans interact with the world,” Durman, a University of Kentucky administrator, told TechCrunch. It centers on “human well-being and flourishing, both individually and collectively … and implores a person to try to improve both their well-being and their flourishing as well as the others around them.”\nAs he watched AI grow more popular in daily life, Durman sought out the American Humanist Association (AHA) — a nonprofit advancing secular humanism — to investigate how he could gain legal protections against having to use AI at work. He believes that using the technology runs counter to his beliefs.\n“The way we become moral actors for ourselves and for others is through the active application of our minds, and the diminishing of that [through AI use] is going to necessarily have a negative impact on our ability to do so,” he said, reflecting on how overreliance on AI might affect critical thinking.\nIn a statement published by the AHA earlier this week, Durman wrote, “AI is interfering with people’s ability to earn a living, the environmental costs spell disaster for humanity and our planet, and its supplanting and theft of human creativity threaten elements of our culture like art and literature that make society flourish.”\nHumanism is not anti-religious, but it tends to appeal to people who are skeptical of a god or other supernatural power yet still seek a scientific and moral framework to ground themselves in.\n“Concern about AI and human dignity can run through several different faiths and traditions, whether that’s Catholic teachings, or Universalism, or Humanism, and we want Humanists or nontheists to know that they fall into these categories — that they are also protected by the law at work,” Alexandria Huiskens, staff attorney at the AHA, told TechCrunch.\nDurman is the first humanist to secure workplace accommodations that allow him to abstain from AI use, and one of the first people to publicly discuss their pursuit of these protections. He was inspired to seek them when he read that Erin Maus , a Unitarian Universalist and software engineer, was able to secure similar protections for herself.\n“For me, this was about me and my convictions,” Durman said. “I’m obviously not trying to tell people how to think or feel … But I do hope that it encourages people who have similar concerns to pursue not necessarily religious exemption, but pursue their concerns to the best of their ability where they feel is the most appropriate.”\nUniversity of Kentucky spokesperson Jay Blanton told TechCrunch that the institution reviews requests for religious accommodations on an individual basis, considering the employee’s job responsibilities and the circumstances of the request.\n“In this case, the university determined that an accommodation could be provided while allowing the employee to continue performing the essential functions of their position,” Blanton said in a statement. “As technology and job responsibilities evolve, accommodations may be reviewed to ensure they remain reasonable and workable.”\nMaus’ situation is especially unusual, since it has become rare for software engineers to write code without any AI assistance. But in Durman’s administrative role, in which he supports researchers applying for grants, he has not been required to use AI at work. Like many workers across fields, some of his colleagues and leadership have recommended that employees try out these tools, so he sought to secure his exemption now, in case the suggestion becomes a mandate in the future.\n“I hope that if [others] have similar feelings, that they feel encouraged to pursue some kind of resolution,” Durman said.\nWhen you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.\nBuy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires\nVCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more\nBillionaire Palmer Luckey isn’t leaving California over the wealth tax\nAnduril, Qualcomm launch BlueChip, a new kind of US-made laptop\nGrok releases the first seven minutes of its AI-generated ‘Odyssey’\nAI delivers ‘zero financial payoff’ to most companies, Apollo economist says\nThe AI graveyard: a running list of projects and startups that didn’t make it",
   "research_links": [],
-  "source_credit": "OpenAI",
-  "source_tag": "via OpenAI",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAOzauMJHwk6zeHrG5LyfmkAAUutV5irAAJGE2sbks0YV4LWoEJimHU1AQADAgADeQADPQQ",
-  "text": "Two 24-year-old OpenAI managers just proposed a new corporate org chart.\n\nInstead of cutting jobs from above, AI enters at the very bottom beneath everyday workers.\n\nHere is what that changes for your team.\n\nThe authors call it the basement scenario.\n\nYour current reporting lines stay the same, but a layer of AI labor grows under every employee.\n\nFront-line workers lead the adoption because they already know how the work gets done.\n\nAt first, the basement starts small:\n• One or two agents draft emails and reply to Slack messages\n• Advanced models coordinate with each other to handle complex tasks\n• Human workers shift entirely to coordination and strategy\n\nThat turns individual contributors into personal boards of directors.\n\nTake an accountant named Jace in the essay.\n\nHe stops clicking spreadsheets while his agent underlings process the data, letting his firm handle far more output.\n\nThat reveals the core idea: if AI automates 90 percent of your old tasks, you do not work 10 percent of a job.\n\nYou run a role with an objective 10 times larger.\n\nThe biggest casualty is the traditional entry-level position.\n\nThe lowest rung of corporate drudgery disappears, along with classic grunt-work apprenticeships.\n\nMy read: the early AI transition will not look like executive-led layoffs.\n\nIt will look like entry-level hires managing software teams on day one.\n\nThe limit is real: this essay reflects the opinions of two internal managers, not a verified industry study.\n\nAre you ready to manage a team on your first day at work?\n\nSource: OpenAI",
-  "alt_openings": "1. Bare number first\nLine 1: 90 percent of your daily tasks could soon belong to software interns.\nLine 2: That will not leave you with 10 percent of a job.\nWhen to prefer it: Use this when posting to a heavily technical or analytical audience that responds to math-driven premises.\n\n2. Your X\nLine 1: Your newest entry-level hire may start work with an entire team reporting to them.\nLine 2: The bottom rung of the corporate ladder is being handed off to AI agents.\nWhen to prefer it:",
+  "source_credit": "TechCrunch",
+  "source_tag": "via TechCrunch",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAO5auRbbf0wV6s49RFrQIKfsdsvyccAAuIWaxvapSFX3jgjm7ox_7wBAAMCAAN5AAM9BA",
+  "text": "A University of Kentucky administrator just got a religious exemption from using AI.\n\nHe is a non-theistic humanist who does not believe in God.\n\nHere is how the legal logic works.\n\nDavid Durman supports university researchers applying for grants.\n\nWhen leadership began encouraging employees to adopt AI tools, he contacted the American Humanist Association to secure legal protection before suggestions turned into mandates.\n\nHis case against using the tools focused on three specific arguments:\n• AI overreliance degrades critical thinking and human moral agency\n• The environmental cost of running the systems harms the planet\n• The software relies on the theft of human creativity and literature\n\nWorkplace accommodation laws protect non-theistic belief systems like secular humanism, not just traditional religions.\n\nThe university reviewed his role and agreed to the exemption, confirming he could fulfill his essential job duties without AI.\n\nHe is not the first person to try this. A software engineer named Erin Maus, who is a Unitarian Universalist, secured a similar workplace exemption before him.\n\nMy read: as corporate leadership shifts from recommending AI to mandating it, existing religious protection laws will become the main legal escape hatch for employees who object to the technology.\n\nThe catch is that these protections are not permanent. The university noted that accommodations will be re-evaluated if job responsibilities change.\n\nHas your workplace set a clear policy for employees who refuse to use AI on principle?\n\nSource: TechCrunch",
+  "alt_openings": "Option 1: Your X\nLine 1: Your company's next AI mandate might hit a wall built on religious exemption laws.\nLine 2: Workers are using federal accommodation rules to refuse AI tools, even if they do not believe in God.\n*Prefer this shape when writing for managers, executives, and HR leaders who care about policy risk and compliance.*\n\nOption 2: Corrective\nLine 1: You do not need to belong to a church to legally refuse AI at work.\nLine 2: Labor protections cover secular ethical beliefs, and workers are using them to opt out of software tools.\n*Prefer this shape when targeting general professionals who assume legal opt-outs are restricted to traditional faiths.*\n\nOption 3: Bare number first\nLine 1: One university administrator just became the first humanist legally exempted from workplace AI.\nLine 2: His employer approved the request after he argued that AI harms human critical thinking.\n*Prefer this shape when you want a quick, news-focused hook that emphasizes the precedent being set.*\n\nPick: Option 1. It directly targets the managers and professionals in the audience by framing the story around a impending operational problem they will soon have to deal with.",
   "voice_score": 4,
   "firewall_notes": [],
-  "headline": "OpenAI managers put AI beneath everyday workers",
+  "headline": "How a non-theist used religious law to avoid AI",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-29.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-30.png"
 }
