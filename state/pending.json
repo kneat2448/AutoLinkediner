@@ -1,16 +1,16 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-30",
-  "created_at": "2026-10-30T14:24:27.012243+05:30",
+  "date": "2026-10-31",
+  "created_at": "2026-10-31T14:16:17.964937+05:30",
   "candidate": {
-    "id": "news:3e1cebb1f9f3",
+    "id": "news:6336aff37e57",
     "source": "news",
-    "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-    "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-    "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+    "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+    "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+    "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
     "score": 80.0,
-    "created_at": "2026-10-30T01:20:48+00:00",
-    "raw_text": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+    "created_at": "2026-10-31T01:20:05+00:00",
+    "raw_text": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
     "extra": {
       "outlet": "TechCrunch",
       "weight": 0.8,
@@ -19,14 +19,29 @@
   },
   "shortlist": [
     {
-      "id": "news:7bf0065ceb16",
+      "id": "hn:50300683",
+      "source": "hackernews",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "summary": "<a href=\"https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;claude-code-extension-security-notice\" rel=\"nofollow\">https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;claude-code-extension-security-notic...</a>",
+      "score": 883.0,
+      "created_at": "2026-10-30T07:09:12+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50300683",
+        "num_comments": 522,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "news:25cc4c9bb2e3",
       "source": "news",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "score": 100.0,
-      "created_at": "2026-10-29T17:00:00+00:00",
-      "raw_text": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "created_at": "2026-10-30T09:30:00+00:00",
+      "raw_text": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -34,17 +49,77 @@
       }
     },
     {
-      "id": "hn:50290177",
+      "id": "news:c7606af40dbb",
+      "source": "news",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "score": 100.0,
+      "created_at": "2026-10-30T09:00:00+00:00",
+      "raw_text": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50305693",
       "source": "hackernews",
-      "title": "LLM Voice",
-      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
       "summary": "",
-      "score": 463.0,
-      "created_at": "2026-10-29T14:57:55+00:00",
+      "score": 588.0,
+      "created_at": "2026-10-30T15:52:18+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50290177",
-        "num_comments": 246,
+        "discussion_url": "https://news.ycombinator.com/item?id=50305693",
+        "num_comments": 432,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50302334",
+      "source": "hackernews",
+      "title": "Backdoors in official Claude Code extensions",
+      "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "summary": "",
+      "score": 655.0,
+      "created_at": "2026-10-30T11:05:53+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50302334",
+        "num_comments": 17,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:6336aff37e57",
+      "source": "news",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "score": 80.0,
+      "created_at": "2026-10-31T01:20:05+00:00",
+      "raw_text": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:d2282bcce162",
+      "source": "news",
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "score": 100.0,
+      "created_at": "2026-10-30T00:00:00+00:00",
+      "raw_text": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
         "coverage": 0
       }
     },
@@ -54,7 +129,7 @@
       "title": "Intrinsic Distribution Matching",
       "url": "https://huggingface.co/papers/2610.39633",
       "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A…",
-      "score": 195.0,
+      "score": 239.0,
       "created_at": "2026-10-30T00:00:00.000Z",
       "raw_text": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A decomposition of the reverse-KL field into a Gaussian moment component and a non-Gaussian residual identifies statistics that can be constrained explicitly. We introduce Intrinsic Distribution Matching (IDM), which retains the full DMD correction and matches feature means and per-coordinate standard deviations using the generator's exponential-moving-average (EMA) copy, requiring no external feature encoder. Experiments use full-parameter and low-rank adaptation (LoRA) tuning on Z-Image-Turbo 6B and Qwen-Image 20B. At two network evaluations, IDM reaches 94.25% and 90.20% on Chinese and English LongText-Bench, the highest scores among the compared methods at this budget. Controlled ablations show gains from the added moment loss, while generator EMA features perform competitively with an external DINOv2 encoder across the five reported metrics. Code is available at https://github.com/inclusionAI/IDM.",
       "extra": {
@@ -63,152 +138,77 @@
       }
     },
     {
-      "id": "news:d28967fce9c6",
+      "id": "news:43523836c604",
       "source": "news",
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "score": 100.0,
-      "created_at": "2026-10-29T09:00:00+00:00",
-      "raw_text": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "score": 80.0,
+      "created_at": "2026-10-30T22:56:13+00:00",
+      "raw_text": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "outlet": "TechCrunch",
+        "weight": 0.8,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50296486",
+      "id": "news:011fdc062b2b",
+      "source": "news",
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring […]",
+      "score": 80.0,
+      "created_at": "2026-10-30T22:32:53+00:00",
+      "raw_text": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website , as reported by MacRumors . The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring the new Siri AI to China. Instead, Apple is launching several of its earlier Apple Intelligence features like notification summaries, real-time translation, rewriting and proofreading tools, visual intelligence, and removing objects from photos. Apple also says it has worked with Ailbaba to add support for its Q … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50312922",
       "source": "hackernews",
-      "title": "We ran AI agent swarms in Minecraft and Mindustry",
-      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "title": "OpenAI raises less than half of $30B target",
+      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
       "summary": "",
-      "score": 272.0,
-      "created_at": "2026-10-29T21:40:28+00:00",
+      "score": 148.0,
+      "created_at": "2026-10-31T03:22:44+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50296486",
-        "num_comments": 92,
+        "discussion_url": "https://news.ycombinator.com/item?id=50312922",
+        "num_comments": 135,
         "coverage": 0
       }
     },
     {
-      "id": "news:2d9928289658",
-      "source": "news",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "score": 100.0,
-      "created_at": "2026-10-29T07:00:00+00:00",
-      "raw_text": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50284255",
-      "source": "hackernews",
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
-      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "summary": "",
-      "score": 567.0,
-      "created_at": "2026-10-29T03:33:42+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50284255",
-        "num_comments": 230,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.29927",
+      "id": "hf:2610.38568",
       "source": "huggingface",
-      "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
-      "url": "https://huggingface.co/papers/2610.29927",
-      "summary": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered regions along the difficulty axis prevent benchmarks from detecting meaningful l…",
-      "score": 138.0,
+      "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+      "url": "https://huggingface.co/papers/2610.38568",
+      "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately:…",
+      "score": 158.0,
       "created_at": "2026-10-30T00:00:00.000Z",
-      "raw_text": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered regions along the difficulty axis prevent benchmarks from detecting meaningful localized training progress. We propose two diagnostic metrics that capture these two failure modes and provide rigorous theoretical guarantees. Empirically, we analyze 25 popular benchmarks spanning 7 domains using carefully estimated item difficulties. Our results show that many benchmarks implicitly overweight certain difficulty regions, so their leaderboard conclusions should be interpreted with caution; others leave substantial portions of the difficulty axis uncovered, limiting their ability to monitor the model improvement process. Finally, we turn diagnosis into action by introducing BenchFill, a simple difficulty-targeted item rewriting algorithm that effectively reduces local coverage gaps.",
+      "raw_text": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately: training dynamics determine when to acquire new experience, while the answers to new tasks remain independently checkable. A-RSI monitors reward variation and accuracy in training logs to refresh a task pool when its learning signal declines, without consulting validation or test scores. A static library of model-authored programs produces multimodal questions and derives their reference answers; we specify the task-generation contract, automatically verify chosen properties of the reward and refresh rules, and separately audit the generated answers. The training loop uses no external training examples or human-written answer labels. On the primary eleven-benchmark suite, A-RSI raises the performance average from 57.77 to 61.05 with 800 fresh tasks.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.29927",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:3e1cebb1f9f3",
-      "source": "news",
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
-      "score": 80.0,
-      "created_at": "2026-10-30T01:20:48+00:00",
-      "raw_text": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50288019",
-      "source": "hackernews",
-      "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
-      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-      "summary": "",
-      "score": 334.0,
-      "created_at": "2026-10-29T12:41:56+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50288019",
-        "num_comments": 242,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:05367ef1f34c",
-      "source": "news",
-      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
-      "score": 80.0,
-      "created_at": "2026-10-29T23:42:22+00:00",
-      "raw_text": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:6224c596d37f",
-      "source": "news",
-      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
-      "score": 80.0,
-      "created_at": "2026-10-29T20:08:31+00:00",
-      "raw_text": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
+        "arxiv_url": "https://arxiv.org/abs/2610.38568",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: You don’t need to believe in a god to get a religious exemption from using AI at work\n\nText:\nDavid Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.\n\nArticle text (excerpt):\nPope Leo XIV has decried AI as a threat to human dignity , but it’s not just the devoutly faithful who might worry about how AI squares with their beliefs. David Durman, a nontheistic humanist, recently secured a religious exemption from using AI in the workplace.\n“Humanism is a collection of beliefs about the human experience and how humans interact with the world,” Durman, a University of Kentucky administrator, told TechCrunch. It centers on “human well-being and flourishing, both individually and collectively … and implores a person to try to improve both their well-being and their flourishing as well as the others around them.”\nAs he watched AI grow more popular in daily life, Durman sought out the American Humanist Association (AHA) — a nonprofit advancing secular humanism — to investigate how he could gain legal protections against having to use AI at work. He believes that using the technology runs counter to his beliefs.\n“The way we become moral actors for ourselves and for others is through the active application of our minds, and the diminishing of that [through AI use] is going to necessarily have a negative impact on our ability to do so,” he said, reflecting on how overreliance on AI might affect critical thinking.\nIn a statement published by the AHA earlier this week, Durman wrote, “AI is interfering with people’s ability to earn a living, the environmental costs spell disaster for humanity and our planet, and its supplanting and theft of human creativity threaten elements of our culture like art and literature that make society flourish.”\nHumanism is not anti-religious, but it tends to appeal to people who are skeptical of a god or other supernatural power yet still seek a scientific and moral framework to ground themselves in.\n“Concern about AI and human dignity can run through several different faiths and traditions, whether that’s Catholic teachings, or Universalism, or Humanism, and we want Humanists or nontheists to know that they fall into these categories — that they are also protected by the law at work,” Alexandria Huiskens, staff attorney at the AHA, told TechCrunch.\nDurman is the first humanist to secure workplace accommodations that allow him to abstain from AI use, and one of the first people to publicly discuss their pursuit of these protections. He was inspired to seek them when he read that Erin Maus , a Unitarian Universalist and software engineer, was able to secure similar protections for herself.\n“For me, this was about me and my convictions,” Durman said. “I’m obviously not trying to tell people how to think or feel … But I do hope that it encourages people who have similar concerns to pursue not necessarily religious exemption, but pursue their concerns to the best of their ability where they feel is the most appropriate.”\nUniversity of Kentucky spokesperson Jay Blanton told TechCrunch that the institution reviews requests for religious accommodations on an individual basis, considering the employee’s job responsibilities and the circumstances of the request.\n“In this case, the university determined that an accommodation could be provided while allowing the employee to continue performing the essential functions of their position,” Blanton said in a statement. “As technology and job responsibilities evolve, accommodations may be reviewed to ensure they remain reasonable and workable.”\nMaus’ situation is especially unusual, since it has become rare for software engineers to write code without any AI assistance. But in Durman’s administrative role, in which he supports researchers applying for grants, he has not been required to use AI at work. Like many workers across fields, some of his colleagues and leadership have recommended that employees try out these tools, so he sought to secure his exemption now, in case the suggestion becomes a mandate in the future.\n“I hope that if [others] have similar feelings, that they feel encouraged to pursue some kind of resolution,” Durman said.\nWhen you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.\nAmanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos.\nYou can contact or verify outreach from Amanda by emailing [email protected] or via encrypted message at @amanda.100 on Signal.\nBuy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires\nVCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more\nBillionaire Palmer Luckey isn’t leaving California over the wealth tax\nAnduril, Qualcomm launch BlueChip, a new kind of US-made laptop\nGrok releases the first seven minutes of its AI-generated ‘Odyssey’\nAI delivers ‘zero financial payoff’ to most companies, Apollo economist says\nThe AI graveyard: a running list of projects and startups that didn’t make it",
+  "context": "Title: Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia\n\nText:\nWhen investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.\n\nArticle text (excerpt):\nNvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Bloomberg later corroborated the report. Anthropic has signed a $44.6 billion contract for the project’s first building alone, according to Nscale’s IPO filing . In essence, the chipmaker would be co-signing a customer’s loans, a sign of how hard the AI industry is working to keep its buildout plans afloat as investors grow jittery about the amounts of money involved.\nThe proposed arrangement would help Nscale secure financing for the electricity and construction costs of its West Virginia campus. Under what’s known as a residual value guarantee, Nvidia would step in if Nscale defaulted on construction payments, temporarily take over the facility, and help find a buyer and new tenant, according to The Information .\nNvidia’s earlier support for cloud providers has mostly covered leases and chip purchases, not construction.\nThe stakes are high for Nscale, which is seeking to go public at a valuation of up to $35 billion despite growing concerns about its ability to deliver on ambitious data center projects.\nAnthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips. The companies are also discussing a second deal worth roughly $45 billion for another building.\nNscale has struggled to get its projects off the ground. The company had about 25,000 advanced AI chips running in August , a fraction of the nearly 500,000 it plans to deploy. Its West Virginia campus has run into trouble of its own. Runoff from the construction site has flooded nearby homes more than once . In September, after months of negotiations , the project won state certification.\nThis month, Microsoft pulled out of a planned Nscale site in England after grid power for it was pushed into the 2030s.\nNvidia has been a major financial backer of the sector, extending roughly $170 billion in investments and credit support to neoclouds and large customers, according to The Information. That includes $1 billion in convertible financing committed to Nscale in September.\nNeoclouds, which rent out AI computing power without a cash-rich core business behind them, have come under pressure from investors. Shares of CoreWeave, Nebius, and IREN had each fallen more than 30% in October as of last week, CNBC reported .\nThe proposed guarantee would deepen Nvidia’s financial ties to Nscale while helping secure a major customer for its chips. Anthropic, one of the largest buyers of AI computing power, has spread its infrastructure spending across multiple chipmakers. One investor told The Information that Anthropic’s involvement likely explains Nvidia’s interest in keeping Nscale’s project on track.\nThe discussions also come as Anthropic faces questions about how it will finance its own rapid expansion. The company filed to go public this week, but Blackstone has warned investors that Anthropic may receive a below-investment-grade credit rating after its IPO. A junk rating would raise Anthropic’s borrowing costs and could push it to keep relying on stronger partners to back its debt.\nWhen you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.\nBuy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires\nAs search traffic dries up, Reddit announces it’s shifting to a logged-in experience\nAI execs may be too out of touch to build for the general public\nVCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more\nBillionaire Palmer Luckey isn’t leaving California over the wealth tax\nGrok releases the first seven minutes of its AI-generated ‘Odyssey’\nAI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
   "research_links": [],
   "source_credit": "TechCrunch",
   "source_tag": "via TechCrunch",
-  "template": "clean_white",
-  "photo_file_id": "AgACAgUAAxkDAAO5auRbbf0wV6s49RFrQIKfsdsvyccAAuIWaxvapSFX3jgjm7ox_7wBAAMCAAN5AAM9BA",
-  "text": "A University of Kentucky administrator just got a religious exemption from using AI.\n\nHe is a non-theistic humanist who does not believe in God.\n\nHere is how the legal logic works.\n\nDavid Durman supports university researchers applying for grants.\n\nWhen leadership began encouraging employees to adopt AI tools, he contacted the American Humanist Association to secure legal protection before suggestions turned into mandates.\n\nHis case against using the tools focused on three specific arguments:\n• AI overreliance degrades critical thinking and human moral agency\n• The environmental cost of running the systems harms the planet\n• The software relies on the theft of human creativity and literature\n\nWorkplace accommodation laws protect non-theistic belief systems like secular humanism, not just traditional religions.\n\nThe university reviewed his role and agreed to the exemption, confirming he could fulfill his essential job duties without AI.\n\nHe is not the first person to try this. A software engineer named Erin Maus, who is a Unitarian Universalist, secured a similar workplace exemption before him.\n\nMy read: as corporate leadership shifts from recommending AI to mandating it, existing religious protection laws will become the main legal escape hatch for employees who object to the technology.\n\nThe catch is that these protections are not permanent. The university noted that accommodations will be re-evaluated if job responsibilities change.\n\nHas your workplace set a clear policy for employees who refuse to use AI on principle?\n\nSource: TechCrunch",
-  "alt_openings": "Option 1: Your X\nLine 1: Your company's next AI mandate might hit a wall built on religious exemption laws.\nLine 2: Workers are using federal accommodation rules to refuse AI tools, even if they do not believe in God.\n*Prefer this shape when writing for managers, executives, and HR leaders who care about policy risk and compliance.*\n\nOption 2: Corrective\nLine 1: You do not need to belong to a church to legally refuse AI at work.\nLine 2: Labor protections cover secular ethical beliefs, and workers are using them to opt out of software tools.\n*Prefer this shape when targeting general professionals who assume legal opt-outs are restricted to traditional faiths.*\n\nOption 3: Bare number first\nLine 1: One university administrator just became the first humanist legally exempted from workplace AI.\nLine 2: His employer approved the request after he argued that AI harms human critical thinking.\n*Prefer this shape when you want a quick, news-focused hook that emphasizes the precedent being set.*\n\nPick: Option 1. It directly targets the managers and professionals in the audience by framing the story around a impending operational problem they will soon have to deal with.",
+  "template": "dark_accent",
+  "photo_file_id": "AgACAgUAAxkDAAO-auWri71XnhX_TdBhl0bBZb3fiTcAAl0YaxvapTFXpregUATk2P8BAAMCAAN5AAM9BA",
+  "text": "Nvidia is in talks to guarantee billions in debt for a data center builder.\n\nAnthropic signed a $44.6 billion contract for the site, but the builder cannot cover construction costs alone.\n\nHere is how the deal works.\n\nThe company constructing the facility is Nscale, an AI cloud provider seeking an IPO at up to a $35 billion valuation.\n\nIt plans to deploy nearly 500,000 advanced chips, but had only 25,000 running in August.\n\nTo keep the West Virginia project moving, Nvidia is considering a residual value guarantee.\n\nIf Nscale defaults on construction payments, Nvidia would step in, temporarily take over the building, and find a new tenant.\n\nNvidia previously backed chip purchases and leases, but not construction costs.\n\nThe arrangement secures infrastructure for a major buyer:\n• Anthropic signed a $44.6 billion contract for the first 460-megawatt building\n• The facility is designed to run Nvidia's next-generation Vera Rubin chips\n• The companies are discussing a second deal worth roughly $45 billion\n\nNvidia has already extended roughly $170 billion in investments and credit support across the sector.\n\nNeocloud stocks like CoreWeave, Nebius, and IREN each fell more than 30% in October as investors grew cautious about spending.\n\nMy read: when chip sellers start guaranteeing construction loans, the barrier to AI expansion is no longer engineering. It is balance sheets.\n\nWould you trust a tech boom where the supplier acts as the bank?\n\nSource: TechCrunch",
+  "alt_openings": "Option 1 (Bare number first):\n$44.6 billion for a single data center building.\nAnthropic signed the contract, but the builder now needs the chipmaker to co-sign its construction loans.\n• When to prefer: Use this when the raw monetary value is large enough to create immediate curiosity before any context is given.\n\nOption 2 (Corrective):\nNvidia is no longer just selling chips to data centers.\nIt is now considering co-signing billions in debt to build the brick-and-mortar facilities that house them.\n• When to prefer: Use this when writing for corporate or finance professionals who will instantly grasp the shift in business strategy.\n\nOption 3 (Your X):\nYour next AI model might run on infrastructure backed by mortgage-style guarantees.\nNvidia is in talks to guarantee debt for a supplier that has struggled to get its own sites built.\n• When to prefer: Use this when targeting end-users or managers focused on the long-term operational risk of their AI tools.\n\nPick: Option 2, because it highlights the strategic shift in how AI infrastructure is being funded before the reader clicks \"see more\".",
   "voice_score": 4,
   "firewall_notes": [],
-  "headline": "How a non-theist used religious law to avoid AI",
+  "headline": "Why Nvidia is backing construction debt for AI builders",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-30.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-31.png"
 }
