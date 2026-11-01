@@ -1,107 +1,92 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-10-31",
-  "created_at": "2026-10-31T14:16:17.964937+05:30",
+  "date": "2026-11-01",
+  "created_at": "2026-11-01T15:07:09.826523+05:30",
   "candidate": {
-    "id": "news:6336aff37e57",
-    "source": "news",
-    "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-    "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-    "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
-    "score": 80.0,
-    "created_at": "2026-10-31T01:20:05+00:00",
-    "raw_text": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+    "id": "hn:50316531",
+    "source": "hackernews",
+    "title": "Malware uses LLMs to rank victims by how much they're worth",
+    "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+    "summary": "",
+    "score": 248.0,
+    "created_at": "2026-10-31T14:29:03+00:00",
+    "raw_text": "",
     "extra": {
-      "outlet": "TechCrunch",
-      "weight": 0.8,
+      "discussion_url": "https://news.ycombinator.com/item?id=50316531",
+      "num_comments": 131,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "hn:50300683",
+      "id": "hn:50319358",
       "source": "hackernews",
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "summary": "<a href=\"https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;claude-code-extension-security-notice\" rel=\"nofollow\">https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;claude-code-extension-security-notic...</a>",
-      "score": 883.0,
-      "created_at": "2026-10-30T07:09:12+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50300683",
-        "num_comments": 522,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:25cc4c9bb2e3",
-      "source": "news",
-      "title": "Making it easier for websites to express AI training preferences",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "score": 100.0,
-      "created_at": "2026-10-30T09:30:00+00:00",
-      "raw_text": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:c7606af40dbb",
-      "source": "news",
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "score": 100.0,
-      "created_at": "2026-10-30T09:00:00+00:00",
-      "raw_text": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50305693",
-      "source": "hackernews",
-      "title": "AI isn't replacing SREs, it's deskilling them",
-      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
       "summary": "",
-      "score": 588.0,
-      "created_at": "2026-10-30T15:52:18+00:00",
+      "score": 344.0,
+      "created_at": "2026-10-31T19:39:19+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50305693",
-        "num_comments": 432,
+        "discussion_url": "https://news.ycombinator.com/item?id=50319358",
+        "num_comments": 196,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50302334",
+      "id": "hn:50320995",
       "source": "hackernews",
-      "title": "Backdoors in official Claude Code extensions",
-      "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
       "summary": "",
-      "score": 655.0,
-      "created_at": "2026-10-30T11:05:53+00:00",
+      "score": 220.0,
+      "created_at": "2026-10-31T22:46:12+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50302334",
-        "num_comments": 17,
+        "discussion_url": "https://news.ycombinator.com/item?id=50320995",
+        "num_comments": 107,
         "coverage": 0
       }
     },
     {
-      "id": "news:6336aff37e57",
+      "id": "hn:50316531",
+      "source": "hackernews",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "summary": "",
+      "score": 248.0,
+      "created_at": "2026-10-31T14:29:03+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50316531",
+        "num_comments": 131,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50318871",
+      "source": "hackernews",
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "summary": "",
+      "score": 170.0,
+      "created_at": "2026-10-31T18:50:34+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50318871",
+        "num_comments": 183,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:89c6cb6d2971",
       "source": "news",
-      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
       "score": 80.0,
-      "created_at": "2026-10-31T01:20:05+00:00",
-      "raw_text": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "created_at": "2026-10-31T21:41:00+00:00",
+      "raw_text": "Apple's new CEO defended the company's current position in the AI landscape.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -109,43 +94,58 @@
       }
     },
     {
-      "id": "news:d2282bcce162",
+      "id": "news:cefcb0bd2478",
       "source": "news",
-      "title": "Fair use benefits everyone",
-      "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "score": 100.0,
-      "created_at": "2026-10-30T00:00:00+00:00",
-      "raw_text": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "summary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "score": 80.0,
+      "created_at": "2026-10-31T21:36:07+00:00",
+      "raw_text": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "outlet": "TechCrunch",
+        "weight": 0.8,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2610.39633",
+      "id": "news:bc398a80a0df",
+      "source": "news",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "score": 80.0,
+      "created_at": "2026-10-31T21:17:03+00:00",
+      "raw_text": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.36671",
       "source": "huggingface",
-      "title": "Intrinsic Distribution Matching",
-      "url": "https://huggingface.co/papers/2610.39633",
-      "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A…",
-      "score": 239.0,
+      "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+      "url": "https://huggingface.co/papers/2610.36671",
+      "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step. To measure how often the image is actually needed, we compar…",
+      "score": 100.0,
       "created_at": "2026-10-30T00:00:00.000Z",
-      "raw_text": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A decomposition of the reverse-KL field into a Gaussian moment component and a non-Gaussian residual identifies statistics that can be constrained explicitly. We introduce Intrinsic Distribution Matching (IDM), which retains the full DMD correction and matches feature means and per-coordinate standard deviations using the generator's exponential-moving-average (EMA) copy, requiring no external feature encoder. Experiments use full-parameter and low-rank adaptation (LoRA) tuning on Z-Image-Turbo 6B and Qwen-Image 20B. At two network evaluations, IDM reaches 94.25% and 90.20% on Chinese and English LongText-Bench, the highest scores among the compared methods at this budget. Controlled ablations show gains from the added moment loss, while generator EMA features perform competitively with an external DINOv2 encoder across the five reported metrics. Code is available at https://github.com/inclusionAI/IDM.",
+      "raw_text": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step. To measure how often the image is actually needed, we compare LLaDA-V's predictions with and without the image at every decoding step and find that removing the image changes a token being unmasked at only 22.8% of steps on average and at as few as 7.9%. We therefore propose LOWN, a decoding method that decides at every step whether to process the image and how many tokens to unmask. LOWN predicts the masked tokens without the image and processes the image only when this prediction disagrees with the last image-conditioned prediction. Agreement certifies the earlier prediction for reuse, and the number of certified tokens sets how many are unmasked in that step. We further observe that the need for the image differs across benchmarks, so LOWN's adaptive decision is needed rather than a fixed schedule. Without training or a tuned threshold, LOWN retains 99.6% of LLaDA-V's score on ten benchmarks at 35.3% of the decoding FLOPs on average. LOWN also generalizes across LLaDA-based DVLMs, composes orthogonally with visual token pruning, and runs under key-value caching for further efficiency gains. Code and project page are available at https://hyeon9698.github.io/LOWN/",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.39633",
+        "arxiv_url": "https://arxiv.org/abs/2610.36671",
         "coverage": 0
       }
     },
     {
-      "id": "news:43523836c604",
+      "id": "news:344dcf79744a",
       "source": "news",
-      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
-      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
-      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
       "score": 80.0,
-      "created_at": "2026-10-30T22:56:13+00:00",
-      "raw_text": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "created_at": "2026-10-31T16:12:55+00:00",
+      "raw_text": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -153,14 +153,14 @@
       }
     },
     {
-      "id": "news:011fdc062b2b",
+      "id": "news:ed0268fa6e32",
       "source": "news",
-      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
-      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
-      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring […]",
+      "title": "I built an AI Tamagotchi before Meta could",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
       "score": 80.0,
-      "created_at": "2026-10-30T22:32:53+00:00",
-      "raw_text": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website , as reported by MacRumors . The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring the new Siri AI to China. Instead, Apple is launching several of its earlier Apple Intelligence features like notification summaries, real-time translation, rewriting and proofreading tools, visual intelligence, and removing objects from photos. Apple also says it has worked with Ailbaba to add support for its Q … Read the full story at The Verge.",
+      "created_at": "2026-10-31T16:05:00+00:00",
+      "raw_text": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home . It cost just $50, and I've decided the learning experience was worth it. View Link My version doesn't sport cameras or a 5G cellular radio , but it really talks to Muse and has cute avatars, too! It doubles as a pocket watch and a remote camera viewfinder, and it can (theoretically) control my smart home. Or at least it can if you inject a lot of extra vibe code. Weeks … Read the full story at The Verge.",
       "extra": {
         "outlet": "The Verge",
         "weight": 0.8,
@@ -168,47 +168,47 @@
       }
     },
     {
-      "id": "hn:50312922",
-      "source": "hackernews",
-      "title": "OpenAI raises less than half of $30B target",
-      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-      "summary": "",
-      "score": 148.0,
-      "created_at": "2026-10-31T03:22:44+00:00",
-      "raw_text": "",
+      "id": "news:d66aef25dede",
+      "source": "news",
+      "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
+      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "summary": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance warning. The article Anthropic's watermark rollout leaves a loophole on two older Claude models appeared first on The Decoder .",
+      "score": 75.0,
+      "created_at": "2026-10-31T19:20:55+00:00",
+      "raw_text": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance warning. The article Anthropic's watermark rollout leaves a loophole on two older Claude models appeared first on The Decoder .",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50312922",
-        "num_comments": 135,
+        "outlet": "The Decoder",
+        "weight": 0.75,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2610.38568",
+      "id": "hf:2610.39301",
       "source": "huggingface",
-      "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
-      "url": "https://huggingface.co/papers/2610.38568",
-      "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately:…",
-      "score": 158.0,
+      "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+      "url": "https://huggingface.co/papers/2610.39301",
+      "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text reading, encodes all modalities with shared weights in a unified space-time coordi…",
+      "score": 72.0,
       "created_at": "2026-10-30T00:00:00.000Z",
-      "raw_text": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately: training dynamics determine when to acquire new experience, while the answers to new tasks remain independently checkable. A-RSI monitors reward variation and accuracy in training logs to refresh a task pool when its learning signal declines, without consulting validation or test scores. A static library of model-authored programs produces multimodal questions and derives their reference answers; we specify the task-generation contract, automatically verify chosen properties of the reward and refresh rules, and separately audit the generated answers. The training loop uses no external training examples or human-written answer labels. On the primary eleven-benchmark suite, A-RSI raises the performance average from 57.77 to 61.05 with 800 fresh tasks.",
+      "raw_text": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text reading, encodes all modalities with shared weights in a unified space-time coordinate system, and a few fusion layers let video frames attend to concurrent audio, bringing cross-modal fusion and temporal alignment into perception itself. OmniSchema unifies the outputs of all ten parsing tasks, allowing a single self-evolving post-training procedure, OmniSchema-Aware On-Policy Distillation (OSAD), to provide a shared token-role-based objective across tasks. In each round, the model is trained on its own rollouts against token-level targets from a reference-conditioned copy of itself, which is then refreshed with the trained weights, so that the parser and its supervision co-evolve. With a single 5 B-parameter checkpoint, Youtu-Parsing-Omni achieves state-of-the-art performance on OmniDocBench v1.6 (96.96 Overall) and leads all open-weight models on OmniParsingBench (75.08 Avg.), with its advantage concentrated on audio and video. It also achieves the best overall chart-parsing score (95.02) and the highest exact chemical-fingerprint agreement among compared systems, and matches a dedicated optical-music model in character-level transcription of typeset sheet music while staying far ahead of general-purpose systems. Code and model weights are publicly available.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.38568",
+        "arxiv_url": "https://arxiv.org/abs/2610.39301",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia\n\nText:\nWhen investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.\n\nArticle text (excerpt):\nNvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday . Bloomberg later corroborated the report. Anthropic has signed a $44.6 billion contract for the project’s first building alone, according to Nscale’s IPO filing . In essence, the chipmaker would be co-signing a customer’s loans, a sign of how hard the AI industry is working to keep its buildout plans afloat as investors grow jittery about the amounts of money involved.\nThe proposed arrangement would help Nscale secure financing for the electricity and construction costs of its West Virginia campus. Under what’s known as a residual value guarantee, Nvidia would step in if Nscale defaulted on construction payments, temporarily take over the facility, and help find a buyer and new tenant, according to The Information .\nNvidia’s earlier support for cloud providers has mostly covered leases and chip purchases, not construction.\nThe stakes are high for Nscale, which is seeking to go public at a valuation of up to $35 billion despite growing concerns about its ability to deliver on ambitious data center projects.\nAnthropic’s contract with Nscale covers the first 460-megawatt building at Nscale’s West Virginia campus, which is expected to use Nvidia’s next-generation Vera Rubin chips. The companies are also discussing a second deal worth roughly $45 billion for another building.\nNscale has struggled to get its projects off the ground. The company had about 25,000 advanced AI chips running in August , a fraction of the nearly 500,000 it plans to deploy. Its West Virginia campus has run into trouble of its own. Runoff from the construction site has flooded nearby homes more than once . In September, after months of negotiations , the project won state certification.\nThis month, Microsoft pulled out of a planned Nscale site in England after grid power for it was pushed into the 2030s.\nNvidia has been a major financial backer of the sector, extending roughly $170 billion in investments and credit support to neoclouds and large customers, according to The Information. That includes $1 billion in convertible financing committed to Nscale in September.\nNeoclouds, which rent out AI computing power without a cash-rich core business behind them, have come under pressure from investors. Shares of CoreWeave, Nebius, and IREN had each fallen more than 30% in October as of last week, CNBC reported .\nThe proposed guarantee would deepen Nvidia’s financial ties to Nscale while helping secure a major customer for its chips. Anthropic, one of the largest buyers of AI computing power, has spread its infrastructure spending across multiple chipmakers. One investor told The Information that Anthropic’s involvement likely explains Nvidia’s interest in keeping Nscale’s project on track.\nThe discussions also come as Anthropic faces questions about how it will finance its own rapid expansion. The company filed to go public this week, but Blackstone has warned investors that Anthropic may receive a below-investment-grade credit rating after its IPO. A junk rating would raise Anthropic’s borrowing costs and could push it to keep relying on stronger partners to back its debt.\nWhen you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.\nBuy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires\nAs search traffic dries up, Reddit announces it’s shifting to a logged-in experience\nAI execs may be too out of touch to build for the general public\nVCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more\nBillionaire Palmer Luckey isn’t leaving California over the wealth tax\nGrok releases the first seven minutes of its AI-generated ‘Odyssey’\nAI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+  "context": "Title: Malware uses LLMs to rank victims by how much they're worth\n\nArticle text (excerpt):\nThere is a new idea in the cybercrime world — cast a wide net, steal everything, and let AI sort out the specifics. A new malware self-named “VOLTA-AUTODOXER,” surfaced through the CAIRN research effort , is a self-deleting Windows infostealer that augments its post-theft workflow with an LLM-powered victim-profiling stage.\nAfter harvesting the standard stealer haul, including browser passwords; cookies; payment cards; cryptocurrency wallet seed phrases; Discord, Telegram, Steam, and Roblox sessions; Microsoft OAuth tokens; SSH and cloud-provider keys; Wi-Fi profiles; and screenshots, VOLTA builds a structured evidence bundle about the person behind the machine. This bundle contains geolocation and home address, employer and employer domain, inferred birth year, card last-4 digits, Slack workspaces, document authorship metadata, iPhone backup indicators, and a live Roblox account valuation. It then uses stolen session access to enrich that bundle further: searching the victim's Gmail for purchase receipts to corroborate a home address, pulling UberEats and DoorDash order history, and enriching Discord accounts via the stolen token.\nThe bundle is serialized and POSTed to OpenRouter under a system prompt that instructs the model to act as \"a forensic intelligence analyst drafting a target assessment.\" The required output includes a section titled “WHAT THEY'RE WORTH” with valuables ranked by monetization with a low/medium/high tier, and a section on “THEIR OPSEC” containing an assessment of the victim's security posture and password hygiene. The model is the operator's triage analyst; it turns a raw credential log into a prioritized and citation-backed dossier of the victim and their monetizable assets.\nVOLTA uses a multi-model architecture to fall back resiliently if it hits a model’s refusal, checking each response for phrases like “I can’t” or “I’m not able,” before passing on to a chain of up to three models.\nModel temperate controls the randomness and predictability of LLM-generated text. The low hardcoded temperature value (0.2) suggests the attacker is emphasizing accuracy and consistency. The malware also employs a chain of cascading models in the event of failures. This multi-model architecture suggests that the operator is anticipating encountering refusals, with the fallback pivoting to a few, smaller, and more permissive models.\nThe system prompt directly reveals the operator’s use case: Produce a concise analytical assessment of the victim’s suitability as a target, backed by an auditable trail of citations.\nThe prompt also asks for something out of the ordinary, but that agents excel at: making connections between sparse and disparate data. For example, encouraging connections like the victim’s names, addresses, or universities to patterns in their passwords. In this case, the model isn't being asked to find data; rather, it’s being asked to stretch the data and make useful inferences that extend the value of what has been scraped.\nVOLTA’s capabilities are directly aligned with the records produced in modern digital life, and well beyond basic credential theft. In a single pass, the stealer can extract browser credentials, cookies, and saved payment cards across Chromium-based browsers. It hits Firefox and Thunderbird, Outlook profiles, Slack workspaces, Steam and Battle.net sessions, Discord tokens, Telegram sessions, Roblox accounts, and SSH and cloud-provider config files (gcloud, OpenVPN, Hide.me). VOLTA doesn’t just copy cryptocurrency wallets, but runs an embedded cracker against the vault inline, writing the result to a WALLET VAULTS CRACKED line in its own report.\nEvery saved Wi-Fi password on the machine is pulled via a direct call to WlanGetProfileList and dumped to plaintext.\nWhat really sets VOLTA apart from commodity stealers is what comes after the initial collection. There is a live enrichment pass that leverages stolen sessions to deep dive the victim’s data. For example, using the victim's own authenticated Gmail tokens, it queries their inbox for receipts from Amazon, DoorDash, Uber Eats, Grubhub, Walmart, and PayPal, then review those receipts to establish a confirmed home address. Stolen Uber Eats and DoorDash sessions are called directly for order history. The Discord token is re-used to enrich the victim's account profile. Roblox inventory is valued via a live “Rolimons[.]com” lookup.\nAfter the collection and enrichment stages are complete, the data is assembled and structured locally in a file called “Identity_Report.txt”. This file is serialized into a bundle as JSON and POSTed to OpenRouter along with the system prompt. The returned payload is received as “AI_Analysis.txt”. Both files exfil together in “volta_dox.zip”.\nThe inference round-trip happens entirely through the victim's own network connection, on their own machine, before the result is exfiltrated.\nInstead of hardcoding its Telegram channel, API keys, and settings directly into the code (which is likely what someone writing a tool for personal use would do) VOLTA uses a template with six swappable slots, filled in at build time.\nThis suggests it’s a builder model: The author sells access, the customer provides their values, and the builder compiles a custom binary for each order. The credentials in those slots are encrypted, but not in a meaningful way. The key is SHA-256 of two constants sitting in the same binary, but it's presumably there because customers expect their API keys not to be sitting in plaintext, not because it provides real protection. Anyone who reverses the file can recover them.\nIf VOLTA is indeed a commoditized malware, then the AI dossier capability isn't something the author invented for their own operations. It is a feature which enables a customer of any level of sophistication to point it at victims and start receiving ranked target assessments in their Telegram inbox.\nAll the observed endpoints for this malware are third-party controlled. There is no actor-owned infrastructure.\nMuch of the token-stealing capability of VOLTA relies on techniques to bypass App-Bound Encryption (ABE) in Chrome. An application control policy that restricts which processes may launch Chrome with --headless would block the ABE decryption path entirely. At minimum, you can also alert when Chrome is launched with --headless from any process not in a known developer. Best practices for storing credentials in hardware backed stores also apply.\nIn the event of compromise, the main executable may have deleted itself, but users should attempt to preserve the “APPDATA%\\volta_debug.txt” file. This is a timestamped harvest log and contains a record of exactly what was collected and whether the LLM call succeeded. Revoke any potentially compromised tokens and change passwords. For cryptocurrency wallets, if the seed phrase was in plaintext on disk, treat the wallet as fully compromised and migrate funds to a new wallet with a seed generated on an air-gapped device.\nVOLTA is a mature stealer with a late-stage AI layer added for one purpose: relieving the operator of analytical work. The axis of AI improvement here is not speed or scale but effort displacement; the same logic visible in CLOSEDQUORUM , though applied to a different phase. These implants reflect the same underlying logic: Identify the step that requires the most sustained human attention and replace it with a model call. The question for defenders is not whether this pattern will appear elsewhere, but which phase it touches next.\nThe second trend to watch is the anticipation of hitting model refusals, and the approaches to building in resiliency. In this case, it includes a fallback chain from Claude to Kimi to Gemini and the ability to run without the LLM stage altogether if no key is present. As AI integration in malware matures, refusal resilience may become a standard design requirement.\nThe open question underlying both trends is whether effort displacement in crimeware changes the landscape in a meaningful way: lowering the operational floor, raising the ceiling on scale, or both. Cybercrime operations have always been opportunistic, and the sophistication bar has always been lower than assumed, but there is a difference between a wide net and a wide net that sorts itself.\n\nA top reader comment on Hacker News (opinion, not fact):\nGood. LLMs aren't very good at that.",
   "research_links": [],
-  "source_credit": "TechCrunch",
-  "source_tag": "via TechCrunch",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAO-auWri71XnhX_TdBhl0bBZb3fiTcAAl0YaxvapTFXpregUATk2P8BAAMCAAN5AAM9BA",
-  "text": "Nvidia is in talks to guarantee billions in debt for a data center builder.\n\nAnthropic signed a $44.6 billion contract for the site, but the builder cannot cover construction costs alone.\n\nHere is how the deal works.\n\nThe company constructing the facility is Nscale, an AI cloud provider seeking an IPO at up to a $35 billion valuation.\n\nIt plans to deploy nearly 500,000 advanced chips, but had only 25,000 running in August.\n\nTo keep the West Virginia project moving, Nvidia is considering a residual value guarantee.\n\nIf Nscale defaults on construction payments, Nvidia would step in, temporarily take over the building, and find a new tenant.\n\nNvidia previously backed chip purchases and leases, but not construction costs.\n\nThe arrangement secures infrastructure for a major buyer:\n• Anthropic signed a $44.6 billion contract for the first 460-megawatt building\n• The facility is designed to run Nvidia's next-generation Vera Rubin chips\n• The companies are discussing a second deal worth roughly $45 billion\n\nNvidia has already extended roughly $170 billion in investments and credit support across the sector.\n\nNeocloud stocks like CoreWeave, Nebius, and IREN each fell more than 30% in October as investors grew cautious about spending.\n\nMy read: when chip sellers start guaranteeing construction loans, the barrier to AI expansion is no longer engineering. It is balance sheets.\n\nWould you trust a tech boom where the supplier acts as the bank?\n\nSource: TechCrunch",
-  "alt_openings": "Option 1 (Bare number first):\n$44.6 billion for a single data center building.\nAnthropic signed the contract, but the builder now needs the chipmaker to co-sign its construction loans.\n• When to prefer: Use this when the raw monetary value is large enough to create immediate curiosity before any context is given.\n\nOption 2 (Corrective):\nNvidia is no longer just selling chips to data centers.\nIt is now considering co-signing billions in debt to build the brick-and-mortar facilities that house them.\n• When to prefer: Use this when writing for corporate or finance professionals who will instantly grasp the shift in business strategy.\n\nOption 3 (Your X):\nYour next AI model might run on infrastructure backed by mortgage-style guarantees.\nNvidia is in talks to guarantee debt for a supplier that has struggled to get its own sites built.\n• When to prefer: Use this when targeting end-users or managers focused on the long-term operational risk of their AI tools.\n\nPick: Option 2, because it highlights the strategic shift in how AI infrastructure is being funded before the reader clicks \"see more\".",
+  "source_credit": "blog.talosintelligence.com",
+  "source_tag": "via blog.talosintelligence.com",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAPEaucIpz42gKCu4RQh64K5VTgfrYQAAugUaxuxuzhXL-pciFRbmmcBAAMCAAN5AAM9BA",
+  "text": "A new Windows malware uses LLMs to rank victims by net worth.\n\nIt queries your Gmail for order receipts just to confirm your real home address.\n\nThe AI is not doing the hacking.\n\nAfter collecting passwords, cookies, and crypto wallets, the stealer VOLTA builds an evidence bundle.\n\nIt posts the raw data to OpenRouter under a prompt instructing the model to act as a forensic analyst.\n\nThe model returns a report with two specific sections:\n• WHAT THEY'RE WORTH: categorizing assets into low, medium, or high tiers\n• THEIR OPSEC: assessing password hygiene and overall security posture\n\nIf a model hits a refusal phrase like \"I'm not able\", VOLTA automatically cascades through up to three fallback models.\n\nThe entire inference call happens through the victim's own internet connection.\n\nThe attacker does not maintain server infrastructure. They just receive a completed dossier in Telegram.\n\nMy read: the critical shift here is effort displacement.\n\nCybercriminals used to spend hours manually sorting credential dumps to spot wealthy targets. Now, a cheap API call does the triage.\n\nThe catch: these details come from a single security report by Talos Intelligence on an unverified malware sample.\n\nHas your organization alerted on headless browser execution yet?\n\nSource: blog.talosintelligence.com",
+  "alt_openings": "**Bare number first**\nLine 1: 3 fallback AI models stand ready inside a new infostealer.\nLine 2: If the primary LLM refuses to evaluate stolen victim data, the malware passes the prompt to the next one in line.\n*When to prefer:* Use when speaking to technical leaders, engineers, or security practitioners interested in model resilience mechanisms.\n\n**Story in motion**\nLine 1: A Windows malware executable just ran an LLM query through its victim's network.\nLine 2: It scraped browser cookies, queried Gmail for Uber Eats receipts, and asked the model to draft a target evaluation.\n*When to prefer:* Use when you want a narrative, case-study feel that drops the reader directly inside a live intrusion event.\n\n**Your X**\nLine 1: Your stolen Gmail cookies might soon be parsed by an AI target analyst.\nLine 2: A new stealer feeds purchase histories into LLMs to calculate how much cash you are worth to a hacker.\n*When to prefer:* Use when targeting a broader management or executive audience where personal relevance drives higher engagement.\n\nPick: The primary opening (\"Tool as subject\"). It states the concrete threat immediately in line 1 and uses the real-world Gmail tracking hook in line 2 to pull non-technical readers past \"see more\".",
   "voice_score": 4,
   "firewall_notes": [],
-  "headline": "Why Nvidia is backing construction debt for AI builders",
+  "headline": "How malware uses LLMs to calculate victim net worth",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-10-31.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-01.png"
 }
