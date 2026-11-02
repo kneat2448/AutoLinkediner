@@ -1,35 +1,93 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-01",
-  "created_at": "2026-11-01T15:07:09.826523+05:30",
+  "date": "2026-11-02",
+  "created_at": "2026-11-02T15:23:48.051320+05:30",
   "candidate": {
-    "id": "hn:50316531",
+    "id": "hn:50330456",
     "source": "hackernews",
-    "title": "Malware uses LLMs to rank victims by how much they're worth",
-    "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+    "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+    "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
     "summary": "",
-    "score": 248.0,
-    "created_at": "2026-10-31T14:29:03+00:00",
+    "score": 225.0,
+    "created_at": "2026-11-01T22:10:45+00:00",
     "raw_text": "",
     "extra": {
-      "discussion_url": "https://news.ycombinator.com/item?id=50316531",
-      "num_comments": 131,
+      "discussion_url": "https://news.ycombinator.com/item?id=50330456",
+      "num_comments": 223,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "hn:50319358",
+      "id": "hf:2610.39497",
+      "source": "huggingface",
+      "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+      "url": "https://huggingface.co/papers/2610.39497",
+      "summary": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that System-2 acts only on those worth their cost. Our answer is a qualified yes. We study conditional int…",
+      "score": 53.0,
+      "created_at": "2026-11-02T00:00:00.000Z",
+      "raw_text": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that System-2 acts only on those worth their cost. Our answer is a qualified yes. We study conditional interaction, a predict--gate--execute--update loop: System-1 estimates each candidate's utility, System-2 executes those admitted by an adaptive threshold, and the outcomes update System-1. The loop spans training, test-time reasoning, adaptive decision-making, and agentic tool use, with utility and cost defined by the application. Under ideal screening and equal execution costs, execution compute falls by a factor approaching 1/ρ_u, where ρ_u is the density of utility-relevant interactions (cost-weighted when costs differ); prediction errors, exploration, and distribution shift reduce the saving. We bound selection regret by predictor error and the utility margin. These results motivate our central hypothesis: ρ_u is a measurable coordinate of scaling efficiency and makes informative compute a better description of scaling than total compute.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.39497",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:e49f46b109f6",
+      "source": "news",
+      "title": "The agentic web is here",
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous software agents that could address our every…",
+      "score": 85.0,
+      "created_at": "2026-11-02T09:35:19+00:00",
+      "raw_text": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web” : an internet designed to be navigated by autonomous software agents that could address our every need, without requiring us to muck about with browsers and search engines ourselves. To illustrate what this might look like, Berners-Lee and his colleagues told a story about a pair of siblings who use their agents to automatically research and book a physical therapy appointment for their mother, making sure it would be covered by insurance and fit their busy calendars. At the turn of the millennium, this vision seemed far-fetched: Google had only been online for a couple of years, and most people were still on dial-up connections. But a quarter-century on, the dream of autonomous software agents that use the internet and carry out tasks for us has finally been realized. New tools such as Meta’s blockbuster Muse agent and OpenAI’s Dots are logging record downloads and being given access to people’s bank accounts and email inboxes, and Anthropic launched a research preview of its own Claude Duet agent in October. And in a worrying incident, agents created by OpenAI broke free of their badly protected sandbox and caused havoc on the open web. Just as the rise of smartphones sparked the development of a more atomized and attention-grabbing internet, the advent of powerful AI systems heralds a new era: We’re facing not the semantic web but the agentic web. This new web is developing out of sight and in ways that might not be entirely within our control. As it grows, the agentic web will inevitably transform the human web—and whether the human web survives this transition is anyone’s guess. For Berners-Lee’s original vision to work, internet users would have had to annotate the pages they built with special tags so that a software agent could understand each element’s meaning—say, “street address” for the part of a physical therapy office’s web page that indicates its location and “appointment types” for the list of services. And so the idea never really caught on. “It’s a lot of labor,” says Eni Mustafaraj, an associate professor of computer science at Wellesley College. “And the benefits of that were not obvious.” For the next two decades, then, the internet remained a place for humans that put humans first, with the odd Twitter reply bot or web scraper to round things out. Large language models changed that. Unlike the agents that Berners-Lee was imagining, today’s LLM-based agents don’t need any tags to understand which part of the text on a clinic’s site is its address and which details the services it offers. They can search for and process text far faster than any human, and agents with multimodal capabilities can even interpret screenshots of websites and click on specific elements such as hyperlinks and d…",
+      "extra": {
+        "outlet": "MIT Technology Review",
+        "weight": 0.85,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.22740",
+      "source": "huggingface",
+      "title": "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+      "url": "https://huggingface.co/papers/2610.22740",
+      "summary": "In recent years, agentic orchestration has been widely applied to solve complex human tasks. However, existing orchestration learning still faces key challenges, including hand-designed curricula, advantage collapse when a task's rollouts all reach the same outcome, and unreliable evaluation signals that judge each skill by one noisy score. To address these challenges, we propose R^2Orch, a new paradigm of Recursive Self-Play Orchestration: an inner loop of self-play that improves the orchestra…",
+      "score": 41.0,
+      "created_at": "2026-11-02T00:00:00.000Z",
+      "raw_text": "In recent years, agentic orchestration has been widely applied to solve complex human tasks. However, existing orchestration learning still faces key challenges, including hand-designed curricula, advantage collapse when a task's rollouts all reach the same outcome, and unreliable evaluation signals that judge each skill by one noisy score. To address these challenges, we propose R^2Orch, a new paradigm of Recursive Self-Play Orchestration: an inner loop of self-play that improves the orchestrator on self-chosen tasks, and an outer loop that improves how the inner loop improves. To support this paradigm, we introduce Recursive Learnability, a training objective that rewards a Proposer for choosing tasks whose rollouts keep reaching different outcomes as skills are withdrawn. Built on this objective, we further propose Skill Withdrawal, in which the outer loop withdraws each skill once a controlled evaluation within self-play shows that the orchestrator performs as well without it. Moreover, the two loops form one cycle: failures are distilled into skills, skills into parameters, and withdrawals lead the Proposer to new failures, so the orchestrator moves toward zero-skill deployment. Experimental results on twelve datasets show that R^2Orch consistently outperforms baselines across question answering, math, code, and interactive tasks. Our code is available at https://github.com/beita6969/R2Orch.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.22740",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50330456",
       "source": "hackernews",
-      "title": "Anthropic blocks users for anything touching training larger models",
-      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
       "summary": "",
-      "score": 344.0,
-      "created_at": "2026-10-31T19:39:19+00:00",
+      "score": 225.0,
+      "created_at": "2026-11-01T22:10:45+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50319358",
-        "num_comments": 196,
+        "discussion_url": "https://news.ycombinator.com/item?id=50330456",
+        "num_comments": 223,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50323088",
+      "source": "hackernews",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "summary": "",
+      "score": 375.0,
+      "created_at": "2026-11-01T06:06:19+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50323088",
+        "num_comments": 290,
         "coverage": 0
       }
     },
@@ -39,54 +97,67 @@
       "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
       "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
       "summary": "",
-      "score": 220.0,
+      "score": 440.0,
       "created_at": "2026-10-31T22:46:12+00:00",
       "raw_text": "",
       "extra": {
         "discussion_url": "https://news.ycombinator.com/item?id=50320995",
-        "num_comments": 107,
+        "num_comments": 213,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50316531",
+      "id": "hf:2610.36545",
+      "source": "huggingface",
+      "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+      "url": "https://huggingface.co/papers/2610.36545",
+      "summary": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-target relationships vary substantially across generation tasks, while video models naturally encode vis…",
+      "score": 24.0,
+      "created_at": "2026-11-02T00:00:00.000Z",
+      "raw_text": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-target relationships vary substantially across generation tasks, while video models naturally encode visual transformations at different temporal scales. This motivates us to model conditional generation through input-adaptive virtual temporal relations. We propose FrameForge, which captures two complementary aspects of such relations. Mixture of Temporal Experts (MoTE) models how far the target lies from the condition by dynamically selecting temporal RoPE experts with different virtual intervals. Chain of Temporal Reasoning (CoTR) models how the condition is transformed into the target through a latent intermediate state, with a reasoning-bottleneck attention mask encouraging information propagation through this pathway. Experiments on DreamBench, COCO2017, and GEdit-Bench show that FrameForge achieves superior performance in subject-driven generation, canny-to-image generation, and image editing among the compared methods.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.36545",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2610.40339",
+      "source": "huggingface",
+      "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+      "url": "https://huggingface.co/papers/2610.40339",
+      "summary": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings and predefined motion patterns, generalize poorly to unseen environments and characters, and offer…",
+      "score": 22.0,
+      "created_at": "2026-11-02T00:00:00.000Z",
+      "raw_text": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings and predefined motion patterns, generalize poorly to unseen environments and characters, and offer limited real-time interactivity. In this paper, we introduce Wizard, an agentic game world model that enables real-time, precise control over character motions while generalizing zero-shot across novel scenes, characters, and actions. To achieve this, we construct a diverse dataset spanning 750 scenes and 178 characters, incorporating skeleton and geometry information as structured representations. We leverage these representations as intermediate proxies to condition a video generation model, together with an adaptive masking mechanism that improves alignment between the conditioning signals and generated video rollouts. Furthermore, we introduce an agentic framework that explicitly maintains and updates game states, allowing players to freely configure their virtual worlds and exercise fine-grained control over character motions while preserving visual quality and gameplay consistency. By combining agentic control with structured proxy-based generation, our framework unlocks new possibilities for player-driven game creation with real-time, generalizable, and mechanically consistent world simulation.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2610.40339",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50328488",
       "source": "hackernews",
-      "title": "Malware uses LLMs to rank victims by how much they're worth",
-      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "title": "It wasn't AI that flipped Proton's charge",
+      "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
       "summary": "",
-      "score": 248.0,
-      "created_at": "2026-10-31T14:29:03+00:00",
+      "score": 157.0,
+      "created_at": "2026-11-01T18:53:55+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50316531",
-        "num_comments": 131,
+        "discussion_url": "https://news.ycombinator.com/item?id=50328488",
+        "num_comments": 88,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50318871",
-      "source": "hackernews",
-      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
-      "summary": "",
-      "score": 170.0,
-      "created_at": "2026-10-31T18:50:34+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50318871",
-        "num_comments": 183,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:89c6cb6d2971",
+      "id": "news:33c086ca1438",
       "source": "news",
-      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
-      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
       "score": 80.0,
-      "created_at": "2026-10-31T21:41:00+00:00",
-      "raw_text": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "created_at": "2026-11-01T21:55:23+00:00",
+      "raw_text": "Data centers are deeply unpopular. But what if we called them something else?",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -94,14 +165,14 @@
       }
     },
     {
-      "id": "news:cefcb0bd2478",
+      "id": "news:0ae10264665c",
       "source": "news",
-      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
-      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
-      "summary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
       "score": 80.0,
-      "created_at": "2026-10-31T21:36:07+00:00",
-      "raw_text": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "created_at": "2026-11-01T20:57:58+00:00",
+      "raw_text": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -109,106 +180,37 @@
       }
     },
     {
-      "id": "news:bc398a80a0df",
+      "id": "news:eed9b68d54d4",
       "source": "news",
-      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+      "summary": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry.",
       "score": 80.0,
-      "created_at": "2026-10-31T21:17:03+00:00",
-      "raw_text": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "created_at": "2026-11-01T10:30:00+00:00",
+      "raw_text": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry.",
       "extra": {
-        "outlet": "TechCrunch",
+        "outlet": "Wired",
         "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.36671",
-      "source": "huggingface",
-      "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
-      "url": "https://huggingface.co/papers/2610.36671",
-      "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step. To measure how often the image is actually needed, we compar…",
-      "score": 100.0,
-      "created_at": "2026-10-30T00:00:00.000Z",
-      "raw_text": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step. To measure how often the image is actually needed, we compare LLaDA-V's predictions with and without the image at every decoding step and find that removing the image changes a token being unmasked at only 22.8% of steps on average and at as few as 7.9%. We therefore propose LOWN, a decoding method that decides at every step whether to process the image and how many tokens to unmask. LOWN predicts the masked tokens without the image and processes the image only when this prediction disagrees with the last image-conditioned prediction. Agreement certifies the earlier prediction for reuse, and the number of certified tokens sets how many are unmasked in that step. We further observe that the need for the image differs across benchmarks, so LOWN's adaptive decision is needed rather than a fixed schedule. Without training or a tuned threshold, LOWN retains 99.6% of LLaDA-V's score on ten benchmarks at 35.3% of the decoding FLOPs on average. LOWN also generalizes across LLaDA-based DVLMs, composes orthogonally with visual token pruning, and runs under key-value caching for further efficiency gains. Code and project page are available at https://hyeon9698.github.io/LOWN/",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.36671",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:344dcf79744a",
-      "source": "news",
-      "title": "OpenAI reportedly lowers funding target for new round",
-      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-      "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
-      "score": 80.0,
-      "created_at": "2026-10-31T16:12:55+00:00",
-      "raw_text": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:ed0268fa6e32",
-      "source": "news",
-      "title": "I built an AI Tamagotchi before Meta could",
-      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
-      "score": 80.0,
-      "created_at": "2026-10-31T16:05:00+00:00",
-      "raw_text": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home . It cost just $50, and I've decided the learning experience was worth it. View Link My version doesn't sport cameras or a 5G cellular radio , but it really talks to Muse and has cute avatars, too! It doubles as a pocket watch and a remote camera viewfinder, and it can (theoretically) control my smart home. Or at least it can if you inject a lot of extra vibe code. Weeks … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:d66aef25dede",
-      "source": "news",
-      "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
-      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
-      "summary": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance warning. The article Anthropic's watermark rollout leaves a loophole on two older Claude models appeared first on The Decoder .",
-      "score": 75.0,
-      "created_at": "2026-10-31T19:20:55+00:00",
-      "raw_text": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance warning. The article Anthropic's watermark rollout leaves a loophole on two older Claude models appeared first on The Decoder .",
-      "extra": {
-        "outlet": "The Decoder",
-        "weight": 0.75,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.39301",
-      "source": "huggingface",
-      "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
-      "url": "https://huggingface.co/papers/2610.39301",
-      "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text reading, encodes all modalities with shared weights in a unified space-time coordi…",
-      "score": 72.0,
-      "created_at": "2026-10-30T00:00:00.000Z",
-      "raw_text": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text reading, encodes all modalities with shared weights in a unified space-time coordinate system, and a few fusion layers let video frames attend to concurrent audio, bringing cross-modal fusion and temporal alignment into perception itself. OmniSchema unifies the outputs of all ten parsing tasks, allowing a single self-evolving post-training procedure, OmniSchema-Aware On-Policy Distillation (OSAD), to provide a shared token-role-based objective across tasks. In each round, the model is trained on its own rollouts against token-level targets from a reference-conditioned copy of itself, which is then refreshed with the trained weights, so that the parser and its supervision co-evolve. With a single 5 B-parameter checkpoint, Youtu-Parsing-Omni achieves state-of-the-art performance on OmniDocBench v1.6 (96.96 Overall) and leads all open-weight models on OmniParsingBench (75.08 Avg.), with its advantage concentrated on audio and video. It also achieves the best overall chart-parsing score (95.02) and the highest exact chemical-fingerprint agreement among compared systems, and matches a dedicated optical-music model in character-level transcription of typeset sheet music while staying far ahead of general-purpose systems. Code and model weights are publicly available.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.39301",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Malware uses LLMs to rank victims by how much they're worth\n\nArticle text (excerpt):\nThere is a new idea in the cybercrime world — cast a wide net, steal everything, and let AI sort out the specifics. A new malware self-named “VOLTA-AUTODOXER,” surfaced through the CAIRN research effort , is a self-deleting Windows infostealer that augments its post-theft workflow with an LLM-powered victim-profiling stage.\nAfter harvesting the standard stealer haul, including browser passwords; cookies; payment cards; cryptocurrency wallet seed phrases; Discord, Telegram, Steam, and Roblox sessions; Microsoft OAuth tokens; SSH and cloud-provider keys; Wi-Fi profiles; and screenshots, VOLTA builds a structured evidence bundle about the person behind the machine. This bundle contains geolocation and home address, employer and employer domain, inferred birth year, card last-4 digits, Slack workspaces, document authorship metadata, iPhone backup indicators, and a live Roblox account valuation. It then uses stolen session access to enrich that bundle further: searching the victim's Gmail for purchase receipts to corroborate a home address, pulling UberEats and DoorDash order history, and enriching Discord accounts via the stolen token.\nThe bundle is serialized and POSTed to OpenRouter under a system prompt that instructs the model to act as \"a forensic intelligence analyst drafting a target assessment.\" The required output includes a section titled “WHAT THEY'RE WORTH” with valuables ranked by monetization with a low/medium/high tier, and a section on “THEIR OPSEC” containing an assessment of the victim's security posture and password hygiene. The model is the operator's triage analyst; it turns a raw credential log into a prioritized and citation-backed dossier of the victim and their monetizable assets.\nVOLTA uses a multi-model architecture to fall back resiliently if it hits a model’s refusal, checking each response for phrases like “I can’t” or “I’m not able,” before passing on to a chain of up to three models.\nModel temperate controls the randomness and predictability of LLM-generated text. The low hardcoded temperature value (0.2) suggests the attacker is emphasizing accuracy and consistency. The malware also employs a chain of cascading models in the event of failures. This multi-model architecture suggests that the operator is anticipating encountering refusals, with the fallback pivoting to a few, smaller, and more permissive models.\nThe system prompt directly reveals the operator’s use case: Produce a concise analytical assessment of the victim’s suitability as a target, backed by an auditable trail of citations.\nThe prompt also asks for something out of the ordinary, but that agents excel at: making connections between sparse and disparate data. For example, encouraging connections like the victim’s names, addresses, or universities to patterns in their passwords. In this case, the model isn't being asked to find data; rather, it’s being asked to stretch the data and make useful inferences that extend the value of what has been scraped.\nVOLTA’s capabilities are directly aligned with the records produced in modern digital life, and well beyond basic credential theft. In a single pass, the stealer can extract browser credentials, cookies, and saved payment cards across Chromium-based browsers. It hits Firefox and Thunderbird, Outlook profiles, Slack workspaces, Steam and Battle.net sessions, Discord tokens, Telegram sessions, Roblox accounts, and SSH and cloud-provider config files (gcloud, OpenVPN, Hide.me). VOLTA doesn’t just copy cryptocurrency wallets, but runs an embedded cracker against the vault inline, writing the result to a WALLET VAULTS CRACKED line in its own report.\nEvery saved Wi-Fi password on the machine is pulled via a direct call to WlanGetProfileList and dumped to plaintext.\nWhat really sets VOLTA apart from commodity stealers is what comes after the initial collection. There is a live enrichment pass that leverages stolen sessions to deep dive the victim’s data. For example, using the victim's own authenticated Gmail tokens, it queries their inbox for receipts from Amazon, DoorDash, Uber Eats, Grubhub, Walmart, and PayPal, then review those receipts to establish a confirmed home address. Stolen Uber Eats and DoorDash sessions are called directly for order history. The Discord token is re-used to enrich the victim's account profile. Roblox inventory is valued via a live “Rolimons[.]com” lookup.\nAfter the collection and enrichment stages are complete, the data is assembled and structured locally in a file called “Identity_Report.txt”. This file is serialized into a bundle as JSON and POSTed to OpenRouter along with the system prompt. The returned payload is received as “AI_Analysis.txt”. Both files exfil together in “volta_dox.zip”.\nThe inference round-trip happens entirely through the victim's own network connection, on their own machine, before the result is exfiltrated.\nInstead of hardcoding its Telegram channel, API keys, and settings directly into the code (which is likely what someone writing a tool for personal use would do) VOLTA uses a template with six swappable slots, filled in at build time.\nThis suggests it’s a builder model: The author sells access, the customer provides their values, and the builder compiles a custom binary for each order. The credentials in those slots are encrypted, but not in a meaningful way. The key is SHA-256 of two constants sitting in the same binary, but it's presumably there because customers expect their API keys not to be sitting in plaintext, not because it provides real protection. Anyone who reverses the file can recover them.\nIf VOLTA is indeed a commoditized malware, then the AI dossier capability isn't something the author invented for their own operations. It is a feature which enables a customer of any level of sophistication to point it at victims and start receiving ranked target assessments in their Telegram inbox.\nAll the observed endpoints for this malware are third-party controlled. There is no actor-owned infrastructure.\nMuch of the token-stealing capability of VOLTA relies on techniques to bypass App-Bound Encryption (ABE) in Chrome. An application control policy that restricts which processes may launch Chrome with --headless would block the ABE decryption path entirely. At minimum, you can also alert when Chrome is launched with --headless from any process not in a known developer. Best practices for storing credentials in hardware backed stores also apply.\nIn the event of compromise, the main executable may have deleted itself, but users should attempt to preserve the “APPDATA%\\volta_debug.txt” file. This is a timestamped harvest log and contains a record of exactly what was collected and whether the LLM call succeeded. Revoke any potentially compromised tokens and change passwords. For cryptocurrency wallets, if the seed phrase was in plaintext on disk, treat the wallet as fully compromised and migrate funds to a new wallet with a seed generated on an air-gapped device.\nVOLTA is a mature stealer with a late-stage AI layer added for one purpose: relieving the operator of analytical work. The axis of AI improvement here is not speed or scale but effort displacement; the same logic visible in CLOSEDQUORUM , though applied to a different phase. These implants reflect the same underlying logic: Identify the step that requires the most sustained human attention and replace it with a model call. The question for defenders is not whether this pattern will appear elsewhere, but which phase it touches next.\nThe second trend to watch is the anticipation of hitting model refusals, and the approaches to building in resiliency. In this case, it includes a fallback chain from Claude to Kimi to Gemini and the ability to run without the LLM stage altogether if no key is present. As AI integration in malware matures, refusal resilience may become a standard design requirement.\nThe open question underlying both trends is whether effort displacement in crimeware changes the landscape in a meaningful way: lowering the operational floor, raising the ceiling on scale, or both. Cybercrime operations have always been opportunistic, and the sophistication bar has always been lower than assumed, but there is a difference between a wide net and a wide net that sorts itself.\n\nA top reader comment on Hacker News (opinion, not fact):\nGood. LLMs aren't very good at that.",
-  "research_links": [],
-  "source_credit": "blog.talosintelligence.com",
-  "source_tag": "via blog.talosintelligence.com",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAPEaucIpz42gKCu4RQh64K5VTgfrYQAAugUaxuxuzhXL-pciFRbmmcBAAMCAAN5AAM9BA",
-  "text": "A new Windows malware uses LLMs to rank victims by net worth.\n\nIt queries your Gmail for order receipts just to confirm your real home address.\n\nThe AI is not doing the hacking.\n\nAfter collecting passwords, cookies, and crypto wallets, the stealer VOLTA builds an evidence bundle.\n\nIt posts the raw data to OpenRouter under a prompt instructing the model to act as a forensic analyst.\n\nThe model returns a report with two specific sections:\n• WHAT THEY'RE WORTH: categorizing assets into low, medium, or high tiers\n• THEIR OPSEC: assessing password hygiene and overall security posture\n\nIf a model hits a refusal phrase like \"I'm not able\", VOLTA automatically cascades through up to three fallback models.\n\nThe entire inference call happens through the victim's own internet connection.\n\nThe attacker does not maintain server infrastructure. They just receive a completed dossier in Telegram.\n\nMy read: the critical shift here is effort displacement.\n\nCybercriminals used to spend hours manually sorting credential dumps to spot wealthy targets. Now, a cheap API call does the triage.\n\nThe catch: these details come from a single security report by Talos Intelligence on an unverified malware sample.\n\nHas your organization alerted on headless browser execution yet?\n\nSource: blog.talosintelligence.com",
-  "alt_openings": "**Bare number first**\nLine 1: 3 fallback AI models stand ready inside a new infostealer.\nLine 2: If the primary LLM refuses to evaluate stolen victim data, the malware passes the prompt to the next one in line.\n*When to prefer:* Use when speaking to technical leaders, engineers, or security practitioners interested in model resilience mechanisms.\n\n**Story in motion**\nLine 1: A Windows malware executable just ran an LLM query through its victim's network.\nLine 2: It scraped browser cookies, queried Gmail for Uber Eats receipts, and asked the model to draft a target evaluation.\n*When to prefer:* Use when you want a narrative, case-study feel that drops the reader directly inside a live intrusion event.\n\n**Your X**\nLine 1: Your stolen Gmail cookies might soon be parsed by an AI target analyst.\nLine 2: A new stealer feeds purchase histories into LLMs to calculate how much cash you are worth to a hacker.\n*When to prefer:* Use when targeting a broader management or executive audience where personal relevance drives higher engagement.\n\nPick: The primary opening (\"Tool as subject\"). It states the concrete threat immediately in line 1 and uses the real-world Gmail tracking hook in line 2 to pull non-technical readers past \"see more\".",
+  "context": "Title: AI delivers 'zero financial payoff' to most companies, Apollo economist says\n\nArticle text (excerpt):\nAI hasn’t benefited the bottom line of any big corporations outside the tech industry, according to a note recently published by the chief economist at Apollo Global Management (the private equity giant that used to own TechCrunch).\nApollo’s Torsten Slok focuses on what he calls the S&P 493 — the S&P 500, minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia, and Tesla — finding that profit margins and revenue per worker appear to be flat, with no evidence that AI is improving productivity.\n“Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech,” Slok said.\nIs this simply a matter of non-tech companies lagging behind the tech giants? Slok sounded skeptical, arguing that it will be tough for corporate America to “turn increasingly cheap intelligence into higher revenue growth and higher profit margins.”\n“AI may be a great calculator, but in business, intelligence is mostly judgment,” he wrote, later adding, “AI does not understand accountability, trust, culture, unwritten rules, ethical trade-offs or fairness, all of which shape reputational risk and ultimately drive revenue growth and profit margins.”\nRecent studies have also found that AI has yet to deliver significant productivity gains .\nBuy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires\n\nA top reader comment on Hacker News (opinion, not fact):\nBig discussion last week (653 points, 698 comments) https://news.ycombinator.com/item?id=50224463\n\nResearch notes on: Apollo chief economist Torsten Slok released a study showing AI provides zero financial payoff to non-tech S&P 500 companies.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from The Motley Fool on MSN: \"Is AI overhyped? Apollo economist sees zero financial payoff beyond tech companies\"\nAI seems to be a good business for the Magnificent Seven, but maybe not for other companies.\n\nCoverage from Yahoo Finance: \"Apollo's Torsten Sløk: AI has provided 'zero financial payoff' to non-tech companies\"\nApollo Global Management's chief economist, Torsten Sløk, published a note on the questionable ROI of the AI boom. The 8:30 Hosts Julie Hyman, Pras Subramanian, and Jake Conley discuss the details.\nDisclosure: Yahoo is a portfolio company of funds managed by affiliates of Apollo Global Management.\nsome really interesting research from Apollo Global Management's Torsten Slok, the chief economist over there coming out this weekend. I just want to read the very first sentence of the note he published. He says and I quote, despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to Corporate America outside of tech. That is a pretty damning statement, especially considering and you and I were talking about this this morning, Julie.\nA lot of Torsten's research has been more on the side of business is booming. Private businesses are popping up because people are enabled by AI. Uh we see adoption rates, but there's a few good stats that um that he comes out with. 55% of um of these companies and some of this is also coming from a a survey we got from Cloud Era. 55% of companies surveyed have seen increased AI investment. Only 23% say value exceeds cost.\n58% say value is roughly equal to cost. and only and and 19% say cost exceeds value, which is kind of the bare case here. So you you're seeing the the split here. Yes, there's a lot of money getting spent by the hyper scalers. There's a lot of hope that all this is going to generate huge returns for all the businesses who are going to adopt this. and then you see the bills that these enterprise companies are having to pay. This is what Torsten's pointing out.\nThis is what the cloud era survey survey is pointing out. You're spending so much, what are you getting for it?\nYeah, I mean that cloud era survey was interesting to that point because it also found um 89% of those surveyed have limited or redesigned AI use cases because of rising token consumption. So there is this cost sensitivity to this. There is this idea that a lot of enterprises are not necessarily using the most premium models from Anthropic and Open AI. They are rather using open weight models, for example, that cost them less or they, you know, and this is something that's been discussed like for the most premium cases, for the most sophisticated stuff you need to do, you'll spend the money but like most stuff you don't need or even within Anthropic and Open AI, you can use th\n\nCoverage from CFO.com: \"Apollo exec says AI has ‘zero financial payoff’ beyond tech sector\"\nThough the artificial intelligence boom has helped lift the stocks of a few tech giants, it’s done little for other S&P 500 firms, argues Apollo Chief Economist Torsten Slok.\nIs anyone outside the tech sector actually benefiting from the artificial intelligence boom? A new report by a partner from Apollo Global Management raises questions about the nascent technology’s impacts on the wider economy.\nIn a blog published Oct. 24 , Torsten Slok, partner and chief economist at Apollo, argued that AI has “delivered zero financial payoff to corporate America outside of tech.” Only the so-called “Magnificent Seven,” a group of high-profile tech stocks including Nvidia, Amazon and Meta, are seeing rising revenue per worker and profit margins, Slok wrote, noting that both metrics are trending flat for the remainder of the S&P 500 companies.\n“With no impact on the bottom line, mainstream corporate America is pulling back and starting to view token spending not as a source of growth but as a cost center that weighs on margins,” Slok wrote. “As long as agentic AI and token spending are confined to a small part of the economy, the macroeconomic effects of AI will be very limited.”\nSlok’s report came amid continuing fears of a potential economic “bubble” in the AI space alongside concerns about the circular nature of deals among the Magnificent Seven companies. One economist at a recent CFO gathering in Colorado even suggested that the U.S. economy would essentially be in an economic recession if it were not for the massive sums of money being invested in the AI industry.\nThe Apollo blog also came just days before frontier AI company Anthropic issued its S-1 document to go public with the Securities and Exchange Commission. Though that filing showed a rapid increase in revenue for the young company, it also revealed massive losses surpassing $80 billion for the first half of 2026.\nSlok’s essay was surprising to see from Apollo, a global investment firm that itself has funded several AI-related initiatives. Just one day after Slok’s essay came out, for instance, Elon Musk announced that his company SpaceX has signed a multibillion-dollar chip financing commitment with Apollo.\nGoing forward, Slok wrote, the lingering question is whether “mainstream corporate America can turn increasingly cheap intelligence into higher revenue growth and higher profit margins.”\n“AI may be a great calculator, but in business, intelligence is mostly judgment. Judgment depends on context, and \n\nBackground (People v. Anderson, Wikipedia):\nThe People of the State of California v. Robert Page Anderson, 493 P.2d 880, 6 Cal. 3d 628, was a landmark case in the state of California that outlawed capital punishment for nine months until the enactment of a constitutional amendment reinstating it, Proposition 17.",
+  "research_links": [
+    "https://www.msn.com/en-us/money/general/is-ai-overhyped-apollo-economist-sees-zero-financial-payoff-beyond-tech-companies/ar-AA2gdqgu",
+    "https://finance.yahoo.com/video/apollos-torsten-sl%C3%B8k-ai-has-provided-zero-financial-payoff-to-non-tech-companies-131603373.html",
+    "https://www.cfo.com/news/apollo-exec-says-ai-has-zero-financial-payoff-beyond-tech-sector/872795/"
+  ],
+  "source_credit": "techcrunch.com, with reporting from The Motley Fool on MSN and Yahoo Finance",
+  "source_tag": "via techcrunch.com",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAPJauheAbhwv-OMC4GmGnuduMsrOEoAArESaxuFMUFXdqnOxg_UpbMBAAMCAAN5AAM9BA",
+  "text": "Strip the 7 major tech giants out of the S&P 500.\n\nFor the remaining 493 companies, AI spending has produced zero financial payoff.\n\nThe numbers explain why.\n\nApollo Global Management's chief economist, Torsten Slok, tracked profit margins and revenue per worker across the S&P 493. Outside of big tech, both metrics remain flat.\n\nCompanies are buying tokens, running pilots, and writing checks. They are not making more revenue.\n\nA survey of enterprise buyers shows what is happening on the ground:\n• 55% of companies increased their AI spending\n• 23% say the financial value actually exceeds the cost\n• 89% had to limit or redesign projects due to rising token bills\n\nInstead of driving growth, software spending is turning into a cost center that weighs down profit margins.\n\nSlok puts the core problem simply: AI is a great calculator, but business is mostly judgment. Current models do not understand context, accountability, trust, or unwritten rules.\n\nMy read: tech suppliers are making billions selling raw intelligence, but mainstream businesses cannot turn cheap tokens into higher margins without judgment.\n\nUntil software masters human context, the return on investment stays with the companies selling the chips and cloud space.\n\nWhich department in your company is actually getting a financial return from model usage?\n\nSource: techcrunch.com, with reporting from The Motley Fool on MSN and Yahoo Finance",
+  "alt_openings": "Option 1: Bare number first\nLine 1: 493 companies in the S&P 500 show zero financial payoff from AI.\nLine 2: Across the entire index outside seven tech giants, profit margins remain flat.\nWhen to prefer: Use when writing for finance professionals and executives who react immediately to market index benchmarks and hard capital efficiency stats.\n\nOption 2: Tool as subject\nLine 1: Enterprise AI models are failing to increase profit margins outside the tech sector.\nLine 2: A major Wall Street firm found that corporate token spending is acting as a net cost center.\nWhen to prefer: Use for operations and engineering leaders who want a direct statement about software performance rather than macro market metrics.\n\nOption 3: Your X\nLine 1: Your company's growing AI budget is likely shrinking your profit margins.\nLine 2: Outside seven big tech suppliers, corporate buyers report almost no net financial return.\nWhen to prefer: Use when targeting budget holders, founders, and department heads who need a direct call to audit their own internal software expenses.\n\nPick: Option 1. Leading with the stark count of 493 companies creates immediate curiosity about who is failing, frames the economic scale instantly, and makes it impossible for an executive to scroll past without checking the cause.",
   "voice_score": 4,
   "firewall_notes": [],
-  "headline": "How malware uses LLMs to calculate victim net worth",
+  "headline": "Why 493 S&P companies see zero AI payoff",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-01.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-02.png"
 }
