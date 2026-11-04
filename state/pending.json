@@ -1,122 +1,91 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-03",
-  "created_at": "2026-11-03T15:27:34.000622+05:30",
+  "date": "2026-11-04",
+  "created_at": "2026-11-04T15:15:46.336523+05:30",
   "candidate": {
-    "id": "news:8402594bed24",
+    "id": "news:b121628aeba0",
     "source": "news",
-    "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-    "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
-    "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+    "title": "Google will let schools skip AI tools, but they have to give up search, too",
+    "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+    "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
     "score": 80.0,
-    "created_at": "2026-11-02T19:19:17+00:00",
-    "raw_text": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+    "created_at": "2026-11-03T17:54:43+00:00",
+    "raw_text": "While Google is trying to move beyond Chromebooks , the ubiquity of these devices has made the company's education products huge in schools. Now, Google says it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision. Google's new overarching approach to AI in K-12 classrooms sounds good on the surface. After consulting educators, researchers, and lawmakers, Google has decided that schools using its education products will be opted out of AI tools by default. It will be up to administrators to manually enable them when these changes roll out in the coming months. When you look at what Google considers to be an AI tool, the nature of the Faustian bargain becomes clear. The affected products are Gemini, Gemini Notebook, Gemini in Classroom, and Google Search . There's no picking and choosing—you either allow all the AI or none of it. Read full article Comments",
     "extra": {
-      "outlet": "TechCrunch",
+      "outlet": "Ars Technica",
       "weight": 0.8,
       "coverage": 1
     }
   },
   "shortlist": [
     {
-      "id": "hn:50344919",
-      "source": "hackernews",
-      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-      "summary": "",
-      "score": 351.0,
-      "created_at": "2026-11-02T22:30:47+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50344919",
-        "num_comments": 258,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:8402594bed24",
+      "id": "news:b121628aeba0",
       "source": "news",
-      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
-      "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "title": "Google will let schools skip AI tools, but they have to give up search, too",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+      "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
       "score": 80.0,
-      "created_at": "2026-11-02T19:19:17+00:00",
-      "raw_text": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "created_at": "2026-11-03T17:54:43+00:00",
+      "raw_text": "While Google is trying to move beyond Chromebooks , the ubiquity of these devices has made the company's education products huge in schools. Now, Google says it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision. Google's new overarching approach to AI in K-12 classrooms sounds good on the surface. After consulting educators, researchers, and lawmakers, Google has decided that schools using its education products will be opted out of AI tools by default. It will be up to administrators to manually enable them when these changes roll out in the coming months. When you look at what Google considers to be an AI tool, the nature of the Faustian bargain becomes clear. The affected products are Gemini, Gemini Notebook, Gemini in Classroom, and Google Search . There's no picking and choosing—you either allow all the AI or none of it. Read full article Comments",
       "extra": {
-        "outlet": "TechCrunch",
+        "outlet": "Ars Technica",
         "weight": 0.8,
         "coverage": 1
       }
     },
     {
-      "id": "news:262cfa35f430",
-      "source": "news",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "score": 100.0,
-      "created_at": "2026-11-02T18:00:00+00:00",
-      "raw_text": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:6fd6ad7938fa",
-      "source": "news",
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "score": 100.0,
-      "created_at": "2026-11-02T18:00:00+00:00",
-      "raw_text": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:de4cf53f9db9",
-      "source": "news",
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "score": 100.0,
-      "created_at": "2026-11-02T15:30:00+00:00",
-      "raw_text": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50339494",
+      "id": "hn:50354960",
       "source": "hackernews",
-      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
       "summary": "",
-      "score": 325.0,
-      "created_at": "2026-11-02T16:40:29+00:00",
+      "score": 1269.0,
+      "created_at": "2026-11-03T17:22:37+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50339494",
-        "num_comments": 249,
+        "discussion_url": "https://news.ycombinator.com/item?id=50354960",
+        "num_comments": 424,
         "coverage": 0
       }
     },
     {
-      "id": "news:19244c7aa206",
+      "id": "news:7b04a568c5ad",
       "source": "news",
-      "title": "Introducing the Grid Protectors Program",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
       "score": 100.0,
-      "created_at": "2026-11-02T15:00:00+00:00",
-      "raw_text": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "created_at": "2026-11-03T17:01:49+00:00",
+      "raw_text": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "extra": {
+        "outlet": "Google DeepMind",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.05275",
+      "source": "huggingface",
+      "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+      "url": "https://huggingface.co/papers/2611.05275",
+      "summary": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable cand…",
+      "score": 74.0,
+      "created_at": "2026-11-04T00:00:00.000Z",
+      "raw_text": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable candidate for each task while balancing performance and computational cost? In this work, we present Route Anything, a unified framework for studying model and policy routing across general-purpose AI systems. We develop a unified theoretical foundation that characterizes optimal routing under quality--cost trade-offs and establishes how the information available to a router determines its attainable performance. To systematically investigate routing across diverse capabilities, we first construct an omni-modal trajectory matrix spanning 25 benchmarks across language understanding, image, video, and speech generation, coding and workplace agents, and robotic manipulation, comprising 374,401 scored runs from 452 candidate configurations. Building on this framework, we train and test different routers to investigate the potential of omni-modal model routing, the capabilities of learned routers, and the conditions under which routing improves efficiency. Our results reveal substantial opportunities for capability orchestration: per-input oracle routing outperforms the best fixed candidate by 5.4 points, and learned routers outperform it by 0.3 points across 16 benchmarks, by 2.1 points on video generation, and by 1.1 points on robot manipulation while using 24% less policy time. More importantly, routing raises efficiency by 8.82x on average compared with the reference model.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.05275",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:26c6032e1d26",
+      "source": "news",
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "score": 100.0,
+      "created_at": "2026-11-03T12:00:00+00:00",
+      "raw_text": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -124,32 +93,76 @@
       }
     },
     {
-      "id": "news:bdefad5dcd98",
+      "id": "news:a2357e701f02",
       "source": "news",
-      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
-      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…",
-      "score": 85.0,
-      "created_at": "2026-11-03T04:18:47+00:00",
-      "raw_text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That term beat out other contenders, including “Extreme Intelligence” and “Supreme Intelligence,” offered by the president in a poll on X a couple of weeks earlier. Rebrands are, of course, now a White House tradition: Trump has changed names to project US dominance of certain bodies of water (the Gulf of America and Lake America), to signal new institutional priorities (Department of War), or simply to leave his mark on storied places (see the ongoing fight over renaming the Kennedy Center). The stated reason for this name change is that today’s AI systems “amplify human ingenuity” rather than merely “imitate” intelligence, and the government’s terminology should reflect that. But if this rebrand follows the pattern of others, its effects will extend beyond government. It will turn a choice of words into a political loyalty test: Those who use the new term demonstrate allegiance to the administration, and those who don’t become marks for attacks (recall that the Trump administration barred the Associated Press from some White House press events after the news outlet did not adopt the term “Gulf of America”). But most Americans go months without ever pondering what to call the major lake between New York and Canada. AI, on the other hand, is at the center of our national conversation and a technology two-thirds of Americans report interacting with multiple times a week. It might be the boldest rebrand yet. So one month in, who’s on board? Let’s start with the government itself. The term “Super Intelligence”—or simply “SI”—now appears more often on government solicitations, like a new request by Immigration and Customs Enforcement for companies to build “SI-powered” surveillance for ICE detention facilities. The new term has been swapped in silently on most government websites. Some, including that of the National Institutes of Health, now include a banner warning visitors they might see both the new and the old terms during the transition period. There have been hiccups. A day after the rebrand order, the Pentagon announced an ambitious new initiative to study the future of warfare, called Project Meridian; it used the old terminology. A Federal Trade Commission press release last week used “superintelligence” instead of the two-word, capitalized version ordered by the president, and recent press releases from Health and Human Services show no sign of the new language. The term “AI” will likely stick around given the countless AI-related offices, initiatives, and programs that have sprung up in recent years, like the Chief Digital and Artificial Intelligence Office at the Pentagon (the executive…",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "score": 100.0,
+      "created_at": "2026-11-03T08:00:00+00:00",
+      "raw_text": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "extra": {
-        "outlet": "MIT Technology Review",
-        "weight": 0.85,
+        "outlet": "OpenAI",
+        "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50344958",
+      "id": "news:08b710f1e780",
+      "source": "news",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "score": 100.0,
+      "created_at": "2026-11-03T08:00:00+00:00",
+      "raw_text": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:3d509e27bae2",
+      "source": "news",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "score": 100.0,
+      "created_at": "2026-11-03T00:00:00+00:00",
+      "raw_text": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.01860",
+      "source": "huggingface",
+      "title": "Advances in Agentic Computer Graphics",
+      "url": "https://huggingface.co/papers/2611.01860",
+      "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly across a diverse range of tasks. This rapid growth makes it increasingly difficult f…",
+      "score": 126.0,
+      "created_at": "2026-11-03T00:00:00.000Z",
+      "raw_text": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly across a diverse range of tasks. This rapid growth makes it increasingly difficult for manual literature reviews to keep pace with new developments. At the same time, similar ideas are often described using different terminology across these tasks, further complicating efforts to develop a systematic understanding of the field. In this report, we address these challenges through two contributions. First, we introduce a unified taxonomy for characterizing agentic systems across diverse computer graphics tasks. Second, we develop an agentic literature system that can assist human researchers in analyzing existing and newly published papers at scale. Building on these contributions, we analyze emerging research trends and discuss open challenges in coordinating agents and tools across graphics tasks, designing interfaces and representations for human-agent collaboration, sustaining long-horizon planning and refinement, and reliably evaluating interactive graphics systems.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.01860",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50353192",
       "source": "hackernews",
-      "title": "Anthropic's growth just flattened",
-      "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
-      "summary": "",
-      "score": 208.0,
-      "created_at": "2026-11-02T22:33:20+00:00",
+      "title": "Google will turn off search for schools that reject AI",
+      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;RuwsB\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;RuwsB</a><p><a href=\"https:&#x2F;&#x2F;blog.google&#x2F;products-and-platforms&#x2F;products&#x2F;education&#x2F;ai-learning-era-updates-2026&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.google&#x2F;products-and-platforms&#x2F;products&#x2F;educatio...</a>",
+      "score": 615.0,
+      "created_at": "2026-11-03T15:25:47+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50344958",
-        "num_comments": 242,
+        "discussion_url": "https://news.ycombinator.com/item?id=50353192",
+        "num_comments": 432,
         "coverage": 0
       }
     },
@@ -159,7 +172,7 @@
       "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
       "url": "https://huggingface.co/papers/2611.00859",
       "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF), which co-designs generation, training, and execution for continuous video output w…",
-      "score": 79.0,
+      "score": 121.0,
       "created_at": "2026-11-03T00:00:00.000Z",
       "raw_text": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF), which co-designs generation, training, and execution for continuous video output with multi-step denoising. WF uses chunk-wise causal attention to access earlier, cleaner chunks before their denoising is complete, and distributes staggered denoising and cache-refresh stages across full-model replicas to achieve 1F1C: one output chunk per concurrent forward round after pipeline fill. To adapt the model to this continuous generation process, we develop a three-stage training procedure that successively introduces mixed-noise denoising, motion supervision, and causal adaptation using self-generated history. To execute this process efficiently, Wave Runtime (WaveRT) uses Wave Parallelism (WP) for early K/V delivery and communication-computation overlap, together with optimized kernels and pipelined VAE decoding. Experiments on Wan2.1-T2V-1.3B show that 5-step WF maintains overall quality comparable to Rolling Forcing while achieving higher Dynamic Degree on both short and long videos. Our system efficiency experiments show that 4-step WF achieves 147.6 DiT FPS and 134.8 end-to-end FPS on eight H200 GPUs, yielding 7.07x the single-GPU end-to-end throughput. In DiT-only tests with matched SageAttention+W8A8 backends, denoising steps, and GPU counts, WP delivers up to 2.53x the throughput of the faster of the Ulysses and Ring context-parallel baselines across six model scales (1.3B-14B).",
       "extra": {
@@ -168,56 +181,33 @@
       }
     },
     {
-      "id": "hn:50342284",
+      "id": "hn:50358422",
       "source": "hackernews",
-      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
-      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
       "summary": "",
-      "score": 189.0,
-      "created_at": "2026-11-02T19:27:37+00:00",
+      "score": 354.0,
+      "created_at": "2026-11-03T21:26:44+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50342284",
-        "num_comments": 168,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2610.42053",
-      "source": "huggingface",
-      "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
-      "url": "https://huggingface.co/papers/2610.42053",
-      "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchro…",
-      "score": 137.0,
-      "created_at": "2026-11-02T00:00:00.000Z",
-      "raw_text": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult. For example, an agent that calls the VLA in the agentic loop can stall the fast execution, while a VLA that calls the agent on errors tends to re-trigger fallbacks repeatedly or completely miss silent failures. To address this, we propose REA (Routed Embodied Agent), a unified runtime where a deliberative System 2, an embodied router System 1 and reactive System 0 policies cooperate under a single golden rule - no running policy waits on the brain. Instead of querying the brain at each failure, REA employs a route memory that stores each policy's measured success ahead of time, a boundary-triggered judge gate that consults the brain on policy execution, and a shared-budget escalation ladder for bounded recovery. Evaluated on 3,000 test episodes across 60 LIBERO-Pro tasks, REA reaches 95.9% success and beats the best single-agent baseline in its own policy pool (94.7%) while reducing control steps by 25% and control time by 17%. In a separate 100-episode RoboTwin 2.0 study, REA achieves 84% success with VLA policies and 86% with VLA+code, compared with 80% for the strongest single VLA baseline MEDex. These results demonstrate learned and programmatic policies operating within the same runtime. REA also transfers to BEHAVIOR-1K and a real Unitree G1 humanoid, achieving the highest observed success among the compared methods.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2610.42053",
+        "discussion_url": "https://news.ycombinator.com/item?id=50358422",
+        "num_comments": 144,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: New York Times and other outlets sue web browser Brave over alleged content scraping\n\nText:\nThe New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.\n\nArticle text (excerpt):\nThe New York Times sued Brave, the 11-year-old, privacy-focused browser company, on Monday, alleging it scraped the outlet’s copyrighted content and unlawfully distributed it to customers the suit names as Anthropic, Perplexity, Mistral, xAI, and Cohere.\nSeparately on Monday, the Daily News, the Chicago Tribune, and the Orlando Sentinel filed a similar lawsuit. Both were brought in federal court in Manhattan.\nThe New York Times, which has also sued OpenAI and Perplexity over similar claims, likens Brave to a “supplier, dealer, and distributor of stolen copyrighted content” for AI companies.\n“In this way, Brave acts both like a burglar that misappropriates the content of publishers, and an AI ‘fence’ that sells stolen content to third parties,” the suit reads. It says Brave built an index of more than 30 billion web pages using an unidentified crawler, leaving publishers unable to block it.\nThe suit also targets a Brave browser feature that bypasses paywalls and the company’s practice of blocking publishers’ ads while selling its own.\nFounded in 2015, Brave has raised roughly $250 million to date, according to private-market trackers. The Times seeks an injunction and damages.\nBrave did not immediately respond to a request for comment.\nBuy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires\n\nResearch notes on: The New York Times and other news publishers are suing privacy browser Brave for unlawfully scraping copyrighted content and distributing it to AI companies.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from The Verge: \"The New York Times sues Brave web browser for AI scraping and bypassing paywalls\"\nBrave has allegedly provided ‘stolen copyrighted content’ to many AI companies.﻿\nBrave has allegedly provided ‘stolen copyrighted content’ to many AI companies.﻿\nThe New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters .\nAccording to a complaint filed by the New York Daily News , the Chicago Tribune , and the Orlando Sentinel , Brave Software has monetized its index of scraped websites by, in part, providing AI companies with paid access to “real-time online content from the Brave Index.” The AI companies then use that index to train their models, access content to “respond to specific user queries,” or both. Brave has allegedly provided “stolen copyrighted content” to “many” AI companies including Anthropic, Perplexity, Mistral, xAI, and Cohere.\nBrave also promotes “hundreds of top publishers” as being accessible through its “Paywall blocker” feature in its browser.\n“Brave has never asked for the Publishers’ permission to access their websites, much less to copy the material and provide it to users or other AI companies,” the complaint says. “On the contrary, as noted above, Brave allows its users to bypass the Publishers’ paywalls without their consent, and has taken other steps that prevent the Publishers from blocking Brave’s access to the Publishers’ websites. Brave has never compensated the Publishers for the unlawful use, copying, and distribution of the Publishers’ copyrighted content.”\n“While we believe in the ethical and responsible use and development of AI, Brave has flouted established copyright law and ignored repeated requests by The Times to stop its infringing conduct,” Graham James, an NYT spokesperson, says in a statement to The Verge . “We filed this lawsuit to hold Brave accountable for stealing our content to power its own products and to provide it to some of the most prominent and well resourced generative AI companies in the world.”\n“AI giants are now desperate to avoid getting caught red-handed stealing news from publishers, so Brave Software is selling them a back door to the journalism they know they have no right to,” says Steven Lieberman, the attorney who filed the lawsuit on behalf of the other three publications. “Buying stolen goods secondhand doesn’t make them legitimate. Brave must be held responsible for laundering pirated reporting for the A\n\nCoverage from TechCrunch on MSN: \"New York Times and other outlets sue web browser Brave over alleged content scraping\"\nThe New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted and unlawfully distributing it to its own customers, like Anthropic and Perplexity ...\n\nCoverage from Reuters: \"New York Times sues maker of Brave web browser over copyrights\"\nA group of newspapers, including the New York Times and the New York Daily News, sued internet company Brave ​Software in Manhattan federal court on Monday for allegedly scraping ‌their articles for ...\n\nBackground (Web scraping, Wikipedia):\nWeb scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. Web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol (HTTP) or a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler. It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.\n\nBackground (AI data center, Wikipedia):\nAn AI data center is a specialized data center facility designed for the computationally intensive tasks of training and running artificial intelligence (AI) and machine learning models. Unlike general-purpose data centers, they are often optimized for the parallel processing demands of AI workloads, typically using hardware such as AI accelerators and high-speed interconnects.",
-  "research_links": [
-    "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
-    "https://www.msn.com/en-us/technology/tech-companies/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/ar-AA2gC0cT",
-    "https://www.reuters.com/legal/litigation/new-york-times-sues-maker-brave-web-browser-over-copyrights-2026-11-02/"
-  ],
-  "source_credit": "TechCrunch, with reporting from The Verge and TechCrunch on MSN",
-  "source_tag": "via TechCrunch",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAPNaumxwVWvetH8Zw2vPletHYOYQ6wAAiwUaxuFMUlXe6STXPyMiFEBAAMCAAN5AAM9BA",
-  "text": "An 11-year-old privacy browser just became an accused AI fence.\n\nThe New York Times sued Brave in federal court, alleging the company built an index of over 30 billion web pages using an unidentified crawler.\n\nThe suit claims the browser sold paid access to its scraped index to Anthropic, Perplexity, Mistral, xAI, and Cohere.\n\nPublishers argue the browser operates as a supplier of copyrighted material, bypassing paywalls while blocking publisher ads.\n\nThe complaints filed in Manhattan federal court name specific damages:\n• 30 billion web pages indexed without permission\n• Five AI companies listed as paying customers\n• Four major news outlets bringing the federal suits together\n\nThe New York Daily News, Chicago Tribune, and Orlando Sentinel filed a companion lawsuit on the same day.\n\nPublishers are moving past suing model makers directly to target the middlemen laundering web traffic.\n\nBrave did not immediately respond to a request for comment.\n\nSource: TechCrunch, with reporting from The Verge and TechCrunch on MSN",
-  "alt_openings": "1. Bare number first:\n30 billion web pages indexed by an 11-year-old privacy browser without publisher permission.\nThe New York Times now calls that database an AI fence.\n*Use when the scale of the operation is the most startling fact to lead with.*\n\n2. Corrective:\nPrivacy browsers are designed to protect users, not wholesale journalism to artificial intelligence startups.\nThe New York Times just sued Brave for doing exactly that.\n*Use when readers assume privacy tools only affect consumer data rather than enterprise AI pipelines.*\n\n3. Story in motion:\nFour major newspapers filed parallel federal lawsuits against Brave Software in Manhattan.\nThey allege the privacy browser built a 30-billion-page index to sell real-time journalism directly to Anthropic and Perplexity.\n*Use when you want to drop the reader straight into the legal action before zooming out.*\n\nPick: The 30 billion web pages opening, because the sheer scale of the index instantly signals why publishers are moving from individual model makers to infrastructure middlemen.",
-  "voice_score": 3,
-  "firewall_notes": [
-    "\"The mechanics are different this time.\" (Generic frame / uniform pacing)",
-    "\"Publishers argue the browser acts as a supplier of stolen content, bypassing paywalls while blocking publisher ads.\" (Triad/parallel echo structure)",
-    "\"My read: publishers are moving past suing model makers directly to target the middlemen laundering web traffic.\" (Abstract framing over concrete source facts)",
-    "\"How does a browser stop being a window and start becoming a wholesaler?\" (Rhetorical question transition)"
-  ],
-  "headline": "Why publishers are suing Brave over AI scraping",
+  "context": "Title: Google will let schools skip AI tools, but they have to give up search, too\n\nText:\nWhile Google is trying to move beyond Chromebooks , the ubiquity of these devices has made the company's education products huge in schools. Now, Google says it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision. Google's new overarching approach to AI in K-12 classrooms sounds good on the surface. After consulting educators, researchers, and lawmakers, Google has decided that schools using its education products will be opted out of AI tools by default. It will be up to administrators to manually enable them when these changes roll out in the coming months. When you look at what Google considers to be an AI tool, the nature of the Faustian bargain becomes clear. The affected products are Gemini, Gemini Notebook, Gemini in Classroom, and Google Search . There's no picking and choosing—you either allow all the AI or none of it. Read full article Comments\n\nArticle text (excerpt):\nWhile Google is trying to move beyond Chromebooks , the ubiquity of these devices has made the company’s education products huge in schools. Now, Google says it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision.\nGoogle’s new overarching approach to AI in K-12 classrooms sounds good on the surface. After consulting educators, researchers, and lawmakers, Google has decided that schools using its education products will be opted out of AI tools by default. It will be up to administrators to manually enable them when these changes roll out in the coming months.\nWhen you look at what Google considers to be an AI tool, the nature of the Faustian bargain becomes clear. The affected products are Gemini, Gemini Notebook, Gemini in Classroom, and Google Search . There’s no picking and choosing—you either allow all the AI or none of it.\nThis is actually consistent with Google’s approach in the consumer space. Google executives have said in no uncertain terms that Google Search is AI search . Most searches now provide an AI Overview at the top, and the company is constantly coming up with new ways to nudge people toward the conversational AI Mode chatbot function. Google sees this as the future.\nIn a statement to The New York Times , Google education VP Chris Phillips reiterated this approach to web search. “Search and AI are deeply integrated,” he said, adding that if a school chooses not to enable AI, the students “will not have access to search, and they’ll see a message from their school that indicates it’s not available.”\nGoogle could make a version of search for schools that doesn’t have AI tools, but it’s not doing that. Instead, it’s creating two different versions of AI in search. When schools enable AI for student accounts, they’ll have two options: the standard Gemini-based AI and the new “Guided Learning” version. The latter, available in Classroom as well as search, is supposed to provide one-on-one tutoring and assistance without giving away all the answers. Google notes all of its generative AI products can make “mistakes,” though, so it may not be difficult to talk the chatbot into doing your homework.\nGoogle is betting that schools won’t want to give up Google Search and will therefore accept AI tools. This will expose students to AI early and often, possibly changing the way they interact with technology. Schools that don’t like Google’s approach could switch to alternatives like DuckDuckGo, which lets you disable AI features. But will Google’s new Guided Learning be enough to assuage their concerns?",
+  "research_links": [],
+  "source_credit": "Ars Technica",
+  "source_tag": "via Ars Technica",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAPSaur_naFwWwlL0EFN5ZzOa7lf8GYAAv0RaxvlQ1lXh73CXHwIRiYBAAMCAAN5AAM9BA",
+  "text": "Google just told every school using its Chromebooks they can block its AI tools.\n\nThere is a catch.\n\nBlocking the AI means giving up Google Search entirely.\n\nThe company updated its K-12 policies for the coming months. Schools are opted out by default, and administrators will have to manually enable the tools if they want them.\n\nThe affected list is simple.\n• Gemini\n• Gemini Notebook\n• Gemini in Classroom\n• Google Search\n\nThere is no middle ground. You take all the AI products or you take none of them.\n\nGoogle education VP Chris Phillips explained the stance to The New York Times. Search and AI are now deeply integrated inside the company. If a school opts out of AI, students will see a message saying search is not available.\n\nGoogle is betting that classrooms cannot function without its search engine.\n\nAdministrators who refuse now have to look elsewhere. They can switch to alternatives like DuckDuckGo, which allows users to disable AI features.\n\nMy read: tying basic web search to conversational chatbots is not a product strategy. It is a forced migration.\n\nWill your school district drop Google Search over AI data policies?\n\nSource: Ars Technica",
+  "alt_openings": "1. Shape: Tool as subject\nLine 1: Google Search now requires every K-12 school to accept its AI tools.\nLine 2: Refusing the chatbot means losing the search engine entirely.\n* Prefer this when you want to highlight the product's coercive bundling mechanism right away.\n\n2. Shape: Corrective\nLine 1: Schools do not actually have the option to turn off classroom AI.\nLine 2: Turning off Gemini means losing access to Google Search too.\n* Prefer this when you want to correct the common assumption that administrators have granular control over classroom software.\n\n3. Shape: Bare number first\nLine 1: Four products.\nLine 2: Block any single one of them, and Google removes web search from the classroom.\n* Prefer this when you want to use a stark inventory to signal the lack of choices available to schools.\n\nPick: The opening with \"Google just told...\" because it starts with the human actor and the concrete choice before dropping the trap in the third line.",
+  "voice_score": 7,
+  "firewall_notes": [],
+  "headline": "Schools blocking Google AI lose Google Search too",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-03.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-04.png"
 }
