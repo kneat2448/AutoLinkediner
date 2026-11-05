@@ -1,91 +1,136 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-04",
-  "created_at": "2026-11-04T15:15:46.336523+05:30",
+  "date": "2026-11-05",
+  "created_at": "2026-11-05T15:18:19.185842+05:30",
   "candidate": {
-    "id": "news:b121628aeba0",
-    "source": "news",
-    "title": "Google will let schools skip AI tools, but they have to give up search, too",
-    "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-    "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
-    "score": 80.0,
-    "created_at": "2026-11-03T17:54:43+00:00",
-    "raw_text": "While Google is trying to move beyond Chromebooks , the ubiquity of these devices has made the company's education products huge in schools. Now, Google says it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision. Google's new overarching approach to AI in K-12 classrooms sounds good on the surface. After consulting educators, researchers, and lawmakers, Google has decided that schools using its education products will be opted out of AI tools by default. It will be up to administrators to manually enable them when these changes roll out in the coming months. When you look at what Google considers to be an AI tool, the nature of the Faustian bargain becomes clear. The affected products are Gemini, Gemini Notebook, Gemini in Classroom, and Google Search . There's no picking and choosing—you either allow all the AI or none of it. Read full article Comments",
+    "id": "hn:50363461",
+    "source": "hackernews",
+    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+    "url": "https://news.ycombinator.com/item?id=50363461",
+    "summary": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn <i>not to enter confidential information</i>.<p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;16836988<p><i>“[G…",
+    "score": 667.0,
+    "created_at": "2026-11-04T10:10:27+00:00",
+    "raw_text": "",
     "extra": {
-      "outlet": "Ars Technica",
-      "weight": 0.8,
-      "coverage": 1
+      "discussion_url": "https://news.ycombinator.com/item?id=50363461",
+      "num_comments": 171,
+      "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "news:b121628aeba0",
+      "id": "news:2c368bf7ce92",
       "source": "news",
-      "title": "Google will let schools skip AI tools, but they have to give up search, too",
-      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-      "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
+      "title": "After the midterms, a bigger clash over data centers could be coming",
+      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+      "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
       "score": 80.0,
-      "created_at": "2026-11-03T17:54:43+00:00",
-      "raw_text": "While Google is trying to move beyond Chromebooks , the ubiquity of these devices has made the company's education products huge in schools. Now, Google says it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision. Google's new overarching approach to AI in K-12 classrooms sounds good on the surface. After consulting educators, researchers, and lawmakers, Google has decided that schools using its education products will be opted out of AI tools by default. It will be up to administrators to manually enable them when these changes roll out in the coming months. When you look at what Google considers to be an AI tool, the nature of the Faustian bargain becomes clear. The affected products are Gemini, Gemini Notebook, Gemini in Classroom, and Google Search . There's no picking and choosing—you either allow all the AI or none of it. Read full article Comments",
+      "created_at": "2026-11-05T01:02:14+00:00",
+      "raw_text": "Data center opposition crossed party lines in Tuesday’s midterms.",
       "extra": {
-        "outlet": "Ars Technica",
+        "outlet": "TechCrunch",
         "weight": 0.8,
         "coverage": 1
       }
     },
     {
-      "id": "hn:50354960",
+      "id": "news:eeaf8afe464e",
+      "source": "news",
+      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+      "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+      "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+      "score": 80.0,
+      "created_at": "2026-11-04T16:17:22+00:00",
+      "raw_text": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "news:3a06f84c0f51",
+      "source": "news",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "score": 100.0,
+      "created_at": "2026-11-04T14:30:00+00:00",
+      "raw_text": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50364336",
       "source": "hackernews",
-      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
       "summary": "",
-      "score": 1269.0,
-      "created_at": "2026-11-03T17:22:37+00:00",
+      "score": 1180.0,
+      "created_at": "2026-11-04T11:52:17+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50354960",
-        "num_comments": 424,
+        "discussion_url": "https://news.ycombinator.com/item?id=50364336",
+        "num_comments": 686,
         "coverage": 0
       }
     },
     {
-      "id": "news:7b04a568c5ad",
+      "id": "news:a4f4c423c542",
       "source": "news",
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "score": 100.0,
-      "created_at": "2026-11-03T17:01:49+00:00",
-      "raw_text": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "created_at": "2026-11-04T08:00:00+00:00",
+      "raw_text": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "extra": {
-        "outlet": "Google DeepMind",
+        "outlet": "OpenAI",
         "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2611.05275",
+      "id": "news:75679f5aa60b",
+      "source": "news",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "score": 100.0,
+      "created_at": "2026-11-04T07:00:00+00:00",
+      "raw_text": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.06728",
       "source": "huggingface",
-      "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
-      "url": "https://huggingface.co/papers/2611.05275",
-      "summary": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable cand…",
-      "score": 74.0,
-      "created_at": "2026-11-04T00:00:00.000Z",
-      "raw_text": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable candidate for each task while balancing performance and computational cost? In this work, we present Route Anything, a unified framework for studying model and policy routing across general-purpose AI systems. We develop a unified theoretical foundation that characterizes optimal routing under quality--cost trade-offs and establishes how the information available to a router determines its attainable performance. To systematically investigate routing across diverse capabilities, we first construct an omni-modal trajectory matrix spanning 25 benchmarks across language understanding, image, video, and speech generation, coding and workplace agents, and robotic manipulation, comprising 374,401 scored runs from 452 candidate configurations. Building on this framework, we train and test different routers to investigate the potential of omni-modal model routing, the capabilities of learned routers, and the conditions under which routing improves efficiency. Our results reveal substantial opportunities for capability orchestration: per-input oracle routing outperforms the best fixed candidate by 5.4 points, and learned routers outperform it by 0.3 points across 16 benchmarks, by 2.1 points on video generation, and by 1.1 points on robot manipulation while using 24% less policy time. More importantly, routing raises efficiency by 8.82x on average compared with the reference model.",
+      "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+      "url": "https://huggingface.co/papers/2611.06728",
+      "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that a…",
+      "score": 58.0,
+      "created_at": "2026-11-05T00:00:00.000Z",
+      "raw_text": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that aligns learning with individual streaming decisions. TurnWise addresses the mismatch between trajectory-level feedback and turn-level interaction, promoting informative responses and reducing redundancy. Specifically, turn-level credit assignment uses silence-completed prefix scoring to construct group-relative advantages from each decision's remaining return, separating its learning signal from earlier rewards. Turn-mean policy optimization averages token losses within each turn and then across turns, giving response and waiting decisions equal weight regardless of output length. These complementary designs improve streaming policy learning without a learned critic or additional rollouts. Extensive experiments show our method outperforms prior RL approaches for streaming video understanding.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.05275",
+        "arxiv_url": "https://arxiv.org/abs/2611.06728",
         "coverage": 0
       }
     },
     {
-      "id": "news:26c6032e1d26",
+      "id": "news:0a437d67f2ef",
       "source": "news",
-      "title": "Accelerating engineering for the physical world",
-      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "score": 100.0,
-      "created_at": "2026-11-03T12:00:00+00:00",
-      "raw_text": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "created_at": "2026-11-04T00:00:00+00:00",
+      "raw_text": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -93,47 +138,46 @@
       }
     },
     {
-      "id": "news:a2357e701f02",
-      "source": "news",
-      "title": "How Cisco defends at machine speed with OpenAI",
-      "url": "https://openai.com/index/cisco-cyber",
-      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-      "score": 100.0,
-      "created_at": "2026-11-03T08:00:00+00:00",
-      "raw_text": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "id": "hn:50366999",
+      "source": "hackernews",
+      "title": "Kimi K3.1 Pro model weights are out",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "summary": "",
+      "score": 529.0,
+      "created_at": "2026-11-04T15:30:30+00:00",
+      "raw_text": "",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "discussion_url": "https://news.ycombinator.com/item?id=50366999",
+        "num_comments": 147,
         "coverage": 0
       }
     },
     {
-      "id": "news:08b710f1e780",
-      "source": "news",
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "url": "https://openai.com/index/heimstaden",
-      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-      "score": 100.0,
-      "created_at": "2026-11-03T08:00:00+00:00",
-      "raw_text": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "id": "hn:50363461",
+      "source": "hackernews",
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "url": "https://news.ycombinator.com/item?id=50363461",
+      "summary": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn <i>not to enter confidential information</i>.<p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;16836988<p><i>“[G…",
+      "score": 667.0,
+      "created_at": "2026-11-04T10:10:27+00:00",
+      "raw_text": "",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "discussion_url": "https://news.ycombinator.com/item?id=50363461",
+        "num_comments": 171,
         "coverage": 0
       }
     },
     {
-      "id": "news:3d509e27bae2",
-      "source": "news",
-      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
-      "score": 100.0,
-      "created_at": "2026-11-03T00:00:00+00:00",
-      "raw_text": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "id": "hf:2611.06918",
+      "source": "huggingface",
+      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+      "url": "https://huggingface.co/papers/2611.06918",
+      "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a st…",
+      "score": 49.0,
+      "created_at": "2026-11-05T00:00:00.000Z",
+      "raw_text": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a structurally encoder-free vision-language-action framework. Images are tokenized by lightweight patch convolutional layers and evolve jointly with language throughout the backbone, allowing a flow-matching action expert to draw from instruction-conditioned visual representations at different depths. This simple change reveals a consistent pattern. Native architectures outperform encoder-based counterparts under controlled comparisons; full fine-tuning reduces but does not erase the gap, and additional scale alone cannot recover it. More strikingly, layer-wise probing shows that the action-critical signals often peak well before the final visual representation. Across diverse manipulation settings and distribution shifts, NEO-VLA consequently achieves stronger and more robust control. Together, these results suggest that embodied control benefits from access to visual representations across the computational hierarchy, rather than a fixed encoder output.",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "arxiv_url": "https://arxiv.org/abs/2611.06918",
         "coverage": 0
       }
     },
@@ -143,71 +187,37 @@
       "title": "Advances in Agentic Computer Graphics",
       "url": "https://huggingface.co/papers/2611.01860",
       "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly across a diverse range of tasks. This rapid growth makes it increasingly difficult f…",
-      "score": 126.0,
+      "score": 137.0,
       "created_at": "2026-11-03T00:00:00.000Z",
       "raw_text": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly across a diverse range of tasks. This rapid growth makes it increasingly difficult for manual literature reviews to keep pace with new developments. At the same time, similar ideas are often described using different terminology across these tasks, further complicating efforts to develop a systematic understanding of the field. In this report, we address these challenges through two contributions. First, we introduce a unified taxonomy for characterizing agentic systems across diverse computer graphics tasks. Second, we develop an agentic literature system that can assist human researchers in analyzing existing and newly published papers at scale. Building on these contributions, we analyze emerging research trends and discuss open challenges in coordinating agents and tools across graphics tasks, designing interfaces and representations for human-agent collaboration, sustaining long-horizon planning and refinement, and reliably evaluating interactive graphics systems.",
       "extra": {
         "arxiv_url": "https://arxiv.org/abs/2611.01860",
         "coverage": 0
       }
-    },
-    {
-      "id": "hn:50353192",
-      "source": "hackernews",
-      "title": "Google will turn off search for schools that reject AI",
-      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;RuwsB\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;RuwsB</a><p><a href=\"https:&#x2F;&#x2F;blog.google&#x2F;products-and-platforms&#x2F;products&#x2F;education&#x2F;ai-learning-era-updates-2026&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.google&#x2F;products-and-platforms&#x2F;products&#x2F;educatio...</a>",
-      "score": 615.0,
-      "created_at": "2026-11-03T15:25:47+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50353192",
-        "num_comments": 432,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.00859",
-      "source": "huggingface",
-      "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
-      "url": "https://huggingface.co/papers/2611.00859",
-      "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF), which co-designs generation, training, and execution for continuous video output w…",
-      "score": 121.0,
-      "created_at": "2026-11-03T00:00:00.000Z",
-      "raw_text": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF), which co-designs generation, training, and execution for continuous video output with multi-step denoising. WF uses chunk-wise causal attention to access earlier, cleaner chunks before their denoising is complete, and distributes staggered denoising and cache-refresh stages across full-model replicas to achieve 1F1C: one output chunk per concurrent forward round after pipeline fill. To adapt the model to this continuous generation process, we develop a three-stage training procedure that successively introduces mixed-noise denoising, motion supervision, and causal adaptation using self-generated history. To execute this process efficiently, Wave Runtime (WaveRT) uses Wave Parallelism (WP) for early K/V delivery and communication-computation overlap, together with optimized kernels and pipelined VAE decoding. Experiments on Wan2.1-T2V-1.3B show that 5-step WF maintains overall quality comparable to Rolling Forcing while achieving higher Dynamic Degree on both short and long videos. Our system efficiency experiments show that 4-step WF achieves 147.6 DiT FPS and 134.8 end-to-end FPS on eight H200 GPUs, yielding 7.07x the single-GPU end-to-end throughput. In DiT-only tests with matched SageAttention+W8A8 backends, denoising steps, and GPU counts, WP delivers up to 2.53x the throughput of the faster of the Ulysses and Ring context-parallel baselines across six model scales (1.3B-14B).",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.00859",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50358422",
-      "source": "hackernews",
-      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
-      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-      "summary": "",
-      "score": 354.0,
-      "created_at": "2026-11-03T21:26:44+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50358422",
-        "num_comments": 144,
-        "coverage": 0
-      }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Google will let schools skip AI tools, but they have to give up search, too\n\nText:\nWhile Google is trying to move beyond Chromebooks , the ubiquity of these devices has made the company's education products huge in schools. Now, Google says it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision. Google's new overarching approach to AI in K-12 classrooms sounds good on the surface. After consulting educators, researchers, and lawmakers, Google has decided that schools using its education products will be opted out of AI tools by default. It will be up to administrators to manually enable them when these changes roll out in the coming months. When you look at what Google considers to be an AI tool, the nature of the Faustian bargain becomes clear. The affected products are Gemini, Gemini Notebook, Gemini in Classroom, and Google Search . There's no picking and choosing—you either allow all the AI or none of it. Read full article Comments\n\nArticle text (excerpt):\nWhile Google is trying to move beyond Chromebooks , the ubiquity of these devices has made the company’s education products huge in schools. Now, Google says it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision.\nGoogle’s new overarching approach to AI in K-12 classrooms sounds good on the surface. After consulting educators, researchers, and lawmakers, Google has decided that schools using its education products will be opted out of AI tools by default. It will be up to administrators to manually enable them when these changes roll out in the coming months.\nWhen you look at what Google considers to be an AI tool, the nature of the Faustian bargain becomes clear. The affected products are Gemini, Gemini Notebook, Gemini in Classroom, and Google Search . There’s no picking and choosing—you either allow all the AI or none of it.\nThis is actually consistent with Google’s approach in the consumer space. Google executives have said in no uncertain terms that Google Search is AI search . Most searches now provide an AI Overview at the top, and the company is constantly coming up with new ways to nudge people toward the conversational AI Mode chatbot function. Google sees this as the future.\nIn a statement to The New York Times , Google education VP Chris Phillips reiterated this approach to web search. “Search and AI are deeply integrated,” he said, adding that if a school chooses not to enable AI, the students “will not have access to search, and they’ll see a message from their school that indicates it’s not available.”\nGoogle could make a version of search for schools that doesn’t have AI tools, but it’s not doing that. Instead, it’s creating two different versions of AI in search. When schools enable AI for student accounts, they’ll have two options: the standard Gemini-based AI and the new “Guided Learning” version. The latter, available in Classroom as well as search, is supposed to provide one-on-one tutoring and assistance without giving away all the answers. Google notes all of its generative AI products can make “mistakes,” though, so it may not be difficult to talk the chatbot into doing your homework.\nGoogle is betting that schools won’t want to give up Google Search and will therefore accept AI tools. This will expose students to AI early and often, possibly changing the way they interact with technology. Schools that don’t like Google’s approach could switch to alternatives like DuckDuckGo, which lets you disable AI features. But will Google’s new Guided Learning be enough to assuage their concerns?",
-  "research_links": [],
-  "source_credit": "Ars Technica",
-  "source_tag": "via Ars Technica",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAPSaur_naFwWwlL0EFN5ZzOa7lf8GYAAv0RaxvlQ1lXh73CXHwIRiYBAAMCAAN5AAM9BA",
-  "text": "Google just told every school using its Chromebooks they can block its AI tools.\n\nThere is a catch.\n\nBlocking the AI means giving up Google Search entirely.\n\nThe company updated its K-12 policies for the coming months. Schools are opted out by default, and administrators will have to manually enable the tools if they want them.\n\nThe affected list is simple.\n• Gemini\n• Gemini Notebook\n• Gemini in Classroom\n• Google Search\n\nThere is no middle ground. You take all the AI products or you take none of them.\n\nGoogle education VP Chris Phillips explained the stance to The New York Times. Search and AI are now deeply integrated inside the company. If a school opts out of AI, students will see a message saying search is not available.\n\nGoogle is betting that classrooms cannot function without its search engine.\n\nAdministrators who refuse now have to look elsewhere. They can switch to alternatives like DuckDuckGo, which allows users to disable AI features.\n\nMy read: tying basic web search to conversational chatbots is not a product strategy. It is a forced migration.\n\nWill your school district drop Google Search over AI data policies?\n\nSource: Ars Technica",
-  "alt_openings": "1. Shape: Tool as subject\nLine 1: Google Search now requires every K-12 school to accept its AI tools.\nLine 2: Refusing the chatbot means losing the search engine entirely.\n* Prefer this when you want to highlight the product's coercive bundling mechanism right away.\n\n2. Shape: Corrective\nLine 1: Schools do not actually have the option to turn off classroom AI.\nLine 2: Turning off Gemini means losing access to Google Search too.\n* Prefer this when you want to correct the common assumption that administrators have granular control over classroom software.\n\n3. Shape: Bare number first\nLine 1: Four products.\nLine 2: Block any single one of them, and Google removes web search from the classroom.\n* Prefer this when you want to use a stark inventory to signal the lack of choices available to schools.\n\nPick: The opening with \"Google just told...\" because it starts with the human actor and the concrete choice before dropping the trap in the third line.",
-  "voice_score": 7,
-  "firewall_notes": [],
-  "headline": "Schools blocking Google AI lose Google Search too",
+  "context": "Title: Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)\n\nSummary:\nIf you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn <i>not to enter confidential information</i>.<p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;16836988<p><i>“[G…\n\nA top reader comment on Hacker News (opinion, not fact):\nanother Google W I guess? gemini really leading the pack over here\n\nResearch notes on: Google trains Gemini on personal subscribers' chat histories without offering an explicit opt-out toggle.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from note: \"[2026] Information You Should Not Input into AI | A Guide to 'Opt-out of Training' Settings for ChatGPT, Gemini, Claude, and Copilot\"\nInformation updated: October 12, 2026 (The names and locations of settings for each company may change)\nIn August 2026, it was discovered that an employee at a company had entered health insurance subscriber information into a generative AI not approved by the company. In addition to names and dates of birth, the information even included details about medical conditions.\nFor those who use ChatGPT and similar tools for work or personal advice, this article covers the following three points: 1. Information you should not input and how to consult by anonymizing it 2. Where to find the 'opt-out of training' settings for ChatGPT, Gemini, Claude, and Copilot 3. What settings cannot prevent\nThis is based on materials from the government (Ministry of Internal Affairs and Communications, Personal Information Protection Commission) and the official help pages of the four companies. If you only want to know about the settings, please go to the 'Opt-out of Training' section in the table of contents.\n1. Do not input Never input passwords, card numbers, or My Number (Individual Number) into any AI. You can consult about names or medical conditions by anonymizing them, such as using 'Person A' or 'has a chronic condition'.\n2. Turn off training For ChatGPT, Gemini, and Copilot, conversations are used for training (to improve the AI) by default. Turn it off using the steps below. For Claude, since it is an opt-in system, verify that it is not turned on.\n3. Do not feel completely safe even if you turn it off Data is stored for a while, and depending on the AI, it may be reviewed by humans. If your account is hijacked, your entire history could be exposed. That is why point 1 is the most effective.\n4. Do not create shared links Shared links (URLs created to show conversations to others) can be viewed by anyone who has them, and there have been cases where they appeared in search results. When showing someone, use a copy or a screenshot.\nPoint: Settings can only stop 'training.' Other paths cannot be prevented by settings.\nThe 'training' in blue-green above can be turned off in settings. The five red items below cannot be prevented by settings. Therefore, the following 'Do not input' is the most reliable measure. Actual examples are summarized in 'What Actually Happened'.\nPoint: Never input numbers, passwords, or financial information in any form. Names and medical conditions can be used for consultation if anonymized.\nThe four red items are meaningless even if anonymized. I\n\nCoverage from ZDNet: \"How to keep your conversations with ChatGPT, Gemini, Copilot or Claude as private as possible\"\nFollow ZDNET: Add us as a preferred source on Google.\nJust how private are the conversations you have with your favorite AI?\nLast week, news broke that conversations from Anthropic’s Claude AI could be accessed through a Google dork (translation: advanced search query). Yes, people had already shared these conversations with others via active links. But I’m sure they never imagined that the topics discussed could be exposed to anyone with some search savvy.\nAlso: 5 reasons you should be more tight-lipped with your chatbot\nAnthropic quickly fixed the “exploit” to disable this type of indexing. But the question remains: Just how private are your AI conversations? In part, that depends on you. Though the AI companies don’t always make it easy, they do offer controls through which you’re able to manage your own privacy.\nToward that end, let’s look at four major AI chatbots and cover steps to tighten your privacy as much as possible.\nDon’t want your conversations in ChatGPT tracked or saved? You can chat with the AI without an account. Even if you have one, just log out before you submit your query. Certain advanced features won’t be available, and you’ll hit lower thresholds. But if you don’t want to expose specific conversations, this is certainly an option.\nIf you are signed in with your account and don’t want your next chat saved to your history, make it a temporary one. At the ChatGPT window, click the circular “Turn on Temporary Chat” icon in the upper right. The prompt field will turn black while a notice tells you how it works. You still may not want to share anything too sensitive. But at least you can discuss more personal topics since the chatbot won’t remember any of it.\nAlso: Microsoft’s new Copilot app puts everything in one place – but the price is ‘evolving’\nOpenAI trains its ChatGPT model in part based on your conversations. Though the shared data isn’t associated with your name and account, you might still want to turn off this option to prevent any personal information from being shared. Click your account name at the bottom of the left pane. Select Settings and go to Data controls. If the option for “Improve the model for everyone” is turned on, click it and turn it off.\nAlso: Claude’s Record-a-Skill cut my research from hours to 30 minutes – but the magic has limits\nChatGPT gives you the ability to share a conversation via X, LinkedIn, Reddit, or through a regular link. But as long as your conversation exists, that link remains active. Thin\n\nCoverage from androidheadlines.com: \"How to Stop ChatGPT, Gemini, and Meta from Using Your Posts for AI Training\"\nMajor tech platforms including OpenAI, Google, Meta, and LinkedIn train AI models on user data by default. Users can block future data harvesting by adjusting account toggles on ChatGPT, Gemini, and LinkedIn, or by submitting formal objection forms through Meta’s Privacy Center.\nEvery time you type a prompt into ChatGPT , search with Gemini , or share a post on Instagram, big tech companies harvest your data to train their artificial intelligence models. Major platforms like LinkedIn and Gemini turn training settings on by default, while OpenAI and Meta quietly use public posts, photos, and chat logs unless you explicitly object.\nAs NotebookCheck highlights, taking back control of your privacy takes about fifteen minutes, but you need to know where to look. Here is how to disable data harvesting across the biggest platforms on the web.\nOpenAI makes toggling off training relatively straightforward in ChatGPT. Head into your account settings, open the Data Controls tab, and switch off “Improve the model for everyone.” You can also request a permanent opt-out through OpenAI’s privacy portal . Keep in mind that if you rate a response with a thumbs up or down, that specific conversation bypasses your privacy preferences. For extra sensitive questions, stick to temporary chats.\nGoogle bundles its AI controls under “Keep Activity” on the Gemini web interface and app. Opening your activity settings lets you turn off future data collection or wipe your chat history entirely. However, Google keeps unlinked conversation logs for up to 72 hours for safety reviews. Plus, any chats previously analyzed by human reviewers remain stored for up to three years.\nMeta skips simple toggles entirely, requiring users to fill out formal objection forms hidden inside its Privacy Center . Submitting the form stops Meta from using public Facebook and Instagram posts, photo captions, and Meta AI interactions for future model training. A separate form exists for WhatsApp, though Meta states it currently refrains from training on WhatsApp AI chats. However, if someone else tags you in a public photo, Meta can still analyze that image.\nLinkedIn quietly enabled EU data training for generative AI models under its “Data for Generative AI Improvement” privacy setting. Switching that toggle off under Data Privacy stops future harvesting, though it won’t remove data from models already trained. Private messages remain excluded across LinkedIn, but taking a few minutes to check your account set\n\nBackground (Model collapse, Wikipedia):\nIn artificial intelligence (AI), model collapse, also known as \"AI inbreeding\", \"AI cannibalism\", \"Habsburg AI\", and \"model autophagy disorder\" or \"MAD\", is the degradation of machine learning models from uncurated synthetic data, or from training on the outputs of another model, such as a prior versions of itself. It has colloquially been referred to as the AI version of mad cow disease, fundamentally caused by feeding something to itself. It is unclear to what extent the model collapse threatens the long-term development of AI models, and techniques have been proposed to mitigate the effect.\n\nBackground (Humans in the Loop (film), Wikipedia):\nHumans in the Loop is a 2024 Indian independent drama film written and directed by Aranya Sahay and produced by Storiculture's Museum of Imagined Futures. The film follows an Adivasi woman, Nehma, from Jharkhand who unexpectedly finds herself interacting with artificial intelligence, unraveling its hidden biases and ethical dilemmas. Inspired by a 2022 article by journalist Karishma Mehrotra in Fifty Two (52) titled \"Human Touch\", the film sheds light on AI bias and its disproportionate impact on women in technology. It highlights the contributions of women in the field of data annotation and algorithmic development while questioning the growing intersection of AI and marginalised communities.\n\nRelated Hacker News thread: \"Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)\" (667 points)\nTop reader comment (opinion, not fact): another Google W I guess? gemini really leading the pack over here",
+  "research_links": [
+    "https://note.com/hayamimi0123/n/n07ba3dda671d?hl=en",
+    "https://www.zdnet.com/article/how-to-keep-ai-conversations-private-chatgpt-gemini-copilot-claude/",
+    "https://www.androidheadlines.com/2026/10/chatgpt-gemini-meta-opt-out-ai-training-data.html"
+  ],
+  "source_credit": "Hacker News, with reporting from note and ZDNet",
+  "source_tag": "via Hacker News",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAPXauxSKqnMfEaD7etD2p9mspmIwyUAAp8VaxuKI2FX-H5xWQABXNZ8AQADAgADeQADPQQ",
+  "text": "Personal subscribers to Google AI might assume a paid tier shields their data. \n\nGemini's terms show that paying a subscription fee does not remove your conversations from the training pipeline.\n\nIf you use a personal Google AI subscription, every saved chat can be fed back into model training. You cannot turn off training while preserving your saved history. Your only options are disabling chat history entirely or using temporary chat sessions.\n\nThe policy extends beyond automated training:\nUnlinked conversation logs are retained for up to 72 hours for safety reviews. Human reviewers can read saved chat transcripts, and chats analyzed by humans remain stored for up to 3 years. That is why Google's support page explicitly warns users not to enter confidential information.\n\nDisconnecting reviewed chats from your account removes your identity, but the raw text stays on Google's servers. \n\nThis policy applies specifically to personal subscriber accounts. Corporate enterprise tiers operate under separate agreements with strict data boundaries, but consumer tiers leave your inputs in the pool.\n\nSource: Hacker News, with reporting from note and ZDNet\n\n#DataPrivacy #ArtificialIntelligence",
+  "alt_openings": "**Opening 1 (Bare number first)**\n3 years.\nThat is how long Google can store human-reviewed Gemini chats, even from paying personal subscribers.\n*When to prefer:* Use when writing for an audience sensitive to data retention timelines and compliance risks, where a specific duration creates immediate tension.\n\n**Opening 2 (Tool as subject)**\nGoogle Gemini trains on your chat history even when you pay for a subscription.\n*Line 2:* Personal account subscribers have no direct toggle to opt out of training without deleting their saved history.\n*When to prefer:* Use when addressing tech-forward readers who already use Gemini daily and assume paid tiers grant standard data privacy.\n\n**Opening 3 (Your X)**\nYour paid Google AI subscription does not buy you conversation privacy.\n*Line 2:* Saved Gemini chats are used for model training by default, and human reviewers may read the transcripts.\n*When to prefer:* Use for general professionals and founders who pay for consumer AI tools out of pocket and expect consumer protection in return.\n\nPick: Opening 2 (Tool as subject). It names the product and the exact mechanism immediately, driving high relevance for anyone actively paying for Google AI tools.",
+  "voice_score": 4,
+  "firewall_notes": [
+    "\"Paying for an AI subscription does not keep your data private.\" — Tripped tell: Gives away the core conclusion in line 1 before the fold (Check 10).",
+    "\"Here is how the data policy actually works.\" — Tripped tell: Empty setup line and filler transition (Check 4 and 5).",
+    "\"• Unlinked conversation logs... • Human reviewers... • Chats analyzed...\" — Tripped tell: Formatted triad list pattern (Check 3).",
+    "\"My read: paying for software used to mean you were the customer.\" — Tripped tell: Generic opinion frame (\"My read:\") (Check 5 and 6).",
+    "\"Check what you paste into your prompts before hitting send.\" — Tripped tell: Preachy, generic advice ending (Check 13)."
+  ],
+  "headline": "How Google AI trains on paid personal chats",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-04.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-05.png"
 }
