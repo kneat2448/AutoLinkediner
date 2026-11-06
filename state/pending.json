@@ -1,92 +1,76 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-05",
-  "created_at": "2026-11-05T15:18:19.185842+05:30",
+  "date": "2026-11-06",
+  "created_at": "2026-11-06T15:15:49.963506+05:30",
   "candidate": {
-    "id": "hn:50363461",
-    "source": "hackernews",
-    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-    "url": "https://news.ycombinator.com/item?id=50363461",
-    "summary": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn <i>not to enter confidential information</i>.<p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;16836988<p><i>“[G…",
-    "score": 667.0,
-    "created_at": "2026-11-04T10:10:27+00:00",
-    "raw_text": "",
+    "id": "news:cc48f8093c5b",
+    "source": "news",
+    "title": "Airbnb is working on an AI travel agent",
+    "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+    "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But […]",
+    "score": 80.0,
+    "created_at": "2026-11-06T00:06:12+00:00",
+    "raw_text": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today . \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But planning a trip on Airbnb is different.\" The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a \"new interface\" built \"specifically for travel\" gives it an edge. Here's how Airbnb says that new interface will work: We don't think a traditional chatbo … Read the full story at The Verge.",
     "extra": {
-      "discussion_url": "https://news.ycombinator.com/item?id=50363461",
-      "num_comments": 171,
-      "coverage": 0
+      "outlet": "The Verge",
+      "weight": 0.8,
+      "coverage": 1
     }
   },
   "shortlist": [
     {
-      "id": "news:2c368bf7ce92",
+      "id": "news:cc48f8093c5b",
       "source": "news",
-      "title": "After the midterms, a bigger clash over data centers could be coming",
-      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-      "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
+      "title": "Airbnb is working on an AI travel agent",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But […]",
       "score": 80.0,
-      "created_at": "2026-11-05T01:02:14+00:00",
-      "raw_text": "Data center opposition crossed party lines in Tuesday’s midterms.",
+      "created_at": "2026-11-06T00:06:12+00:00",
+      "raw_text": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today . \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But planning a trip on Airbnb is different.\" The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a \"new interface\" built \"specifically for travel\" gives it an edge. Here's how Airbnb says that new interface will work: We don't think a traditional chatbo … Read the full story at The Verge.",
       "extra": {
-        "outlet": "TechCrunch",
+        "outlet": "The Verge",
         "weight": 0.8,
         "coverage": 1
       }
     },
     {
-      "id": "news:eeaf8afe464e",
-      "source": "news",
-      "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
-      "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-      "summary": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
-      "score": 80.0,
-      "created_at": "2026-11-04T16:17:22+00:00",
-      "raw_text": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:3a06f84c0f51",
-      "source": "news",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "score": 100.0,
-      "created_at": "2026-11-04T14:30:00+00:00",
-      "raw_text": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50364336",
+      "id": "hn:50385272",
       "source": "hackernews",
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
       "summary": "",
-      "score": 1180.0,
-      "created_at": "2026-11-04T11:52:17+00:00",
+      "score": 1116.0,
+      "created_at": "2026-11-05T22:17:15+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50364336",
-        "num_comments": 686,
+        "discussion_url": "https://news.ycombinator.com/item?id=50385272",
+        "num_comments": 340,
         "coverage": 0
       }
     },
     {
-      "id": "news:a4f4c423c542",
+      "id": "hf:2611.02075",
+      "source": "huggingface",
+      "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+      "url": "https://huggingface.co/papers/2611.02075",
+      "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented ev…",
+      "score": 112.0,
+      "created_at": "2026-11-06T00:00:00.000Z",
+      "raw_text": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evidence. Pretraining supplies reusable inference capability; deployment evidence instantiates problem-specific predictions without updating either model's neural parameters. Tool judgments, candidate preferences, and reasoning assessments share an evidence-and-query interface, with predictions mapped to choices by a decision rule. This architecture establishes complementary sources of agent capability: semantic knowledge acquired through language pretraining and empirical inference acquired through structured-data pretraining. A single frozen LimiX-2 predictor serves all five task categories. With Qwen3.5-27B as the semantic encoder, DPDM raises mean accuracy across 50 benchmarks from 78.80% with few-shot prompting to 84.92% under their respective evaluated history budgets, and reaches 82.33% with identical histories and queries. On ToolPRMBench's BFCL and ToolSandbox tasks, absolute accuracy gains are 34.26% and 28.87%, respectively, at the methods' respective evaluated history budgets. Accuracy improves as history grows. With identical imbalanced histories, mean balanced accuracy improves by an absolute 14.51% across five reasoning-step assessment tasks and four encoders. DPDM makes learning from experience an independently improvable foundation-model capability, creating a shared route for advances in conditional prediction to improve decisions across agent tasks.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.02075",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:c88b52d0b210",
       "source": "news",
-      "title": "A thousand fewer paths to root",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "score": 100.0,
-      "created_at": "2026-11-04T08:00:00+00:00",
-      "raw_text": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "created_at": "2026-11-05T20:00:00+00:00",
+      "raw_text": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -94,17 +78,76 @@
       }
     },
     {
-      "id": "news:75679f5aa60b",
+      "id": "news:825a50d1c0ad",
       "source": "news",
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "summary": "",
       "score": 100.0,
-      "created_at": "2026-11-04T07:00:00+00:00",
-      "raw_text": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "created_at": "2026-11-05T17:05:16+00:00",
+      "raw_text": "",
+      "extra": {
+        "outlet": "Google DeepMind",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:b58fee4edbbb",
+      "source": "news",
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "score": 100.0,
+      "created_at": "2026-11-05T17:00:00+00:00",
+      "raw_text": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:9889510bec40",
+      "source": "news",
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+      "score": 80.0,
+      "created_at": "2026-11-06T06:28:32+00:00",
+      "raw_text": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:53c56afbaf05",
+      "source": "news",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "score": 100.0,
+      "created_at": "2026-11-05T09:00:00+00:00",
+      "raw_text": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.08449",
+      "source": "huggingface",
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "url": "https://huggingface.co/papers/2611.08449",
+      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known s…",
+      "score": 56.0,
+      "created_at": "2026-11-06T00:00:00.000Z",
+      "raw_text": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass. The layout adapts to the primitive's type, dimensionality, and length, supporting compact boxes and long, variable-length trajectories. Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence. VFlash therefore trains on annotated primitives and directly accepts structurally valid predictions without target-token agreement. Across the evaluated 2D and 3D robot trajectory tasks, VFlash consistently reduces prediction errors relative to autoregressive decoding. Preliminary single-rollout measurements indicate approximately 25x faster generation for 3D point motion forecasting. A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.08449",
         "coverage": 0
       }
     },
@@ -114,7 +157,7 @@
       "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
       "url": "https://huggingface.co/papers/2611.06728",
       "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that a…",
-      "score": 58.0,
+      "score": 126.0,
       "created_at": "2026-11-05T00:00:00.000Z",
       "raw_text": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that aligns learning with individual streaming decisions. TurnWise addresses the mismatch between trajectory-level feedback and turn-level interaction, promoting informative responses and reducing redundancy. Specifically, turn-level credit assignment uses silence-completed prefix scoring to construct group-relative advantages from each decision's remaining return, separating its learning signal from earlier rewards. Turn-mean policy optimization averages token losses within each turn and then across turns, giving response and waiting decisions equal weight regardless of output length. These complementary designs improve streaming policy learning without a learned critic or additional rollouts. Extensive experiments show our method outperforms prior RL approaches for streaming video understanding.",
       "extra": {
@@ -123,101 +166,47 @@
       }
     },
     {
-      "id": "news:0a437d67f2ef",
-      "source": "news",
-      "title": "Introducing Images 2.6",
-      "url": "https://openai.com/index/introducing-images-2-6",
-      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "score": 100.0,
-      "created_at": "2026-11-04T00:00:00+00:00",
-      "raw_text": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50366999",
+      "id": "hn:50385870",
       "source": "hackernews",
-      "title": "Kimi K3.1 Pro model weights are out",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
       "summary": "",
-      "score": 529.0,
-      "created_at": "2026-11-04T15:30:30+00:00",
+      "score": 323.0,
+      "created_at": "2026-11-05T23:09:57+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50366999",
-        "num_comments": 147,
+        "discussion_url": "https://news.ycombinator.com/item?id=50385870",
+        "num_comments": 154,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50363461",
-      "source": "hackernews",
-      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-      "url": "https://news.ycombinator.com/item?id=50363461",
-      "summary": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn <i>not to enter confidential information</i>.<p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;16836988<p><i>“[G…",
-      "score": 667.0,
-      "created_at": "2026-11-04T10:10:27+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50363461",
-        "num_comments": 171,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.06918",
+      "id": "hf:2611.04277",
       "source": "huggingface",
-      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
-      "url": "https://huggingface.co/papers/2611.06918",
-      "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a st…",
-      "score": 49.0,
-      "created_at": "2026-11-05T00:00:00.000Z",
-      "raw_text": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a structurally encoder-free vision-language-action framework. Images are tokenized by lightweight patch convolutional layers and evolve jointly with language throughout the backbone, allowing a flow-matching action expert to draw from instruction-conditioned visual representations at different depths. This simple change reveals a consistent pattern. Native architectures outperform encoder-based counterparts under controlled comparisons; full fine-tuning reduces but does not erase the gap, and additional scale alone cannot recover it. More strikingly, layer-wise probing shows that the action-critical signals often peak well before the final visual representation. Across diverse manipulation settings and distribution shifts, NEO-VLA consequently achieves stronger and more robust control. Together, these results suggest that embodied control benefits from access to visual representations across the computational hierarchy, rather than a fixed encoder output.",
+      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "url": "https://huggingface.co/papers/2611.04277",
+      "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized…",
+      "score": 43.0,
+      "created_at": "2026-11-06T00:00:00.000Z",
+      "raw_text": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized sibling harnesses along distinct repair directions, forming a reusable Sibling Harness Pool that remains fixed during policy training. Complementary Harness Rescue Training invokes this pool only when all initial attempts under the base harness fail. The same policy generates fresh rollouts under selected auxiliary harnesses, and these trajectories replace the failed group for reinforcement learning. An Adaptive Harness Router selects the Top-k variants using Harness Behavior Profiles and voting across multiple LLMs. Policy-aware profile re-anchoring refreshes this evidence as the policy learns. Across AppWorld, SWE-Gym, and DBBench, the trained policy substantially outperforms policy-only training when returned to the original base harness. Behavioral analyses and held-out cases support the transfer of harness-elicited behaviors into the policy itself. Reusing the router for Rank-1 inference provides additional gains at the same executor rollout count.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.06918",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.01860",
-      "source": "huggingface",
-      "title": "Advances in Agentic Computer Graphics",
-      "url": "https://huggingface.co/papers/2611.01860",
-      "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly across a diverse range of tasks. This rapid growth makes it increasingly difficult f…",
-      "score": 137.0,
-      "created_at": "2026-11-03T00:00:00.000Z",
-      "raw_text": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly across a diverse range of tasks. This rapid growth makes it increasingly difficult for manual literature reviews to keep pace with new developments. At the same time, similar ideas are often described using different terminology across these tasks, further complicating efforts to develop a systematic understanding of the field. In this report, we address these challenges through two contributions. First, we introduce a unified taxonomy for characterizing agentic systems across diverse computer graphics tasks. Second, we develop an agentic literature system that can assist human researchers in analyzing existing and newly published papers at scale. Building on these contributions, we analyze emerging research trends and discuss open challenges in coordinating agents and tools across graphics tasks, designing interfaces and representations for human-agent collaboration, sustaining long-horizon planning and refinement, and reliably evaluating interactive graphics systems.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.01860",
+        "arxiv_url": "https://arxiv.org/abs/2611.04277",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)\n\nSummary:\nIf you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn <i>not to enter confidential information</i>.<p>https:&#x2F;&#x2F;support.google.com&#x2F;gemini&#x2F;answer&#x2F;16836988<p><i>“[G…\n\nA top reader comment on Hacker News (opinion, not fact):\nanother Google W I guess? gemini really leading the pack over here\n\nResearch notes on: Google trains Gemini on personal subscribers' chat histories without offering an explicit opt-out toggle.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from note: \"[2026] Information You Should Not Input into AI | A Guide to 'Opt-out of Training' Settings for ChatGPT, Gemini, Claude, and Copilot\"\nInformation updated: October 12, 2026 (The names and locations of settings for each company may change)\nIn August 2026, it was discovered that an employee at a company had entered health insurance subscriber information into a generative AI not approved by the company. In addition to names and dates of birth, the information even included details about medical conditions.\nFor those who use ChatGPT and similar tools for work or personal advice, this article covers the following three points: 1. Information you should not input and how to consult by anonymizing it 2. Where to find the 'opt-out of training' settings for ChatGPT, Gemini, Claude, and Copilot 3. What settings cannot prevent\nThis is based on materials from the government (Ministry of Internal Affairs and Communications, Personal Information Protection Commission) and the official help pages of the four companies. If you only want to know about the settings, please go to the 'Opt-out of Training' section in the table of contents.\n1. Do not input Never input passwords, card numbers, or My Number (Individual Number) into any AI. You can consult about names or medical conditions by anonymizing them, such as using 'Person A' or 'has a chronic condition'.\n2. Turn off training For ChatGPT, Gemini, and Copilot, conversations are used for training (to improve the AI) by default. Turn it off using the steps below. For Claude, since it is an opt-in system, verify that it is not turned on.\n3. Do not feel completely safe even if you turn it off Data is stored for a while, and depending on the AI, it may be reviewed by humans. If your account is hijacked, your entire history could be exposed. That is why point 1 is the most effective.\n4. Do not create shared links Shared links (URLs created to show conversations to others) can be viewed by anyone who has them, and there have been cases where they appeared in search results. When showing someone, use a copy or a screenshot.\nPoint: Settings can only stop 'training.' Other paths cannot be prevented by settings.\nThe 'training' in blue-green above can be turned off in settings. The five red items below cannot be prevented by settings. Therefore, the following 'Do not input' is the most reliable measure. Actual examples are summarized in 'What Actually Happened'.\nPoint: Never input numbers, passwords, or financial information in any form. Names and medical conditions can be used for consultation if anonymized.\nThe four red items are meaningless even if anonymized. I\n\nCoverage from ZDNet: \"How to keep your conversations with ChatGPT, Gemini, Copilot or Claude as private as possible\"\nFollow ZDNET: Add us as a preferred source on Google.\nJust how private are the conversations you have with your favorite AI?\nLast week, news broke that conversations from Anthropic’s Claude AI could be accessed through a Google dork (translation: advanced search query). Yes, people had already shared these conversations with others via active links. But I’m sure they never imagined that the topics discussed could be exposed to anyone with some search savvy.\nAlso: 5 reasons you should be more tight-lipped with your chatbot\nAnthropic quickly fixed the “exploit” to disable this type of indexing. But the question remains: Just how private are your AI conversations? In part, that depends on you. Though the AI companies don’t always make it easy, they do offer controls through which you’re able to manage your own privacy.\nToward that end, let’s look at four major AI chatbots and cover steps to tighten your privacy as much as possible.\nDon’t want your conversations in ChatGPT tracked or saved? You can chat with the AI without an account. Even if you have one, just log out before you submit your query. Certain advanced features won’t be available, and you’ll hit lower thresholds. But if you don’t want to expose specific conversations, this is certainly an option.\nIf you are signed in with your account and don’t want your next chat saved to your history, make it a temporary one. At the ChatGPT window, click the circular “Turn on Temporary Chat” icon in the upper right. The prompt field will turn black while a notice tells you how it works. You still may not want to share anything too sensitive. But at least you can discuss more personal topics since the chatbot won’t remember any of it.\nAlso: Microsoft’s new Copilot app puts everything in one place – but the price is ‘evolving’\nOpenAI trains its ChatGPT model in part based on your conversations. Though the shared data isn’t associated with your name and account, you might still want to turn off this option to prevent any personal information from being shared. Click your account name at the bottom of the left pane. Select Settings and go to Data controls. If the option for “Improve the model for everyone” is turned on, click it and turn it off.\nAlso: Claude’s Record-a-Skill cut my research from hours to 30 minutes – but the magic has limits\nChatGPT gives you the ability to share a conversation via X, LinkedIn, Reddit, or through a regular link. But as long as your conversation exists, that link remains active. Thin\n\nCoverage from androidheadlines.com: \"How to Stop ChatGPT, Gemini, and Meta from Using Your Posts for AI Training\"\nMajor tech platforms including OpenAI, Google, Meta, and LinkedIn train AI models on user data by default. Users can block future data harvesting by adjusting account toggles on ChatGPT, Gemini, and LinkedIn, or by submitting formal objection forms through Meta’s Privacy Center.\nEvery time you type a prompt into ChatGPT , search with Gemini , or share a post on Instagram, big tech companies harvest your data to train their artificial intelligence models. Major platforms like LinkedIn and Gemini turn training settings on by default, while OpenAI and Meta quietly use public posts, photos, and chat logs unless you explicitly object.\nAs NotebookCheck highlights, taking back control of your privacy takes about fifteen minutes, but you need to know where to look. Here is how to disable data harvesting across the biggest platforms on the web.\nOpenAI makes toggling off training relatively straightforward in ChatGPT. Head into your account settings, open the Data Controls tab, and switch off “Improve the model for everyone.” You can also request a permanent opt-out through OpenAI’s privacy portal . Keep in mind that if you rate a response with a thumbs up or down, that specific conversation bypasses your privacy preferences. For extra sensitive questions, stick to temporary chats.\nGoogle bundles its AI controls under “Keep Activity” on the Gemini web interface and app. Opening your activity settings lets you turn off future data collection or wipe your chat history entirely. However, Google keeps unlinked conversation logs for up to 72 hours for safety reviews. Plus, any chats previously analyzed by human reviewers remain stored for up to three years.\nMeta skips simple toggles entirely, requiring users to fill out formal objection forms hidden inside its Privacy Center . Submitting the form stops Meta from using public Facebook and Instagram posts, photo captions, and Meta AI interactions for future model training. A separate form exists for WhatsApp, though Meta states it currently refrains from training on WhatsApp AI chats. However, if someone else tags you in a public photo, Meta can still analyze that image.\nLinkedIn quietly enabled EU data training for generative AI models under its “Data for Generative AI Improvement” privacy setting. Switching that toggle off under Data Privacy stops future harvesting, though it won’t remove data from models already trained. Private messages remain excluded across LinkedIn, but taking a few minutes to check your account set\n\nBackground (Model collapse, Wikipedia):\nIn artificial intelligence (AI), model collapse, also known as \"AI inbreeding\", \"AI cannibalism\", \"Habsburg AI\", and \"model autophagy disorder\" or \"MAD\", is the degradation of machine learning models from uncurated synthetic data, or from training on the outputs of another model, such as a prior versions of itself. It has colloquially been referred to as the AI version of mad cow disease, fundamentally caused by feeding something to itself. It is unclear to what extent the model collapse threatens the long-term development of AI models, and techniques have been proposed to mitigate the effect.\n\nBackground (Humans in the Loop (film), Wikipedia):\nHumans in the Loop is a 2024 Indian independent drama film written and directed by Aranya Sahay and produced by Storiculture's Museum of Imagined Futures. The film follows an Adivasi woman, Nehma, from Jharkhand who unexpectedly finds herself interacting with artificial intelligence, unraveling its hidden biases and ethical dilemmas. Inspired by a 2022 article by journalist Karishma Mehrotra in Fifty Two (52) titled \"Human Touch\", the film sheds light on AI bias and its disproportionate impact on women in technology. It highlights the contributions of women in the field of data annotation and algorithmic development while questioning the growing intersection of AI and marginalised communities.\n\nRelated Hacker News thread: \"Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)\" (667 points)\nTop reader comment (opinion, not fact): another Google W I guess? gemini really leading the pack over here",
-  "research_links": [
-    "https://note.com/hayamimi0123/n/n07ba3dda671d?hl=en",
-    "https://www.zdnet.com/article/how-to-keep-ai-conversations-private-chatgpt-gemini-copilot-claude/",
-    "https://www.androidheadlines.com/2026/10/chatgpt-gemini-meta-opt-out-ai-training-data.html"
-  ],
-  "source_credit": "Hacker News, with reporting from note and ZDNet",
-  "source_tag": "via Hacker News",
-  "template": "clean_white",
-  "photo_file_id": "AgACAgUAAxkDAAPXauxSKqnMfEaD7etD2p9mspmIwyUAAp8VaxuKI2FX-H5xWQABXNZ8AQADAgADeQADPQQ",
-  "text": "Personal subscribers to Google AI might assume a paid tier shields their data. \n\nGemini's terms show that paying a subscription fee does not remove your conversations from the training pipeline.\n\nIf you use a personal Google AI subscription, every saved chat can be fed back into model training. You cannot turn off training while preserving your saved history. Your only options are disabling chat history entirely or using temporary chat sessions.\n\nThe policy extends beyond automated training:\nUnlinked conversation logs are retained for up to 72 hours for safety reviews. Human reviewers can read saved chat transcripts, and chats analyzed by humans remain stored for up to 3 years. That is why Google's support page explicitly warns users not to enter confidential information.\n\nDisconnecting reviewed chats from your account removes your identity, but the raw text stays on Google's servers. \n\nThis policy applies specifically to personal subscriber accounts. Corporate enterprise tiers operate under separate agreements with strict data boundaries, but consumer tiers leave your inputs in the pool.\n\nSource: Hacker News, with reporting from note and ZDNet\n\n#DataPrivacy #ArtificialIntelligence",
-  "alt_openings": "**Opening 1 (Bare number first)**\n3 years.\nThat is how long Google can store human-reviewed Gemini chats, even from paying personal subscribers.\n*When to prefer:* Use when writing for an audience sensitive to data retention timelines and compliance risks, where a specific duration creates immediate tension.\n\n**Opening 2 (Tool as subject)**\nGoogle Gemini trains on your chat history even when you pay for a subscription.\n*Line 2:* Personal account subscribers have no direct toggle to opt out of training without deleting their saved history.\n*When to prefer:* Use when addressing tech-forward readers who already use Gemini daily and assume paid tiers grant standard data privacy.\n\n**Opening 3 (Your X)**\nYour paid Google AI subscription does not buy you conversation privacy.\n*Line 2:* Saved Gemini chats are used for model training by default, and human reviewers may read the transcripts.\n*When to prefer:* Use for general professionals and founders who pay for consumer AI tools out of pocket and expect consumer protection in return.\n\nPick: Opening 2 (Tool as subject). It names the product and the exact mechanism immediately, driving high relevance for anyone actively paying for Google AI tools.",
+  "context": "Title: Airbnb is working on an AI travel agent\n\nText:\nAirbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today . \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But planning a trip on Airbnb is different.\" The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a \"new interface\" built \"specifically for travel\" gives it an edge. Here's how Airbnb says that new interface will work: We don't think a traditional chatbo … Read the full story at The Verge.\n\nArticle text (excerpt):\nThe travel company is planning an “AI-native” trip-planning experience that’s set to roll out next year.\nThe travel company is planning an “AI-native” trip-planning experience that’s set to roll out next year.\nAirbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today .\n“Today’s AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,” Airbnb said. “But planning a trip on Airbnb is different.” The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a “new interface” built “specifically for travel” gives it an edge.\nHere’s how Airbnb says that new interface will work:\nWe don’t think a traditional chatbot is the right way to plan a trip. We’re developing a custom-designed, AI-native experience that builds the interface around your question. Rather than a chat window, our agent draws on a library of hundreds of travel-specific interface elements—maps, photos, comparisons, calendars, itineraries—and composes them in real time to match what you’re looking for. Our agent will help guests explore options, make decisions with the people they’re traveling with, and take action directly in Airbnb.\nAirbnb co-founder and CEO Brian Chesky has said before that the company plans to launch an agent in 2027, telling the Skift Global Forum that it would have an interface that’s “much richer than a chatbot.”\nIn its shareholder letter, Airbnb also said that AI is “the best thing to ever happen to Airbnb” and has changed how it develops products and operates.\nThis is the title for the native ad",
+  "research_links": [],
+  "source_credit": "The Verge",
+  "source_tag": "via The Verge",
+  "template": "dark_accent",
+  "photo_file_id": "AgACAgUAAxkDAAPcau2iCId-OxFHquqVfsK7V5OSjowAAu0TaxuKI3FXAAF8zYdLFU7rAQADAgADeQADPQQ",
+  "text": "Airbnb is ditching the standard chatbot window for its next AI launch.\n\nIn its Q3 2026 shareholder letter, the company announced an AI agent coming in 2027 that builds custom screens on the fly.\n\nHere is how the interface actually works.\n\nMost AI assistants force you into a text box. Airbnb claims trip planning is too complex for basic chat.\n\nInstead of sending back text, the system draws from a library of hundreds of travel-specific interface elements.\n\nIt composes those visual elements in real time based on your question:\n• Maps placed next to listing photos\n• Side-by-side room comparisons\n• Live calendars and shared itineraries\n\nYou get a layout tailored to your search, letting travel groups compare options and book without leaving the app.\n\nCEO Brian Chesky previously previewed the design at the Skift Global Forum, calling it richer than a traditional chatbot.\n\nIn the letter, Airbnb went further, calling AI the best thing to ever happen to the company.\n\nMy read: the text prompt is a temporary interface. The real value of AI starts when software generates custom controls for a specific job instead of making you read standard text replies.\n\nKeep in mind: this is an earnings letter promise for the first half of 2027, not a live tool anyone can test today.\n\nWould you trade a chat window for a dynamic interface?\n\nSource: The Verge",
+  "alt_openings": "1. Bare number first\nLine 1: 2027 is the deadline Airbnb set to replace standard booking screens with AI.\nLine 2: Its Q3 2026 shareholder letter outlines an agent that generates visual interfaces on the fly.\nPrefer when: your audience cares about corporate timelines and long-term product roadmaps.\n\n2. Your X\nLine 1: Your next Airbnb search will not involve typing into a traditional chatbot box.\nLine 2: A Q3 2026 shareholder letter reveals an upcoming AI agent that composes customized software layouts as you ask questions.\nPrefer when: writing directly to consumer-facing founders or product managers focused on user experience.\n\n3. Story in motion\nLine 1: Airbnb just told shareholders that AI is the best thing to ever happen to its business.\nLine 2: Its Q3 2026 letter details a plan for 2027 that replaces text responses with dynamically generated visual software.\nPrefer when: you want maximum emotional pull from a bold corporate quote right away.\n\nPick: The primary opening (\"Airbnb is ditching the standard chatbot window for its next AI launch.\"). It states the product change clearly, establishes the mechanism instantly, and challenges the common standard of AI text boxes before the line break.",
   "voice_score": 4,
-  "firewall_notes": [
-    "\"Paying for an AI subscription does not keep your data private.\" — Tripped tell: Gives away the core conclusion in line 1 before the fold (Check 10).",
-    "\"Here is how the data policy actually works.\" — Tripped tell: Empty setup line and filler transition (Check 4 and 5).",
-    "\"• Unlinked conversation logs... • Human reviewers... • Chats analyzed...\" — Tripped tell: Formatted triad list pattern (Check 3).",
-    "\"My read: paying for software used to mean you were the customer.\" — Tripped tell: Generic opinion frame (\"My read:\") (Check 5 and 6).",
-    "\"Check what you paste into your prompts before hitting send.\" — Tripped tell: Preachy, generic advice ending (Check 13)."
-  ],
-  "headline": "How Google AI trains on paid personal chats",
+  "firewall_notes": [],
+  "headline": "Why Airbnb is replacing text prompts with custom screens",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-05.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-06.png"
 }
