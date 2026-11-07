@@ -1,36 +1,80 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-06",
-  "created_at": "2026-11-06T15:15:49.963506+05:30",
+  "date": "2026-11-07",
+  "created_at": "2026-11-07T14:39:42.948386+05:30",
   "candidate": {
-    "id": "news:cc48f8093c5b",
+    "id": "news:1bc7ba2a28c4",
     "source": "news",
-    "title": "Airbnb is working on an AI travel agent",
-    "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-    "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But […]",
+    "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+    "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+    "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
     "score": 80.0,
-    "created_at": "2026-11-06T00:06:12+00:00",
-    "raw_text": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today . \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But planning a trip on Airbnb is different.\" The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a \"new interface\" built \"specifically for travel\" gives it an edge. Here's how Airbnb says that new interface will work: We don't think a traditional chatbo … Read the full story at The Verge.",
+    "created_at": "2026-11-06T23:00:44+00:00",
+    "raw_text": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed is a customer of Nvidia's, and Alice Huang also has \"relationships with executives at the highest levels of the A.I. chip industry,\" including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a \"Chinese spy plot\" and shared details about Al … Read the full story at The Verge.",
     "extra": {
       "outlet": "The Verge",
       "weight": 0.8,
-      "coverage": 1
+      "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "news:cc48f8093c5b",
+      "id": "news:bc8f9eac1966",
       "source": "news",
-      "title": "Airbnb is working on an AI travel agent",
-      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But […]",
-      "score": 80.0,
-      "created_at": "2026-11-06T00:06:12+00:00",
-      "raw_text": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today . \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But planning a trip on Airbnb is different.\" The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a \"new interface\" built \"specifically for travel\" gives it an edge. Here's how Airbnb says that new interface will work: We don't think a traditional chatbo … Read the full story at The Verge.",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "score": 100.0,
+      "created_at": "2026-11-06T08:00:00+00:00",
+      "raw_text": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "extra": {
-        "outlet": "The Verge",
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:36231604b288",
+      "source": "news",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "score": 80.0,
+      "created_at": "2026-11-07T01:40:28+00:00",
+      "raw_text": "The deal highlights the challenges of developing massive AI data centers.",
+      "extra": {
+        "outlet": "TechCrunch",
         "weight": 0.8,
-        "coverage": 1
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:cfd4354afa14",
+      "source": "news",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "score": 100.0,
+      "created_at": "2026-11-06T00:00:00+00:00",
+      "raw_text": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.08373",
+      "source": "huggingface",
+      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "url": "https://huggingface.co/papers/2611.08373",
+      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language…",
+      "score": 150.0,
+      "created_at": "2026-11-06T00:00:00.000Z",
+      "raw_text": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training. Initialized from a pretrained pi05 policy, SLA jointly optimizes action prediction and alignment between intermediate visual embeddings and spatial representations from a frozen 3D perception model. We curate and unify heterogeneous robot datasets to support spatial learning across diverse embodiments, tasks, and scenes. To accommodate this diversity, we introduce feature-dependent gates that adaptively aggregate visual embeddings from multiple VLA layers for spatial supervision. The teacher further exploits partially available depth and camera calibration alongside RGB observations, enabling effective use of heterogeneous geometric annotations. Probabilistic state dropout encourages reliance on visual cues and mitigates overfitting to demonstration trajectories. All auxiliary components are used only during training, allowing direct reuse of pretrained VLA weights and preserving the original inference architecture.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.08373",
+        "coverage": 0
       }
     },
     {
@@ -39,12 +83,57 @@
       "title": "Claude Code sends your email address to websites",
       "url": "https://github.com/anthropics/claude-code/issues/107757",
       "summary": "",
-      "score": 1116.0,
+      "score": 1570.0,
       "created_at": "2026-11-05T22:17:15+00:00",
       "raw_text": "",
       "extra": {
         "discussion_url": "https://news.ycombinator.com/item?id=50385272",
-        "num_comments": 340,
+        "num_comments": 503,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:6813d62fd925",
+      "source": "news",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal […]",
+      "score": 80.0,
+      "created_at": "2026-11-06T23:46:18+00:00",
+      "raw_text": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg . That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion. That was before tech stocks dropped, and the results of the midterms showed how much public o … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:1bc7ba2a28c4",
+      "source": "news",
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
+      "score": 80.0,
+      "created_at": "2026-11-06T23:00:44+00:00",
+      "raw_text": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed is a customer of Nvidia's, and Alice Huang also has \"relationships with executives at the highest levels of the A.I. chip industry,\" including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a \"Chinese spy plot\" and shared details about Al … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:314bd089789a",
+      "source": "news",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "score": 80.0,
+      "created_at": "2026-11-06T22:53:46+00:00",
+      "raw_text": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
         "coverage": 0
       }
     },
@@ -54,7 +143,7 @@
       "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
       "url": "https://huggingface.co/papers/2611.02075",
       "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented ev…",
-      "score": 112.0,
+      "score": 114.0,
       "created_at": "2026-11-06T00:00:00.000Z",
       "raw_text": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evidence. Pretraining supplies reusable inference capability; deployment evidence instantiates problem-specific predictions without updating either model's neural parameters. Tool judgments, candidate preferences, and reasoning assessments share an evidence-and-query interface, with predictions mapped to choices by a decision rule. This architecture establishes complementary sources of agent capability: semantic knowledge acquired through language pretraining and empirical inference acquired through structured-data pretraining. A single frozen LimiX-2 predictor serves all five task categories. With Qwen3.5-27B as the semantic encoder, DPDM raises mean accuracy across 50 benchmarks from 78.80% with few-shot prompting to 84.92% under their respective evaluated history budgets, and reaches 82.33% with identical histories and queries. On ToolPRMBench's BFCL and ToolSandbox tasks, absolute accuracy gains are 34.26% and 28.87%, respectively, at the methods' respective evaluated history budgets. Accuracy improves as history grows. With identical imbalanced histories, mean balanced accuracy improves by an absolute 14.51% across five reasoning-step assessment tasks and four encoders. DPDM makes learning from experience an independently improvable foundation-model capability, creating a shared route for advances in conditional prediction to improve decisions across agent tasks.",
       "extra": {
@@ -63,77 +152,17 @@
       }
     },
     {
-      "id": "news:c88b52d0b210",
-      "source": "news",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "score": 100.0,
-      "created_at": "2026-11-05T20:00:00+00:00",
-      "raw_text": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:825a50d1c0ad",
-      "source": "news",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "id": "hn:50397994",
+      "source": "hackernews",
+      "title": "AI is dramatically accelerating AI research",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
       "summary": "",
-      "score": 100.0,
-      "created_at": "2026-11-05T17:05:16+00:00",
+      "score": 295.0,
+      "created_at": "2026-11-06T20:27:23+00:00",
       "raw_text": "",
       "extra": {
-        "outlet": "Google DeepMind",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:b58fee4edbbb",
-      "source": "news",
-      "title": "Australian universities are creating AI-native graduates",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "score": 100.0,
-      "created_at": "2026-11-05T17:00:00+00:00",
-      "raw_text": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:9889510bec40",
-      "source": "news",
-      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-      "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
-      "score": 80.0,
-      "created_at": "2026-11-06T06:28:32+00:00",
-      "raw_text": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:53c56afbaf05",
-      "source": "news",
-      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-      "score": 100.0,
-      "created_at": "2026-11-05T09:00:00+00:00",
-      "raw_text": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "discussion_url": "https://news.ycombinator.com/item?id=50397994",
+        "num_comments": 231,
         "coverage": 0
       }
     },
@@ -143,7 +172,7 @@
       "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
       "url": "https://huggingface.co/papers/2611.08449",
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known s…",
-      "score": 56.0,
+      "score": 96.0,
       "created_at": "2026-11-06T00:00:00.000Z",
       "raw_text": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass. The layout adapts to the primitive's type, dimensionality, and length, supporting compact boxes and long, variable-length trajectories. Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence. VFlash therefore trains on annotated primitives and directly accepts structurally valid predictions without target-token agreement. Across the evaluated 2D and 3D robot trajectory tasks, VFlash consistently reduces prediction errors relative to autoregressive decoding. Preliminary single-rollout measurements indicate approximately 25x faster generation for 3D point motion forecasting. A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline.",
       "extra": {
@@ -157,56 +186,31 @@
       "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
       "url": "https://huggingface.co/papers/2611.06728",
       "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that a…",
-      "score": 126.0,
+      "score": 127.0,
       "created_at": "2026-11-05T00:00:00.000Z",
       "raw_text": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that aligns learning with individual streaming decisions. TurnWise addresses the mismatch between trajectory-level feedback and turn-level interaction, promoting informative responses and reducing redundancy. Specifically, turn-level credit assignment uses silence-completed prefix scoring to construct group-relative advantages from each decision's remaining return, separating its learning signal from earlier rewards. Turn-mean policy optimization averages token losses within each turn and then across turns, giving response and waiting decisions equal weight regardless of output length. These complementary designs improve streaming policy learning without a learned critic or additional rollouts. Extensive experiments show our method outperforms prior RL approaches for streaming video understanding.",
       "extra": {
         "arxiv_url": "https://arxiv.org/abs/2611.06728",
         "coverage": 0
       }
-    },
-    {
-      "id": "hn:50385870",
-      "source": "hackernews",
-      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-      "summary": "",
-      "score": 323.0,
-      "created_at": "2026-11-05T23:09:57+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50385870",
-        "num_comments": 154,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.04277",
-      "source": "huggingface",
-      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
-      "url": "https://huggingface.co/papers/2611.04277",
-      "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized…",
-      "score": 43.0,
-      "created_at": "2026-11-06T00:00:00.000Z",
-      "raw_text": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized sibling harnesses along distinct repair directions, forming a reusable Sibling Harness Pool that remains fixed during policy training. Complementary Harness Rescue Training invokes this pool only when all initial attempts under the base harness fail. The same policy generates fresh rollouts under selected auxiliary harnesses, and these trajectories replace the failed group for reinforcement learning. An Adaptive Harness Router selects the Top-k variants using Harness Behavior Profiles and voting across multiple LLMs. Policy-aware profile re-anchoring refreshes this evidence as the policy learns. Across AppWorld, SWE-Gym, and DBBench, the trained policy substantially outperforms policy-only training when returned to the original base harness. Behavioral analyses and held-out cases support the transfer of harness-elicited behaviors into the policy itself. Reusing the router for Rank-1 inference provides additional gains at the same executor rollout count.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.04277",
-        "coverage": 0
-      }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Airbnb is working on an AI travel agent\n\nText:\nAirbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today . \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But planning a trip on Airbnb is different.\" The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a \"new interface\" built \"specifically for travel\" gives it an edge. Here's how Airbnb says that new interface will work: We don't think a traditional chatbo … Read the full story at The Verge.\n\nArticle text (excerpt):\nThe travel company is planning an “AI-native” trip-planning experience that’s set to roll out next year.\nThe travel company is planning an “AI-native” trip-planning experience that’s set to roll out next year.\nAirbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today .\n“Today’s AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,” Airbnb said. “But planning a trip on Airbnb is different.” The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a “new interface” built “specifically for travel” gives it an edge.\nHere’s how Airbnb says that new interface will work:\nWe don’t think a traditional chatbot is the right way to plan a trip. We’re developing a custom-designed, AI-native experience that builds the interface around your question. Rather than a chat window, our agent draws on a library of hundreds of travel-specific interface elements—maps, photos, comparisons, calendars, itineraries—and composes them in real time to match what you’re looking for. Our agent will help guests explore options, make decisions with the people they’re traveling with, and take action directly in Airbnb.\nAirbnb co-founder and CEO Brian Chesky has said before that the company plans to launch an agent in 2027, telling the Skift Global Forum that it would have an interface that’s “much richer than a chatbot.”\nIn its shareholder letter, Airbnb also said that AI is “the best thing to ever happen to Airbnb” and has changed how it develops products and operates.\nThis is the title for the native ad",
-  "research_links": [],
-  "source_credit": "The Verge",
+  "context": "Title: China reportedly recruited AI exec to spy on Jensen Huang\n\nText:\nChina's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed is a customer of Nvidia's, and Alice Huang also has \"relationships with executives at the highest levels of the A.I. chip industry,\" including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a \"Chinese spy plot\" and shared details about Al … Read the full story at The Verge.\n\nArticle text (excerpt):\nNvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips.\nNvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips.\nChina’s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and “potentially influence the company to push for its most advanced chips to be made available to China.” Megaspeed is a customer of Nvidia’s, and Alice Huang also has “relationships with executives at the highest levels of the A.I. chip industry,” including leaders at Gigabyte, the NYT says.\nLast week, the NYT reported that Jensen Huang was seen as the target of a “Chinese spy plot” and shared details about Alice Huang and Jensen Huang’s relationship, but the information that China’s MSS had recruited her is new.\nThe NYT describes the relationship between Alice Huang and Jensen Huang, who are not related, as “close.” President Trump, who is friendly with Jensen Huang , was briefed last year about the relationship, but didn’t take any action. Yesterday, three House committees asked Jensen Huang to appear for a joint, closed-door briefing on his “interactions” with Alice Huang.\nThis is the title for the native ad\n\nResearch notes on: China's Ministry of State Security reportedly recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang for AI chip intelligence.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from Skoar! on MSN: \"China allegedly hired AI executive to monitor Jensen Huang\"\nA businesswoman named Alice Huang was reportedly enlisted by China's intelligence agency to gather information on Nvidia CEO Jensen Huang.\n\nCoverage from CNBC: \"Nvidia CEO Jensen Huang urges U.S.-China dialogue on 'potentially dangerous' AI\"\nNvidia CEO Jensen Huang said the chipmaker \"absolutely must\" work with Chinese AI companies on monitoring risks around the \"potentially dangerous\" technology.\n\"We absolutely should work with each other so that we advance the technology safely,\" he told CNBC during a media briefing on Wednesday evening in London.\nDiscussions around AI safety have intensified in recent months, after researchers from AI labs including OpenAI and Anthropic called for a slowdown in developing the tech and warned of existential risks to humanity.\nWhile OpenAI's Sam Altman and Anthropic's Dario Amodei have called for greater regulation , Huang has emerged as a prominent voice in opposition to that view.\nHuang said that \"dialogue\" was the way to work with Chinese AI companies, adding that he has \"dialogues with many of the researchers in China.\"\n\"We ought to enhance the dialogue,\" he added. \"The United States should do it... I advocated that the U.K. do the same thing.\"\nAI safety has become a key topic between the U.S. and Chinese governments, with both countries weighing how to address the risks posed by the rapidly advancing tech.\nPrior to U.S. President Donald Trump's meeting with Chinese counterpart Xi Jinping, U.S. Treasury Secretary Scott Bessent discussed the prospect of a \"U.S.-China AI dialogue\" with his Chinese counterpart, He Lifeng, in September, including a channel for incidents \"up to a national security level.\"\nA Chinese readout of the meeting said President Xi pointed out that China and the U.S. \"may have competition, but they may cooperate even more \" in AI. \"The two sides can continue their dialogue on AI, exchange views on its risks and benefits, and jointly prevent the misuse and abuse of AI,\" Xi said, per the readout.\nHuang said that the U.K. is in a position \"in the world to be able to be a convener of many of these dialogues\" related to AI, because of the country's \"intellectual capital.\"\n\nCoverage from NDTV: \"US Believes Nvidia CEO Jensen Huang Had Romantic Relationship With Chinese 'Spy': Report\"\nAlice Huang was working for Beijing's Ministry of State Security, which was maneuvering to glean more detail about American artificial intelligence chips, according to the media reports ...\n\nBackground (Regulation of artificial intelligence in the United States, Wikipedia):\nThe United States federal government and state governments have developed some regulation of artificial intelligence, including executive orders, federal laws, and state laws. Federal agencies have also developed some sector-specific regulations related to AI.\n\nBackground (Ministry of State Security (China), Wikipedia):\nThe Ministry of State Security (MSS) is the principal civilian intelligence and security service of the People's Republic of China, responsible for foreign intelligence, counterintelligence, covert action, and the political security of the Chinese Communist Party. One of the largest and most secretive intelligence agencies in the world, it maintains powerful semi-autonomous branches in every province and city and administers the country's secret police, the State Security Police. The ministry is headquartered at Yidongyuan, a large compound in Beijing's Haidian district.",
+  "research_links": [
+    "https://www.msn.com/en-in/news/other/china-allegedly-hired-ai-executive-to-monitor-jensen-huang/ar-AA2gVN5D",
+    "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
+    "https://www.ndtv.com/world-news/woman-who-targeted-nvidia-ceo-jensen-huang-was-recruited-by-top-china-spy-agency-report-12295987"
+  ],
+  "source_credit": "The Verge, with reporting from Skoar! on MSN and CNBC",
   "source_tag": "via The Verge",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAPcau2iCId-OxFHquqVfsK7V5OSjowAAu0TaxuKI3FXAAF8zYdLFU7rAQADAgADeQADPQQ",
-  "text": "Airbnb is ditching the standard chatbot window for its next AI launch.\n\nIn its Q3 2026 shareholder letter, the company announced an AI agent coming in 2027 that builds custom screens on the fly.\n\nHere is how the interface actually works.\n\nMost AI assistants force you into a text box. Airbnb claims trip planning is too complex for basic chat.\n\nInstead of sending back text, the system draws from a library of hundreds of travel-specific interface elements.\n\nIt composes those visual elements in real time based on your question:\n• Maps placed next to listing photos\n• Side-by-side room comparisons\n• Live calendars and shared itineraries\n\nYou get a layout tailored to your search, letting travel groups compare options and book without leaving the app.\n\nCEO Brian Chesky previously previewed the design at the Skift Global Forum, calling it richer than a traditional chatbot.\n\nIn the letter, Airbnb went further, calling AI the best thing to ever happen to the company.\n\nMy read: the text prompt is a temporary interface. The real value of AI starts when software generates custom controls for a specific job instead of making you read standard text replies.\n\nKeep in mind: this is an earnings letter promise for the first half of 2027, not a live tool anyone can test today.\n\nWould you trade a chat window for a dynamic interface?\n\nSource: The Verge",
-  "alt_openings": "1. Bare number first\nLine 1: 2027 is the deadline Airbnb set to replace standard booking screens with AI.\nLine 2: Its Q3 2026 shareholder letter outlines an agent that generates visual interfaces on the fly.\nPrefer when: your audience cares about corporate timelines and long-term product roadmaps.\n\n2. Your X\nLine 1: Your next Airbnb search will not involve typing into a traditional chatbot box.\nLine 2: A Q3 2026 shareholder letter reveals an upcoming AI agent that composes customized software layouts as you ask questions.\nPrefer when: writing directly to consumer-facing founders or product managers focused on user experience.\n\n3. Story in motion\nLine 1: Airbnb just told shareholders that AI is the best thing to ever happen to its business.\nLine 2: Its Q3 2026 letter details a plan for 2027 that replaces text responses with dynamically generated visual software.\nPrefer when: you want maximum emotional pull from a bold corporate quote right away.\n\nPick: The primary opening (\"Airbnb is ditching the standard chatbot window for its next AI launch.\"). It states the product change clearly, establishes the mechanism instantly, and challenges the common standard of AI text boxes before the line break.",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAPiau7raR4_bCDxa3uOVzKngrfczmcAAqsVaxvc0XhX0VUJ23pzoeYBAAMCAAN5AAM9BA",
+  "text": "China recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang.\n\nThe goal was gathering intelligence on American AI chips and pushing for advanced chip access.\n\nThe price of controlling the hardware is now corporate espionage.\n\nAccording to reporting from The New York Times, the Ministry of State Security enlisted Alice Huang because of her close relationship with the Nvidia chief.\n\nShe also maintains connections with executives at Gigabyte and other top levels of the industry.\n\nPresident Trump was briefed on the relationship last year and took no action.\n\nYesterday, three House committees asked Jensen Huang to appear for a joint, closed door briefing on his interactions with her.\n\nMy read: the physical bottlenecks in AI are so severe that intelligence agencies are bypassing corporate lobbying entirely.\n\nThe facts come from reporting by The New York Times, CNBC, and Skoar! on MSN.\n\nHow far will governments go to secure advanced hardware?\n\nSource: The Verge, with reporting from Skoar! on MSN and CNBC",
+  "alt_openings": "1. Bare number first:\nThree House committees just summoned Jensen Huang for a closed door briefing.\nThe topic is his close relationship with a woman recruited by Chinese intelligence.\nShape: Bare number first\nWhen to prefer: When a breaking official action or investigation provides an immediate hook.\n\n2. Corrective:\nCorporate lobbying is no longer the primary tool for gaining access to scarce AI hardware.\nState intelligence agencies are now recruiting executives directly inside the supply chain.\nShape: Corrective\nWhen to prefer: When you want to challenge a standard assumption about how business and geopolitics intersect.\n\n3. Your X:\nYour next hardware supplier may have executives recruited by foreign intelligence agencies.\nChina's Ministry of State Security used a customer executive to gather intelligence on Nvidia's chips.\nShape: Your X\nWhen to prefer: When you need to make a geopolitical story feel immediately relevant to operators and executives.\n\nPick: Opening 2 (Corrective). It immediately frames the story as a shift in how geopolitical power operates around scarce technology, rather than just repeating a celebrity tech gossip item.",
   "voice_score": 4,
   "firewall_notes": [],
-  "headline": "Why Airbnb is replacing text prompts with custom screens",
+  "headline": "Why China targeted Nvidia's CEO for AI chips",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-06.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-07.png"
 }
