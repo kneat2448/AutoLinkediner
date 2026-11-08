@@ -1,47 +1,77 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-07",
-  "created_at": "2026-11-07T14:39:42.948386+05:30",
+  "date": "2026-11-08",
+  "created_at": "2026-11-08T14:55:29.701428+05:30",
   "candidate": {
-    "id": "news:1bc7ba2a28c4",
-    "source": "news",
-    "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-    "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-    "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
-    "score": 80.0,
-    "created_at": "2026-11-06T23:00:44+00:00",
-    "raw_text": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed is a customer of Nvidia's, and Alice Huang also has \"relationships with executives at the highest levels of the A.I. chip industry,\" including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a \"Chinese spy plot\" and shared details about Al … Read the full story at The Verge.",
+    "id": "hn:50407882",
+    "source": "hackernews",
+    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+    "summary": "",
+    "score": 380.0,
+    "created_at": "2026-11-07T20:45:32+00:00",
+    "raw_text": "",
     "extra": {
-      "outlet": "The Verge",
-      "weight": 0.8,
+      "discussion_url": "https://news.ycombinator.com/item?id=50407882",
+      "num_comments": 263,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "news:bc8f9eac1966",
-      "source": "news",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "score": 100.0,
-      "created_at": "2026-11-06T08:00:00+00:00",
-      "raw_text": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "id": "hn:50410107",
+      "source": "hackernews",
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "summary": "",
+      "score": 272.0,
+      "created_at": "2026-11-08T03:11:48+00:00",
+      "raw_text": "",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "discussion_url": "https://news.ycombinator.com/item?id=50410107",
+        "num_comments": 155,
         "coverage": 0
       }
     },
     {
-      "id": "news:36231604b288",
+      "id": "hn:50406563",
+      "source": "hackernews",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;AaY5O\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;AaY5O</a><p><a href=\"https:&#x2F;&#x2F;businessexaminer.ca&#x2F;victoria-articles&#x2F;item&#x2F;microsoft-researcher-john-langford-exits-as-ai-frontiers-group-is-declared&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;businessexaminer.ca&#x2F;victoria-articles&#x2F;item&#x2F;microsoft...</a>",
+      "score": 453.0,
+      "created_at": "2026-11-07T18:02:17+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50406563",
+        "num_comments": 271,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50407882",
+      "source": "hackernews",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "summary": "",
+      "score": 380.0,
+      "created_at": "2026-11-07T20:45:32+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50407882",
+        "num_comments": 263,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:ed263cbbe1a4",
       "source": "news",
-      "title": "Crusoe sells troubled Wyoming data center project to Google",
-      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
       "score": 80.0,
-      "created_at": "2026-11-07T01:40:28+00:00",
-      "raw_text": "The deal highlights the challenges of developing massive AI data centers.",
+      "created_at": "2026-11-07T22:07:22+00:00",
+      "raw_text": "On Equity, we unpacked what the midterms mean for the tech industry.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -49,120 +79,17 @@
       }
     },
     {
-      "id": "news:cfd4354afa14",
+      "id": "news:69c75581d56f",
       "source": "news",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "score": 100.0,
-      "created_at": "2026-11-06T00:00:00+00:00",
-      "raw_text": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.08373",
-      "source": "huggingface",
-      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
-      "url": "https://huggingface.co/papers/2611.08373",
-      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language…",
-      "score": 150.0,
-      "created_at": "2026-11-06T00:00:00.000Z",
-      "raw_text": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training. Initialized from a pretrained pi05 policy, SLA jointly optimizes action prediction and alignment between intermediate visual embeddings and spatial representations from a frozen 3D perception model. We curate and unify heterogeneous robot datasets to support spatial learning across diverse embodiments, tasks, and scenes. To accommodate this diversity, we introduce feature-dependent gates that adaptively aggregate visual embeddings from multiple VLA layers for spatial supervision. The teacher further exploits partially available depth and camera calibration alongside RGB observations, enabling effective use of heterogeneous geometric annotations. Probabilistic state dropout encourages reliance on visual cues and mitigates overfitting to demonstration trajectories. All auxiliary components are used only during training, allowing direct reuse of pretrained VLA weights and preserving the original inference architecture.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.08373",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50385272",
-      "source": "hackernews",
-      "title": "Claude Code sends your email address to websites",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "summary": "",
-      "score": 1570.0,
-      "created_at": "2026-11-05T22:17:15+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50385272",
-        "num_comments": 503,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:6813d62fd925",
-      "source": "news",
-      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal […]",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
       "score": 80.0,
-      "created_at": "2026-11-06T23:46:18+00:00",
-      "raw_text": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg . That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion. That was before tech stocks dropped, and the results of the midterms showed how much public o … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:1bc7ba2a28c4",
-      "source": "news",
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
-      "score": 80.0,
-      "created_at": "2026-11-06T23:00:44+00:00",
-      "raw_text": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed is a customer of Nvidia's, and Alice Huang also has \"relationships with executives at the highest levels of the A.I. chip industry,\" including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a \"Chinese spy plot\" and shared details about Al … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:314bd089789a",
-      "source": "news",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-      "score": 80.0,
-      "created_at": "2026-11-06T22:53:46+00:00",
-      "raw_text": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "created_at": "2026-11-07T21:17:08+00:00",
+      "raw_text": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.02075",
-      "source": "huggingface",
-      "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
-      "url": "https://huggingface.co/papers/2611.02075",
-      "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented ev…",
-      "score": 114.0,
-      "created_at": "2026-11-06T00:00:00.000Z",
-      "raw_text": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evidence. Pretraining supplies reusable inference capability; deployment evidence instantiates problem-specific predictions without updating either model's neural parameters. Tool judgments, candidate preferences, and reasoning assessments share an evidence-and-query interface, with predictions mapped to choices by a decision rule. This architecture establishes complementary sources of agent capability: semantic knowledge acquired through language pretraining and empirical inference acquired through structured-data pretraining. A single frozen LimiX-2 predictor serves all five task categories. With Qwen3.5-27B as the semantic encoder, DPDM raises mean accuracy across 50 benchmarks from 78.80% with few-shot prompting to 84.92% under their respective evaluated history budgets, and reaches 82.33% with identical histories and queries. On ToolPRMBench's BFCL and ToolSandbox tasks, absolute accuracy gains are 34.26% and 28.87%, respectively, at the methods' respective evaluated history budgets. Accuracy improves as history grows. With identical imbalanced histories, mean balanced accuracy improves by an absolute 14.51% across five reasoning-step assessment tasks and four encoders. DPDM makes learning from experience an independently improvable foundation-model capability, creating a shared route for advances in conditional prediction to improve decisions across agent tasks.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.02075",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50397994",
-      "source": "hackernews",
-      "title": "AI is dramatically accelerating AI research",
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "summary": "",
-      "score": 295.0,
-      "created_at": "2026-11-06T20:27:23+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50397994",
-        "num_comments": 231,
         "coverage": 0
       }
     },
@@ -172,7 +99,7 @@
       "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
       "url": "https://huggingface.co/papers/2611.08449",
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known s…",
-      "score": 96.0,
+      "score": 102.0,
       "created_at": "2026-11-06T00:00:00.000Z",
       "raw_text": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass. The layout adapts to the primitive's type, dimensionality, and length, supporting compact boxes and long, variable-length trajectories. Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence. VFlash therefore trains on annotated primitives and directly accepts structurally valid predictions without target-token agreement. Across the evaluated 2D and 3D robot trajectory tasks, VFlash consistently reduces prediction errors relative to autoregressive decoding. Preliminary single-rollout measurements indicate approximately 25x faster generation for 3D point motion forecasting. A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline.",
       "extra": {
@@ -181,36 +108,114 @@
       }
     },
     {
-      "id": "hf:2611.06728",
-      "source": "huggingface",
-      "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
-      "url": "https://huggingface.co/papers/2611.06728",
-      "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that a…",
-      "score": 127.0,
-      "created_at": "2026-11-05T00:00:00.000Z",
-      "raw_text": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that aligns learning with individual streaming decisions. TurnWise addresses the mismatch between trajectory-level feedback and turn-level interaction, promoting informative responses and reducing redundancy. Specifically, turn-level credit assignment uses silence-completed prefix scoring to construct group-relative advantages from each decision's remaining return, separating its learning signal from earlier rewards. Turn-mean policy optimization averages token losses within each turn and then across turns, giving response and waiting decisions equal weight regardless of output length. These complementary designs improve streaming policy learning without a learned critic or additional rollouts. Extensive experiments show our method outperforms prior RL approaches for streaming video understanding.",
+      "id": "news:fa06ff8fdc83",
+      "source": "news",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best […]",
+      "score": 80.0,
+      "created_at": "2026-11-07T15:50:00+00:00",
+      "raw_text": "The NYT Cooking app now has a built in AI assistant. | Photo: Jennifer Pattison Tuohy / The Verge Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again ?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best weapon in this fight has been AI. Between Alexa Plus in the Echo smart display on my kitchen counter, the Samsung Food app on my fridge, and even an AI-powered cooking robot , AI has become my go-to sous chef - albeit one I need to keep a close eye on. It's helped me swap ingredients, generate ideas, fix things when I mess up, and yes, even … Read the full story at The Verge.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.06728",
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:73be1ddc7ff2",
+      "source": "news",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell […]",
+      "score": 80.0,
+      "created_at": "2026-11-07T15:43:45+00:00",
+      "raw_text": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times , New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell with wires dangling from the ceiling where lights should be.\" In fact, the paper could find little evidence that the company exists in any meaningful way: Only scant information can be found online about New Matrix, which was created 17 months ago. At the building that New Matrix lists as its address, a company directory does not … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.05376",
+      "source": "huggingface",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "url": "https://huggingface.co/papers/2611.05376",
+      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, att…",
+      "score": 87.0,
+      "created_at": "2026-11-06T00:00:00.000Z",
+      "raw_text": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, attention has settled on one kind of intelligent individual, the embodied robot; we argue that the era of Physical AI holds a second kind of equal importance, the person augmented by AI. Alongside artificial general intelligence, which asks how intelligent a machine can be, stands AI-augmented human intelligence (AHI), which asks how much intelligence a machine can enable in a particular person. Realizing it calls for a new kind of system, a cognitive symbiont: a lifelong, embedded, real-time, private, low-friction, and proactive companion that senses what the person senses through external devices, keeps their context across years, models their situation and their mind, takes part in their thinking at the right moment, carries out everyday tasks with their context, and keeps learning the person as both change. We give the paradigm a conceptual core, the cognitive gap between what a person could bring to a situation and what they can hold in working memory, and organize its design space as a symbiosis loop of sensing, keeping, understanding, living alongside, acting for and thinking with the person, and growing, enclosed by a personal runtime and by trust. Because a symbiont changes what a person can do in front of others, it also raises risks of a new kind, from covert assistance in examinations to pressure on everyone to adopt it, and we treat their governance as part of the paradigm.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.05376",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:055e03fe8fc4",
+      "source": "news",
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say […]",
+      "score": 80.0,
+      "created_at": "2026-11-07T15:00:00+00:00",
+      "raw_text": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say that the multibillion-dollar cybersecurity industry as we’ve known it is essentially overdue to the unrelenting, AI-boosted waves of hacks, breaches, and attacks — and this is only the beginning of how much AI is changing security. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here . Not a subscriber? You can sign up here . Both private actors and also state actors, like Russia or North Korea, are breaking into systems all over thanks to AI helping them both detect and exploit vulnerabilities all at the same time. It’s got a real frontier feel to it, Alex notes, just like the ’90s, when the whole idea of an always-online world was brand-new. That much disruption means a lot of places where bad guys can get in while everyone else is left scrambling. Alex isn’t a doomer in the long run, but he does think we’re in for a “dark age” while we try to figure out how on earth to adapt to the new era. There’s a lot going on here — we even got all the way to how AI-powered misinformation and slop might be managed on our social networks. Before we get going, do me a favor and subscribe to Decoder on YouTube, where we put out new episodes every Monday and Thursday. Okay: Alex Stamos on how AI is upending cybersecurity. Here we go. This interview has been lightly edited for length and clarity. Alex Stamos, you’re the chief security officer at Cognition. You’re also a lecturer at Stanford University Cyber Policy Center. Welcome back to Decoder . Hey, thanks for having me, man. I’m excited to talk to you. It’s been a long time since you and I chatted in what you might call the “content moderation era” of internet policy discourse. I feel like you and I talked a lot about how all that was working, about election security, all those sorts of things. We’re in a new era of big problems on the internet, particularly around cyber defense, cybersecurity. You’ve been thinking about this stuff a lot. You referred to the past few weeks as “security awareness month.” Tell me what’s going on. Just give me the lay of land right now. October is traditionally security awareness month. Lots of companies run events and deal both internally and then tell people, “Change your password, use multiple passwords, use a password manager.” What has happened over the last month is we’ve had a couple of these big bugs, PHP, Node and such. What’s been less discussed is a huge number of companies have been breached. You have a series of AI-related companies, the neoclouds that have been breached in succession. You have the Binance hack, which is the largest heist of anything in human history. You have the Curs…",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.08373",
+      "source": "huggingface",
+      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "url": "https://huggingface.co/papers/2611.08373",
+      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language…",
+      "score": 83.0,
+      "created_at": "2026-11-06T00:00:00.000Z",
+      "raw_text": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training. Initialized from a pretrained pi05 policy, SLA jointly optimizes action prediction and alignment between intermediate visual embeddings and spatial representations from a frozen 3D perception model. We curate and unify heterogeneous robot datasets to support spatial learning across diverse embodiments, tasks, and scenes. To accommodate this diversity, we introduce feature-dependent gates that adaptively aggregate visual embeddings from multiple VLA layers for spatial supervision. The teacher further exploits partially available depth and camera calibration alongside RGB observations, enabling effective use of heterogeneous geometric annotations. Probabilistic state dropout encourages reliance on visual cues and mitigates overfitting to demonstration trajectories. All auxiliary components are used only during training, allowing direct reuse of pretrained VLA weights and preserving the original inference architecture.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.08373",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.02075",
+      "source": "huggingface",
+      "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+      "url": "https://huggingface.co/papers/2611.02075",
+      "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented ev…",
+      "score": 81.0,
+      "created_at": "2026-11-06T00:00:00.000Z",
+      "raw_text": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evidence. Pretraining supplies reusable inference capability; deployment evidence instantiates problem-specific predictions without updating either model's neural parameters. Tool judgments, candidate preferences, and reasoning assessments share an evidence-and-query interface, with predictions mapped to choices by a decision rule. This architecture establishes complementary sources of agent capability: semantic knowledge acquired through language pretraining and empirical inference acquired through structured-data pretraining. A single frozen LimiX-2 predictor serves all five task categories. With Qwen3.5-27B as the semantic encoder, DPDM raises mean accuracy across 50 benchmarks from 78.80% with few-shot prompting to 84.92% under their respective evaluated history budgets, and reaches 82.33% with identical histories and queries. On ToolPRMBench's BFCL and ToolSandbox tasks, absolute accuracy gains are 34.26% and 28.87%, respectively, at the methods' respective evaluated history budgets. Accuracy improves as history grows. With identical imbalanced histories, mean balanced accuracy improves by an absolute 14.51% across five reasoning-step assessment tasks and four encoders. DPDM makes learning from experience an independently improvable foundation-model capability, creating a shared route for advances in conditional prediction to improve decisions across agent tasks.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.02075",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: China reportedly recruited AI exec to spy on Jensen Huang\n\nText:\nChina's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed is a customer of Nvidia's, and Alice Huang also has \"relationships with executives at the highest levels of the A.I. chip industry,\" including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a \"Chinese spy plot\" and shared details about Al … Read the full story at The Verge.\n\nArticle text (excerpt):\nNvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips.\nNvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips.\nChina’s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and “potentially influence the company to push for its most advanced chips to be made available to China.” Megaspeed is a customer of Nvidia’s, and Alice Huang also has “relationships with executives at the highest levels of the A.I. chip industry,” including leaders at Gigabyte, the NYT says.\nLast week, the NYT reported that Jensen Huang was seen as the target of a “Chinese spy plot” and shared details about Alice Huang and Jensen Huang’s relationship, but the information that China’s MSS had recruited her is new.\nThe NYT describes the relationship between Alice Huang and Jensen Huang, who are not related, as “close.” President Trump, who is friendly with Jensen Huang , was briefed last year about the relationship, but didn’t take any action. Yesterday, three House committees asked Jensen Huang to appear for a joint, closed-door briefing on his “interactions” with Alice Huang.\nThis is the title for the native ad\n\nResearch notes on: China's Ministry of State Security reportedly recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang for AI chip intelligence.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from Skoar! on MSN: \"China allegedly hired AI executive to monitor Jensen Huang\"\nA businesswoman named Alice Huang was reportedly enlisted by China's intelligence agency to gather information on Nvidia CEO Jensen Huang.\n\nCoverage from CNBC: \"Nvidia CEO Jensen Huang urges U.S.-China dialogue on 'potentially dangerous' AI\"\nNvidia CEO Jensen Huang said the chipmaker \"absolutely must\" work with Chinese AI companies on monitoring risks around the \"potentially dangerous\" technology.\n\"We absolutely should work with each other so that we advance the technology safely,\" he told CNBC during a media briefing on Wednesday evening in London.\nDiscussions around AI safety have intensified in recent months, after researchers from AI labs including OpenAI and Anthropic called for a slowdown in developing the tech and warned of existential risks to humanity.\nWhile OpenAI's Sam Altman and Anthropic's Dario Amodei have called for greater regulation , Huang has emerged as a prominent voice in opposition to that view.\nHuang said that \"dialogue\" was the way to work with Chinese AI companies, adding that he has \"dialogues with many of the researchers in China.\"\n\"We ought to enhance the dialogue,\" he added. \"The United States should do it... I advocated that the U.K. do the same thing.\"\nAI safety has become a key topic between the U.S. and Chinese governments, with both countries weighing how to address the risks posed by the rapidly advancing tech.\nPrior to U.S. President Donald Trump's meeting with Chinese counterpart Xi Jinping, U.S. Treasury Secretary Scott Bessent discussed the prospect of a \"U.S.-China AI dialogue\" with his Chinese counterpart, He Lifeng, in September, including a channel for incidents \"up to a national security level.\"\nA Chinese readout of the meeting said President Xi pointed out that China and the U.S. \"may have competition, but they may cooperate even more \" in AI. \"The two sides can continue their dialogue on AI, exchange views on its risks and benefits, and jointly prevent the misuse and abuse of AI,\" Xi said, per the readout.\nHuang said that the U.K. is in a position \"in the world to be able to be a convener of many of these dialogues\" related to AI, because of the country's \"intellectual capital.\"\n\nCoverage from NDTV: \"US Believes Nvidia CEO Jensen Huang Had Romantic Relationship With Chinese 'Spy': Report\"\nAlice Huang was working for Beijing's Ministry of State Security, which was maneuvering to glean more detail about American artificial intelligence chips, according to the media reports ...\n\nBackground (Regulation of artificial intelligence in the United States, Wikipedia):\nThe United States federal government and state governments have developed some regulation of artificial intelligence, including executive orders, federal laws, and state laws. Federal agencies have also developed some sector-specific regulations related to AI.\n\nBackground (Ministry of State Security (China), Wikipedia):\nThe Ministry of State Security (MSS) is the principal civilian intelligence and security service of the People's Republic of China, responsible for foreign intelligence, counterintelligence, covert action, and the political security of the Chinese Communist Party. One of the largest and most secretive intelligence agencies in the world, it maintains powerful semi-autonomous branches in every province and city and administers the country's secret police, the State Security Police. The ministry is headquartered at Yidongyuan, a large compound in Beijing's Haidian district.",
+  "context": "Title: Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files\n\nA top reader comment on Hacker News (opinion, not fact):\n> Is it public? > > Search your GitHub organization for .claude/settings.local.json and .claude/settings.json. Each hit is a file anyone can read right now. So, it's not necessarily \"public\", it's simply in the repository, and whether it's actually public or not depends on the repository settings. Or am I missing something\n\nResearch notes on: Anthropic's Claude Code CLI tool accidentally led to secrets and passwords being committed to public GitHub repositories via settings files.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from The Hacker News: \"Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub\"\nClaude Code saves secrets in approved commands, exposing 2,539 credentials across 1,994 public GitHub repositories, Apiiro finds.\n\nCoverage from iTWire: \"Claude Code approval files found exposing company secrets on GitHub, says Apirro researchers\"\nDavid M Williams | Published 7 Nov 2026\nApiiro researchers say remembered commands are carrying credentials into public repositories, exposing a gap between approving an agent’s work and controlling what it leaves behind.\nYou ask your AI coding assistant to check a database connection. It proposes a command, asks permission, and offers to stop interrupting you for that command in future. You approve it and get on with your work.\nWhat you may not realise is that the approval itself can become another copy of your database password.\nThat is the problem examined in research published on 5 November by Apiiro’s Shmulik Cohen and Matan Giladi . They say Claude Code can retain a complete approved shell command, including credentials, in .claude/settings.local.json. If that file is committed and pushed to a public repository, the credentials go with it.\nThe researchers examined 104,185 public copies of that local settings file and classified 1,122, or about 1.1%, as containing secrets. Those files held 1,379 distinct values. Their broader investigation, including Git history, shared settings and agent transcripts, counted 2,539 distinct secrets across 1,994 repositories.\nIt's important to note Apiiro did not try the credentials. Its classification identifies likely credentials from their format and context, and the research does not prove every one (or any one) still works. The findings establish an exposure risk - rather than an actual demonstrated breach.\nClaude Code’s own documentation confirms that choosing “Yes, and don’t ask again” for a Bash command saves an allow rule in the project’s local settings file. This lets the tool run matching commands without repeatedly seeking approval.\nThe file is intended for personal settings, rather than something shared with everyone working on the project. Anthropic says the first time Claude Code writes it inside a Git repository, it adds an entry to the developer’s global Git excludes file if needed. That is a real protection, and it must be noted Claude is not simply publishing secrets by default.\nHowever, a global exclusion belongs to that developer’s machine. It does not travel with the project in the way a committed .gitignore file does. There is also a separate problem if the settings file has already been tracked: Git’s documentation explicitly says ignore rules do not affect files already under version control.\nThis distinction is pretty easy to miss. A filename containing “local” describes how the application us\n\nCoverage from note: \"[ClaudeCode Incident] 7 Security Incidents Actually Caused by 'Minor Operational or Configuration Errors' and Countermeasures You Can Take Starting Today\"\nClaude Code deleted the entire contents of the home folder.\nIn October 2025, this report was posted on GitHub. What appeared in the terminal were thousands of lines of messages saying 'Permission denied' when it tried to delete /bin and /etc. While system files protected by permissions remained, almost all of the user's personal files were gone.\nThe AI did not destroy them on purpose. Most accidents start with 'minor operations' and 'minor configuration errors' on the human side. Giving permission without reading the confirmation carefully. Thinking a setting was active when it actually wasn't.\nI have been working as an app engineer for 5 years, and I currently operate an app I built with Claude Code by myself. Since it is a tool I use every day, this is not someone else's problem. Therefore, I researched and summarized actual accidents that occurred and cases published by security companies.\nAll cases are those I have verified by opening the original reports or articles from security companies. The sources are listed together at the end.\nThis is the case mentioned at the beginning. In the GitHub report (October 2025, Claude Code 2.0.22, Linux environment inside Windows), a command was executed to delete from the root (/) when it should have been working in the project folder.\nAround the same time, a similar story was posted on Reddit regarding a Mac. When it was asked to organize an old repository, the command left in the record was as follows.\nThe ~/ at the end means 'my home folder'. It is reported that because of this one character, everything from desktop files to password information was deleted.\nIt is unclear whether this person was using a 'skip all confirmations mode' or if a confirmation appeared but they gave permission without reading it carefully. However, in either case, the human allowed a deletion command to pass without reading it is common.\nIf rm (delete), git push (send), or git reset --hard (delete work) appear, always read one line before giving permission\nDo not select 'don't ask again' for deletion-type commands\nWriting files you don't want Claude Code to read (like .env) in a file called .claudeignore. This is a method often seen on the internet, but in a verification by The Register in January 2026, it read the .env written in .claudeignore as requested (Claude Code 2.1.12).\nMoreover, an example is introduced where Claude itself gave the user the incorrect explanation that 'if you write it in .claudeignore, it won't read it'.\nWhat \n\nBackground (Configuration file, Wikipedia):\nA configuration file, also known as config file, is a file that stores data used to configure a software system such as an application, a server or an operating system.\n\nBackground (White-box cryptography, Wikipedia):\nIn cryptography, the white-box model refers to an extreme attack scenario, in which an adversary has full unrestricted access to a cryptographic implementation, most commonly of a block cipher such as the Advanced Encryption Standard (AES). A variety of security goals may be posed, the most fundamental being \"unbreakability\", requiring that any (bounded) attacker should not be able to extract the secret key hardcoded in the implementation, while at the same time the implementation must be fully functional. In contrast, the black-box model only provides oracle access to the analyzed cryptographic primitive. There is also a model in-between, the so-called gray-box model, which corresponds to additional information leakage from the implementation, more commonly referred to as side-channel leakage.",
   "research_links": [
-    "https://www.msn.com/en-in/news/other/china-allegedly-hired-ai-executive-to-monitor-jensen-huang/ar-AA2gVN5D",
-    "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
-    "https://www.ndtv.com/world-news/woman-who-targeted-nvidia-ceo-jensen-huang-was-recruited-by-top-china-spy-agency-report-12295987"
+    "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+    "https://itwire.com/business-it-news/security/claude-code-approval-files-found-exposing-company-secrets-on-github-says-apirro-researchers",
+    "https://note.com/cute_viola332/n/nd1059a9607b6?hl=en"
   ],
-  "source_credit": "The Verge, with reporting from Skoar! on MSN and CNBC",
-  "source_tag": "via The Verge",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAPiau7raR4_bCDxa3uOVzKngrfczmcAAqsVaxvc0XhX0VUJ23pzoeYBAAMCAAN5AAM9BA",
-  "text": "China recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang.\n\nThe goal was gathering intelligence on American AI chips and pushing for advanced chip access.\n\nThe price of controlling the hardware is now corporate espionage.\n\nAccording to reporting from The New York Times, the Ministry of State Security enlisted Alice Huang because of her close relationship with the Nvidia chief.\n\nShe also maintains connections with executives at Gigabyte and other top levels of the industry.\n\nPresident Trump was briefed on the relationship last year and took no action.\n\nYesterday, three House committees asked Jensen Huang to appear for a joint, closed door briefing on his interactions with her.\n\nMy read: the physical bottlenecks in AI are so severe that intelligence agencies are bypassing corporate lobbying entirely.\n\nThe facts come from reporting by The New York Times, CNBC, and Skoar! on MSN.\n\nHow far will governments go to secure advanced hardware?\n\nSource: The Verge, with reporting from Skoar! on MSN and CNBC",
-  "alt_openings": "1. Bare number first:\nThree House committees just summoned Jensen Huang for a closed door briefing.\nThe topic is his close relationship with a woman recruited by Chinese intelligence.\nShape: Bare number first\nWhen to prefer: When a breaking official action or investigation provides an immediate hook.\n\n2. Corrective:\nCorporate lobbying is no longer the primary tool for gaining access to scarce AI hardware.\nState intelligence agencies are now recruiting executives directly inside the supply chain.\nShape: Corrective\nWhen to prefer: When you want to challenge a standard assumption about how business and geopolitics intersect.\n\n3. Your X:\nYour next hardware supplier may have executives recruited by foreign intelligence agencies.\nChina's Ministry of State Security used a customer executive to gather intelligence on Nvidia's chips.\nShape: Your X\nWhen to prefer: When you need to make a geopolitical story feel immediately relevant to operators and executives.\n\nPick: Opening 2 (Corrective). It immediately frames the story as a shift in how geopolitical power operates around scarce technology, rather than just repeating a celebrity tech gossip item.",
+  "source_credit": "apiiro.com, with reporting from The Hacker News and iTWire",
+  "source_tag": "via apiiro.com",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAPoavBARt8gx0EnMcdtLbvx0TPWHO4AAqgUaxv6voFXnFblQTEKGX4BAAMCAAN5AAM9BA",
+  "text": "Over 2,500 database keys and passwords recently surfaced in public GitHub repositories.\n\nThe exposure did not require a corporate network breach. \n\nAnthropic's Claude Code CLI asks developers for permission before running shell commands. Selecting \"Yes, and don't ask again\" silences future prompts, but it also writes the complete approved command, raw credentials included, into a local settings file.\n\nSecurity firm Apiiro scanned GitHub for these settings files and reported the following:\n• 104,185 public copies examined\n• 1,122 files contained exposed secrets\n• 2,539 total distinct credentials exposed across 1,994 public repositories\n\nAnthropic attempts to prevent commits by setting a global Git exclude rule on the developer's machine. However, global rules stay on that specific computer and do not travel with the project repository. Furthermore, Git ignore rules do not apply to files already under version control.\n\nApiiro notes it did not attempt to log in with the credentials, so some keys may no longer be active. \n\nThe incident highlights a practical gap between granting an AI agent permission and controlling the local configuration files it leaves behind.\n\nSource: apiiro.com, with reporting from The Hacker News and iTWire\n\n#CyberSecurity #SoftwareEngineering",
+  "alt_openings": "Option 1 (Tool as subject):\nAnthropic's Claude Code tool exposed 2,539 passwords in public GitHub repositories.\nIt happened because developers clicked a prompt meant to save them time.\nWhen to prefer: Best for engineering audiences who immediately recognize Claude Code and care about developer tooling issues.\n\nOption 2 (Your X):\nYour developers might be pushing database passwords to GitHub without knowing it.\nA setting designed to reduce popups in AI tools is silently saving credentials to tracked files.\nWhen to prefer: Best for founders, CTOs, and managers who oversee technical teams and care about immediate organizational risk.\n\nOption 3 (Story in motion):\nA developer clicked \"don't ask again\" on an AI shell prompt.\nMinutes later, the raw database key inside that command was visible to anyone on GitHub.\nWhen to prefer: Best for a general management audience, using narrative structure to explain a technical human-error problem.\n\nPick: Option 2 (Your X). It creates immediate accountability for managers and founders, forcing them to click \"see more\" to confirm whether their own team's workflow is exposed.",
   "voice_score": 4,
-  "firewall_notes": [],
-  "headline": "Why China targeted Nvidia's CEO for AI chips",
+  "firewall_notes": [
+    "\"They did not come from a corporate hack, but from developers clicking a single safety prompt inside an AI tool.\" (Trips Tell 1: \"Not X, but Y\" structure)",
+    "\"Here is how a convenience feature exposed them.\" (Trips Tell 5: Low-value transition filler)",
+    "\"My read: AI security risks rarely look like rogue software. They look like convenient shortcuts that outlive our attention.\" (Trips Tell 1 and 2: Preachy antithesis frame)",
+    "\"Have you checked your company's repositories for local settings files this week?\" (Trips Tell 13: Ends on an engagement-bait question)"
+  ],
+  "headline": "How a Claude Code setting exposed 2,500 credentials",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-07.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-08.png"
 }
