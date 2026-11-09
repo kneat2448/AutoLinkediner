@@ -1,221 +1,212 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-08",
-  "created_at": "2026-11-08T14:55:29.701428+05:30",
+  "date": "2026-11-09",
+  "created_at": "2026-11-09T15:41:13.228989+05:30",
   "candidate": {
-    "id": "hn:50407882",
-    "source": "hackernews",
-    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-    "summary": "",
-    "score": 380.0,
-    "created_at": "2026-11-07T20:45:32+00:00",
-    "raw_text": "",
+    "id": "news:fdfdfd60876d",
+    "source": "news",
+    "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+    "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+    "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+    "score": 80.0,
+    "created_at": "2026-11-09T05:26:29+00:00",
+    "raw_text": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
     "extra": {
-      "discussion_url": "https://news.ycombinator.com/item?id=50407882",
-      "num_comments": 263,
+      "outlet": "TechCrunch",
+      "weight": 0.8,
       "coverage": 0
     }
   },
   "shortlist": [
     {
+      "id": "hf:2611.08264",
+      "source": "huggingface",
+      "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+      "url": "https://huggingface.co/papers/2611.08264",
+      "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision. To address this, we propose SplatAnything…",
+      "score": 56.0,
+      "created_at": "2026-11-09T00:00:00.000Z",
+      "raw_text": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision. To address this, we propose SplatAnything with Gaussian Spacing Normalization (GSNorm), which canonicalizes a robust scene-level statistic of Gaussian spacing to provide a more consistent spatial reference for Gaussian prediction. To rigorously assess our method, we further establish a systematic benchmark spanning diverse datasets, input sparsity levels, and challenging extrapolated viewpoints. Extensive experiments demonstrate that SplatAnything achieves state-of-the-art performance, with particularly strong gains under substantial variations in scene scale and viewpoint.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.08264",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:bc55171edc52",
+      "source": "news",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "summary": "In a memo to the company, Huang admitted that he had an affair.",
+      "score": 80.0,
+      "created_at": "2026-11-08T21:00:11+00:00",
+      "raw_text": "In a memo to the company, Huang admitted that he had an affair.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "hn:50415628",
+      "source": "hackernews",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "summary": "",
+      "score": 780.0,
+      "created_at": "2026-11-08T18:16:07+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50415628",
+        "num_comments": 413,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:e2ef60ab4c4b",
+      "source": "news",
+      "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+      "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+      "summary": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London.",
+      "score": 80.0,
+      "created_at": "2026-11-09T08:00:00+00:00",
+      "raw_text": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London.",
+      "extra": {
+        "outlet": "Wired",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:fdfdfd60876d",
+      "source": "news",
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+      "score": 80.0,
+      "created_at": "2026-11-09T05:26:29+00:00",
+      "raw_text": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50418975",
+      "source": "hackernews",
+      "title": "I'm not convinced the AI bubble exists",
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "summary": "",
+      "score": 286.0,
+      "created_at": "2026-11-08T23:44:36+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50418975",
+        "num_comments": 477,
+        "coverage": 0
+      }
+    },
+    {
       "id": "hn:50410107",
       "source": "hackernews",
-      "title": "Goodbye Claude, Hello Pi",
+      "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
       "summary": "",
-      "score": 272.0,
+      "score": 768.0,
       "created_at": "2026-11-08T03:11:48+00:00",
       "raw_text": "",
       "extra": {
         "discussion_url": "https://news.ycombinator.com/item?id=50410107",
-        "num_comments": 155,
+        "num_comments": 470,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50406563",
-      "source": "hackernews",
-      "title": "The end of Microsoft Research's AI Frontiers group",
-      "url": "https://hunch.net/?p=13764006",
-      "summary": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;AaY5O\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;AaY5O</a><p><a href=\"https:&#x2F;&#x2F;businessexaminer.ca&#x2F;victoria-articles&#x2F;item&#x2F;microsoft-researcher-john-langford-exits-as-ai-frontiers-group-is-declared&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;businessexaminer.ca&#x2F;victoria-articles&#x2F;item&#x2F;microsoft...</a>",
-      "score": 453.0,
-      "created_at": "2026-11-07T18:02:17+00:00",
-      "raw_text": "",
+      "id": "hf:2611.07461",
+      "source": "huggingface",
+      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+      "url": "https://huggingface.co/papers/2611.07461",
+      "summary": "How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world. Existing approaches put the resource within reach but leave the competence to apply it with the caller, so each harness rebuilds…",
+      "score": 25.0,
+      "created_at": "2026-11-09T00:00:00.000Z",
+      "raw_text": "How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world. Existing approaches put the resource within reach but leave the competence to apply it with the caller, so each harness rebuilds that competence. We introduce agent-native primitives, reusable units that equip a resource with a resident LLM that applies it in context and communicates with other primitives, and HEELO (Harness Engineering around Evolving Agent-Native Primitives for the Last Mile to Real-WOrld Tasks), a harness engineering framework that builds each task's harness from a library of such primitives. HEELO composes the primitives a task needs into a task-specific graph, verifies the result against evidence from the environment, revises the primitives a failure implicates, and admits new or improved primitives after validation. We instantiate HEELO with eight primitive families, each built for one kind of task, and evaluate them on more than twenty benchmarks. Dev-Primitives raise Terminal-Bench 4.0 resolution from 37.3% under Codex to 55.5% on the same backbone, Harness Primitives composed per task raise Terminal-Bench 2.0 Pass@1 from 60.0% for the seed harness to 72.2%, Tool Primitives raise ToolBench pass rate from 55.8% to 75.1%, and Navigation Primitives raise GAIA-Text-103 accuracy from 45.6% to 58.3%. On the 46 real-world tasks of our heelo.dev platform, Claude Opus 5.5 with Claude Code and GPT-6.1 Sol with Codex complete 9 each on their own and 39 and 35 when connected to HEELO through our MCP server, with 1.9times and 2.3times less time and 1.55times lower cost per completed task.",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50406563",
-        "num_comments": 271,
+        "arxiv_url": "https://arxiv.org/abs/2611.07461",
         "coverage": 0
       }
     },
     {
-      "id": "hn:50407882",
+      "id": "hf:2611.03953",
+      "source": "huggingface",
+      "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+      "url": "https://huggingface.co/papers/2611.03953",
+      "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective. Unlike task arithmetic, which stays within t…",
+      "score": 24.0,
+      "created_at": "2026-11-09T00:00:00.000Z",
+      "raw_text": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective. Unlike task arithmetic, which stays within the span of the frozen student and expert parameters for any choice of merging coefficients, P^2-MOPD keeps the student trainable, so the experts act as parameter priors without confining it to this span. Across four domains at 1.7B and 4B scales, P^2-MOPD achieves faster and more balanced recovery than MOPD from the same initialization, surpassing its final average recovery in half the training steps. At the end of training, our 1.7B model reaches 94.7% average recovery, versus 80.9% for MOPD.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.03953",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:67abd93f196f",
+      "source": "news",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]",
+      "score": 80.0,
+      "created_at": "2026-11-08T22:54:50+00:00",
+      "raw_text": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown foundational AI model for robots. Photographer: Kiyoshi Ota/Bloomberg via Getty Images | Bloomberg via Getty Images On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my colleagues at NVIDIA, I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50416363",
       "source": "hackernews",
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
       "summary": "",
-      "score": 380.0,
-      "created_at": "2026-11-07T20:45:32+00:00",
+      "score": 254.0,
+      "created_at": "2026-11-08T19:37:42+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50407882",
-        "num_comments": 263,
+        "discussion_url": "https://news.ycombinator.com/item?id=50416363",
+        "num_comments": 172,
         "coverage": 0
       }
     },
     {
-      "id": "news:ed263cbbe1a4",
-      "source": "news",
-      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
-      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
-      "score": 80.0,
-      "created_at": "2026-11-07T22:07:22+00:00",
-      "raw_text": "On Equity, we unpacked what the midterms mean for the tech industry.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:69c75581d56f",
-      "source": "news",
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
-      "score": 80.0,
-      "created_at": "2026-11-07T21:17:08+00:00",
-      "raw_text": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.08449",
+      "id": "hf:2611.06856",
       "source": "huggingface",
-      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
-      "url": "https://huggingface.co/papers/2611.08449",
-      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known s…",
-      "score": 102.0,
-      "created_at": "2026-11-06T00:00:00.000Z",
-      "raw_text": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass. The layout adapts to the primitive's type, dimensionality, and length, supporting compact boxes and long, variable-length trajectories. Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence. VFlash therefore trains on annotated primitives and directly accepts structurally valid predictions without target-token agreement. Across the evaluated 2D and 3D robot trajectory tasks, VFlash consistently reduces prediction errors relative to autoregressive decoding. Preliminary single-rollout measurements indicate approximately 25x faster generation for 3D point motion forecasting. A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline.",
+      "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+      "url": "https://huggingface.co/papers/2611.06856",
+      "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 co…",
+      "score": 22.0,
+      "created_at": "2026-11-09T00:00:00.000Z",
+      "raw_text": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 constraints, and 50 evaluation items, yielding 4,670 expert-specified atomic evaluation items in total. Its graph-grounded evaluation design instantiates each task with reference images and an entity-relation graph, then converts node, edge, and whole-graph obligations into checklist items for Content Fidelity, Relational Binding, and Global Constraint Satisfaction. Reviewed expert labels include a 15% double-labeled subset with 89.4% exact agreement and 0.83 quadratic weighted kappa. We further introduce LongBanana-Gen, an agent-harness framework for long-horizon image generation; experiments show that minimal agent harnesses improve over direct generation, while a ReAct-Plan-Exec-Reflect (RPR) workflow yields harness-dependent gains by strengthening evidence grounding and repair. Together, LongBanana provides an auditable testbed for measuring dense visual evidence use and a shared target for developing stronger agent-driven image-generation systems. Code and data are available at the project page: https://long-banana.com/.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.08449",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:fa06ff8fdc83",
-      "source": "news",
-      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best […]",
-      "score": 80.0,
-      "created_at": "2026-11-07T15:50:00+00:00",
-      "raw_text": "The NYT Cooking app now has a built in AI assistant. | Photo: Jennifer Pattison Tuohy / The Verge Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again ?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best weapon in this fight has been AI. Between Alexa Plus in the Echo smart display on my kitchen counter, the Samsung Food app on my fridge, and even an AI-powered cooking robot , AI has become my go-to sous chef - albeit one I need to keep a close eye on. It's helped me swap ingredients, generate ideas, fix things when I mess up, and yes, even … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:73be1ddc7ff2",
-      "source": "news",
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell […]",
-      "score": 80.0,
-      "created_at": "2026-11-07T15:43:45+00:00",
-      "raw_text": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times , New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell with wires dangling from the ceiling where lights should be.\" In fact, the paper could find little evidence that the company exists in any meaningful way: Only scant information can be found online about New Matrix, which was created 17 months ago. At the building that New Matrix lists as its address, a company directory does not … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.05376",
-      "source": "huggingface",
-      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-      "url": "https://huggingface.co/papers/2611.05376",
-      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, att…",
-      "score": 87.0,
-      "created_at": "2026-11-06T00:00:00.000Z",
-      "raw_text": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, attention has settled on one kind of intelligent individual, the embodied robot; we argue that the era of Physical AI holds a second kind of equal importance, the person augmented by AI. Alongside artificial general intelligence, which asks how intelligent a machine can be, stands AI-augmented human intelligence (AHI), which asks how much intelligence a machine can enable in a particular person. Realizing it calls for a new kind of system, a cognitive symbiont: a lifelong, embedded, real-time, private, low-friction, and proactive companion that senses what the person senses through external devices, keeps their context across years, models their situation and their mind, takes part in their thinking at the right moment, carries out everyday tasks with their context, and keeps learning the person as both change. We give the paradigm a conceptual core, the cognitive gap between what a person could bring to a situation and what they can hold in working memory, and organize its design space as a symbiosis loop of sensing, keeping, understanding, living alongside, acting for and thinking with the person, and growing, enclosed by a personal runtime and by trust. Because a symbiont changes what a person can do in front of others, it also raises risks of a new kind, from covert assistance in examinations to pressure on everyone to adopt it, and we treat their governance as part of the paradigm.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.05376",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:055e03fe8fc4",
-      "source": "news",
-      "title": "AI broke the cybersecurity world. What’s next?",
-      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
-      "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say […]",
-      "score": 80.0,
-      "created_at": "2026-11-07T15:00:00+00:00",
-      "raw_text": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say that the multibillion-dollar cybersecurity industry as we’ve known it is essentially overdue to the unrelenting, AI-boosted waves of hacks, breaches, and attacks — and this is only the beginning of how much AI is changing security. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here . Not a subscriber? You can sign up here . Both private actors and also state actors, like Russia or North Korea, are breaking into systems all over thanks to AI helping them both detect and exploit vulnerabilities all at the same time. It’s got a real frontier feel to it, Alex notes, just like the ’90s, when the whole idea of an always-online world was brand-new. That much disruption means a lot of places where bad guys can get in while everyone else is left scrambling. Alex isn’t a doomer in the long run, but he does think we’re in for a “dark age” while we try to figure out how on earth to adapt to the new era. There’s a lot going on here — we even got all the way to how AI-powered misinformation and slop might be managed on our social networks. Before we get going, do me a favor and subscribe to Decoder on YouTube, where we put out new episodes every Monday and Thursday. Okay: Alex Stamos on how AI is upending cybersecurity. Here we go. This interview has been lightly edited for length and clarity. Alex Stamos, you’re the chief security officer at Cognition. You’re also a lecturer at Stanford University Cyber Policy Center. Welcome back to Decoder . Hey, thanks for having me, man. I’m excited to talk to you. It’s been a long time since you and I chatted in what you might call the “content moderation era” of internet policy discourse. I feel like you and I talked a lot about how all that was working, about election security, all those sorts of things. We’re in a new era of big problems on the internet, particularly around cyber defense, cybersecurity. You’ve been thinking about this stuff a lot. You referred to the past few weeks as “security awareness month.” Tell me what’s going on. Just give me the lay of land right now. October is traditionally security awareness month. Lots of companies run events and deal both internally and then tell people, “Change your password, use multiple passwords, use a password manager.” What has happened over the last month is we’ve had a couple of these big bugs, PHP, Node and such. What’s been less discussed is a huge number of companies have been breached. You have a series of AI-related companies, the neoclouds that have been breached in succession. You have the Binance hack, which is the largest heist of anything in human history. You have the Curs…",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.08373",
-      "source": "huggingface",
-      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
-      "url": "https://huggingface.co/papers/2611.08373",
-      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language…",
-      "score": 83.0,
-      "created_at": "2026-11-06T00:00:00.000Z",
-      "raw_text": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training. Initialized from a pretrained pi05 policy, SLA jointly optimizes action prediction and alignment between intermediate visual embeddings and spatial representations from a frozen 3D perception model. We curate and unify heterogeneous robot datasets to support spatial learning across diverse embodiments, tasks, and scenes. To accommodate this diversity, we introduce feature-dependent gates that adaptively aggregate visual embeddings from multiple VLA layers for spatial supervision. The teacher further exploits partially available depth and camera calibration alongside RGB observations, enabling effective use of heterogeneous geometric annotations. Probabilistic state dropout encourages reliance on visual cues and mitigates overfitting to demonstration trajectories. All auxiliary components are used only during training, allowing direct reuse of pretrained VLA weights and preserving the original inference architecture.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.08373",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.02075",
-      "source": "huggingface",
-      "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
-      "url": "https://huggingface.co/papers/2611.02075",
-      "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented ev…",
-      "score": 81.0,
-      "created_at": "2026-11-06T00:00:00.000Z",
-      "raw_text": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evidence. Pretraining supplies reusable inference capability; deployment evidence instantiates problem-specific predictions without updating either model's neural parameters. Tool judgments, candidate preferences, and reasoning assessments share an evidence-and-query interface, with predictions mapped to choices by a decision rule. This architecture establishes complementary sources of agent capability: semantic knowledge acquired through language pretraining and empirical inference acquired through structured-data pretraining. A single frozen LimiX-2 predictor serves all five task categories. With Qwen3.5-27B as the semantic encoder, DPDM raises mean accuracy across 50 benchmarks from 78.80% with few-shot prompting to 84.92% under their respective evaluated history budgets, and reaches 82.33% with identical histories and queries. On ToolPRMBench's BFCL and ToolSandbox tasks, absolute accuracy gains are 34.26% and 28.87%, respectively, at the methods' respective evaluated history budgets. Accuracy improves as history grows. With identical imbalanced histories, mean balanced accuracy improves by an absolute 14.51% across five reasoning-step assessment tasks and four encoders. DPDM makes learning from experience an independently improvable foundation-model capability, creating a shared route for advances in conditional prediction to improve decisions across agent tasks.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.02075",
+        "arxiv_url": "https://arxiv.org/abs/2611.06856",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files\n\nA top reader comment on Hacker News (opinion, not fact):\n> Is it public? > > Search your GitHub organization for .claude/settings.local.json and .claude/settings.json. Each hit is a file anyone can read right now. So, it's not necessarily \"public\", it's simply in the repository, and whether it's actually public or not depends on the repository settings. Or am I missing something\n\nResearch notes on: Anthropic's Claude Code CLI tool accidentally led to secrets and passwords being committed to public GitHub repositories via settings files.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from The Hacker News: \"Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub\"\nClaude Code saves secrets in approved commands, exposing 2,539 credentials across 1,994 public GitHub repositories, Apiiro finds.\n\nCoverage from iTWire: \"Claude Code approval files found exposing company secrets on GitHub, says Apirro researchers\"\nDavid M Williams | Published 7 Nov 2026\nApiiro researchers say remembered commands are carrying credentials into public repositories, exposing a gap between approving an agent’s work and controlling what it leaves behind.\nYou ask your AI coding assistant to check a database connection. It proposes a command, asks permission, and offers to stop interrupting you for that command in future. You approve it and get on with your work.\nWhat you may not realise is that the approval itself can become another copy of your database password.\nThat is the problem examined in research published on 5 November by Apiiro’s Shmulik Cohen and Matan Giladi . They say Claude Code can retain a complete approved shell command, including credentials, in .claude/settings.local.json. If that file is committed and pushed to a public repository, the credentials go with it.\nThe researchers examined 104,185 public copies of that local settings file and classified 1,122, or about 1.1%, as containing secrets. Those files held 1,379 distinct values. Their broader investigation, including Git history, shared settings and agent transcripts, counted 2,539 distinct secrets across 1,994 repositories.\nIt's important to note Apiiro did not try the credentials. Its classification identifies likely credentials from their format and context, and the research does not prove every one (or any one) still works. The findings establish an exposure risk - rather than an actual demonstrated breach.\nClaude Code’s own documentation confirms that choosing “Yes, and don’t ask again” for a Bash command saves an allow rule in the project’s local settings file. This lets the tool run matching commands without repeatedly seeking approval.\nThe file is intended for personal settings, rather than something shared with everyone working on the project. Anthropic says the first time Claude Code writes it inside a Git repository, it adds an entry to the developer’s global Git excludes file if needed. That is a real protection, and it must be noted Claude is not simply publishing secrets by default.\nHowever, a global exclusion belongs to that developer’s machine. It does not travel with the project in the way a committed .gitignore file does. There is also a separate problem if the settings file has already been tracked: Git’s documentation explicitly says ignore rules do not affect files already under version control.\nThis distinction is pretty easy to miss. A filename containing “local” describes how the application us\n\nCoverage from note: \"[ClaudeCode Incident] 7 Security Incidents Actually Caused by 'Minor Operational or Configuration Errors' and Countermeasures You Can Take Starting Today\"\nClaude Code deleted the entire contents of the home folder.\nIn October 2025, this report was posted on GitHub. What appeared in the terminal were thousands of lines of messages saying 'Permission denied' when it tried to delete /bin and /etc. While system files protected by permissions remained, almost all of the user's personal files were gone.\nThe AI did not destroy them on purpose. Most accidents start with 'minor operations' and 'minor configuration errors' on the human side. Giving permission without reading the confirmation carefully. Thinking a setting was active when it actually wasn't.\nI have been working as an app engineer for 5 years, and I currently operate an app I built with Claude Code by myself. Since it is a tool I use every day, this is not someone else's problem. Therefore, I researched and summarized actual accidents that occurred and cases published by security companies.\nAll cases are those I have verified by opening the original reports or articles from security companies. The sources are listed together at the end.\nThis is the case mentioned at the beginning. In the GitHub report (October 2025, Claude Code 2.0.22, Linux environment inside Windows), a command was executed to delete from the root (/) when it should have been working in the project folder.\nAround the same time, a similar story was posted on Reddit regarding a Mac. When it was asked to organize an old repository, the command left in the record was as follows.\nThe ~/ at the end means 'my home folder'. It is reported that because of this one character, everything from desktop files to password information was deleted.\nIt is unclear whether this person was using a 'skip all confirmations mode' or if a confirmation appeared but they gave permission without reading it carefully. However, in either case, the human allowed a deletion command to pass without reading it is common.\nIf rm (delete), git push (send), or git reset --hard (delete work) appear, always read one line before giving permission\nDo not select 'don't ask again' for deletion-type commands\nWriting files you don't want Claude Code to read (like .env) in a file called .claudeignore. This is a method often seen on the internet, but in a verification by The Register in January 2026, it read the .env written in .claudeignore as requested (Claude Code 2.1.12).\nMoreover, an example is introduced where Claude itself gave the user the incorrect explanation that 'if you write it in .claudeignore, it won't read it'.\nWhat \n\nBackground (Configuration file, Wikipedia):\nA configuration file, also known as config file, is a file that stores data used to configure a software system such as an application, a server or an operating system.\n\nBackground (White-box cryptography, Wikipedia):\nIn cryptography, the white-box model refers to an extreme attack scenario, in which an adversary has full unrestricted access to a cryptographic implementation, most commonly of a block cipher such as the Advanced Encryption Standard (AES). A variety of security goals may be posed, the most fundamental being \"unbreakability\", requiring that any (bounded) attacker should not be able to extract the secret key hardcoded in the implementation, while at the same time the implementation must be fully functional. In contrast, the black-box model only provides oracle access to the analyzed cryptographic primitive. There is also a model in-between, the so-called gray-box model, which corresponds to additional information leakage from the implementation, more commonly referred to as side-channel leakage.",
-  "research_links": [
-    "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-    "https://itwire.com/business-it-news/security/claude-code-approval-files-found-exposing-company-secrets-on-github-says-apirro-researchers",
-    "https://note.com/cute_viola332/n/nd1059a9607b6?hl=en"
-  ],
-  "source_credit": "apiiro.com, with reporting from The Hacker News and iTWire",
-  "source_tag": "via apiiro.com",
-  "template": "clean_white",
-  "photo_file_id": "AgACAgUAAxkDAAPoavBARt8gx0EnMcdtLbvx0TPWHO4AAqgUaxv6voFXnFblQTEKGX4BAAMCAAN5AAM9BA",
-  "text": "Over 2,500 database keys and passwords recently surfaced in public GitHub repositories.\n\nThe exposure did not require a corporate network breach. \n\nAnthropic's Claude Code CLI asks developers for permission before running shell commands. Selecting \"Yes, and don't ask again\" silences future prompts, but it also writes the complete approved command, raw credentials included, into a local settings file.\n\nSecurity firm Apiiro scanned GitHub for these settings files and reported the following:\n• 104,185 public copies examined\n• 1,122 files contained exposed secrets\n• 2,539 total distinct credentials exposed across 1,994 public repositories\n\nAnthropic attempts to prevent commits by setting a global Git exclude rule on the developer's machine. However, global rules stay on that specific computer and do not travel with the project repository. Furthermore, Git ignore rules do not apply to files already under version control.\n\nApiiro notes it did not attempt to log in with the credentials, so some keys may no longer be active. \n\nThe incident highlights a practical gap between granting an AI agent permission and controlling the local configuration files it leaves behind.\n\nSource: apiiro.com, with reporting from The Hacker News and iTWire\n\n#CyberSecurity #SoftwareEngineering",
-  "alt_openings": "Option 1 (Tool as subject):\nAnthropic's Claude Code tool exposed 2,539 passwords in public GitHub repositories.\nIt happened because developers clicked a prompt meant to save them time.\nWhen to prefer: Best for engineering audiences who immediately recognize Claude Code and care about developer tooling issues.\n\nOption 2 (Your X):\nYour developers might be pushing database passwords to GitHub without knowing it.\nA setting designed to reduce popups in AI tools is silently saving credentials to tracked files.\nWhen to prefer: Best for founders, CTOs, and managers who oversee technical teams and care about immediate organizational risk.\n\nOption 3 (Story in motion):\nA developer clicked \"don't ask again\" on an AI shell prompt.\nMinutes later, the raw database key inside that command was visible to anyone on GitHub.\nWhen to prefer: Best for a general management audience, using narrative structure to explain a technical human-error problem.\n\nPick: Option 2 (Your X). It creates immediate accountability for managers and founders, forcing them to click \"see more\" to confirm whether their own team's workflow is exposed.",
-  "voice_score": 4,
-  "firewall_notes": [
-    "\"They did not come from a corporate hack, but from developers clicking a single safety prompt inside an AI tool.\" (Trips Tell 1: \"Not X, but Y\" structure)",
-    "\"Here is how a convenience feature exposed them.\" (Trips Tell 5: Low-value transition filler)",
-    "\"My read: AI security risks rarely look like rogue software. They look like convenient shortcuts that outlive our attention.\" (Trips Tell 1 and 2: Preachy antithesis frame)",
-    "\"Have you checked your company's repositories for local settings files this week?\" (Trips Tell 13: Ends on an engagement-bait question)"
-  ],
-  "headline": "How a Claude Code setting exposed 2,500 credentials",
+  "context": "Title: Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”\n\nText:\nNvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.\n\nArticle text (excerpt):\nNvidia’s board announced Sunday that it’s launching an independent investigation after CEO Jensen Huang told staff he was unfaithful to his wife. But this isn’t a case of just another CEO having an extramarital affair. The romantic interest is Megaspeed executive Alice Huang, whom U.S. officials believe is a Chinese spy who was feeding information back to Beijing. In short, the stakes reach well beyond Nvidia, given how many tech and financial partners depend on its place at the center of the AI economy. “I’m responsible for an entire industry ,” Huang recently told Bloomberg in a sit-down.\nA spokesperson for the Chinese Embassy in Washington dismissed the allegations in late October as “ groundless smears and slanders ,” and no one has been charged. But U.S. intelligence officials reportedly briefed President Donald Trump about their concerns a year ago, and unnamed senior officials inside the Trump administration told the Times that they doubt Huang could have remained unaware all that time of Alice Huang’s intelligence-gathering role for China. When Trump was first briefed, the Times reported, officials didn’t believe Huang knew, and it isn’t clear whether their assessment has changed. The board, meanwhile, says it sees no sign that national security or company secrets were compromised.\nThe question is whether Huang can survive this. To think through what could come next, this editor spoke Sunday with famed professor Jeffrey Sonnenfeld, senior associate dean for leadership studies at the Yale School of Management and founder of the Chief Executive Leadership Institute, which has hosted Huang at its CEO summits. Sonnenfeld likes Huang, he said, and he called Huang’s career salvageable but put the odds at “about a 50-50.” He also had a lot more food for thought.\nFirst, the damage. Until now, Huang has been “revered and trusted by everybody in technology,” Sonnenfeld noted. But he called this episode “remarkably poor judgment.” Even if Huang was merely naive, he said, “any employee in Nvidia other than him would be fired over this,” and the recklessness alone would mean “an irretrievable loss of confidence.”\nSonnenfeld suggested that Huang’s saving grace could be what social psychologists call idiosyncrasy credits , if he can prove he was being duped. The term comes from Edwin Hollander, a social psychologist who proposed in a 1958 paper that people earn latitude in a group by showing competence and following its rules. Huang has been earning latitude since he co-founded Nvidia in 1993. But all that goodwill can run out when a screw-up looks self-serving or touches the group’s core norms. Here that group includes Nvidia’s board, its roughly 42,000 employees who are bound by security rules, and, in a looser sense, the U.S. government, given it restricts its exports.\nWe also talked about precedents, except, as it turns out, there really are none for what’s unfolding right now. Executives who survive personal scandals sometimes pick up where they left off at another company, Sonnenfeld observed. Former HP CEO Mark Hurd is one example. Between 2005 and 2010, he drove HP to the top of the tech industry by revenue, then was pressured to resign after he filed inaccurate expense reports that hid a personal relationship with a contractor. Oracle hired him about a month later. Huang has no equivalent because Nvidia is his company\nAs for the bench at Nvidia, that doesn’t really exist either. While there is typically a hierarchy inside companies of Nvidia’s scale and importance, Huang has kept things as flat as possible, with about 60 direct reports by his own account. That structure makes it hard to figure out who would succeed him (though his children, both of whom work at Nvidia, are sometimes the subject of succession speculation ). That won’t stop the worldwide guessing game that’s sure to follow. And boards in crisis often reach for a “messianic solution” from outside, Sonnenfeld said, floating former Google CEO Eric Schmidt as one idea.\nNvidia’s role at the center of a massive and complex circular financing web is what makes this particular predicament so tricky and, undoubtedly, terrifying for a wide number of constituents. Nvidia isn’t just the biggest provider of chips driving the AI boom but also largely the bank behind the buildout. In addition to stakes in hundreds of smaller startups, Nvidia has invested in OpenAI, Anthropic, xAI, CoreWeave and Nebius. In August, it also signed preliminary agreements with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR aimed at mobilizing more than $500 billion over time, and Huang has said Nvidia could backstop up to a quarter of it. The move was widely interpreted as a way to spread risk. Still, a leadership crisis at the center is how a stumble becomes a collapse.\nSo what’s Nvidia’s board likely doing right now? Sonnenfeld noted that Huang’s constant, public advocacy for selling advanced chips to China had already made people anxious. Anthropic’s Dario Amodei, whose company Nvidia has backed, had a lot to say about selling chips to China at Davos back in January, likening it to “ selling nuclear weapons to North Korea .”\nNow the board’s independent members — meaning everyone but Huang — will have to establish what technology reached China if any, and by what routes, including by better understanding Nvidia’s relationship with Megaspeed. The Singapore cloud company, which grew out of a Chinese gaming business and became Nvidia’s largest buyer in Southeast Asia, bought roughly $2 billion of its chips , the New York Times reported in October 2025, raising broader questions about whether it was helping China circumvent U.S. export restrictions by re-exporting the chips to China or renting them to Chinese customers remotely. (An Nvidia spokesperson told The Hill after the Times report that the allegations were “thoroughly investigated and debunked last year .”)\nIn the meantime, Huang will keep running the company, Nvidia said Sunday. That’ll be a tall order, even for a CEO who already spends much of his time traveling the world to promote Nvidia. For starters, three House chairmen want a closed-door briefing from Huang on November 18. Nvidia is also reporting its newest earnings on November 17. Sonnenfeld expects that even if Huang keeps the title, he’ll have to hand off some of the day-to-day decision-making.\nOnly one thing is certain right now. Huang doesn’t own the kind of super-voting stock that would cement his power at Nvidia. Sonnenfeld often argues for dual-class structures that empower founders, and he says Huang’s success without one has been the best counterargument to that case. But if Huang had one, Sonnenfeld continued, removing him would be harder.\nThis episode may be remembered as a pivotal moment for how the tech industry guards its secrets. Sonnenfeld argues tech has been “way too lax” compared with defense contractors that face clearance regimes. The arrest last month of an OpenAI engineer points to the same problem. He was accused of hiding a recording device behind a TV in an executive conference room, and while OpenAI has said it has no indication that model weights, source code, or customer data were accessed, the case highlights how exposed tech companies are to people who get close.\nHuang may well survive the investigation (Sonnenfeld hopes the board clears him of knowingly aiding anyone). The bigger test comes when Nvidia’s employees, customers and partners, and, indirectly, the millions of Americans with Nvidia in their 401(k) plans, have to decide whether an AI economy built largely on the judgment of Huang still makes sense.\nWhen you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.\nBuy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires\nTesla will stop making the Cybertruck in 2027\nClaude can now analyze your spending with its new Personal Finance tool\nAlmost no one uses AI agents to book their Uber, company says\nData centers are turning to old jet engines as the wait for power grows\nNew York City’s Mamdani criticizes Madison Square Garden owner over surveillance tech\nAnthropic warns that it’s very close to RSI capability, aka self-building AI",
+  "research_links": [],
+  "source_credit": "TechCrunch",
+  "source_tag": "via TechCrunch",
+  "template": "dark_accent",
+  "photo_file_id": "AgACAgUAAxkDAAPtavGcmss7mU4bjygO8iTJgF3aAnYAAqUUaxv6vpFX3j4_5UDGaRYBAAMCAAN5AAM9BA",
+  "text": "Yale estimates a 50-50 chance Jensen Huang stays on as Nvidia CEO.\n\nAn independent board investigation into a relationship with a suspected Chinese spy has put the company in crisis.\n\nHere is why this goes far beyond one executive.\n\nHuang co-founded Nvidia in 1993 and built it without a traditional succession bench. He manages roughly 60 direct reports himself.\n\nHe also skipped the super-voting shares that usually protect tech founders. If the board decides to move, he cannot block them.\n\nThat governance structure creates a single point of failure for an entire industry.\n\nNvidia is not just supplying the AI boom. It is bankrolling it.\n\nConsider what hangs on its stability:\n• 42,000 employees bound by strict security rules\n• $2 billion in chips bought by Megaspeed alone\n• $500 billion in planned infrastructure deals backed by Wall Street partners\n\nYale professor Jeffrey Sonnenfeld notes that any other Nvidia employee would be fired for this level of risk.\n\nIf Huang falls, there is no internal successor ready to step in.\n\nMy read: centralizing an entire technological boom inside one person's hands works perfectly, until it doesn't.\n\nWould your board let a single CEO hold this much unhedged risk?\n\nSource: TechCrunch",
+  "alt_openings": "**Alternate 1 (Corrective)**\nLine 1: Nvidia does not just supply the AI market with chips.\nLine 2: It bankrolls the entire buildout, which is why a single CEO scandal threatens the whole market.\n*Prefer this when writing for finance and strategy readers who care more about market exposure than executive drama.*\n\n**Alternate 2 (Story in motion)**\nLine 1: Three House chairmen just demanded a closed-door briefing with Nvidia’s CEO.\nLine 2: An independent investigation into Jensen Huang’s personal ties to a suspected Chinese spy has thrown the board into chaos.\n*Prefer this when targeting policy, defense, or legal readers focused on national security.*\n\n**Alternate 3 (Your X)**\nLine 1: Your retirement fund’s biggest AI bet now rests on a 50-50 board vote.\nLine 2: An independent investigation into Nvidia’s CEO has exposed how fragile the entire market buildout really is.\n*Prefer this to maximize general engagement across mid-level corporate professionals.*\n\nPick: Alternate 3 because framing the crisis around the reader's personal exposure in 401(k) plans immediately translates high-level corporate governance into a personal stake.",
+  "voice_score": 3,
+  "firewall_notes": [],
+  "headline": "Why Jensen Huang is Nvidia's single point of failure",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-08.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-09.png"
 }
