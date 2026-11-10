@@ -1,46 +1,62 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-09",
-  "created_at": "2026-11-09T15:41:13.228989+05:30",
+  "date": "2026-11-10",
+  "created_at": "2026-11-10T15:47:55.329056+05:30",
   "candidate": {
-    "id": "news:fdfdfd60876d",
-    "source": "news",
-    "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
-    "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-    "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
-    "score": 80.0,
-    "created_at": "2026-11-09T05:26:29+00:00",
-    "raw_text": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+    "id": "hn:50429426",
+    "source": "hackernews",
+    "title": "Google Gemini routes personal Drive files and emails to human annotators",
+    "url": "https://github.com/thisisme6598/gemini_files/",
+    "summary": "",
+    "score": 608.0,
+    "created_at": "2026-11-09T18:24:38+00:00",
+    "raw_text": "",
     "extra": {
-      "outlet": "TechCrunch",
-      "weight": 0.8,
+      "discussion_url": "https://news.ycombinator.com/item?id=50429426",
+      "num_comments": 129,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "hf:2611.08264",
-      "source": "huggingface",
-      "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
-      "url": "https://huggingface.co/papers/2611.08264",
-      "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision. To address this, we propose SplatAnything…",
-      "score": 56.0,
-      "created_at": "2026-11-09T00:00:00.000Z",
-      "raw_text": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision. To address this, we propose SplatAnything with Gaussian Spacing Normalization (GSNorm), which canonicalizes a robust scene-level statistic of Gaussian spacing to provide a more consistent spatial reference for Gaussian prediction. To rigorously assess our method, we further establish a systematic benchmark spanning diverse datasets, input sparsity levels, and challenging extrapolated viewpoints. Extensive experiments demonstrate that SplatAnything achieves state-of-the-art performance, with particularly strong gains under substantial variations in scene scale and viewpoint.",
+      "id": "hn:50429906",
+      "source": "hackernews",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "summary": "",
+      "score": 977.0,
+      "created_at": "2026-11-09T18:56:29+00:00",
+      "raw_text": "",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.08264",
+        "discussion_url": "https://news.ycombinator.com/item?id=50429906",
+        "num_comments": 6,
+        "coverage": 3
+      }
+    },
+    {
+      "id": "news:01a8528fa117",
+      "source": "news",
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "score": 100.0,
+      "created_at": "2026-11-10T09:00:00+00:00",
+      "raw_text": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "news:bc55171edc52",
+      "id": "news:13bdf291560a",
       "source": "news",
-      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-      "summary": "In a memo to the company, Huang admitted that he had an affair.",
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
       "score": 80.0,
-      "created_at": "2026-11-08T21:00:11+00:00",
-      "raw_text": "In a memo to the company, Huang admitted that he had an affair.",
+      "created_at": "2026-11-09T23:28:37+00:00",
+      "raw_text": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -48,44 +64,88 @@
       }
     },
     {
-      "id": "hn:50415628",
+      "id": "hf:2611.12806",
+      "source": "huggingface",
+      "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+      "url": "https://huggingface.co/papers/2611.12806",
+      "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous t…",
+      "score": 86.0,
+      "created_at": "2026-11-10T00:00:00.000Z",
+      "raw_text": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data. To this end, we develop LingBot-Touch, a tactile foundation model characterized by the following properties. (i) Our model yields a unified representation across different tactile sensors (i.e., piezoresistive, magnetic, and visuotactile sensors), and is easily extensible to new sensor types. (ii) The resulting tactile tokens are plug-and-play: they can be seamlessly integrated into policy models across paradigms, from diffusion policy to vision-language-action (VLA) models such as π_{0.5} and LingBot-VLA, consistently enhancing manipulation dexterity. (iii) Extensive experiments, spanning simulation and real-robot deployments across multiple hardware platforms, demonstrate that our tactile representation substantially benefits complex manipulation tasks while maintaining strong computational efficiency. We believe the findings in this work demonstrate the potential of leveraging cross-sensor data to scale tactile learning, and offer encouraging insights for the design of future hardware and embodied models.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.12806",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50429024",
       "source": "hackernews",
-      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "title": "Muse Ember: Our smallest, most efficient model",
+      "url": "https://research.meta.ai/blog/muse-ember",
       "summary": "",
-      "score": 780.0,
-      "created_at": "2026-11-08T18:16:07+00:00",
+      "score": 301.0,
+      "created_at": "2026-11-09T17:58:46+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50415628",
-        "num_comments": 413,
-        "coverage": 0
+        "discussion_url": "https://news.ycombinator.com/item?id=50429024",
+        "num_comments": 126,
+        "coverage": 1
       }
     },
     {
-      "id": "news:e2ef60ab4c4b",
+      "id": "news:2b128ff09548",
       "source": "news",
-      "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
-      "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
-      "summary": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London.",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
       "score": 80.0,
-      "created_at": "2026-11-09T08:00:00+00:00",
-      "raw_text": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London.",
+      "created_at": "2026-11-09T19:24:51+00:00",
+      "raw_text": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
       "extra": {
-        "outlet": "Wired",
+        "outlet": "TechCrunch",
         "weight": 0.8,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "news:9c331579e229",
+      "source": "news",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "score": 100.0,
+      "created_at": "2026-11-09T19:00:00+00:00",
+      "raw_text": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "news:fdfdfd60876d",
+      "id": "news:f37b680abcf7",
       "source": "news",
-      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
-      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-      "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "score": 100.0,
+      "created_at": "2026-11-09T13:00:00+00:00",
+      "raw_text": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:1b18832a8d2c",
+      "source": "news",
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
       "score": 80.0,
-      "created_at": "2026-11-09T05:26:29+00:00",
-      "raw_text": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+      "created_at": "2026-11-10T07:00:00+00:00",
+      "raw_text": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -93,120 +153,61 @@
       }
     },
     {
-      "id": "hn:50418975",
+      "id": "hn:50429426",
       "source": "hackernews",
-      "title": "I'm not convinced the AI bubble exists",
-      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "url": "https://github.com/thisisme6598/gemini_files/",
       "summary": "",
-      "score": 286.0,
-      "created_at": "2026-11-08T23:44:36+00:00",
+      "score": 608.0,
+      "created_at": "2026-11-09T18:24:38+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50418975",
-        "num_comments": 477,
+        "discussion_url": "https://news.ycombinator.com/item?id=50429426",
+        "num_comments": 129,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50410107",
-      "source": "hackernews",
-      "title": "Goodbye Claude, hello Pi",
-      "url": "https://caleb.software/posts/claude-to-pi.html",
-      "summary": "",
-      "score": 768.0,
-      "created_at": "2026-11-08T03:11:48+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50410107",
-        "num_comments": 470,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.07461",
+      "id": "hf:2611.06043",
       "source": "huggingface",
-      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
-      "url": "https://huggingface.co/papers/2611.07461",
-      "summary": "How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world. Existing approaches put the resource within reach but leave the competence to apply it with the caller, so each harness rebuilds…",
-      "score": 25.0,
+      "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+      "url": "https://huggingface.co/papers/2611.06043",
+      "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency. R2T2 is obtained by post-training Qwen3-ASR-1.7B on 1,500 hours of Chinese and Eng…",
+      "score": 86.0,
       "created_at": "2026-11-09T00:00:00.000Z",
-      "raw_text": "How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world. Existing approaches put the resource within reach but leave the competence to apply it with the caller, so each harness rebuilds that competence. We introduce agent-native primitives, reusable units that equip a resource with a resident LLM that applies it in context and communicates with other primitives, and HEELO (Harness Engineering around Evolving Agent-Native Primitives for the Last Mile to Real-WOrld Tasks), a harness engineering framework that builds each task's harness from a library of such primitives. HEELO composes the primitives a task needs into a task-specific graph, verifies the result against evidence from the environment, revises the primitives a failure implicates, and admits new or improved primitives after validation. We instantiate HEELO with eight primitive families, each built for one kind of task, and evaluate them on more than twenty benchmarks. Dev-Primitives raise Terminal-Bench 4.0 resolution from 37.3% under Codex to 55.5% on the same backbone, Harness Primitives composed per task raise Terminal-Bench 2.0 Pass@1 from 60.0% for the seed harness to 72.2%, Tool Primitives raise ToolBench pass rate from 55.8% to 75.1%, and Navigation Primitives raise GAIA-Text-103 accuracy from 45.6% to 58.3%. On the 46 real-world tasks of our heelo.dev platform, Claude Opus 5.5 with Claude Code and GPT-6.1 Sol with Codex complete 9 each on their own and 39 and 35 when connected to HEELO through our MCP server, with 1.9times and 2.3times less time and 1.55times lower cost per completed task.",
+      "raw_text": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency. R2T2 is obtained by post-training Qwen3-ASR-1.7B on 1,500 hours of Chinese and English audio while freezing its pre-trained audio encoder and projector. The adaptation is based on the concept of Longest Stable Prefix (LSP), a new notion that we introduce in this work. We prove that LSP is monotone under the prefix order, consistent with the full-audio output, and maximal among labels that equal a whole earlier output. Learning from LSP labels converts a full-context model into a stable-prefix streaming one without any architectural change. Extensive evaluations show that R2T2 brings streaming recognition close to the base model's full-context quality while delivering stable text with low emission lag. Its gains extend beyond the post-training languages, demonstrating a practical path from full-context ASR to stable streaming. We open-source the model weights and code at https://huggingface.co/netease-youdao/Confucius4-R2T2 and https://github.com/netease-youdao/Confucius4-R2T2.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.07461",
+        "arxiv_url": "https://arxiv.org/abs/2611.06043",
         "coverage": 0
       }
     },
     {
-      "id": "hf:2611.03953",
+      "id": "hf:2611.10771",
       "source": "huggingface",
-      "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
-      "url": "https://huggingface.co/papers/2611.03953",
-      "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective. Unlike task arithmetic, which stays within t…",
-      "score": 24.0,
-      "created_at": "2026-11-09T00:00:00.000Z",
-      "raw_text": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective. Unlike task arithmetic, which stays within the span of the frozen student and expert parameters for any choice of merging coefficients, P^2-MOPD keeps the student trainable, so the experts act as parameter priors without confining it to this span. Across four domains at 1.7B and 4B scales, P^2-MOPD achieves faster and more balanced recovery than MOPD from the same initialization, surpassing its final average recovery in half the training steps. At the end of training, our 1.7B model reaches 94.7% average recovery, versus 80.9% for MOPD.",
+      "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+      "url": "https://huggingface.co/papers/2611.10771",
+      "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response t…",
+      "score": 38.0,
+      "created_at": "2026-11-10T00:00:00.000Z",
+      "raw_text": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response to actions or interventions, and generates temporally coherent trajectories that reflect outcomes under observed and counterfactual interventions. From this definition, we derive an intelligence-oriented framework spanning perceptual grounding, persistent state modeling, controllable transformation, dynamics-aware prediction, and closed-loop interaction. We present WorldFoundry, open-source infrastructure for reproducible inference and evaluation across video, 3D and 4D, embodied action, and interactive world systems. WorldFoundry unifies model and benchmark discovery, runtime and asset preparation, execution orchestration, artifact management, and interactive visualization, while modality-specific adapters preserve native inputs, execution semantics, output representations, and evaluation protocols. Explicit manifests, durable artifact contracts, and evidence-aware scorecards separate execution readiness from evaluative claims, making each claim traceable to its supporting artifacts. The catalog contains 270 model entries, 74 benchmarks, and 62 registered metric entries, with readiness and execution evidence recorded separately. WorldFoundry enables reproducible comparison of persistent, controllable dynamics across heterogeneous systems, advancing the field from perceptual synthesis toward measurable world intelligence.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.03953",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:67abd93f196f",
-      "source": "news",
-      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]",
-      "score": 80.0,
-      "created_at": "2026-11-08T22:54:50+00:00",
-      "raw_text": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown foundational AI model for robots. Photographer: Kiyoshi Ota/Bloomberg via Getty Images | Bloomberg via Getty Images On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my colleagues at NVIDIA, I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50416363",
-      "source": "hackernews",
-      "title": "How I Fight AI Brain Fry",
-      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "summary": "",
-      "score": 254.0,
-      "created_at": "2026-11-08T19:37:42+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50416363",
-        "num_comments": 172,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.06856",
-      "source": "huggingface",
-      "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
-      "url": "https://huggingface.co/papers/2611.06856",
-      "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 co…",
-      "score": 22.0,
-      "created_at": "2026-11-09T00:00:00.000Z",
-      "raw_text": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 constraints, and 50 evaluation items, yielding 4,670 expert-specified atomic evaluation items in total. Its graph-grounded evaluation design instantiates each task with reference images and an entity-relation graph, then converts node, edge, and whole-graph obligations into checklist items for Content Fidelity, Relational Binding, and Global Constraint Satisfaction. Reviewed expert labels include a 15% double-labeled subset with 89.4% exact agreement and 0.83 quadratic weighted kappa. We further introduce LongBanana-Gen, an agent-harness framework for long-horizon image generation; experiments show that minimal agent harnesses improve over direct generation, while a ReAct-Plan-Exec-Reflect (RPR) workflow yields harness-dependent gains by strengthening evidence grounding and repair. Together, LongBanana provides an auditable testbed for measuring dense visual evidence use and a shared target for developing stronger agent-driven image-generation systems. Code and data are available at the project page: https://long-banana.com/.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.06856",
+        "arxiv_url": "https://arxiv.org/abs/2611.10771",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”\n\nText:\nNvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.\n\nArticle text (excerpt):\nNvidia’s board announced Sunday that it’s launching an independent investigation after CEO Jensen Huang told staff he was unfaithful to his wife. But this isn’t a case of just another CEO having an extramarital affair. The romantic interest is Megaspeed executive Alice Huang, whom U.S. officials believe is a Chinese spy who was feeding information back to Beijing. In short, the stakes reach well beyond Nvidia, given how many tech and financial partners depend on its place at the center of the AI economy. “I’m responsible for an entire industry ,” Huang recently told Bloomberg in a sit-down.\nA spokesperson for the Chinese Embassy in Washington dismissed the allegations in late October as “ groundless smears and slanders ,” and no one has been charged. But U.S. intelligence officials reportedly briefed President Donald Trump about their concerns a year ago, and unnamed senior officials inside the Trump administration told the Times that they doubt Huang could have remained unaware all that time of Alice Huang’s intelligence-gathering role for China. When Trump was first briefed, the Times reported, officials didn’t believe Huang knew, and it isn’t clear whether their assessment has changed. The board, meanwhile, says it sees no sign that national security or company secrets were compromised.\nThe question is whether Huang can survive this. To think through what could come next, this editor spoke Sunday with famed professor Jeffrey Sonnenfeld, senior associate dean for leadership studies at the Yale School of Management and founder of the Chief Executive Leadership Institute, which has hosted Huang at its CEO summits. Sonnenfeld likes Huang, he said, and he called Huang’s career salvageable but put the odds at “about a 50-50.” He also had a lot more food for thought.\nFirst, the damage. Until now, Huang has been “revered and trusted by everybody in technology,” Sonnenfeld noted. But he called this episode “remarkably poor judgment.” Even if Huang was merely naive, he said, “any employee in Nvidia other than him would be fired over this,” and the recklessness alone would mean “an irretrievable loss of confidence.”\nSonnenfeld suggested that Huang’s saving grace could be what social psychologists call idiosyncrasy credits , if he can prove he was being duped. The term comes from Edwin Hollander, a social psychologist who proposed in a 1958 paper that people earn latitude in a group by showing competence and following its rules. Huang has been earning latitude since he co-founded Nvidia in 1993. But all that goodwill can run out when a screw-up looks self-serving or touches the group’s core norms. Here that group includes Nvidia’s board, its roughly 42,000 employees who are bound by security rules, and, in a looser sense, the U.S. government, given it restricts its exports.\nWe also talked about precedents, except, as it turns out, there really are none for what’s unfolding right now. Executives who survive personal scandals sometimes pick up where they left off at another company, Sonnenfeld observed. Former HP CEO Mark Hurd is one example. Between 2005 and 2010, he drove HP to the top of the tech industry by revenue, then was pressured to resign after he filed inaccurate expense reports that hid a personal relationship with a contractor. Oracle hired him about a month later. Huang has no equivalent because Nvidia is his company\nAs for the bench at Nvidia, that doesn’t really exist either. While there is typically a hierarchy inside companies of Nvidia’s scale and importance, Huang has kept things as flat as possible, with about 60 direct reports by his own account. That structure makes it hard to figure out who would succeed him (though his children, both of whom work at Nvidia, are sometimes the subject of succession speculation ). That won’t stop the worldwide guessing game that’s sure to follow. And boards in crisis often reach for a “messianic solution” from outside, Sonnenfeld said, floating former Google CEO Eric Schmidt as one idea.\nNvidia’s role at the center of a massive and complex circular financing web is what makes this particular predicament so tricky and, undoubtedly, terrifying for a wide number of constituents. Nvidia isn’t just the biggest provider of chips driving the AI boom but also largely the bank behind the buildout. In addition to stakes in hundreds of smaller startups, Nvidia has invested in OpenAI, Anthropic, xAI, CoreWeave and Nebius. In August, it also signed preliminary agreements with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR aimed at mobilizing more than $500 billion over time, and Huang has said Nvidia could backstop up to a quarter of it. The move was widely interpreted as a way to spread risk. Still, a leadership crisis at the center is how a stumble becomes a collapse.\nSo what’s Nvidia’s board likely doing right now? Sonnenfeld noted that Huang’s constant, public advocacy for selling advanced chips to China had already made people anxious. Anthropic’s Dario Amodei, whose company Nvidia has backed, had a lot to say about selling chips to China at Davos back in January, likening it to “ selling nuclear weapons to North Korea .”\nNow the board’s independent members — meaning everyone but Huang — will have to establish what technology reached China if any, and by what routes, including by better understanding Nvidia’s relationship with Megaspeed. The Singapore cloud company, which grew out of a Chinese gaming business and became Nvidia’s largest buyer in Southeast Asia, bought roughly $2 billion of its chips , the New York Times reported in October 2025, raising broader questions about whether it was helping China circumvent U.S. export restrictions by re-exporting the chips to China or renting them to Chinese customers remotely. (An Nvidia spokesperson told The Hill after the Times report that the allegations were “thoroughly investigated and debunked last year .”)\nIn the meantime, Huang will keep running the company, Nvidia said Sunday. That’ll be a tall order, even for a CEO who already spends much of his time traveling the world to promote Nvidia. For starters, three House chairmen want a closed-door briefing from Huang on November 18. Nvidia is also reporting its newest earnings on November 17. Sonnenfeld expects that even if Huang keeps the title, he’ll have to hand off some of the day-to-day decision-making.\nOnly one thing is certain right now. Huang doesn’t own the kind of super-voting stock that would cement his power at Nvidia. Sonnenfeld often argues for dual-class structures that empower founders, and he says Huang’s success without one has been the best counterargument to that case. But if Huang had one, Sonnenfeld continued, removing him would be harder.\nThis episode may be remembered as a pivotal moment for how the tech industry guards its secrets. Sonnenfeld argues tech has been “way too lax” compared with defense contractors that face clearance regimes. The arrest last month of an OpenAI engineer points to the same problem. He was accused of hiding a recording device behind a TV in an executive conference room, and while OpenAI has said it has no indication that model weights, source code, or customer data were accessed, the case highlights how exposed tech companies are to people who get close.\nHuang may well survive the investigation (Sonnenfeld hopes the board clears him of knowingly aiding anyone). The bigger test comes when Nvidia’s employees, customers and partners, and, indirectly, the millions of Americans with Nvidia in their 401(k) plans, have to decide whether an AI economy built largely on the judgment of Huang still makes sense.\nWhen you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.\nBuy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires\nTesla will stop making the Cybertruck in 2027\nClaude can now analyze your spending with its new Personal Finance tool\nAlmost no one uses AI agents to book their Uber, company says\nData centers are turning to old jet engines as the wait for power grows\nNew York City’s Mamdani criticizes Madison Square Garden owner over surveillance tech\nAnthropic warns that it’s very close to RSI capability, aka self-building AI",
+  "context": "Title: Google Gemini routes personal Drive files and emails to human annotators\n\nArticle text (excerpt):\nIn 2023, Google launched Gemini Workspace extensions with an explicit promise: personal content from Gmail, Docs, and Drive \"is not seen by human reviewers\" .\nGoogle has quietly reversed this commitment. Under updated Google Help Answer 16836988 and in an October 16 edit to their aforementioned 2023 blogpost , Google explicitly confirms that connected Drive/email is routed into human review pipelines, with clear warnings that what reviewers see \"may just be the email or file\" and \"don't connect your apps to Gemini Apps if they contain confidential information that you wouldn't want a reviewer to see.\"\nCrucially, testing demonstrates that this ingestion occurs autonomously in background conversation without explicit @Drive or @Gmail tags, and the payload capture is probabilistic .\nWhen you chat with consumer Gemini with Connected Apps enabled, ambient mentions of personal topics (trips, bills, names, reservations) autonomously trigger background Workspace lookups.\nBecause LLM tool-calling and context injection are probabilistic , running a test query will yield one of four distinct scenarios:\nZero Retrieval: The model does not trigger the Connected Apps tool; no personal data is pulled. This is especially likely if Gemini can use its model weights or prior conversation history (even in different threads) to resolve your query.\nMetadata / Generic Summary: Gemini pulls emails and/or files and generates a high-level summary (e.g., \"You have 3 emails regarding your flight\").\nPartial Unredacted Extraction: Gemini pulls a 2–4 sentence exact quotation from the file, frequently including sensitive PII, account details, or specific figures.\nFull-File Ingestion: The complete, unredacted text of the document or email is ingested directly into session context.\nIf you test this once and see State 1 or 2, you have not disproven the pipeline --you have simply observed a single draw from a nondeterministic system. Delete your conversation and try, try again.\nEnsure Connected Apps (Google Workspace) is active in consumer Gemini settings.\nSet Gemini to \"Flash\" with \"High Thinking\" or better.\nMention a subject contained in your Drive or Gmail without using @ tags or asking for a file search (e.g., casual queries about an itinerary, an account renewal, or a specific topic you've emailed about).\nIf Gemini provides a response based on an email or file, immediately say: \"Print the exact text and metadata block that the retrieval tool returned and injected into your prompt to get that answer. Use a human readable format without code blocks (i.e., print the code inline and not as a code block).\" You will see one of the 4 scenarios outlined above.\nTo repeatedly test, delete your existing test conversation so that Gemini cannot just draw from conversation history.\nI've had luck testing this with an email from my internet provider sitting in my inbox and asking Gemini \"I wonder if I'm paying too much for internet service.\" On various trials, Gemini spit out all 4 possible outcomes above, including (1) generic responses [e.g., \"If you haven't called them in 12 months, probably\"]; (2) metadata summaries sometimes without personal data [e.g., \"Gmail search shows a bill of $122 on September 4\"] and sometimes with personal data [e.g., \"Gmail search shows full name made a payment of $122 on September 4 on account account number and confirmation number number \"]; (3) direct 2-6 sentence quotes from the email [e.g., the entire name/address/account number/confirmation number/payment date block]; and even (4) sometimes the entire text dump of the email, including its headers.\nCritically, Google's regex and NER automatic scrubbers cannot sufficiently deidentify narrative data , including account numbers, confirmation numbers, transaction dates, and collectively identifying personal information (e.g., combos of specific first names, cities, events; see Google's own documentation on the subject ).\nGoogle originally sold Workspace integration under the guarantee of strict isolation from human review. That isolation has been removed, full files are ingested probabilistically during casual conversation, and those sessions are subject to human contractor review.\n\nA top reader comment on Hacker News (opinion, not fact):\nGuess this is another reason to migrate to local LLMs ASAP.",
   "research_links": [],
-  "source_credit": "TechCrunch",
-  "source_tag": "via TechCrunch",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAPtavGcmss7mU4bjygO8iTJgF3aAnYAAqUUaxv6vpFX3j4_5UDGaRYBAAMCAAN5AAM9BA",
-  "text": "Yale estimates a 50-50 chance Jensen Huang stays on as Nvidia CEO.\n\nAn independent board investigation into a relationship with a suspected Chinese spy has put the company in crisis.\n\nHere is why this goes far beyond one executive.\n\nHuang co-founded Nvidia in 1993 and built it without a traditional succession bench. He manages roughly 60 direct reports himself.\n\nHe also skipped the super-voting shares that usually protect tech founders. If the board decides to move, he cannot block them.\n\nThat governance structure creates a single point of failure for an entire industry.\n\nNvidia is not just supplying the AI boom. It is bankrolling it.\n\nConsider what hangs on its stability:\n• 42,000 employees bound by strict security rules\n• $2 billion in chips bought by Megaspeed alone\n• $500 billion in planned infrastructure deals backed by Wall Street partners\n\nYale professor Jeffrey Sonnenfeld notes that any other Nvidia employee would be fired for this level of risk.\n\nIf Huang falls, there is no internal successor ready to step in.\n\nMy read: centralizing an entire technological boom inside one person's hands works perfectly, until it doesn't.\n\nWould your board let a single CEO hold this much unhedged risk?\n\nSource: TechCrunch",
-  "alt_openings": "**Alternate 1 (Corrective)**\nLine 1: Nvidia does not just supply the AI market with chips.\nLine 2: It bankrolls the entire buildout, which is why a single CEO scandal threatens the whole market.\n*Prefer this when writing for finance and strategy readers who care more about market exposure than executive drama.*\n\n**Alternate 2 (Story in motion)**\nLine 1: Three House chairmen just demanded a closed-door briefing with Nvidia’s CEO.\nLine 2: An independent investigation into Jensen Huang’s personal ties to a suspected Chinese spy has thrown the board into chaos.\n*Prefer this when targeting policy, defense, or legal readers focused on national security.*\n\n**Alternate 3 (Your X)**\nLine 1: Your retirement fund’s biggest AI bet now rests on a 50-50 board vote.\nLine 2: An independent investigation into Nvidia’s CEO has exposed how fragile the entire market buildout really is.\n*Prefer this to maximize general engagement across mid-level corporate professionals.*\n\nPick: Alternate 3 because framing the crisis around the reader's personal exposure in 401(k) plans immediately translates high-level corporate governance into a personal stake.",
-  "voice_score": 3,
+  "source_credit": "github.com",
+  "source_tag": "via github.com",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAPxavLv0D3zPdx3PMXJB5uRDFHPEFkAAroVaxsktJBXYk8tGkLjKTgBAAMCAAN5AAM9BA",
+  "text": "Your private Google Drive files may now be read by human contractors.\n\nGoogle quietly updated its privacy terms to walk back a major 2023 promise.\n\nHere is how your data gets there.\n\nIn 2023, Google promised that personal content from Gmail and Drive used in Gemini would never be seen by human reviewers.\n\nOn October 16, Google edited that blog post.\n\nUpdated documentation now confirms that data pulled from connected apps is sent into human review pipelines.\n\nYou do not need to type a file tag or ask for a document search to trigger it.\n\nA casual query about a trip or an internet bill can automatically trigger Gemini to search your inbox in the background.\n\nBecause retrieval is probabilistic, testing shows four distinct outcomes:\n• Zero retrieval, where no personal data is pulled\n• A generic summary of the file metadata\n• A partial extraction quoting 2 to 4 sentences with sensitive account details\n• Full ingestion of the complete, unredacted document into the chat\n\nGoogle notes that automated scrubbers miss personal details like names, confirmation numbers, and account details.\n\nIf a human contractor reviews that chat session, they see whatever text Gemini pulled.\n\nMy read: ambient AI features turn your entire inbox into prompt context, whether you meant to search it or not.\n\nDon't connect apps to Gemini if they hold files you wouldn't want a stranger to read.\n\nSource: github.com",
+  "alt_openings": "**Opening 1: Story in motion**\nLine 1: A user asked Gemini if they were paying too much for internet.\nLine 2: The model automatically pulled their full account details into a chat log queued for human review.\n*When to prefer it:* Use this when writing for an audience of non-technical managers who respond best to real-world operational examples over policy changes.\n\n**Opening 2: Tool as subject**\nLine 1: Google Gemini now routes your personal emails to human contractors without asking.\nLine 2: Mentioning a bill or a reservation in normal conversation triggers a background search across your Drive.\n*When to prefer it:* Use this when you want to emphasize the direct action of the software rather than Google's policy shift.\n\n**Opening 3: Bare number first**\nLine 1: One blog post edit on October 16 erased a core privacy guarantee.\nLine 2: Google updated its terms to confirm personal Gmail and Drive files are sent to human reviewers.\n*When to prefer it:* Use this for news-oriented readers who care about corporate accountability and precise timelines.\n\nPick: The main post opening (Your X). It targets the reader's personal ownership (\"Your private Google Drive files\") immediately, which drives the highest click-through rate before the \"see more\" fold.",
+  "voice_score": 4,
   "firewall_notes": [],
-  "headline": "Why Jensen Huang is Nvidia's single point of failure",
+  "headline": "How casual Gemini queries send private files to contractors",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-09.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-10.png"
 }
