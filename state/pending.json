@@ -1,47 +1,32 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-10",
-  "created_at": "2026-11-10T15:47:55.329056+05:30",
+  "date": "2026-11-11",
+  "created_at": "2026-11-11T15:17:56.148804+05:30",
   "candidate": {
-    "id": "hn:50429426",
-    "source": "hackernews",
-    "title": "Google Gemini routes personal Drive files and emails to human annotators",
-    "url": "https://github.com/thisisme6598/gemini_files/",
-    "summary": "",
-    "score": 608.0,
-    "created_at": "2026-11-09T18:24:38+00:00",
-    "raw_text": "",
+    "id": "news:f28f90d2895a",
+    "source": "news",
+    "title": "Gilbert + Tobin rethinks the business of law with AI",
+    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+    "score": 100.0,
+    "created_at": "2026-11-12T00:00:00+00:00",
+    "raw_text": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
     "extra": {
-      "discussion_url": "https://news.ycombinator.com/item?id=50429426",
-      "num_comments": 129,
+      "outlet": "OpenAI",
+      "weight": 1.0,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "hn:50429906",
-      "source": "hackernews",
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "summary": "",
-      "score": 977.0,
-      "created_at": "2026-11-09T18:56:29+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50429906",
-        "num_comments": 6,
-        "coverage": 3
-      }
-    },
-    {
-      "id": "news:01a8528fa117",
+      "id": "news:f28f90d2895a",
       "source": "news",
-      "title": "Closing the AI guidance gap in education",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "score": 100.0,
-      "created_at": "2026-11-10T09:00:00+00:00",
-      "raw_text": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "created_at": "2026-11-12T00:00:00+00:00",
+      "raw_text": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -49,18 +34,138 @@
       }
     },
     {
-      "id": "news:13bdf291560a",
+      "id": "news:80b38ea7da37",
       "source": "news",
-      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
-      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "score": 100.0,
+      "created_at": "2026-11-11T08:00:00+00:00",
+      "raw_text": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:7e65614cc89a",
+      "source": "news",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "summary": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+      "score": 90.0,
+      "created_at": "2026-11-11T09:00:00+00:00",
+      "raw_text": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+      "extra": {
+        "outlet": "Google",
+        "weight": 0.9,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:cd1dc6d6e6bd",
+      "source": "news",
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
       "score": 80.0,
-      "created_at": "2026-11-09T23:28:37+00:00",
-      "raw_text": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
+      "created_at": "2026-11-10T22:35:01+00:00",
+      "raw_text": "Amazon is betting that many Ring customers will also want an AI-powered security drone and robot patrolling their homes or offices. But the company’s upcoming Ring Robotic products are also certain to intensify privacy concerns previously raised around a prior Amazon attempt to popularize a flying security camera. The Ring Rover Cam and Ring Drone Cam are expected to reach customers starting at the end of 2026 and in early 2027, respectively, according to an Amazon announcement posted on November 10. Amazon describes the devices as relying on an AI Pilot system that uses each device’s cameras along with “specialized vision models, on-device sensors and cloud processing” to plan patrol routes while autonomously navigating around obstacles such as furniture. Both devices also use that AI Pilot system to digitally map the floor plan of the customer’s home or business. This setup process occurs after the customer carries the Ring drone through their indoor spaces or allows the Ring Rover to do some autonomous exploration. Read full article Comments",
+      "extra": {
+        "outlet": "Ars Technica",
+        "weight": 0.8,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "hn:50447074",
+      "source": "hackernews",
+      "title": "Tracking Anthropic-discovered vulnerabilities",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "summary": "",
+      "score": 399.0,
+      "created_at": "2026-11-10T22:17:56+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50447074",
+        "num_comments": 190,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:0b2e1c02de47",
+      "source": "news",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "summary": "",
+      "score": 100.0,
+      "created_at": "2026-11-10T16:03:47+00:00",
+      "raw_text": "",
+      "extra": {
+        "outlet": "Google DeepMind",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:a390f90d4604",
+      "source": "news",
+      "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+      "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+      "summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
+      "score": 80.0,
+      "created_at": "2026-11-11T07:30:51+00:00",
+      "raw_text": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
-        "coverage": 1
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50438318",
+      "source": "hackernews",
+      "title": "AI usage generates a fragile codebase",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "summary": "",
+      "score": 544.0,
+      "created_at": "2026-11-10T10:25:58+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50438318",
+        "num_comments": 517,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50443812",
+      "source": "hackernews",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "summary": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without &lt;span&gt;s everywhere, `&lt;dialog&gt;` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday&#x27;s ftrain post touched on [0])<p>Models know about some of these by name, but consistently won&#x27;t default to using the platform-native solution and instead prefer the…",
+      "score": 367.0,
+      "created_at": "2026-11-10T18:01:15+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50443812",
+        "num_comments": 108,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50446520",
+      "source": "hackernews",
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "summary": "",
+      "score": 231.0,
+      "created_at": "2026-11-10T21:25:03+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50446520",
+        "num_comments": 190,
+        "coverage": 0
       }
     },
     {
@@ -69,7 +174,7 @@
       "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
       "url": "https://huggingface.co/papers/2611.12806",
       "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous t…",
-      "score": 86.0,
+      "score": 96.0,
       "created_at": "2026-11-10T00:00:00.000Z",
       "raw_text": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data. To this end, we develop LingBot-Touch, a tactile foundation model characterized by the following properties. (i) Our model yields a unified representation across different tactile sensors (i.e., piezoresistive, magnetic, and visuotactile sensors), and is easily extensible to new sensor types. (ii) The resulting tactile tokens are plug-and-play: they can be seamlessly integrated into policy models across paradigms, from diffusion policy to vision-language-action (VLA) models such as π_{0.5} and LingBot-VLA, consistently enhancing manipulation dexterity. (iii) Extensive experiments, spanning simulation and real-robot deployments across multiple hardware platforms, demonstrate that our tactile representation substantially benefits complex manipulation tasks while maintaining strong computational efficiency. We believe the findings in this work demonstrate the potential of leveraging cross-sensor data to scale tactile learning, and offer encouraging insights for the design of future hardware and embodied models.",
       "extra": {
@@ -78,136 +183,34 @@
       }
     },
     {
-      "id": "hn:50429024",
-      "source": "hackernews",
-      "title": "Muse Ember: Our smallest, most efficient model",
-      "url": "https://research.meta.ai/blog/muse-ember",
-      "summary": "",
-      "score": 301.0,
-      "created_at": "2026-11-09T17:58:46+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50429024",
-        "num_comments": 126,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:2b128ff09548",
-      "source": "news",
-      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-      "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
-      "score": 80.0,
-      "created_at": "2026-11-09T19:24:51+00:00",
-      "raw_text": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:9c331579e229",
-      "source": "news",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-      "score": 100.0,
-      "created_at": "2026-11-09T19:00:00+00:00",
-      "raw_text": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:f37b680abcf7",
-      "source": "news",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "url": "https://openai.com/index/control-room",
-      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "score": 100.0,
-      "created_at": "2026-11-09T13:00:00+00:00",
-      "raw_text": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:1b18832a8d2c",
-      "source": "news",
-      "title": "Otter AI can now follow conversations across 30+ languages",
-      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
-      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
-      "score": 80.0,
-      "created_at": "2026-11-10T07:00:00+00:00",
-      "raw_text": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50429426",
-      "source": "hackernews",
-      "title": "Google Gemini routes personal Drive files and emails to human annotators",
-      "url": "https://github.com/thisisme6598/gemini_files/",
-      "summary": "",
-      "score": 608.0,
-      "created_at": "2026-11-09T18:24:38+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50429426",
-        "num_comments": 129,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.06043",
+      "id": "hf:2611.14320",
       "source": "huggingface",
-      "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
-      "url": "https://huggingface.co/papers/2611.06043",
-      "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency. R2T2 is obtained by post-training Qwen3-ASR-1.7B on 1,500 hours of Chinese and Eng…",
-      "score": 86.0,
-      "created_at": "2026-11-09T00:00:00.000Z",
-      "raw_text": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency. R2T2 is obtained by post-training Qwen3-ASR-1.7B on 1,500 hours of Chinese and English audio while freezing its pre-trained audio encoder and projector. The adaptation is based on the concept of Longest Stable Prefix (LSP), a new notion that we introduce in this work. We prove that LSP is monotone under the prefix order, consistent with the full-audio output, and maximal among labels that equal a whole earlier output. Learning from LSP labels converts a full-context model into a stable-prefix streaming one without any architectural change. Extensive evaluations show that R2T2 brings streaming recognition close to the base model's full-context quality while delivering stable text with low emission lag. Its gains extend beyond the post-training languages, demonstrating a practical path from full-context ASR to stable streaming. We open-source the model weights and code at https://huggingface.co/netease-youdao/Confucius4-R2T2 and https://github.com/netease-youdao/Confucius4-R2T2.",
+      "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+      "url": "https://huggingface.co/papers/2611.14320",
+      "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajector…",
+      "score": 39.0,
+      "created_at": "2026-11-11T00:00:00.000Z",
+      "raw_text": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectories they came from, leaving the agent no way to check them. To address this, we introduce WikiTrace, an evidence-linked memory system designed to let agents check each lesson against its original trajectory. Specifically, motivated by the finding that a trajectory often still holds the evidence needed to catch an erroneous lesson, WikiTrace stores each lesson as a concise insight linked to a summary of why its trajectory succeeded or failed and to the raw trajectory itself. Then, on a new task, the agent starts from all insights and, whenever one lacks details needed to act, conflicts with another, or comes from a failed task, descends through its links with terminal tools to fill in missing details or correct the insight before acting. We validate WikiTrace on five agentic benchmarks, showing that it consistently outperforms existing memory approaches and a baseline given the same insights alone, while also reducing memory-induced degradation. Our code is available at https://github.com/yukyeongleee/wikitrace",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.06043",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.10771",
-      "source": "huggingface",
-      "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
-      "url": "https://huggingface.co/papers/2611.10771",
-      "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response t…",
-      "score": 38.0,
-      "created_at": "2026-11-10T00:00:00.000Z",
-      "raw_text": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response to actions or interventions, and generates temporally coherent trajectories that reflect outcomes under observed and counterfactual interventions. From this definition, we derive an intelligence-oriented framework spanning perceptual grounding, persistent state modeling, controllable transformation, dynamics-aware prediction, and closed-loop interaction. We present WorldFoundry, open-source infrastructure for reproducible inference and evaluation across video, 3D and 4D, embodied action, and interactive world systems. WorldFoundry unifies model and benchmark discovery, runtime and asset preparation, execution orchestration, artifact management, and interactive visualization, while modality-specific adapters preserve native inputs, execution semantics, output representations, and evaluation protocols. Explicit manifests, durable artifact contracts, and evidence-aware scorecards separate execution readiness from evaluative claims, making each claim traceable to its supporting artifacts. The catalog contains 270 model entries, 74 benchmarks, and 62 registered metric entries, with readiness and execution evidence recorded separately. WorldFoundry enables reproducible comparison of persistent, controllable dynamics across heterogeneous systems, advancing the field from perceptual synthesis toward measurable world intelligence.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.10771",
+        "arxiv_url": "https://arxiv.org/abs/2611.14320",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Google Gemini routes personal Drive files and emails to human annotators\n\nArticle text (excerpt):\nIn 2023, Google launched Gemini Workspace extensions with an explicit promise: personal content from Gmail, Docs, and Drive \"is not seen by human reviewers\" .\nGoogle has quietly reversed this commitment. Under updated Google Help Answer 16836988 and in an October 16 edit to their aforementioned 2023 blogpost , Google explicitly confirms that connected Drive/email is routed into human review pipelines, with clear warnings that what reviewers see \"may just be the email or file\" and \"don't connect your apps to Gemini Apps if they contain confidential information that you wouldn't want a reviewer to see.\"\nCrucially, testing demonstrates that this ingestion occurs autonomously in background conversation without explicit @Drive or @Gmail tags, and the payload capture is probabilistic .\nWhen you chat with consumer Gemini with Connected Apps enabled, ambient mentions of personal topics (trips, bills, names, reservations) autonomously trigger background Workspace lookups.\nBecause LLM tool-calling and context injection are probabilistic , running a test query will yield one of four distinct scenarios:\nZero Retrieval: The model does not trigger the Connected Apps tool; no personal data is pulled. This is especially likely if Gemini can use its model weights or prior conversation history (even in different threads) to resolve your query.\nMetadata / Generic Summary: Gemini pulls emails and/or files and generates a high-level summary (e.g., \"You have 3 emails regarding your flight\").\nPartial Unredacted Extraction: Gemini pulls a 2–4 sentence exact quotation from the file, frequently including sensitive PII, account details, or specific figures.\nFull-File Ingestion: The complete, unredacted text of the document or email is ingested directly into session context.\nIf you test this once and see State 1 or 2, you have not disproven the pipeline --you have simply observed a single draw from a nondeterministic system. Delete your conversation and try, try again.\nEnsure Connected Apps (Google Workspace) is active in consumer Gemini settings.\nSet Gemini to \"Flash\" with \"High Thinking\" or better.\nMention a subject contained in your Drive or Gmail without using @ tags or asking for a file search (e.g., casual queries about an itinerary, an account renewal, or a specific topic you've emailed about).\nIf Gemini provides a response based on an email or file, immediately say: \"Print the exact text and metadata block that the retrieval tool returned and injected into your prompt to get that answer. Use a human readable format without code blocks (i.e., print the code inline and not as a code block).\" You will see one of the 4 scenarios outlined above.\nTo repeatedly test, delete your existing test conversation so that Gemini cannot just draw from conversation history.\nI've had luck testing this with an email from my internet provider sitting in my inbox and asking Gemini \"I wonder if I'm paying too much for internet service.\" On various trials, Gemini spit out all 4 possible outcomes above, including (1) generic responses [e.g., \"If you haven't called them in 12 months, probably\"]; (2) metadata summaries sometimes without personal data [e.g., \"Gmail search shows a bill of $122 on September 4\"] and sometimes with personal data [e.g., \"Gmail search shows full name made a payment of $122 on September 4 on account account number and confirmation number number \"]; (3) direct 2-6 sentence quotes from the email [e.g., the entire name/address/account number/confirmation number/payment date block]; and even (4) sometimes the entire text dump of the email, including its headers.\nCritically, Google's regex and NER automatic scrubbers cannot sufficiently deidentify narrative data , including account numbers, confirmation numbers, transaction dates, and collectively identifying personal information (e.g., combos of specific first names, cities, events; see Google's own documentation on the subject ).\nGoogle originally sold Workspace integration under the guarantee of strict isolation from human review. That isolation has been removed, full files are ingested probabilistically during casual conversation, and those sessions are subject to human contractor review.\n\nA top reader comment on Hacker News (opinion, not fact):\nGuess this is another reason to migrate to local LLMs ASAP.",
-  "research_links": [],
-  "source_credit": "github.com",
-  "source_tag": "via github.com",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAPxavLv0D3zPdx3PMXJB5uRDFHPEFkAAroVaxsktJBXYk8tGkLjKTgBAAMCAAN5AAM9BA",
-  "text": "Your private Google Drive files may now be read by human contractors.\n\nGoogle quietly updated its privacy terms to walk back a major 2023 promise.\n\nHere is how your data gets there.\n\nIn 2023, Google promised that personal content from Gmail and Drive used in Gemini would never be seen by human reviewers.\n\nOn October 16, Google edited that blog post.\n\nUpdated documentation now confirms that data pulled from connected apps is sent into human review pipelines.\n\nYou do not need to type a file tag or ask for a document search to trigger it.\n\nA casual query about a trip or an internet bill can automatically trigger Gemini to search your inbox in the background.\n\nBecause retrieval is probabilistic, testing shows four distinct outcomes:\n• Zero retrieval, where no personal data is pulled\n• A generic summary of the file metadata\n• A partial extraction quoting 2 to 4 sentences with sensitive account details\n• Full ingestion of the complete, unredacted document into the chat\n\nGoogle notes that automated scrubbers miss personal details like names, confirmation numbers, and account details.\n\nIf a human contractor reviews that chat session, they see whatever text Gemini pulled.\n\nMy read: ambient AI features turn your entire inbox into prompt context, whether you meant to search it or not.\n\nDon't connect apps to Gemini if they hold files you wouldn't want a stranger to read.\n\nSource: github.com",
-  "alt_openings": "**Opening 1: Story in motion**\nLine 1: A user asked Gemini if they were paying too much for internet.\nLine 2: The model automatically pulled their full account details into a chat log queued for human review.\n*When to prefer it:* Use this when writing for an audience of non-technical managers who respond best to real-world operational examples over policy changes.\n\n**Opening 2: Tool as subject**\nLine 1: Google Gemini now routes your personal emails to human contractors without asking.\nLine 2: Mentioning a bill or a reservation in normal conversation triggers a background search across your Drive.\n*When to prefer it:* Use this when you want to emphasize the direct action of the software rather than Google's policy shift.\n\n**Opening 3: Bare number first**\nLine 1: One blog post edit on October 16 erased a core privacy guarantee.\nLine 2: Google updated its terms to confirm personal Gmail and Drive files are sent to human reviewers.\n*When to prefer it:* Use this for news-oriented readers who care about corporate accountability and precise timelines.\n\nPick: The main post opening (Your X). It targets the reader's personal ownership (\"Your private Google Drive files\") immediately, which drives the highest click-through rate before the \"see more\" fold.",
+  "context": "Title: Gilbert + Tobin rethinks the business of law with AI\n\nText:\nA conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.\n\nResearch notes on: Australian law firm Gilbert + Tobin transforms its legal practice and business model through AI adoption led by CEO Sam Nickless.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from Law: \"ELTEMATE CEO: Legal Departments ‘Leading the Way’ With AI Adoption\"\nThe 2026 Legalweek Leaders in Tech Law Awards honor those who have made significant contributions to legal innovation from law firms, corporate legal departments and legal tech providers. These awards ...\n\nBackground (Legal technology, Wikipedia):\nLegal technology, also known as legal tech, refers to the use of technology and software to provide legal services and support the legal industry. Legal technology encompasses the use of traditional software architecture and web technologies, such as searchable databases of case law and other legal authority, as well as machine learning technologies, such as those used to automatically search documents for purposes of due diligence or discovery. Work on making contracts more easy to use involve aspects of user experience design, and artificial intelligence.\n\nBackground (Enterprise legal management, Wikipedia):\nEnterprise legal management (ELM) is a practice management strategy of corporate legal departments, insurance claims departments, and government legal and contract management departments.",
+  "research_links": [
+    "https://www.law.com/legaltechnews/2026/03/24/eltemate-ceo-legal-departments-leading-the-way-with-ai-adoption-/"
+  ],
+  "source_credit": "OpenAI, with reporting from Law",
+  "source_tag": "via OpenAI",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAP2avQ6DtLp71Ws5EYhIfp8lXyDW2EAAhYTaxvpzKBX1lFEi1CqbJ0BAAMCAAN5AAM9BA",
+  "text": "An Australian law firm is using AI to overhaul its business model.\n\nCEO Sam Nickless is pushing changes far beyond basic document automation.\n\nThe billing structure is the real target.\n\nTraditional legal technology focused on narrow administrative tasks, like searching case law databases or running due diligence.\n\nLaw firms sell time.\n\nWhen software completes hours of research in minutes, selling time stops working.\n\nGilbert + Tobin is trying to adapt before the market forces them to.\n\nLed by Nickless, the firm is tying AI adoption directly to how it structures its business and serves clients.\n\nStandard legal tech covers specific functions:\n• Searchable databases for case law and legal authority\n• Machine learning to search documents during due diligence\n• Design improvements to make contracts easier to read\n\nSpeed alone creates a structural trap.\n\nIf software cuts five hours of effort down to five minutes, hourly billing reduces revenue proportionally.\n\nMy read: legal AI won't just speed up lawyers, it will dismantle the billable hour.\n\nThe limitation is real. This is an early strategic transition, and the firm has not publicly detailed its new revenue metrics.\n\nIf software handles the bulk of your output, how will you charge for your work?\n\nSource: OpenAI, with reporting from Law",
+  "alt_openings": "Corrective\nLine 1: Selling billable hours stops making sense the moment AI enters a law firm.\nLine 2: Gilbert + Tobin CEO Sam Nickless is restructuring his practice around that reality.\nWhen to prefer: Best when targeting founders, partners, and consultants who personally bill by the hour and feel the immediate commercial threat.\n\nTool as subject\nLine 1: AI is forcing Australian law firm Gilbert + Tobin to alter its business model.\nLine 2: CEO Sam Nickless is reorganizing how the firm captures value from legal work.\nWhen to prefer: Best for general corporate audiences who want a direct, objective news hook about corporate strategy.\n\nYour X\nLine 1: Your lawyer's billable hour is on the verge of collapsing.\nLine 2: Executive leadership at Gilbert + Tobin is already changing how they charge clients.\nWhen to prefer: Best when writing for buyers of legal services, like corporate managers and finance leaders who pay external legal bills.\n\nPick: The Corrective opening. It directly names the fundamental business conflict (billable hours vs. AI efficiency) immediately, giving smart professionals a strong thesis to click \"see more\" and test against their own business models.",
   "voice_score": 4,
   "firewall_notes": [],
-  "headline": "How casual Gemini queries send private files to contractors",
+  "headline": "How AI is dismantling the legal billable hour",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-10.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-11.png"
 }
