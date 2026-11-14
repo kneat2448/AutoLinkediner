@@ -1,125 +1,125 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-13",
-  "created_at": "2026-11-13T15:24:42.229166+05:30",
+  "date": "2026-11-14",
+  "created_at": "2026-11-14T14:49:10.329259+05:30",
   "candidate": {
-    "id": "news:550d6b582c32",
+    "id": "news:951c84561943",
     "source": "news",
-    "title": "Jensen Huang Resigns as Nvidia CEO",
-    "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
-    "summary": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset.",
+    "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+    "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
     "score": 80.0,
-    "created_at": "2026-11-12T13:58:06+00:00",
-    "raw_text": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset.",
+    "created_at": "2026-11-13T20:45:10+00:00",
+    "raw_text": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they'll check in with you each time before checking out. OpenAI's support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan. Now your dot c … Read the full story at The Verge.",
     "extra": {
-      "outlet": "Wired",
+      "outlet": "The Verge",
       "weight": 0.8,
-      "coverage": 2
+      "coverage": 1
     }
   },
   "shortlist": [
     {
-      "id": "news:4bad5afe01a1",
-      "source": "news",
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "summary": "",
-      "score": 100.0,
-      "created_at": "2026-11-12T18:00:50+00:00",
-      "raw_text": "",
-      "extra": {
-        "outlet": "Google DeepMind",
-        "weight": 1.0,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:550d6b582c32",
-      "source": "news",
-      "title": "Jensen Huang Resigns as Nvidia CEO",
-      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
-      "summary": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset.",
-      "score": 80.0,
-      "created_at": "2026-11-12T13:58:06+00:00",
-      "raw_text": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset.",
-      "extra": {
-        "outlet": "Wired",
-        "weight": 0.8,
-        "coverage": 2
-      }
-    },
-    {
-      "id": "news:5e5f306d785f",
-      "source": "news",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "score": 80.0,
-      "created_at": "2026-11-12T21:35:00+00:00",
-      "raw_text": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:5b0f73df89a6",
-      "source": "news",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "score": 100.0,
-      "created_at": "2026-11-12T20:00:00+00:00",
-      "raw_text": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:90d79223706e",
-      "source": "news",
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "url": "https://openai.com/business/customer-stories/gondola",
-      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "score": 100.0,
-      "created_at": "2026-11-12T12:00:00+00:00",
-      "raw_text": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50465829",
+      "id": "hn:50493251",
       "source": "hackernews",
-      "title": "Anthropic IPO",
-      "url": "https://ipo.anthropic.com/us/",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
       "summary": "",
-      "score": 925.0,
-      "created_at": "2026-11-12T11:46:41+00:00",
+      "score": 526.0,
+      "created_at": "2026-11-14T02:52:59+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50465829",
-        "num_comments": 866,
+        "discussion_url": "https://news.ycombinator.com/item?id=50493251",
+        "num_comments": 314,
         "coverage": 0
       }
     },
     {
-      "id": "news:0990939c7d6e",
+      "id": "news:951c84561943",
       "source": "news",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
+      "score": 80.0,
+      "created_at": "2026-11-13T20:45:10+00:00",
+      "raw_text": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they'll check in with you each time before checking out. OpenAI's support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan. Now your dot c … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "news:5bf4951adbe9",
+      "source": "news",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "score": 100.0,
-      "created_at": "2026-11-12T09:30:00+00:00",
-      "raw_text": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "created_at": "2026-11-13T15:00:00+00:00",
+      "raw_text": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50486748",
+      "source": "hackernews",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "summary": "",
+      "score": 388.0,
+      "created_at": "2026-11-13T17:30:10+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50486748",
+        "num_comments": 97,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50481187",
+      "source": "hackernews",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "summary": "",
+      "score": 488.0,
+      "created_at": "2026-11-13T10:18:13+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50481187",
+        "num_comments": 384,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:d1318183fe17",
+      "source": "news",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "score": 100.0,
+      "created_at": "2026-11-13T08:00:00+00:00",
+      "raw_text": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50487185",
+      "source": "hackernews",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
+      "summary": "",
+      "score": 257.0,
+      "created_at": "2026-11-13T17:55:28+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50487185",
+        "num_comments": 41,
         "coverage": 0
       }
     },
@@ -129,11 +129,56 @@
       "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
       "url": "https://huggingface.co/papers/2611.15777",
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 dom…",
-      "score": 40.0,
+      "score": 83.0,
       "created_at": "2026-11-13T00:00:00.000Z",
       "raw_text": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 domains and five capability families. For the capability spectrum, SO-Arena offers evidence-grounded evaluation through reliable sources and manual verification of reference labels against model-visible inputs; fine-grained capability assessment through domain-specific difficulty criteria; and realistic interactive evaluation, where models iteratively execute actions in sandboxes. Reasoning-intensive tasks further enable system one-two comparison. Beyond accuracy, SO-Arena assesses decision reliability through two complementary measures: decision stability under controlled option-set changes and missing-answer recognition when no valid option is available. Evaluations across 21 models reveal that the benefits of scaling and additional reasoning vary substantially across domains. More importantly, strong overall performance does not necessarily imply reliable decision-making: the best-performing System One model ranks only seventh in reliability. Together, these findings highlight the need to characterize capability spectrum and decision reliability as complementary dimensions, providing a systematic view of the strengths and limitations of System One models.",
       "extra": {
         "arxiv_url": "https://arxiv.org/abs/2611.15777",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:04367a7d0b10",
+      "source": "news",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
+      "score": 80.0,
+      "created_at": "2026-11-13T23:49:11+00:00",
+      "raw_text": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters . The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their product research on Reddit or Google, and make it more likely shoppers end up at Amazon even if they're searching for a product sold elsewhere. The same goes for AI agents - if Amazon has the largest stockpile of shopping data, AI agents may rely on its index of products over others, so even people shopping with bots will end … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:ec577d4c46a6",
+      "source": "news",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "score": 80.0,
+      "created_at": "2026-11-13T22:43:00+00:00",
+      "raw_text": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:c479f2841d4a",
+      "source": "news",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+      "score": 80.0,
+      "created_at": "2026-11-13T21:20:47+00:00",
+      "raw_text": "The US government has expanded the use of an AI tool for advising air traffic controllers to assist in managing air traffic across the entire national airspace system. Airline executives have voiced support for the rollout, but the US labor union representing air traffic controllers has said it was not involved in designing or testing the AI-driven system. The Federal Aviation Administration (FAA) says the $875 million SMART system has helped reroute 180 flights since being implemented in airspace over Washington, DC, on September 21. The agency claims that this saved an average of 10 minutes per flight and almost 80 gallons of fuel per flight—and it is apparently hoping such results can be replicated nationwide through the expanded deployment. “After a successful initial rollout to the National Capital Region in September, the FAA will now use SMART in the airspace of all 22 centers across the country to reduce delays, reduce fuel consumption and improve the travel experience for the flying public,” according to the agency statement posted on November 10. Read full article Comments",
+      "extra": {
+        "outlet": "Ars Technica",
+        "weight": 0.8,
         "coverage": 0
       }
     },
@@ -143,77 +188,27 @@
       "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
       "url": "https://huggingface.co/papers/2611.14815",
       "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories…",
-      "score": 37.0,
+      "score": 49.0,
       "created_at": "2026-11-13T00:00:00.000Z",
       "raw_text": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories as inputs. We introduce BirdDreams, an autoregressive driving world model that jointly generates perspective video and a schematic bird's-eye-view (BEV) video, making scene layout part of the predicted future. The BEV, rendered from scene annotations for training, depicts roads and vehicles as simple shapes at a fixed metric scale, providing a top-down view of their positions and motion with reduced occlusion between vehicles. Perspective video, by contrast, retains scene details that the BEV omits, such as traffic signals and object appearance. Joint attention between two video diffusion transformers, one per stream, lets each stream inform the other during generation. The predicted BEV also provides a geometric interface for ego control: we translate and rotate its latest frame along an input ego trajectory and use the resulting frames as a soft condition that shows how the scene would appear to move if only the ego vehicle moved. At inference, BirdDreams generates both videos from a single camera image without requiring an HD map or vehicle-state inputs. On PhysicalAI-AV and nuScenes, BirdDreams follows input ego trajectories more faithfully than prior driving world models and generates more plausible ego motion without ego-action conditioning. Human evaluation shows that BirdDreams outperforms a perspective-only baseline in generating realistic surrounding-vehicle behavior.",
       "extra": {
         "arxiv_url": "https://arxiv.org/abs/2611.14815",
         "coverage": 0
       }
-    },
-    {
-      "id": "hn:50474883",
-      "source": "hackernews",
-      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-      "url": "https://unemploymentlabs.com/checkpoint-forensics",
-      "summary": "",
-      "score": 294.0,
-      "created_at": "2026-11-12T21:56:11+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50474883",
-        "num_comments": 103,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.13004",
-      "source": "huggingface",
-      "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
-      "url": "https://huggingface.co/papers/2611.13004",
-      "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial compression factor. Building on this principle, we propose GSTAR, a spatial--gro…",
-      "score": 36.0,
-      "created_at": "2026-11-13T00:00:00.000Z",
-      "raw_text": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial compression factor. Building on this principle, we propose GSTAR, a spatial--group co-scaling framework that enables \\(32\\times\\) and even effective \\(64\\times\\) compression while preserving strong reconstruction, understanding, and generation performance. Since larger groups introduce intra-group dependencies that must be modeled efficiently, we analyze their impact on inference latency and generation quality and introduce a semi-autoregressive decoder that combines parallel feature computation with lightweight causal modeling. With these designs, our highly compressed models perform competitively with leading models across five representative text-to-image benchmarks (GenEval, DPG-Bench, PRISM, LongText-Bench, and Qwen-Image-Bench). At \\(1024\\times1024\\) resolution, our model delivers a \\(20\\times\\) speedup over prior discrete autoregressive models, generating each image in 2.5 seconds on a single NVIDIA H200. Together, these results show that highly compressed discrete representations can enable high-quality autoregressive generation at low latency.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.13004",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50475713",
-      "source": "hackernews",
-      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-      "summary": "",
-      "score": 242.0,
-      "created_at": "2026-11-12T23:06:17+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50475713",
-        "num_comments": 71,
-        "coverage": 0
-      }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Jensen Huang Resigns as Nvidia CEO\n\nText:\nNvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset.\n\nArticle text (excerpt):\nJensen Huang stepped down as the chief executive of Nvidia on Thursday, four days after the company announced its internal investigation into an affair he had with Alice Huang, also known as Huang Le, an alleged asset of China’s Ministry of State Security.\n“Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately,” the Nvidia board said in a statement. Nvidia’s chief financial officer, Colette Kress, will serve as interim CEO. The board said it “will consider internal and external candidates” for a permanent replacement.\nThe board’s investigation was announced on November 8, slightly less than two weeks after The New York Times reported that the chief executive had been the target of a Chinese intelligence operation facilitated through his relationship with Alice Huang, who has no known relation to Jensen. The pair have been spotted in public together at least twice, in June 2024 and May 2025 . On November 11, The New York Times reported that Jensen Huang also allegedly had a relationship with a direct report at Nvidia.\nThe alleged relationship with a subordinate, along with Huang’s business dealings with Megaspeed, a Singapore-based AI company where Alice Huang previously held a senior position, likely played a greater role in the board’s decision to oust Huang than the Chinese espionage allegations, a source familiar with the matter tells WIRED.\nUS intelligence officials reportedly briefed President Donald Trump on Huang’s relationship with Alice last year, but the president did not act on it. On November 6, The New York Times and Financial Times reported that Alice was a spy for China’s Ministry of State Security and that she had been recruited to collect information on the Nvidia executive. (The Chinese government has rejected all claims that Alice was a spy for the country. )\nHuang sent a companywide email on Sunday acknowledging his affair, apologizing to his family and Nvidia employees, and pledging cooperation with the internal investigation. The executive has been married to his wife, Lori Huang, since 1985 , and both of the couple’s two children work at the company.\nOn Monday, WIRED exclusively reported that last year Huang began working with a crisis PR firm to manage his personal communications. In October 2025, those PR consultants started to be looped in on all press inquiries involving Huang, whether those inquiries were personal or professional in nature.\nThe timing lines up with a New York Times report that month that the US Commerce Department was investigating whether Alice Huang’s Megaspeed was helping Chinese companies get around American export controls with the help of a vast web of subsidiaries. The investigation was reportedly halted and transferred to the Justice Department after Nvidia general counsel Tim Teter inquired about it.\nHuang has been a vocal critic of these export controls, which he argues unnecessarily constrain the market for American chips, create discrete Chinese and American tech ecosystems, and spur China to build competitive chips of its own. Huang has worked to develop a relationship with Trump in order to advocate for policies that are advantageous for Nvidia, including the idea of opening its markets to China.\nHuang cofounded Nvidia in 1993 with friends Chris Malachowsky and Curtis Priem. The trio reportedly brainstormed their vision for the company in a Denny’s diner and aspired to bring realistic 3D graphics to personal computers. For the first few decades of its existence, Nvidia was primarily known in the gaming community for creating chips powerful enough to render high-quality in-game graphics.\nIn 2012, after a new kind of neural network known as AlexNet won a high-profile prize in computer vision, Nvidia pivoted from high-speed computer graphics to building chips that would support artificial intelligence. Huang has repeatedly said that the introduction of AlexNet, which was developed by AI engineers Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, was a “Big Bang”–like event for computing.\nBecause its new GPUs proved highly effective at powering AI models that require massive amounts of processing power, the value of Nvidia shares soared in 2023 and 2024, in lockstep with the broader AI boom that began sweeping through the world economy. In the summer of 2025, Nvidia became the first company in history to cross $4 trillion in value.\nAs of September 2026, the company controlled about 90 percent of the GPU market. Much of Nvidia’s epic rise over the few decades has been attributed not just to its cutting-edge chips and its software “moat,” CUDA, that keeps developers locked into those chips, but also to the fast-thinking, controlling, charismatic, and often bombastic leadership style of Huang himself. Now, that critical part of the company’s success is out.",
+  "context": "Title: ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you\n\nText:\nAfter launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they'll check in with you each time before checking out. OpenAI's support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan. Now your dot c … Read the full story at The Verge.\n\nArticle text (excerpt):\nOpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents.﻿\nOpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents.﻿\nAfter launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and “eligible US-issued American Express, Chase, Mastercard and Visa cards.”\nAfter adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they’ll check in with you each time before checking out. OpenAI’s support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan.\nAfter you review the AI agent’s purchase and sign off on it, OpenAI says that, similar to using tap to pay , Apple Pay , or Google Wallet , it substitutes your credit card details with a payment token, so your actual card info isn’t shared with your Dots agent or the business you’re buying from. Eventually, OpenAI says it expects “users to be able to delegate purchases entirely to their agent by setting clear parameters—such as spending limits, purchase categories, or time periods—and pre-approve those purchases.”\nChatGPT Wallet might not work everywhere. Some retailers have restrictions on AI agents or block them altogether. Earlier this year, Amazon blocked Meta’s Muse agents. OpenAI says that in order for agents to use ChatGPT Wallet, “websites need to ensure agents are not inadvertently blocked, and payment and risk systems need to recognize legitimate purchases made by agents.”\nThis is the title for the native ad",
   "research_links": [],
-  "source_credit": "Wired",
-  "source_tag": "via Wired",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAIBAAFq9t6iUA9KLEo7DaVatYRZv4B4HAACmhJrGyWSuFflaP6d8FqCkgEAAwIAA3kAAz0E",
-  "text": "Can Nvidia sustain a $4 trillion monopoly after suddenly losing its founder?\n\nJensen Huang has resigned as chief executive following a board investigation into an affair with a direct report and ties to an alleged Chinese intelligence asset.\n\nThe departure ends a run that transformed modern computing. Huang cofounded Nvidia in a Denny's diner in 1993. In 2012, after an early neural network model called AlexNet won a major computer vision prize, he pivoted the business from video game graphics to AI hardware.\n\nThat move reshaped the market. Nvidia became the first company to cross $4 trillion in value, while its CUDA software platform locked developers into hardware that now controls about 90 percent of the GPU market.\n\nCFO Colette Kress takes over as interim CEO while the board considers internal and external candidates.\n\nCompetitor hardware and custom silicon were secondary concerns. Nvidia's central vulnerability was concentrated key-person risk at the top of the supply chain.\n\nThe chips still ship, but the company must now execute without its defining strategist.\n\nSource: Wired\n\n#Nvidia #AI",
-  "alt_openings": "Option 1 (Bare number first):\n90 percent of the world's AI chip market just lost its chief executive.\nNvidia ousted founder Jensen Huang following an internal board investigation into personal misconduct and security risks.\nWhen to prefer: Use when writing for a finance or investor audience where market dominance metrics carry immediate weight.\n\nOption 2 (Corrective):\nSilicon Valley's most dominant tech run did not end because of market competition.\nNvidia forced out CEO Jensen Huang after an internal investigation revealed affairs with a subordinate and an alleged foreign asset.\nWhen to prefer: Use when targeting founders and executives focused on corporate governance and leadership risk over day-to-day tech news.\n\nOption 3 (Your X):\nYour company's AI infrastructure just lost the executive who built it.\nNvidia chief executive Jensen Huang resigned immediately following a board probe into personal misconduct and foreign intelligence ties.\nWhen to prefer: Use when speaking directly to engineers, CTOs, and tech managers whose everyday systems rely directly on Nvidia hardware.\n\nPick: Option 1 (Bare number first). The 90 percent statistic grounds the post in hard market reality before introducing the sudden leadership collapse.",
+  "source_credit": "The Verge",
+  "source_tag": "via The Verge",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAIBBWr4J_CNPECm_Q-cWUdLEYRTJYVrAAJpGGsbiRDAV1FW01ymrPdhAQADAgADeQADPQQ",
+  "text": "OpenAI just gave its AI agents a wallet to buy things on your behalf.\n\nBut before it spends a dollar, it needs your fingerprint.\n\nHere's how the setup actually works.\n\nThe feature is called ChatGPT Wallet, rolling out today for US ChatGPT Pro subscribers aged 18 and older.\n\nYou link an eligible Visa, Mastercard, Chase, or American Express card to the Dots platform.\n\nWhen you prompt an agent to buy something, it never receives your actual card details.\n\nOpenAI substitutes your card info with a payment token, using the same system as Apple Pay or Google Wallet. Neither the seller nor your AI agent sees the underlying card details.\n\nFor now, buying requires continuous human approval:\n• Every purchase demands a Face ID or fingerprint scan\n• The agent prompts you for sign-off before checkout\n• OpenAI plans future preset parameters like spending limits and time windows\n\nThe biggest friction point isn't keeping credit card data safe. Retailers are actively shutting automated agents out.\n\nAmazon blocked Meta's Muse agents earlier this year. For ChatGPT Wallet to function, merchant risk systems must deliberately unblock these automated shoppers.\n\nMy read: AI commerce will move only as fast as the retail industry's willingness to trust software buyers.\n\nWould you authorize an AI agent to handle your orders if you still had to sign off on every checkout?\n\nSource: The Verge",
+  "alt_openings": "Option 1:\nLine 1: 18 years old and in the US with a ChatGPT Pro account.\nLine 2: That is the exact group OpenAI is selecting to test financial AI agents today.\nShape: Bare number first.\nWhen to prefer: Best when you want to highlight precise eligibility gates or launch constraints right away.\n\nOption 2:\nLine 1: Giving an AI agent permission to buy things does not mean handing over your card number.\nLine 2: OpenAI's new wallet uses payment tokens to hide your financial details from the agent itself.\nShape: Corrective.\nWhen to prefer: Best for an audience of risk-averse finance or legal professionals worried about security.\n\nOption 3:\nLine 1: Your next online order could be submitted by an AI agent that needs your thumbprint to pay.\nLine 2: OpenAI just added wallet capabilities to its Dots platform, but every transaction requires biometric sign-off.\nShape: Your X.\nWhen to prefer: Best for driving broad engagement by making a corporate release feel personal to the reader.\n\nPick: The main post opening (Tool as subject). It sets up the immediate tension between AI autonomy and physical security checks better than the alternatives.",
   "voice_score": 4,
-  "firewall_notes": [
-    "\"Jensen Huang just resigned as chief executive of Nvidia.\" — Gives away the outcome in the first line instead of creating a hook before the fold (Rule 10).",
-    "\"The reason has nothing to do with technology.\" — Generic negative contrast filler used to build artificial drama (Rule 1, Rule 5).",
-    "Bulleted list of three items (\"• Nvidia became the first company...\", \"• It captured...\", \"• Its CUDA software...\") — Formulaic triad structure (Rule 3).",
-    "\"My read: Nvidia's biggest vulnerability was never competitor hardware or custom silicon from Big Tech. It was single-person risk...\" — Classic \"Never X, it was Y\" binary frame (Rule 1).",
-    "\"...powering 90 percent of global AI infrastructure.\" — Inaccurate metric; the source specifies Nvidia controlled about 90 percent of the GPU market (Rule 15)."
-  ],
-  "headline": "Jensen Huang resigns from Nvidia following board investigation",
+  "firewall_notes": [],
+  "headline": "Why retailers might block OpenAI's new ChatGPT Wallet",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-13.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-14.png"
 }
