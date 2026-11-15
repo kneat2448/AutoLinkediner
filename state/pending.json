@@ -1,20 +1,20 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-14",
-  "created_at": "2026-11-14T14:49:10.329259+05:30",
+  "date": "2026-11-15",
+  "created_at": "2026-11-15T15:18:55.824049+05:30",
   "candidate": {
-    "id": "news:951c84561943",
+    "id": "news:a60709173eb7",
     "source": "news",
-    "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-    "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
-    "score": 80.0,
-    "created_at": "2026-11-13T20:45:10+00:00",
-    "raw_text": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they'll check in with you each time before checking out. OpenAI's support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan. Now your dot c … Read the full story at The Verge.",
+    "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+    "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+    "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a rec…",
+    "score": 75.0,
+    "created_at": "2026-11-14T19:05:17+00:00",
+    "raw_text": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO appeared first on The Decoder .",
     "extra": {
-      "outlet": "The Verge",
-      "weight": 0.8,
-      "coverage": 1
+      "outlet": "The Decoder",
+      "weight": 0.75,
+      "coverage": 0
     }
   },
   "shortlist": [
@@ -24,102 +24,42 @@
       "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
       "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
       "summary": "",
-      "score": 526.0,
+      "score": 1071.0,
       "created_at": "2026-11-14T02:52:59+00:00",
       "raw_text": "",
       "extra": {
         "discussion_url": "https://news.ycombinator.com/item?id=50493251",
-        "num_comments": 314,
+        "num_comments": 637,
         "coverage": 0
       }
     },
     {
-      "id": "news:951c84561943",
+      "id": "news:acaf00569e86",
       "source": "news",
-      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
       "score": 80.0,
-      "created_at": "2026-11-13T20:45:10+00:00",
-      "raw_text": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they'll check in with you each time before checking out. OpenAI's support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan. Now your dot c … Read the full story at The Verge.",
+      "created_at": "2026-11-15T00:08:07+00:00",
+      "raw_text": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
       "extra": {
-        "outlet": "The Verge",
+        "outlet": "TechCrunch",
         "weight": 0.8,
-        "coverage": 1
+        "coverage": 0
       }
     },
     {
-      "id": "news:5bf4951adbe9",
+      "id": "news:a4a92fbcda03",
       "source": "news",
-      "title": "Introducing ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "score": 100.0,
-      "created_at": "2026-11-13T15:00:00+00:00",
-      "raw_text": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "score": 80.0,
+      "created_at": "2026-11-14T21:41:22+00:00",
+      "raw_text": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50486748",
-      "source": "hackernews",
-      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
-      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-      "summary": "",
-      "score": 388.0,
-      "created_at": "2026-11-13T17:30:10+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50486748",
-        "num_comments": 97,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50481187",
-      "source": "hackernews",
-      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "url": "https://status.claude.com/incidents/nn11wk485zfn",
-      "summary": "",
-      "score": 488.0,
-      "created_at": "2026-11-13T10:18:13+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50481187",
-        "num_comments": 384,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:d1318183fe17",
-      "source": "news",
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "score": 100.0,
-      "created_at": "2026-11-13T08:00:00+00:00",
-      "raw_text": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50487185",
-      "source": "hackernews",
-      "title": "After 600 experiments, here's what I discovered about JEPA world models",
-      "url": "https://haddyalchaer.com/jepa",
-      "summary": "",
-      "score": 257.0,
-      "created_at": "2026-11-13T17:55:28+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50487185",
-        "num_comments": 41,
+        "outlet": "TechCrunch",
+        "weight": 0.8,
         "coverage": 0
       }
     },
@@ -129,7 +69,7 @@
       "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
       "url": "https://huggingface.co/papers/2611.15777",
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 dom…",
-      "score": 83.0,
+      "score": 136.0,
       "created_at": "2026-11-13T00:00:00.000Z",
       "raw_text": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 domains and five capability families. For the capability spectrum, SO-Arena offers evidence-grounded evaluation through reliable sources and manual verification of reference labels against model-visible inputs; fine-grained capability assessment through domain-specific difficulty criteria; and realistic interactive evaluation, where models iteratively execute actions in sandboxes. Reasoning-intensive tasks further enable system one-two comparison. Beyond accuracy, SO-Arena assesses decision reliability through two complementary measures: decision stability under controlled option-set changes and missing-answer recognition when no valid option is available. Evaluations across 21 models reveal that the benefits of scaling and additional reasoning vary substantially across domains. More importantly, strong overall performance does not necessarily imply reliable decision-making: the best-performing System One model ranks only seventh in reliability. Together, these findings highlight the need to characterize capability spectrum and decision reliability as complementary dimensions, providing a systematic view of the strengths and limitations of System One models.",
       "extra": {
@@ -138,29 +78,14 @@
       }
     },
     {
-      "id": "news:04367a7d0b10",
+      "id": "news:7134e7e1ad67",
       "source": "news",
-      "title": "Amazon has a plan to index the world’s online shopping data",
-      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
       "score": 80.0,
-      "created_at": "2026-11-13T23:49:11+00:00",
-      "raw_text": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters . The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their product research on Reddit or Google, and make it more likely shoppers end up at Amazon even if they're searching for a product sold elsewhere. The same goes for AI agents - if Amazon has the largest stockpile of shopping data, AI agents may rely on its index of products over others, so even people shopping with bots will end … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:ec577d4c46a6",
-      "source": "news",
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-      "score": 80.0,
-      "created_at": "2026-11-13T22:43:00+00:00",
-      "raw_text": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "created_at": "2026-11-14T17:30:00+00:00",
+      "raw_text": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -168,17 +93,77 @@
       }
     },
     {
-      "id": "news:c479f2841d4a",
+      "id": "news:075bbfb634c2",
       "source": "news",
-      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
       "score": 80.0,
-      "created_at": "2026-11-13T21:20:47+00:00",
-      "raw_text": "The US government has expanded the use of an AI tool for advising air traffic controllers to assist in managing air traffic across the entire national airspace system. Airline executives have voiced support for the rollout, but the US labor union representing air traffic controllers has said it was not involved in designing or testing the AI-driven system. The Federal Aviation Administration (FAA) says the $875 million SMART system has helped reroute 180 flights since being implemented in airspace over Washington, DC, on September 21. The agency claims that this saved an average of 10 minutes per flight and almost 80 gallons of fuel per flight—and it is apparently hoping such results can be replicated nationwide through the expanded deployment. “After a successful initial rollout to the National Capital Region in September, the FAA will now use SMART in the airspace of all 22 centers across the country to reduce delays, reduce fuel consumption and improve the travel experience for the flying public,” according to the agency statement posted on November 10. Read full article Comments",
+      "created_at": "2026-11-14T16:34:15+00:00",
+      "raw_text": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
       "extra": {
-        "outlet": "Ars Technica",
+        "outlet": "TechCrunch",
         "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:d46b516a4c83",
+      "source": "news",
+      "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]",
+      "score": 80.0,
+      "created_at": "2026-11-14T15:00:00+00:00",
+      "raw_text": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam Altman . That incident, now sometimes referred to as “the blip,” ended with Sam coming back as CEO, Helen resigning, and a new board of directors. OpenAI has since restructured entirely . But it’s worth remembering what Helen and the board were supposed to do: OpenAI’s nonprofit board existed specifically to make sure the company didn’t betray its mission to build safe AI by prioritizing profit and growth over safety. When the board actually tried to pull the lever, that accountability mechanism broke, and here we are. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here . Not a subscriber? You can sign up here . Now, the question of AI safety is everywhere . This summer, AI models from OpenAI and Anthropic broke out of their testing environments and hacked real companies. The CEOs of these frontier labs have since called for a slowdown and asked Washington for help, but the White House’s answer was a voluntary accord — one that relies in part on the kind of board accountability that failed at OpenAI. Anthropic is also about to go public, which will put a whole new set of market pressures on OpenAI’s biggest competitor. Helen has seen up close what happens when safety commitments run headlong into commercial incentives. And as she put it to me, if our hopes for the future depend on any one person being trustworthy, we’re in big trouble. So we talked about what we might do instead: what the labs are actually trying to build, whether AI alignment is a problem that can be solved, and what a smarter approach to AI regulation might look like. That includes how to think about China, which is the issue that looms large in every policy conversation about AI right now — especially now after the Jensen Huang affair . Just for clarity, Helen and I talked before Nvidia opened its investigation and Jensen ultimately resigned, so you won’t hear us talk about that directly. Before we get going, do me a favor and subscribe to Decoder on YouTube , where we put out new episodes every Monday and Thursday. Okay: Helen Toner, the executive director of CSET, on the future of AI safety. Here we go. This interview has been lightly edited for length and clarity. Helen Toner, you’re the executive director for the Center for Security and Emerging Technology at Georgetown University. Welcome to Decoder . Thanks so much. Great to be here. I have wanted to talk to you for 10 million years. I am so excited you’re here. You’ve been involved in a lot of AI safety and ethics ideas for a long time. You were obviously on the…",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:a60709173eb7",
+      "source": "news",
+      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+      "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+      "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a rec…",
+      "score": 75.0,
+      "created_at": "2026-11-14T19:05:17+00:00",
+      "raw_text": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO appeared first on The Decoder .",
+      "extra": {
+        "outlet": "The Decoder",
+        "weight": 0.75,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50496921",
+      "source": "hackernews",
+      "title": "The Claude Delusion",
+      "url": "https://www.netmeister.org/blog/claude-delusion.html",
+      "summary": "",
+      "score": 148.0,
+      "created_at": "2026-11-14T13:36:17+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50496921",
+        "num_comments": 192,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50497147",
+      "source": "hackernews",
+      "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+      "url": "https://github.com/paul-nameless/agweb",
+      "summary": "",
+      "score": 98.0,
+      "created_at": "2026-11-14T14:08:12+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50497147",
+        "num_comments": 29,
         "coverage": 0
       }
     },
@@ -188,27 +173,41 @@
       "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
       "url": "https://huggingface.co/papers/2611.14815",
       "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories…",
-      "score": 49.0,
+      "score": 50.0,
       "created_at": "2026-11-13T00:00:00.000Z",
       "raw_text": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories as inputs. We introduce BirdDreams, an autoregressive driving world model that jointly generates perspective video and a schematic bird's-eye-view (BEV) video, making scene layout part of the predicted future. The BEV, rendered from scene annotations for training, depicts roads and vehicles as simple shapes at a fixed metric scale, providing a top-down view of their positions and motion with reduced occlusion between vehicles. Perspective video, by contrast, retains scene details that the BEV omits, such as traffic signals and object appearance. Joint attention between two video diffusion transformers, one per stream, lets each stream inform the other during generation. The predicted BEV also provides a geometric interface for ego control: we translate and rotate its latest frame along an input ego trajectory and use the resulting frames as a soft condition that shows how the scene would appear to move if only the ego vehicle moved. At inference, BirdDreams generates both videos from a single camera image without requiring an HD map or vehicle-state inputs. On PhysicalAI-AV and nuScenes, BirdDreams follows input ego trajectories more faithfully than prior driving world models and generates more plausible ego motion without ego-action conditioning. Human evaluation shows that BirdDreams outperforms a perspective-only baseline in generating realistic surrounding-vehicle behavior.",
       "extra": {
         "arxiv_url": "https://arxiv.org/abs/2611.14815",
         "coverage": 0
       }
+    },
+    {
+      "id": "hf:2611.16748",
+      "source": "huggingface",
+      "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+      "url": "https://huggingface.co/papers/2611.16748",
+      "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in producing their training videos. We present PhysLoop, a unified harness designed to…",
+      "score": 46.0,
+      "created_at": "2026-11-13T00:00:00.000Z",
+      "raw_text": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in producing their training videos. We present PhysLoop, a unified harness designed to support physically grounded self-improvement in video generation models. The harness guides and constrains LLMs throughout video generation, selection, and correction, distilling their physical knowledge into physically consistent videos. The framework supports controllable training-data construction and inference-time video repair. By identifying and correcting failures, PhysLoop marks a key milestone toward recursive self-improvement (RSI) in video generation models with limited human intervention. We release 100K videos spanning diverse, realistic indoor and outdoor scenes, along with generation tools and two evaluation datasets: PhysLoop-Gen and PhysLoop-Repair. We evaluate controllable generation and localized repair on these datasets, respectively, and assess physical behavior on the external Physics-IQ Verified benchmark.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.16748",
+        "coverage": 0
+      }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you\n\nText:\nAfter launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they'll check in with you each time before checking out. OpenAI's support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan. Now your dot c … Read the full story at The Verge.\n\nArticle text (excerpt):\nOpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents.﻿\nOpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents.﻿\nAfter launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and “eligible US-issued American Express, Chase, Mastercard and Visa cards.”\nAfter adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they’ll check in with you each time before checking out. OpenAI’s support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan.\nAfter you review the AI agent’s purchase and sign off on it, OpenAI says that, similar to using tap to pay , Apple Pay , or Google Wallet , it substitutes your credit card details with a payment token, so your actual card info isn’t shared with your Dots agent or the business you’re buying from. Eventually, OpenAI says it expects “users to be able to delegate purchases entirely to their agent by setting clear parameters—such as spending limits, purchase categories, or time periods—and pre-approve those purchases.”\nChatGPT Wallet might not work everywhere. Some retailers have restrictions on AI agents or block them altogether. Earlier this year, Amazon blocked Meta’s Muse agents. OpenAI says that in order for agents to use ChatGPT Wallet, “websites need to ensure agents are not inadvertently blocked, and payment and risk systems need to recognize legitimate purchases made by agents.”\nThis is the title for the native ad",
+  "context": "Title: Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO\n\nText:\nDays before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO appeared first on The Decoder .\n\nArticle text (excerpt):\nDays before what could be the largest IPO in history, Anthropic CEO Dario Amodei names the central weakness of his business model. Nobody knows how the company's compute investments will pay off, he says. It isn't the first time he's sounded this warning.\n\"There's a huge uncertainty in what's going to happen next year.\" Speaking at a JPMorgan Chase investor event in New York on Friday, Anthropic CEO Dario Amodei used that line to sum up the problem facing his company.\nThe admission came, of all times, in the last days before the company's planned Nov. 19 IPO, and compute was one of several topics in the conversation. Speaking with JPMorgan CEO Jamie Dimon , he said, \"Compute is the deepest business dilemma that the company faces.\" Ad\nAI technology is advancing so fast that, Amodei said, no one yet knows how that progress will translate into economic value. But compute has to be bought one to two years ahead, before anyone knows whether revenue will justify the cost. Ad\nIf Anthropic buys too little, he said, it won't have the resources for customers and new technologies, and revenue takes a hit. Buying too much carries the opposite risk. \"You can financially overextend yourself,\" Amodei said.\nAnthropic has already committed nearly $901 billion, most of it to compute and chips, according to Bloomberg . Roughly $71 billion of that comes due by September 2027. Bloomberg notes that figure exceeds the market cap of about two-thirds of S&P 500 companies. Ad\nBack in February 2026, Amodei warned in much sharper terms that he could buy $1 trillion of compute starting at the end of 2027 and go bankrupt if revenue fell short. Being off by just one year could mean bankruptcy. He is not sure some competitors have done the math, and he said they don't really understand the risks they're taking. The stakes have kept rising since then.\nAmodei described two ways Anthropic softens the compute dilemma: gross margins and cash on the balance sheet. He said the company’s gross margins are \"quite good,\" especially compared with other players, and that Anthropic has a large cash balance and is seeking to raise more. Ad\nThe company also buys relatively little compute upfront, then can turn to the spot market for additional capacity if business goes better than expected. Amodei compared that approach to buying insurance, saying it leaves Anthropic covered if results fall short while allowing it to invest more when things go well. Ad\nThe compute bets were the biggest reason to go public: the more cash Anthropic holds, he said, the wider its margin for error between a world with too little compute and one with too much.\nAnthropic plans to raise up to $64.4 billion through the IPO and another $26 billion through a private placement, Bloomberg reports. Combined, that would make it the largest IPO ever. The offering is reportedly already about six times oversubscribed .\nAnthropic's annualized revenue run rate hit $81 billion at the end of October, up $10 billion from late September, according to company filings. Bloomberg says the rising popularity of AI products, including its coding models, has helped fuel revenue growth.\nAmodei struck a relaxed tone about the IPO's timing, saying he wasn't fixated on a specific month or particular market conditions. Anthropic, he noted, grew from nothing to its current size in just six years. The most common advice he got before the IPO, or the advice that resonated most, he said, was something like \"never let your company be worth a single dollar more than it's really worth.\" That, he said, is very similar to a model Anthropic uses internally: \"under-promise and over-deliver.\"\nIn the same conversation, though, Amodei said he hopes AI will cure cancer and Alzheimer's within five to 15 years, adding that he doesn't know exactly. In Silicon Valley, that may already count as under-promising.\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.",
   "research_links": [],
-  "source_credit": "The Verge",
-  "source_tag": "via The Verge",
-  "template": "clean_white",
-  "photo_file_id": "AgACAgUAAxkDAAIBBWr4J_CNPECm_Q-cWUdLEYRTJYVrAAJpGGsbiRDAV1FW01ymrPdhAQADAgADeQADPQQ",
-  "text": "OpenAI just gave its AI agents a wallet to buy things on your behalf.\n\nBut before it spends a dollar, it needs your fingerprint.\n\nHere's how the setup actually works.\n\nThe feature is called ChatGPT Wallet, rolling out today for US ChatGPT Pro subscribers aged 18 and older.\n\nYou link an eligible Visa, Mastercard, Chase, or American Express card to the Dots platform.\n\nWhen you prompt an agent to buy something, it never receives your actual card details.\n\nOpenAI substitutes your card info with a payment token, using the same system as Apple Pay or Google Wallet. Neither the seller nor your AI agent sees the underlying card details.\n\nFor now, buying requires continuous human approval:\n• Every purchase demands a Face ID or fingerprint scan\n• The agent prompts you for sign-off before checkout\n• OpenAI plans future preset parameters like spending limits and time windows\n\nThe biggest friction point isn't keeping credit card data safe. Retailers are actively shutting automated agents out.\n\nAmazon blocked Meta's Muse agents earlier this year. For ChatGPT Wallet to function, merchant risk systems must deliberately unblock these automated shoppers.\n\nMy read: AI commerce will move only as fast as the retail industry's willingness to trust software buyers.\n\nWould you authorize an AI agent to handle your orders if you still had to sign off on every checkout?\n\nSource: The Verge",
-  "alt_openings": "Option 1:\nLine 1: 18 years old and in the US with a ChatGPT Pro account.\nLine 2: That is the exact group OpenAI is selecting to test financial AI agents today.\nShape: Bare number first.\nWhen to prefer: Best when you want to highlight precise eligibility gates or launch constraints right away.\n\nOption 2:\nLine 1: Giving an AI agent permission to buy things does not mean handing over your card number.\nLine 2: OpenAI's new wallet uses payment tokens to hide your financial details from the agent itself.\nShape: Corrective.\nWhen to prefer: Best for an audience of risk-averse finance or legal professionals worried about security.\n\nOption 3:\nLine 1: Your next online order could be submitted by an AI agent that needs your thumbprint to pay.\nLine 2: OpenAI just added wallet capabilities to its Dots platform, but every transaction requires biometric sign-off.\nShape: Your X.\nWhen to prefer: Best for driving broad engagement by making a corporate release feel personal to the reader.\n\nPick: The main post opening (Tool as subject). It sets up the immediate tension between AI autonomy and physical security checks better than the alternatives.",
+  "source_credit": "The Decoder",
+  "source_tag": "via The Decoder",
+  "template": "dark_accent",
+  "photo_file_id": "AgACAgUAAxkDAAIBC2r5gDvtEQnOiovRKuhUnz6-HQkOAAISFmsbiRDIVwABkD0bkCk8JAEAAwIAA3kAAz0E",
+  "text": "Anthropic is heading into the largest IPO in history with a startling warning.\n\nIts CEO called buying AI compute the single deepest business dilemma his company faces.\n\nThe numbers explain why.\n\nAI technology advances fast, but compute must be ordered one to two years ahead. \n\nIf Anthropic buys too little, it loses customers to competitors. If it buys too much, it risks financial overextension.\n\nThe scale of that hardware bet is staggering:\n• $901 billion total committed to compute and chips\n• $71 billion coming due by September 2027\n• $64.4 billion targeted in the IPO, plus $26 billion in private placement\n\nThat $71 billion obligation alone exceeds the market cap of about two-thirds of S&P 500 companies.\n\nAnthropic reached an $81 billion annualized revenue run rate at the end of October. Yet Amodei noted that being off on hardware timing by even a single year could mean bankruptcy. \n\nThe company softens the risk by keeping cash on hand, using spot markets for extra capacity, and keeping gross margins strong. The record IPO is less a celebration and more a giant cushion against an unpredictable market.\n\nMy read: the hardest part of building frontier AI right now isn't writing code. It's having a balance sheet large enough to survive guessing wrong on hardware capacity two years out.\n\nHow does your team handle capital commitments when the payback window is completely unproven?\n\nSource: The Decoder",
+  "alt_openings": "Shape: Bare number first\nLine 1: $71 billion in hardware bills come due by September 2027.\nLine 2: That single commitment exceeds the market value of about two-thirds of S&P 500 companies.\nWhen to prefer: Use when writing for finance professionals, CFOs, or investors who respond immediately to balance-sheet scale.\n\nShape: Corrective\nLine 1: Mega-IPOs are usually victory laps for predictable business models.\nLine 2: Anthropic is using the largest offering in history primarily as insurance against financial overextension.\nWhen to prefer: Use when posting to executive leadership feeds where strategic business positioning generates debate.\n\nShape: Your X\nLine 1: Your company likely scales infrastructure as revenue grows.\nLine 2: Frontier AI models require locking in hundreds of billions in compute two years before knowing if customers will pay.\nWhen to prefer: Use when targeting engineers, IT leaders, and operations managers who deal directly with capacity planning and procurement.\n\nPick: The \"Bare number first\" opening hits hardest. The $71 billion figure creates instant financial gravity that immediately stops finance-minded professionals from scrolling.",
   "voice_score": 4,
   "firewall_notes": [],
-  "headline": "Why retailers might block OpenAI's new ChatGPT Wallet",
+  "headline": "Why Anthropic's biggest threat isn't code, it's hardware",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-14.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-15.png"
 }
