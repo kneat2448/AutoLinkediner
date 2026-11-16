@@ -1,47 +1,134 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-15",
-  "created_at": "2026-11-15T15:18:55.824049+05:30",
+  "date": "2026-11-16",
+  "created_at": "2026-11-16T15:36:40.325555+05:30",
   "candidate": {
-    "id": "news:a60709173eb7",
+    "id": "news:f7214e14d1e1",
     "source": "news",
-    "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
-    "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-    "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a rec…",
-    "score": 75.0,
-    "created_at": "2026-11-14T19:05:17+00:00",
-    "raw_text": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO appeared first on The Decoder .",
+    "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+    "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+    "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical […]",
+    "score": 80.0,
+    "created_at": "2026-11-16T01:26:56+00:00",
+    "raw_text": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence , a clinical AI platform used by healthcare professionals that generates answers based on medical information from sources like The New England Journal of Medicine . Participants will use a new iOS app to ask medical questions and then rate the responses based on criteria including accuracy, detail, and relevance. The app is now available for download, and enrollment starts today, … Read the full story at The Verge.",
     "extra": {
-      "outlet": "The Decoder",
-      "weight": 0.75,
+      "outlet": "The Verge",
+      "weight": 0.8,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "hn:50493251",
+      "id": "news:91e58e2ea930",
+      "source": "news",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "score": 100.0,
+      "created_at": "2026-11-16T09:00:00+00:00",
+      "raw_text": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.18359",
+      "source": "huggingface",
+      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "url": "https://huggingface.co/papers/2611.18359",
+      "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and t…",
+      "score": 66.0,
+      "created_at": "2026-11-16T00:00:00.000Z",
+      "raw_text": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and tools, verifying outcomes, and adapting its strategy. Despite these advances, the community has yet to converge on a shared definition, a reliable evaluation framework, or a research roadmap. We argue that Embodied System 2, realized by a foundation model together with an embodied harness, forms the decision-making core of agentic robotics. Its central challenge is to translate general-purpose reasoning into effective and verifiable actions under physical constraints such as limited reaction time, mechanical limits, unpredictable environment changes, and irreversible consequences. Motivated by this perspective, we propose an evaluation framework that measures both model capabilities and closed-loop system performance. Furthermore, we identify the principles that carry over from digital to physical agents and the challenges that must be addressed to achieve reliable physical autonomy. On top of the Embodied System 2 and the evaluation framework, we envision a research roadmap toward sustained autonomy: the ability to perform work safely and reliably with progressively broader responsibility, from executing individual primitives to fulfilling standing roles.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.18359",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.15789",
+      "source": "huggingface",
+      "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+      "url": "https://huggingface.co/papers/2611.15789",
+      "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D scene and renders its proxy video. Its 242 tasks span four input kinds, including s…",
+      "score": 63.0,
+      "created_at": "2026-11-16T00:00:00.000Z",
+      "raw_text": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D scene and renders its proxy video. Its 242 tasks span four input kinds, including scripts, photos, continuations, and reference videos. Each delivery is scored along two evaluation dimensions. Rule-based Scene Check re-runs the code and compares the exported 4D scene with hidden ground truth facts in nine dimensions. VLM-based Screen Check asks a VLM judge whether the facts that pass can be recognized in the proxy video. We analyze the evaluation results and trajectories of 11 frontier coding agents and identify three key observations. First, multimodal understanding separates the agents, especially in understanding space and camera motion. Second, all agents seem to already master basic camera work and staging, and fail at challenging requests. Third, agents inspect their own renders but fail to correct their errors. Agents thus need better visual understanding of space and camera, explicit checks for challenging requests, and item-by-item verification of renders against the brief.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.15789",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.18397",
+      "source": "huggingface",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "url": "https://huggingface.co/papers/2611.18397",
+      "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These traje…",
+      "score": 62.0,
+      "created_at": "2026-11-16T00:00:00.000Z",
+      "raw_text": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.18397",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:87d7014c15ee",
+      "source": "news",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "score": 100.0,
+      "created_at": "2026-11-15T22:00:01+00:00",
+      "raw_text": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:4b0fc5b701ff",
+      "source": "news",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "score": 100.0,
+      "created_at": "2026-11-15T22:00:00+00:00",
+      "raw_text": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50507303",
       "source": "hackernews",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
       "summary": "",
-      "score": 1071.0,
-      "created_at": "2026-11-14T02:52:59+00:00",
+      "score": 1166.0,
+      "created_at": "2026-11-15T14:46:58+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50493251",
-        "num_comments": 637,
+        "discussion_url": "https://news.ycombinator.com/item?id=50507303",
+        "num_comments": 616,
         "coverage": 0
       }
     },
     {
-      "id": "news:acaf00569e86",
+      "id": "news:77828770ffb5",
       "source": "news",
-      "title": "Where was Nvidia’s security team?",
-      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "title": "Apple launches new app to study how people use AI for health",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "summary": "Apple's new app for a study will answer everyday medical questions",
       "score": 80.0,
-      "created_at": "2026-11-15T00:08:07+00:00",
-      "raw_text": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "created_at": "2026-11-16T01:30:00+00:00",
+      "raw_text": "Apple's new app for a study will answer everyday medical questions",
       "extra": {
         "outlet": "TechCrunch",
         "weight": 0.8,
@@ -49,73 +136,14 @@
       }
     },
     {
-      "id": "news:a4a92fbcda03",
+      "id": "news:f7214e14d1e1",
       "source": "news",
-      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical […]",
       "score": 80.0,
-      "created_at": "2026-11-14T21:41:22+00:00",
-      "raw_text": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.15777",
-      "source": "huggingface",
-      "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
-      "url": "https://huggingface.co/papers/2611.15777",
-      "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 dom…",
-      "score": 136.0,
-      "created_at": "2026-11-13T00:00:00.000Z",
-      "raw_text": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 domains and five capability families. For the capability spectrum, SO-Arena offers evidence-grounded evaluation through reliable sources and manual verification of reference labels against model-visible inputs; fine-grained capability assessment through domain-specific difficulty criteria; and realistic interactive evaluation, where models iteratively execute actions in sandboxes. Reasoning-intensive tasks further enable system one-two comparison. Beyond accuracy, SO-Arena assesses decision reliability through two complementary measures: decision stability under controlled option-set changes and missing-answer recognition when no valid option is available. Evaluations across 21 models reveal that the benefits of scaling and additional reasoning vary substantially across domains. More importantly, strong overall performance does not necessarily imply reliable decision-making: the best-performing System One model ranks only seventh in reliability. Together, these findings highlight the need to characterize capability spectrum and decision reliability as complementary dimensions, providing a systematic view of the strengths and limitations of System One models.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.15777",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:7134e7e1ad67",
-      "source": "news",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "score": 80.0,
-      "created_at": "2026-11-14T17:30:00+00:00",
-      "raw_text": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:075bbfb634c2",
-      "source": "news",
-      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-      "score": 80.0,
-      "created_at": "2026-11-14T16:34:15+00:00",
-      "raw_text": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:d46b516a4c83",
-      "source": "news",
-      "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
-      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]",
-      "score": 80.0,
-      "created_at": "2026-11-14T15:00:00+00:00",
-      "raw_text": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam Altman . That incident, now sometimes referred to as “the blip,” ended with Sam coming back as CEO, Helen resigning, and a new board of directors. OpenAI has since restructured entirely . But it’s worth remembering what Helen and the board were supposed to do: OpenAI’s nonprofit board existed specifically to make sure the company didn’t betray its mission to build safe AI by prioritizing profit and growth over safety. When the board actually tried to pull the lever, that accountability mechanism broke, and here we are. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here . Not a subscriber? You can sign up here . Now, the question of AI safety is everywhere . This summer, AI models from OpenAI and Anthropic broke out of their testing environments and hacked real companies. The CEOs of these frontier labs have since called for a slowdown and asked Washington for help, but the White House’s answer was a voluntary accord — one that relies in part on the kind of board accountability that failed at OpenAI. Anthropic is also about to go public, which will put a whole new set of market pressures on OpenAI’s biggest competitor. Helen has seen up close what happens when safety commitments run headlong into commercial incentives. And as she put it to me, if our hopes for the future depend on any one person being trustworthy, we’re in big trouble. So we talked about what we might do instead: what the labs are actually trying to build, whether AI alignment is a problem that can be solved, and what a smarter approach to AI regulation might look like. That includes how to think about China, which is the issue that looms large in every policy conversation about AI right now — especially now after the Jensen Huang affair . Just for clarity, Helen and I talked before Nvidia opened its investigation and Jensen ultimately resigned, so you won’t hear us talk about that directly. Before we get going, do me a favor and subscribe to Decoder on YouTube , where we put out new episodes every Monday and Thursday. Okay: Helen Toner, the executive director of CSET, on the future of AI safety. Here we go. This interview has been lightly edited for length and clarity. Helen Toner, you’re the executive director for the Center for Security and Emerging Technology at Georgetown University. Welcome to Decoder . Thanks so much. Great to be here. I have wanted to talk to you for 10 million years. I am so excited you’re here. You’ve been involved in a lot of AI safety and ethics ideas for a long time. You were obviously on the…",
+      "created_at": "2026-11-16T01:26:56+00:00",
+      "raw_text": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence , a clinical AI platform used by healthcare professionals that generates answers based on medical information from sources like The New England Journal of Medicine . Participants will use a new iOS app to ask medical questions and then rate the responses based on criteria including accuracy, detail, and relevance. The app is now available for download, and enrollment starts today, … Read the full story at The Verge.",
       "extra": {
         "outlet": "The Verge",
         "weight": 0.8,
@@ -123,91 +151,69 @@
       }
     },
     {
-      "id": "news:a60709173eb7",
+      "id": "news:fa232e2aaf8a",
       "source": "news",
-      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
-      "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-      "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a rec…",
-      "score": 75.0,
-      "created_at": "2026-11-14T19:05:17+00:00",
-      "raw_text": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO appeared first on The Decoder .",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "score": 80.0,
+      "created_at": "2026-11-15T23:30:00+00:00",
+      "raw_text": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
       "extra": {
-        "outlet": "The Decoder",
-        "weight": 0.75,
+        "outlet": "TechCrunch",
+        "weight": 0.8,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50496921",
+      "id": "hf:2611.18482",
+      "source": "huggingface",
+      "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+      "url": "https://huggingface.co/papers/2611.18482",
+      "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that acce…",
+      "score": 26.0,
+      "created_at": "2026-11-16T00:00:00.000Z",
+      "raw_text": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that acceptance rates decrease from 46% in the lowest visual-dependence quartile to 22% in the highest, with this disparity persisting after multimodal training. Motivated by this observation, we propose MMFlash, a simple and effective framework that adaptively upweights visually dependent tokens that the drafter predicts poorly. For long video inputs, MMFlash further employs sparse attention to reduce redundant attention computation and improve drafting quality. Across various multimodal benchmarks, MMFlash achieves lossless decoding speedups of up to 3.58times, outperforming EAGLE-3 and DFlash by up to 195.4% and 17.1%, respectively.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.18482",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50506376",
       "source": "hackernews",
-      "title": "The Claude Delusion",
-      "url": "https://www.netmeister.org/blog/claude-delusion.html",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
       "summary": "",
-      "score": 148.0,
-      "created_at": "2026-11-14T13:36:17+00:00",
+      "score": 228.0,
+      "created_at": "2026-11-15T12:14:06+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50496921",
-        "num_comments": 192,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50497147",
-      "source": "hackernews",
-      "title": "Show HN: Agweb – a browser for agents that stays out of your way",
-      "url": "https://github.com/paul-nameless/agweb",
-      "summary": "",
-      "score": 98.0,
-      "created_at": "2026-11-14T14:08:12+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50497147",
-        "num_comments": 29,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.14815",
-      "source": "huggingface",
-      "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
-      "url": "https://huggingface.co/papers/2611.14815",
-      "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories…",
-      "score": 50.0,
-      "created_at": "2026-11-13T00:00:00.000Z",
-      "raw_text": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories as inputs. We introduce BirdDreams, an autoregressive driving world model that jointly generates perspective video and a schematic bird's-eye-view (BEV) video, making scene layout part of the predicted future. The BEV, rendered from scene annotations for training, depicts roads and vehicles as simple shapes at a fixed metric scale, providing a top-down view of their positions and motion with reduced occlusion between vehicles. Perspective video, by contrast, retains scene details that the BEV omits, such as traffic signals and object appearance. Joint attention between two video diffusion transformers, one per stream, lets each stream inform the other during generation. The predicted BEV also provides a geometric interface for ego control: we translate and rotate its latest frame along an input ego trajectory and use the resulting frames as a soft condition that shows how the scene would appear to move if only the ego vehicle moved. At inference, BirdDreams generates both videos from a single camera image without requiring an HD map or vehicle-state inputs. On PhysicalAI-AV and nuScenes, BirdDreams follows input ego trajectories more faithfully than prior driving world models and generates more plausible ego motion without ego-action conditioning. Human evaluation shows that BirdDreams outperforms a perspective-only baseline in generating realistic surrounding-vehicle behavior.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.14815",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.16748",
-      "source": "huggingface",
-      "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
-      "url": "https://huggingface.co/papers/2611.16748",
-      "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in producing their training videos. We present PhysLoop, a unified harness designed to…",
-      "score": 46.0,
-      "created_at": "2026-11-13T00:00:00.000Z",
-      "raw_text": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in producing their training videos. We present PhysLoop, a unified harness designed to support physically grounded self-improvement in video generation models. The harness guides and constrains LLMs throughout video generation, selection, and correction, distilling their physical knowledge into physically consistent videos. The framework supports controllable training-data construction and inference-time video repair. By identifying and correcting failures, PhysLoop marks a key milestone toward recursive self-improvement (RSI) in video generation models with limited human intervention. We release 100K videos spanning diverse, realistic indoor and outdoor scenes, along with generation tools and two evaluation datasets: PhysLoop-Gen and PhysLoop-Repair. We evaluate controllable generation and localized repair on these datasets, respectively, and assess physical behavior on the external Physics-IQ Verified benchmark.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.16748",
+        "discussion_url": "https://news.ycombinator.com/item?id=50506376",
+        "num_comments": 27,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO\n\nText:\nDays before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO appeared first on The Decoder .\n\nArticle text (excerpt):\nDays before what could be the largest IPO in history, Anthropic CEO Dario Amodei names the central weakness of his business model. Nobody knows how the company's compute investments will pay off, he says. It isn't the first time he's sounded this warning.\n\"There's a huge uncertainty in what's going to happen next year.\" Speaking at a JPMorgan Chase investor event in New York on Friday, Anthropic CEO Dario Amodei used that line to sum up the problem facing his company.\nThe admission came, of all times, in the last days before the company's planned Nov. 19 IPO, and compute was one of several topics in the conversation. Speaking with JPMorgan CEO Jamie Dimon , he said, \"Compute is the deepest business dilemma that the company faces.\" Ad\nAI technology is advancing so fast that, Amodei said, no one yet knows how that progress will translate into economic value. But compute has to be bought one to two years ahead, before anyone knows whether revenue will justify the cost. Ad\nIf Anthropic buys too little, he said, it won't have the resources for customers and new technologies, and revenue takes a hit. Buying too much carries the opposite risk. \"You can financially overextend yourself,\" Amodei said.\nAnthropic has already committed nearly $901 billion, most of it to compute and chips, according to Bloomberg . Roughly $71 billion of that comes due by September 2027. Bloomberg notes that figure exceeds the market cap of about two-thirds of S&P 500 companies. Ad\nBack in February 2026, Amodei warned in much sharper terms that he could buy $1 trillion of compute starting at the end of 2027 and go bankrupt if revenue fell short. Being off by just one year could mean bankruptcy. He is not sure some competitors have done the math, and he said they don't really understand the risks they're taking. The stakes have kept rising since then.\nAmodei described two ways Anthropic softens the compute dilemma: gross margins and cash on the balance sheet. He said the company’s gross margins are \"quite good,\" especially compared with other players, and that Anthropic has a large cash balance and is seeking to raise more. Ad\nThe company also buys relatively little compute upfront, then can turn to the spot market for additional capacity if business goes better than expected. Amodei compared that approach to buying insurance, saying it leaves Anthropic covered if results fall short while allowing it to invest more when things go well. Ad\nThe compute bets were the biggest reason to go public: the more cash Anthropic holds, he said, the wider its margin for error between a world with too little compute and one with too much.\nAnthropic plans to raise up to $64.4 billion through the IPO and another $26 billion through a private placement, Bloomberg reports. Combined, that would make it the largest IPO ever. The offering is reportedly already about six times oversubscribed .\nAnthropic's annualized revenue run rate hit $81 billion at the end of October, up $10 billion from late September, according to company filings. Bloomberg says the rising popularity of AI products, including its coding models, has helped fuel revenue growth.\nAmodei struck a relaxed tone about the IPO's timing, saying he wasn't fixated on a specific month or particular market conditions. Anthropic, he noted, grew from nothing to its current size in just six years. The most common advice he got before the IPO, or the advice that resonated most, he said, was something like \"never let your company be worth a single dollar more than it's really worth.\" That, he said, is very similar to a model Anthropic uses internally: \"under-promise and over-deliver.\"\nIn the same conversation, though, Amodei said he hopes AI will cure cancer and Alzheimer's within five to 15 years, adding that he doesn't know exactly. In Silicon Valley, that may already count as under-promising.\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.",
+  "context": "Title: Apple’s new study looks to improve the effectiveness of AI health tools\n\nText:\nApple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence , a clinical AI platform used by healthcare professionals that generates answers based on medical information from sources like The New England Journal of Medicine . Participants will use a new iOS app to ask medical questions and then rate the responses based on criteria including accuracy, detail, and relevance. The app is now available for download, and enrollment starts today, … Read the full story at The Verge.\n\nArticle text (excerpt):\nThe study will be conducted through a new app where participants can ask health questions and rate the responses.\nThe study will be conducted through a new app where participants can ask health questions and rate the responses.\nApple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence , a clinical AI platform used by healthcare professionals that generates answers based on medical information from sources like The New England Journal of Medicine . Participants will use a new iOS app to ask medical questions and then rate the responses based on criteria including accuracy, detail, and relevance.\nThe app is now available for download, and enrollment starts today, with Apple looking for up to 200,000 people to contribute. Participants 21 and older must be based in the US, and although the app doesn’t use Apple Intelligence, it does require an iPhone 15 Pro running iOS 26 or later.\nStudy participants can use the app to ask health-related questions and receive easily understandable responses with links to peer-reviewed clinical sources. The app relies on text-based prompts, and while dictation is an option using the iOS keyboard, the app isn’t integrated with Siri or Apple Intelligence.\nDuring enrolment, participants are given the option to share Apple HealthKit data, like their activity, sleep, or clinical lab results, so responses will include more context about their own personal health. But privacy is a priority, and Apple says it has taken measures to ensure users’ information remains confidential and the data collected won’t be used to train AI models. The aim is to improve the design and functionality of AI-powered health tools so they can deliver relevant health information that’s easier for users to understand and act on.\n“At Apple, we believe responsible innovation starts with scientific rigor and clinical grounding. Health is deeply personal, and conducting a dedicated research study is the most thoughtful way to understand how people engage with, comprehend, and evaluate health AI in everyday life. Insights from this study will help advance the broader scientific conversation and ensure that as technology evolves, we continue building trusted tools that genuinely support people wherever they are on their health journey,” said Sumbul Desai, MD, Apple’s vice president of Health and Fitness.\nThis is the title for the native ad",
   "research_links": [],
-  "source_credit": "The Decoder",
-  "source_tag": "via The Decoder",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAIBC2r5gDvtEQnOiovRKuhUnz6-HQkOAAISFmsbiRDIVwABkD0bkCk8JAEAAwIAA3kAAz0E",
-  "text": "Anthropic is heading into the largest IPO in history with a startling warning.\n\nIts CEO called buying AI compute the single deepest business dilemma his company faces.\n\nThe numbers explain why.\n\nAI technology advances fast, but compute must be ordered one to two years ahead. \n\nIf Anthropic buys too little, it loses customers to competitors. If it buys too much, it risks financial overextension.\n\nThe scale of that hardware bet is staggering:\n• $901 billion total committed to compute and chips\n• $71 billion coming due by September 2027\n• $64.4 billion targeted in the IPO, plus $26 billion in private placement\n\nThat $71 billion obligation alone exceeds the market cap of about two-thirds of S&P 500 companies.\n\nAnthropic reached an $81 billion annualized revenue run rate at the end of October. Yet Amodei noted that being off on hardware timing by even a single year could mean bankruptcy. \n\nThe company softens the risk by keeping cash on hand, using spot markets for extra capacity, and keeping gross margins strong. The record IPO is less a celebration and more a giant cushion against an unpredictable market.\n\nMy read: the hardest part of building frontier AI right now isn't writing code. It's having a balance sheet large enough to survive guessing wrong on hardware capacity two years out.\n\nHow does your team handle capital commitments when the payback window is completely unproven?\n\nSource: The Decoder",
-  "alt_openings": "Shape: Bare number first\nLine 1: $71 billion in hardware bills come due by September 2027.\nLine 2: That single commitment exceeds the market value of about two-thirds of S&P 500 companies.\nWhen to prefer: Use when writing for finance professionals, CFOs, or investors who respond immediately to balance-sheet scale.\n\nShape: Corrective\nLine 1: Mega-IPOs are usually victory laps for predictable business models.\nLine 2: Anthropic is using the largest offering in history primarily as insurance against financial overextension.\nWhen to prefer: Use when posting to executive leadership feeds where strategic business positioning generates debate.\n\nShape: Your X\nLine 1: Your company likely scales infrastructure as revenue grows.\nLine 2: Frontier AI models require locking in hundreds of billions in compute two years before knowing if customers will pay.\nWhen to prefer: Use when targeting engineers, IT leaders, and operations managers who deal directly with capacity planning and procurement.\n\nPick: The \"Bare number first\" opening hits hardest. The $71 billion figure creates instant financial gravity that immediately stops finance-minded professionals from scrolling.",
+  "source_credit": "The Verge",
+  "source_tag": "via The Verge",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAIBEGr61dvZlzRfMeQ6OwkZmOgdaJVhAAJFGGsbW4TYVz6CxpQhKUi0AQADAgADeQADPQQ",
+  "text": "Apple wants up to 200,000 people to test an experimental health AI app.\n\nThe study runs without Siri or Apple Intelligence generating the answers.\n\nInstead, Apple teamed up with OpenEvidence, a clinical AI platform relying on sources like The New England Journal of Medicine.\n\nUS participants aged 21 and older enter medical questions, then rate the responses on precision and completeness. The app returns plain answers paired with links to peer-reviewed clinical research.\n\nTo refine outputs, participants can opt to share HealthKit data like sleep records or lab results. Apple claims this personal information stays confidential and will not train future AI models.\n\nHardware requirements will bottleneck recruitment. Enrollment requires an iPhone 15 Pro running iOS 26 or later.\n\nTesting clinical AI on real patient context shows how high the bar is for consumer medical software. Building safe health tools requires clinical grounding and human verification before broad release.\n\nSource: The Verge\n\n#HealthTech #AI",
+  "alt_openings": "1. Bare number first\n200,000 people are about to grade an AI on its medical advice.\nApple is running the test, but its own AI is not the one answering.\nPrefer this when writing for an audience of product managers or data scientists who respond instantly to scale and study size.\n\n2. Corrective\nApple is testing AI medical advice without using Apple Intelligence.\nA third-party clinical platform will generate the answers while 200,000 users grade them.\nPrefer this when posting to tech insiders who assume every new Apple feature runs on its own internal models.\n\n3. Your X\nYour next iPhone health recommendation will come from medical journals, not Siri.\nApple launched a 200,000-person study to test clinical AI answers on real users.\nPrefer this for a general professional audience focused on consumer impact and daily privacy.\n\nPick: The main post opening (Story in motion). It creates an immediate gap between Apple's headline brand and the third-party tech actually powering the study, forcing the reader to click \"see more\" to find out why.",
   "voice_score": 4,
-  "firewall_notes": [],
-  "headline": "Why Anthropic's biggest threat isn't code, it's hardware",
+  "firewall_notes": [
+    "\"Here is how the study works.\" - Empty setup filler that breaks momentum.",
+    "\"Participants in the US aged 21 and older ask health questions, then rate the output based on accuracy, detail, and relevance.\" - Structural triad (\"accuracy, detail, and relevance\").",
+    "\"Users can choose to share personal health context: • Daily activity... • Clinical lab results... • Direct user ratings...\" - Triad presented as a bulleted list.",
+    "\"That context makes the answers personal, but Apple states...\" - Uses the prohibited \"not X, but Y\" structure and presents an unverified vendor claim without clear attribution.",
+    "\"My read: tech companies are realizing...\" - Generic commentary framing (\"My read:\") and preachy abstraction.",
+    "\"Would you share your lab results with an app to get AI health advice?\" - Outro engagement question that breaks analytical tone."
+  ],
+  "headline": "Why Apple is skipping Siri for health AI",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-15.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-16.png"
 }
