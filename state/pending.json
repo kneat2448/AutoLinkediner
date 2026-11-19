@@ -1,62 +1,62 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-18",
-  "created_at": "2026-11-18T16:07:46.849174+05:30",
+  "date": "2026-11-19",
+  "created_at": "2026-11-19T16:15:39.373602+05:30",
   "candidate": {
-    "id": "hn:50540178",
+    "id": "hn:50547777",
     "source": "hackernews",
-    "title": "Google's AI answers reducing search traffic by 40%",
-    "url": "https://revscope.co/blog/search-seo-geo-2026/",
+    "title": "AI agents ask better questions than KPMG accountants in audit trial",
+    "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
     "summary": "",
-    "score": 411.0,
-    "created_at": "2026-11-18T00:17:58+00:00",
+    "score": 465.0,
+    "created_at": "2026-11-18T15:49:34+00:00",
     "raw_text": "",
     "extra": {
-      "discussion_url": "https://news.ycombinator.com/item?id=50540178",
-      "num_comments": 302,
+      "discussion_url": "https://news.ycombinator.com/item?id=50547777",
+      "num_comments": 213,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "news:e0185595ee6e",
+      "id": "news:0c3c8b23c6ca",
       "source": "news",
-      "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
-      "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
-      "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business partners, and customers for me […]",
-      "score": 80.0,
-      "created_at": "2026-11-17T16:09:57+00:00",
-      "raw_text": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal . \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business partners, and customers for me to return as CEO,\" Huang said . \"If the Board of Directors decides that my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to answer these calls and return as CEO.\" Huang resigned on Thursday following reports of two affairs, including one with an alleged … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 2
-      }
-    },
-    {
-      "id": "news:549a77347d5e",
-      "source": "news",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "summary": "",
       "score": 100.0,
-      "created_at": "2026-11-17T17:45:00+00:00",
-      "raw_text": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "created_at": "2026-11-18T21:35:43+00:00",
+      "raw_text": "",
       "extra": {
-        "outlet": "OpenAI",
+        "outlet": "Google DeepMind",
         "weight": 1.0,
         "coverage": 1
       }
     },
     {
-      "id": "news:6cab9c8cd383",
+      "id": "news:652211f5c064",
       "source": "news",
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "title": "Genie 4 is now available",
+      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "summary": "",
       "score": 100.0,
-      "created_at": "2026-11-18T00:00:00+00:00",
-      "raw_text": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "created_at": "2026-11-18T18:13:42+00:00",
+      "raw_text": "",
+      "extra": {
+        "outlet": "Google DeepMind",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:e683d40fba10",
+      "source": "news",
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "score": 100.0,
+      "created_at": "2026-11-18T10:00:00+00:00",
+      "raw_text": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -64,16 +64,62 @@
       }
     },
     {
-      "id": "hf:2611.22115",
-      "source": "huggingface",
-      "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-      "url": "https://huggingface.co/papers/2611.22115",
-      "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computatio…",
-      "score": 143.0,
-      "created_at": "2026-11-18T00:00:00.000Z",
-      "raw_text": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperParallel, combining topology-aware hybrid sharding, efficient distributed optimizer execution, and coordinated management of long-sequence workloads and activation memory. CPU affinity and core isolation further reduce host scheduling interference. Together, these mechanisms support the pretraining of a 285B-parameter model on 8,192 Ascend 910C cards, providing a concrete setting for the architectural and systems studies. For post-training, we introduce TeleGym, a unified agent execution platform that connects execution, evaluation, and trajectory construction to policy optimization. Disaggregated asynchronous execution, bounded oversampling, and partial rollout accommodate heterogeneous task durations while preserving trajectory continuity across policy updates. Together, these advances establish an Ascend-oriented training foundation for the continued development of Xing 4 across model scales and increasingly demanding reasoning and agent workloads.",
+      "id": "news:bce84a240ce5",
+      "source": "news",
+      "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
+      "url": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+      "summary": "Pulling text out of scanned books and records has gotten a lot cheaper with freely available AI models. The article OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months appeared first on The Decoder .",
+      "score": 75.0,
+      "created_at": "2026-11-19T09:28:01+00:00",
+      "raw_text": "Pulling text out of scanned books and records has gotten a lot cheaper with freely available AI models. The article OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months appeared first on The Decoder .",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.22115",
+        "outlet": "The Decoder",
+        "weight": 0.75,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:9fa731b0ef6c",
+      "source": "news",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "score": 100.0,
+      "created_at": "2026-11-18T08:00:00+00:00",
+      "raw_text": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:b527b6f0ddce",
+      "source": "news",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "score": 100.0,
+      "created_at": "2026-11-18T08:00:00+00:00",
+      "raw_text": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50548021",
+      "source": "hackernews",
+      "title": "Seven new models at scalable price-performance",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "summary": "",
+      "score": 542.0,
+      "created_at": "2026-11-18T16:08:24+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50548021",
+        "num_comments": 354,
         "coverage": 0
       }
     },
@@ -83,138 +129,86 @@
       "title": "AI is killing All About Berlin",
       "url": "https://nicolasbouliane.com/blog/death-by-ai",
       "summary": "",
-      "score": 363.0,
+      "score": 781.0,
       "created_at": "2026-11-18T06:47:26+00:00",
       "raw_text": "",
       "extra": {
         "discussion_url": "https://news.ycombinator.com/item?id=50542705",
-        "num_comments": 329,
+        "num_comments": 696,
         "coverage": 0
       }
     },
     {
-      "id": "news:a426f6b90b1d",
-      "source": "news",
-      "title": "Lovable Wants You to Vibe Code Your Dream Job",
-      "url": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
-      "summary": "This Swedish startup dominated the vibe-coded app boom. Two years after launch, Lovable is shifting gears to help users run vibe-coded businesses.",
-      "score": 80.0,
-      "created_at": "2026-11-18T10:00:00+00:00",
-      "raw_text": "This Swedish startup dominated the vibe-coded app boom. Two years after launch, Lovable is shifting gears to help users run vibe-coded businesses.",
-      "extra": {
-        "outlet": "Wired",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50540178",
+      "id": "hn:50547777",
       "source": "hackernews",
-      "title": "Google's AI answers reducing search traffic by 40%",
-      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
       "summary": "",
-      "score": 411.0,
-      "created_at": "2026-11-18T00:17:58+00:00",
+      "score": 465.0,
+      "created_at": "2026-11-18T15:49:34+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50540178",
-        "num_comments": 302,
+        "discussion_url": "https://news.ycombinator.com/item?id=50547777",
+        "num_comments": 213,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2611.17621",
+      "id": "hf:2611.22115",
       "source": "huggingface",
-      "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
-      "url": "https://huggingface.co/papers/2611.17621",
-      "summary": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels. Each kernel is paired with test cases who…",
-      "score": 88.0,
+      "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+      "url": "https://huggingface.co/papers/2611.22115",
+      "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computatio…",
+      "score": 156.0,
       "created_at": "2026-11-18T00:00:00.000Z",
-      "raw_text": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels. Each kernel is paired with test cases whose data types and tensor shapes are collected from real-world training and inference tasks. Consequently, performance improvements on AscendGYM map directly to the corresponding workloads. In terms of usability, two evaluation modes are supported in AscendGYM: model evaluation and model-harness evaluation. The kernel optimization capabilities of both trained models and custom agents are allowed to be measured. It provides a complete execution environment that closely reproduces how Ascend kernels are invoked in practical pipelines. For model evaluation, it additionally includes a built-in harness equipped with search orchestration and experience accumulation. Finally, we propose a new metric, the Speedup-Token Score (STS), which quantifies performance gains relative to token cost. By jointly considering speedup and cost, STS enables the assessment of practical kernel optimization capability of a model or harness under an acceptable budget. AscendGYM is available at https://github.com/SLAI-AITP/AscendGYM.",
+      "raw_text": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperParallel, combining topology-aware hybrid sharding, efficient distributed optimizer execution, and coordinated management of long-sequence workloads and activation memory. CPU affinity and core isolation further reduce host scheduling interference. Together, these mechanisms support the pretraining of a 285B-parameter model on 8,192 Ascend 910C cards, providing a concrete setting for the architectural and systems studies. For post-training, we introduce TeleGym, a unified agent execution platform that connects execution, evaluation, and trajectory construction to policy optimization. Disaggregated asynchronous execution, bounded oversampling, and partial rollout accommodate heterogeneous task durations while preserving trajectory continuity across policy updates. Together, these advances establish an Ascend-oriented training foundation for the continued development of Xing 4 across model scales and increasingly demanding reasoning and agent workloads.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.17621",
+        "arxiv_url": "https://arxiv.org/abs/2611.22115",
         "coverage": 0
       }
     },
     {
-      "id": "news:ebecdae61747",
-      "source": "news",
-      "title": "Suno's new Visuals feature pairs AI-generated music with AI-generated video",
-      "url": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
-      "summary": "AI music generator Suno can now create images and video clips to go with its songs, thanks to a new feature called Visuals. The article Suno's new Visuals feature pairs AI-generated music with AI-generated video appeared first on The Decoder .",
-      "score": 75.0,
-      "created_at": "2026-11-18T10:22:45+00:00",
-      "raw_text": "AI music generator Suno can now create images and video clips to go with its songs, thanks to a new feature called Visuals. The article Suno's new Visuals feature pairs AI-generated music with AI-generated video appeared first on The Decoder .",
-      "extra": {
-        "outlet": "The Decoder",
-        "weight": 0.75,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:c6c361c53bc4",
-      "source": "news",
-      "title": "Introducing ChatGPT for Sales",
-      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-      "score": 100.0,
-      "created_at": "2026-11-17T08:00:00+00:00",
-      "raw_text": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50524736",
+      "id": "hn:50554374",
       "source": "hackernews",
-      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
-      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
       "summary": "",
-      "score": 722.0,
-      "created_at": "2026-11-16T22:58:20+00:00",
+      "score": 231.0,
+      "created_at": "2026-11-19T00:29:45+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50524736",
-        "num_comments": 603,
+        "discussion_url": "https://news.ycombinator.com/item?id=50554374",
+        "num_comments": 72,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50532191",
-      "source": "hackernews",
-      "title": "What is the best harness for each model?",
-      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
-      "summary": "",
-      "score": 377.0,
-      "created_at": "2026-11-17T14:53:43+00:00",
-      "raw_text": "",
+      "id": "hf:2611.24738",
+      "source": "huggingface",
+      "title": "Jeveration: System One Models Now Generate",
+      "url": "https://huggingface.co/papers/2611.24738",
+      "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent…",
+      "score": 44.0,
+      "created_at": "2026-11-19T00:00:00.000Z",
+      "raw_text": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50532191",
-        "num_comments": 127,
+        "arxiv_url": "https://arxiv.org/abs/2611.24738",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Google's AI answers reducing search traffic by 40%\n\nArticle text (excerpt):\nGoogle's AI answers are taking clicks from websites in the search results. In a randomized experiment, researchers hid AI Overviews from some US desktop users. Comparing them with users who still saw Overviews shows that an Overview cuts clicks to outside websites by about 40%. Those Overviews now appear on more than half the US keywords DataForSEO tracks, up from 6% two years ago. The industry's answer, GEO (generative engine optimization), has yet to show a way to compensate for the loss. While AI citations correlate with the same kind of link profile that goes with higher Google rankings, in March AI assistants sent websites just 0.3% of their traffic.\nSearch engine optimization (SEO) still decides whether you can be found, but where an AI answer appears, a ranking brings 40% fewer visits than it used to. Generative engine optimization (GEO), the practice of getting your content cited in AI-written answers, looks mostly like SEO plus two additions: being present on the third-party sites AI answers draw from, and writing pages that are easy to quote. We found little evidence for any other tactic.\nAn AI Overview is a generated summary that Google places above the ordinary results, with links to the pages it drew on. In DataForSEO's monthly panel of 20 million keywords, the share of results showing one climbed from 5.93% in September 2024 to 61.43% in August 2026. The chart at the top of this post shows that climb. Over the same period the featured snippet, the quoted passage Google used to show at the top of a page, fell from 8.96% to 0.44%, and the discussions and forums block fell from 21.13% to 7.42%. Video results rose from 9.67% to 19.98%, though that is down from a peak of 31.05% in October 2025, and local map listings rose from 19.98% to 25.99%. DataForSEO's dataset covers 190 million keywords, 165 million AI answers, and 1.1 billion backlinks, mostly for US English searches. Pew Research Center's data gives an independent check. Pew logged the searches of 900 US adults in March 2025, re-ran them in April, and found summaries on 18% of them. DataForSEO's figures for those months are 14.67% and 17.63%, close to Pew's.\nYou can't reliably avoid Overviews by choosing different keywords. Between the fourth quarter of 2025 and the third quarter of 2026, the rate rose for every type of search intent:\nLow-volume keywords aren't safer either. In the third quarter of 2026, keywords with 201 to 300 monthly searches showed Overviews 58.59% of the time, against 48.62% for those above 600. A separate dataset, from June to September 2026, covers difficulty and price. The easiest keywords showed Overviews 60.64% of the time and the hardest 53.76%. Keywords costing advertisers more than $5 a click were at 49.55% and those under 25 cents at 50.54%, with a low of 42.63% between $0.51 and $1.00. More than half the result pages have no price data and show Overviews 60.06% of the time. The rate does vary by industry. Health is at 69.68% and finance at 68.80%, while apparel is at 37.48%, dining at 29.37%, and real estate at 22.27%.\nQueries are also getting longer, especially on desktop. Over a year, queries of five or more words grew from 29.3% to 34.8% of unique desktop queries and from 29.6% to 31.9% on mobile. Three and four word searches are still the most common.\nThe strongest evidence is an experiment. Saharsh Agarwal and Ananya Sen gave US desktop Chrome users an extension that put each of them at random into a group. One group saw Google as usual, and another had AI Overviews hidden. The researchers then watched two weeks of real searches in January and February 2026. On searches that would show an Overview, the group that could see them averaged 0.37 clicks to outside websites per search, against 0.62 for the group that couldn't, which the authors report as a 39.8% reduction. Searches ending with no outbound click went from 54% to 73%. Clicks on ads didn't change, which suggests Google takes care not to cannibalize its own revenue. Across all searches, with and without an Overview, the authors put the loss at roughly 18.5% of the organic clicks a site gets from Google. The authors expect the loss to grow as Overviews appear on more searches. This is a randomized controlled trial, the most reliable kind of study for separating cause from correlation or coincidence. The effect was statistically significant for informational searches. The navigational and transactional samples were too small to settle anything. This is a working paper, not yet peer reviewed, and it covers desktop only. A separate preregistered experiment by Wang and colleagues, with 1,100 people, also found that removing AI Overviews and AI Mode raised clicks to publishers.\nObservational data points the same way. Pew found people clicked an ordinary result on 8% of visits to a results page with a summary and on 15% without one, and ended their browsing session on 26% against 16%. Pew's comparison isn't a controlled experiment, because the searches that draw a summary tend to be longer and phrased as questions.\nClick-through rate (CTR) is the share of people shown a result who click it. Across more than 2,000 websites in DataForSEO's panel, the desktop CTR of the first organic result fell from 17.83% in September 2025 to 7.43% in August 2026, a drop of 58%. Mobile fell from 25.17% to 20.80%, a drop of 17%.\nDesktop plunged from 15.18% to 7.94% between February and March 2026. AI Overviews can't easily explain that step since the report has them almost flat that month, at 42.79% and then 43.38%. A change in the format or quality of the Overviews might explain part of it, though that is speculation on our part. Mobile, meanwhile, sank to 12.96% and then rebounded to 22.49% by May. The report itself says its data \"does not establish\" whether AI answers, layout changes, or changes in behavior are the cause. Its sample may also be shifting underneath it, since the unique desktop queries it counts fell by a third over the year, from 1.97 million to 1.32 million. Whatever the cause, a top ranking on desktop now earns less than half the clicks it did a year earlier.\nDataForSEO also estimates where clicks go on pages with and without an Overview. By its model, the first organic result holds 9 to 16 points less click share on pages with one, though these are different searches on a single day's snapshot:\nThe click share for the Overview's cited links looks promising, but it comes from a model. Pew, which logged real browsing, saw people click a link inside a summary on just 1% of visits, against 8% for ordinary results. Eighteen months and a large change in the product separate the two measurements, so it is difficult to say which is closer to the truth.\nGoogle disputes that search traffic to websites is declining. In August 2025 its head of Search, Liz Reid, wrote that total organic clicks were \"relatively stable year-over-year\" and that Google was sending \"slightly more quality clicks\", meaning clicks where people don't quickly come back. She gave no figures to back that up.\nYour site can't see whether someone goes back to Google, so you can't check Google's quality-clicks claim yourself, but you can check what your Google clicks are worth. RevScope , our product, shows your revenue per visitor from Google, AI Overviews included, and which landing pages earn the most.\nIf people read the summary and stop there, it matters which sites the summary cites. The report compares Google's AI Overviews with ChatGPT. Their most-cited lists overlap, but a different kind of site leads each one.\nThe report warns that the two platforms' counts aren't comparable, so compare where a site ranks within each list. Reddit and Wikipedia rank near the top of both, and by our count 16 of the 30 domains in each top 30 appear on both lists. The differences are still large. YouTube is first in AI Overviews and nineteenth in ChatGPT. Facebook, Instagram, and TikTok make Google's top ten and miss ChatGPT's top 30, while Reuters, The Guardian, AP News, and The Washington Post make ChatGPT's top 30 and miss Google's. ChatGPT also often cites nobody: 27.3% of its answers had no source, against 0.7% for AI Overviews. So, as the report puts it, strength on one platform \"doesn't automatically guarantee\" the same on another.\nReddit also appears in Google's ordinary top ten for 32.15% of the report's tracked results, nearly eight times Quora's 4.11%. Two limits apply to all of this. The first is that the answers come from prompts DataForSEO collected, and the report doesn't explain how they were chosen or whether they match what people really ask. The second is that big platforms do about as well in ordinary results: Pew found Wikipedia, YouTube, and Reddit made up 15% of the sources in AI summaries and 17% of those in standard results. Still, the common belief that AI favors Reddit holds up in this data.\nGoogle's position is that there are \"no additional requirements to appear in AI Overviews or AI Mode, nor other s\n\nA top reader comment on Hacker News (opinion, not fact):\nThose poor websites^H^H^H^Hcontent sources",
+  "context": "Title: AI agents ask better questions than KPMG accountants in audit trial\n\nArticle text (excerpt):\nLONDON, November 18, 2026 — Artificial intelligence has taken another significant step into the world of professional services after KPMG revealed that AI agents examining the accounts of a major UK-listed company sometimes investigated financial issues more deeply and asked better questions than its human audit team.\nThe experiment, conducted by KPMG UK using more than 100 AI agents, marks an important development in the application of artificial intelligence to one of the most labour-intensive areas of the financial services industry. It also raises an uncomfortable question for the accountancy profession: if machines can increasingly perform the analytical work traditionally undertaken by highly trained professionals, how quickly will the economics of auditing change?\nAccording to the Financial Times , the project, codenamed Project Exponential, examined the financial statements of an unnamed FTSE 250 company. The AI agents worked alongside a conventional audit team, undertaking tasks across the audit process rather than simply assisting with isolated administrative functions.\nNew subscribers this quarter are entered into a draw to win a Rolex Submariner. Join 40,000+ founders, investors and executives who read EBM every day.\nKPMG UK head of audit Cath Burnet said the technology had, in several instances, gone considerably deeper into issues than the regular audit team, identifying areas requiring further investigation and asking questions that human auditors had not necessarily raised.\nThe findings suggest that AI’s potential in professional services may extend well beyond improving productivity. It could fundamentally change how complex financial information is examined, interpreted and challenged.\nProject Exponential represents a shift from using AI as a supporting tool towards deploying autonomous agents across an entire audit workflow.\nThe agents collected information, analysed and documented data, developed draft conclusions and observations, and suggested subsequent steps. They were also able to work alongside one another, effectively dividing responsibilities and coordinating elements of the investigation.\nThe technology was developed over approximately four months. However, KPMG was careful to distinguish the experiment from a formally approved statutory audit. Although an audit partner signed off on the experimental exercise, its findings were not used as the basis for formally approving the company’s accounts.\nHuman oversight remained essential. During the trial, an auditor had to intervene when one AI agent failed to correctly match regulatory requirements with the company’s documentation. The episode illustrates both the capabilities and limitations of current AI systems when dealing with complex regulatory frameworks.\nKPMG plans to expand the initiative to as many as 20 larger audits, although the firm acknowledges that the technology is not yet sufficiently mature to be deployed across thousands of engagements. Data quality also remains a significant obstacle, with some businesses lacking the clean, structured information required for AI agents to operate effectively.\nThe implications for the accountancy industry could be substantial.\nTraditional auditing relies on large teams of junior accountants undertaking detailed and repetitive work, supervised by experienced managers and partners. AI agents potentially offer a different operating model, automating significant portions of data collection, analysis and documentation while allowing senior professionals to concentrate on complex judgements and exceptions.\nFor firms such as KPMG, Deloitte, PwC and EY, the attraction is clear: faster audits, potentially lower operating costs and the ability to analyse much larger volumes of financial information.\nHowever, whether those savings will ultimately be passed on to clients remains uncertain. KPMG has acknowledged the potential for significant time savings but has not confirmed whether AI-driven efficiencies will translate into lower audit fees.\nThe transition also presents regulatory and professional challenges. The UK’s Financial Reporting Council has warned that the use of AI must not undermine auditor independence, integrity or professional scepticism.\nThere are also concerns about data security, over-reliance on automated conclusions and the possibility of AI generating inaccurate or fabricated information. The fundamental responsibility for an audit opinion remains with the human auditor, regardless of the technology used.\nThe KPMG experiment does not establish that AI can replace accountants or independently deliver a reliable statutory audit. It does, however, demonstrate that AI agents are beginning to challenge professionals in areas that were once considered dependent on human expertise.\nFor the accountancy profession, the question is no longer simply whether AI will become part of the audit process. It is how much of that process will eventually be performed by machines — and what role human accountants will play when it does.\n\nA top reader comment on Hacker News (opinion, not fact):\nI suspect this says more about KPMG accountants than AI.",
   "research_links": [],
-  "source_credit": "revscope.co",
-  "source_tag": "via revscope.co",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAIBGWr9gIVfSros6jpC93Te-9IRopJvAALZE2sbi2LoV5-8v-WK-RsXAQADAgADeQADPQQ",
-  "text": "What actually happens to web traffic when Google hides its AI summaries from searchers?\n\nA randomized trial installed a Chrome extension on US desktop browsers to block AI Overviews on real queries and measure the difference.\n\nWhen summaries were present, outbound clicks to external sites dropped from 0.62 to 0.37 per search. Zero-click searches rose from 54% to 73%. Ad clicks stayed exactly the same.\n\nDataForSEO tracked 20 million keywords between September 2024 and August 2026 as the SERP layout shifted:\n\n• AI Overviews grew from 5.93% to 61.43%\n• Featured snippets fell from 8.96% to 0.44%\n• Discussion blocks fell from 21.13% to 7.42%\n• Video results rose from 9.67% to 19.98%\n\nThe frequency varies by industry. AI answers appear on 69.68% of health queries and 68.80% of finance queries, but just 22.27% in real estate.\n\nThis study has limits. It is a desktop-only working paper, not yet peer reviewed. Google's head of search maintains that total organic clicks remain stable, though Google shared no figures to back that up.\n\nThe findings show a simple distribution of impact: Google kept its ad revenue steady while outside sites absorbed the drop in organic clicks.\n\nSource: revscope.co",
-  "alt_openings": "39.8% fewer visitors click through when Google shows an AI summary.\nA controlled experiment on US desktop users just confirmed where that traffic went.\n\nShape: Bare number first\nWhen to prefer: Use when targeting founders, finance leaders, or growth managers who care primarily about bottom-line acquisition impact.\n\nGoogle's AI Overviews now appear on more than 61% of search results.\nTwo years ago, that share sat under 6%.\n\nShape: Tool as subject\nWhen to prefer: Use when highlighting the sheer speed and scale of Google's product expansion to product managers or engineers.\n\nA top Google ranking no longer guarantees web traffic.\nWhen an AI summary appears above the links, the first organic result loses up to 16 points of click share.\n\nShape: Corrective\nWhen to prefer: Use when addressing digital strategists or marketers who still rely on traditional SEO playbooks.\n\nPick: The main post opening (\"Your top Google ranking just lost 40% of its traffic.\") works best. It immediately connects a massive macro trend to an asset the reader cares about, creating an urgent personal reason to hit \"see more\".",
-  "voice_score": 4,
-  "firewall_notes": [
-    "\"Your top Google ranking just lost 40% of its traffic.\" — States a desktop working paper's sample finding as a sweeping, verified universal fact and spoils the conclusion in line 1.",
-    "\"Here is what the experiment showed.\" — Empty meta-announcement filler.",
-    "\"Searches ending with zero clicks to any website jumped from 54% to 73%.\" — Staccato sentence skeleton echoing the line before it without varying rhythm.",
-    "\"Google replaced external links with generated summaries.\" — Oversimplifies complex page layout changes into a flat abstraction.",
-    "\"My read: ranking first used to guarantee traffic. Now it mostly guarantees...\" — Uses a predictable \"used to X, now Y\" contrast framing that restates the premise."
-  ],
-  "headline": "How Google AI Overviews cut organic clicks, not ads",
+  "source_credit": "europeanbusinessmagazine.com",
+  "source_tag": "via europeanbusinessmagazine.com",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAIBHWr-1M6BXSipR6xvd154jgcP0cJOAALpFGsbgL35V_MvXK9YPjh9AQADAgADeQADPQQ",
+  "text": "More than 100 AI agents audited a major UK company alongside KPMG.\n\nSeveral times, the machines dug deeper and asked better questions than the human team.\n\nThat finding comes from Project Exponential.\n\nKPMG UK tested the agents on the accounts of an unnamed FTSE 250 company over a four-month period.\n\nThe software handled tasks across the entire audit workflow:\n• collecting information\n• analyzing and documenting data\n• drafting conclusions\n• suggesting subsequent steps\n\nHuman oversight was still required. An auditor had to step in when one agent failed to match regulatory requirements with company documentation.\n\nKPMG plans to expand the trial to 20 larger audits.\n\nMy read: the economic model of accounting relies on large teams of junior staff doing repetitive analysis. When autonomous agents can do that work deeper and faster, the billable hour starts to break down.\n\nThe limitation is strict. The trial was not a formally approved statutory audit, data quality remains an obstacle, and the technology is not yet ready for thousands of engagements.\n\nHow many junior audit roles disappear when the software starts asking better questions than the staff?\n\nSource: europeanbusinessmagazine.com",
+  "alt_openings": "1. Shape: Bare number first\nOpening: Four months. Over 100 AI agents. One FTSE 250 company audit.\nDeepening line: The machines ended up asking better questions than KPMG's human accountants.\nWhen to prefer it: Use when the raw scale of the test is the most arresting thing in the material.\n\n2. Shape: Corrective\nOpening: AI in finance does not just speed up administrative tasks anymore.\nDeepening line: It now investigates financial issues more deeply than human audit teams.\nWhen to prefer it: Use when readers likely assume the tool is still just a glorified calculator.\n\n3. Shape: Your X\nOpening: Your next corporate audit may be challenged by software that outperforms junior staff.\nDeepening line: KPMG found that AI agents running accounts analysis asked questions human auditors missed.\nWhen to prefer it: Use when you want to hook professional services readers directly through their own business model.\n\nPick: The tool-as-subject opening (\"More than 100 AI agents audited a major UK company...\") because it immediately sets up the unusual contrast between human professionals and machine software without giving away the outcome.",
+  "voice_score": null,
+  "firewall_notes": [],
+  "headline": "When AI agents ask better questions than auditors",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-18.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-19.png"
 }
