@@ -1,77 +1,107 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-19",
-  "created_at": "2026-11-19T16:15:39.373602+05:30",
+  "date": "2026-11-20",
+  "created_at": "2026-11-20T15:53:24.918722+05:30",
   "candidate": {
-    "id": "hn:50547777",
-    "source": "hackernews",
-    "title": "AI agents ask better questions than KPMG accountants in audit trial",
-    "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-    "summary": "",
-    "score": 465.0,
-    "created_at": "2026-11-18T15:49:34+00:00",
-    "raw_text": "",
+    "id": "news:a18d40e53c3a",
+    "source": "news",
+    "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+    "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+    "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+    "score": 80.0,
+    "created_at": "2026-11-19T20:19:28+00:00",
+    "raw_text": "In October 2025, four Black high school students were sharing Cool Ranch Doritos after football practice, winding down and waiting for their rides home. It was then, in the lull of a moment any teen with after-school activities knows well, that the school’s AI gun detection system suddenly flagged one teen holding a bag of chips as a potential gunman. Within two minutes, Baltimore County Public Schools officials who reviewed security camera footage linked to the alert determined there was no actual threat. They recognized the Doritos bag and canceled the alert, which notified not only other school officials but also the Baltimore County Police Department that no response was needed. The false alert could have ended there—before a traumatizing campus clash with police—but it didn’t. Read full article Comments",
     "extra": {
-      "discussion_url": "https://news.ycombinator.com/item?id=50547777",
-      "num_comments": 213,
-      "coverage": 0
+      "outlet": "Ars Technica",
+      "weight": 0.8,
+      "coverage": 1
     }
   },
   "shortlist": [
     {
-      "id": "news:0c3c8b23c6ca",
+      "id": "news:6f0f2d869f0f",
       "source": "news",
-      "title": "Introducing Gemini 4 Neon",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "summary": "",
-      "score": 100.0,
-      "created_at": "2026-11-18T21:35:43+00:00",
-      "raw_text": "",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "score": 80.0,
+      "created_at": "2026-11-19T21:58:06+00:00",
+      "raw_text": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
       "extra": {
-        "outlet": "Google DeepMind",
-        "weight": 1.0,
+        "outlet": "TechCrunch",
+        "weight": 0.8,
         "coverage": 1
       }
     },
     {
-      "id": "news:652211f5c064",
+      "id": "news:a18d40e53c3a",
       "source": "news",
-      "title": "Genie 4 is now available",
-      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+      "score": 80.0,
+      "created_at": "2026-11-19T20:19:28+00:00",
+      "raw_text": "In October 2025, four Black high school students were sharing Cool Ranch Doritos after football practice, winding down and waiting for their rides home. It was then, in the lull of a moment any teen with after-school activities knows well, that the school’s AI gun detection system suddenly flagged one teen holding a bag of chips as a potential gunman. Within two minutes, Baltimore County Public Schools officials who reviewed security camera footage linked to the alert determined there was no actual threat. They recognized the Doritos bag and canceled the alert, which notified not only other school officials but also the Baltimore County Police Department that no response was needed. The false alert could have ended there—before a traumatizing campus clash with police—but it didn’t. Read full article Comments",
+      "extra": {
+        "outlet": "Ars Technica",
+        "weight": 0.8,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "news:a628e3d51eab",
+      "source": "news",
+      "title": "Gemini on Mac can now use your computer",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will […]",
+      "score": 80.0,
+      "created_at": "2026-11-19T18:21:13+00:00",
+      "raw_text": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says . Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will be able to decide which of your apps Gemini can access, and be able to follow along as Gemini works because it has its own background window that shows a live preview in your chat, Google says. The feature is rolling out now in English for users in the US. Gemini is introducing the new feature ahead of Apple l … Read the full story at The Verge.",
+      "extra": {
+        "outlet": "The Verge",
+        "weight": 0.8,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "hn:50562754",
+      "source": "hackernews",
+      "title": "Anthropic’s Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
       "summary": "",
-      "score": 100.0,
-      "created_at": "2026-11-18T18:13:42+00:00",
+      "score": 1083.0,
+      "created_at": "2026-11-19T17:02:40+00:00",
       "raw_text": "",
       "extra": {
-        "outlet": "Google DeepMind",
-        "weight": 1.0,
+        "discussion_url": "https://news.ycombinator.com/item?id=50562754",
+        "num_comments": 2147,
         "coverage": 0
       }
     },
     {
-      "id": "news:e683d40fba10",
+      "id": "news:a7839ae95aff",
       "source": "news",
-      "title": "The Silent Consensus",
-      "url": "https://openai.com/index/the-silent-consensus",
-      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "score": 100.0,
-      "created_at": "2026-11-18T10:00:00+00:00",
-      "raw_text": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
+      "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
+      "summary": "Henrijs Dandzbergs dropped out of high school to join startup accelerator Y Combinator. With a new breed of missile, he wants to make killing as efficient as possible for the US and its military allies.",
+      "score": 80.0,
+      "created_at": "2026-11-20T07:00:00+00:00",
+      "raw_text": "Henrijs Dandzbergs dropped out of high school to join startup accelerator Y Combinator. With a new breed of missile, he wants to make killing as efficient as possible for the US and its military allies.",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "outlet": "Wired",
+        "weight": 0.8,
         "coverage": 0
       }
     },
     {
-      "id": "news:bce84a240ce5",
+      "id": "news:d71e9d428c0a",
       "source": "news",
-      "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
-      "url": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
-      "summary": "Pulling text out of scanned books and records has gotten a lot cheaper with freely available AI models. The article OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months appeared first on The Decoder .",
+      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+      "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+      "summary": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder .",
       "score": 75.0,
-      "created_at": "2026-11-19T09:28:01+00:00",
-      "raw_text": "Pulling text out of scanned books and records has gotten a lot cheaper with freely available AI models. The article OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months appeared first on The Decoder .",
+      "created_at": "2026-11-20T09:59:51+00:00",
+      "raw_text": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder .",
       "extra": {
         "outlet": "The Decoder",
         "weight": 0.75,
@@ -79,14 +109,14 @@
       }
     },
     {
-      "id": "news:9fa731b0ef6c",
+      "id": "news:6687f7be62c3",
       "source": "news",
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "score": 100.0,
-      "created_at": "2026-11-18T08:00:00+00:00",
-      "raw_text": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "created_at": "2026-11-19T08:00:00+00:00",
+      "raw_text": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -94,91 +124,32 @@
       }
     },
     {
-      "id": "news:b527b6f0ddce",
-      "source": "news",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "score": 100.0,
-      "created_at": "2026-11-18T08:00:00+00:00",
-      "raw_text": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50548021",
+      "id": "hn:50562262",
       "source": "hackernews",
-      "title": "Seven new models at scalable price-performance",
-      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "title": "Fuck Your AI Safeguards",
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
       "summary": "",
-      "score": 542.0,
-      "created_at": "2026-11-18T16:08:24+00:00",
+      "score": 557.0,
+      "created_at": "2026-11-19T16:30:18+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50548021",
-        "num_comments": 354,
+        "discussion_url": "https://news.ycombinator.com/item?id=50562262",
+        "num_comments": 223,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50542705",
+      "id": "hn:50568130",
       "source": "hackernews",
-      "title": "AI is killing All About Berlin",
-      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+      "url": "https://git-aarvin.github.io/mei/",
       "summary": "",
-      "score": 781.0,
-      "created_at": "2026-11-18T06:47:26+00:00",
+      "score": 347.0,
+      "created_at": "2026-11-19T23:35:35+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50542705",
-        "num_comments": 696,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50547777",
-      "source": "hackernews",
-      "title": "AI agents ask better questions than KPMG accountants in audit trial",
-      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-      "summary": "",
-      "score": 465.0,
-      "created_at": "2026-11-18T15:49:34+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50547777",
-        "num_comments": 213,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.22115",
-      "source": "huggingface",
-      "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-      "url": "https://huggingface.co/papers/2611.22115",
-      "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computatio…",
-      "score": 156.0,
-      "created_at": "2026-11-18T00:00:00.000Z",
-      "raw_text": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperParallel, combining topology-aware hybrid sharding, efficient distributed optimizer execution, and coordinated management of long-sequence workloads and activation memory. CPU affinity and core isolation further reduce host scheduling interference. Together, these mechanisms support the pretraining of a 285B-parameter model on 8,192 Ascend 910C cards, providing a concrete setting for the architectural and systems studies. For post-training, we introduce TeleGym, a unified agent execution platform that connects execution, evaluation, and trajectory construction to policy optimization. Disaggregated asynchronous execution, bounded oversampling, and partial rollout accommodate heterogeneous task durations while preserving trajectory continuity across policy updates. Together, these advances establish an Ascend-oriented training foundation for the continued development of Xing 4 across model scales and increasingly demanding reasoning and agent workloads.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.22115",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50554374",
-      "source": "hackernews",
-      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-      "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-      "summary": "",
-      "score": 231.0,
-      "created_at": "2026-11-19T00:29:45+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50554374",
-        "num_comments": 72,
+        "discussion_url": "https://news.ycombinator.com/item?id=50568130",
+        "num_comments": 220,
         "coverage": 0
       }
     },
@@ -188,27 +159,62 @@
       "title": "Jeveration: System One Models Now Generate",
       "url": "https://huggingface.co/papers/2611.24738",
       "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent…",
-      "score": 44.0,
+      "score": 123.0,
       "created_at": "2026-11-19T00:00:00.000Z",
       "raw_text": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
       "extra": {
         "arxiv_url": "https://arxiv.org/abs/2611.24738",
         "coverage": 0
       }
+    },
+    {
+      "id": "hn:50563148",
+      "source": "hackernews",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "summary": "",
+      "score": 501.0,
+      "created_at": "2026-11-19T17:30:44+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50563148",
+        "num_comments": 231,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.26444",
+      "source": "huggingface",
+      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2611.26444",
+      "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a fa…",
+      "score": 39.0,
+      "created_at": "2026-11-20T00:00:00.000Z",
+      "raw_text": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains. Each task has three difficulty levels and two scene settings (Clean and Random), yielding 180 configurations. The tasks form three views: Mind tests decisions based on past observations, Act tests precise and timely execution, and Mind2Act combines both in closed-loop tasks where action outcomes guide later decisions. Comparing the three views shows whether a system lacks a capability or fails to compose capabilities it already has. A diagnosis harness further attributes the failed episodes of three representative systems to Mind, Act, or their composition and summarizes each system in a profile card. Our evaluation of multimodal agents, vision-language-action models (VLAs), and world-action models (WAMs) shows that competence in a single view does not carry over to Mind2Act tasks. Even the strongest agent succeeds in 52.7% of Mind and 39.0% of Act episodes but in only 12.0% of Mind2Act episodes. The strongest agent retains task state but struggles with sustained contact, whereas end-to-end policies execute practiced motions but retain little task state. These findings point to composing reasoning and execution through environmental feedback as the main open problem.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.26444",
+        "coverage": 0
+      }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: AI agents ask better questions than KPMG accountants in audit trial\n\nArticle text (excerpt):\nLONDON, November 18, 2026 — Artificial intelligence has taken another significant step into the world of professional services after KPMG revealed that AI agents examining the accounts of a major UK-listed company sometimes investigated financial issues more deeply and asked better questions than its human audit team.\nThe experiment, conducted by KPMG UK using more than 100 AI agents, marks an important development in the application of artificial intelligence to one of the most labour-intensive areas of the financial services industry. It also raises an uncomfortable question for the accountancy profession: if machines can increasingly perform the analytical work traditionally undertaken by highly trained professionals, how quickly will the economics of auditing change?\nAccording to the Financial Times , the project, codenamed Project Exponential, examined the financial statements of an unnamed FTSE 250 company. The AI agents worked alongside a conventional audit team, undertaking tasks across the audit process rather than simply assisting with isolated administrative functions.\nNew subscribers this quarter are entered into a draw to win a Rolex Submariner. Join 40,000+ founders, investors and executives who read EBM every day.\nKPMG UK head of audit Cath Burnet said the technology had, in several instances, gone considerably deeper into issues than the regular audit team, identifying areas requiring further investigation and asking questions that human auditors had not necessarily raised.\nThe findings suggest that AI’s potential in professional services may extend well beyond improving productivity. It could fundamentally change how complex financial information is examined, interpreted and challenged.\nProject Exponential represents a shift from using AI as a supporting tool towards deploying autonomous agents across an entire audit workflow.\nThe agents collected information, analysed and documented data, developed draft conclusions and observations, and suggested subsequent steps. They were also able to work alongside one another, effectively dividing responsibilities and coordinating elements of the investigation.\nThe technology was developed over approximately four months. However, KPMG was careful to distinguish the experiment from a formally approved statutory audit. Although an audit partner signed off on the experimental exercise, its findings were not used as the basis for formally approving the company’s accounts.\nHuman oversight remained essential. During the trial, an auditor had to intervene when one AI agent failed to correctly match regulatory requirements with the company’s documentation. The episode illustrates both the capabilities and limitations of current AI systems when dealing with complex regulatory frameworks.\nKPMG plans to expand the initiative to as many as 20 larger audits, although the firm acknowledges that the technology is not yet sufficiently mature to be deployed across thousands of engagements. Data quality also remains a significant obstacle, with some businesses lacking the clean, structured information required for AI agents to operate effectively.\nThe implications for the accountancy industry could be substantial.\nTraditional auditing relies on large teams of junior accountants undertaking detailed and repetitive work, supervised by experienced managers and partners. AI agents potentially offer a different operating model, automating significant portions of data collection, analysis and documentation while allowing senior professionals to concentrate on complex judgements and exceptions.\nFor firms such as KPMG, Deloitte, PwC and EY, the attraction is clear: faster audits, potentially lower operating costs and the ability to analyse much larger volumes of financial information.\nHowever, whether those savings will ultimately be passed on to clients remains uncertain. KPMG has acknowledged the potential for significant time savings but has not confirmed whether AI-driven efficiencies will translate into lower audit fees.\nThe transition also presents regulatory and professional challenges. The UK’s Financial Reporting Council has warned that the use of AI must not undermine auditor independence, integrity or professional scepticism.\nThere are also concerns about data security, over-reliance on automated conclusions and the possibility of AI generating inaccurate or fabricated information. The fundamental responsibility for an audit opinion remains with the human auditor, regardless of the technology used.\nThe KPMG experiment does not establish that AI can replace accountants or independently deliver a reliable statutory audit. It does, however, demonstrate that AI agents are beginning to challenge professionals in areas that were once considered dependent on human expertise.\nFor the accountancy profession, the question is no longer simply whether AI will become part of the audit process. It is how much of that process will eventually be performed by machines — and what role human accountants will play when it does.\n\nA top reader comment on Hacker News (opinion, not fact):\nI suspect this says more about KPMG accountants than AI.",
+  "context": "Title: Traumatized teens sue school, cops after Doritos bag triggers AI gun alert\n\nText:\nIn October 2025, four Black high school students were sharing Cool Ranch Doritos after football practice, winding down and waiting for their rides home. It was then, in the lull of a moment any teen with after-school activities knows well, that the school’s AI gun detection system suddenly flagged one teen holding a bag of chips as a potential gunman. Within two minutes, Baltimore County Public Schools officials who reviewed security camera footage linked to the alert determined there was no actual threat. They recognized the Doritos bag and canceled the alert, which notified not only other school officials but also the Baltimore County Police Department that no response was needed. The false alert could have ended there—before a traumatizing campus clash with police—but it didn’t. Read full article Comments\n\nArticle text (excerpt):\nIn October 2025, four Black high school students were sharing Cool Ranch Doritos after football practice, winding down and waiting for their rides home. It was then, in the lull of a moment any teen with after-school activities knows well, that the school’s AI gun detection system suddenly flagged one teen holding a bag of chips as a potential gunman.\nWithin two minutes, Baltimore County Public Schools officials who reviewed security camera footage linked to the alert determined there was no actual threat. They recognized the Doritos bag and canceled the alert, which notified not only other school officials but also the Baltimore County Police Department that no response was needed.\nThe false alert could have ended there—before a traumatizing campus clash with police—but it didn’t.\nAccording to a lawsuit filed by the current and former students, Taki Allen, Yui-Osa Ogbeide, Devon Thompson Jr., and Keith Winfield III, due to “both technological and human errors,” school officials called police to the scene anyway, and the cops responded with force.\nAt least six patrol cars arrived with lights flashing, and some cops emerged with guns drawn. The teens froze and cooperated, confused and scared for their lives, their lawsuit said.\n“No one told the students what they were suspected of,” the lawsuit said. “Officers separated the students, ordered them to their knees on the concrete, handcuffed them, and searched their persons and property.”\nOnly after the cops failed to find a gun did students learn that it was the school’s AI gun detection system, Omnilert, that triggered the police response. Allegedly, one of the responding officers muttered, “stupid AI cameras” and “fucking Omnilerts,” while another told the students that “AI is not the best.” Finally releasing the students, one officer seemed to acknowledge that they had put the teens in danger.\n“Hey, thanks for not running away, that would have been a real problem,” the officer allegedly said. Walking away, another joked that the boys should remember to “be careful with your chip bags.”\nThe cops did not just target the suspected gunman but apparently told the other teens that they were guilty “by association” when they asked why they were searched.\nSuing to stop any other teens from facing allegedly life-or-death situations due to officials’ blind trust of AI, the teens have asked for an injunction barring BCPS from using Omnilert until they can effectively establish protocols to prevent police responses to false alerts.\nThe lawsuit alleged that students’ constitutional rights were violated, as students were unlawfully searched and detained.\nDamon Hewitt, president and executive director of the Lawyers’ Committee for Civil Rights Under Law—a nonpartisan nonprofit that’s representing the teens in the suit—said that “overreliance on artificial intelligence technology mixed with inept communication and coordination among key officials is a toxic mix.”\nThe complaint noted that BCPS was among the earliest adopters of Omnilert, and officials have touted it as “the largest deployment of AI visual gun detection” as a means to supposedly protect students. Instead, they alleged that Omnilert is marketing a defective product as triggering “near-zero false positives” without effectively requiring the adequate human review that claim depends on.\n“We need a reckoning on how AI is being used, especially concerning public safety and kids,” Hewitt said. “We are fighting to deliver justice in this case, but it also holds lessons for educators and police officials across the country who should think twice before putting our children’s fate in the hands of AI.”\nAll the teens feel less safe on campus and less trusting of police following the incident. They also suffered from physical pain—including ”deep red marks” on their wrists from handcuffs—as well as “acute and lasting emotional distress, fear, anxiety,” and “humiliation.” Further, the teens report that rumors follow them around, falsely claiming that there was a gun and damaging their reputations.\nCar pick-up will never be the same. The student falsely flagged as the gunman, Taki Allen, “no longer feels safe waiting for rides or spending time outside the school after hours” and “frequently pays for rides home from private car services to avoid waiting for rides from friends or family.” Keith Winfield’s house was very close to the school, but his mother, Frieda Winfield, said his anxiety was so bad that he would call her “multiple times after football practice ended to confirm that she was on her way to pick him up.”\nFrieda Winfield called for change following her son Keith’s chilling interaction.\n“The police told my son this could have been a real problem,” Frieda Winfield said. “No child in Baltimore County should face this kind of danger while waiting outside his own school for a ride home from his mother.”\nThe teens’ lawsuit targets Omnilert and responding Baltimore County Police Department officers. It also challenges Baltimore County Public Schools and individual school officials who allegedly failed to establish proper protocols to prevent a police response to a canceled alert.\nIn a later investigation, the Office of the Inspector General (OIG) for Education concluded that Omnilert’s system had no “bias.” But OIG acknowledged that the “delegation of authority” process that Kenwood High School set up didn’t stop its principal, Kate Smith, from noticing the alert, failing to see it was canceled, and texting a school resource officer to deploy police 15 minutes later—all while acknowledging in that text that the object in the alert was “maybe not” a gun. Smith apparently was never trained on the Omnilert system, OIG’s report indicated.\nThe OIG agreed with teens that things should change. Immediately after the incident, an internal Omnilert training link was shared with BCPS staff, and OIG recommended that schools conduct biannual trainings moving forward.\nThey also recommended that the BCPS Department of School Safety “review its protocol” and reduce the number of individuals who receive campus gun alerts. That could help ensure “internal notification controls are followed” and police “are fully informed of a verified threat,” the OIG said.\nWithout changes, the OIG acknowledged that “the loss of alert notification controls could place not only BCPS staff and students at risk but could also place responding law enforcement in a potentially tragic situation.”\nAnother change offered a technical solution that may have prevented the tragic event. The OIG recommended that school officials switch to using the Omnilert app. Since Smith opened the alert in a text message window on her phone, they suggested that she could easily have overlooked the cancellation text message if her first instinct were to enlarge the image or review the camera footage.\nThese recommendations aren’t enough for current and former students suing, one of whom remains an active student who claims the principal never apologized and instead made light of the incidents using cry-laughing emojis in texts with other school officials. Teens alleged that Smith should have known that more than “99 percent of OGD Alerts in Baltimore County Public Schools were false positives that required no police response,” as the OIG’s report said, and she should have prioritized students’ safety and verified the threat before calling in police.\n“BCPS’s failures amounted to deliberate indifference to the constitutional rights of its students,” their lawsuit alleged.\nThe teens asked a court for an injunction barring the use of Omnilert until BCPS staff and police are adequately trained. In their complaint, they alleged that none of the officers on the scene had reviewed the camera footage before responding, and none of the officers informed of the alert cancellation intervened.\nBCPS declined to comment on the lawsuit, pointing Ars to a statement issued to parents following the incident. That statement did not directly apologize to students but did say the school would provide “ongoing counseling and emotional support” to them while promising to take steps to prevent future incidents.\nBlake Mitchell, Omnilert’s vice president of marketing, told Ars that Omnilert is reviewing the complaint.\n“What these four students went through on October 20, 2025 should not have happened, and we are truly sorry for the fear they and their families experienced,” Mitchell said. “We understand why they want answers.”\nMitchell said that Omnilert is “built to send anything that could be a firearm to trained people for review, because missing a real gun is the worst possible outcome.” He also reiterated that the OIG investigation found no bias in Omnilert’s system and seemed to agree that it was the school’s authority delegation that failed the students, not necessarily the technology.\n“In this case, the school’s designated safety staff reviewed the alert and canceled it within about two minutes, and everyone who receive",
   "research_links": [],
-  "source_credit": "europeanbusinessmagazine.com",
-  "source_tag": "via europeanbusinessmagazine.com",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAIBHWr-1M6BXSipR6xvd154jgcP0cJOAALpFGsbgL35V_MvXK9YPjh9AQADAgADeQADPQQ",
-  "text": "More than 100 AI agents audited a major UK company alongside KPMG.\n\nSeveral times, the machines dug deeper and asked better questions than the human team.\n\nThat finding comes from Project Exponential.\n\nKPMG UK tested the agents on the accounts of an unnamed FTSE 250 company over a four-month period.\n\nThe software handled tasks across the entire audit workflow:\n• collecting information\n• analyzing and documenting data\n• drafting conclusions\n• suggesting subsequent steps\n\nHuman oversight was still required. An auditor had to step in when one agent failed to match regulatory requirements with company documentation.\n\nKPMG plans to expand the trial to 20 larger audits.\n\nMy read: the economic model of accounting relies on large teams of junior staff doing repetitive analysis. When autonomous agents can do that work deeper and faster, the billable hour starts to break down.\n\nThe limitation is strict. The trial was not a formally approved statutory audit, data quality remains an obstacle, and the technology is not yet ready for thousands of engagements.\n\nHow many junior audit roles disappear when the software starts asking better questions than the staff?\n\nSource: europeanbusinessmagazine.com",
-  "alt_openings": "1. Shape: Bare number first\nOpening: Four months. Over 100 AI agents. One FTSE 250 company audit.\nDeepening line: The machines ended up asking better questions than KPMG's human accountants.\nWhen to prefer it: Use when the raw scale of the test is the most arresting thing in the material.\n\n2. Shape: Corrective\nOpening: AI in finance does not just speed up administrative tasks anymore.\nDeepening line: It now investigates financial issues more deeply than human audit teams.\nWhen to prefer it: Use when readers likely assume the tool is still just a glorified calculator.\n\n3. Shape: Your X\nOpening: Your next corporate audit may be challenged by software that outperforms junior staff.\nDeepening line: KPMG found that AI agents running accounts analysis asked questions human auditors missed.\nWhen to prefer it: Use when you want to hook professional services readers directly through their own business model.\n\nPick: The tool-as-subject opening (\"More than 100 AI agents audited a major UK company...\") because it immediately sets up the unusual contrast between human professionals and machine software without giving away the outcome.",
-  "voice_score": null,
-  "firewall_notes": [],
-  "headline": "When AI agents ask better questions than auditors",
+  "source_credit": "Ars Technica",
+  "source_tag": "via Ars Technica",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAIBIWsAASB6qImmBuVlHsmDFDwdUz0LWwACJhNrG7HCAAFUeZQT0aKdrp4BAAMCAAN5AAM9BA",
+  "text": "An AI security system flagged a bag of Doritos as a loaded gun.\n\nWhat happened next shows how automated tools fail when mapped onto broken organizational processes.\n\nIn October 2025, four Baltimore County high school students were waiting for rides after football practice. The district's AI gun detection software, Omnilert, flagged one teen holding a chip bag. Within two minutes, safety staff reviewing security footage identified the Doritos bag and canceled the alert.\n\nThe cancellation message went out, but the human workflow fell apart. An untrained principal saw the initial text alert, missed the follow-up cancellation, and texted police anyway—noting the object was \"maybe not\" a gun. Six patrol cars arrived with lights flashing. Officers drew weapons, ordered the teens onto the concrete, and handcuffed them. Nobody checked the camera footage before pulling guns on four students.\n\nAn inspector general report later highlighted the breakdown: the district gave staff access to raw automated alerts without enforcing a strict verification protocol before calling law enforcement. High-risk AI tools cannot sit on top of informal text threads. Acting on unverified machine alerts turns security software into automated panic.\n\nThe students have sued the district, responding officers, and vendor to halt the system until mandatory training and strict verification controls exist.\n\nSource: Ars Technica\n\n#AISafety #TechGovernance",
+  "alt_openings": "Bare number first\nLine 1: More than 99 percent of one school district's AI gun alerts were false alarms.\nLine 2: One missed cancellation text was all it took to send police to a high school with guns drawn.\nPrefer this when writing for finance, operations, or executive audiences who evaluate risk through failure rates and systemic error margins.\n\nStory in motion\nLine 1: Four teens were sharing chips after football practice when an AI camera flagged them.\nLine 2: Security staff cleared the threat within two minutes, but officers were already rushing to campus.\nPrefer this when writing for general professional audiences where starting inside a human narrative creates immediate emotional tension.\n\nYour X\nLine 1: Your organization's AI alerts are only as safe as the person reading the text message.\nLine 2: When an untrained manager overlooked a single cancellation update, armed police handcuffed four innocent students.\nPrefer this when addressing managers, legal counsel, or tech leaders directly responsible for internal compliance and software deployment protocols.\n\nPick: The \"Tool as subject\" opening used in the main post (\"An AI security system flagged a bag of Doritos as a loaded gun.\") works best. The concrete image of a chip bag mistaken for a weapon instantly creates high visual contrast, forcing the reader to click \"see more\" to understand how such an obvious error reached police response level.",
+  "voice_score": 4,
+  "firewall_notes": [
+    "\"The breakdown was not just a software bug.\" — Trips Rule 1 (\"not just X\" pivot).",
+    "\"Over 99 percent of the district's AI gun alerts were false positives\" — Trips Rule 15 (Claim/figure not supported by the source text).",
+    "\"The real danger was administrative.\" — Trips Rule 1 (Implicit \"not X, it's Y\" binary frame).",
+    "\"you haven't bought security—you've automated panic.\" — Trips Rule 1 (\"not X, but Y\" structural tell).",
+    "\"Does your organization require a verified human sign-off before taking action on an AI alert?\" — Trips Rule 13 (Ending on a generic engagement question)."
+  ],
+  "headline": "How a canceled AI alert put students at gunpoint",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-19.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-20.png"
 }
