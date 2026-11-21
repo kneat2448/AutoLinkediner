@@ -1,122 +1,47 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-20",
-  "created_at": "2026-11-20T15:53:24.918722+05:30",
+  "date": "2026-11-21",
+  "created_at": "2026-11-21T15:36:59.490894+05:30",
   "candidate": {
-    "id": "news:a18d40e53c3a",
-    "source": "news",
-    "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-    "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
-    "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
-    "score": 80.0,
-    "created_at": "2026-11-19T20:19:28+00:00",
-    "raw_text": "In October 2025, four Black high school students were sharing Cool Ranch Doritos after football practice, winding down and waiting for their rides home. It was then, in the lull of a moment any teen with after-school activities knows well, that the school’s AI gun detection system suddenly flagged one teen holding a bag of chips as a potential gunman. Within two minutes, Baltimore County Public Schools officials who reviewed security camera footage linked to the alert determined there was no actual threat. They recognized the Doritos bag and canceled the alert, which notified not only other school officials but also the Baltimore County Police Department that no response was needed. The false alert could have ended there—before a traumatizing campus clash with police—but it didn’t. Read full article Comments",
+    "id": "hn:50572503",
+    "source": "hackernews",
+    "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+    "url": "https://architectlabs.com/blog/frostbite",
+    "summary": "",
+    "score": 646.0,
+    "created_at": "2026-11-20T10:01:41+00:00",
+    "raw_text": "",
     "extra": {
-      "outlet": "Ars Technica",
-      "weight": 0.8,
-      "coverage": 1
+      "discussion_url": "https://news.ycombinator.com/item?id=50572503",
+      "num_comments": 333,
+      "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "news:6f0f2d869f0f",
-      "source": "news",
-      "title": "Meta’s new Muse Charm device may cost $300",
-      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
-      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
-      "score": 80.0,
-      "created_at": "2026-11-19T21:58:06+00:00",
-      "raw_text": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:a18d40e53c3a",
-      "source": "news",
-      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
-      "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
-      "score": 80.0,
-      "created_at": "2026-11-19T20:19:28+00:00",
-      "raw_text": "In October 2025, four Black high school students were sharing Cool Ranch Doritos after football practice, winding down and waiting for their rides home. It was then, in the lull of a moment any teen with after-school activities knows well, that the school’s AI gun detection system suddenly flagged one teen holding a bag of chips as a potential gunman. Within two minutes, Baltimore County Public Schools officials who reviewed security camera footage linked to the alert determined there was no actual threat. They recognized the Doritos bag and canceled the alert, which notified not only other school officials but also the Baltimore County Police Department that no response was needed. The false alert could have ended there—before a traumatizing campus clash with police—but it didn’t. Read full article Comments",
-      "extra": {
-        "outlet": "Ars Technica",
-        "weight": 0.8,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:a628e3d51eab",
-      "source": "news",
-      "title": "Gemini on Mac can now use your computer",
-      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-      "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will […]",
-      "score": 80.0,
-      "created_at": "2026-11-19T18:21:13+00:00",
-      "raw_text": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says . Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will be able to decide which of your apps Gemini can access, and be able to follow along as Gemini works because it has its own background window that shows a live preview in your chat, Google says. The feature is rolling out now in English for users in the US. Gemini is introducing the new feature ahead of Apple l … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "hn:50562754",
+      "id": "hn:50572503",
       "source": "hackernews",
-      "title": "Anthropic’s Nasdaq debut",
-      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
       "summary": "",
-      "score": 1083.0,
-      "created_at": "2026-11-19T17:02:40+00:00",
+      "score": 646.0,
+      "created_at": "2026-11-20T10:01:41+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50562754",
-        "num_comments": 2147,
+        "discussion_url": "https://news.ycombinator.com/item?id=50572503",
+        "num_comments": 333,
         "coverage": 0
       }
     },
     {
-      "id": "news:a7839ae95aff",
+      "id": "news:3ea993db7e3c",
       "source": "news",
-      "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
-      "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
-      "summary": "Henrijs Dandzbergs dropped out of high school to join startup accelerator Y Combinator. With a new breed of missile, he wants to make killing as efficient as possible for the US and its military allies.",
-      "score": 80.0,
-      "created_at": "2026-11-20T07:00:00+00:00",
-      "raw_text": "Henrijs Dandzbergs dropped out of high school to join startup accelerator Y Combinator. With a new breed of missile, he wants to make killing as efficient as possible for the US and its military allies.",
-      "extra": {
-        "outlet": "Wired",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:d71e9d428c0a",
-      "source": "news",
-      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
-      "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
-      "summary": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder .",
-      "score": 75.0,
-      "created_at": "2026-11-20T09:59:51+00:00",
-      "raw_text": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder .",
-      "extra": {
-        "outlet": "The Decoder",
-        "weight": 0.75,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:6687f7be62c3",
-      "source": "news",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "score": 100.0,
-      "created_at": "2026-11-19T08:00:00+00:00",
-      "raw_text": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "created_at": "2026-11-20T10:00:00+00:00",
+      "raw_text": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -124,32 +49,122 @@
       }
     },
     {
-      "id": "hn:50562262",
-      "source": "hackernews",
-      "title": "Fuck Your AI Safeguards",
-      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-      "summary": "",
-      "score": 557.0,
-      "created_at": "2026-11-19T16:30:18+00:00",
-      "raw_text": "",
+      "id": "news:e8d8b83c69d5",
+      "source": "news",
+      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+      "summary": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available. The article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder .",
+      "score": 75.0,
+      "created_at": "2026-11-21T09:17:24+00:00",
+      "raw_text": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available. The article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder .",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50562262",
-        "num_comments": 223,
+        "outlet": "The Decoder",
+        "weight": 0.75,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50568130",
+      "id": "hn:50577265",
       "source": "hackernews",
-      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
-      "url": "https://git-aarvin.github.io/mei/",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
       "summary": "",
-      "score": 347.0,
-      "created_at": "2026-11-19T23:35:35+00:00",
+      "score": 409.0,
+      "created_at": "2026-11-20T16:29:06+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50568130",
-        "num_comments": 220,
+        "discussion_url": "https://news.ycombinator.com/item?id=50577265",
+        "num_comments": 119,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50572348",
+      "source": "hackernews",
+      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "summary": "",
+      "score": 552.0,
+      "created_at": "2026-11-20T09:42:16+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50572348",
+        "num_comments": 322,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:d15c45643214",
+      "source": "news",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "score": 100.0,
+      "created_at": "2026-11-20T00:00:00+00:00",
+      "raw_text": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:f4784c304003",
+      "source": "news",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "score": 100.0,
+      "created_at": "2026-11-20T00:00:00+00:00",
+      "raw_text": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "extra": {
+        "outlet": "OpenAI",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50577901",
+      "source": "hackernews",
+      "title": "Google workers tell their employer not to punish schools that don't want AI",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "summary": "",
+      "score": 276.0,
+      "created_at": "2026-11-20T16:59:27+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50577901",
+        "num_comments": 214,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:a7d20c80270e",
+      "source": "news",
+      "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+      "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
+      "summary": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
+      "score": 80.0,
+      "created_at": "2026-11-20T23:24:02+00:00",
+      "raw_text": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
+      "extra": {
+        "outlet": "Wired",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:01449c61c8b8",
+      "source": "news",
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
+      "score": 85.0,
+      "created_at": "2026-11-20T18:15:15+00:00",
+      "raw_text": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely shared— and widely misinterpreted , owing to the complexity of the measures it used. METR evaluated models by having them attempt a large suite of tasks, each of which had also been completed by humans. Each task’s difficulty was scored by how long it took the human testers to finish it—and then models were rated according to the length of the tasks that they could complete. That plot showed that AI systems were rapidly improving—every four months, the length of the tasks that frontier models could successfully complete doubled. The updated plot adds more tasks—some that are estimated to take humans far longer than those in the original suite, and others that are more open-ended. One of the biggest questions in AI right now is the extent to which progress on “verifiable” tasks—where it’s possible to check automatically whether an AI system has succeeded or failed—carry over into tasks on which success or failure is harder to measure. We know how to teach neural networks how to do verifiable tasks: Researchers have the systems attempt one many times, strengthen the neural pathways that contribute to success, and weaken the pathways that contribute to failures. That’s why AI systems have become so good at coding and math, two domains where it’s possible to determine automatically whether a solution does or doesn’t work. It’s much harder to apply this technique, known as reinforcement learning, to tasks where success is less well defined or takes longer to ascertain—such as choosing a new research direction. For the same reason, it’s tough to evaluate AI performance on these tasks, so METR’s original time horizon plot didn’t include any of them. But it’s precisely this type of task that will prove essential if AI systems are to automate research and development. And AI research and development is an especially hot topic right now. Parts of the AI community are still reeling from a different, heavily redacted METR report from earlier this month, which claimed that AI might be speeding up the pace of AI progress at Anthropic by a factor of two. That report sparked fears that the company (which just had a blockbuster IPO) could soon achieve full recursive self-improvement, a regime in which AI systems autonomously design their own successors with no human involvement. METR researchers have worked to make sure their new suite of tasks includes some of the fuzzier, judgment-laden ones that could be most relevant to AI research and development. In one task, they ask models to design new AI evaluations that METR could use in its research and then have human METR employees score the results. Even though the most advanced models ar…",
+      "extra": {
+        "outlet": "MIT Technology Review",
+        "weight": 0.85,
         "coverage": 0
       }
     },
@@ -159,7 +174,7 @@
       "title": "Jeveration: System One Models Now Generate",
       "url": "https://huggingface.co/papers/2611.24738",
       "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent…",
-      "score": 123.0,
+      "score": 148.0,
       "created_at": "2026-11-19T00:00:00.000Z",
       "raw_text": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
       "extra": {
@@ -168,53 +183,32 @@
       }
     },
     {
-      "id": "hn:50563148",
-      "source": "hackernews",
-      "title": "Claude solves two open problems in the physics of black holes",
-      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-      "summary": "",
-      "score": 501.0,
-      "created_at": "2026-11-19T17:30:44+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50563148",
-        "num_comments": 231,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.26444",
+      "id": "hf:2611.21373",
       "source": "huggingface",
-      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
-      "url": "https://huggingface.co/papers/2611.26444",
-      "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a fa…",
-      "score": 39.0,
+      "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "url": "https://huggingface.co/papers/2611.21373",
+      "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does not directly improve the forensic capabilities of fixed experts. We introduce We…",
+      "score": 51.0,
       "created_at": "2026-11-20T00:00:00.000Z",
-      "raw_text": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains. Each task has three difficulty levels and two scene settings (Clean and Random), yielding 180 configurations. The tasks form three views: Mind tests decisions based on past observations, Act tests precise and timely execution, and Mind2Act combines both in closed-loop tasks where action outcomes guide later decisions. Comparing the three views shows whether a system lacks a capability or fails to compose capabilities it already has. A diagnosis harness further attributes the failed episodes of three representative systems to Mind, Act, or their composition and summarizes each system in a profile card. Our evaluation of multimodal agents, vision-language-action models (VLAs), and world-action models (WAMs) shows that competence in a single view does not carry over to Mind2Act tasks. Even the strongest agent succeeds in 52.7% of Mind and 39.0% of Act episodes but in only 12.0% of Mind2Act episodes. The strongest agent retains task state but struggles with sustained contact, whereas end-to-end policies execute practiced motions but retain little task state. These findings point to composing reasoning and execution through environmental feedback as the main open problem.",
+      "raw_text": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does not directly improve the forensic capabilities of fixed experts. We introduce WeVisForensics, an agentic framework in which a main investigator agent coordinates a self-evolving library of forensic inspector sub-agents spanning visual and audio cues. The investigator learns which artifact type to examine, over which window, and when to conclude, and these interactions provide shared feedback for both levels of agents. Our dual-timescale policy optimization strategy, DTPO, closes this loop through fast reinforcement learning of the investigator and slower refinement of the inspectors, guided by annotated artifact intervals, to report subtle artifacts they once dismissed. Furthermore, we curate ForenCue-30K, combining role-specific forensic annotations and interaction trajectories to supervise individual inspections and their coordination, with an accompanying reinforcement-learning pool. Experiments show that WeVisForensics averages 95.2% detection accuracy across in-domain, out-of-domain and agentic benchmarks, 9.0% above the strongest prior detector, while grounding its verdicts in localized evidence.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.26444",
+        "arxiv_url": "https://arxiv.org/abs/2611.21373",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Traumatized teens sue school, cops after Doritos bag triggers AI gun alert\n\nText:\nIn October 2025, four Black high school students were sharing Cool Ranch Doritos after football practice, winding down and waiting for their rides home. It was then, in the lull of a moment any teen with after-school activities knows well, that the school’s AI gun detection system suddenly flagged one teen holding a bag of chips as a potential gunman. Within two minutes, Baltimore County Public Schools officials who reviewed security camera footage linked to the alert determined there was no actual threat. They recognized the Doritos bag and canceled the alert, which notified not only other school officials but also the Baltimore County Police Department that no response was needed. The false alert could have ended there—before a traumatizing campus clash with police—but it didn’t. Read full article Comments\n\nArticle text (excerpt):\nIn October 2025, four Black high school students were sharing Cool Ranch Doritos after football practice, winding down and waiting for their rides home. It was then, in the lull of a moment any teen with after-school activities knows well, that the school’s AI gun detection system suddenly flagged one teen holding a bag of chips as a potential gunman.\nWithin two minutes, Baltimore County Public Schools officials who reviewed security camera footage linked to the alert determined there was no actual threat. They recognized the Doritos bag and canceled the alert, which notified not only other school officials but also the Baltimore County Police Department that no response was needed.\nThe false alert could have ended there—before a traumatizing campus clash with police—but it didn’t.\nAccording to a lawsuit filed by the current and former students, Taki Allen, Yui-Osa Ogbeide, Devon Thompson Jr., and Keith Winfield III, due to “both technological and human errors,” school officials called police to the scene anyway, and the cops responded with force.\nAt least six patrol cars arrived with lights flashing, and some cops emerged with guns drawn. The teens froze and cooperated, confused and scared for their lives, their lawsuit said.\n“No one told the students what they were suspected of,” the lawsuit said. “Officers separated the students, ordered them to their knees on the concrete, handcuffed them, and searched their persons and property.”\nOnly after the cops failed to find a gun did students learn that it was the school’s AI gun detection system, Omnilert, that triggered the police response. Allegedly, one of the responding officers muttered, “stupid AI cameras” and “fucking Omnilerts,” while another told the students that “AI is not the best.” Finally releasing the students, one officer seemed to acknowledge that they had put the teens in danger.\n“Hey, thanks for not running away, that would have been a real problem,” the officer allegedly said. Walking away, another joked that the boys should remember to “be careful with your chip bags.”\nThe cops did not just target the suspected gunman but apparently told the other teens that they were guilty “by association” when they asked why they were searched.\nSuing to stop any other teens from facing allegedly life-or-death situations due to officials’ blind trust of AI, the teens have asked for an injunction barring BCPS from using Omnilert until they can effectively establish protocols to prevent police responses to false alerts.\nThe lawsuit alleged that students’ constitutional rights were violated, as students were unlawfully searched and detained.\nDamon Hewitt, president and executive director of the Lawyers’ Committee for Civil Rights Under Law—a nonpartisan nonprofit that’s representing the teens in the suit—said that “overreliance on artificial intelligence technology mixed with inept communication and coordination among key officials is a toxic mix.”\nThe complaint noted that BCPS was among the earliest adopters of Omnilert, and officials have touted it as “the largest deployment of AI visual gun detection” as a means to supposedly protect students. Instead, they alleged that Omnilert is marketing a defective product as triggering “near-zero false positives” without effectively requiring the adequate human review that claim depends on.\n“We need a reckoning on how AI is being used, especially concerning public safety and kids,” Hewitt said. “We are fighting to deliver justice in this case, but it also holds lessons for educators and police officials across the country who should think twice before putting our children’s fate in the hands of AI.”\nAll the teens feel less safe on campus and less trusting of police following the incident. They also suffered from physical pain—including ”deep red marks” on their wrists from handcuffs—as well as “acute and lasting emotional distress, fear, anxiety,” and “humiliation.” Further, the teens report that rumors follow them around, falsely claiming that there was a gun and damaging their reputations.\nCar pick-up will never be the same. The student falsely flagged as the gunman, Taki Allen, “no longer feels safe waiting for rides or spending time outside the school after hours” and “frequently pays for rides home from private car services to avoid waiting for rides from friends or family.” Keith Winfield’s house was very close to the school, but his mother, Frieda Winfield, said his anxiety was so bad that he would call her “multiple times after football practice ended to confirm that she was on her way to pick him up.”\nFrieda Winfield called for change following her son Keith’s chilling interaction.\n“The police told my son this could have been a real problem,” Frieda Winfield said. “No child in Baltimore County should face this kind of danger while waiting outside his own school for a ride home from his mother.”\nThe teens’ lawsuit targets Omnilert and responding Baltimore County Police Department officers. It also challenges Baltimore County Public Schools and individual school officials who allegedly failed to establish proper protocols to prevent a police response to a canceled alert.\nIn a later investigation, the Office of the Inspector General (OIG) for Education concluded that Omnilert’s system had no “bias.” But OIG acknowledged that the “delegation of authority” process that Kenwood High School set up didn’t stop its principal, Kate Smith, from noticing the alert, failing to see it was canceled, and texting a school resource officer to deploy police 15 minutes later—all while acknowledging in that text that the object in the alert was “maybe not” a gun. Smith apparently was never trained on the Omnilert system, OIG’s report indicated.\nThe OIG agreed with teens that things should change. Immediately after the incident, an internal Omnilert training link was shared with BCPS staff, and OIG recommended that schools conduct biannual trainings moving forward.\nThey also recommended that the BCPS Department of School Safety “review its protocol” and reduce the number of individuals who receive campus gun alerts. That could help ensure “internal notification controls are followed” and police “are fully informed of a verified threat,” the OIG said.\nWithout changes, the OIG acknowledged that “the loss of alert notification controls could place not only BCPS staff and students at risk but could also place responding law enforcement in a potentially tragic situation.”\nAnother change offered a technical solution that may have prevented the tragic event. The OIG recommended that school officials switch to using the Omnilert app. Since Smith opened the alert in a text message window on her phone, they suggested that she could easily have overlooked the cancellation text message if her first instinct were to enlarge the image or review the camera footage.\nThese recommendations aren’t enough for current and former students suing, one of whom remains an active student who claims the principal never apologized and instead made light of the incidents using cry-laughing emojis in texts with other school officials. Teens alleged that Smith should have known that more than “99 percent of OGD Alerts in Baltimore County Public Schools were false positives that required no police response,” as the OIG’s report said, and she should have prioritized students’ safety and verified the threat before calling in police.\n“BCPS’s failures amounted to deliberate indifference to the constitutional rights of its students,” their lawsuit alleged.\nThe teens asked a court for an injunction barring the use of Omnilert until BCPS staff and police are adequately trained. In their complaint, they alleged that none of the officers on the scene had reviewed the camera footage before responding, and none of the officers informed of the alert cancellation intervened.\nBCPS declined to comment on the lawsuit, pointing Ars to a statement issued to parents following the incident. That statement did not directly apologize to students but did say the school would provide “ongoing counseling and emotional support” to them while promising to take steps to prevent future incidents.\nBlake Mitchell, Omnilert’s vice president of marketing, told Ars that Omnilert is reviewing the complaint.\n“What these four students went through on October 20, 2025 should not have happened, and we are truly sorry for the fear they and their families experienced,” Mitchell said. “We understand why they want answers.”\nMitchell said that Omnilert is “built to send anything that could be a firearm to trained people for review, because missing a real gun is the worst possible outcome.” He also reiterated that the OIG investigation found no bias in Omnilert’s system and seemed to agree that it was the school’s authority delegation that failed the students, not necessarily the technology.\n“In this case, the school’s designated safety staff reviewed the alert and canceled it within about two minutes, and everyone who receive",
+  "context": "Title: Frostbite: A new CPU architecture discovered, designed and verified by AI\n\nArticle text (excerpt):\nIn our previous post, Redwood , we showed that given an architecture, our AI systems could implement, verify, and deploy an inference accelerator in record time. However, similar to other scientific domains, we believe that AI systems, given the correct freedom and guardrails, can co-design software and hardware together, making optimizations across the stack and opening a design space so large it was previously inaccessible. We set out to answer the question: “Could our AI systems & tools lead to a novel hardware discovery that radically outperforms human-made designs?”\nToday, we're introducing Frostbite, a general-purpose CPU with a new instruction set built from the ground up. Frostbite exploits the properties of interaction nets, namely that every step is local, every dependency is explicit, and every value has exactly one owner, to reach a step-function gain in CPU performance that has long stagnated. On a set of 25 initially chosen workloads, including 15 held out until the final evaluation, we achieved a 4.59x performance-per-watt multiple when compared to a modern, silicon-proven superscalar (dual-issue, in-order) CPU core.\nOur AI systems autonomously iterated over the compiler, ISA, architecture, microarchitecture, RTL, verification, and final GDS. When we took a closer look at the discovered architectural primitives, we were surprised to find novel hardware implementations and runtime features that would have otherwise been difficult to architect. In spite of stagnation in CPU core improvement, we were able to take a workload concept all the way to a final GDS, and prove a step-function increase in perf/W and perf/area. We believe that as AI systems become more capable, every class of chip we know today, from datacenter-grade CPUs, to AI accelerators, to networking switches and NICs, will go through similar fundamental architectural shifts.\nMainstream programming languages, when compiled for general-purpose CPUs, hide the dependencies between the parts of a program. Any piece of code may read or write any variable through a shared, mutable state, and so modern CPU hardware assumes the worst case and rediscovers, at runtime, which instructions actually depend on each other. Moreover, single-core CPU performance has largely stalled since the early 2000s, pushing people towards large multicore CPUs such as Intel Xeon, AMD Zen, and NVIDIA Vera. This forces CPUs to maintain the illusion that every core sees the same memory, and keeping that illusion consistent and performant requires deep cache hierarchies and coherence protocols that cost area and power, and scale poorly.\nInteraction nets 1 take a different approach. A program is a graph of nodes, and computation happens by rewriting pairs of nodes that are connected through their ports. Every rewrite only touches a small, local part of the graph. Because each node has exactly one principal port, no two of these active pairs ever overlap, so they can be rewritten in any order, or all at once, and the result is always the same. Interaction nets are also linear: every value is used exactly once, so there is no shared mutable state for the hardware to guard. Languages such as Vine 2 compile ordinary-looking programs directly to interaction nets. For an excellent introduction to interaction nets and why they suit hardware, we highly recommend Tendrils' “On Interaction Nets.” 3\nFig. 1 shows the difference on a small search problem, placing five queens on a five-by-five board. The sequential program visits one candidate at a time. The interaction net exposes all of its independent work: on average, about twelve interactions are ready to run at every step. Nothing about the program was rewritten to get this parallelism; the dependencies were simply never thrown away.\nIn theory, this should have two large advantages. The first is multithreading for free: rather than varying levels of coarse and fine-grained parallelism, parallelism comes straight from the program. No threads, locks, or race conditions, and none of the out-of-order machinery a conventional core uses to dig it back out. The second is that, since every value has one owner and every step is local, data can live in small local memories next to where it is used. That removes much of the area and power a conventional chip spends on large caching subsystems, and much of the system-level complexity of keeping those caches coherent.\nFrostbite was designed with zero architectural priors. We followed the process below, riding multiple agent swarms along the way.\nTo begin architectural exploration, we had to establish the set of workloads Frostbite should do exceedingly well in. We decided to look at different ways a program could expose its work: many independent pieces at once, rounds of parallel work, long sequential chains, data-dependent branches, and recursion. Under each category, we created a search set and a held-out eval set to evaluate the final Frostbite on, ensuring the design generalized to programs it was never tuned on. The kernels for FFT, radixsort, and LU follow the implementation in the SPLASH-2 benchmark, although 64 times smaller, because at regular sizes they are not suitable for exploratory work.\nLater, we added five more practical workloads to the held-out set: a Kalman filter, PCA, finite element analysis, an LU solve, and LZ4 decompression.\nAgents synthesized research papers and existing benchmarks, and built Python models to trade off high-level architectural ideas against each other, before narrowing to a single architectural concept. The output of this exploration was a 141-page PDF covering the proposed programming model, the runtime, and the high-level blocks of the chip. This was nowhere near the final architecture, but rather a starting point where all the prior findings, high-level requirements, constraints, experiments, and runtime traits were described. Once the first architectural iteration completed (first RTL generation), this was deleted, since many of the numbers and estimates were well off what was physically possible.\nOnce the architecture candidate was selected, our system moved on to building the full software model of the chip. Building software models is essential when exploring an architectural space, as they allow fast iteration between the workloads, the ISA, and the abstracted view of the hardware. Whether we build a CPU, GPU, NPU, or networking switch, mastering this iteration loop allows the fastest exploration of the design space within a finite time. To do this repeatedly, we designed a new in-house specification language, ASL, and wrote Frostbite's system model “Arcmodel” in it. ASL supports machine-checkable translations and refinements between RTL, system models, UVM, SVA, and more, all against a formally backed specification. Its power and performance estimates are accurate to within 1–5%, it runs roughly 200x faster than RTL simulation, and it is formally verifiable through “contracts.”\nIn every silicon program to date, human architects have written many English PDFs before handing off to an implementation team and a verification team. However, natural language cannot capture every detail an implementation needs precisely and unambiguously, and it cannot guarantee that every agent hallucination is caught while the ASIC is being designed and verified. Natural language was never built for this, and in a world where AI writes the specification, we opt for a formal, machine-checkable specification language instead.\nASL can formally describe both high-level, protocol-like behavior, such as out-of-order handling, CSR programming, memory ordering, and coherency, and low-level details, such as pipelines, arbitration mechanisms, and compute transfer functions. This lets the model leave the specification open-ended where that is useful and constrain it exactly where a precise behavior is required. ASL also translates natively to Lean, 4 which we use for all theorem proving when checking AI outputs across RTL, UVM, C, SVA, and more. We will discuss ASL in more detail in a future post.\nThroughout the entire development of Frostbite, our AI iterates on the Frostbite ISA, Arcmodel, Design, and Verification tightly together, maintaining the ASL Contract as the source of truth. We've found that having a single, provable source of truth prevents a large class of bugs, silly mistakes, and reward-hacking instances when deploying large agent swarms. Ultimately, this common language allows the models to work across the stack nimbly, reflecting the changes propagated from the workload down to the final hardware. By the end, our Frostbite ASL lowered down to 800k+ lines of Lean.\nBecause ASL is a formally backed specification, designing and verifying the RTL derived from it is the fastest part of the entire Frostbite process. Arcmodel, however, is not physically aware, so its power and performance estimates at first diverge from the true numbers of the timing-converged, synthesis-clean RTL,\n\nA top reader comment on Hacker News (opinion, not fact):\nMy prediction: In the AI/AGI/ASI era, the 4 most valuable things will be: - Model - Compute (chips/energy) - Manufacturers - Materials You can already see it beginning at the chip design stage. If AI makes it so that it takes 2 months to design a chip instead of 2 years, then there will way more chips designed to accelerate applications that previously weren't viable economically. Therefore, it's manufacturers like TSMC that will become more valuable. There will be more chip companies, more designs, more demand. And in order to make things, you need materials. In order to design the chip, you need the model and AI hardware.",
   "research_links": [],
-  "source_credit": "Ars Technica",
-  "source_tag": "via Ars Technica",
-  "template": "clean_white",
-  "photo_file_id": "AgACAgUAAxkDAAIBIWsAASB6qImmBuVlHsmDFDwdUz0LWwACJhNrG7HCAAFUeZQT0aKdrp4BAAMCAAN5AAM9BA",
-  "text": "An AI security system flagged a bag of Doritos as a loaded gun.\n\nWhat happened next shows how automated tools fail when mapped onto broken organizational processes.\n\nIn October 2025, four Baltimore County high school students were waiting for rides after football practice. The district's AI gun detection software, Omnilert, flagged one teen holding a chip bag. Within two minutes, safety staff reviewing security footage identified the Doritos bag and canceled the alert.\n\nThe cancellation message went out, but the human workflow fell apart. An untrained principal saw the initial text alert, missed the follow-up cancellation, and texted police anyway—noting the object was \"maybe not\" a gun. Six patrol cars arrived with lights flashing. Officers drew weapons, ordered the teens onto the concrete, and handcuffed them. Nobody checked the camera footage before pulling guns on four students.\n\nAn inspector general report later highlighted the breakdown: the district gave staff access to raw automated alerts without enforcing a strict verification protocol before calling law enforcement. High-risk AI tools cannot sit on top of informal text threads. Acting on unverified machine alerts turns security software into automated panic.\n\nThe students have sued the district, responding officers, and vendor to halt the system until mandatory training and strict verification controls exist.\n\nSource: Ars Technica\n\n#AISafety #TechGovernance",
-  "alt_openings": "Bare number first\nLine 1: More than 99 percent of one school district's AI gun alerts were false alarms.\nLine 2: One missed cancellation text was all it took to send police to a high school with guns drawn.\nPrefer this when writing for finance, operations, or executive audiences who evaluate risk through failure rates and systemic error margins.\n\nStory in motion\nLine 1: Four teens were sharing chips after football practice when an AI camera flagged them.\nLine 2: Security staff cleared the threat within two minutes, but officers were already rushing to campus.\nPrefer this when writing for general professional audiences where starting inside a human narrative creates immediate emotional tension.\n\nYour X\nLine 1: Your organization's AI alerts are only as safe as the person reading the text message.\nLine 2: When an untrained manager overlooked a single cancellation update, armed police handcuffed four innocent students.\nPrefer this when addressing managers, legal counsel, or tech leaders directly responsible for internal compliance and software deployment protocols.\n\nPick: The \"Tool as subject\" opening used in the main post (\"An AI security system flagged a bag of Doritos as a loaded gun.\") works best. The concrete image of a chip bag mistaken for a weapon instantly creates high visual contrast, forcing the reader to click \"see more\" to understand how such an obvious error reached police response level.",
-  "voice_score": 4,
-  "firewall_notes": [
-    "\"The breakdown was not just a software bug.\" — Trips Rule 1 (\"not just X\" pivot).",
-    "\"Over 99 percent of the district's AI gun alerts were false positives\" — Trips Rule 15 (Claim/figure not supported by the source text).",
-    "\"The real danger was administrative.\" — Trips Rule 1 (Implicit \"not X, it's Y\" binary frame).",
-    "\"you haven't bought security—you've automated panic.\" — Trips Rule 1 (\"not X, but Y\" structural tell).",
-    "\"Does your organization require a verified human sign-off before taking action on an AI alert?\" — Trips Rule 13 (Ending on a generic engagement question)."
-  ],
-  "headline": "How a canceled AI alert put students at gunpoint",
+  "source_credit": "architectlabs.com",
+  "source_tag": "via architectlabs.com",
+  "template": "dark_accent",
+  "photo_file_id": "AgACAgUAAxkDAAIBJmsBbs1Vfh0MnvwjkGdGch4TRIlKAAKfGWsbscIQVKIrfG4URRVPAQADAgADeQADPQQ",
+  "text": "An AI agent swarm just designed an entire CPU architecture from the ground up.\n\nIt hit a 4.59x performance-per-watt multiple over a modern superscalar core.\n\nThe speed is the least interesting part.\n\nMainstream CPUs waste half their energy keeping track of shared memory.\n\nBecause normal programming languages hide how program parts depend on each other, a chip has to assume the worst case at runtime.\n\nFrostbite takes a different route by using interaction nets instead.\n\nEvery step in an interaction net is local, every dependency is explicit, and every value has exactly one owner.\n\nThat removes the need for big cache hierarchies and coherence protocols that cost area and power.\n\nThe creators used AI agent swarms to co-design the compiler, instruction set, architecture, and RTL together.\n\nThe systems built a new specification language called ASL to keep everything verified against a formal contract, which ultimately lowered down to over 800k lines of Lean.\n\nWhen the team evaluated it across 25 workloads, including 15 held out until the final evaluation, the chip delivered a step-function increase in performance per watt and performance per area.\n\nMy read: chip design has been bottlenecked by human language and shared state for decades.\n\nRemoving both lets software define the hardware directly.\n\nHow would your current software change if memory dependencies were explicit by default?\n\nSource: architectlabs.com",
+  "alt_openings": "1. Bare number first\n4.59x. That is the performance-per-watt multiple a new AI-designed CPU just hit over a standard core.\nPrefer when the metric itself is so large it instantly stops the scroll.\n\n2. Corrective\nTraditional CPU design has stagnated since the early 2000s because shared memory forces chips to waste power on cache hierarchies.\nPrefer when you need to challenge a widely held assumption about hardware limits before introducing the solution.\n\n3. Your X\nYour next processor may be designed entirely by agent swarms that skip human English specs and write their own formal contracts.\nPrefer when you want to make a systemic industry shift feel personal to the reader's future stack.\n\nPick: The tool-as-subject opening (\"An AI agent swarm just designed an entire CPU architecture from the ground up.\") because it leads with the most active, surprising agent in the story and immediately hooks readers who wouldn't normally care about CPU instruction sets.",
+  "voice_score": 6,
+  "firewall_notes": [],
+  "headline": "How AI agents designed a breakthrough CPU architecture",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-20.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-21.png"
 }
