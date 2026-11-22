@@ -1,62 +1,47 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-21",
-  "created_at": "2026-11-21T15:36:59.490894+05:30",
+  "date": "2026-11-22",
+  "created_at": "2026-11-22T15:40:00.812720+05:30",
   "candidate": {
-    "id": "hn:50572503",
-    "source": "hackernews",
-    "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-    "url": "https://architectlabs.com/blog/frostbite",
-    "summary": "",
-    "score": 646.0,
-    "created_at": "2026-11-20T10:01:41+00:00",
-    "raw_text": "",
+    "id": "news:c4e40287f1a8",
+    "source": "news",
+    "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+    "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+    "summary": "OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude appeared first on The Decoder .",
+    "score": 75.0,
+    "created_at": "2026-11-22T09:41:37+00:00",
+    "raw_text": "OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude appeared first on The Decoder .",
     "extra": {
-      "discussion_url": "https://news.ycombinator.com/item?id=50572503",
-      "num_comments": 333,
+      "outlet": "The Decoder",
+      "weight": 0.75,
       "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "hn:50572503",
+      "id": "hn:50596511",
       "source": "hackernews",
-      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-      "url": "https://architectlabs.com/blog/frostbite",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
       "summary": "",
-      "score": 646.0,
-      "created_at": "2026-11-20T10:01:41+00:00",
+      "score": 83.0,
+      "created_at": "2026-11-22T05:11:43+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50572503",
-        "num_comments": 333,
+        "discussion_url": "https://news.ycombinator.com/item?id=50596511",
+        "num_comments": 18,
         "coverage": 0
       }
     },
     {
-      "id": "news:3ea993db7e3c",
+      "id": "news:c4e40287f1a8",
       "source": "news",
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "score": 100.0,
-      "created_at": "2026-11-20T10:00:00+00:00",
-      "raw_text": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:e8d8b83c69d5",
-      "source": "news",
-      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
-      "summary": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available. The article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder .",
+      "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+      "summary": "OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude appeared first on The Decoder .",
       "score": 75.0,
-      "created_at": "2026-11-21T09:17:24+00:00",
-      "raw_text": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available. The article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder .",
+      "created_at": "2026-11-22T09:41:37+00:00",
+      "raw_text": "OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude appeared first on The Decoder .",
       "extra": {
         "outlet": "The Decoder",
         "weight": 0.75,
@@ -64,121 +49,77 @@
       }
     },
     {
-      "id": "hn:50577265",
+      "id": "hn:50593481",
       "source": "hackernews",
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "url": "https://arxiv.org/abs/2611.21885",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "url": "https://www.pandex.io",
       "summary": "",
-      "score": 409.0,
-      "created_at": "2026-11-20T16:29:06+00:00",
+      "score": 93.0,
+      "created_at": "2026-11-21T20:47:41+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50577265",
-        "num_comments": 119,
+        "discussion_url": "https://news.ycombinator.com/item?id=50593481",
+        "num_comments": 21,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50572348",
+      "id": "hn:50586292",
       "source": "hackernews",
-      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
-      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
       "summary": "",
-      "score": 552.0,
-      "created_at": "2026-11-20T09:42:16+00:00",
+      "score": 164.0,
+      "created_at": "2026-11-21T05:38:01+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50572348",
-        "num_comments": 322,
+        "discussion_url": "https://news.ycombinator.com/item?id=50586292",
+        "num_comments": 51,
         "coverage": 0
       }
     },
     {
-      "id": "news:d15c45643214",
+      "id": "news:8d54d4add32f",
       "source": "news",
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "score": 100.0,
-      "created_at": "2026-11-20T00:00:00+00:00",
-      "raw_text": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:f4784c304003",
-      "source": "news",
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "score": 100.0,
-      "created_at": "2026-11-20T00:00:00+00:00",
-      "raw_text": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50577901",
-      "source": "hackernews",
-      "title": "Google workers tell their employer not to punish schools that don't want AI",
-      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-      "summary": "",
-      "score": 276.0,
-      "created_at": "2026-11-20T16:59:27+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50577901",
-        "num_comments": 214,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:a7d20c80270e",
-      "source": "news",
-      "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
-      "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
-      "summary": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
       "score": 80.0,
-      "created_at": "2026-11-20T23:24:02+00:00",
-      "raw_text": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
+      "created_at": "2026-11-21T21:37:10+00:00",
+      "raw_text": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
       "extra": {
-        "outlet": "Wired",
+        "outlet": "TechCrunch",
         "weight": 0.8,
         "coverage": 0
       }
     },
     {
-      "id": "news:01449c61c8b8",
+      "id": "news:127326b87b53",
       "source": "news",
-      "title": "The most misunderstood graph in AI just got a major update",
-      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
-      "score": 85.0,
-      "created_at": "2026-11-20T18:15:15+00:00",
-      "raw_text": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely shared— and widely misinterpreted , owing to the complexity of the measures it used. METR evaluated models by having them attempt a large suite of tasks, each of which had also been completed by humans. Each task’s difficulty was scored by how long it took the human testers to finish it—and then models were rated according to the length of the tasks that they could complete. That plot showed that AI systems were rapidly improving—every four months, the length of the tasks that frontier models could successfully complete doubled. The updated plot adds more tasks—some that are estimated to take humans far longer than those in the original suite, and others that are more open-ended. One of the biggest questions in AI right now is the extent to which progress on “verifiable” tasks—where it’s possible to check automatically whether an AI system has succeeded or failed—carry over into tasks on which success or failure is harder to measure. We know how to teach neural networks how to do verifiable tasks: Researchers have the systems attempt one many times, strengthen the neural pathways that contribute to success, and weaken the pathways that contribute to failures. That’s why AI systems have become so good at coding and math, two domains where it’s possible to determine automatically whether a solution does or doesn’t work. It’s much harder to apply this technique, known as reinforcement learning, to tasks where success is less well defined or takes longer to ascertain—such as choosing a new research direction. For the same reason, it’s tough to evaluate AI performance on these tasks, so METR’s original time horizon plot didn’t include any of them. But it’s precisely this type of task that will prove essential if AI systems are to automate research and development. And AI research and development is an especially hot topic right now. Parts of the AI community are still reeling from a different, heavily redacted METR report from earlier this month, which claimed that AI might be speeding up the pace of AI progress at Anthropic by a factor of two. That report sparked fears that the company (which just had a blockbuster IPO) could soon achieve full recursive self-improvement, a regime in which AI systems autonomously design their own successors with no human involvement. METR researchers have worked to make sure their new suite of tasks includes some of the fuzzier, judgment-laden ones that could be most relevant to AI research and development. In one task, they ask models to design new AI evaluations that METR could use in its research and then have human METR employees score the results. Even though the most advanced models ar…",
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "score": 80.0,
+      "created_at": "2026-11-21T21:07:42+00:00",
+      "raw_text": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
       "extra": {
-        "outlet": "MIT Technology Review",
-        "weight": 0.85,
+        "outlet": "TechCrunch",
+        "weight": 0.8,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2611.24738",
-      "source": "huggingface",
-      "title": "Jeveration: System One Models Now Generate",
-      "url": "https://huggingface.co/papers/2611.24738",
-      "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent…",
-      "score": 148.0,
-      "created_at": "2026-11-19T00:00:00.000Z",
-      "raw_text": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
+      "id": "news:234da3fc1867",
+      "source": "news",
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]",
+      "score": 80.0,
+      "created_at": "2026-11-21T20:03:37+00:00",
+      "raw_text": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR : Before the negotiations got underway, the International Committee of the Red Cross, the guardian of the Geneva Conventions, said it was urgent for legally binding rules to be drafted within a year. That call was backed by the U.N. secretary-general and by Pope Leo. The compromise reached was that countries would inste … Read the full story at The Verge.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.24738",
+        "outlet": "The Verge",
+        "weight": 0.8,
         "coverage": 0
       }
     },
@@ -188,27 +129,85 @@
       "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
       "url": "https://huggingface.co/papers/2611.21373",
       "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does not directly improve the forensic capabilities of fixed experts. We introduce We…",
-      "score": 51.0,
+      "score": 54.0,
       "created_at": "2026-11-20T00:00:00.000Z",
       "raw_text": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does not directly improve the forensic capabilities of fixed experts. We introduce WeVisForensics, an agentic framework in which a main investigator agent coordinates a self-evolving library of forensic inspector sub-agents spanning visual and audio cues. The investigator learns which artifact type to examine, over which window, and when to conclude, and these interactions provide shared feedback for both levels of agents. Our dual-timescale policy optimization strategy, DTPO, closes this loop through fast reinforcement learning of the investigator and slower refinement of the inspectors, guided by annotated artifact intervals, to report subtle artifacts they once dismissed. Furthermore, we curate ForenCue-30K, combining role-specific forensic annotations and interaction trajectories to supervise individual inspections and their coordination, with an accompanying reinforcement-learning pool. Experiments show that WeVisForensics averages 95.2% detection accuracy across in-domain, out-of-domain and agentic benchmarks, 9.0% above the strongest prior detector, while grounding its verdicts in localized evidence.",
       "extra": {
         "arxiv_url": "https://arxiv.org/abs/2611.21373",
         "coverage": 0
       }
+    },
+    {
+      "id": "hf:2611.26444",
+      "source": "huggingface",
+      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2611.26444",
+      "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a fa…",
+      "score": 52.0,
+      "created_at": "2026-11-20T00:00:00.000Z",
+      "raw_text": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains. Each task has three difficulty levels and two scene settings (Clean and Random), yielding 180 configurations. The tasks form three views: Mind tests decisions based on past observations, Act tests precise and timely execution, and Mind2Act combines both in closed-loop tasks where action outcomes guide later decisions. Comparing the three views shows whether a system lacks a capability or fails to compose capabilities it already has. A diagnosis harness further attributes the failed episodes of three representative systems to Mind, Act, or their composition and summarizes each system in a profile card. Our evaluation of multimodal agents, vision-language-action models (VLAs), and world-action models (WAMs) shows that competence in a single view does not carry over to Mind2Act tasks. Even the strongest agent succeeds in 52.7% of Mind and 39.0% of Act episodes but in only 12.0% of Mind2Act episodes. The strongest agent retains task state but struggles with sustained contact, whereas end-to-end policies execute practiced motions but retain little task state. These findings point to composing reasoning and execution through environmental feedback as the main open problem.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.26444",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:01945f6a907c",
+      "source": "news",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "score": 80.0,
+      "created_at": "2026-11-21T17:00:00+00:00",
+      "raw_text": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:89298d3b7fb0",
+      "source": "news",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "score": 80.0,
+      "created_at": "2026-11-21T16:00:00+00:00",
+      "raw_text": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.26409",
+      "source": "huggingface",
+      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "url": "https://huggingface.co/papers/2611.26409",
+      "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm, seamlessly supporting both a non-thinking instruct mode for fast, direct respons…",
+      "score": 45.0,
+      "created_at": "2026-11-20T00:00:00.000Z",
+      "raw_text": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm, seamlessly supporting both a non-thinking instruct mode for fast, direct responses and a thinking mode for explicit step-by-step reasoning. The models are trained on a large-scale multimodal corpus of approximately 1.2 trillion tokens through progressive pre-training and a multi-stage post-training pipeline incorporating multi-teacher OPD, anti-repetition MrDPO, and specialist RL. Evaluated across more than 120 benchmarks, WeMM-Video demonstrates superior performance in omni-modal video understanding and reasoning, while maintaining highly competitive capabilities across general audio, silent video, image, and text tasks. Specifically, in omni-modal video evaluations, our flagship WeMM-Video-35B-A3B establishes a new open-source state of the art, substantially outperforming proprietary models such as Qwen3.5-Omni-Flash and Seed2.0-Mini-0428 while narrowing the gap with the strong Gemini-3.0-Flash, and our compact WeMM-Video-9B surpasses the larger open-source Qwen3-Omni-30B-A3B-Instruct. We publicly release the WeMM-Video family along with our evaluation and reproduction pipeline to foster further research and development in the open-source community.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.26409",
+        "coverage": 0
+      }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Frostbite: A new CPU architecture discovered, designed and verified by AI\n\nArticle text (excerpt):\nIn our previous post, Redwood , we showed that given an architecture, our AI systems could implement, verify, and deploy an inference accelerator in record time. However, similar to other scientific domains, we believe that AI systems, given the correct freedom and guardrails, can co-design software and hardware together, making optimizations across the stack and opening a design space so large it was previously inaccessible. We set out to answer the question: “Could our AI systems & tools lead to a novel hardware discovery that radically outperforms human-made designs?”\nToday, we're introducing Frostbite, a general-purpose CPU with a new instruction set built from the ground up. Frostbite exploits the properties of interaction nets, namely that every step is local, every dependency is explicit, and every value has exactly one owner, to reach a step-function gain in CPU performance that has long stagnated. On a set of 25 initially chosen workloads, including 15 held out until the final evaluation, we achieved a 4.59x performance-per-watt multiple when compared to a modern, silicon-proven superscalar (dual-issue, in-order) CPU core.\nOur AI systems autonomously iterated over the compiler, ISA, architecture, microarchitecture, RTL, verification, and final GDS. When we took a closer look at the discovered architectural primitives, we were surprised to find novel hardware implementations and runtime features that would have otherwise been difficult to architect. In spite of stagnation in CPU core improvement, we were able to take a workload concept all the way to a final GDS, and prove a step-function increase in perf/W and perf/area. We believe that as AI systems become more capable, every class of chip we know today, from datacenter-grade CPUs, to AI accelerators, to networking switches and NICs, will go through similar fundamental architectural shifts.\nMainstream programming languages, when compiled for general-purpose CPUs, hide the dependencies between the parts of a program. Any piece of code may read or write any variable through a shared, mutable state, and so modern CPU hardware assumes the worst case and rediscovers, at runtime, which instructions actually depend on each other. Moreover, single-core CPU performance has largely stalled since the early 2000s, pushing people towards large multicore CPUs such as Intel Xeon, AMD Zen, and NVIDIA Vera. This forces CPUs to maintain the illusion that every core sees the same memory, and keeping that illusion consistent and performant requires deep cache hierarchies and coherence protocols that cost area and power, and scale poorly.\nInteraction nets 1 take a different approach. A program is a graph of nodes, and computation happens by rewriting pairs of nodes that are connected through their ports. Every rewrite only touches a small, local part of the graph. Because each node has exactly one principal port, no two of these active pairs ever overlap, so they can be rewritten in any order, or all at once, and the result is always the same. Interaction nets are also linear: every value is used exactly once, so there is no shared mutable state for the hardware to guard. Languages such as Vine 2 compile ordinary-looking programs directly to interaction nets. For an excellent introduction to interaction nets and why they suit hardware, we highly recommend Tendrils' “On Interaction Nets.” 3\nFig. 1 shows the difference on a small search problem, placing five queens on a five-by-five board. The sequential program visits one candidate at a time. The interaction net exposes all of its independent work: on average, about twelve interactions are ready to run at every step. Nothing about the program was rewritten to get this parallelism; the dependencies were simply never thrown away.\nIn theory, this should have two large advantages. The first is multithreading for free: rather than varying levels of coarse and fine-grained parallelism, parallelism comes straight from the program. No threads, locks, or race conditions, and none of the out-of-order machinery a conventional core uses to dig it back out. The second is that, since every value has one owner and every step is local, data can live in small local memories next to where it is used. That removes much of the area and power a conventional chip spends on large caching subsystems, and much of the system-level complexity of keeping those caches coherent.\nFrostbite was designed with zero architectural priors. We followed the process below, riding multiple agent swarms along the way.\nTo begin architectural exploration, we had to establish the set of workloads Frostbite should do exceedingly well in. We decided to look at different ways a program could expose its work: many independent pieces at once, rounds of parallel work, long sequential chains, data-dependent branches, and recursion. Under each category, we created a search set and a held-out eval set to evaluate the final Frostbite on, ensuring the design generalized to programs it was never tuned on. The kernels for FFT, radixsort, and LU follow the implementation in the SPLASH-2 benchmark, although 64 times smaller, because at regular sizes they are not suitable for exploratory work.\nLater, we added five more practical workloads to the held-out set: a Kalman filter, PCA, finite element analysis, an LU solve, and LZ4 decompression.\nAgents synthesized research papers and existing benchmarks, and built Python models to trade off high-level architectural ideas against each other, before narrowing to a single architectural concept. The output of this exploration was a 141-page PDF covering the proposed programming model, the runtime, and the high-level blocks of the chip. This was nowhere near the final architecture, but rather a starting point where all the prior findings, high-level requirements, constraints, experiments, and runtime traits were described. Once the first architectural iteration completed (first RTL generation), this was deleted, since many of the numbers and estimates were well off what was physically possible.\nOnce the architecture candidate was selected, our system moved on to building the full software model of the chip. Building software models is essential when exploring an architectural space, as they allow fast iteration between the workloads, the ISA, and the abstracted view of the hardware. Whether we build a CPU, GPU, NPU, or networking switch, mastering this iteration loop allows the fastest exploration of the design space within a finite time. To do this repeatedly, we designed a new in-house specification language, ASL, and wrote Frostbite's system model “Arcmodel” in it. ASL supports machine-checkable translations and refinements between RTL, system models, UVM, SVA, and more, all against a formally backed specification. Its power and performance estimates are accurate to within 1–5%, it runs roughly 200x faster than RTL simulation, and it is formally verifiable through “contracts.”\nIn every silicon program to date, human architects have written many English PDFs before handing off to an implementation team and a verification team. However, natural language cannot capture every detail an implementation needs precisely and unambiguously, and it cannot guarantee that every agent hallucination is caught while the ASIC is being designed and verified. Natural language was never built for this, and in a world where AI writes the specification, we opt for a formal, machine-checkable specification language instead.\nASL can formally describe both high-level, protocol-like behavior, such as out-of-order handling, CSR programming, memory ordering, and coherency, and low-level details, such as pipelines, arbitration mechanisms, and compute transfer functions. This lets the model leave the specification open-ended where that is useful and constrain it exactly where a precise behavior is required. ASL also translates natively to Lean, 4 which we use for all theorem proving when checking AI outputs across RTL, UVM, C, SVA, and more. We will discuss ASL in more detail in a future post.\nThroughout the entire development of Frostbite, our AI iterates on the Frostbite ISA, Arcmodel, Design, and Verification tightly together, maintaining the ASL Contract as the source of truth. We've found that having a single, provable source of truth prevents a large class of bugs, silly mistakes, and reward-hacking instances when deploying large agent swarms. Ultimately, this common language allows the models to work across the stack nimbly, reflecting the changes propagated from the workload down to the final hardware. By the end, our Frostbite ASL lowered down to 800k+ lines of Lean.\nBecause ASL is a formally backed specification, designing and verifying the RTL derived from it is the fastest part of the entire Frostbite process. Arcmodel, however, is not physically aware, so its power and performance estimates at first diverge from the true numbers of the timing-converged, synthesis-clean RTL,\n\nA top reader comment on Hacker News (opinion, not fact):\nMy prediction: In the AI/AGI/ASI era, the 4 most valuable things will be: - Model - Compute (chips/energy) - Manufacturers - Materials You can already see it beginning at the chip design stage. If AI makes it so that it takes 2 months to design a chip instead of 2 years, then there will way more chips designed to accelerate applications that previously weren't viable economically. Therefore, it's manufacturers like TSMC that will become more valuable. There will be more chip companies, more designs, more demand. And in order to make things, you need materials. In order to design the chip, you need the model and AI hardware.",
+  "context": "Title: GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude\n\nText:\nOpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude appeared first on The Decoder .\n\nArticle text (excerpt):\nAn Artificial Analysis evaluation shows how much OpenAI's communication style has changed. A comparison with Anthropic reveals sharp differences.\nOpenAI's GPT-6.2 Astra and Sol give much shorter answers, get to the point faster, and impose less structure on their responses than their predecessors. At the same time, Artificial Analysis rates their tendency to admit uncertainty much lower.\nAstra's average answer length dropped from 352 to 210 words, a 40 percent decrease. Sol went from 337 to 223 words, down 34 percent. Both models also use far fewer headings and em dashes. Astra's average number of headings per answer fell from 1.99 to 0.11, and Sol's from 1.85 to 0.25.\nThe Organization Index dropped sharply too. Astra went from 70 to 11, Sol from 86 to 27. This index combines four traits rated by AI judges, including answer structure, clarity, and Answer First, which measures whether a model immediately addresses the actual question. On that last trait, Astra jumped from 49 to 89 and Sol from 64 to 87. Scores for Natural Sounding language also climbed, from 58 to 100 for Astra and from 54 to 79 for Sol.\nThe biggest change shows up in the Admits Uncertainty trait. Astra's score fell from 96 to 24, and Sol's from 98 to 51. Unlike the raw word counts, these personality scores are relative rankings on a scale from 1 to 100. They show how strongly a given trait shows up in one model compared to all other tested models. A score of 24 doesn't mean Astra only admits uncertainty in 24 percent of its answers. Artificial Analysis published the evaluation on LinkedIn and X .\nOur own comparison of all eight personality indexes shows clear gaps between OpenAI's latest models and Anthropic's Claude Fable 5.2 and Opus 5.5 . The indexes roll up 30 personality traits, each rated by AI judges based on model responses. All comparisons use the \"max\" model variants as listed by Artificial Analysis.\nAnthropic's models score 81 and 90 on the Transparency Index, well above Astra (41) and Sol (57). This index covers five traits: Admits Uncertainty, Truthful, Disclaims Assumptions, Flags Nuances, and Sycophantic. That last one is scored inversely, since less flattery counts as a positive. Anthropic's models also lead on Organization.\nOpus 5.5 stands out on the Informativeness Index with a score of 90, well ahead of the other three models. Its strongest individual traits include Information Dense and Evidence-Based reasoning.\nThe AA-PersonalityBench uses 900 English-language test questions that each model answers without a system prompt. A panel of three AI models evaluates anonymized answer pairs. For each comparison, one AI judge picks which answer shows the tested personality trait more strongly, or calls it a tie.\nFrom these evaluations, Artificial Analysis calculates scores for 30 individual personality traits, which feed into eight higher-level indexes. The index values from 1 to 100 reflect each model's relative position among all tested models.\nSeparately, Artificial Analysis measures 21 communication traits that are counted directly rather than rated by AI judges. These include average answer length and the number of headings and em dashes per answer.\nThe personality scores describe differences in communication style, not overall answer quality. A lower Transparency Index doesn't necessarily mean a model gives wrong answers more often.",
   "research_links": [],
-  "source_credit": "architectlabs.com",
-  "source_tag": "via architectlabs.com",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAIBJmsBbs1Vfh0MnvwjkGdGch4TRIlKAAKfGWsbscIQVKIrfG4URRVPAQADAgADeQADPQQ",
-  "text": "An AI agent swarm just designed an entire CPU architecture from the ground up.\n\nIt hit a 4.59x performance-per-watt multiple over a modern superscalar core.\n\nThe speed is the least interesting part.\n\nMainstream CPUs waste half their energy keeping track of shared memory.\n\nBecause normal programming languages hide how program parts depend on each other, a chip has to assume the worst case at runtime.\n\nFrostbite takes a different route by using interaction nets instead.\n\nEvery step in an interaction net is local, every dependency is explicit, and every value has exactly one owner.\n\nThat removes the need for big cache hierarchies and coherence protocols that cost area and power.\n\nThe creators used AI agent swarms to co-design the compiler, instruction set, architecture, and RTL together.\n\nThe systems built a new specification language called ASL to keep everything verified against a formal contract, which ultimately lowered down to over 800k lines of Lean.\n\nWhen the team evaluated it across 25 workloads, including 15 held out until the final evaluation, the chip delivered a step-function increase in performance per watt and performance per area.\n\nMy read: chip design has been bottlenecked by human language and shared state for decades.\n\nRemoving both lets software define the hardware directly.\n\nHow would your current software change if memory dependencies were explicit by default?\n\nSource: architectlabs.com",
-  "alt_openings": "1. Bare number first\n4.59x. That is the performance-per-watt multiple a new AI-designed CPU just hit over a standard core.\nPrefer when the metric itself is so large it instantly stops the scroll.\n\n2. Corrective\nTraditional CPU design has stagnated since the early 2000s because shared memory forces chips to waste power on cache hierarchies.\nPrefer when you need to challenge a widely held assumption about hardware limits before introducing the solution.\n\n3. Your X\nYour next processor may be designed entirely by agent swarms that skip human English specs and write their own formal contracts.\nPrefer when you want to make a systemic industry shift feel personal to the reader's future stack.\n\nPick: The tool-as-subject opening (\"An AI agent swarm just designed an entire CPU architecture from the ground up.\") because it leads with the most active, surprising agent in the story and immediately hooks readers who wouldn't normally care about CPU instruction sets.",
-  "voice_score": 6,
+  "source_credit": "The Decoder",
+  "source_tag": "via The Decoder",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAIBK2sCv8lVJ76lJ_IX2eP3ftrMqsplAAI9FGsb1FoYVIYFDag-oFxjAQADAgADeQADPQQ",
+  "text": "OpenAI's newest model cut its average response length by 40 percent.\n\nIts willingness to admit uncertainty dropped from 96 to 24 on the same test.\n\nThat trade-off changes how you should read its answers.\n\nArtificial Analysis evaluated OpenAI's Astra and Sol against Anthropic's Claude models across 900 test questions.\n\nThey measured communication style using a panel of three AI judges, scoring models on a relative scale from 1 to 100.\n\nOpenAI re-engineered how its models talk:\n• Astra's average answer length fell from 352 to 210 words\n• Its score for answering the question immediately jumped from 49 to 89\n• Its score for natural sounding language reached 100\n• Its score for admitting uncertainty dropped from 96 to 24\n\nThe model got faster and more direct.\n\nIt also stopped telling you when it is guessing.\n\nAnthropic took a different path. Claude Opus 5.5 scored 90 on the Transparency Index, while Astra scored 41.\n\nA lower transparency score does not mean a model makes more factual errors. It means it delivers uncertain answers with the exact same confidence as proven facts.\n\nMy read: concise answers feel better in the chat box, but hidden doubt is a dangerous trade-off for professional work.\n\nWould you trade model honesty for conciseness?\n\nSource: The Decoder",
+  "alt_openings": "Alternate 1 (Bare number first)\nFrom 96 down to 24.\nOpenAI's Astra model drastically cut its willingness to admit uncertainty to answer questions faster.\nWhen to prefer: Use when writing for technical leaders or analyst audiences who stop scrolling for raw performance metric drops.\n\nAlternate 2 (Corrective)\nShorter AI answers do not mean better answers.\nOpenAI's Astra cut response length by 40 percent, but its transparency score plummeted.\nWhen to prefer: Use when target readers are executives pushing their teams to adopt fast tools without auditing risk.\n\nAlternate 3 (Your X)\nYour next AI summary might sound far more confident than it should.\nOpenAI's newest models answer faster, but they score dramatically lower on admitting doubt.\nWhen to prefer: Use for general business professionals who rely on AI for daily decision-making and need a personal risk hook.\n\nPick: Alternate 3 (Your X). It translates abstract benchmark scores into a direct personal consequence before the reader hits \"see more.\"",
+  "voice_score": 5,
   "firewall_notes": [],
-  "headline": "How AI agents designed a breakthrough CPU architecture",
+  "headline": "OpenAI got faster but stopped admitting uncertainty",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-21.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-22.png"
 }
