@@ -1,135 +1,76 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-23",
-  "created_at": "2026-11-23T16:37:51.557320+05:30",
+  "date": "2026-11-24",
+  "created_at": "2026-11-24T18:22:21.502763+05:30",
   "candidate": {
-    "id": "news:106e5d1cffec",
+    "id": "news:671fc88c0bb2",
     "source": "news",
-    "title": "Meta Muse can now do your Black Friday shopping at Walmart",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-    "summary": "Walmart will now let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products for you without sharing your purchase history, […]",
-    "score": 80.0,
-    "created_at": "2026-11-23T11:00:00+00:00",
-    "raw_text": "Muse can find Walmart’s Black Friday deals so that you don’t have to. | Image: Walmart Walmart will now let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month , which helps AI agents find relevant products for you without sharing your purchase history, according to Walmart. Muse can make purchases through Walmart's \"Agent Profiles,\" which provide a dedicated space for agent activity within your Walmart customer account. These profiles also allow you to set spending limits, approve purchases, and check the purchase history of everything bought by Muse. While other onl … Read the full story at The Verge.",
+    "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
+    "url": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
+    "summary": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .",
+    "score": 75.0,
+    "created_at": "2026-11-24T11:26:23+00:00",
+    "raw_text": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .",
     "extra": {
-      "outlet": "The Verge",
-      "weight": 0.8,
-      "coverage": 0
+      "outlet": "The Decoder",
+      "weight": 0.75,
+      "coverage": 2
     }
   },
   "shortlist": [
     {
-      "id": "hf:2611.27193",
-      "source": "huggingface",
-      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
-      "url": "https://huggingface.co/papers/2611.27193",
-      "summary": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope. We reveal a mixing trade-off: when under-mixed residual matrices stay close to the vertices of the Birkhoff polytope, hyper-connections will degenerate into…",
-      "score": 73.0,
-      "created_at": "2026-11-23T00:00:00.000Z",
-      "raw_text": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope. We reveal a mixing trade-off: when under-mixed residual matrices stay close to the vertices of the Birkhoff polytope, hyper-connections will degenerate into a set of nearly independent streams; when over-mixed residual matrices are concentrated around the uniform barycenter of the polytope, streams will become less distinguishable from each other. We theoretically validate our findings by bounding the cumulative residual mixing, stream difference and gradient difference of mixing coefficients across layers. Motivated by these findings, we propose Contraction for Manifold-Constrained Hyper-Connections (cmHC), an exact doubly stochastic method which geometrically contracts the Birkhoff polytope toward its interior. This contraction mitigates under-mixing by forcing the residual matrices to explore deeper into the polytope, with a provable stream mixing bound and no new parameterization. Moreover, we apply a moderate contraction at the shallow layers to prevent over-mixing, enabling stable gradient propagation on extremely large-scale model pretraining. Extensive experiments across dense and mixture-of-experts models at various parameter scales demonstrate the effectiveness and scalability of cmHC. We also develop fused operators for cmHC on Ascend NPUs, reducing hyper-connection execution latency by up to 44.8%.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.27193",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:106e5d1cffec",
+      "id": "news:15c28179b2dc",
       "source": "news",
-      "title": "Meta Muse can now do your Black Friday shopping at Walmart",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-      "summary": "Walmart will now let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products for you without sharing your purchase history, […]",
+      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended […]",
       "score": 80.0,
-      "created_at": "2026-11-23T11:00:00+00:00",
-      "raw_text": "Muse can find Walmart’s Black Friday deals so that you don’t have to. | Image: Walmart Walmart will now let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month , which helps AI agents find relevant products for you without sharing your purchase history, according to Walmart. Muse can make purchases through Walmart's \"Agent Profiles,\" which provide a dedicated space for agent activity within your Walmart customer account. These profiles also allow you to set spending limits, approve purchases, and check the purchase history of everything bought by Muse. While other onl … Read the full story at The Verge.",
+      "created_at": "2026-11-23T22:10:32+00:00",
+      "raw_text": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended with Huang’s resignation , and Nvidia CFO Colette Kress was installed as the new interim CEO. And then… Huang was back. In recent years, Nvidia has become a key part of the Trump administration’s AI push, a central figure in negotiations over potential Chinese access to cutting-edge AI hardware, and a company that has used its now $4 trillion-plus market cap to finance other AI companies. Saying it received input “from senior levels of the United States government,” Nvidia’s board announced his return as CEO on November 23rd, less than two weeks after his resignation. Follow along below for all of the latest updates. Trump engineered a risky comeback for Jensen Huang Welcome to elite impunity, Jensen Huang Here’s Trump discussing the Jensen Huang situation on TV for 10 minutes. Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return How Jensen Huang ended up as Nvidia CEO again Jensen Huang has already come back to Nvidia’s offices. White House brags that Trump was ‘totally involved’ in getting Jensen reinstated Tech leaders are celebrating Jensen Huang’s return Jensen Huang is back as Nvidia’s CEO Trump says reinstating Jensen Huang “would be the best thing” for Nvidia and the US. Arm CEO Rene Haas isn’t jumping ship to lead Nvidia. More details emerge regarding the extent of Alice Huang’s alleged spying. Nvidia’s stock closes the week down 14 percent, as Reuters reports the SEC is looking into its “accounting practices.” Jensen Huang reportedly “terrorized” Nvidia employees. California’s attorney general subpoenaed Nvidia. A brief history of Nvidia’s recent stock fluctuations Trump administration approved more than 879,000 AI chip sales to Chinese companies, per new disclosure. Inside the Times’ investigation into Jensen. ‘Nvidia could end world hunger or provide clean water for everyone, now that it’s making over $200 billion in pure profit a year.’ Elon Musk on Jensen Huang’s departure: “It’s like kicking Michael Jordan off your team when you’re on a winning streak.” Nvidia’s rise, visualized One potential Nvidia CEO candidate? Arm’s CEO. What is Nvidia without AI’s sugar daddy in charge? Nvidia isn’t selling any more AI chips to China Read everything that Nvidia’s board chair had to say about Jensen Huang Nvidia says it does not intend to reinstate Jensen Huang as CEO The SEC has reportedly opened an investigation into Nvidia. Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing The DOJ says it’s investigating Megaspeed Jensen Huang says he’s willing to return as Nvidia CEO Jensen Huang will testify before lawmakers on December 1st. Oh…",
       "extra": {
         "outlet": "The Verge",
         "weight": 0.8,
-        "coverage": 0
+        "coverage": 3
       }
     },
     {
-      "id": "news:c82dcfbd0de1",
+      "id": "news:671fc88c0bb2",
       "source": "news",
-      "title": "States Sue SpaceX Over Grok Deepfakes",
-      "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
-      "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
-      "score": 80.0,
-      "created_at": "2026-11-23T11:00:00+00:00",
-      "raw_text": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
+      "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
+      "url": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
+      "summary": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .",
+      "score": 75.0,
+      "created_at": "2026-11-24T11:26:23+00:00",
+      "raw_text": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .",
       "extra": {
-        "outlet": "Wired",
-        "weight": 0.8,
-        "coverage": 0
+        "outlet": "The Decoder",
+        "weight": 0.75,
+        "coverage": 2
       }
     },
     {
-      "id": "news:770ea247b249",
-      "source": "news",
-      "title": "Goodbye, World: The End of Programmers",
-      "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
-      "summary": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding.",
-      "score": 80.0,
-      "created_at": "2026-11-23T10:00:00+00:00",
-      "raw_text": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding.",
-      "extra": {
-        "outlet": "Wired",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.27963",
+      "id": "hf:2611.29897",
       "source": "huggingface",
-      "title": "Non-penetrating World Models",
-      "url": "https://huggingface.co/papers/2611.27963",
-      "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information needed to predict such violations. We find that the hidden states of diffusion transformers (DiTs) c…",
-      "score": 44.0,
-      "created_at": "2026-11-23T00:00:00.000Z",
-      "raw_text": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information needed to predict such violations. We find that the hidden states of diffusion transformers (DiTs) can predict whether a candidate action will penetrate an obstacle. Building on this, we introduce NoPeWorld, a lightweight framework that detects and prevents penetration. Specifically, we train a small prediction head on top of a frozen DiT's hidden states to read out if a candidate action is safe or not. Unsafe actions are then replaced with safe ones that best preserve the original intent. Despite its simplicity, NoPeWorld substantially reduces the physical violation rate, averaged over six video world models, from 74% to 16%. Remarkably, our method shows zero-shot generalization to open-domain imagery, third-person viewpoints, and moving obstacles. We publicly release our code, the NoPeBench benchmark, and model weights. Project Page: https://nopeworld.github.io .",
+      "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+      "url": "https://huggingface.co/papers/2611.29897",
+      "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates lo…",
+      "score": 131.0,
+      "created_at": "2026-11-24T00:00:00.000Z",
+      "raw_text": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates local attention, resumable recurrent states, and persistent content memory (PCM) for long-horizon controllable motion generation. PCM transforms compressed motion history from Mamba recurrent states, together with state changes and text-conditioned features, into dynamically updated content slots accessible to local attention. To enable efficient inference, we further develop an execution scheme tailored to this architecture, combining CUDA Graph replay, fused kernels, and execution-flow simplification while preserving the canonical history update. Evaluations on retargeted HiPHI demonstrate accurate terminal control over rollouts of up to 39.52 s, while short-horizon comparisons on BONES Seed and retargeted HumanML3D show that the model also retains strong spatial control and text-motion matching. On an RTX 4090, the optimized execution reduces median complete-window latency from 1685.35 to 276.14 ms, achieving a median paired speedup of 6.138times while preserving identical outputs and committed states in the tested rollouts. Moreover, we conduct extensive real-world evaluation on the Unitree G1, demonstrating sequential text-guided action composition, expressive motion, and interactive locomotion through keyboard and mouse control.",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.27963",
+        "arxiv_url": "https://arxiv.org/abs/2611.29897",
         "coverage": 0
       }
     },
     {
-      "id": "hn:50603845",
-      "source": "hackernews",
-      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "summary": "",
-      "score": 536.0,
-      "created_at": "2026-11-22T21:01:16+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50603845",
-        "num_comments": 225,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50597612",
-      "source": "hackernews",
-      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-      "summary": "",
-      "score": 975.0,
-      "created_at": "2026-11-22T08:57:34+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50597612",
-        "num_comments": 957,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:de5cd1a6d51d",
+      "id": "news:1d0c151fefed",
       "source": "news",
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
       "score": 100.0,
-      "created_at": "2026-11-22T00:00:00+00:00",
-      "raw_text": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "created_at": "2026-11-23T21:20:00+00:00",
+      "raw_text": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
       "extra": {
         "outlet": "OpenAI",
         "weight": 1.0,
@@ -137,83 +78,124 @@
       }
     },
     {
-      "id": "hf:2611.24636",
-      "source": "huggingface",
-      "title": "Clover-35B-A3B-Preview Technical Report",
-      "url": "https://huggingface.co/papers/2611.24636",
-      "summary": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block. Historical memory readout competes with current-block tokens in a shared softmax, with learnable block-size calibration an…",
-      "score": 33.0,
-      "created_at": "2026-11-23T00:00:00.000Z",
-      "raw_text": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block. Historical memory readout competes with current-block tokens in a shared softmax, with learnable block-size calibration and a separate, zero-initialized right-context convolution branch. Clover leads the seven evaluated agent metrics, including 73.6 on SWE-bench Verified and 51.7 on Terminal-Bench 2.1. On internal agent workloads, it reaches a reported generation speed of 680 tokens/s using one NVIDIA GB300 GPU at BF16 precision and batch size one. We organize the evaluation around model quality, drafting and verification costs, and deployment under constrained memory. We also describe a decision-model variant that generates answers to related questions in one denoising pass. On an internal set of 500 groups, joint prediction raises question accuracy from 90.37% to 93.88% and all-correct group accuracy from 65.4% to 77.0%.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.24636",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:04504f1c4726",
+      "id": "news:786a4f32021c",
       "source": "news",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "summary": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok AI features. The complaint filed in Virginia accuses Musk of willfully […]",
       "score": 80.0,
-      "created_at": "2026-11-23T01:25:53+00:00",
-      "raw_text": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:e7090200216e",
-      "source": "news",
-      "title": "We haven’t seen the last of the major tech outages",
-      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
-      "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be […]",
-      "score": 80.0,
-      "created_at": "2026-11-22T22:48:02+00:00",
-      "raw_text": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase . But the consensus is that there are more to come . Director of National Intelligence Jay Clayton told CNN : \"The American people should be prepared for a great deal of investment in upgrading our systems; they should be prepared for investment in cybersecurity, and they should be prepared that any time there is a step change in technology, a step change in both compute and applications, there will be bumps in the road.\" Microsoft President Brad Smith issued a … Read the full story at The Verge.",
+      "created_at": "2026-11-23T18:26:47+00:00",
+      "raw_text": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok AI features. The complaint filed in Virginia accuses Musk of willfully ignoring growing concerns around AI-generated sexualized deepfakes, and \"instead saw a market opportunity for more profits,\" describing the weak safeguards around Grok as \"not a failure but a feature.\" \"Time and again, xAI and X told consumers they were being protected from ab … Read the full story at The Verge.",
       "extra": {
         "outlet": "The Verge",
         "weight": 0.8,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "news:21c67f84759f",
+      "source": "news",
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+      "score": 80.0,
+      "created_at": "2026-11-24T12:30:05+00:00",
+      "raw_text": "Amazon said AI agents recently found and exploited a zero-day vulnerability with no human oversight beyond a simple instruction to get root access on an East Asian university server. The agents were running on Cairn, an open source AI penetration-testing framework. The hackers, who provided prompts in simplified Chinese and configured the model to the Chinese Standard Time zone, gave the agents a list of IP addresses and the goal: “obtain shell access.” In short order, the agents discovered a zero-day in an open source medical imaging AI application running on one of the target servers. The agents then exploited the vulnerability and gained full control of the system. “These findings show that agentic offensive operations are already happening, and defenders should prepare for the speed and persistence these tools enable,” Amazon said . Read full article Comments",
+      "extra": {
+        "outlet": "Ars Technica",
+        "weight": 0.8,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50599762",
+      "id": "hn:50615308",
       "source": "hackernews",
-      "title": "Show HN: I built a game where you are an LLM's subagent",
-      "url": "https://github.com/gulivan/worker755",
+      "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+      "url": "https://twitter.com/ylecun/status/2124550037912920090",
       "summary": "",
-      "score": 322.0,
-      "created_at": "2026-11-22T13:56:58+00:00",
+      "score": 1785.0,
+      "created_at": "2026-11-23T17:07:26+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50599762",
-        "num_comments": 78,
+        "discussion_url": "https://news.ycombinator.com/item?id=50615308",
+        "num_comments": 1035,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:9dddeb89e408",
+      "source": "news",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "score": 100.0,
+      "created_at": "2026-11-23T16:59:40+00:00",
+      "raw_text": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "extra": {
+        "outlet": "Google DeepMind",
+        "weight": 1.0,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.31201",
+      "source": "huggingface",
+      "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+      "url": "https://huggingface.co/papers/2611.31201",
+      "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying frontier-model-as-policy harnesses. We investigate four components of the robot…",
+      "score": 84.0,
+      "created_at": "2026-11-24T00:00:00.000Z",
+      "raw_text": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying frontier-model-as-policy harnesses. We investigate four components of the robotic agentic loop, namely, prompting, planning, action execution, and tool use, and distill six empirical findings into a practical recipe. This recipe prioritizes interfaces that exploit the model's native visual reasoning and tool-use capabilities over handcrafted plans, skills, or action priors, and identifies effective choices for action representation, chunking, reasoning effort, visual observations, short multi-action sequences, and policy refinement. On RoboLab-120, Embo-Harness achieves an 83.3\\% success rate, outperforming the strongest reported baseline by 26.2 percentage points. It also succeeds in 15 of 20 zero-shot trials across four real-world manipulation tasks. Beyond performance, controlled interventions indicate that the studied model depends more strongly on accurate spatial target estimation than on explicit low-level joint or trajectory generation. These results provide both a practical recipe for building strong frontier-model-as-policy harnesses and a clearer account of the capabilities that drive their performance.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.31201",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.30013",
+      "source": "huggingface",
+      "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+      "url": "https://huggingface.co/papers/2611.30013",
+      "summary": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints. With large language models, we systematically compare t…",
+      "score": 56.0,
+      "created_at": "2026-11-24T00:00:00.000Z",
+      "raw_text": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints. With large language models, we systematically compare three common paradigms: specialized motion generation, video generation followed by motion recovery, and direct agent-driven generation. We analyze their control capabilities, cross-morphology adaptability, and generation costs. Guided by this comparison, we propose an Agentic Motion Framework in which an agent writes compact parametric skeleton and motion programs, and a deterministic executor performs rigging, kinematic solving, and geometric correction. Compact parameter control reduces generation overhead and improves rigging reliability and motion-control accuracy, providing practical guidance for deploying complex 3D motion generation.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.30013",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.30662",
+      "source": "huggingface",
+      "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+      "url": "https://huggingface.co/papers/2611.30662",
+      "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that progressively raises the proportion of e-commerce data within a diverse multimodal data mixture, followed by hy…",
+      "score": 54.0,
+      "created_at": "2026-11-24T00:00:00.000Z",
+      "raw_text": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that progressively raises the proportion of e-commerce data within a diverse multimodal data mixture, followed by hybrid-thinking post-training that combines on-policy distillation and reinforcement learning to support both non-thinking and thinking modes. For evaluation, we construct a comprehensive suite of 28 e-commerce benchmarks (23 in-house and five open-source) covering eight business scenarios and complement it with 64 public general-purpose benchmarks. On the e-commerce suite, WeMM-Ecom-35B-A3B surpasses substantially larger open-source flagship models, including Qwen3.8-Flash-Next, HY4, and DeepSeek-V4.1-Flash. On the general-purpose suite, every WeMM-Ecom model surpasses its similarly sized Qwen3.5 counterpart, with the lightweight variants (e.g., WeMM-Ecom-2B) showing clear advantages over leading lightweight models such as Qwen3.5-2B, MiniCPM-V-4.7-1B, and LFM3-VL-2B. Beyond benchmarks, WeMM-Ecom now powers hundreds of production use cases in WeChat, including catalog management, multimodal product search, and livestream commerce, serving billion-scale requests per day. We publicly release all model weights and detail our data curation, training recipe, and benchmark construction to facilitate future work on domain-specialized multimodal models. We have released the model weights and code to facilitate future research at https://github.com/Tencent/WeMM-Ecom.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.30662",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Meta Muse can now do your Black Friday shopping at Walmart\n\nText:\nMuse can find Walmart’s Black Friday deals so that you don’t have to. | Image: Walmart Walmart will now let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month , which helps AI agents find relevant products for you without sharing your purchase history, according to Walmart. Muse can make purchases through Walmart's \"Agent Profiles,\" which provide a dedicated space for agent activity within your Walmart customer account. These profiles also allow you to set spending limits, approve purchases, and check the purchase history of everything bought by Muse. While other onl … Read the full story at The Verge.\n\nArticle text (excerpt):\nThe Walmart Agent Gateway is now live with Muse support, with other apps and agents ‘on the way.’﻿\nThe Walmart Agent Gateway is now live with Muse support, with other apps and agents ‘on the way.’﻿\nWalmart will now let Meta’s Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month , which helps AI agents find relevant products for you without sharing your purchase history, according to Walmart.\nMuse can make purchases through Walmart’s “Agent Profiles,” which provide a dedicated space for agent activity within your Walmart customer account. These profiles also allow you to set spending limits, approve purchases, and check the purchase history of everything bought by Muse. While other online retailers like Amazon and eBay have blocked AI agents from browsing their platforms, Walmart says that support for Meta’s Muse is “just the beginning,” and that additional Walmart shopping experiences for other AI agents and apps are “on the way.”\nHere are Walmart’s instructions for shopping its website via Muse:\n1. Tell Muse what you need. For example, ask it to find a great TV deal or show you which Walmart Black Friday deals are available for delivery. Muse can help you explore products and build your basket.\n2. Set your shopping rules. Muse will take you to Walmart to sign in, then bring you back to Muse. The first time you add an item to your cart, you’ll set up your Agent Profile on Walmart within your Walmart account, including a spending limit you’re comfortable with.\n3. Check out. Complete your purchase within the conversation using a card saved in your Walmart account, with the same Walmart prices you’d find on Walmart.com. And if something isn’t quite right, Walmart’s return policy still applies.\nThis is the title for the native ad",
-  "research_links": [],
-  "source_credit": "The Verge",
-  "source_tag": "via The Verge",
-  "template": "clean_white",
-  "photo_file_id": "AgACAgUAAxkDAAIBMGsEH2GZrnDYueorWBQJiGJKne7WAAIgF2sbWDUgVISoSCLNfeM4AQADAgADeQADPQQ",
-  "text": "Most online retailers treat AI agents like web scrapers to be blocked.\n\nWalmart is taking the opposite bet with Meta.\n\nThe retail giant rolled out a live implementation of its Agent Gateway, allowing Meta's Muse to find Black Friday deals and buy items directly on a user's behalf. Access is routed through dedicated Agent Profiles built into existing customer accounts.\n\nShoppers control the boundaries. Walmart allows account holders to set spending caps, approve individual purchases, and review transaction logs.\n\nCheckout completes within the conversation using a saved card at standard Walmart.com prices. Walmart states the agent cannot see past purchase history, and standard return policies apply.\n\nAmazon and eBay continue to block AI agents from browsing their platforms. Walmart claims integrating Muse is only the first step, with support for additional agents on the way.\n\nRetailers will not stop AI shopping agents by blocking them. The advantage will go to platforms that offer controlled access to customer wallets.\n\nSource: The Verge\n\n#Retail #ArtificialIntelligence",
-  "alt_openings": "**Opening 1: Corrective**\nLine 1: Retailers are not all fighting AI shopping agents.\nLine 2: While Amazon and eBay block them, Walmart just opened its checkout system to Meta's Muse.\n*When to prefer:* Use when writing for retail and e-commerce leaders who care about strategy shifts and market positioning.\n\n**Opening 2: Tool as subject**\nLine 1: Meta's Muse can now find and purchase Black Friday deals on Walmart.com.\nLine 2: It buys products directly through your account using a system called Agent Gateway.\n*When to prefer:* Use when the primary audience is product managers and tech professionals interested in functional AI deployment.\n\n**Opening 3: Story in motion**\nLine 1: Walmart just handed Meta's AI agent the keys to its checkout counter.\nLine 2: You set a spending cap inside your account, and the bot handles the rest.\n*When to prefer:* Use when aiming for maximum broad reach across non-technical managers who respond to clear narrative pictures.\n\nPick: The \"Your X\" opening from the main post (\"Meta's AI agent can now log into Walmart and spend your money.\") because it creates immediate personal stakes for the reader before explaining the technical mechanism behind it.",
-  "voice_score": 4,
-  "firewall_notes": [
-    "\"Meta's AI agent can now log into Walmart and spend your money.\" — Trips Rule 10 and 15: Gives away the hook before the fold and overstates agent autonomy beyond what the source supports.",
-    "\"Instead of an AI bot surreptitiously scraping web pages, Meta's Muse operates inside dedicated Agent Profiles...\" — Trips Rule 1: Uses the predictable \"Instead of X, Y\" machine framing.",
-    "The three bullet points under \"Walmart built three specific controls...\" — Trips Rule 3: Uses a triad list structure.",
-    "\"Amazon and eBay are actively shutting out AI agents. Walmart is doing the exact opposite...\" — Trips Rule 2: Parallel binary contrast that repeats previous context.",
-    "\"Would you set a spending limit and let an AI handle your holiday shopping?\" — Trips Rule 13: Standard AI engagement-bait closing question."
+  "context": "Title: Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own\n\nText:\nAnthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .\n\nArticle text (excerpt):\nAnthropic launched Claude Ship in beta, a new tool that automatically reviews proposed code changes, fixes problems, and approves merges based on team policies. The system pairs the already available Code Review feature for catching bugs with two new AI agents called PR Steward and Claude Approvals.\nCode Review handles the analysis, while PR Steward steps in to rework the draft whenever tests fail, changes conflict, or reviewers leave correction notes, documenting every step along the way. Once that process wraps up, Claude Approvals checks a policy file stored in the project directory to decide whether the AI can approve a routine change on its own or whether a human still needs to sign off.\nWith GitHub auto-merge enabled and the right policy in place, new code can be merged entirely without human involvement, according to the documentation . The tool is available on the Team and Enterprise plans but billed separately based on token usage. Because PR Steward has no spending cap by default, teams can set their own budgets to keep costs in check. Organizations with specific data privacy requirements can't use the feature.\n\nResearch notes on: Anthropic launched Claude Ship, an AI tool that autonomously reviews, fixes, and approves code pull requests.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from InfoWorld: \"Anthropic launches Claude Ship, extending AI-assisted development to pull request approvals\"\nAnthropic has launched Claude Ship in beta, letting software development teams delegate code approval to AI agents within limits set by individual repository policies.\nThe launch targets a potential bottleneck in AI-assisted software development, where the speed at which developers can generate code may outpace their ability to review it.\nBy combining automated reviews with the corrective work needed to prepare pull requests for approval, Anthropic is competing across a broader stretch of the software development lifecycle.\nIts integration with Claude Code could make it particularly attractive to enterprises already using Anthropic’s coding tools , according to Lian Jye Su , chief analyst at Omdia.\nBut GitHub and GitLab have an advantage in how closely their AI tools integrate with their respective development platforms, said Deepika Giri , vice president of Asia/Pacific artificial intelligence platforms and advisory at IDC.\n“Anthropic’s Claude Ship is not a breakthrough innovation as much as an evolution of existing AI-assisted code review capabilities,” said Nitish Tyagi , senior principal analyst at Gartner.\nClaude Ship incorporates Anthropic’s generally available Code Review tool alongside PR Steward and Claude Approvals, both of which are in beta. Review depth is configurable at the repository level, with teams able to choose between Quick, Standard, and Deep reviews.\nPR Steward handles corrective work on open pull requests, responding to review feedback and problems that arise during continuous integration (CI). Its remit includes resolving merge conflicts but excludes approving or merging changes.\nClaude Approvals evaluates proposed changes against a policy file maintained within each repository. Engineering teams can authorize the agent to approve routine changes while reserving more sensitive decisions for human reviewers.\nTeams can incorporate automated review findings into approval policies and define additional classification criteria in natural language.\nAnthropic recommends that most customers initially run the agent in an observation-only mode before requiring its approval for code to be merged.\nRunning /ship in Claude Code initiates the workflow from the point at which a developer has a change ready for submission. Claude opens the pull request and begins working toward getting it ready to merge.\nOrganizations can also automate the workflow across a repository. Existing branch protection rules and developer permissions continue to govern me\n\nCoverage from Mint on MSN: \"Anthropic launches Claude Ship to help AI agents review, fix and approve code changes\"\nAnthropic has launched Claude Ship, a new suite of AI agents that can review code, fix pull request issues and automatically approve routine code changes.\n\nCoverage from The Verge: \"Claude AI can review pull requests and ship fixes on its own now\"\nAnthropic is bringing new AI tools to software engineers with Claude Ship.\nAnthropic is bringing new AI tools to software engineers with Claude Ship.\nAnthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests.\nEngineers have already been able to take advantage of Claude’s code review capabilities thanks to the Code Review feature, which was announced in March and became generally available in October . What’s new alongside Claude Ship are the PR Steward and Claude Approvals agents, which are launching in beta today.\nPR Steward “jumps in on failing CI checks, merge conflicts, and review feedback from Code Review, other review tools, or team members” and leaves comments on what it changed, according to Anthropic. Claude Approvals can approve routine changes if an organization’s policy allows it. “Teams can have Claude Approvals consider a variety of signals in its decision-making process, including Code Review findings or their own classifiers using natural language,” Anthropic says.\nClaude Ship is now available for Claude Team and Enterprise customers and works with repositories on GitHub.\nThis is the title for the native ad\n\nBackground (Distributed version control, Wikipedia):\nIn software development, distributed version control is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer. Compared to centralized version control, this enables automatic management branching and merging, speeds up most operations, improves the ability to work offline, and does not rely on a single location for backups. Git, the world's most popular version control system, is a distributed version control system.\n\nBackground (Code review, Wikipedia):\nCode review is a software quality assurance activity in which one or more people examine the source code of a computer program, either after implementation or during the development process. The persons performing the checking, excluding the author, are called \"reviewers\". At least one reviewer must not be the code's author.",
+  "research_links": [
+    "https://www.infoworld.com/article/4252505/anthropic-launches-claude-ship-extending-ai-assisted-development-to-pull-request-approvals.html",
+    "https://www.msn.com/en-in/news/other/anthropic-launches-claude-ship-to-help-ai-agents-review-fix-and-approve-code-changes/ar-AA2i5ckb",
+    "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
   ],
-  "headline": "Amazon blocks AI agents while Walmart lets them buy",
+  "source_credit": "The Decoder, with reporting from InfoWorld and Mint on MSN",
+  "source_tag": "via The Decoder",
+  "template": "dark_accent",
+  "photo_file_id": "AgACAgUAAxkDAAIBNWsFiPLD5wmsugwVELCVL07O2sKFAALyFWsbWDUwVG9DfWnCcNAJAQADAgADeQADPQQ",
+  "text": "Software teams can now let AI approve and merge its own code.\n\nAnthropic's new Claude Ship tool fixes failing tests, resolves merge conflicts, and signs off on pull requests.\n\nThe mechanics are simpler than you think.\n\nAI coding tools already write code fast. But human engineers still spend hours reviewing every submitted pull request, creating a real queue.\n\nClaude Ship pairs three agents to close that loop:\n\n• Code Review scans the code draft for bugs\n• PR Steward fixes failing tests and resolves merge conflicts\n• Claude Approvals checks a local policy file in the repository to decide if the change is safe\n\nWith GitHub auto-merge enabled, routine code can travel from draft to production without a human touching it.\n\nGartner analyst Nitish Tyagi called the tool an evolution of existing capabilities rather than a breakthrough, but the workflow shift is clear.\n\nMy read: the primary job of a senior developer is shifting from manually reading code to writing the precise policies that govern AI reviewers.\n\nThe limitations are clear. The PR Steward agent has no default spending cap, privacy requirements exclude some enterprise users, and Anthropic recommends starting in observation-only mode.\n\nWould you trust software to approve code written by software?\n\nSource: The Decoder, with reporting from InfoWorld and Mint on MSN",
+  "alt_openings": "1. Bare number first\nLine 1: Zero human reviewers are now needed for routine pull requests.\nLine 2: Anthropic's Claude Ship agent fixes broken tests, resolves merge conflicts, and signs off on code changes automatically.\nShape: Bare number first.\nWhen to prefer: Use this when writing for engineering managers and CTOs who are obsessed with developer speed and cycle times.\n\n2. Tool as subject\nLine 1: An AI agent can now fix broken builds and approve its own pull requests.\nLine 2: Anthropic launched Claude Ship in beta to solve the review bottleneck created by AI coding assistants.\nShape: Tool as subject.\nWhen to prefer: Use this when posting for early adopters and software engineers who follow specific AI tool releases closely.\n\n3. Corrective\nLine 1: The major bottleneck in AI software development is no longer writing code.\nLine 2: Anthropic's new tool fixes failing tests and approves pull requests without waiting for an engineer.\nShape: Corrective.\nWhen to prefer: Use this when targeting founders, executives, and non-technical leaders who care about broader operational bottlenecks.\n\nPick: Corrective. It reframes the story immediately around the business problem (the code review bottleneck) rather than just the product announcement, making non-engineers care about a software engineering update.",
+  "voice_score": 4,
+  "firewall_notes": [],
+  "headline": "Why senior developers are becoming AI policy writers",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-23.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-24.png"
 }
