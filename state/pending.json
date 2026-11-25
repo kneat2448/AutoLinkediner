@@ -1,106 +1,77 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-24",
-  "created_at": "2026-11-24T18:22:21.502763+05:30",
+  "date": "2026-11-25",
+  "created_at": "2026-11-25T17:50:06.494454+05:30",
   "candidate": {
-    "id": "news:671fc88c0bb2",
+    "id": "news:34b536284971",
     "source": "news",
-    "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
-    "url": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
-    "summary": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .",
-    "score": 75.0,
-    "created_at": "2026-11-24T11:26:23+00:00",
-    "raw_text": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .",
+    "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+    "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+    "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+    "score": 80.0,
+    "created_at": "2026-11-24T17:34:34+00:00",
+    "raw_text": "Most streaming music providers have opted to label AI-generated content on their platforms, and until now, Tidal was one of them. However, the company is about to take a harder stance. Tidal announced that in the coming weeks, it will fully ban AI music because of the harm it does to human artists. Tidal debuted its initial AI policy in July 2026, which included labeling and demonetizing all songs created entirely with AI. That wasn't enough to stem the tide of AI slop, though. Over the past 90 days, Tidal reports that 43 percent of new uploads were completely AI-generated. On November 6, new uploads to Tidal hit a whopping 60 percent AI-generated. As things stand, Tidal hosts 27 million tracks labeled as AI, all of which were obviously added in the past couple of years. That accounts for 6.3 percent of Tidal's total catalog. On December 9, Tidal will delete all those songs. The streamer notes this will have essentially no negative impact, because 96 percent of AI-labeled tracks got zero plays in the past 90 days. Throughout its announcement, Tidal is careful to stipulate that it's only talking about music that has been fully created by AI. Artists can still use AI tools as long as the final product contains human elements. Read full article Comments",
     "extra": {
-      "outlet": "The Decoder",
-      "weight": 0.75,
-      "coverage": 2
+      "outlet": "Ars Technica",
+      "weight": 0.8,
+      "coverage": 1
     }
   },
   "shortlist": [
     {
-      "id": "news:15c28179b2dc",
-      "source": "news",
-      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-      "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended […]",
-      "score": 80.0,
-      "created_at": "2026-11-23T22:10:32+00:00",
-      "raw_text": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended with Huang’s resignation , and Nvidia CFO Colette Kress was installed as the new interim CEO. And then… Huang was back. In recent years, Nvidia has become a key part of the Trump administration’s AI push, a central figure in negotiations over potential Chinese access to cutting-edge AI hardware, and a company that has used its now $4 trillion-plus market cap to finance other AI companies. Saying it received input “from senior levels of the United States government,” Nvidia’s board announced his return as CEO on November 23rd, less than two weeks after his resignation. Follow along below for all of the latest updates. Trump engineered a risky comeback for Jensen Huang Welcome to elite impunity, Jensen Huang Here’s Trump discussing the Jensen Huang situation on TV for 10 minutes. Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return How Jensen Huang ended up as Nvidia CEO again Jensen Huang has already come back to Nvidia’s offices. White House brags that Trump was ‘totally involved’ in getting Jensen reinstated Tech leaders are celebrating Jensen Huang’s return Jensen Huang is back as Nvidia’s CEO Trump says reinstating Jensen Huang “would be the best thing” for Nvidia and the US. Arm CEO Rene Haas isn’t jumping ship to lead Nvidia. More details emerge regarding the extent of Alice Huang’s alleged spying. Nvidia’s stock closes the week down 14 percent, as Reuters reports the SEC is looking into its “accounting practices.” Jensen Huang reportedly “terrorized” Nvidia employees. California’s attorney general subpoenaed Nvidia. A brief history of Nvidia’s recent stock fluctuations Trump administration approved more than 879,000 AI chip sales to Chinese companies, per new disclosure. Inside the Times’ investigation into Jensen. ‘Nvidia could end world hunger or provide clean water for everyone, now that it’s making over $200 billion in pure profit a year.’ Elon Musk on Jensen Huang’s departure: “It’s like kicking Michael Jordan off your team when you’re on a winning streak.” Nvidia’s rise, visualized One potential Nvidia CEO candidate? Arm’s CEO. What is Nvidia without AI’s sugar daddy in charge? Nvidia isn’t selling any more AI chips to China Read everything that Nvidia’s board chair had to say about Jensen Huang Nvidia says it does not intend to reinstate Jensen Huang as CEO The SEC has reportedly opened an investigation into Nvidia. Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing The DOJ says it’s investigating Megaspeed Jensen Huang says he’s willing to return as Nvidia CEO Jensen Huang will testify before lawmakers on December 1st. Oh…",
+      "id": "hn:50627836",
+      "source": "hackernews",
+      "title": "Anthropic breaks below $83 IPO price",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "summary": "",
+      "score": 405.0,
+      "created_at": "2026-11-24T13:23:47+00:00",
+      "raw_text": "",
       "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 3
-      }
-    },
-    {
-      "id": "news:671fc88c0bb2",
-      "source": "news",
-      "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
-      "url": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
-      "summary": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .",
-      "score": 75.0,
-      "created_at": "2026-11-24T11:26:23+00:00",
-      "raw_text": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .",
-      "extra": {
-        "outlet": "The Decoder",
-        "weight": 0.75,
-        "coverage": 2
-      }
-    },
-    {
-      "id": "hf:2611.29897",
-      "source": "huggingface",
-      "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
-      "url": "https://huggingface.co/papers/2611.29897",
-      "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates lo…",
-      "score": 131.0,
-      "created_at": "2026-11-24T00:00:00.000Z",
-      "raw_text": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates local attention, resumable recurrent states, and persistent content memory (PCM) for long-horizon controllable motion generation. PCM transforms compressed motion history from Mamba recurrent states, together with state changes and text-conditioned features, into dynamically updated content slots accessible to local attention. To enable efficient inference, we further develop an execution scheme tailored to this architecture, combining CUDA Graph replay, fused kernels, and execution-flow simplification while preserving the canonical history update. Evaluations on retargeted HiPHI demonstrate accurate terminal control over rollouts of up to 39.52 s, while short-horizon comparisons on BONES Seed and retargeted HumanML3D show that the model also retains strong spatial control and text-motion matching. On an RTX 4090, the optimized execution reduces median complete-window latency from 1685.35 to 276.14 ms, achieving a median paired speedup of 6.138times while preserving identical outputs and committed states in the tested rollouts. Moreover, we conduct extensive real-world evaluation on the Unitree G1, demonstrating sequential text-guided action composition, expressive motion, and interactive locomotion through keyboard and mouse control.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.29897",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:1d0c151fefed",
-      "source": "news",
-      "title": "OpenAI and Cisco introduce Shirudo",
-      "url": "https://openai.com/index/introducing-shirudo",
-      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "score": 100.0,
-      "created_at": "2026-11-23T21:20:00+00:00",
-      "raw_text": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:786a4f32021c",
-      "source": "news",
-      "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
-      "summary": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok AI features. The complaint filed in Virginia accuses Musk of willfully […]",
-      "score": 80.0,
-      "created_at": "2026-11-23T18:26:47+00:00",
-      "raw_text": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok AI features. The complaint filed in Virginia accuses Musk of willfully ignoring growing concerns around AI-generated sexualized deepfakes, and \"instead saw a market opportunity for more profits,\" describing the weak safeguards around Grok as \"not a failure but a feature.\" \"Time and again, xAI and X told consumers they were being protected from ab … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
+        "discussion_url": "https://news.ycombinator.com/item?id=50627836",
+        "num_comments": 770,
         "coverage": 1
       }
     },
     {
-      "id": "news:21c67f84759f",
+      "id": "hn:50630309",
+      "source": "hackernews",
+      "title": "Tidal bans AI-generated music",
+      "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+      "summary": "",
+      "score": 332.0,
+      "created_at": "2026-11-24T16:12:38+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50630309",
+        "num_comments": 316,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "news:cb4782794f2f",
       "source": "news",
-      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
-      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-      "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+      "title": "AI is straining America’s open records systems",
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…",
+      "score": 85.0,
+      "created_at": "2026-11-25T10:00:00+00:00",
+      "raw_text": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he got rather busy. Panton used to get a request every year or so from a company called SmartProcure for “all purchasing records,” covering everything from road salt to computers to toilet paper. Last year, those requests started coming quarterly. Then different companies began making more specific requests, like records of every purchase related to emergency road flares. These targeted inquiries started coming monthly or more. “I’m happy to answer public records requests from people,” says Rowe, who recently moved into a position at a nearby town. “But answering it for these purposes—it feels like I’m doing unpaid opposition research on the taxpayers’ time.” Rowe’s experiences are being repeated across the US. While data brokers have mined public records for decades, AI has intensified investors’ interest. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data from thousands of agencies and turn it into AI-powered “signals” that help businesses sell to governments. At the same time, AI tools have made it easier for individuals to draft public records requests. Many places have seen double-digit annual increases in recent years. While more activity is good for democracy, AI-drafted requests tend to be longer, and broader in scope—and the offices answering them haven’t always grown in head count or budget. As agencies struggle to tell whether they’re dealing with a citizen, a chatbot, or a sales pipeline, some states are passing legislation that makes it easier to deny requests, possibly making public offices less transparent. Transparency, monetized The US Freedom of Information Act (FOIA) of 1966 established citizens’ right to know what their government is doing, and by now every state has written its own version into law. Greater transparency has led to cleaner drinking water, lower taxes, and better schools. But the system is far from perfect: Many requests linger for months, the process is often frustratingly bureaucratic, and rules and guidelines vary by state, county, and even town. This is why businesses, with the time and resources to navigate this labyrinth, have often dominated FOIA since its early days. Margaret Kwoka, a law professor at Ohio State University and a recent member of the FOIA Advisory Committee, documented the trend in her 2016 study “ FOIA, Inc .” Her analysis found that commercial requesters of all kinds—regulated companies, government contractors, information resellers—have accounted for 79% to 96% of public records requests at federal agencies like the Environmental Protection Agency and the Food and Drug Administration. W…",
+      "extra": {
+        "outlet": "MIT Technology Review",
+        "weight": 0.85,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:e97fae54855e",
+      "source": "news",
+      "title": "AI may soon change what it means to be a theoretical physicist",
+      "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+      "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
       "score": 80.0,
-      "created_at": "2026-11-24T12:30:05+00:00",
-      "raw_text": "Amazon said AI agents recently found and exploited a zero-day vulnerability with no human oversight beyond a simple instruction to get root access on an East Asian university server. The agents were running on Cairn, an open source AI penetration-testing framework. The hackers, who provided prompts in simplified Chinese and configured the model to the Chinese Standard Time zone, gave the agents a list of IP addresses and the goal: “obtain shell access.” In short order, the agents discovered a zero-day in an open source medical imaging AI application running on one of the target servers. The agents then exploited the vulnerability and gained full control of the system. “These findings show that agentic offensive operations are already happening, and defenders should prepare for the speed and persistence these tools enable,” Amazon said . Read full article Comments",
+      "created_at": "2026-11-25T12:00:28+00:00",
+      "raw_text": "About six months ago, Suvrat Raju, a professor of theoretical physics at the International Centre for Theoretical Sciences in Bengaluru, India, asked a frontier AI model to solve a physics problem. He didn’t ask because he needed to know the answer. He had actually solved this particular problem already. But he had never published the solution—which made it a perfect question to test how good AI was at physics. LLMs have been trained on the whole Internet, so if a physics problem has been discussed online, it’s likely the model already knows about it and may have memorized the answer. So a fair test of AI capabilities needs to focus on problems that have never appeared online. The model didn’t answer Raju’s problem correctly, but it did better than he expected—well, enough to get him thinking that the experiment should be repeated and formalized. With the help of a colleague, he set out to create a theoretical physics benchmark for AI. Read full article Comments",
       "extra": {
         "outlet": "Ars Technica",
         "weight": 0.8,
@@ -108,94 +79,136 @@
       }
     },
     {
-      "id": "hn:50615308",
-      "source": "hackernews",
-      "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
-      "url": "https://twitter.com/ylecun/status/2124550037912920090",
-      "summary": "",
-      "score": 1785.0,
-      "created_at": "2026-11-23T17:07:26+00:00",
-      "raw_text": "",
+      "id": "news:34b536284971",
+      "source": "news",
+      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+      "score": 80.0,
+      "created_at": "2026-11-24T17:34:34+00:00",
+      "raw_text": "Most streaming music providers have opted to label AI-generated content on their platforms, and until now, Tidal was one of them. However, the company is about to take a harder stance. Tidal announced that in the coming weeks, it will fully ban AI music because of the harm it does to human artists. Tidal debuted its initial AI policy in July 2026, which included labeling and demonetizing all songs created entirely with AI. That wasn't enough to stem the tide of AI slop, though. Over the past 90 days, Tidal reports that 43 percent of new uploads were completely AI-generated. On November 6, new uploads to Tidal hit a whopping 60 percent AI-generated. As things stand, Tidal hosts 27 million tracks labeled as AI, all of which were obviously added in the past couple of years. That accounts for 6.3 percent of Tidal's total catalog. On December 9, Tidal will delete all those songs. The streamer notes this will have essentially no negative impact, because 96 percent of AI-labeled tracks got zero plays in the past 90 days. Throughout its announcement, Tidal is careful to stipulate that it's only talking about music that has been fully created by AI. Artists can still use AI tools as long as the final product contains human elements. Read full article Comments",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50615308",
-        "num_comments": 1035,
+        "outlet": "Ars Technica",
+        "weight": 0.8,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "news:b9e7be83e253",
+      "source": "news",
+      "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
+      "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
+      "summary": "The “hardest remaining problem in classical physics” gets a boost from terabytes of crowdsourced data and new ways of using machine learning and AI.",
+      "score": 80.0,
+      "created_at": "2026-11-25T11:30:00+00:00",
+      "raw_text": "The “hardest remaining problem in classical physics” gets a boost from terabytes of crowdsourced data and new ways of using machine learning and AI.",
+      "extra": {
+        "outlet": "Wired",
+        "weight": 0.8,
         "coverage": 0
       }
     },
     {
-      "id": "news:9dddeb89e408",
+      "id": "news:3c6728c1bfd1",
       "source": "news",
-      "title": "Finding faster quantum algorithms with agents and formal verification",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "score": 100.0,
-      "created_at": "2026-11-23T16:59:40+00:00",
-      "raw_text": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "created_at": "2026-11-24T13:00:00+00:00",
+      "raw_text": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "extra": {
-        "outlet": "Google DeepMind",
+        "outlet": "OpenAI",
         "weight": 1.0,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2611.31201",
-      "source": "huggingface",
-      "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
-      "url": "https://huggingface.co/papers/2611.31201",
-      "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying frontier-model-as-policy harnesses. We investigate four components of the robot…",
-      "score": 84.0,
-      "created_at": "2026-11-24T00:00:00.000Z",
-      "raw_text": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying frontier-model-as-policy harnesses. We investigate four components of the robotic agentic loop, namely, prompting, planning, action execution, and tool use, and distill six empirical findings into a practical recipe. This recipe prioritizes interfaces that exploit the model's native visual reasoning and tool-use capabilities over handcrafted plans, skills, or action priors, and identifies effective choices for action representation, chunking, reasoning effort, visual observations, short multi-action sequences, and policy refinement. On RoboLab-120, Embo-Harness achieves an 83.3\\% success rate, outperforming the strongest reported baseline by 26.2 percentage points. It also succeeds in 15 of 20 zero-shot trials across four real-world manipulation tasks. Beyond performance, controlled interventions indicate that the studied model depends more strongly on accurate spatial target estimation than on explicit low-level joint or trajectory generation. These results provide both a practical recipe for building strong frontier-model-as-policy harnesses and a clearer account of the capabilities that drive their performance.",
+      "id": "hn:50627340",
+      "source": "hackernews",
+      "title": "LLM agents work for their parent companies, not for you",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "summary": "",
+      "score": 977.0,
+      "created_at": "2026-11-24T12:40:15+00:00",
+      "raw_text": "",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.31201",
+        "discussion_url": "https://news.ycombinator.com/item?id=50627340",
+        "num_comments": 403,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2611.30013",
-      "source": "huggingface",
-      "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
-      "url": "https://huggingface.co/papers/2611.30013",
-      "summary": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints. With large language models, we systematically compare t…",
-      "score": 56.0,
-      "created_at": "2026-11-24T00:00:00.000Z",
-      "raw_text": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints. With large language models, we systematically compare three common paradigms: specialized motion generation, video generation followed by motion recovery, and direct agent-driven generation. We analyze their control capabilities, cross-morphology adaptability, and generation costs. Guided by this comparison, we propose an Agentic Motion Framework in which an agent writes compact parametric skeleton and motion programs, and a deterministic executor performs rigging, kinematic solving, and geometric correction. Compact parameter control reduces generation overhead and improves rigging reliability and motion-control accuracy, providing practical guidance for deploying complex 3D motion generation.",
+      "id": "news:0da425035fe7",
+      "source": "news",
+      "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
+      "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
+      "summary": "Startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its aggressively compressed language model. The article PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values appeared first on The Decoder .",
+      "score": 75.0,
+      "created_at": "2026-11-25T11:51:49+00:00",
+      "raw_text": "Startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its aggressively compressed language model. The article PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values appeared first on The Decoder .",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.30013",
+        "outlet": "The Decoder",
+        "weight": 0.75,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2611.30662",
+      "id": "hf:2611.30634",
       "source": "huggingface",
-      "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
-      "url": "https://huggingface.co/papers/2611.30662",
-      "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that progressively raises the proportion of e-commerce data within a diverse multimodal data mixture, followed by hy…",
-      "score": 54.0,
-      "created_at": "2026-11-24T00:00:00.000Z",
-      "raw_text": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that progressively raises the proportion of e-commerce data within a diverse multimodal data mixture, followed by hybrid-thinking post-training that combines on-policy distillation and reinforcement learning to support both non-thinking and thinking modes. For evaluation, we construct a comprehensive suite of 28 e-commerce benchmarks (23 in-house and five open-source) covering eight business scenarios and complement it with 64 public general-purpose benchmarks. On the e-commerce suite, WeMM-Ecom-35B-A3B surpasses substantially larger open-source flagship models, including Qwen3.8-Flash-Next, HY4, and DeepSeek-V4.1-Flash. On the general-purpose suite, every WeMM-Ecom model surpasses its similarly sized Qwen3.5 counterpart, with the lightweight variants (e.g., WeMM-Ecom-2B) showing clear advantages over leading lightweight models such as Qwen3.5-2B, MiniCPM-V-4.7-1B, and LFM3-VL-2B. Beyond benchmarks, WeMM-Ecom now powers hundreds of production use cases in WeChat, including catalog management, multimodal product search, and livestream commerce, serving billion-scale requests per day. We publicly release all model weights and detail our data curation, training recipe, and benchmark construction to facilitate future work on domain-specialized multimodal models. We have released the model weights and code to facilitate future research at https://github.com/Tencent/WeMM-Ecom.",
+      "title": "Rewirable Circuits in Transformers with Loom Attention",
+      "url": "https://huggingface.co/papers/2611.30634",
+      "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream. This yields LoomFormer, a dual-stre…",
+      "score": 73.0,
+      "created_at": "2026-11-25T00:00:00.000Z",
+      "raw_text": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream. This yields LoomFormer, a dual-stream architecture that splits control and content between the vector and matrix streams. Across model sizes and training token budgets in language modeling and downstream tasks, LoomFormer matches Transformers trained with over 3x compute and recent residual-stream baselines (HC/mHC, MUDDFormer, AttnRes) trained with ~1.7-2.8x. For example, trained on the same 300B tokens with only 2% extra FLOPs, LoomPythia-2.8B achieves ~1.6x the average downstream gain of mHC-Pythia-2.8B over Pythia-2.8B, and matches (0-shot) or surpasses (5-shot) Pythia-12B. Code is available at https://github.com/Caiyun-AI/LoomFormer",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.30662",
+        "arxiv_url": "https://arxiv.org/abs/2611.30634",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.25403",
+      "source": "huggingface",
+      "title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
+      "url": "https://huggingface.co/papers/2611.25403",
+      "summary": "We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route. Antom 3-in-1 Transformer is pretrained to learn reusable behavioral and relational representations, primarily on Ant International's internal payment data. In a cross-business transfer experiment, pretraining improves the target b…",
+      "score": 68.0,
+      "created_at": "2026-11-25T00:00:00.000Z",
+      "raw_text": "We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route. Antom 3-in-1 Transformer is pretrained to learn reusable behavioral and relational representations, primarily on Ant International's internal payment data. In a cross-business transfer experiment, pretraining improves the target business metric by 34.5% over the same architecture trained from scratch. With only 25% of the training labels, the pretrained model outperforms the full-label scratch baseline in Average Precision (AP) and Recall@0.5% on different merchant domains. In a four-month online experiment on Ant International's billion-scale payment platform, the model reduced the overall loss rate by 37.88% relative to XGB-Online.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.25403",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50637686",
+      "source": "hackernews",
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "summary": "",
+      "score": 279.0,
+      "created_at": "2026-11-25T02:34:21+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50637686",
+        "num_comments": 118,
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own\n\nText:\nAnthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .\n\nArticle text (excerpt):\nAnthropic launched Claude Ship in beta, a new tool that automatically reviews proposed code changes, fixes problems, and approves merges based on team policies. The system pairs the already available Code Review feature for catching bugs with two new AI agents called PR Steward and Claude Approvals.\nCode Review handles the analysis, while PR Steward steps in to rework the draft whenever tests fail, changes conflict, or reviewers leave correction notes, documenting every step along the way. Once that process wraps up, Claude Approvals checks a policy file stored in the project directory to decide whether the AI can approve a routine change on its own or whether a human still needs to sign off.\nWith GitHub auto-merge enabled and the right policy in place, new code can be merged entirely without human involvement, according to the documentation . The tool is available on the Team and Enterprise plans but billed separately based on token usage. Because PR Steward has no spending cap by default, teams can set their own budgets to keep costs in check. Organizations with specific data privacy requirements can't use the feature.\n\nResearch notes on: Anthropic launched Claude Ship, an AI tool that autonomously reviews, fixes, and approves code pull requests.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from InfoWorld: \"Anthropic launches Claude Ship, extending AI-assisted development to pull request approvals\"\nAnthropic has launched Claude Ship in beta, letting software development teams delegate code approval to AI agents within limits set by individual repository policies.\nThe launch targets a potential bottleneck in AI-assisted software development, where the speed at which developers can generate code may outpace their ability to review it.\nBy combining automated reviews with the corrective work needed to prepare pull requests for approval, Anthropic is competing across a broader stretch of the software development lifecycle.\nIts integration with Claude Code could make it particularly attractive to enterprises already using Anthropic’s coding tools , according to Lian Jye Su , chief analyst at Omdia.\nBut GitHub and GitLab have an advantage in how closely their AI tools integrate with their respective development platforms, said Deepika Giri , vice president of Asia/Pacific artificial intelligence platforms and advisory at IDC.\n“Anthropic’s Claude Ship is not a breakthrough innovation as much as an evolution of existing AI-assisted code review capabilities,” said Nitish Tyagi , senior principal analyst at Gartner.\nClaude Ship incorporates Anthropic’s generally available Code Review tool alongside PR Steward and Claude Approvals, both of which are in beta. Review depth is configurable at the repository level, with teams able to choose between Quick, Standard, and Deep reviews.\nPR Steward handles corrective work on open pull requests, responding to review feedback and problems that arise during continuous integration (CI). Its remit includes resolving merge conflicts but excludes approving or merging changes.\nClaude Approvals evaluates proposed changes against a policy file maintained within each repository. Engineering teams can authorize the agent to approve routine changes while reserving more sensitive decisions for human reviewers.\nTeams can incorporate automated review findings into approval policies and define additional classification criteria in natural language.\nAnthropic recommends that most customers initially run the agent in an observation-only mode before requiring its approval for code to be merged.\nRunning /ship in Claude Code initiates the workflow from the point at which a developer has a change ready for submission. Claude opens the pull request and begins working toward getting it ready to merge.\nOrganizations can also automate the workflow across a repository. Existing branch protection rules and developer permissions continue to govern me\n\nCoverage from Mint on MSN: \"Anthropic launches Claude Ship to help AI agents review, fix and approve code changes\"\nAnthropic has launched Claude Ship, a new suite of AI agents that can review code, fix pull request issues and automatically approve routine code changes.\n\nCoverage from The Verge: \"Claude AI can review pull requests and ship fixes on its own now\"\nAnthropic is bringing new AI tools to software engineers with Claude Ship.\nAnthropic is bringing new AI tools to software engineers with Claude Ship.\nAnthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests.\nEngineers have already been able to take advantage of Claude’s code review capabilities thanks to the Code Review feature, which was announced in March and became generally available in October . What’s new alongside Claude Ship are the PR Steward and Claude Approvals agents, which are launching in beta today.\nPR Steward “jumps in on failing CI checks, merge conflicts, and review feedback from Code Review, other review tools, or team members” and leaves comments on what it changed, according to Anthropic. Claude Approvals can approve routine changes if an organization’s policy allows it. “Teams can have Claude Approvals consider a variety of signals in its decision-making process, including Code Review findings or their own classifiers using natural language,” Anthropic says.\nClaude Ship is now available for Claude Team and Enterprise customers and works with repositories on GitHub.\nThis is the title for the native ad\n\nBackground (Distributed version control, Wikipedia):\nIn software development, distributed version control is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer. Compared to centralized version control, this enables automatic management branching and merging, speeds up most operations, improves the ability to work offline, and does not rely on a single location for backups. Git, the world's most popular version control system, is a distributed version control system.\n\nBackground (Code review, Wikipedia):\nCode review is a software quality assurance activity in which one or more people examine the source code of a computer program, either after implementation or during the development process. The persons performing the checking, excluding the author, are called \"reviewers\". At least one reviewer must not be the code's author.",
-  "research_links": [
-    "https://www.infoworld.com/article/4252505/anthropic-launches-claude-ship-extending-ai-assisted-development-to-pull-request-approvals.html",
-    "https://www.msn.com/en-in/news/other/anthropic-launches-claude-ship-to-help-ai-agents-review-fix-and-approve-code-changes/ar-AA2i5ckb",
-    "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
-  ],
-  "source_credit": "The Decoder, with reporting from InfoWorld and Mint on MSN",
-  "source_tag": "via The Decoder",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAIBNWsFiPLD5wmsugwVELCVL07O2sKFAALyFWsbWDUwVG9DfWnCcNAJAQADAgADeQADPQQ",
-  "text": "Software teams can now let AI approve and merge its own code.\n\nAnthropic's new Claude Ship tool fixes failing tests, resolves merge conflicts, and signs off on pull requests.\n\nThe mechanics are simpler than you think.\n\nAI coding tools already write code fast. But human engineers still spend hours reviewing every submitted pull request, creating a real queue.\n\nClaude Ship pairs three agents to close that loop:\n\n• Code Review scans the code draft for bugs\n• PR Steward fixes failing tests and resolves merge conflicts\n• Claude Approvals checks a local policy file in the repository to decide if the change is safe\n\nWith GitHub auto-merge enabled, routine code can travel from draft to production without a human touching it.\n\nGartner analyst Nitish Tyagi called the tool an evolution of existing capabilities rather than a breakthrough, but the workflow shift is clear.\n\nMy read: the primary job of a senior developer is shifting from manually reading code to writing the precise policies that govern AI reviewers.\n\nThe limitations are clear. The PR Steward agent has no default spending cap, privacy requirements exclude some enterprise users, and Anthropic recommends starting in observation-only mode.\n\nWould you trust software to approve code written by software?\n\nSource: The Decoder, with reporting from InfoWorld and Mint on MSN",
-  "alt_openings": "1. Bare number first\nLine 1: Zero human reviewers are now needed for routine pull requests.\nLine 2: Anthropic's Claude Ship agent fixes broken tests, resolves merge conflicts, and signs off on code changes automatically.\nShape: Bare number first.\nWhen to prefer: Use this when writing for engineering managers and CTOs who are obsessed with developer speed and cycle times.\n\n2. Tool as subject\nLine 1: An AI agent can now fix broken builds and approve its own pull requests.\nLine 2: Anthropic launched Claude Ship in beta to solve the review bottleneck created by AI coding assistants.\nShape: Tool as subject.\nWhen to prefer: Use this when posting for early adopters and software engineers who follow specific AI tool releases closely.\n\n3. Corrective\nLine 1: The major bottleneck in AI software development is no longer writing code.\nLine 2: Anthropic's new tool fixes failing tests and approves pull requests without waiting for an engineer.\nShape: Corrective.\nWhen to prefer: Use this when targeting founders, executives, and non-technical leaders who care about broader operational bottlenecks.\n\nPick: Corrective. It reframes the story immediately around the business problem (the code review bottleneck) rather than just the product announcement, making non-engineers care about a software engineering update.",
+  "context": "Title: Tidal announces ban on AI-generated music; 27 million tracks will be deleted\n\nText:\nMost streaming music providers have opted to label AI-generated content on their platforms, and until now, Tidal was one of them. However, the company is about to take a harder stance. Tidal announced that in the coming weeks, it will fully ban AI music because of the harm it does to human artists. Tidal debuted its initial AI policy in July 2026, which included labeling and demonetizing all songs created entirely with AI. That wasn't enough to stem the tide of AI slop, though. Over the past 90 days, Tidal reports that 43 percent of new uploads were completely AI-generated. On November 6, new uploads to Tidal hit a whopping 60 percent AI-generated. As things stand, Tidal hosts 27 million tracks labeled as AI, all of which were obviously added in the past couple of years. That accounts for 6.3 percent of Tidal's total catalog. On December 9, Tidal will delete all those songs. The streamer notes this will have essentially no negative impact, because 96 percent of AI-labeled tracks got zero plays in the past 90 days. Throughout its announcement, Tidal is careful to stipulate that it's only talking about music that has been fully created by AI. Artists can still use AI tools as long as the final product contains human elements. Read full article Comments\n\nArticle text (excerpt):\nMost streaming music providers have opted to label AI-generated content on their platforms, and until now, Tidal was one of them. However, the company is about to take a harder stance. Tidal announced that in the coming weeks, it will fully ban AI music because of the harm it does to human artists.\nTidal debuted its initial AI policy in July 2026, which included labeling and demonetizing all songs created entirely with AI. That wasn’t enough to stem the tide of AI slop, though. Over the past 90 days, Tidal reports that 43 percent of new uploads were completely AI-generated. On November 6, new uploads to Tidal hit a whopping 60 percent AI-generated.\nAs things stand, Tidal hosts 27 million tracks labeled as AI, all of which were obviously added in the past couple of years. That accounts for 6.3 percent of Tidal’s total catalog. On December 9, Tidal will delete all those songs. The streamer notes this will have essentially no negative impact, because 96 percent of AI-labeled tracks got zero plays in the past 90 days. Throughout its announcement, Tidal is careful to stipulate that it’s only talking about music that has been fully created by AI. Artists can still use AI tools as long as the final product contains human elements.\nSome people don’t particularly mind AI music, but the team at Tidal has come to believe the harm to artists is too great. AI models can pump out random noises faster than humans can create things of real value, which can mislead listeners and siphon royalty payments away from creators. There’s also an issue with AI uploaders who are actively attempting to steal royalty payments. Tidal says it has already removed about 66,000 tracks from its service for impersonating artists, which was against its AI policy even before this update.\nAs of December 9, individual uploaders and distributors will no longer be allowed to add AI music to Tidal. However, they could lie, couldn’t they?\nTidal hasn’t specified how it detects AI music, but it will probably rely on watermarking. Almost every AI song on Tidal (94 percent) comes from Suno, which added watermarking earlier this year. Tidal also cites Google Lyria as a source of AI tunes, which has SynthID labels embedded in the waveform. Deezer claimed it has a licensable AI music detector with a false-positive rate of less than 0.01 percent, but it’s unclear if Tidal is using that or something similar.\nThat will take care of most AI music, but this approach won’t detect everything. There are open models for music generation that you can run locally on a GPU, and some cloud-based providers aren’t bothering to watermark their outputs. Even if Tidal is using a separate detection system, new models may be able to evade it—it’s always going to be a cat-and-mouse game. This will be a problem with verifying provenance in all types of media in the future. For the time being, at least, Tidal’s policy should clear out most of the AI slop.\nThe people directing robots to make these songs will have plenty of other options after Tidal blocks AI. Spotify, YouTube Music , Deezer, and Apple Music all allow AI music on their platforms with labeling. Spotify has removed millions of AI tracks from its collection based on user feedback. Other streamers haven’t specified how much slop (if any) they’ve cleared out.",
+  "research_links": [],
+  "source_credit": "Ars Technica",
+  "source_tag": "via Ars Technica",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAIBOWsG050e0rIYKqjmG0dV3sl4hJj1AAJrGWsb1Q45VJ5BdnQx9NOjAQADAgADeQADPQQ",
+  "text": "27 million songs are about to disappear from Tidal on December 9.\n\nThey make up 6.3 percent of the platform's entire catalog.\n\nThe cleanup explains the real state of AI content.\n\nTidal is banning all music created entirely by software. Artists can still use AI tools, but fully automated tracks are being removed.\n\nThe upload volume exploded in recent months:\n• 43 percent of new uploads over 90 days were fully AI-generated\n• On November 6, automated submissions hit 60 percent of daily uploads\n• 66,000 tracks were already pulled for impersonating real human artists\n\nYet wiping 27 million songs will change almost nothing for listeners.\n\nTidal reported that 96 percent of those flagged tracks received zero plays over the last 90 days.\n\nThe music isn't winning audiences away from human artists. It is clogging distribution channels to target micro-royalties or hijack existing artist names.\n\nEnforcement won't be clean. Tidal relies on provider watermarks from services like Suno, which produced 94 percent of its AI tracks. But local, unwatermarked models make detection a permanent cat-and-mouse game.\n\nMy read: AI's immediate threat to open platforms isn't a takeover of human culture. It is an industrial volume of noise that turns distribution systems into spam filters.\n\nHow much automated content is sitting unplayed on your platform of choice?\n\nSource: Ars Technica",
+  "alt_openings": "**Opening 1 (Corrective)**\nAI isn't winning over music listeners. It is just spamming the upload queue.\n27 million automated tracks on Tidal are being deleted after getting zero plays.\n*When to prefer:* Use when writing for founders or product leaders who care more about platform dynamics and spam than music industry drama.\n\n**Opening 2 (Story in motion)**\nTidal tried labeling automated songs in July 2026, but the strategy failed.\nWithin months, fully synthetic tracks accounted for 60 percent of all daily uploads.\n*When to prefer:* Use if your audience follows AI policy and moderation decisions closely.\n\n**Opening 3 (Tool as subject)**\nAn AI flood forced Tidal to delete 6.3 percent of its music catalog.\nOn November 6, fully synthetic tracks hit 60 percent of all new daily uploads.\n*When to prefer:* Use when you want a fast, direct tech headline that puts the software action right up front.\n\nPick: The main post's opening (\"27 million songs...\"). A specific, massive number stated plainly creates immediate curiosity without giving away the zero-play twist before the fold.",
   "voice_score": 4,
   "firewall_notes": [],
-  "headline": "Why senior developers are becoming AI policy writers",
+  "headline": "How 27 million AI tracks got zero plays",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-24.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-25.png"
 }
