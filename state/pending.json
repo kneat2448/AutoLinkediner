@@ -1,107 +1,121 @@
 {
-  "status": "expired",
-  "date": "2026-11-25",
-  "created_at": "2026-11-25T17:50:06.494454+05:30",
+  "status": "awaiting_approval",
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T17:37:47.616634+05:30",
   "candidate": {
-    "id": "news:34b536284971",
+    "id": "news:c0f2de19f056",
     "source": "news",
-    "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-    "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-    "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+    "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+    "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+    "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
     "score": 80.0,
-    "created_at": "2026-11-24T17:34:34+00:00",
-    "raw_text": "Most streaming music providers have opted to label AI-generated content on their platforms, and until now, Tidal was one of them. However, the company is about to take a harder stance. Tidal announced that in the coming weeks, it will fully ban AI music because of the harm it does to human artists. Tidal debuted its initial AI policy in July 2026, which included labeling and demonetizing all songs created entirely with AI. That wasn't enough to stem the tide of AI slop, though. Over the past 90 days, Tidal reports that 43 percent of new uploads were completely AI-generated. On November 6, new uploads to Tidal hit a whopping 60 percent AI-generated. As things stand, Tidal hosts 27 million tracks labeled as AI, all of which were obviously added in the past couple of years. That accounts for 6.3 percent of Tidal's total catalog. On December 9, Tidal will delete all those songs. The streamer notes this will have essentially no negative impact, because 96 percent of AI-labeled tracks got zero plays in the past 90 days. Throughout its announcement, Tidal is careful to stipulate that it's only talking about music that has been fully created by AI. Artists can still use AI tools as long as the final product contains human elements. Read full article Comments",
+    "created_at": "2026-11-26T09:54:40+00:00",
+    "raw_text": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safeguards for the people whose conversations are being sold.\" In October, Character.AI filed for bankruptcy following years of scandals and legal challenges , including from Disney . Disney ended up buying some of the company's assets and hiring its CEO , K … Read the full story at The Verge.",
     "extra": {
-      "outlet": "Ars Technica",
+      "outlet": "The Verge",
       "weight": 0.8,
       "coverage": 1
     }
   },
   "shortlist": [
     {
-      "id": "hn:50627836",
-      "source": "hackernews",
-      "title": "Anthropic breaks below $83 IPO price",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-      "summary": "",
-      "score": 405.0,
-      "created_at": "2026-11-24T13:23:47+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50627836",
-        "num_comments": 770,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "hn:50630309",
-      "source": "hackernews",
-      "title": "Tidal bans AI-generated music",
-      "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-      "summary": "",
-      "score": 332.0,
-      "created_at": "2026-11-24T16:12:38+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50630309",
-        "num_comments": 316,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "news:cb4782794f2f",
+      "id": "news:e1845ee0b548",
       "source": "news",
-      "title": "AI is straining America’s open records systems",
-      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
-      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…",
-      "score": 85.0,
-      "created_at": "2026-11-25T10:00:00+00:00",
-      "raw_text": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he got rather busy. Panton used to get a request every year or so from a company called SmartProcure for “all purchasing records,” covering everything from road salt to computers to toilet paper. Last year, those requests started coming quarterly. Then different companies began making more specific requests, like records of every purchase related to emergency road flares. These targeted inquiries started coming monthly or more. “I’m happy to answer public records requests from people,” says Rowe, who recently moved into a position at a nearby town. “But answering it for these purposes—it feels like I’m doing unpaid opposition research on the taxpayers’ time.” Rowe’s experiences are being repeated across the US. While data brokers have mined public records for decades, AI has intensified investors’ interest. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data from thousands of agencies and turn it into AI-powered “signals” that help businesses sell to governments. At the same time, AI tools have made it easier for individuals to draft public records requests. Many places have seen double-digit annual increases in recent years. While more activity is good for democracy, AI-drafted requests tend to be longer, and broader in scope—and the offices answering them haven’t always grown in head count or budget. As agencies struggle to tell whether they’re dealing with a citizen, a chatbot, or a sales pipeline, some states are passing legislation that makes it easier to deny requests, possibly making public offices less transparent. Transparency, monetized The US Freedom of Information Act (FOIA) of 1966 established citizens’ right to know what their government is doing, and by now every state has written its own version into law. Greater transparency has led to cleaner drinking water, lower taxes, and better schools. But the system is far from perfect: Many requests linger for months, the process is often frustratingly bureaucratic, and rules and guidelines vary by state, county, and even town. This is why businesses, with the time and resources to navigate this labyrinth, have often dominated FOIA since its early days. Margaret Kwoka, a law professor at Ohio State University and a recent member of the FOIA Advisory Committee, documented the trend in her 2016 study “ FOIA, Inc .” Her analysis found that commercial requesters of all kinds—regulated companies, government contractors, information resellers—have accounted for 79% to 96% of public records requests at federal agencies like the Environmental Protection Agency and the Food and Drug Administration. W…",
-      "extra": {
-        "outlet": "MIT Technology Review",
-        "weight": 0.85,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:e97fae54855e",
-      "source": "news",
-      "title": "AI may soon change what it means to be a theoretical physicist",
-      "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-      "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, […]",
       "score": 80.0,
-      "created_at": "2026-11-25T12:00:28+00:00",
-      "raw_text": "About six months ago, Suvrat Raju, a professor of theoretical physics at the International Centre for Theoretical Sciences in Bengaluru, India, asked a frontier AI model to solve a physics problem. He didn’t ask because he needed to know the answer. He had actually solved this particular problem already. But he had never published the solution—which made it a perfect question to test how good AI was at physics. LLMs have been trained on the whole Internet, so if a physics problem has been discussed online, it’s likely the model already knows about it and may have memorized the answer. So a fair test of AI capabilities needs to focus on problems that have never appeared online. The model didn’t answer Raju’s problem correctly, but it did better than he expected—well, enough to get him thinking that the experiment should be repeated and formalized. With the help of a colleague, he set out to create a theoretical physics benchmark for AI. Read full article Comments",
+      "created_at": "2026-11-25T14:12:33+00:00",
+      "raw_text": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune . The discussions, which could end Amazon's block on Muse , reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune , Amazon is concerned that it could lose advertising revenue by allowing Muse on its site, since it depends on actual humans seeing ads across its online marketplace. It's also reportedly worried about the quality of the product search results that Muse will present to users, as well as whether the AI age … Read the full story at The Verge.",
       "extra": {
-        "outlet": "Ars Technica",
+        "outlet": "The Verge",
         "weight": 0.8,
-        "coverage": 0
+        "coverage": 2
       }
     },
     {
-      "id": "news:34b536284971",
+      "id": "news:c0f2de19f056",
       "source": "news",
-      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-      "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
       "score": 80.0,
-      "created_at": "2026-11-24T17:34:34+00:00",
-      "raw_text": "Most streaming music providers have opted to label AI-generated content on their platforms, and until now, Tidal was one of them. However, the company is about to take a harder stance. Tidal announced that in the coming weeks, it will fully ban AI music because of the harm it does to human artists. Tidal debuted its initial AI policy in July 2026, which included labeling and demonetizing all songs created entirely with AI. That wasn't enough to stem the tide of AI slop, though. Over the past 90 days, Tidal reports that 43 percent of new uploads were completely AI-generated. On November 6, new uploads to Tidal hit a whopping 60 percent AI-generated. As things stand, Tidal hosts 27 million tracks labeled as AI, all of which were obviously added in the past couple of years. That accounts for 6.3 percent of Tidal's total catalog. On December 9, Tidal will delete all those songs. The streamer notes this will have essentially no negative impact, because 96 percent of AI-labeled tracks got zero plays in the past 90 days. Throughout its announcement, Tidal is careful to stipulate that it's only talking about music that has been fully created by AI. Artists can still use AI tools as long as the final product contains human elements. Read full article Comments",
+      "created_at": "2026-11-26T09:54:40+00:00",
+      "raw_text": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safeguards for the people whose conversations are being sold.\" In October, Character.AI filed for bankruptcy following years of scandals and legal challenges , including from Disney . Disney ended up buying some of the company's assets and hiring its CEO , K … Read the full story at The Verge.",
       "extra": {
-        "outlet": "Ars Technica",
+        "outlet": "The Verge",
         "weight": 0.8,
         "coverage": 1
       }
     },
     {
-      "id": "news:b9e7be83e253",
+      "id": "hn:50648050",
+      "source": "hackernews",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "url": "https://github.com/lsernau/grh-lean",
+      "summary": "",
+      "score": 472.0,
+      "created_at": "2026-11-25T21:48:10+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50648050",
+        "num_comments": 255,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50651117",
+      "source": "hackernews",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "summary": "",
+      "score": 299.0,
+      "created_at": "2026-11-26T03:36:58+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50651117",
+        "num_comments": 167,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50647673",
+      "source": "hackernews",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;pcUgy\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;pcUgy</a>",
+      "score": 421.0,
+      "created_at": "2026-11-25T21:18:02+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50647673",
+        "num_comments": 353,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hf:2611.34849",
+      "source": "huggingface",
+      "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+      "url": "https://huggingface.co/papers/2611.34849",
+      "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M integrations when evaluating N methods on M benchmarks. To this end, we present Real2Si…",
+      "score": 83.0,
+      "created_at": "2026-11-26T00:00:00.000Z",
+      "raw_text": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M integrations when evaluating N methods on M benchmarks. To this end, we present Real2SimLab, a unified platform for real-to-simulation transfer. It evaluates a method by running its written program and scoring the output simulation with the original scorer of each benchmark. Moreover, Real2SimLab provides a pipeline to create training data and reward annotations for real-to-simulation methods. Our pipeline carefully avoids data contamination by filtering out the video recordings that exist in benchmarks. For each video recording, a program is first produced, and then our pipeline computes its reward with the same code that Real2SimLab uses for evaluation. So far, it supports 47 coding agents and 5 non-agent methods on 6 benchmarks. Both the platform and Awesome-Real2Sim, our research map of nearly 300 real-to-simulation papers, are open source, and we invite the Real2SimHub community to build them together.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.34849",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:40603fc3c1ac",
       "source": "news",
-      "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
-      "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
-      "summary": "The “hardest remaining problem in classical physics” gets a boost from terabytes of crowdsourced data and new ways of using machine learning and AI.",
+      "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+      "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
       "score": 80.0,
-      "created_at": "2026-11-25T11:30:00+00:00",
-      "raw_text": "The “hardest remaining problem in classical physics” gets a boost from terabytes of crowdsourced data and new ways of using machine learning and AI.",
+      "created_at": "2026-11-26T10:51:27+00:00",
+      "raw_text": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
       "extra": {
         "outlet": "Wired",
         "weight": 0.8,
@@ -109,44 +123,28 @@
       }
     },
     {
-      "id": "news:3c6728c1bfd1",
-      "source": "news",
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
-      "score": 100.0,
-      "created_at": "2026-11-24T13:00:00+00:00",
-      "raw_text": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "id": "hf:2611.34575",
+      "source": "huggingface",
+      "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+      "url": "https://huggingface.co/papers/2611.34575",
+      "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales i…",
+      "score": 73.0,
+      "created_at": "2026-11-26T00:00:00.000Z",
+      "raw_text": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in practice, we introduce Sage-Med-Preview, a 35B-parameter medical multimodal model with 3B activated parameters, built by combining stage-specific curation over 322.7 million candidate records with a progressive training curriculum spanning medical pretraining, staged supervised fine-tuning, and adaptive reinforcement learning. Across this curriculum, progressive supervised refinement and adaptive reinforcement learning yield consistent stage-wise gains, substantially advancing both specialized visual understanding and medical language capabilities. Evaluated against 77 competing models across 238 clinical tasks spanning 61 public and 13 private multi-center benchmarks in more than 40 modalities, Sage-Med-Preview achieves an average score of 58.26% on the 31 public multimodal benchmarks. It outperforms the state-of-the-art open-source medical model Hulu-Med-235B-A22B at 50.99% and the general scientific model Intern-S2-Preview at 52.24%, and approaches the advanced proprietary model GPT-6.2-Sol across multiple tasks such as comprehensive multimodal understanding, report generation, and visual grounding. Although substantial challenges remain in complex medical reasoning and multi-step clinical workflows, this report provides empirical evidence, actionable data and training recipes, and a rigorous benchmark toward scalable clinical multimodal intelligence.",
       "extra": {
-        "outlet": "OpenAI",
-        "weight": 1.0,
+        "arxiv_url": "https://arxiv.org/abs/2611.34575",
         "coverage": 0
       }
     },
     {
-      "id": "hn:50627340",
-      "source": "hackernews",
-      "title": "LLM agents work for their parent companies, not for you",
-      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-      "summary": "",
-      "score": 977.0,
-      "created_at": "2026-11-24T12:40:15+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50627340",
-        "num_comments": 403,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:0da425035fe7",
+      "id": "news:c0937367abc6",
       "source": "news",
-      "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
-      "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
-      "summary": "Startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its aggressively compressed language model. The article PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values appeared first on The Decoder .",
+      "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+      "summary": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system. Microsoft recommends deception techniques like honeypots and faked success signals as defenses, but how long those will hold up against agents that learn and adapt remains an open question. The article…",
       "score": 75.0,
-      "created_at": "2026-11-25T11:51:49+00:00",
-      "raw_text": "Startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its aggressively compressed language model. The article PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values appeared first on The Decoder .",
+      "created_at": "2026-11-26T11:30:06+00:00",
+      "raw_text": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system. Microsoft recommends deception techniques like honeypots and faked success signals as defenses, but how long those will hold up against agents that learn and adapt remains an open question. The article Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks appeared first on The Decoder .",
       "extra": {
         "outlet": "The Decoder",
         "weight": 0.75,
@@ -154,61 +152,67 @@
       }
     },
     {
-      "id": "hf:2611.30634",
-      "source": "huggingface",
-      "title": "Rewirable Circuits in Transformers with Loom Attention",
-      "url": "https://huggingface.co/papers/2611.30634",
-      "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream. This yields LoomFormer, a dual-stre…",
-      "score": 73.0,
-      "created_at": "2026-11-25T00:00:00.000Z",
-      "raw_text": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream. This yields LoomFormer, a dual-stream architecture that splits control and content between the vector and matrix streams. Across model sizes and training token budgets in language modeling and downstream tasks, LoomFormer matches Transformers trained with over 3x compute and recent residual-stream baselines (HC/mHC, MUDDFormer, AttnRes) trained with ~1.7-2.8x. For example, trained on the same 300B tokens with only 2% extra FLOPs, LoomPythia-2.8B achieves ~1.6x the average downstream gain of mHC-Pythia-2.8B over Pythia-2.8B, and matches (0-shot) or surpasses (5-shot) Pythia-12B. Code is available at https://github.com/Caiyun-AI/LoomFormer",
+      "id": "news:215dd8d36364",
+      "source": "news",
+      "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
+      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+      "summary": "Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. Following new US export controls targeting Chinese cloud access, dealers are already seeking buyers for thousands of B300 chips, while one cloud executive describes \"chaos\", Loans and major deals are now on the line for Southeast Asia's data centers. The article Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export control…",
+      "score": 75.0,
+      "created_at": "2026-11-26T11:21:16+00:00",
+      "raw_text": "Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. Following new US export controls targeting Chinese cloud access, dealers are already seeking buyers for thousands of B300 chips, while one cloud executive describes \"chaos\", Loans and major deals are now on the line for Southeast Asia's data centers. The article Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls appeared first on The Decoder .",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.30634",
+        "outlet": "The Decoder",
+        "weight": 0.75,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2611.25403",
+      "id": "hf:2611.34923",
       "source": "huggingface",
-      "title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
-      "url": "https://huggingface.co/papers/2611.25403",
-      "summary": "We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route. Antom 3-in-1 Transformer is pretrained to learn reusable behavioral and relational representations, primarily on Ant International's internal payment data. In a cross-business transfer experiment, pretraining improves the target b…",
-      "score": 68.0,
-      "created_at": "2026-11-25T00:00:00.000Z",
-      "raw_text": "We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route. Antom 3-in-1 Transformer is pretrained to learn reusable behavioral and relational representations, primarily on Ant International's internal payment data. In a cross-business transfer experiment, pretraining improves the target business metric by 34.5% over the same architecture trained from scratch. With only 25% of the training labels, the pretrained model outperforms the full-label scratch baseline in Average Precision (AP) and Recall@0.5% on different merchant domains. In a four-month online experiment on Ant International's billion-scale payment platform, the model reduced the overall loss rate by 37.88% relative to XGB-Online.",
+      "title": "Mixture-of-Loops Transformer",
+      "url": "https://huggingface.co/papers/2611.34923",
+      "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and…",
+      "score": 53.0,
+      "created_at": "2026-11-26T00:00:00.000Z",
+      "raw_text": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and reads local KV across loops for expressivity. Under loop KV, MoLT-KV instead restarts from embeddings and reads current-loop local KV with preceding-loop memory KV at earlier positions for efficiency. MoLT-KV eliminates same-position cross-loop dependence and, paired with loop forcing for parallel training, unlocks single-traversal Mixture-of-Loops (MoL) decoding beyond the training loop horizon. To balance efficiency and quality, we introduce U-shaped MoLT (U-MoLT), which separates memory construction from prediction readout and skips unused decoder traversals without changing predictions. In 400B-token pretraining, U-MoLT outperforms OLMo3 across 700M/1.5B dense and 3B MoE models, achieving 1.7x validation cross-entropy (CE) token efficiency at 700M while improving 3B MoE 10-domain perplexity by 0.75 and 10-task accuracy by 2.1 percentage points. In 100B-token continued pretraining of Qwen3.5-0.8B-Base, our U-MoLT adaptation lowers CE on all 11 domains over the matched baseline with 1.4x mean token efficiency. At inference, U-MoLT with MoL-Hybrid-2 matches non-looped OLMo3 latency at 996.6 vs. 1,000.6 ms on S-size (~113M) models. Code is available at https://github.com/hustvl/MoLT",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.25403",
+        "arxiv_url": "https://arxiv.org/abs/2611.34923",
         "coverage": 0
       }
     },
     {
-      "id": "hn:50637686",
-      "source": "hackernews",
-      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
-      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-      "summary": "",
-      "score": 279.0,
-      "created_at": "2026-11-25T02:34:21+00:00",
-      "raw_text": "",
+      "id": "hf:2611.34237",
+      "source": "huggingface",
+      "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+      "url": "https://huggingface.co/papers/2611.34237",
+      "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding…",
+      "score": 52.0,
+      "created_at": "2026-11-26T00:00:00.000Z",
+      "raw_text": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding session bloats its long-horizon context, while critiquing only the finished full-resolution render turns early design mistakes into costly rewrites. We introduce VibeVideoAgent, a training-free framework that lets coding agents inspect their drafts throughout production. Multimodal perception runs in short-lived contexts kept apart from the coder and returns compact, grounded Findings. Seven primitives operate on a unified multi-clock representation of assets and drafts: they explore media from coarse to fine, verify quoted requirements with evidence from every required modality, compare a draft with a reference or an earlier revision on separate clocks, and measure stream signals locally. A lightweight staged protocol has the agent test its riskiest decision on a minimal preview first. On all 239 VibeVideoBench tasks, with matched agent runtimes and a fixed perception model, VibeVideoAgent improves holistic audiovisual quality (L3) for Claude Opus 5.5 (4.03 -> 4.43, while L2 rubric compliance rises from 98.87% to 99.35%), GPT-6 Astra (4.03 -> 4.27), and Claude Sonnet 5.5 (3.97 -> 4.10), with the largest gains in audio-visual synchronization (up to +0.56). Controlled ablations show that each component contributes, and trajectory audits show that the granularity of code edits governs the trade-off between rubric adherence and perceptual quality.",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50637686",
-        "num_comments": 118,
+        "arxiv_url": "https://arxiv.org/abs/2611.34237",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Tidal announces ban on AI-generated music; 27 million tracks will be deleted\n\nText:\nMost streaming music providers have opted to label AI-generated content on their platforms, and until now, Tidal was one of them. However, the company is about to take a harder stance. Tidal announced that in the coming weeks, it will fully ban AI music because of the harm it does to human artists. Tidal debuted its initial AI policy in July 2026, which included labeling and demonetizing all songs created entirely with AI. That wasn't enough to stem the tide of AI slop, though. Over the past 90 days, Tidal reports that 43 percent of new uploads were completely AI-generated. On November 6, new uploads to Tidal hit a whopping 60 percent AI-generated. As things stand, Tidal hosts 27 million tracks labeled as AI, all of which were obviously added in the past couple of years. That accounts for 6.3 percent of Tidal's total catalog. On December 9, Tidal will delete all those songs. The streamer notes this will have essentially no negative impact, because 96 percent of AI-labeled tracks got zero plays in the past 90 days. Throughout its announcement, Tidal is careful to stipulate that it's only talking about music that has been fully created by AI. Artists can still use AI tools as long as the final product contains human elements. Read full article Comments\n\nArticle text (excerpt):\nMost streaming music providers have opted to label AI-generated content on their platforms, and until now, Tidal was one of them. However, the company is about to take a harder stance. Tidal announced that in the coming weeks, it will fully ban AI music because of the harm it does to human artists.\nTidal debuted its initial AI policy in July 2026, which included labeling and demonetizing all songs created entirely with AI. That wasn’t enough to stem the tide of AI slop, though. Over the past 90 days, Tidal reports that 43 percent of new uploads were completely AI-generated. On November 6, new uploads to Tidal hit a whopping 60 percent AI-generated.\nAs things stand, Tidal hosts 27 million tracks labeled as AI, all of which were obviously added in the past couple of years. That accounts for 6.3 percent of Tidal’s total catalog. On December 9, Tidal will delete all those songs. The streamer notes this will have essentially no negative impact, because 96 percent of AI-labeled tracks got zero plays in the past 90 days. Throughout its announcement, Tidal is careful to stipulate that it’s only talking about music that has been fully created by AI. Artists can still use AI tools as long as the final product contains human elements.\nSome people don’t particularly mind AI music, but the team at Tidal has come to believe the harm to artists is too great. AI models can pump out random noises faster than humans can create things of real value, which can mislead listeners and siphon royalty payments away from creators. There’s also an issue with AI uploaders who are actively attempting to steal royalty payments. Tidal says it has already removed about 66,000 tracks from its service for impersonating artists, which was against its AI policy even before this update.\nAs of December 9, individual uploaders and distributors will no longer be allowed to add AI music to Tidal. However, they could lie, couldn’t they?\nTidal hasn’t specified how it detects AI music, but it will probably rely on watermarking. Almost every AI song on Tidal (94 percent) comes from Suno, which added watermarking earlier this year. Tidal also cites Google Lyria as a source of AI tunes, which has SynthID labels embedded in the waveform. Deezer claimed it has a licensable AI music detector with a false-positive rate of less than 0.01 percent, but it’s unclear if Tidal is using that or something similar.\nThat will take care of most AI music, but this approach won’t detect everything. There are open models for music generation that you can run locally on a GPU, and some cloud-based providers aren’t bothering to watermark their outputs. Even if Tidal is using a separate detection system, new models may be able to evade it—it’s always going to be a cat-and-mouse game. This will be a problem with verifying provenance in all types of media in the future. For the time being, at least, Tidal’s policy should clear out most of the AI slop.\nThe people directing robots to make these songs will have plenty of other options after Tidal blocks AI. Spotify, YouTube Music , Deezer, and Apple Music all allow AI music on their platforms with labeling. Spotify has removed millions of AI tracks from its collection based on user feedback. Other streamers haven’t specified how much slop (if any) they’ve cleared out.",
+  "context": "Title: 42 state AGs are trying to stop Character.AI from selling users’ chats\n\nText:\nA coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safeguards for the people whose conversations are being sold.\" In October, Character.AI filed for bankruptcy following years of scandals and legal challenges , including from Disney . Disney ended up buying some of the company's assets and hiring its CEO , K … Read the full story at The Verge.\n\nArticle text (excerpt):\nA bipartisan coalition of AGs say Character.AI is planning to sell the personal data of minors to the highest bidder.\nA bipartisan coalition of AGs say Character.AI is planning to sell the personal data of minors to the highest bidder.\nA coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off “the private chat histories of more than 21 million U.S. accounts — more than 2.1 million of them registered to minors — with no safeguards for the people whose conversations are being sold.”\nIn October, Character.AI filed for bankruptcy following years of scandals and legal challenges , including from Disney . Disney ended up buying some of the company’s assets and hiring its CEO , Karandeep Anand, in a sort of “acquihire” arrangement that will also see “a number of Character.AI’s technical team” join the entertainment giant. The Disney deal also faced opposition from a similarly broad coalition of AGs.\nThe main point of contention with Character.AI’s plan to sell its chat data is that it offers no protections for users. The AGs say there are no requirements that the buyer honor existing privacy policies, no avenues for users to delete their data, and no inherent limits on what a buyer could do with that data, including selling it on to yet another party. It doesn’t help that the first bidder has a limited paper trail, having only been established on November 13th, 2026, with no parent company or investors listed.\nSome states, including New York, Connecticut, California, and Colorado, have also passed laws regulating chatbots that Character.AI may be in violation of when they go into effect on January 1st, 2027.\nThis is the title for the native ad",
   "research_links": [],
-  "source_credit": "Ars Technica",
-  "source_tag": "via Ars Technica",
-  "template": "warm_editorial",
-  "photo_file_id": "AgACAgUAAxkDAAIBOWsG050e0rIYKqjmG0dV3sl4hJj1AAJrGWsb1Q45VJ5BdnQx9NOjAQADAgADeQADPQQ",
-  "text": "27 million songs are about to disappear from Tidal on December 9.\n\nThey make up 6.3 percent of the platform's entire catalog.\n\nThe cleanup explains the real state of AI content.\n\nTidal is banning all music created entirely by software. Artists can still use AI tools, but fully automated tracks are being removed.\n\nThe upload volume exploded in recent months:\n• 43 percent of new uploads over 90 days were fully AI-generated\n• On November 6, automated submissions hit 60 percent of daily uploads\n• 66,000 tracks were already pulled for impersonating real human artists\n\nYet wiping 27 million songs will change almost nothing for listeners.\n\nTidal reported that 96 percent of those flagged tracks received zero plays over the last 90 days.\n\nThe music isn't winning audiences away from human artists. It is clogging distribution channels to target micro-royalties or hijack existing artist names.\n\nEnforcement won't be clean. Tidal relies on provider watermarks from services like Suno, which produced 94 percent of its AI tracks. But local, unwatermarked models make detection a permanent cat-and-mouse game.\n\nMy read: AI's immediate threat to open platforms isn't a takeover of human culture. It is an industrial volume of noise that turns distribution systems into spam filters.\n\nHow much automated content is sitting unplayed on your platform of choice?\n\nSource: Ars Technica",
-  "alt_openings": "**Opening 1 (Corrective)**\nAI isn't winning over music listeners. It is just spamming the upload queue.\n27 million automated tracks on Tidal are being deleted after getting zero plays.\n*When to prefer:* Use when writing for founders or product leaders who care more about platform dynamics and spam than music industry drama.\n\n**Opening 2 (Story in motion)**\nTidal tried labeling automated songs in July 2026, but the strategy failed.\nWithin months, fully synthetic tracks accounted for 60 percent of all daily uploads.\n*When to prefer:* Use if your audience follows AI policy and moderation decisions closely.\n\n**Opening 3 (Tool as subject)**\nAn AI flood forced Tidal to delete 6.3 percent of its music catalog.\nOn November 6, fully synthetic tracks hit 60 percent of all new daily uploads.\n*When to prefer:* Use when you want a fast, direct tech headline that puts the software action right up front.\n\nPick: The main post's opening (\"27 million songs...\"). A specific, massive number stated plainly creates immediate curiosity without giving away the zero-play twist before the fold.",
-  "voice_score": 4,
-  "firewall_notes": [],
-  "headline": "How 27 million AI tracks got zero plays",
+  "source_credit": "The Verge",
+  "source_tag": "via The Verge",
+  "template": "clean_white",
+  "photo_file_id": "AgACAgUAAxkDAAIBPmsIIhu5gkPhgVOMM4rBbjEyRyw_AALBGGsbYzpBVFC4rV3YcItIAQADAgADeQADPQQ",
+  "text": "21 million private chat logs are sitting in a bankruptcy auction.\n\nBipartisan AGs across 42 states are fighting to stop the sale.\n\nCharacter.AI filed for Chapter 11 bankruptcy in October following legal challenges, including from Disney.\n\nDisney bought select assets and hired CEO Karandeep Anand alongside core technical staff.\n\nUser data remains on the table.\n\nManagement planned to auction off private conversations with no safeguards for account holders.\n\nState officials flagged four concrete details:\n• 21 million U.S. accounts placed on the auction block\n• 2.1 million of those accounts registered to minors\n• No requirement for the buyer to honor original privacy terms\n• No path for users to delete their recorded chats\n\nOne mystery bidder entered on November 13th, 2026, listing no parent company or investors.\n\nWhen a company goes under, customer prompts become corporate property sold to pay creditors.\n\nPrivacy policies only protect your data while the startup stays solvent.\n\nSource: The Verge",
+  "alt_openings": "Opening 1 (Your X):\nYour private AI chats may be sold off in bankruptcy court.\n42 state attorneys general are trying to stop a defunct startup from auctioning them off.\nShape: Your X\nPrefer when: Writing directly to everyday consumers who use consumer AI tools and need an immediate personal connection to the risk.\n\nOpening 2 (Story in motion):\nCharacter.AI filed for bankruptcy, and then the asset sale began.\nNow 42 state attorneys general are trying to stop 21 million chat logs from being auctioned off.\nShape: Story in motion\nPrefer when: Audience members are already following AI industry news and business restructuring stories closely.\n\nOpening 3 (Corrective):\nAI privacy policies stop protecting your data the moment a company goes bankrupt.\n42 state attorneys general are currently fighting to prevent 21 million private chat histories from being sold.\nShape: Corrective\nPrefer when: Speaking to enterprise risk managers, lawyers, and founders who care about regulatory compliance and legal precedent.\n\nPick: Opening 1. It immediately connects the legal case to the reader's own behavior, making a corporate bankruptcy story feel urgent to anyone who has ever typed into a prompt box.",
+  "voice_score": 6,
+  "firewall_notes": [
+    "\"The risk goes beyond one startup.\" (Generic frame / uniform sentence length)",
+    "\"Left behind is the remaining asset: user data.\" (Abstractions / AI-speak)",
+    "\"When an AI platform goes under, customer prompts do not vanish. They turn into corporate property sold off to pay creditors.\" (\"It's not X, it's Y\" structural tell)",
+    "\"My read: privacy policies only protect your data while the startup stays solvent.\" (Uniform sentence cadence)",
+    "\"Would you keep using an AI tool if your chats could be auctioned off next year?\" (Forbidden engagement bait ending)"
+  ],
+  "headline": "How private chat logs end up in bankruptcy auctions",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-25.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-26.png"
 }
