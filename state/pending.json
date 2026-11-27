@@ -1,65 +1,34 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-26",
-  "created_at": "2026-11-26T17:37:47.616634+05:30",
+  "date": "2026-11-27",
+  "created_at": "2026-11-27T16:48:51.354340+05:30",
   "candidate": {
-    "id": "news:c0f2de19f056",
+    "id": "news:94305b427e5a",
     "source": "news",
-    "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
-    "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
-    "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
+    "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+    "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+    "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
     "score": 80.0,
-    "created_at": "2026-11-26T09:54:40+00:00",
-    "raw_text": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safeguards for the people whose conversations are being sold.\" In October, Character.AI filed for bankruptcy following years of scandals and legal challenges , including from Disney . Disney ended up buying some of the company's assets and hiring its CEO , K … Read the full story at The Verge.",
+    "created_at": "2026-11-26T20:03:54+00:00",
+    "raw_text": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
     "extra": {
-      "outlet": "The Verge",
+      "outlet": "TechCrunch",
       "weight": 0.8,
-      "coverage": 1
+      "coverage": 0
     }
   },
   "shortlist": [
     {
-      "id": "news:e1845ee0b548",
-      "source": "news",
-      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
-      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
-      "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, […]",
-      "score": 80.0,
-      "created_at": "2026-11-25T14:12:33+00:00",
-      "raw_text": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune . The discussions, which could end Amazon's block on Muse , reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune , Amazon is concerned that it could lose advertising revenue by allowing Muse on its site, since it depends on actual humans seeing ads across its online marketplace. It's also reportedly worried about the quality of the product search results that Muse will present to users, as well as whether the AI age … Read the full story at The Verge.",
+      "id": "hf:2611.34051",
+      "source": "huggingface",
+      "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "url": "https://huggingface.co/papers/2611.34051",
+      "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators who…",
+      "score": 103.0,
+      "created_at": "2026-11-27T00:00:00.000Z",
+      "raw_text": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators whose directional gains accumulate across tokens, triggering exponential state growth even without new writes. To resolve this, we propose , employing symmetric erasure to ensure non-expansive state propagation and decay-regulated residual writing to preserve writing flexibility. Theoretically, we establish an O(T) upper bound on recurrent state growth while retaining chunkwise parallel computation. Experiments on ~1.6B parameter models show that achieves stable training alongside improved long-context retrieval. Compared to GDN-2, it boosts the 128K average RULER score by 6.80 points in the recurrent setting and average accuracy across nine downstream tasks by 0.62 points in the hybrid setting.",
       "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 2
-      }
-    },
-    {
-      "id": "news:c0f2de19f056",
-      "source": "news",
-      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
-      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
-      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
-      "score": 80.0,
-      "created_at": "2026-11-26T09:54:40+00:00",
-      "raw_text": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safeguards for the people whose conversations are being sold.\" In October, Character.AI filed for bankruptcy following years of scandals and legal challenges , including from Disney . Disney ended up buying some of the company's assets and hiring its CEO , K … Read the full story at The Verge.",
-      "extra": {
-        "outlet": "The Verge",
-        "weight": 0.8,
-        "coverage": 1
-      }
-    },
-    {
-      "id": "hn:50648050",
-      "source": "hackernews",
-      "title": "Much shorter version of GRH Lean verification from Anthropic",
-      "url": "https://github.com/lsernau/grh-lean",
-      "summary": "",
-      "score": 472.0,
-      "created_at": "2026-11-25T21:48:10+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50648050",
-        "num_comments": 255,
+        "arxiv_url": "https://arxiv.org/abs/2611.34051",
         "coverage": 0
       }
     },
@@ -69,56 +38,86 @@
       "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
       "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
       "summary": "",
-      "score": 299.0,
+      "score": 489.0,
       "created_at": "2026-11-26T03:36:58+00:00",
       "raw_text": "",
       "extra": {
         "discussion_url": "https://news.ycombinator.com/item?id=50651117",
-        "num_comments": 167,
+        "num_comments": 267,
+        "coverage": 1
+      }
+    },
+    {
+      "id": "hf:2611.34232",
+      "source": "huggingface",
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "url": "https://huggingface.co/papers/2611.34232",
+      "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platform benchmark and execution environment for evaluating computer-using agents across Windows, Ubuntu…",
+      "score": 94.0,
+      "created_at": "2026-11-27T00:00:00.000Z",
+      "raw_text": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platform benchmark and execution environment for evaluating computer-using agents across Windows, Ubuntu, macOS, iOS, Android, and Web environments. OS-Omni is released in versioned waves of 300 tasks each; this paper focuses on the first release, v1, which contains 48 tasks per platform and 12 cross-platform workflows that pair a desktop with an Android phone. OS-Omni provides reproducible initialization, platform-specific adapters, trajectory logging, and executable final-state evaluators, and includes controlled service-backed applications for workflows involving account, cart, budget, calendar, message, and other persistent state. Human studies show that OS-Omni tasks require 67.54 interaction steps, substantially exceeding OSWorld references of 15.0 steps. On v1, the strongest evaluated agent, Claude Opus 5.5, reaches 68.5% average success, trailing the 77.3% human reference by 8.8 points; the gap is uneven across platforms, with frontier models exceeding humans on Linux but trailing them by more than 25 points on iOS and macOS. These results indicate that current agents remain far from platform-robust, long-horizon computer use, especially when success requires sustained state tracking and durable final-state changes.",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.34232",
         "coverage": 0
       }
     },
     {
-      "id": "hn:50647673",
+      "id": "hn:50660180",
       "source": "hackernews",
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;pcUgy\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;pcUgy</a>",
-      "score": 421.0,
-      "created_at": "2026-11-25T21:18:02+00:00",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "summary": "",
+      "score": 746.0,
+      "created_at": "2026-11-26T21:47:45+00:00",
       "raw_text": "",
       "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50647673",
-        "num_comments": 353,
+        "discussion_url": "https://news.ycombinator.com/item?id=50660180",
+        "num_comments": 371,
         "coverage": 0
       }
     },
     {
-      "id": "hf:2611.34849",
-      "source": "huggingface",
-      "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
-      "url": "https://huggingface.co/papers/2611.34849",
-      "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M integrations when evaluating N methods on M benchmarks. To this end, we present Real2Si…",
-      "score": 83.0,
-      "created_at": "2026-11-26T00:00:00.000Z",
-      "raw_text": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M integrations when evaluating N methods on M benchmarks. To this end, we present Real2SimLab, a unified platform for real-to-simulation transfer. It evaluates a method by running its written program and scoring the output simulation with the original scorer of each benchmark. Moreover, Real2SimLab provides a pipeline to create training data and reward annotations for real-to-simulation methods. Our pipeline carefully avoids data contamination by filtering out the video recordings that exist in benchmarks. For each video recording, a program is first produced, and then our pipeline computes its reward with the same code that Real2SimLab uses for evaluation. So far, it supports 47 coding agents and 5 non-agent methods on 6 benchmarks. Both the platform and Awesome-Real2Sim, our research map of nearly 300 real-to-simulation papers, are open source, and we invite the Real2SimHub community to build them together.",
+      "id": "hn:50663595",
+      "source": "hackernews",
+      "title": "The group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "summary": "",
+      "score": 293.0,
+      "created_at": "2026-11-27T06:44:34+00:00",
+      "raw_text": "",
       "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.34849",
+        "discussion_url": "https://news.ycombinator.com/item?id=50663595",
+        "num_comments": 123,
         "coverage": 0
       }
     },
     {
-      "id": "news:40603fc3c1ac",
+      "id": "news:3c1d86a54916",
       "source": "news",
-      "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
-      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
-      "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+      "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "summary": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
       "score": 80.0,
-      "created_at": "2026-11-26T10:51:27+00:00",
-      "raw_text": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+      "created_at": "2026-11-27T07:00:00+00:00",
+      "raw_text": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
       "extra": {
         "outlet": "Wired",
         "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50664325",
+      "source": "hackernews",
+      "title": "Claude sabotaging SOTA ML research tasks",
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "summary": "",
+      "score": 117.0,
+      "created_at": "2026-11-27T08:28:08+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50664325",
+        "num_comments": 75,
         "coverage": 0
       }
     },
@@ -128,7 +127,7 @@
       "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
       "url": "https://huggingface.co/papers/2611.34575",
       "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales i…",
-      "score": 73.0,
+      "score": 80.0,
       "created_at": "2026-11-26T00:00:00.000Z",
       "raw_text": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in practice, we introduce Sage-Med-Preview, a 35B-parameter medical multimodal model with 3B activated parameters, built by combining stage-specific curation over 322.7 million candidate records with a progressive training curriculum spanning medical pretraining, staged supervised fine-tuning, and adaptive reinforcement learning. Across this curriculum, progressive supervised refinement and adaptive reinforcement learning yield consistent stage-wise gains, substantially advancing both specialized visual understanding and medical language capabilities. Evaluated against 77 competing models across 238 clinical tasks spanning 61 public and 13 private multi-center benchmarks in more than 40 modalities, Sage-Med-Preview achieves an average score of 58.26% on the 31 public multimodal benchmarks. It outperforms the state-of-the-art open-source medical model Hulu-Med-235B-A22B at 50.99% and the general scientific model Intern-S2-Preview at 52.24%, and approaches the advanced proprietary model GPT-6.2-Sol across multiple tasks such as comprehensive multimodal understanding, report generation, and visual grounding. Although substantial challenges remain in complex medical reasoning and multi-step clinical workflows, this report provides empirical evidence, actionable data and training recipes, and a rigorous benchmark toward scalable clinical multimodal intelligence.",
       "extra": {
@@ -137,82 +136,81 @@
       }
     },
     {
-      "id": "news:c0937367abc6",
+      "id": "hf:2611.31619",
+      "source": "huggingface",
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "url": "https://huggingface.co/papers/2611.31619",
+      "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier, a tool that computes it from the files a board already publishes. Vernier also reports which entries a board ca…",
+      "score": 35.0,
+      "created_at": "2026-11-27T00:00:00.000Z",
+      "raw_text": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier, a tool that computes it from the files a board already publishes. Vernier also reports which entries a board cannot separate from its leader and whether its order changes when unrelated parties submit. GIFT-Eval resolves 6.8 rank places, and its displayed neighbours sit 0.91 apart. The ten places of its top ten hold fewer than two resolvable steps. fev-bench, Chronos Benchmark II and TIME show the same pattern: their resolution is 3.6 to 19 times the gap between neighbours. With each of its 2,554 series as an independent source, BOOM is the one board that resolves its top ten. Below the resolution the order depends on who else submitted: across four boards, rules that rank against the pool reversed 43 top-ten pairs with neither entry rerun, in one update in seven. Boards also do not record how much history a model receives. On 70 configurations, shortening it raised the error of three of four open models, two of them by 15%. We release Vernier, which runs this report with one command on any leaderboard that publishes per-dataset scores: https://github.com/therealram18/vernier",
+      "extra": {
+        "arxiv_url": "https://arxiv.org/abs/2611.31619",
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:94305b427e5a",
       "source": "news",
-      "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
-      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
-      "summary": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system. Microsoft recommends deception techniques like honeypots and faked success signals as defenses, but how long those will hold up against agents that learn and adapt remains an open question. The article…",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "score": 80.0,
+      "created_at": "2026-11-26T20:03:54+00:00",
+      "raw_text": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:e5c5d8632474",
+      "source": "news",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "score": 80.0,
+      "created_at": "2026-11-26T16:00:00+00:00",
+      "raw_text": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "extra": {
+        "outlet": "TechCrunch",
+        "weight": 0.8,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:7e69e25001ac",
+      "source": "news",
+      "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+      "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+      "summary": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to threatening all life on Earth. He's also \"virtually certain\" that AI labs are sitting on \"one or more bombshells\" in cryptography. The article Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it appeared first on The Decoder .",
       "score": 75.0,
-      "created_at": "2026-11-26T11:30:06+00:00",
-      "raw_text": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system. Microsoft recommends deception techniques like honeypots and faked success signals as defenses, but how long those will hold up against agents that learn and adapt remains an open question. The article Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks appeared first on The Decoder .",
+      "created_at": "2026-11-26T19:31:46+00:00",
+      "raw_text": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to threatening all life on Earth. He's also \"virtually certain\" that AI labs are sitting on \"one or more bombshells\" in cryptography. The article Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it appeared first on The Decoder .",
       "extra": {
         "outlet": "The Decoder",
         "weight": 0.75,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:215dd8d36364",
-      "source": "news",
-      "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
-      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
-      "summary": "Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. Following new US export controls targeting Chinese cloud access, dealers are already seeking buyers for thousands of B300 chips, while one cloud executive describes \"chaos\", Loans and major deals are now on the line for Southeast Asia's data centers. The article Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export control…",
-      "score": 75.0,
-      "created_at": "2026-11-26T11:21:16+00:00",
-      "raw_text": "Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. Following new US export controls targeting Chinese cloud access, dealers are already seeking buyers for thousands of B300 chips, while one cloud executive describes \"chaos\", Loans and major deals are now on the line for Southeast Asia's data centers. The article Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls appeared first on The Decoder .",
-      "extra": {
-        "outlet": "The Decoder",
-        "weight": 0.75,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.34923",
-      "source": "huggingface",
-      "title": "Mixture-of-Loops Transformer",
-      "url": "https://huggingface.co/papers/2611.34923",
-      "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and…",
-      "score": 53.0,
-      "created_at": "2026-11-26T00:00:00.000Z",
-      "raw_text": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and reads local KV across loops for expressivity. Under loop KV, MoLT-KV instead restarts from embeddings and reads current-loop local KV with preceding-loop memory KV at earlier positions for efficiency. MoLT-KV eliminates same-position cross-loop dependence and, paired with loop forcing for parallel training, unlocks single-traversal Mixture-of-Loops (MoL) decoding beyond the training loop horizon. To balance efficiency and quality, we introduce U-shaped MoLT (U-MoLT), which separates memory construction from prediction readout and skips unused decoder traversals without changing predictions. In 400B-token pretraining, U-MoLT outperforms OLMo3 across 700M/1.5B dense and 3B MoE models, achieving 1.7x validation cross-entropy (CE) token efficiency at 700M while improving 3B MoE 10-domain perplexity by 0.75 and 10-task accuracy by 2.1 percentage points. In 100B-token continued pretraining of Qwen3.5-0.8B-Base, our U-MoLT adaptation lowers CE on all 11 domains over the matched baseline with 1.4x mean token efficiency. At inference, U-MoLT with MoL-Hybrid-2 matches non-looped OLMo3 latency at 996.6 vs. 1,000.6 ms on S-size (~113M) models. Code is available at https://github.com/hustvl/MoLT",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.34923",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.34237",
-      "source": "huggingface",
-      "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
-      "url": "https://huggingface.co/papers/2611.34237",
-      "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding…",
-      "score": 52.0,
-      "created_at": "2026-11-26T00:00:00.000Z",
-      "raw_text": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding session bloats its long-horizon context, while critiquing only the finished full-resolution render turns early design mistakes into costly rewrites. We introduce VibeVideoAgent, a training-free framework that lets coding agents inspect their drafts throughout production. Multimodal perception runs in short-lived contexts kept apart from the coder and returns compact, grounded Findings. Seven primitives operate on a unified multi-clock representation of assets and drafts: they explore media from coarse to fine, verify quoted requirements with evidence from every required modality, compare a draft with a reference or an earlier revision on separate clocks, and measure stream signals locally. A lightweight staged protocol has the agent test its riskiest decision on a minimal preview first. On all 239 VibeVideoBench tasks, with matched agent runtimes and a fixed perception model, VibeVideoAgent improves holistic audiovisual quality (L3) for Claude Opus 5.5 (4.03 -> 4.43, while L2 rubric compliance rises from 98.87% to 99.35%), GPT-6 Astra (4.03 -> 4.27), and Claude Sonnet 5.5 (3.97 -> 4.10), with the largest gains in audio-visual synchronization (up to +0.56). Controlled ablations show that each component contributes, and trajectory audits show that the granularity of code edits governs the trade-off between rubric adherence and perceptual quality.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.34237",
         "coverage": 0
       }
     }
   ],
   "rejected_ids": [],
-  "context": "Title: 42 state AGs are trying to stop Character.AI from selling users’ chats\n\nText:\nA coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safeguards for the people whose conversations are being sold.\" In October, Character.AI filed for bankruptcy following years of scandals and legal challenges , including from Disney . Disney ended up buying some of the company's assets and hiring its CEO , K … Read the full story at The Verge.\n\nArticle text (excerpt):\nA bipartisan coalition of AGs say Character.AI is planning to sell the personal data of minors to the highest bidder.\nA bipartisan coalition of AGs say Character.AI is planning to sell the personal data of minors to the highest bidder.\nA coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off “the private chat histories of more than 21 million U.S. accounts — more than 2.1 million of them registered to minors — with no safeguards for the people whose conversations are being sold.”\nIn October, Character.AI filed for bankruptcy following years of scandals and legal challenges , including from Disney . Disney ended up buying some of the company’s assets and hiring its CEO , Karandeep Anand, in a sort of “acquihire” arrangement that will also see “a number of Character.AI’s technical team” join the entertainment giant. The Disney deal also faced opposition from a similarly broad coalition of AGs.\nThe main point of contention with Character.AI’s plan to sell its chat data is that it offers no protections for users. The AGs say there are no requirements that the buyer honor existing privacy policies, no avenues for users to delete their data, and no inherent limits on what a buyer could do with that data, including selling it on to yet another party. It doesn’t help that the first bidder has a limited paper trail, having only been established on November 13th, 2026, with no parent company or investors listed.\nSome states, including New York, Connecticut, California, and Colorado, have also passed laws regulating chatbots that Character.AI may be in violation of when they go into effect on January 1st, 2027.\nThis is the title for the native ad",
-  "research_links": [],
-  "source_credit": "The Verge",
-  "source_tag": "via The Verge",
-  "template": "clean_white",
-  "photo_file_id": "AgACAgUAAxkDAAIBPmsIIhu5gkPhgVOMM4rBbjEyRyw_AALBGGsbYzpBVFC4rV3YcItIAQADAgADeQADPQQ",
-  "text": "21 million private chat logs are sitting in a bankruptcy auction.\n\nBipartisan AGs across 42 states are fighting to stop the sale.\n\nCharacter.AI filed for Chapter 11 bankruptcy in October following legal challenges, including from Disney.\n\nDisney bought select assets and hired CEO Karandeep Anand alongside core technical staff.\n\nUser data remains on the table.\n\nManagement planned to auction off private conversations with no safeguards for account holders.\n\nState officials flagged four concrete details:\n• 21 million U.S. accounts placed on the auction block\n• 2.1 million of those accounts registered to minors\n• No requirement for the buyer to honor original privacy terms\n• No path for users to delete their recorded chats\n\nOne mystery bidder entered on November 13th, 2026, listing no parent company or investors.\n\nWhen a company goes under, customer prompts become corporate property sold to pay creditors.\n\nPrivacy policies only protect your data while the startup stays solvent.\n\nSource: The Verge",
-  "alt_openings": "Opening 1 (Your X):\nYour private AI chats may be sold off in bankruptcy court.\n42 state attorneys general are trying to stop a defunct startup from auctioning them off.\nShape: Your X\nPrefer when: Writing directly to everyday consumers who use consumer AI tools and need an immediate personal connection to the risk.\n\nOpening 2 (Story in motion):\nCharacter.AI filed for bankruptcy, and then the asset sale began.\nNow 42 state attorneys general are trying to stop 21 million chat logs from being auctioned off.\nShape: Story in motion\nPrefer when: Audience members are already following AI industry news and business restructuring stories closely.\n\nOpening 3 (Corrective):\nAI privacy policies stop protecting your data the moment a company goes bankrupt.\n42 state attorneys general are currently fighting to prevent 21 million private chat histories from being sold.\nShape: Corrective\nPrefer when: Speaking to enterprise risk managers, lawyers, and founders who care about regulatory compliance and legal precedent.\n\nPick: Opening 1. It immediately connects the legal case to the reader's own behavior, making a corporate bankruptcy story feel urgent to anyone who has ever typed into a prompt box.",
-  "voice_score": 6,
-  "firewall_notes": [
-    "\"The risk goes beyond one startup.\" (Generic frame / uniform sentence length)",
-    "\"Left behind is the remaining asset: user data.\" (Abstractions / AI-speak)",
-    "\"When an AI platform goes under, customer prompts do not vanish. They turn into corporate property sold off to pay creditors.\" (\"It's not X, it's Y\" structural tell)",
-    "\"My read: privacy policies only protect your data while the startup stays solvent.\" (Uniform sentence cadence)",
-    "\"Would you keep using an AI tool if your chats could be auctioned off next year?\" (Forbidden engagement bait ending)"
+  "context": "Title: Nvidia hits pause on chip shipments to Southeast Asia\n\nText:\nNvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.\n\nArticle text (excerpt):\nNvidia is under pressure to do things differently, and a new WSJ report shows how far that’s going.\nAccording to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its regional partners are meeting U.S. export requirements.\nAs for why those countries, Chinese companies have been tapping Nvidia chips remotely from data centers there, a loophole the US Commerce Department closed — reportedly grudgingly — earlier this month. The Journal notes that the think tank Institute for Progress estimates remote data centers like these supply about 24% of China’s AI computing power.\nGet an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist\n\nResearch notes on: Nvidia instructs hardware partners to pause AI server shipments to Southeast Asia to ensure compliance with U.S. export controls aimed at China.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from TechCrunch on MSN: \"Nvidia hits pause on chip shipments to Southeast Asia\"\nNvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.\n\nCoverage from TechRepublic: \"Nvidia Reportedly Halts AI Server Shipments to 4 Southeast Asian Countries Amid US Export Controls\"\nNvidia’s reported AI server shipment halt raises procurement and compliance concerns for businesses navigating tighter US export controls in Southeast Asia.\n\nCoverage from Daily Jang: \"Nvidia freezes AI server shipments to Southeast Asia amid new US chip crackdown\"\nUS chip giant Nvidia has instructed its major manufacturing partners to stop shipping artificial intelligence servers to four Southeast Asian countries.\nAccording to reports from the “Financial Times” on November 26, 2026, server makers including Dell and Supermicro have told buyers in Malaysia, Singapore, Thailand, and Indonesia that their orders are on hold.\nThe sudden freeze follows sweeping new export controls from the US Commerce Department that took effect last week. Washington aims to stop Chinese tech firms from bypassing direct US bans by renting computing power or buying restricted AI processors through third-party countries.\nUnder the strict new guidelines, Southeast Asian cloud providers have a 90-day window to secure special US licenses. To qualify, companies must prove that no restricted Chinese entities are among their end users.\nHowever, regional tech executives report widespread confusion because the government has not yet explained how to apply for the paperwork while the 90-day clock is already ticking.\nThe pause threatens massive revenue streams and major data center projects across the region. Nvidia generated $104 billion through its Singapore unit in 2025 alone.\nMeanwhile, banks have already frozen roughly $500 million in loans for a Singapore cloud project tied to TikTok parent company ByteDance. It remains unclear if Nvidia’s halt is a temporary compliance pause or a long-term block.\n\nBackground (Regulation of artificial intelligence in the United States, Wikipedia):\nThe United States federal government and state governments have developed some regulation of artificial intelligence, including executive orders, federal laws, and state laws. Federal agencies have also developed some sector-specific regulations related to AI.\n\nBackground (Cloud computing, Wikipedia):\nCloud computing is defined by the International Organization for Standardization (ISO) as \"a paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on demand\". It is commonly referred to as \"the cloud\".",
+  "research_links": [
+    "https://www.msn.com/en-us/news/other/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/ar-AA2ij7SA",
+    "https://www.techrepublic.com/article/news-nvidia-ai-server-shipments-southeast-asia-apac/",
+    "https://jang.com.pk/en/76924-nvidia-freezes-ai-server-shipments-to-southeast-asia-amid-new-us-chip-crackdown-news"
   ],
-  "headline": "How private chat logs end up in bankruptcy auctions",
+  "source_credit": "TechCrunch, with reporting from TechCrunch on MSN and TechRepublic",
+  "source_tag": "via TechCrunch",
+  "template": "dark_accent",
+  "photo_file_id": "AgACAgUAAxkDAAIBQ2sJZ0DkzRdbJlk4yVdZgq4s5MbTAAKGFGsbYzpRVHYuSjxsd_HiAQADAgADeQADPQQ",
+  "text": "Nvidia just told server makers to freeze AI shipments to four Southeast Asian countries.\n\nThe freeze hits Malaysia, Singapore, Thailand, and Indonesia while the U.S. closes a cloud loophole.\n\nThe target is not physical chip sales.\n\nChinese tech companies were tapping Nvidia processors remotely from data centers in those four nations.\n\nAn estimate from the Institute for Progress shows those remote centers supplied roughly 24% of China’s AI computing power.\n\nNow, Washington requires regional cloud providers to get special U.S. licenses proving no restricted Chinese entities are end users.\n\nThe clock is ticking on a 90-day window, but regional executives say the government hasn't explained how to apply.\n\nThe financial fallout arrived immediately:\n• Banks froze roughly $500 million in loans for a Singapore cloud project linked to ByteDance\n• Nvidia generated $104 billion through its Singapore unit in 2025 alone\n• Dell and Super Micro put orders on hold across all four countries\n\nMajor data center projects across the region are suddenly stuck.\n\nMy read: stopping chip shipments to China was step one, but policing distant servers that rent compute power is where export control gets messy.\n\nWhen renting a server across borders becomes a trade violation, neutral data centers lose their neutrality.\n\nWill your company's cloud provider pass the next compliance audit?\n\nSource: TechCrunch, with reporting from TechCrunch on MSN and TechRepublic",
+  "alt_openings": "Option A (Bare number first)\nLine 1: 24% of China’s AI computing power was coming from remote data centers abroad.\nLine 2: Washington just forced Nvidia to halt server shipments across four Southeast Asian countries to cut the access.\nShape: Bare number first.\nWhen to prefer: Use when writing for a finance or executive audience that reacts immediately to quantifiable scale.\n\nOption B (Your X)\nLine 1: Your Southeast Asian data center provider may be weeks away from a hardware freeze.\nLine 2: Nvidia has instructed Dell and Super Micro to stop server shipments while U.S. rules get sorted out.\nShape: Your X.\nWhen to prefer: Use if targeting tech leaders, IT buyers, or operations managers in the APAC region whose infrastructure supply chains are directly affected.\n\nOption C (Corrective)\nLine 1: Banning direct chip exports to China did not stop Chinese firms from accessing AI power.\nLine 2: They rented it remotely from third-party nations, forcing Nvidia to freeze shipments to four allies.\nShape: Corrective.\nWhen to prefer: Use when speaking to policy, legal, or strategy professionals who care about regulatory workarounds and compliance enforcement.\n\nPick: Option A (Bare number first). The 24% statistic immediately contextualizes why Nvidia took such a drastic step, pulling the reader into the geopolitical mechanics before they click \"see more.\"",
+  "voice_score": 4,
+  "firewall_notes": [],
+  "headline": "How Southeast Asia powered 24% of China's AI",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-26.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-27.png"
 }
