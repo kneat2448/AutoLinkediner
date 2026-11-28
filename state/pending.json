@@ -1,30 +1,90 @@
 {
   "status": "awaiting_approval",
-  "date": "2026-11-27",
-  "created_at": "2026-11-27T16:48:51.354340+05:30",
+  "date": "2026-11-28",
+  "created_at": "2026-11-28T16:17:28.616744+05:30",
   "candidate": {
-    "id": "news:94305b427e5a",
+    "id": "news:dfe2badd460b",
     "source": "news",
-    "title": "Nvidia hits pause on chip shipments to Southeast Asia",
-    "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-    "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
-    "score": 80.0,
-    "created_at": "2026-11-26T20:03:54+00:00",
-    "raw_text": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+    "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+    "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+    "summary": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to compete directly with Apple. The article OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers appeared first on The Decoder .",
+    "score": 75.0,
+    "created_at": "2026-11-27T19:38:37+00:00",
+    "raw_text": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to compete directly with Apple. The article OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers appeared first on The Decoder .",
     "extra": {
-      "outlet": "TechCrunch",
-      "weight": 0.8,
+      "outlet": "The Decoder",
+      "weight": 0.75,
       "coverage": 0
     }
   },
   "shortlist": [
+    {
+      "id": "hn:50670757",
+      "source": "hackernews",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "summary": "",
+      "score": 544.0,
+      "created_at": "2026-11-27T19:31:01+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50670757",
+        "num_comments": 337,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50672565",
+      "source": "hackernews",
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "summary": "",
+      "score": 410.0,
+      "created_at": "2026-11-27T23:06:29+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50672565",
+        "num_comments": 158,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50664325",
+      "source": "hackernews",
+      "title": "Claude sabotaging ML research tasks?",
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "summary": "",
+      "score": 710.0,
+      "created_at": "2026-11-27T08:28:08+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50664325",
+        "num_comments": 312,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "hn:50663595",
+      "source": "hackernews",
+      "title": "Group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "summary": "",
+      "score": 709.0,
+      "created_at": "2026-11-27T06:44:34+00:00",
+      "raw_text": "",
+      "extra": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50663595",
+        "num_comments": 290,
+        "coverage": 0
+      }
+    },
     {
       "id": "hf:2611.34051",
       "source": "huggingface",
       "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
       "url": "https://huggingface.co/papers/2611.34051",
       "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators who…",
-      "score": 103.0,
+      "score": 132.0,
       "created_at": "2026-11-27T00:00:00.000Z",
       "raw_text": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators whose directional gains accumulate across tokens, triggering exponential state growth even without new writes. To resolve this, we propose , employing symmetric erasure to ensure non-expansive state propagation and decay-regulated residual writing to preserve writing flexibility. Theoretically, we establish an O(T) upper bound on recurrent state growth while retaining chunkwise parallel computation. Experiments on ~1.6B parameter models show that achieves stable training alongside improved long-context retrieval. Compared to GDN-2, it boosts the 128K average RULER score by 6.80 points in the recurrent setting and average accuracy across nine downstream tasks by 0.62 points in the hybrid setting.",
       "extra": {
@@ -33,27 +93,12 @@
       }
     },
     {
-      "id": "hn:50651117",
-      "source": "hackernews",
-      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-      "summary": "",
-      "score": 489.0,
-      "created_at": "2026-11-26T03:36:58+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50651117",
-        "num_comments": 267,
-        "coverage": 1
-      }
-    },
-    {
       "id": "hf:2611.34232",
       "source": "huggingface",
       "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
       "url": "https://huggingface.co/papers/2611.34232",
       "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platform benchmark and execution environment for evaluating computer-using agents across Windows, Ubuntu…",
-      "score": 94.0,
+      "score": 110.0,
       "created_at": "2026-11-27T00:00:00.000Z",
       "raw_text": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platform benchmark and execution environment for evaluating computer-using agents across Windows, Ubuntu, macOS, iOS, Android, and Web environments. OS-Omni is released in versioned waves of 300 tasks each; this paper focuses on the first release, v1, which contains 48 tasks per platform and 12 cross-platform workflows that pair a desktop with an Android phone. OS-Omni provides reproducible initialization, platform-specific adapters, trajectory logging, and executable final-state evaluators, and includes controlled service-backed applications for workflows involving account, cart, budget, calendar, message, and other persistent state. Human studies show that OS-Omni tasks require 67.54 interaction steps, substantially exceeding OSWorld references of 15.0 steps. On v1, the strongest evaluated agent, Claude Opus 5.5, reaches 68.5% average success, trailing the 77.3% human reference by 8.8 points; the gap is uneven across platforms, with frontier models exceeding humans on Linux but trailing them by more than 25 points on iOS and macOS. These results indicate that current agents remain far from platform-robust, long-horizon computer use, especially when success requires sustained state tracking and durable final-state changes.",
       "extra": {
@@ -62,132 +107,89 @@
       }
     },
     {
-      "id": "hn:50660180",
-      "source": "hackernews",
-      "title": "AI made self-hosting fun again",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
-      "summary": "",
-      "score": 746.0,
-      "created_at": "2026-11-26T21:47:45+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50660180",
-        "num_comments": 371,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hn:50663595",
-      "source": "hackernews",
-      "title": "The group chat where your AI talks behind your back",
-      "url": "https://construct22.com/",
-      "summary": "",
-      "score": 293.0,
-      "created_at": "2026-11-27T06:44:34+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50663595",
-        "num_comments": 123,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:3c1d86a54916",
+      "id": "news:24644713102c",
       "source": "news",
-      "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
-      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
-      "summary": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]",
       "score": 80.0,
-      "created_at": "2026-11-27T07:00:00+00:00",
-      "raw_text": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
+      "created_at": "2026-11-27T14:00:00+00:00",
+      "raw_text": "Widgets, your way. | Photo: Allison Johnson / The Verge Aside from dealing with my calendar , there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and select my stop will slow me down enough to miss a bus. I need glanceable information, and I hoped that Android's vibe-coded widget feature could help me out here. It hasn't, to my disappointment, but I still had a good time cooking up other widgets. Google announced the ability to create custom widgets using AI back at I/O in the spring. It's called Create My Widget, and it's pa … Read the full story at The Verge.",
       "extra": {
-        "outlet": "Wired",
+        "outlet": "The Verge",
         "weight": 0.8,
         "coverage": 0
       }
     },
     {
-      "id": "hn:50664325",
-      "source": "hackernews",
-      "title": "Claude sabotaging SOTA ML research tasks",
-      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-      "summary": "",
-      "score": 117.0,
-      "created_at": "2026-11-27T08:28:08+00:00",
-      "raw_text": "",
-      "extra": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50664325",
-        "num_comments": 75,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.34575",
-      "source": "huggingface",
-      "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
-      "url": "https://huggingface.co/papers/2611.34575",
-      "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales i…",
-      "score": 80.0,
-      "created_at": "2026-11-26T00:00:00.000Z",
-      "raw_text": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in practice, we introduce Sage-Med-Preview, a 35B-parameter medical multimodal model with 3B activated parameters, built by combining stage-specific curation over 322.7 million candidate records with a progressive training curriculum spanning medical pretraining, staged supervised fine-tuning, and adaptive reinforcement learning. Across this curriculum, progressive supervised refinement and adaptive reinforcement learning yield consistent stage-wise gains, substantially advancing both specialized visual understanding and medical language capabilities. Evaluated against 77 competing models across 238 clinical tasks spanning 61 public and 13 private multi-center benchmarks in more than 40 modalities, Sage-Med-Preview achieves an average score of 58.26% on the 31 public multimodal benchmarks. It outperforms the state-of-the-art open-source medical model Hulu-Med-235B-A22B at 50.99% and the general scientific model Intern-S2-Preview at 52.24%, and approaches the advanced proprietary model GPT-6.2-Sol across multiple tasks such as comprehensive multimodal understanding, report generation, and visual grounding. Although substantial challenges remain in complex medical reasoning and multi-step clinical workflows, this report provides empirical evidence, actionable data and training recipes, and a rigorous benchmark toward scalable clinical multimodal intelligence.",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.34575",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "hf:2611.31619",
-      "source": "huggingface",
-      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
-      "url": "https://huggingface.co/papers/2611.31619",
-      "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier, a tool that computes it from the files a board already publishes. Vernier also reports which entries a board ca…",
-      "score": 35.0,
-      "created_at": "2026-11-27T00:00:00.000Z",
-      "raw_text": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier, a tool that computes it from the files a board already publishes. Vernier also reports which entries a board cannot separate from its leader and whether its order changes when unrelated parties submit. GIFT-Eval resolves 6.8 rank places, and its displayed neighbours sit 0.91 apart. The ten places of its top ten hold fewer than two resolvable steps. fev-bench, Chronos Benchmark II and TIME show the same pattern: their resolution is 3.6 to 19 times the gap between neighbours. With each of its 2,554 series as an independent source, BOOM is the one board that resolves its top ten. Below the resolution the order depends on who else submitted: across four boards, rules that rank against the pool reversed 43 top-ten pairs with neither entry rerun, in one update in seven. Boards also do not record how much history a model receives. On 70 configurations, shortening it raised the error of three of four open models, two of them by 15%. We release Vernier, which runs this report with one command on any leaderboard that publishes per-dataset scores: https://github.com/therealram18/vernier",
-      "extra": {
-        "arxiv_url": "https://arxiv.org/abs/2611.31619",
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:94305b427e5a",
+      "id": "news:dfe2badd460b",
       "source": "news",
-      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
-      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
-      "score": 80.0,
-      "created_at": "2026-11-26T20:03:54+00:00",
-      "raw_text": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:e5c5d8632474",
-      "source": "news",
-      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
-      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
-      "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
-      "score": 80.0,
-      "created_at": "2026-11-26T16:00:00+00:00",
-      "raw_text": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
-      "extra": {
-        "outlet": "TechCrunch",
-        "weight": 0.8,
-        "coverage": 0
-      }
-    },
-    {
-      "id": "news:7e69e25001ac",
-      "source": "news",
-      "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
-      "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
-      "summary": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to threatening all life on Earth. He's also \"virtually certain\" that AI labs are sitting on \"one or more bombshells\" in cryptography. The article Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it appeared first on The Decoder .",
+      "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "summary": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to compete directly with Apple. The article OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers appeared first on The Decoder .",
       "score": 75.0,
-      "created_at": "2026-11-26T19:31:46+00:00",
-      "raw_text": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to threatening all life on Earth. He's also \"virtually certain\" that AI labs are sitting on \"one or more bombshells\" in cryptography. The article Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it appeared first on The Decoder .",
+      "created_at": "2026-11-27T19:38:37+00:00",
+      "raw_text": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to compete directly with Apple. The article OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers appeared first on The Decoder .",
+      "extra": {
+        "outlet": "The Decoder",
+        "weight": 0.75,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:a590fc975ebe",
+      "source": "news",
+      "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+      "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+      "summary": "Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal. The article Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports appeared first on The Decoder .",
+      "score": 75.0,
+      "created_at": "2026-11-27T18:27:02+00:00",
+      "raw_text": "Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal. The article Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports appeared first on The Decoder .",
+      "extra": {
+        "outlet": "The Decoder",
+        "weight": 0.75,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:ee0e28b34a19",
+      "source": "news",
+      "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+      "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+      "summary": "Yann LeCun is pushing forward with his alternative to language models through his startup AMI Labs. The JEPA architecture aims to give machines an internal world model that captures cause and effect. Three new studies show progress in robot planning, more efficient training, and error correction, though the pieces still need to grow together. The article Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models appeared first on The Decoder .",
+      "score": 75.0,
+      "created_at": "2026-11-27T16:58:56+00:00",
+      "raw_text": "Yann LeCun is pushing forward with his alternative to language models through his startup AMI Labs. The JEPA architecture aims to give machines an internal world model that captures cause and effect. Three new studies show progress in robot planning, more efficient training, and error correction, though the pieces still need to grow together. The article Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models appeared first on The Decoder .",
+      "extra": {
+        "outlet": "The Decoder",
+        "weight": 0.75,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:7591243f5ec9",
+      "source": "news",
+      "title": "Hackers breached the US Air Force's flagship Cloud One platform, report says",
+      "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+      "summary": "Hackers breached the US Air Force's flagship cloud platform. The article Hackers breached the US Air Force's flagship Cloud One platform, report says appeared first on The Decoder .",
+      "score": 75.0,
+      "created_at": "2026-11-27T16:06:43+00:00",
+      "raw_text": "Hackers breached the US Air Force's flagship cloud platform. The article Hackers breached the US Air Force's flagship Cloud One platform, report says appeared first on The Decoder .",
+      "extra": {
+        "outlet": "The Decoder",
+        "weight": 0.75,
+        "coverage": 0
+      }
+    },
+    {
+      "id": "news:07fea5b0e769",
+      "source": "news",
+      "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
+      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+      "summary": "OpenAI's data agent in ChatGPT Work still isn't accurate enough. Under the codename \"Athena,\" the company is building a semantic layer that gives agents standardized definitions for business metrics. The tool could also put OpenAI in direct competition with Snowflake and Databricks. The article OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork appeared first on The Decoder .",
+      "score": 75.0,
+      "created_at": "2026-11-27T16:05:23+00:00",
+      "raw_text": "OpenAI's data agent in ChatGPT Work still isn't accurate enough. Under the codename \"Athena,\" the company is building a semantic layer that gives agents standardized definitions for business metrics. The tool could also put OpenAI in direct competition with Snowflake and Databricks. The article OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork appeared first on The Decoder .",
       "extra": {
         "outlet": "The Decoder",
         "weight": 0.75,
@@ -196,21 +198,21 @@
     }
   ],
   "rejected_ids": [],
-  "context": "Title: Nvidia hits pause on chip shipments to Southeast Asia\n\nText:\nNvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.\n\nArticle text (excerpt):\nNvidia is under pressure to do things differently, and a new WSJ report shows how far that’s going.\nAccording to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its regional partners are meeting U.S. export requirements.\nAs for why those countries, Chinese companies have been tapping Nvidia chips remotely from data centers there, a loophole the US Commerce Department closed — reportedly grudgingly — earlier this month. The Journal notes that the think tank Institute for Progress estimates remote data centers like these supply about 24% of China’s AI computing power.\nGet an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist\n\nResearch notes on: Nvidia instructs hardware partners to pause AI server shipments to Southeast Asia to ensure compliance with U.S. export controls aimed at China.\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from TechCrunch on MSN: \"Nvidia hits pause on chip shipments to Southeast Asia\"\nNvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.\n\nCoverage from TechRepublic: \"Nvidia Reportedly Halts AI Server Shipments to 4 Southeast Asian Countries Amid US Export Controls\"\nNvidia’s reported AI server shipment halt raises procurement and compliance concerns for businesses navigating tighter US export controls in Southeast Asia.\n\nCoverage from Daily Jang: \"Nvidia freezes AI server shipments to Southeast Asia amid new US chip crackdown\"\nUS chip giant Nvidia has instructed its major manufacturing partners to stop shipping artificial intelligence servers to four Southeast Asian countries.\nAccording to reports from the “Financial Times” on November 26, 2026, server makers including Dell and Supermicro have told buyers in Malaysia, Singapore, Thailand, and Indonesia that their orders are on hold.\nThe sudden freeze follows sweeping new export controls from the US Commerce Department that took effect last week. Washington aims to stop Chinese tech firms from bypassing direct US bans by renting computing power or buying restricted AI processors through third-party countries.\nUnder the strict new guidelines, Southeast Asian cloud providers have a 90-day window to secure special US licenses. To qualify, companies must prove that no restricted Chinese entities are among their end users.\nHowever, regional tech executives report widespread confusion because the government has not yet explained how to apply for the paperwork while the 90-day clock is already ticking.\nThe pause threatens massive revenue streams and major data center projects across the region. Nvidia generated $104 billion through its Singapore unit in 2025 alone.\nMeanwhile, banks have already frozen roughly $500 million in loans for a Singapore cloud project tied to TikTok parent company ByteDance. It remains unclear if Nvidia’s halt is a temporary compliance pause or a long-term block.\n\nBackground (Regulation of artificial intelligence in the United States, Wikipedia):\nThe United States federal government and state governments have developed some regulation of artificial intelligence, including executive orders, federal laws, and state laws. Federal agencies have also developed some sector-specific regulations related to AI.\n\nBackground (Cloud computing, Wikipedia):\nCloud computing is defined by the International Organization for Standardization (ISO) as \"a paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on demand\". It is commonly referred to as \"the cloud\".",
+  "context": "Title: OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers\n\nText:\nOpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to compete directly with Apple. The article OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers appeared first on The Decoder .\n\nArticle text (excerpt):\nOpenAI is suing Apple for trade secret theft and unfair business practices. The ChatGPT maker filed the lawsuit Friday in a California court, the Financial Times reports . OpenAI accuses Apple of \"coercing and threatening\" suppliers that work with both companies and of using its market power to stifle competition.\nThe company also alleges that Apple encourages employees to store corporate data on personal devices, then turns that practice against staff who want to leave. According to the complaint, a former OpenAI employee passed along details about product plans and suppliers after returning to Apple.\nThe countersuit follows Apple's own lawsuit from the summer , which accused several former employees of leaking confidential information to OpenAI. The AI company had previously closed its $6.4 billion acquisition of former Apple chief designer Jony Ive's studio \"io\" and is preparing its own devices to rival Apple . Just two years ago, the two companies made a splashy announcement of a partnership to integrate ChatGPT into the iPhone . Ad Ad\n\nResearch notes on: OpenAI countersues Apple over trade secret theft and supplier coercion\n(Found by web search. Some coverage may be older background. Use it for context and explanation, but don't present older events as new, and keep the main story's facts primary.)\n\nCoverage from CNN on MSN: \"OpenAI countersues Apple in ongoing trade secrets fight\"\nOpenAI countersued Apple on Friday, accusing it of “unlawful, tortious, and unfair business practices.” It’s the latest move in an ongoing fight over trade secrets related to the two companies’ ...\n\nCoverage from The News International: \"OpenAI countersues Apple over alleged trade secret theft\"\nEarlier Apple filed a lawsuit against OpenAI allegedly poaching its employees to gain access to its technology\nOpenAI has escalated a legal battle with Apple by countersuing the iPhone maker company over alleged trade secret theft practices.\nOn Friday, the ChatGPT maker company filed a lawsuit against Apple in California federal court, claiming that Apple’s practices were designed to trap OpenAI’s former employees to extract the information about the tech company’s hardware supplies.\nOpenAI is preparing to compete with Apple with AI-enabled devices that could \"outcompete Apple on what Apple views as its own turf.”\nThe filing also exposed that Apple rehired a former OpenAI employee who worked in the company for 6 months. In the meantime, the employee had access to information about OpenAI’s new devices and the future roadmap regarding the hardware supplies.\n\"Given the timing, it now appears that stealing those documents may have been his reason for joining OpenAI in the first place,\" OpenAI said.\nOpenAI also censures Apple for accessing former employees’ personal devices even after they leave the company. This practice gives Apple an leverage to monitor and trap employees when they join any competitor.\nIn response to the counterclaims, Apple denied the accusations and wrongdoing on its part of rehiring the OpenAI’s employee with the intention of stealing information and suppressing competition in the market.\n\"OpenAI’s counterclaims are a transparent attempt to distract from the substance of Apple’s lawsuit,\" Apple said in a ​Friday statement.\nEarlier, Apple filed a lawsuit against OpenAI, alleging that the latter stole the information of hardware. With this lawsuit, the tensions have been running high between two companies.\n\nCoverage from Le Monde: \"OpenAI countersues Apple in dispute over trade secret thefts\"\nOpenAI countersued Apple on Friday, November 27, alleging that the iPhone maker committed similar trade secret theft that it had accused the ChatGPT provider of this summer. OpenAI alleged that Apple was stealing trade secrets through a former employee and pressuring shared suppliers to hamper its entry into the connected devices market. An Apple spokesperson denounced the filing as \"a transparent attempt to distract from the substance\" of its own lawsuit.\nThe countersuit came in a filing Friday in federal court in San Jose, California, as part of the lawsuit filed by Apple in July against OpenAI and two of its employees who previously worked for Apple.\nThe two companies, partners since ChatGPT was integrated into Apple products in 2024, are poised to become rivals: OpenAI is developing its first connected devices designed for artificial intelligence with the studio of Jony Ive, Apple's renowned former design chief.\nApple is seeking \"to compete unfairly by any means available,\" OpenAI's lawyers wrote.\nAccording to the filing, Apple is demanding that suppliers identify their projects for OpenAI and the employees assigned to them. \"Suppliers have expressed fear of losing Apple business and have moved or rescheduled meetings with OpenAI to avoid Apple seeing them,\" the filing says.\nOne supplier moved OpenAI's production to a night shift, while another dropped planned work \"because of threats from Apple,\" according to the filing, which does not name any of the firms.\nOpenAI also accused a former Apple employee, who spent six months at OpenAI before leaving in June and returning to the iPhone maker, of sending \"dozens of OpenAI documents\" about a prototype to his personal phone numbers, then presenting OpenAI's plans to senior Apple staff in July \"at Apple's request.\"\n\nBackground (Trade secret, Wikipedia):\nA trade secret is a type of intellectual property that protects a formula, process, or other business information that is valuable because it is not generally known or readily ascertainable and that the owner keeps secret in order to maintain a competitive advantage. Well-known examples of trade secrets include the formula for Coca-Cola, the recipe for Kentucky Fried Chicken, and the formula for Zildjian bronze cymbals.\n\nBackground (Counterclaim, Wikipedia):\nIn a court of law, a party's claim is a counterclaim if one party asserts claims in response to the claims of another. In other words, if a plaintiff initiates a lawsuit and a defendant responds to the lawsuit with claims of their own against the plaintiff, the defendant's claims are \"counterclaims.\"",
   "research_links": [
-    "https://www.msn.com/en-us/news/other/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/ar-AA2ij7SA",
-    "https://www.techrepublic.com/article/news-nvidia-ai-server-shipments-southeast-asia-apac/",
-    "https://jang.com.pk/en/76924-nvidia-freezes-ai-server-shipments-to-southeast-asia-amid-new-us-chip-crackdown-news"
+    "https://www.msn.com/en-us/news/other/openai-countersues-apple-in-ongoing-trade-secrets-fight/ar-AA2io8h6",
+    "https://www.thenews.com.pk/latest/1425499-openai-countersues-apple-over-alleged-trade-secret-theft",
+    "https://www.lemonde.fr/en/pixels/article/2026/11/28/openai-countersues-apple-in-dispute-over-trade-secret-thefts_6790291_13.html"
   ],
-  "source_credit": "TechCrunch, with reporting from TechCrunch on MSN and TechRepublic",
-  "source_tag": "via TechCrunch",
-  "template": "dark_accent",
-  "photo_file_id": "AgACAgUAAxkDAAIBQ2sJZ0DkzRdbJlk4yVdZgq4s5MbTAAKGFGsbYzpRVHYuSjxsd_HiAQADAgADeQADPQQ",
-  "text": "Nvidia just told server makers to freeze AI shipments to four Southeast Asian countries.\n\nThe freeze hits Malaysia, Singapore, Thailand, and Indonesia while the U.S. closes a cloud loophole.\n\nThe target is not physical chip sales.\n\nChinese tech companies were tapping Nvidia processors remotely from data centers in those four nations.\n\nAn estimate from the Institute for Progress shows those remote centers supplied roughly 24% of China’s AI computing power.\n\nNow, Washington requires regional cloud providers to get special U.S. licenses proving no restricted Chinese entities are end users.\n\nThe clock is ticking on a 90-day window, but regional executives say the government hasn't explained how to apply.\n\nThe financial fallout arrived immediately:\n• Banks froze roughly $500 million in loans for a Singapore cloud project linked to ByteDance\n• Nvidia generated $104 billion through its Singapore unit in 2025 alone\n• Dell and Super Micro put orders on hold across all four countries\n\nMajor data center projects across the region are suddenly stuck.\n\nMy read: stopping chip shipments to China was step one, but policing distant servers that rent compute power is where export control gets messy.\n\nWhen renting a server across borders becomes a trade violation, neutral data centers lose their neutrality.\n\nWill your company's cloud provider pass the next compliance audit?\n\nSource: TechCrunch, with reporting from TechCrunch on MSN and TechRepublic",
-  "alt_openings": "Option A (Bare number first)\nLine 1: 24% of China’s AI computing power was coming from remote data centers abroad.\nLine 2: Washington just forced Nvidia to halt server shipments across four Southeast Asian countries to cut the access.\nShape: Bare number first.\nWhen to prefer: Use when writing for a finance or executive audience that reacts immediately to quantifiable scale.\n\nOption B (Your X)\nLine 1: Your Southeast Asian data center provider may be weeks away from a hardware freeze.\nLine 2: Nvidia has instructed Dell and Super Micro to stop server shipments while U.S. rules get sorted out.\nShape: Your X.\nWhen to prefer: Use if targeting tech leaders, IT buyers, or operations managers in the APAC region whose infrastructure supply chains are directly affected.\n\nOption C (Corrective)\nLine 1: Banning direct chip exports to China did not stop Chinese firms from accessing AI power.\nLine 2: They rented it remotely from third-party nations, forcing Nvidia to freeze shipments to four allies.\nShape: Corrective.\nWhen to prefer: Use when speaking to policy, legal, or strategy professionals who care about regulatory workarounds and compliance enforcement.\n\nPick: Option A (Bare number first). The 24% statistic immediately contextualizes why Nvidia took such a drastic step, pulling the reader into the geopolitical mechanics before they click \"see more.\"",
-  "voice_score": 4,
+  "source_credit": "The Decoder, with reporting from CNN on MSN and The News International",
+  "source_tag": "via The Decoder",
+  "template": "warm_editorial",
+  "photo_file_id": "AgACAgUAAxkDAAIBR2sKsa7h3V9TsSwi08NGPwMoAAFJXAAC4BRrGwFOWVRipM_NKjVZ1gEAAwIAA3kAAz0E",
+  "text": "One hardware supplier secretly moved OpenAI's production to a night shift.\n\nThe filing claims Apple forced the move to disrupt a competing device.\n\nHere is what the court filing reveals.\n\nIn 2024, Apple and OpenAI announced a partnership to integrate ChatGPT into the iPhone.\n\nOn Friday, OpenAI filed a countersuit against Apple in a California federal court.\n\nThe suit follows OpenAI's $6.4 billion acquisition of design studio io, founded by former Apple design chief Jony Ive, as OpenAI prepares to launch its own devices.\n\nOpenAI claims Apple is using its market power to pressure shared suppliers and block competition.\n\nThe legal complaint describes three specific events:\n• One supplier moved OpenAI's production to a night shift to hide from Apple\n• Another supplier dropped planned work entirely after receiving threats from Apple\n• A former employee sent dozens of prototype documents to his personal phone before returning to Apple after six months\n\nApple denied the allegations, calling the filing a transparent attempt to distract from Apple's own summer trade secret lawsuit against OpenAI.\n\nMy read: software partnerships end the moment a partner tries to build physical products. The battle for AI is moving from model training to factory access.\n\nHave you ever seen a tech partnership survive once the software vendor starts building hardware?\n\nSource: The Decoder, with reporting from CNN on MSN and The News International",
+  "alt_openings": "Opening 1 (Bare number first):\nA $6.4 billion acquisition just turned two major AI partners into legal enemies.\nOpenAI is countersuing Apple in federal court, alleging trade secret theft and supply chain coercion.\n*When to prefer:* Use this when posting for finance or strategy audiences who respond immediately to deal sizes.\n\nOpening 2 (Corrective):\nThe ChatGPT integration on the iPhone was never a long-term alliance.\nOpenAI just countersued Apple, claiming the tech giant threatened shared hardware suppliers to block competing devices.\n*When to prefer:* Use this when you want to challenge the popular narrative that Apple and OpenAI are natural collaborators.\n\nOpening 3 (Your X):\nYour next AI device might be delayed by a corporate battle over night shifts.\nOpenAI has accused Apple in federal court of pressuring shared factory suppliers to halt work on new hardware.\n*When to prefer:* Use this for consumer-facing or general tech readers who care more about product releases than corporate lawsuits.\n\nPick: The main post opening (\"Story in motion\"). It uses the concrete detail of the night shift to create instant curiosity before mentioning either company name, making it impossible to skip before clicking \"see more\".",
+  "voice_score": 3,
   "firewall_notes": [],
-  "headline": "How Southeast Asia powered 24% of China's AI",
+  "headline": "How Apple forced OpenAI's production into night shifts",
   "problems": [],
-  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-27.png"
+  "image": "/home/runner/work/AutoLinkediner/AutoLinkediner/out/2026-11-28.png"
 }
